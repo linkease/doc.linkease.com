@@ -51,7 +51,6 @@ module.exports = ctx => ({
                         ]
                     },
                     { text: '博客', link: '/post/' },
-                    //{ text: '文档', link: '/zh/guide/' },
                     {
                         text: '视频号', items: [
                             { text: '哔哩哔哩', link: 'https://space.bilibili.com/626572404' },

@@ -9,7 +9,7 @@
                         随时随地享受私有云
                     </div>
                     <div class="words">易有云提供全平台的数据互通，带你享受P2P的极速体验。随时随地备份你的照片、文件，轻松打造属于你的私有云服务。</div>
-                    <router-link to="/zh/docs/linkease">
+                    <router-link to="/zh/guide/linkease">
                         <div class="btn">立即体验</div>
                     </router-link>
 

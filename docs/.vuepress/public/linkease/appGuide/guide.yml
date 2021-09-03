@@ -8,7 +8,7 @@
       update: '2021-01-01 12:00:00'
       description: 帮用户解决：流媒体数据越来越多，而存储、管理、备份的难度越来越大的矛盾。
       cover: 'http://cover.png'
-      link: 'https://www.linkease.com/zh/docs/#%E6%98%93%E6%9C%89%E4%BA%912-0%E4%BB%8B%E7%BB%8D'
+      link: 'https://www.linkease.com/zh/guide/linkease#%E6%98%93%E6%9C%89%E4%BA%912-0%E4%BB%8B%E7%BB%8D'
     - id: 2
       type: link
       tagName: 场景使用
@@ -27,4 +27,4 @@
       update: '2021-01-01 12:00:00'
       description: 帮用户解决：流媒体数据越来越多，而存储、管理、备份的难度越来越大的矛盾。
       cover: 'http://cover.png'
-      link: 'https://www.linkease.com/zh/docs/#%E6%98%93%E6%9C%89%E4%BA%912-0%E4%BB%8B%E7%BB%8D'
+      link: 'https://www.linkease.com/zh/guidelinkease/#%E6%98%93%E6%9C%89%E4%BA%912-0%E4%BB%8B%E7%BB%8D'
