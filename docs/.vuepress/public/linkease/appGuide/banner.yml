@@ -1,0 +1,21 @@
+- id: 1
+  type: link
+  title: 客户端安装
+  update: '2021-01-01 12:00:00'
+  description: 客户端下载
+  cover: 'https://www.linkease.com/assets/img/client.78abe62a.jpg'
+  link: 'http://www.linkease.com/'
+- id: 2
+  type: video
+  title: 客户端安装
+  update: '2021-01-01 12:00:00'
+  description: 客户端下载
+  cover: 'https://www.linkease.com/assets/img/client.78abe62a.jpg'
+  link: 'http://www.linkease.com/'
+- id: 3
+  type: video
+  title: 客户端安装
+  update: '2021-01-01 12:00:00'
+  description: 客户端下载
+  cover: 'https://www.linkease.com/assets/img/client.78abe62a.jpg'
+  link: 'http://www.linkease.com/'
