@@ -47,6 +47,7 @@ module.exports = ctx => ({
                         text: '指南', link: '/zh/guide/linkease/', items: [
                             { text: '易有云', link: '/zh/guide/linkease/' },
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
+                            { text: 'EasePi', link: '/zh/guide/easepi/' },
 
                         ]
                     },
@@ -106,6 +107,25 @@ module.exports = ctx => ({
                                 ["synology", "群晖玩法"],
                                 ["scene", "更多玩法"],
                                 ["opensource", "开源代码"],
+                                ["question", "常见问题"],
+                                ["about", "联系我们"],
+                            ]
+                        },
+                    ],
+                    '/zh/guide/easepi/': [
+                        {
+                           title: "使用指南",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                ["", "产品介绍"],
+                                ["quick", "快速使用"],
+                                ["common", "基础玩法"],
+                                ["advanced", "高阶玩法"],
+                                ["opensource", "固件开源"],
                                 ["question", "常见问题"],
                                 ["about", "联系我们"],
                             ]
