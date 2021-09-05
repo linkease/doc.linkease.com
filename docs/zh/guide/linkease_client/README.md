@@ -1,4 +1,4 @@
-## 易有云2.0存储端介绍
+## 易有云客户端介绍
 
 **使命**
 
@@ -42,7 +42,7 @@
 |16|微信文件传输至设备|可直接在微信中将文件传输至设备|iOS|
 |17|支持Markdown文档|可直接在线创建编辑，并生成Html|PC|
 
-[查看更多易有云功能细节](/zh/guide/linkeaseserver/function/FunctionalDetails.md)
+[查看更多易有云功能细节](/zh/guide/linkease_client/function/FunctionalDetails.md)
 
 
 ## 收费价格

@@ -45,8 +45,8 @@ module.exports = ctx => ({
                     { text: '首页', link: '/' },
                     {
                         text: '指南', link: '/zh/guide/linkease/', items: [
-                            { text: '易有云存储端', link: '/zh/guide/linkeaseserver/' },
-                            { text: '易有云客户端', link: '/zh/guide/linkeaseclient/' },
+                            { text: '易有云存储端', link: '/zh/guide/linkease_server/' },
+                            { text: '易有云客户端', link: '/zh/guide/linkease_client/' },
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
                             { text: 'EasePi', link: '/zh/guide/easepi/' },
 
@@ -69,7 +69,7 @@ module.exports = ctx => ({
                     { text: '下载', link: 'https://www.ddnsto.com/linkease/download/#/' },
                 ],
                 sidebar: {
-                    '/zh/guide/linkeaseserver/': [
+                    '/zh/guide/linkease_server/': [
                         {
                             title: "安装指南",
                             // 显示所有页面的标题链接
@@ -86,7 +86,7 @@ module.exports = ctx => ({
                             ]
                         },
                     ],
-                    '/zh/guide/linkeaseclient/': [
+                    '/zh/guide/linkease_client/': [
                         {
                             title: "安装指南",
                             // 显示所有页面的标题链接
