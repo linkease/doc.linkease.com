@@ -3,6 +3,7 @@ title: 为什么我的APP用不了DDNSTO？
 date: 2021-6-24
 tag: js
 tags: 
+  - DDNSTO
   - app
   - 客户端
   - 验证 
