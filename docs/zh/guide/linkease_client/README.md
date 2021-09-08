@@ -2,19 +2,25 @@
 
 易有云提供全平台的数据互通，带你享受P2P的极速体验。随时随地备份你的照片、文件，轻松打造属于你的私有云服务。
 
-## 点对点传输的跨平台文件管理器
+## 搭建私有云
 
-TODO
+配合易有云存储端，轻松搭建自己的私有云，组成完美的NAS。
 
-## 结合存储端搭建私有云
+[安装存储端](/zh/guide/linkease_server/store.md) -->
 
-TODO
+## 跨平台传输
 
-## 支持多种网络协议
+支持Windows、MacOS、Linux、iOS、安卓等平台的点对点传输管理文件。
+
+配合易有云存储端，甚至也能管理群晖、威联通、Openwrt等平台。
+
+## 支持多协议
 
 易有云⽀持WebDAV、SFTP、SAMBA、S3等多种网络协议。
 
 ## 验证DDNSTO
+
+可以非常方便的对DDNSTO进行身份验证。
 
 [验证DDNSTO](/zh/guide/ddnsto/Authentication.md) -->
 
