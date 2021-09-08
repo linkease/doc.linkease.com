@@ -64,7 +64,7 @@ module.exports = ctx => ({
                         text: '联系我们', items: [
                             { text: '问题反馈', link: 'https://github.com/linkease/doc.linkease.com/issues' },
                             // { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
-                            { text: '关于我们', link: '/zh/guide/linkease_client/about' }
+                            { text: '关于我们', link: '/zh/guide/about/' }
                         ]
                     },
                     { text: '下载', link: '/downloads/' },
@@ -72,7 +72,7 @@ module.exports = ctx => ({
                 sidebar: {
                     '/zh/guide/linkease_server/': [
                         {
-                            title: "安装指南",
+                            title: "使用指南",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -89,7 +89,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/linkease_client/': [
                         {
-                            title: "安装指南",
+                            title: "使用指南",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -103,13 +103,13 @@ module.exports = ctx => ({
                                 ["tv", "TV端教程"],
                                 ["question", "常见问题"],
                                 ["plan", "更新日志"],
-                                ["about", "关于我们"],
+                                //["about", "关于我们"],
                             ]
                         },
                     ],
                     '/zh/guide/ddnsto/': [
                         {
-                            title: "安装指南",
+                            title: "使用指南",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -162,6 +162,19 @@ module.exports = ctx => ({
                             ]
                         },
                     ],
+                    '/zh/guide/about/': [
+                        {
+                            title: "关于我们",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                ["", "介绍"],
+                            ]
+                        },
+                    ],					
                 }
             },
         },
