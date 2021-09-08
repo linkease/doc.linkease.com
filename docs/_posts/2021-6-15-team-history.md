@@ -3,6 +3,7 @@ title: 聊聊咱们团队的故事
 date: 2021-6-15
 tag: linkease
 tags: 
+  - DDNSTO
   - 易有云
   - 想当年
 description: 易有云团队从KoolShare发展而来。我们在发展过程中经历了超多的艰辛，也获得过超多的荣耀。 
