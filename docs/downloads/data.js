@@ -96,7 +96,7 @@ const DDNSTO = {
 
 }
 const IStore = {
-    title: "IStore",
+    title: "iStore",
     guide: "/zh/guide/istore/",
     thumbnail: pic4,
     list: [

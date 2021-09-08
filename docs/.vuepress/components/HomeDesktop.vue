@@ -215,34 +215,26 @@ export default {
                 color: #000000;
                 margin-top: -12.5rem;
             }
-            ul.setup1 {
-                position: absolute;
-                top: 40px;
-                left: -320px;
+            ul {
                 li.item {
                     list-style: none;
                     flex: 0 0 100%;
                     ._title {
-                        text-align: right;
                         span.text {
                             font-size: 1.5rem;
                             font-family: PingFangSC-Medium, PingFang SC;
                             font-weight: 500;
                             color: #0060ff;
-                            margin-right: 25px;
                         }
                         span.number {
                             font-size: 60px;
                             font-family: Apple-Chancery, Apple;
                             font-weight: normal;
                             color: #0060ff;
-                            margin-right: -60px;
                         }
                     }
                     ._content {
-                        text-align: right;
                         ._box {
-                            width: 18rem;
                             background: rgba(255, 255, 255, 0.6);
                             box-shadow: 0px 2px 8px 4px rgb(231 231 231 / 50%);
                             border-radius: 2px;
@@ -262,10 +254,39 @@ export default {
                                 font-weight: 400;
                                 color: #000000;
                                 line-height: 1.25rem;
-
                                 width: 100%;
                                 display: block;
                             }
+                        }
+                        ._box:hover {
+                            span._title {
+                                color: #0060ff;
+                            }
+                            span._text {
+                                color: #0060ff;
+                            }
+                        }
+                    }
+                }
+            }
+            ul.setup1 {
+                position: absolute;
+                top: 40px;
+                left: -320px;
+                li.item {
+                    ._title {
+                        text-align: right;
+                        span.text {
+                            margin-right: 25px;
+                        }
+                        span.number {
+                            margin-right: -60px;
+                        }
+                    }
+                    ._content {
+                        text-align: right;
+                        ._box {
+                            width: 18rem;
                         }
                     }
                 }
@@ -280,17 +301,9 @@ export default {
                     ._title {
                         text-align: right;
                         span.text {
-                            font-size: 1.5rem;
-                            font-family: PingFangSC-Medium, PingFang SC;
-                            font-weight: 500;
-                            color: #0060ff;
                             margin-right: 25px;
                         }
                         span.number {
-                            font-size: 60px;
-                            font-family: Apple-Chancery, Apple;
-                            font-weight: normal;
-                            color: #0060ff;
                             margin-right: -60px;
                         }
                     }
@@ -298,29 +311,6 @@ export default {
                         text-align: right;
                         ._box {
                             width: 24.5rem;
-                            background: rgba(255, 255, 255, 0.6);
-                            box-shadow: 0px 2px 8px 4px rgb(231 231 231 / 50%);
-                            border-radius: 2px;
-                            padding: 0.625rem 1.25rem;
-                            margin-bottom: 0.625rem;
-                            span._title {
-                                font-size: 1.5rem;
-                                font-family: PingFangSC-Semibold, PingFang SC;
-                                font-weight: 600;
-                                color: #000000;
-                                width: 100%;
-                                display: block;
-                            }
-                            span._text {
-                                font-size: 0.875rem;
-                                font-family: PingFangSC-Regular, PingFang SC;
-                                font-weight: 400;
-                                color: #000000;
-                                line-height: 1.25rem;
-
-                                width: 100%;
-                                display: block;
-                            }
                         }
                     }
                 }
@@ -330,22 +320,12 @@ export default {
                 top: 250px;
                 right: -310px;
                 li.item {
-                    list-style: none;
-                    flex: 0 0 100%;
                     ._title {
                         text-align: left;
                         span.text {
-                            font-size: 1.5rem;
-                            font-family: PingFangSC-Medium, PingFang SC;
-                            font-weight: 500;
-                            color: #0060ff;
                             margin-left: 25px;
                         }
                         span.number {
-                            font-size: 60px;
-                            font-family: Apple-Chancery, Apple;
-                            font-weight: normal;
-                            color: #0060ff;
                             margin-left: -60px;
                         }
                     }
@@ -353,29 +333,6 @@ export default {
                         text-align: left;
                         ._box {
                             width: 24.5rem;
-                            background: rgba(255, 255, 255, 0.6);
-                            box-shadow: 0px 2px 8px 4px rgb(231 231 231 / 50%);
-                            border-radius: 2px;
-                            padding: 0.625rem 1.25rem;
-                            margin-bottom: 0.625rem;
-                            span._title {
-                                font-size: 1.5rem;
-                                font-family: PingFangSC-Semibold, PingFang SC;
-                                font-weight: 600;
-                                color: #000000;
-                                width: 100%;
-                                display: block;
-                            }
-                            span._text {
-                                font-size: 0.875rem;
-                                font-family: PingFangSC-Regular, PingFang SC;
-                                font-weight: 400;
-                                color: #000000;
-                                line-height: 1.25rem;
-
-                                width: 100%;
-                                display: block;
-                            }
                         }
                     }
                 }
@@ -385,22 +342,12 @@ export default {
                 top: 40px;
                 right: -300px;
                 li.item {
-                    list-style: none;
-                    flex: 0 0 100%;
                     ._title {
                         text-align: left;
                         span.text {
-                            font-size: 1.5rem;
-                            font-family: PingFangSC-Medium, PingFang SC;
-                            font-weight: 500;
-                            color: #0060ff;
                             margin-left: 25px;
                         }
                         span.number {
-                            font-size: 60px;
-                            font-family: Apple-Chancery, Apple;
-                            font-weight: normal;
-                            color: #0060ff;
                             margin-left: -60px;
                         }
                     }
@@ -408,29 +355,6 @@ export default {
                         text-align: left;
                         ._box {
                             width: 18rem;
-                            background: rgba(255, 255, 255, 0.6);
-                            box-shadow: 0px 2px 8px 4px rgb(231 231 231 / 50%);
-                            border-radius: 2px;
-                            padding: 0.625rem 1.25rem;
-                            margin-bottom: 0.625rem;
-                            span._title {
-                                font-size: 1.5rem;
-                                font-family: PingFangSC-Semibold, PingFang SC;
-                                font-weight: 600;
-                                color: #000000;
-                                width: 100%;
-                                display: block;
-                            }
-                            span._text {
-                                font-size: 0.875rem;
-                                font-family: PingFangSC-Regular, PingFang SC;
-                                font-weight: 400;
-                                color: #000000;
-                                line-height: 1.25rem;
-
-                                width: 100%;
-                                display: block;
-                            }
                         }
                     }
                 }
