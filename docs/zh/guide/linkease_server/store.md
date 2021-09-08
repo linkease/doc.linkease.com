@@ -1,8 +1,8 @@
 ## 各种设备安装存储端
 
-### 0. EasePi
+### 1. EasePi（TODO）
 
-### 1. 群晖
+### 2. 群晖
 
 **1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
 
@@ -55,7 +55,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 ```
 
 
-### 2. 威联通
+### 3. 威联通
 
 **1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/QNAP/)”，下载QNAP插件，此处选择"LinkEaseAgent_0.2.83_x86_64.qpkg"；**
 
@@ -85,7 +85,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 
 
-### 3. 华硕NAS
+### 4. 华硕NAS
 
 **1.首先，点击[存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Asus-Nas/)，下载易有云APK。访问NAS主页面，打开华硕`App Central`：**
 
@@ -113,7 +113,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 
 
-### 4. Koolshare梅林
+### 5. Koolshare梅林
 *绑定设备前，请确保您已在路由器端接入容量不小于16GB的存储设备，如U盘，移动硬盘等；
 
 **1.登录固件管理端，点击“软件中心”，进入软件中心页面。点击“未安装”，进入未安装的插件页面；**
@@ -136,7 +136,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 
 
-### 5. Koolshare Lede 
+### 6. Koolshare Lede 
 *绑定设备前，请确保您已在路由器端接入容量不小于16GB的存储设备，如U盘，移动硬盘等；
 
 **1.登录设备固件管理端，点击“酷软”，进入软件中心页面。点击“未安装”，进入未安装的插件页面；选中“易有云2.0”，点击“安装”，安装易有云插件；**
@@ -160,7 +160,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 **5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
 
 
-### 6. Openwrt
+### 7. Openwrt
 *绑定设备前，请确保您已在路由器端接入容量不小于16GB的存储设备，如U盘，移动硬盘等；
 
 **1.OpenWrt固件开发者众多，部分固件不自带易有云，可通过以下任一脚本轻松安装：**
@@ -194,7 +194,7 @@ cd /tmp; wget --no-check-certificate http://firmware.koolshare.cn/binary/LinkEas
 
 
 
-### 7. Linux 通用版
+### 8. Linux 通用版
 [存储端下载链接](https://firmware.koolshare.cn/binary/LinkEase/LinuxStorage/)
 
 <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br />
@@ -241,13 +241,13 @@ https:/ / firmware.koolshare.cn/binary/LinkEase/LinuxStorage/linkease.amd64</td>
 
 
 
-### 8. ReadyNAS
+### 9. ReadyNAS
 
 TODO
 
 
 
-### 9. Docker
+### 10. Docker
 
 **Docker方式安装易有云存储端，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
 
@@ -328,7 +328,7 @@ sudo docker run -d \
 
 
 
-### 10. Windows
+### 11. Windows
 
 **1.点击[存储端下载](https://www.ddnsto.com/linkease/download/#/disk/)，选择Windows存储端下载；**
 
@@ -352,7 +352,7 @@ sudo docker run -d \
 
 
 
-### 11. macOS
+### 12. macOS
 
 **1.点击[存储端下载](https://www.ddnsto.com/linkease/download/#/disk/)，选择MacOS存储端下载；**
 

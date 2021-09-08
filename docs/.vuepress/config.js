@@ -45,9 +45,10 @@ module.exports = ctx => ({
                     { text: '首页', link: '/' },
                     {
                         text: '指南', link: '/zh/guide/linkease/', items: [
-                            { text: '易有云存储端', link: '/zh/guide/linkease_server/' },
-                            { text: '易有云客户端', link: '/zh/guide/linkease_client/' },
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
+                            { text: '易有云客户端', link: '/zh/guide/linkease_client/' },
+                            { text: '易有云存储端', link: '/zh/guide/linkease_server/' },
+                            { text: 'iStore', link: '/zh/guide/istore/' },
                             { text: 'EasePi', link: '/zh/guide/easepi/' },
 
                         ]
@@ -60,10 +61,10 @@ module.exports = ctx => ({
                         ]
                     },
                     {
-                        text: '反馈', items: [
-                            { text: '问题反馈', link: 'https://github.com/linkease/linkease/issues' },
-                            { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
-                            { text: '联系我们', link: '/zh/guide/linkease/about' }
+                        text: '联系我们', items: [
+                            { text: '问题反馈', link: 'https://github.com/linkease/doc.linkease.com/issues' },
+                            // { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
+                            { text: '关于我们', link: '/zh/guide/linkease_client/about' }
                         ]
                     },
                     { text: '下载', link: 'https://www.ddnsto.com/linkease/download/#/' },
@@ -83,7 +84,6 @@ module.exports = ctx => ({
                                 ["bind", "存储端绑定"],
                                 ["question", "常见问题"],
                                 ["plan", "更新日志"],
-                                ["about", "联系我们"],
                             ]
                         },
                     ],
@@ -103,7 +103,7 @@ module.exports = ctx => ({
                                 ["tv", "TV端教程"],
                                 ["question", "常见问题"],
                                 ["plan", "更新日志"],
-                                ["about", "联系我们"],
+                                ["about", "关于我们"],
                             ]
                         },
                     ],
@@ -126,7 +126,7 @@ module.exports = ctx => ({
                                 ["scene", "更多玩法"],
                                 ["opensource", "开源代码"],
                                 ["question", "常见问题"],
-                                ["about", "联系我们"],
+                                // ["about", "联系我们"],
                             ]
                         },
                     ],
@@ -145,7 +145,20 @@ module.exports = ctx => ({
                                 ["advanced", "高阶玩法"],
                                 ["opensource", "固件开源"],
                                 ["question", "常见问题"],
-                                ["about", "联系我们"],
+                                // ["about", "联系我们"],
+                            ]
+                        },
+                    ],
+                    '/zh/guide/istore/': [
+                        {
+                           title: "使用指南",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                ["", "介绍"],
                             ]
                         },
                     ],

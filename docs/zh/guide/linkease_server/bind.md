@@ -22,3 +22,5 @@
 ![bs4.jpg](./tutorial/NAS/BindingSoftware/bs4.jpg)
 
 ## APP端绑定教程
+
+[APP端绑定](/zh/guide/linkease_client/tutorial.md) -->
