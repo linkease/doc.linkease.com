@@ -82,6 +82,7 @@ module.exports = ctx => ({
                                 ["", "介绍"],
                                 ["store", "存储端安装"],
                                 ["bind", "存储端绑定"],
+								["opensource", "开源代码"],
                                 ["question", "常见问题"],
                                 ["plan", "更新日志"],
                             ]
