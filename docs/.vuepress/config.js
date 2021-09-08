@@ -80,8 +80,9 @@ module.exports = ctx => ({
                             children: [
                                 ["", "介绍"],
                                 ["store", "存储端安装"],
+                                ["bind", "存储端绑定"],
                                 ["question", "常见问题"],
-                                ["plan", "开发计划"],
+                                ["plan", "更新日志"],
                                 ["about", "联系我们"],
                             ]
                         },
@@ -97,11 +98,11 @@ module.exports = ctx => ({
                             children: [
                                 ["", "介绍"],
                                 ["download", "客户端安装"],
-                                ["tutorial", "移动端基础教学"],
-                                ["pc", "PC端基础教学"],
-                                ["tv", "TV端基础教学"],
+                                ["tutorial", "APP端教程"],
+                                ["pc", "PC端教程"],
+                                ["tv", "TV端教程"],
                                 ["question", "常见问题"],
-                                ["plan", "开发计划"],
+                                ["plan", "更新日志"],
                                 ["about", "联系我们"],
                             ]
                         },

@@ -1,5 +1,7 @@
 ## 各种设备安装存储端
 
+### 0. EasePi
+
 ### 1. 群晖
 
 **1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
@@ -379,7 +381,7 @@ sudo docker run -d \
 
 
 
-## 存储端统一绑定教程
+<!-- ## 存储端统一绑定教程
 
 易有云存储端安装后第一次打开，需要绑定设备。易有云存储端与客户端一一对应，绑定成功后，每次在存储端登录时，需使用绑定的账号登录。否则，在该存储端的向导页面将无法登录；
 
@@ -400,4 +402,4 @@ sudo docker run -d \
 
 **3.操作成功后，即可在易有云2.0客户端使用该账号管理设备文件。**
 
-![bs4.jpg](./tutorial/NAS/BindingSoftware/bs4.jpg)
+![bs4.jpg](./tutorial/NAS/BindingSoftware/bs4.jpg) -->
