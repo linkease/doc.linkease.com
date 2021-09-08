@@ -67,7 +67,7 @@ module.exports = ctx => ({
                             { text: '关于我们', link: '/zh/guide/linkease_client/about' }
                         ]
                     },
-                    { text: '下载', link: 'https://www.ddnsto.com/linkease/download/#/' },
+                    { text: '下载', link: '/downloads/' },
                 ],
                 sidebar: {
                     '/zh/guide/linkease_server/': [
@@ -132,7 +132,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/easepi/': [
                         {
-                           title: "使用指南",
+                            title: "使用指南",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -151,7 +151,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/istore/': [
                         {
-                           title: "使用指南",
+                            title: "使用指南",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
