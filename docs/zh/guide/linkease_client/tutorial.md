@@ -332,19 +332,17 @@ TODO
 
 ![terminal1.jpg](./tutorial/App/terminal/1.jpg)
 
-**2.就能发现旧设备已经配置好的samba等协议的配置(如果你在旧设备配置了多个协议，就能看见多个)；**
+**2.就能发现旧设备已经配置好的samba等协议的配置(若在旧设备配置了多个协议，都能看见)；**
+
+**点击你需要的协议，然后“启用设备配置信息”，会进入配置界面，只需输入密码后，绑定即可。**
 
 ![terminal2.jpg](./tutorial/App/terminal/2.jpg)
 
-**3.点击你要复制的协议配置，然后“启用设备配置信息”，输入密码后，绑定即可。**
-
 ![terminal3.jpg](./tutorial/App/terminal/3.jpg)
-
-![terminal4.jpg](./tutorial/App/terminal/4.jpg)
 
 PS：如果在新设备上“删除设备”或者修改，不会影响旧设备，均为本地操作。
 
-![terminal5.jpg](./tutorial/App/terminal/5.jpg)
+![terminal5.jpg](./tutorial/App/terminal/4.jpg)
 
 
 
