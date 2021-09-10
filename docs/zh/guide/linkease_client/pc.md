@@ -99,85 +99,46 @@ PC客户端下载后的文件在哪里？（以Win10为例）
 
 ![local.png](./tutorial/pc/Download/local.png)
 
-## Samba远程
 
-如何用易有云连接SAMBA远程访问设备文件？
-<!-- <blockquote>
-<font color="#DC143C">连接前，请手动更新存储端与客户端到最新版本；</font></br> -->
-连接前，请手动更新存储端与客户端到最新版本；
 
-版本更新：[更新下载](https://www.ddnsto.com/linkease/download/)
-<!-- </blockquote> -->
+## 网络硬盘
 
-**使用场景举例：**
+何为网络硬盘，其实就是Web DAV，配置相当简单：
 
-1. 家里路由器安装了易有云</br>
-2. 家里还运行了一台开启了 Samba 服务的设备，且设备上不方便直接安装易有云存储端</br>
-3. 人在公司，需要家里这个 Samba 服务里面的文件
+### 配置
 
-<!-- <blockquote>
-<font color="#DC143C"> 已知玩客云、小米硬盘路由不支持，因为他们的 SAMBA 是 1.0 版本，无法支持。目前易有云支持的是 2.x ~ 3.x 版本</font><br />
-</blockquote> -->
-已知玩客云、小米硬盘路由不支持，因为他们的 SAMBA 是 1.0 版本，无法支持。目前易有云支持的是 2.x ~ 3.x 版本
+**1.打开易有云电脑客户端，点击工具栏，然后点击网络硬盘；**
 
-**前期准备：**
+![dav1.jpg](./tutorial/pc/webdav/dav1.jpg)
 
-1. 路由器正常运行易有云</br>
-2. SAMBA设备正常运行</br>
-3. PC登录易有云客户端（非存储端！非存储端！非存储端）
+**2.然后服务设置，设置Webdav用户和Webdav密码(设置完成请记住)；**
 
-**绑定流程：**
+![dav2.jpg](./tutorial/pc/webdav/dav2.jpg)
 
-**1.鼠标悬浮头像上方，在出现的悬浮框中选择“设置”，进入设备管理页面。点击“添加设备”按钮，在出现的弹窗中，选择“SAMBA协议”。**
+**3.然后磁盘管理，选择一个目标主机，可以选择盘符映射到本地；**
 
-![pc1.jpg](./tutorial/pc/SAMBA/pc1.jpg)
+![dav3.jpg](./tutorial/pc/webdav/dav3.jpg)
 
-![pc2.jpg](./tutorial/pc/SAMBA/pc2.jpg)
+**4.最后打开“此电脑”，就能看到映射的盘，就能点击进去直接访问了。**
 
-**2.选择关联设备，设备IP为选填项（可选择也可手动输入），建议选择IP，这样数据更准确。**
-<!-- <blockquote>
-<font color="#DC143C">SAMBA 用户名密码，易有云只存本地客户端，不会存服务器。即使是服务器管理人员，也无法知道密码信息，保证个人数据安全。但就是每个客户端都得单独添加一次。；</font>
-</blockquote> -->
-SAMBA 用户名密码，易有云只存本地客户端，不会存服务器。即使是服务器管理人员，也无法知道密码信息，保证个人数据安全。但就是每个客户端都得单独添加一次。；
+![dav4.jpg](./tutorial/pc/webdav/dav4.jpg)
 
-**①如果选择了关联设备，那么通信方式如下：**
 
-![s222.png](./tutorial/pc/SAMBA/s222.png)
+### 访问
 
-也就是说，你的本地客户端通过连接关联设备访问到 SAMBA 设备 IP，即在任何外网网络易有云都能保证能连接到 SAMBA。
+我们设置好网络硬盘(Web DAV)后，如果在其他客户端访问，怎么做呢？比如在易有云APP。
 
-**②如果不关联设备，那么：**
+**1.选择一个目标主机，有个地址，我们整个地址复制下来；**
 
-![s111.png](./tutorial/pc/SAMBA/s111.png)
+PS：地址类似这种：**http://192.168.2.135:8896/webdav/XXXXXXX** (这就是WebDAV的服务器url)
 
-客户端必须跟 SAMBA 在一个局域网才能访问到 SAMBA 设备。
+![dav5.jpg](./tutorial/pc/webdav/dav5.jpg)
 
-**端口默认为445，可更改。点击下一步；**
+**2.然后参考教程，绑定即可。**
 
-![pc3.jpg](./tutorial/pc/SAMBA/pc3.jpg)
+[易有云APP WebDAV绑定教程](/zh/guide/linkease_client/tutorial.html#web-dav) -->
 
-**3.填写工作组，SAMBA设备 用户名和密码，点击下一步；**
-
-![pc4.jpg](./tutorial/pc/SAMBA/pc4.jpg)
-
-**4.填写SAMBA设备 名称及目标路径，目标路径为选填项（可选择也可手动输入），点击绑定；**
-
-<!-- <blockquote>
-<font color="#DC143C">目标路径即为您要访问的SAMBA设备的共享目录</font>
-</blockquote> -->
-目标路径即为您要访问的SAMBA设备的共享目录
-
-![pc5.jpg](./tutorial/pc/SAMBA/pc5.jpg)
-
-**5.绑定成功后，该虚拟设备出现在“我的-设备管理”列表页面。您可在“文件”页面访问该虚拟设备中的文件；**
-
-<!-- <blockquote>
-<font color="#DC143C">SAMBA协议绑定的设备均为虚拟设备，除文件管理外，其他功能均不可用；</font>
-</blockquote> -->
-SAMBA协议绑定的设备均为虚拟设备，除文件管理外，其他功能均不可用；
-
-![pc6.jpg](./tutorial/pc/SAMBA/pc6.jpg)
-
+ps：若是其他能访问WebDAV的APP或者客户端，绑定访问也是一样的操作。
 
 
 ## 协议转发
