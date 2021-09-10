@@ -94,6 +94,11 @@ docker run --restart=unless-stopped -d \
 
 ![img](./advanced/advanced5.jpg)
 
+#### 7.进入Jellyfin视界后，不要去动硬件加速。
+
+#### 因为docker镜像和创建容器命令中已经配置好硬解，所以千万不要去动这个硬件加速设置。
+
+![img](./advanced/advanced55.jpg)
 
 
 ## Home Assistant
