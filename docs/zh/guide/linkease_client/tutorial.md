@@ -4,31 +4,27 @@
 
 **绑定设备：开启手机WiFi，并确保您的手机与要绑定的设备在同一路由器网络下。**
 
-**1.打开手机App，系统会自动扫描局域网内可绑定设备，点击进入搜索的设备列表页面；**
+**1.打开易有云App，系统会自动扫描局域网内可绑定设备，会展示在顶部，点击进行绑定；**
 
 ![搜索设备1.jpg](./tutorial/App/devices/searchDevice1.jpg)
 
-**2.点击要绑定的设备，进入绑定设备确认页面；**
+**2.会出现设备，点击进入设备初始设置页面；**
 
 ![搜索设备结果2.jpg](./tutorial/App/devices/searchDeviceResult2.jpg)
 
-**3.点击“下一步”，进入设备初始设置页面；**
+**3.进行设备初始设置，设置别名和易有云要绑定的路径(安装目录)，然后确定就绑定成功了。**
 
 ![绑定步骤1.jpg](./tutorial/App/devices/bindStep1.jpg)
 
-**4.根据页面提示设置好“设备名称”及“初始路径”，点击“确定”按钮即可绑定设备；**
-
 ![绑定步骤2.jpg](./tutorial/App/devices/bindStep2.jpg)
 
-![绑定步骤3.jpg](./tutorial/App/devices/bindStep3.jpg)
 
-
-***也可以点击首页的“+易有云”按钮，通过扫描设备二维码等其他方式绑定设备。**
+**4.若没自动扫描出新易有云设备，也可以点击首页的“+易有云”按钮，通过扫描绑定或者扫描二维码绑定设备。**
 
 ![绑定步骤4.jpg](./tutorial/App/devices/bindStep4.jpg)
 
 
-<br>***首位用户绑定设备后成为该设备的管理员，一个设备只能有一个管理员。**</br>
+**5.首位用户绑定设备后成为该设备的管理员，一个设备只能有一个管理员。**
 
 
 
@@ -51,8 +47,6 @@
 
 ![消息1.jpg](./tutorial/App/devices/message1.jpg)
 
-![消息2.jpg](./tutorial/App/devices/message2.jpg)
-
 
 
 
@@ -62,9 +56,9 @@
 
 **易有云APP首页，点击右上角“齿轮”图标，然后点击已共享设备的“成员管理”，然后看到共享的成员，删掉即可。**
 
-![删除设备.jpg](./tutorial/App/remove/deleteDevice0.jpg)
+![设备成员.jpg](./tutorial/App/devices/deviceMember.jpg)
 
-![删除设备.jpg](./tutorial/App/remove/deleteDevice.jpg)
+![添加成员.jpg](./tutorial/App/devices/addMember.jpg)
 
 <br>***设备删除和取消共享后，将会删除该用户在这台设备上的所有个人空间数据，且无法找回，请谨慎操作！**</br>
 
@@ -134,7 +128,7 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 ![aria2-2.jpg](./tutorial/App/aria2/aria2-2.jpg)
 
-**3.第一次进去会提示无法获取Aria2配置，点击手动设置；**
+**3.若设备上已经配置好，会自动确认。若提示“无法获取Aria2配置”，就点击手动设置；**
 
 ![aria2-3.jpg](./tutorial/App/aria2/aria2-3.jpg)
 
@@ -150,7 +144,7 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 易有云APP直接播放远端(存储端)的视频：
 
-**1.易有云APP首页，“我的存储”下点存储了视频的设备；**
+**1.易有云APP首页，“我的存储”下点存储了视频的设备，点击进入；**
 
 ![video1.jpg](./tutorial/App/video/video1.jpg)
 
