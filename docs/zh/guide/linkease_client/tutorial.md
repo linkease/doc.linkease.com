@@ -71,36 +71,6 @@
 
 
 
-## 来自终端
-
-来自终端是个啥？
-
-**就是复制samba、sftp、webdav等特殊协议的配置信息。**
-
-比如：你的账号在手机A1的易有云APP上添加了samba，在手机A2的易有云APP上登录你的账号，可以直接复制手机A1上的samba的配置信息在手机A2上快速配置绑定samba。
-
-**1.新设备的易有云APP首页，点击“+网络协议”，出来弹窗选择“来自终端”；**
-
-![terminal1.jpg](./tutorial/App/terminal/1.jpg)
-
-**2.就能发现旧设备已经配置好的samba等协议的配置(如果你在旧设备配置了多个协议，就能看见多个)；**
-
-![terminal2.jpg](./tutorial/App/terminal/2.jpg)
-
-**3.点击你要复制的协议配置，然后“启用设备配置信息”，输入密码后，绑定即可。**
-
-![terminal3.jpg](./tutorial/App/terminal/3.jpg)
-
-![terminal4.jpg](./tutorial/App/terminal/4.jpg)
-
-PS：如果在新设备上“删除设备”或者修改，不会影响旧设备，均为本地操作。
-
-![terminal5.jpg](./tutorial/App/terminal/5.jpg)
-
-
-
-
-
 ## 相册备份
 
 如何备份相册呢？
@@ -273,90 +243,109 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 
 
+## 协议转发
 
-## Samba远程
+易有云APP支持多种网络协议(SMB/CIFS、SFTP、WebDAV、S3)。
 
-如何用易有云连接SAMBA远程访问设备文件？
-<!-- <blockquote>
-<front color="#DC143C">连接前，请手动更新存储端与客户端到最新版本；</front></br> -->
-连接前，请手动更新存储端与客户端到最新版本；
+设置位于APP首页—右上角—网络协议，下面开始一一说明各个协议的简单用法。
 
-版本更新：[更新下载](https://www.ddnsto.com/linkease/download/)
+![jpg](./tutorial/App/agreement/0.jpg)
 
-**使用场景举例：**
+### Samba/CIFS
 
-1. 家里路由器安装了易有云</br>
-2. 家里还运行了一台开启了 Samba 服务的设备，且设备上不方便直接安装易有云存储端</br>
-3. 人在公司，需要家里这个 Samba 服务里面的文件
+#### 1.首先从易有云APP首页—右上角—网络协议，选择“SMB/CIFS”，进入配置界面；
 
-<!-- <blockquote>
-<front color="#DC143C"> 已知玩客云、小米硬盘路由不支持，因为他们的 SAMBA 是 1.0 版本，无法支持。目前易有云支持的是 2.x ~ 3.x 版本</front><br />
-</blockquote> -->
-已知玩客云、小米硬盘路由不支持，因为他们的 SAMBA 是 1.0 版本，无法支持。目前易有云支持的是 2.x ~ 3.x 版本
+![jpg](./tutorial/App/agreement/1.jpg)
 
-**前期准备：**
+关联设备：若选择了绑定了易有云的设备，即在任何外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
 
-1. 路由器正常运行易有云</br>
-2. SAMBA设备正常运行</br>
-3. 手机登录易有云客户端
+设备IP：开启了Samba协议的设备的IP，可以进入“选择”界面选择，也可以直接输入IP。
 
-**绑定流程：**
+port：端口，一般不需要设置，默认即可。
 
-**1.登录APP，首页点击“+网络协议”，出来弹窗选择“SMB/CIFS”；**
+工作组：一般不需要设置，默认即可。
 
-![S1.jpg](./tutorial/App/SAMBA/S1.jpg)
+用户名和密码：Samba设备的用户名和密码。
 
-**2.选择关联设备，设备IP为选填项（可选择也可手动输入），建议选择IP，这样数据更准确。**
-<!-- <blockquote>
-<front color="#DC143C">SAMBA 用户名密码，易有云只存本地客户端，不会存服务器。即使是服务器管理人员，也无法知道密码信息，保证个人数据安全。但就是每个客户端都得单独添加一次。；</front>
-</blockquote> -->
-SAMBA 用户名密码，易有云只存本地客户端，不会存服务器。即使是服务器管理人员，也无法知道密码信息，保证个人数据安全。但就是每个客户端都得单独添加一次。
+设备名称：可随意设置。
 
-**①如果选择了关联设备，那么通信方式如下：**
+目标路径：选择Samba设备的磁盘。
 
-![s222.png](./tutorial/App/SAMBA/s222.png)
+#### 2.回到APP首页，就能看到刚刚添加的协议图标，点击进入即可管理。
 
-也就是说，你的本地客户端通过连接关联设备访问到 SAMBA 设备 IP，即在任何外网网络易有云都能保证能连接到 SAMBA。
+![jpg](./tutorial/App/agreement/2.jpg)
 
-**②如果不关联设备，那么：**
+### SFTP
 
-![s111.png](./tutorial/App/SAMBA/s111.png)
+#### 1.首先从易有云APP首页—右上角—网络协议，选择“SFTP”，进入配置界面；
 
-客户端必须跟 SAMBA 在一个局域网才能访问到 SAMBA 设备。
+![jpg](./tutorial/App/agreement/3.jpg)
 
-**选择关联设备，然后“选择ip”，端口默认为445，可更改；**
+关联设备：若选择了绑定了易有云的设备，即在任何外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
 
-![s9.jpg](./tutorial/App/SAMBA/s9.jpg)
+设备IP：开启了SFTP协议的设备的IP，手动输入。
 
-![s10.jpg](./tutorial/App/SAMBA/s10.jpg)
+端口：一般不需要设置，默认即可。
 
-**3.填写SAMBA设备“用户名和密码”；**
+设备别称：可随意设置。
 
-![s3.jpg](./tutorial/App/SAMBA/s3.jpg)
+用户名称和密码：SFTP设备的用户名和密码。
 
-**4.填写SAMBA设备“名称及目标路径”，目标路径为选填项(可选择也可手动输入)，点击绑定；**
+#### 2.回到APP首页，就能看到刚刚添加的协议图标，点击进入即可管理。
 
-<!-- <blockquote>
-<front color="#DC143C">目标路径即为您要访问的SAMBA设备的共享目录</front>
-</blockquote> -->
-目标路径即为您要访问的SAMBA设备的共享目录
+![jpg](./tutorial/App/agreement/4.jpg)
 
-![s11.jpg](./tutorial/App/SAMBA/s11.jpg)
+### Web DAV
 
-![s12.jpg](./tutorial/App/SAMBA/s12.jpg)
+#### 1.首先从易有云APP首页—右上角—网络协议，选择“Web DAV”，进入配置界面；
 
-**5.绑定成功后，该虚拟设备出现“首页-我的存储”列表页面，点击此设备，可在该设备的“主目录-全部文件”访问该虚拟设备中的文件。**
+![jpg](./tutorial/App/agreement/5.jpg)
 
-<!-- <blockquote>
-<front color="#DC143C">SAMBA协议绑定的设备均为虚拟设备，除文件管理外，其他功能均不可用；</front>
-</blockquote> -->
-SAMBA协议绑定的设备均为虚拟设备，除文件管理外，其他功能均不可用；
+关联设备：若选择了绑定了易有云的设备，即在任何外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
 
-![s13.jpg](./tutorial/App/SAMBA/s13.jpg)
+服务器url：WebDAV服务器的地址。
 
-![s14.jpg](./tutorial/App/SAMBA/s14.jpg)
+设备别称：可随意设置。
 
-![s15.jpg](./tutorial/App/SAMBA/s15.jpg)
+用户名称和密码：WebDAV设置的用户名和密码。
+
+#### 2.回到APP首页，就能看到刚刚添加的协议图标，点击进入即可管理。
+
+![jpg](./tutorial/App/agreement/6.jpg)
+
+### S3
+
+TODO
+
+
+
+
+## 来自终端
+
+来自终端是个啥？
+
+**就是复制samba、sftp、webdav等特殊协议的配置信息。**
+
+比如：你的账号在手机A1的易有云APP上添加了samba，在手机A2的易有云APP上登录你的账号，可以直接复制手机A1上的samba的配置信息在手机A2上快速配置绑定samba。
+
+**1.新设备的易有云APP首页，点击“+网络协议”，出来弹窗选择“来自终端”；**
+
+![terminal1.jpg](./tutorial/App/terminal/1.jpg)
+
+**2.就能发现旧设备已经配置好的samba等协议的配置(如果你在旧设备配置了多个协议，就能看见多个)；**
+
+![terminal2.jpg](./tutorial/App/terminal/2.jpg)
+
+**3.点击你要复制的协议配置，然后“启用设备配置信息”，输入密码后，绑定即可。**
+
+![terminal3.jpg](./tutorial/App/terminal/3.jpg)
+
+![terminal4.jpg](./tutorial/App/terminal/4.jpg)
+
+PS：如果在新设备上“删除设备”或者修改，不会影响旧设备，均为本地操作。
+
+![terminal5.jpg](./tutorial/App/terminal/5.jpg)
+
 
 
 
@@ -375,52 +364,4 @@ SAMBA协议绑定的设备均为虚拟设备，除文件管理外，其他功能
 **3.在此页面可进行目录相关“编辑”，编辑好提交设置即可。**
 
 ![ml23.jpg](./tutorial/App/ServerRoot/ml23.jpg)
-
-
-
-## Web DAV
-
-### 电脑上配置Web DAV？
-
-**1.打开易有云电脑客户端，选择好存储端后，点击工具栏，然后点击网络硬盘；**
-
-![dav1.jpg](./tutorial/App/webdav/dav1.jpg)
-
-**2.然后服务设置，设置Webdav用户和Webdav密码(设置完成请记住)；**
-
-![dav2.jpg](./tutorial/App/webdav/dav2.jpg)
-
-**3.然后磁盘管理，选择目标主机，可以选择盘符映射到本地；**
-
-![dav3.jpg](./tutorial/App/webdav/dav3.jpg)
-
-**4.最后打开“此电脑”，就能看到映射的盘，就能点击进去直接访问了。**
-
-![dav4.jpg](./tutorial/App/webdav/dav4.jpg)
-
-
-### 手机上配置Web DAV？
-
-**1.在上面第三步的时候，目标主机后，有个地址，我们整个地址复制下来；**
-
-PS：地址类似这种：**http://192.168.2.5:8896//webdav/XXXXXXX**
-
-![dav5.jpg](./tutorial/App/webdav/dav5.jpg)
-
-**2.然后打开易有云App，首页——网络协议——Web DAV；**
-
-![dav6.jpg](./tutorial/App/webdav/dav6.jpg)
-
-**3.然后选关联设备，把前面复制的地址：http://192.168.2.5:8896//webdav/XXXXXXX 填写到服务器url；**
-
-PS：地址需要特别注意的，在端口后面的//，要去掉一个/，所以正确的url是：**http://192.168.2.5:8896/webdav/XXXXXXX** 
-
-![dav7.jpg](./tutorial/App/webdav/dav7.jpg)
-
-**4.然后设置别称，用户名称是和密码(电脑端设置的Webdav用户和Webdav密码)，填写完成后绑定。**
-
-**5.回到易有云App首页就能看到刚绑定的Web DAV，点击就能访问。**
-
-![dav8.jpg](./tutorial/App/webdav/dav8.jpg)
-
 
