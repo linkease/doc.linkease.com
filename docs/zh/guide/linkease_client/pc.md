@@ -179,6 +179,64 @@ ps：比如你远端的主机的ip是http://192.168.2.5/，这个地址就是目
 
 
 
+
+## 协议访问
+
+易有云PC客户端支持多种网络协议(SMB/CIFS、SFTP、WebDAV)访问。
+
+设置位于PC客户端—右上角头像—设置—“+”加号图标，下面开始一一说明各个协议的简单用法。
+
+![jpg](./tutorial/pc/agreement/0.jpg)
+
+![jpg](./tutorial/pc/agreement/1.jpg)
+
+
+### Samba
+
+#### 1.选择“Samba”，下一步，进入配置界面；
+
+![jpg](./tutorial/pc/agreement/2.jpg)
+
+#### 2.开始配置：
+
+![jpg](./tutorial/pc/agreement/3.jpg)
+
+关联设备：若选择了绑定了易有云的设备，即在任何外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
+
+选择设备IP：开启了Samba协议的设备的IP，可以进入“选择”界面选择，也可以自定义输入IP。
+
+端口：一般不需要设置，默认即可。
+
+#### 继续下一步：
+
+![jpg](./tutorial/pc/agreement/4.jpg)
+
+工作组：一般不需要设置，默认即可。
+
+用户名和密码：Samba设备的用户名和密码。
+
+#### 继续下一步：
+
+![jpg](./tutorial/pc/agreement/5.jpg)
+
+设备名称：可随意设置。
+
+路径：选择Samba设备的磁盘。
+
+#### 3.绑定成功后，就能看到刚刚添加的设备，选择即可管理。
+
+![jpg](./tutorial/pc/agreement/6.jpg)
+
+
+### SFTP
+
+
+
+
+### Web DAV
+
+
+
 ## 管理目录
 
 管理员如何设置设备上的用户目录？
