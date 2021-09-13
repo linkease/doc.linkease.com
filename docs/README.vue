@@ -5,10 +5,15 @@
         <HomeDesktop />
         <!-- 移动端 -->
         <HomeMobile />
+        <FooterComponent />
     </div>
 </template>
 <script>
+import FooterComponent from "./.vuepress/components/FooterComponent.vue"
 export default {
+    components: {
+        FooterComponent
+    }
 }
 </script>
 <style lang="scss" scoped>

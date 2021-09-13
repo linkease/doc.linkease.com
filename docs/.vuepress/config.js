@@ -18,7 +18,7 @@ module.exports = ctx => ({
     description: 'DDNSTO 内网穿透 设备原理 远程下载 远程开机 远程桌面 远程文件管理',
     head: [
         [
-            'link', { rel: 'icon', href: '/favicon.png' }
+            'link', { rel: 'icon', href: '/favicon.ico' }
         ]
     ],
     // 多语言
@@ -82,7 +82,7 @@ module.exports = ctx => ({
                                 ["", "介绍"],
                                 ["store", "存储端安装"],
                                 ["bind", "存储端绑定"],
-								["opensource", "开源代码"],
+                                ["opensource", "开源代码"],
                                 ["question", "常见问题"],
                                 ["plan", "更新日志"],
                             ]
@@ -175,7 +175,7 @@ module.exports = ctx => ({
                                 ["", "介绍"],
                             ]
                         },
-                    ],					
+                    ],
                 }
             },
         },
