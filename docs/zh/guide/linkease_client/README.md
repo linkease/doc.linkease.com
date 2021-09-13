@@ -6,13 +6,13 @@
 
 配合易有云存储端，轻松搭建自己的私有云，组成完美的NAS。
 
-[安装存储端](/zh/guide/linkease_server/store.md) -->
+  * [安装存储端](/zh/guide/linkease_server/store.md) -->
 
 ## 跨平台传输
 
-支持Windows、MacOS、Linux、iOS、安卓等平台的点对点传输管理文件。
+配合易有云存储端支持Windows、MacOS、Linux、iOS、安卓、群晖、威联通、Openwrt等平台的点对点传输管理文件。
 
-配合易有云存储端，甚至也能管理群晖、威联通、Openwrt等平台。
+  * [安装存储端](/zh/guide/linkease_server/store.md) -->
 
 ## 支持多协议
 
@@ -22,7 +22,7 @@
 
 可以非常方便的对DDNSTO进行身份验证。
 
-[验证DDNSTO](/zh/guide/ddnsto/Authentication.md) -->
+  * [验证DDNSTO](/zh/guide/ddnsto/Authentication.md) -->
 
 <!-- **使命**
 
