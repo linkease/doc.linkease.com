@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>混杂模式MACVLAN | 易有云 远程文件管理</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="DDNSTO 内网穿透 设备原理 远程下载 远程开机 远程桌面 远程文件管理">
+    
+    <link rel="preload" href="/assets/css/0.styles.88ede9f3.css" as="style"><link rel="preload" href="/assets/js/app.fa9dcd7a.js" as="script"><link rel="preload" href="/assets/js/1.477bc2d7.js" as="script"><link rel="preload" href="/assets/js/9.455015f9.js" as="script"><link rel="prefetch" href="/assets/js/10.c56ef00f.js"><link rel="prefetch" href="/assets/js/11.f378766e.js"><link rel="prefetch" href="/assets/js/12.fb7e5a6e.js"><link rel="prefetch" href="/assets/js/13.3dcd1c05.js"><link rel="prefetch" href="/assets/js/14.082779d9.js"><link rel="prefetch" href="/assets/js/15.f505e1ed.js"><link rel="prefetch" href="/assets/js/16.27141152.js"><link rel="prefetch" href="/assets/js/17.6e4d6685.js"><link rel="prefetch" href="/assets/js/18.eb12b9e9.js"><link rel="prefetch" href="/assets/js/19.c8310929.js"><link rel="prefetch" href="/assets/js/20.9dd87b1d.js"><link rel="prefetch" href="/assets/js/21.379956cb.js"><link rel="prefetch" href="/assets/js/22.27eeb9de.js"><link rel="prefetch" href="/assets/js/23.a6fe3cc2.js"><link rel="prefetch" href="/assets/js/24.ee2eb4c6.js"><link rel="prefetch" href="/assets/js/25.e06ba92f.js"><link rel="prefetch" href="/assets/js/26.22596956.js"><link rel="prefetch" href="/assets/js/27.88b44ac5.js"><link rel="prefetch" href="/assets/js/28.e7204b98.js"><link rel="prefetch" href="/assets/js/29.8c85ae19.js"><link rel="prefetch" href="/assets/js/30.a90be440.js"><link rel="prefetch" href="/assets/js/31.89401adb.js"><link rel="prefetch" href="/assets/js/32.82b0d6c8.js"><link rel="prefetch" href="/assets/js/33.9ef623c8.js"><link rel="prefetch" href="/assets/js/34.1b38d3f0.js"><link rel="prefetch" href="/assets/js/35.a6015b84.js"><link rel="prefetch" href="/assets/js/36.ac225ec4.js"><link rel="prefetch" href="/assets/js/37.bc7e8293.js"><link rel="prefetch" href="/assets/js/38.9c153d46.js"><link rel="prefetch" href="/assets/js/39.af3ab953.js"><link rel="prefetch" href="/assets/js/4.929b2e06.js"><link rel="prefetch" href="/assets/js/40.b6e30f52.js"><link rel="prefetch" href="/assets/js/41.31954877.js"><link rel="prefetch" href="/assets/js/42.8a0ab9dc.js"><link rel="prefetch" href="/assets/js/43.cbbccf7a.js"><link rel="prefetch" href="/assets/js/44.b001b9b6.js"><link rel="prefetch" href="/assets/js/45.2db19ddd.js"><link rel="prefetch" href="/assets/js/46.ae42704c.js"><link rel="prefetch" href="/assets/js/47.d57afa21.js"><link rel="prefetch" href="/assets/js/48.d7f74079.js"><link rel="prefetch" href="/assets/js/49.7d49d493.js"><link rel="prefetch" href="/assets/js/5.6186b1d1.js"><link rel="prefetch" href="/assets/js/50.7045947e.js"><link rel="prefetch" href="/assets/js/51.27b8381c.js"><link rel="prefetch" href="/assets/js/52.50c5ad0f.js"><link rel="prefetch" href="/assets/js/53.fbb0a33d.js"><link rel="prefetch" href="/assets/js/54.99493b2c.js"><link rel="prefetch" href="/assets/js/55.c369a87c.js"><link rel="prefetch" href="/assets/js/56.263a3d51.js"><link rel="prefetch" href="/assets/js/57.3c419891.js"><link rel="prefetch" href="/assets/js/58.55b28b2a.js"><link rel="prefetch" href="/assets/js/59.f7e21ad6.js"><link rel="prefetch" href="/assets/js/6.234cae41.js"><link rel="prefetch" href="/assets/js/60.30119f3f.js"><link rel="prefetch" href="/assets/js/7.2dc896c1.js"><link rel="prefetch" href="/assets/js/8.f5278d73.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.8cde4ede.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.88ede9f3.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/image/logo.png" alt="易有云 远程文件管理" class="logo"> <span class="site-name can-hide">易有云 远程文件管理</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="指南" class="dropdown-title"><span class="title">指南</span> <span class="arrow down"></span></button> <button type="button" aria-label="指南" class="mobile-dropdown-title"><span class="title">指南</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/guide/ddnsto/" class="nav-link">
+  DDNSTO
+</a></li><li class="dropdown-item"><!----> <a href="/zh/guide/linkease_client/" class="nav-link">
+  易有云客户端
+</a></li><li class="dropdown-item"><!----> <a href="/zh/guide/linkease_server/" class="nav-link">
+  易有云存储端
+</a></li><li class="dropdown-item"><!----> <a href="/zh/guide/istore/" class="nav-link">
+  iStore
+</a></li><li class="dropdown-item"><!----> <a href="/zh/guide/easepi/" class="nav-link router-link-active">
+  EasePi
+</a></li></ul></div></div><div class="nav-item"><a href="/post/" class="nav-link">
+  博客
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="视频号" class="dropdown-title"><span class="title">视频号</span> <span class="arrow down"></span></button> <button type="button" aria-label="视频号" class="mobile-dropdown-title"><span class="title">视频号</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://space.bilibili.com/626572404" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  哔哩哔哩
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://bit.ly/3cFVAuY" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  头条号
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="联系我们" class="dropdown-title"><span class="title">联系我们</span> <span class="arrow down"></span></button> <button type="button" aria-label="联系我们" class="mobile-dropdown-title"><span class="title">联系我们</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/linkease/doc.linkease.com/issues" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  问题反馈
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="/zh/guide/about/" class="nav-link">
+  关于我们
+</a></li></ul></div></div><div class="nav-item"><a href="/downloads/" class="nav-link">
+  下载
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="指南" class="dropdown-title"><span class="title">指南</span> <span class="arrow down"></span></button> <button type="button" aria-label="指南" class="mobile-dropdown-title"><span class="title">指南</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/zh/guide/ddnsto/" class="nav-link">
+  DDNSTO
+</a></li><li class="dropdown-item"><!----> <a href="/zh/guide/linkease_client/" class="nav-link">
+  易有云客户端
+</a></li><li class="dropdown-item"><!----> <a href="/zh/guide/linkease_server/" class="nav-link">
+  易有云存储端
+</a></li><li class="dropdown-item"><!----> <a href="/zh/guide/istore/" class="nav-link">
+  iStore
+</a></li><li class="dropdown-item"><!----> <a href="/zh/guide/easepi/" class="nav-link router-link-active">
+  EasePi
+</a></li></ul></div></div><div class="nav-item"><a href="/post/" class="nav-link">
+  博客
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="视频号" class="dropdown-title"><span class="title">视频号</span> <span class="arrow down"></span></button> <button type="button" aria-label="视频号" class="mobile-dropdown-title"><span class="title">视频号</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://space.bilibili.com/626572404" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  哔哩哔哩
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://bit.ly/3cFVAuY" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  头条号
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="联系我们" class="dropdown-title"><span class="title">联系我们</span> <span class="arrow down"></span></button> <button type="button" aria-label="联系我们" class="mobile-dropdown-title"><span class="title">联系我们</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://github.com/linkease/doc.linkease.com/issues" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  问题反馈
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="/zh/guide/about/" class="nav-link">
+  关于我们
+</a></li></ul></div></div><div class="nav-item"><a href="/downloads/" class="nav-link">
+  下载
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>使用指南</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/zh/guide/easepi/" aria-current="page" class="sidebar-link">产品介绍</a></li><li><a href="/zh/guide/easepi/quick.html" class="sidebar-link">快速使用</a></li><li><a href="/zh/guide/easepi/common.html" class="sidebar-link">基础玩法</a></li><li><a href="/zh/guide/easepi/advanced.html" aria-current="page" class="active sidebar-link">高阶玩法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/zh/guide/easepi/advanced.html#混杂模式macvlan" class="sidebar-link">混杂模式MACVLAN</a></li><li class="sidebar-sub-header"><a href="/zh/guide/easepi/advanced.html#jellyfin硬解" class="sidebar-link">Jellyfin硬解</a></li><li class="sidebar-sub-header"><a href="/zh/guide/easepi/advanced.html#home-assistant" class="sidebar-link">Home Assistant</a></li><li class="sidebar-sub-header"><a href="/zh/guide/easepi/advanced.html#node-red" class="sidebar-link">Node-RED</a></li><li class="sidebar-sub-header"><a href="/zh/guide/easepi/advanced.html#mqtt-emqx" class="sidebar-link">MQTT-EMQX</a></li><li class="sidebar-sub-header"><a href="/zh/guide/easepi/advanced.html#内网测速" class="sidebar-link">内网测速</a></li><li class="sidebar-sub-header"><a href="/zh/guide/easepi/advanced.html#nextcloud" class="sidebar-link">Nextcloud</a></li></ul></li><li><a href="/zh/guide/easepi/opensource.html" class="sidebar-link">固件开源</a></li><li><a href="/zh/guide/easepi/question.html" class="sidebar-link">常见问题</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="混杂模式macvlan"><a href="#混杂模式macvlan" class="header-anchor">#</a> 混杂模式MACVLAN</h2> <p>Linux原始的macvlan没有混杂模式，打开混杂模式也会过滤掉不是发给自己的报文。</p> <p>ARS2的内核改变了这个行为，混杂模式的macvlan可以接收到宿主接口的所有报文，除了单播给宿主接口的报文。</p> <p>应用场景：使用混杂模式macvlan，将WAN口的报文转发到一个网桥中，加入此网桥的虚拟网卡即可加入宿主机WAN口所在的局域网，获得局域网IP。以Docker为例：</p> <div class="language- extra-class"><pre class="language-text"><code>HOST_WAN=eth0
+
+ip link add macv-docker-wan link $HOST_WAN type macvlan mode private
+ip link set dev macv-docker-wan promisc on
+
+ip link add br-docker-wan type bridge
+
+ip link set dev macv-docker-wan master br-docker-wan
+ip link set dev macv-docker-wan up
+
+docker network ls -f &quot;name=docker-wan&quot; | grep -q docker-wan || \
+    docker network create -d bridge -o &quot;com.docker.network.bridge.name=br-docker-wan&quot; docker-wan
+
+echo &quot;0&quot; &gt; /proc/sys/net/bridge/bridge-nf-call-iptables
+</code></pre></div><p>创建容器并加入docker-wan网络：</p> <div class="language- extra-class"><pre class="language-text"><code>docker run --net=docker-wan debian
+</code></pre></div><p>Docker会给容器分配IP，但这里用不上，容器内执行以下命令获得局域网IP：</p> <div class="language- extra-class"><pre class="language-text"><code>ip addr flush dev eth0 &amp;&amp; udhcpc
+</code></pre></div><h2 id="jellyfin硬解"><a href="#jellyfin硬解" class="header-anchor">#</a> Jellyfin硬解</h2> <p>Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），H264等格式硬解，这样我们就可以把ARS2打造成您的私人家庭影院。</p> <h4 id="_1-ars2上安装硬盘-或者移动硬盘"><a href="#_1-ars2上安装硬盘-或者移动硬盘" class="header-anchor">#</a> 1.ARS2上安装硬盘，或者移动硬盘；</h4> <h4 id="_2-进入ars2的管理界面-系统-挂载点-挂载好硬盘-记住路径"><a href="#_2-进入ars2的管理界面-系统-挂载点-挂载好硬盘-记住路径" class="header-anchor">#</a> 2.进入ARS2的管理界面—系统—挂载点，挂载好硬盘，记住路径；</h4> <p><img src="/assets/img/advanced1.9f3ab106.jpg" alt="img"></p> <h4 id="_3-docker拉取jellyfin镜像-进入终端-输入下面的命令并回车运行"><a href="#_3-docker拉取jellyfin镜像-进入终端-输入下面的命令并回车运行" class="header-anchor">#</a> 3.Docker拉取Jellyfin镜像，进入终端，输入下面的命令并回车运行;</h4> <div class="language- extra-class"><pre class="language-text"><code>docker pull jjm2473/jellyfin-rtk:v10.7
+</code></pre></div><p><img src="/assets/img/advanced2.b15f4ceb.jpg" alt="img"></p> <h4 id="_4-接着继续输入如下命令并回车运行-创建jellyfin容器-先别直接复制输入-下方有说明"><a href="#_4-接着继续输入如下命令并回车运行-创建jellyfin容器-先别直接复制输入-下方有说明" class="header-anchor">#</a> 4.接着继续输入如下命令并回车运行，创建Jellyfin容器(先别直接复制输入，下方有说明)；</h4> <div class="language- extra-class"><pre class="language-text"><code>docker run --restart=unless-stopped -d \
+     --device /dev/rpc0:/dev/rpc0 \
+     --device /dev/rpc1:/dev/rpc1 \
+     --device /dev/rpc2:/dev/rpc2 \
+     --device /dev/rpc3:/dev/rpc3 \
+     --device /dev/rpc4:/dev/rpc4 \
+     --device /dev/rpc5:/dev/rpc5 \
+     --device /dev/rpc6:/dev/rpc6 \
+     --device /dev/rpc7:/dev/rpc7 \
+     --device /dev/rpc100:/dev/rpc100 \
+     --device /dev/uio250:/dev/uio250 \
+     --device /dev/uio251:/dev/uio251 \
+     --device /dev/uio252:/dev/uio252 \
+     --device /dev/uio253:/dev/uio253 \
+     --device /dev/ion:/dev/ion \
+     --device /dev/ve3:/dev/ve3 \
+     --device /dev/vpu:/dev/vpu \
+     --device /dev/memalloc:/dev/memalloc \
+     -v /tmp/shm:/dev/shm \
+     -v /sys/class/uio:/sys/class/uio \
+     -v /var/tmp/vowb:/var/tmp/vowb \
+     --pid=host \
+     --dns=172.17.0.1 \
+     -p 8096:8096 -v /root/jellyfin/config:/config -v /mnt/sda3/media:/media --name myjellyfin-rtk-10.7 jjm2473/jellyfin-rtk:v10.7
+</code></pre></div><p><strong>说明：</strong></p> <p>/root/jellyfin/config 用来存放Jellyfin的配置以及转码的临时文件，按需修改。</p> <p>/mnt/sda3/media 表示媒体文件所在路径，改成自己挂载硬盘的媒体路径，按需修改。</p> <p><img src="/assets/img/advanced3.c46b9520.jpg" alt="img"></p> <h4 id="_5-上面2条命令完成以后-管理界面-docker-容器-就能看到jellyfin已经运行起来了"><a href="#_5-上面2条命令完成以后-管理界面-docker-容器-就能看到jellyfin已经运行起来了" class="header-anchor">#</a> 5.上面2条命令完成以后，管理界面—Docker—容器，就能看到Jellyfin已经运行起来了；</h4> <p><img src="/assets/img/advanced4.085dd6e2.jpg" alt="img"></p> <h4 id="_6-浏览器打开设备对应ip加上8096端口-例如http-192-168-100-1-8096-即可进入jellyfin视界。"><a href="#_6-浏览器打开设备对应ip加上8096端口-例如http-192-168-100-1-8096-即可进入jellyfin视界。" class="header-anchor">#</a> 6.浏览器打开设备对应IP加上8096端口，例如http://192.168.100.1:8096/，即可进入Jellyfin视界。</h4> <p><img src="/assets/img/advanced5.bd5d730f.jpg" alt="img"></p> <h4 id="_7-进入jellyfin视界后-不要去动硬件加速。"><a href="#_7-进入jellyfin视界后-不要去动硬件加速。" class="header-anchor">#</a> 7.进入Jellyfin视界后，不要去动硬件加速。</h4> <h4 id="因为docker镜像和创建容器命令中已经配置好硬解-所以千万不要去动这个硬件加速设置。"><a href="#因为docker镜像和创建容器命令中已经配置好硬解-所以千万不要去动这个硬件加速设置。" class="header-anchor">#</a> 因为docker镜像和创建容器命令中已经配置好硬解，所以千万不要去动这个硬件加速设置。</h4> <p><img src="/assets/img/advanced55.67f636fd.jpg" alt="img"></p> <h2 id="home-assistant"><a href="#home-assistant" class="header-anchor">#</a> Home Assistant</h2> <p>一款优秀的家庭自动化平台，您的智能家居好帮手。</p> <h4 id="_1-docker拉取homeassistant镜像-进入终端-输入下面的命令并回车运行"><a href="#_1-docker拉取homeassistant镜像-进入终端-输入下面的命令并回车运行" class="header-anchor">#</a> 1.Docker拉取homeassistant镜像，进入终端，输入下面的命令并回车运行;</h4> <div class="language- extra-class"><pre class="language-text"><code>docker pull homeassistant/home-assistant:latest
+</code></pre></div><p><img src="/assets/img/advanced6.dfc705a6.jpg" alt="img"></p> <h4 id="_2-接着继续输入如下命令并回车运行-创建homeassistant容器-先别直接复制输入-下方有说明"><a href="#_2-接着继续输入如下命令并回车运行-创建homeassistant容器-先别直接复制输入-下方有说明" class="header-anchor">#</a> 2.接着继续输入如下命令并回车运行，创建homeassistant容器(先别直接复制输入，下方有说明)；</h4> <div class="language- extra-class"><pre class="language-text"><code>docker run -d \
+  --name homeassistant \
+  --privileged \
+  --restart=unless-stopped \
+  -e TZ=&quot;Asia/Shanghai&quot; \
+  -v /root/homeassistant/config:/config \
+  --network=host \
+  homeassistant/home-assistant:latest
+</code></pre></div><p><strong>说明：</strong></p> <p>/root/homeassistant/config 用来存放homeassistant的配置文件，按需修改。</p> <p><img src="/assets/img/advanced7.9ea54ead.jpg" alt="img"></p> <h4 id="_3-上面2条命令完成以后-管理界面-docker-容器-就能看到homeassistant已经运行起来了"><a href="#_3-上面2条命令完成以后-管理界面-docker-容器-就能看到homeassistant已经运行起来了" class="header-anchor">#</a> 3.上面2条命令完成以后，管理界面—Docker—容器，就能看到homeassistant已经运行起来了；</h4> <p><img src="/assets/img/advanced8.5085eb42.jpg" alt="img"></p> <h4 id="_4-浏览器打开设备对应ip加上8123端口-例如http-192-168-100-1-8123-即可进入homeassistant控制台。"><a href="#_4-浏览器打开设备对应ip加上8123端口-例如http-192-168-100-1-8123-即可进入homeassistant控制台。" class="header-anchor">#</a> 4.浏览器打开设备对应IP加上8123端口，例如http://192.168.100.1:8123/，即可进入homeassistant控制台。</h4> <p><img src="/assets/img/advanced9.b0bc0933.jpg" alt="img"></p> <h2 id="node-red"><a href="#node-red" class="header-anchor">#</a> Node-RED</h2> <p>Node-RED，这个项目是由IBM新兴技术服务团队构建的可视化物联网编排工具，可基于浏览器的流程编辑器连接设备、服务器和API应用。可以将Home Assistant接入Node-Red实现自动化。</p> <h4 id="_1-docker拉取node-red镜像-进入终端-输入下面的命令并回车运行"><a href="#_1-docker拉取node-red镜像-进入终端-输入下面的命令并回车运行" class="header-anchor">#</a> 1.Docker拉取node-red镜像，进入终端，输入下面的命令并回车运行;</h4> <div class="language- extra-class"><pre class="language-text"><code>docker pull nodered/node-red
+</code></pre></div><p><img src="/assets/img/advanced10.5f2bcbf8.jpg" alt="img"></p> <h4 id="_2-接着继续输入如下命令并回车运行-创建node-red容器-先别直接复制输入-下方有说明"><a href="#_2-接着继续输入如下命令并回车运行-创建node-red容器-先别直接复制输入-下方有说明" class="header-anchor">#</a> 2.接着继续输入如下命令并回车运行，创建node-red容器(先别直接复制输入，下方有说明)；</h4> <div class="language- extra-class"><pre class="language-text"><code>docker run -d --name=&quot;nodered&quot; \
+  --net=bridge \
+  --restart unless-stopped \
+  -e TZ=&quot;Asia/Shanghai&quot; \
+  -p 1880:1880/tcp \
+  -v /root/node-red/nodered:/data:rw \
+  nodered/node-red
+</code></pre></div><p><strong>说明：</strong></p> <p>/root/node-red/nodered 用来存放node-red的数据文件，按需修改。</p> <p><img src="/assets/img/advanced11.e29e980d.jpg" alt="img"></p> <h4 id="_3-接着输入以下命令-解决node-red容器启动不了的bug"><a href="#_3-接着输入以下命令-解决node-red容器启动不了的bug" class="header-anchor">#</a> 3.接着输入以下命令(解决node-red容器启动不了的bug)；</h4> <div class="language- extra-class"><pre class="language-text"><code>chmod -R 777 /root/node-red/nodered
+</code></pre></div><p><img src="/assets/img/advanced12.d80104f7.jpg" alt="img"></p> <h4 id="_4-上面3条命令完成以后-管理界面-docker-容器-找到node-red重启-然后node-red就运行起来了"><a href="#_4-上面3条命令完成以后-管理界面-docker-容器-找到node-red重启-然后node-red就运行起来了" class="header-anchor">#</a> 4.上面3条命令完成以后，管理界面—Docker—容器，找到node-red重启，然后node-red就运行起来了；</h4> <p><img src="/assets/img/advanced13.03648198.jpg" alt="img"></p> <h4 id="_5-浏览器打开设备对应ip加上1880端口-例如http-192-168-100-1-1880-即可进入node-red控制台。"><a href="#_5-浏览器打开设备对应ip加上1880端口-例如http-192-168-100-1-1880-即可进入node-red控制台。" class="header-anchor">#</a> 5.浏览器打开设备对应IP加上1880端口，例如http://192.168.100.1:1880/，即可进入node-red控制台。</h4> <p><img src="/assets/img/advanced14.1fc3b89e.jpg" alt="img"></p> <h2 id="mqtt-emqx"><a href="#mqtt-emqx" class="header-anchor">#</a> MQTT-EMQX</h2> <p>EMQX基于Erlang/OTP平台开发的MQTT消息服务器，是开源社区中最流行的MQTT 消息服务器，支持丰富的物联网协议，包括 MQTT、LwM2M、MQTT-SN、CoAP、 LoRaWAN、 HTTP和WebSocket等。</p> <h4 id="_1-docker拉取emqx镜像并创建容器-进入终端-输入下面的命令并回车运行"><a href="#_1-docker拉取emqx镜像并创建容器-进入终端-输入下面的命令并回车运行" class="header-anchor">#</a> 1.Docker拉取emqx镜像并创建容器，进入终端，输入下面的命令并回车运行;</h4> <div class="language- extra-class"><pre class="language-text"><code>docker run -d --name emqx --restart unless-stopped -p 1883:1883 -p 8081:8081 -p 8083:8083 -p 8883:8883 -p 8084:8084 -p 18083:18083 emqx/emqx
+</code></pre></div><p><img src="/assets/img/advanced15.1f30abec.jpg" alt="img"></p> <h4 id="_2-上面命令完成以后-管理界面-docker-容器-就能看到emqx已经运行起来了"><a href="#_2-上面命令完成以后-管理界面-docker-容器-就能看到emqx已经运行起来了" class="header-anchor">#</a> 2.上面命令完成以后，管理界面—Docker—容器，就能看到emqx已经运行起来了；</h4> <p><img src="/assets/img/advanced16.9e997147.jpg" alt="img"></p> <h4 id="_3-浏览器打开设备对应ip加上18083端口-例如http-192-168-100-1-18083-即可进入eqmx控制台。"><a href="#_3-浏览器打开设备对应ip加上18083端口-例如http-192-168-100-1-18083-即可进入eqmx控制台。" class="header-anchor">#</a> 3.浏览器打开设备对应IP加上18083端口，例如http://192.168.100.1:18083/，即可进入eqmx控制台。</h4> <p><strong>说明：</strong></p> <p>初始帐号：admin</p> <p>初始密码：public</p> <p>连接端口是1883</p> <p><img src="/assets/img/advanced17.6922b99b.jpg" alt="img"></p> <p><img src="/assets/img/advanced18.ae11a982.jpg" alt="img"></p> <h2 id="内网测速"><a href="#内网测速" class="header-anchor">#</a> 内网测速</h2> <p>speedtest-x是基于librespeed的一款优秀轻量的本地内网测速工具。</p> <h4 id="_1-docker拉取speedtest-x镜像并创建容器-进入终端-输入下面的命令并回车运行-先别直接复制输入-下方有说明"><a href="#_1-docker拉取speedtest-x镜像并创建容器-进入终端-输入下面的命令并回车运行-先别直接复制输入-下方有说明" class="header-anchor">#</a> 1.Docker拉取speedtest-x镜像并创建容器，进入终端，输入下面的命令并回车运行(先别直接复制输入，下方有说明);</h4> <div class="language- extra-class"><pre class="language-text"><code>docker run -d --name speedtest-x --restart unless-stopped -p 9999:80 stilleshan/speedtest-x
+</code></pre></div><p><strong>说明：</strong></p> <p>9999 是http地址的访问端口，可以自行修改。</p> <p><img src="/assets/img/advanced19.1cec8496.jpg" alt="img"></p> <h4 id="_2-上面命令完成以后-管理界面-docker-容器-就能看到speedtest-x已经运行起来了"><a href="#_2-上面命令完成以后-管理界面-docker-容器-就能看到speedtest-x已经运行起来了" class="header-anchor">#</a> 2.上面命令完成以后，管理界面—Docker—容器，就能看到speedtest-x已经运行起来了；</h4> <p><img src="/assets/img/advanced20.dfc6908c.jpg" alt="img"></p> <h4 id="_3-浏览器打开设备对应ip加上端口-例如http-192-168-100-1-9999-即可进行内网测速。"><a href="#_3-浏览器打开设备对应ip加上端口-例如http-192-168-100-1-9999-即可进行内网测速。" class="header-anchor">#</a> 3.浏览器打开设备对应IP加上端口，例如http://192.168.100.1:9999/，即可进行内网测速。</h4> <p><img src="/assets/img/advanced21.3057f06e.jpg" alt="img"></p> <h2 id="nextcloud"><a href="#nextcloud" class="header-anchor">#</a> Nextcloud</h2> <p>Nextcloud是一款开源免费的私有云存储网盘项目，可以让你快速便捷地搭建一套属于自己或团队的云同步网盘，从而实现跨平台跨设备文件同步、共享、版本控制、团队协作等功能。它的客户端覆盖了Windows、Mac、Android、iOS、Linux 等各种平台，也提供了网页端以及 WebDAV接口，所以你几乎可以在各种设备上方便地访问你的云盘。</p> <h4 id="_1-先安装数据库mariadb-docker拉取mariadb镜像并创建容器-进入终端-输入下面的命令并回车运行-先别直接复制输入-下方有说明"><a href="#_1-先安装数据库mariadb-docker拉取mariadb镜像并创建容器-进入终端-输入下面的命令并回车运行-先别直接复制输入-下方有说明" class="header-anchor">#</a> 1.先安装数据库mariadb：Docker拉取mariadb镜像并创建容器，进入终端，输入下面的命令并回车运行(先别直接复制输入，下方有说明);</h4> <div class="language- extra-class"><pre class="language-text"><code>docker run -d --name mariadb \
+  -p 3344:3306 \
+  -e MYSQL_ROOT_PASSWORD=123456 \
+  -v /root/nextcloud/mariadb:/var/lib/mysql \
+  --restart unless-stopped \	
+  mariadb:10.5.12
+</code></pre></div><p><strong>说明：</strong></p> <p>MYSQL_ROOT_PASSWORD=123456 设置数据库root账户密码，设置为123456，按需修改。</p> <p>3344:3306 将mariadb数据库的3306端口映射为3344，按需修改。</p> <p><img src="/assets/img/advanced22.6be4a9e1.jpg" alt="img"></p> <h4 id="_2-再安装nextcloud-docker拉取nextcloud镜像并创建容器-进入终端-输入下面的命令并回车运行-先别直接复制输入-下方有说明"><a href="#_2-再安装nextcloud-docker拉取nextcloud镜像并创建容器-进入终端-输入下面的命令并回车运行-先别直接复制输入-下方有说明" class="header-anchor">#</a> 2.再安装Nextcloud：Docker拉取nextcloud镜像并创建容器，进入终端，输入下面的命令并回车运行(先别直接复制输入，下方有说明);</h4> <div class="language- extra-class"><pre class="language-text"><code>docker run -d --name nextcloud \
+  -p 3333:80 \
+  -v /root/nextcloud/html:/var/www/html \
+  -v /root/nextcloud/data:/var/www/html/data \
+  -v /root/nextcloud/apps:/var/www/html/custom_apps \
+  -v /root/nextcloud/config:/var/www/html/config \
+  --restart unless-stopped \
+  nextcloud
+</code></pre></div><p><strong>说明：</strong></p> <p>/root/nextcloud/html Nextcloud主文件夹的映射目录，按需修改。</p> <p>/root/nextcloud/data 实际数据的映射目录，按需修改。</p> <p>/root/nextcloud/apps 安装/修改的应用程序的映射目录，按需修改。</p> <p>/root/nextcloud/config 本地配置文件的映射目录，按需修改。</p> <p>3333:80 将nextcloud的访问端口映射为3333，按需修改。</p> <p><img src="/assets/img/advanced23.b1f17869.jpg" alt="img"></p> <h4 id="_3-上面2条命令完成以后-管理界面-docker-容器-就能看到mariadb和nextcloud运行起来了"><a href="#_3-上面2条命令完成以后-管理界面-docker-容器-就能看到mariadb和nextcloud运行起来了" class="header-anchor">#</a> 3.上面2条命令完成以后，管理界面—Docker—容器，就能看到mariadb和nextcloud运行起来了；</h4> <p><img src="/assets/img/advanced24.30ef75a9.jpg" alt="img"></p> <h4 id="_4-浏览器打开设备对应ip加上端口3333-例如http-192-168-100-1-3333-访问nextcloud进行配置-建议稍微等几分钟再配置-等待数据库完全运行。-。"><a href="#_4-浏览器打开设备对应ip加上端口3333-例如http-192-168-100-1-3333-访问nextcloud进行配置-建议稍微等几分钟再配置-等待数据库完全运行。-。" class="header-anchor">#</a> 4.浏览器打开设备对应IP加上端口3333，例如http://192.168.100.1:3333/，访问nextcloud进行配置(建议稍微等几分钟再配置，等待数据库完全运行。)。</h4> <p><img src="/assets/img/advanced25.fc2b3e7c.jpg" alt="img"></p> <p><strong>说明：</strong></p> <p>管理员帐号和密码，自行设置，按自己喜好。</p> <p>存储与数据库设置：</p> <p>1.数据目录不用管</p> <p>2.配置数据库——选择“MySQL/MariaDB”</p> <p>数据库用户名：root</p> <p>数据库密码：123456 (前面设置为123456，若自己修改了填写为修改的)</p> <p>数据库名字：mariadb (默认就是这个)</p> <p>数据库地址：设备ip+3344 (前面设置为3344，若自己修改了填写为修改的)</p> <p>3.安装推荐应用，看自己需求。</p> <p>4.最后就是安装，等待安装完成，就会自动进入Nextcloud界面。</p> <p><img src="/assets/img/advanced26.8e3618bd.jpg" alt="img"></p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">2021/9/11 上午2:35:12</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/zh/guide/easepi/common.html" class="prev">
+        基础玩法
+      </a></span> <span class="next"><a href="/zh/guide/easepi/opensource.html">
+        固件开源
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.fa9dcd7a.js" defer></script><script src="/assets/js/1.477bc2d7.js" defer></script><script src="/assets/js/9.455015f9.js" defer></script>
+  </body>
+</html>

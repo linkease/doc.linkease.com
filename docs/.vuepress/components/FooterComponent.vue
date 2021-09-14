@@ -106,7 +106,6 @@ export default {
     outline: none;
 }
 .footer {
-    margin-top: 100px;
     background-color: #f4f4f4;
     min-height: 234px;
     display: flex;
@@ -117,7 +116,7 @@ export default {
         display: flex;
         flex-wrap: wrap;
         .content_text {
-            width: 1384px;
+            width: 922px;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
@@ -130,6 +129,8 @@ export default {
                 flex-wrap: wrap;
                 width: 1020px;
                 .content_list {
+                    padding: 0;
+                    margin: 0;
                     .content_title {
                         font-size: 16px;
                         font-family: PingFangSC-Semibold, PingFang SC;
