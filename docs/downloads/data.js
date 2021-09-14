@@ -58,12 +58,12 @@ const LinkeaseClient = {
         },
         {
             title: "Android",
-            url: " http://firmware.koolshare.cn/binary/LinkEase/Client/linkease.apk",
+            url: "http://firmware.koolshare.cn/binary/LinkEase/Client/linkease.apk",
             qrcode: AndroidQrcode,
         },
         {
             title: "TV",
-            url: " http://firmware.koolshare.cn/binary/LinkEase/Client/Android-tv.apk",
+            url: "http://firmware.koolshare.cn/binary/LinkEase/Client/Android-tv.apk",
         },
     ]
 }
@@ -78,7 +78,7 @@ const DDNSTO = {
         },
         {
             title: "Qnap",
-            url: " https://firmware.koolshare.cn/binary/ddnsto/qnap/",
+            url: "https://firmware.koolshare.cn/binary/ddnsto/qnap/",
         },
         {
             title: "Openwrt",
@@ -93,7 +93,6 @@ const DDNSTO = {
             url: "https://doc.linkease.com/zh/guide/ddnsto/koolshare_merlin.html#_6-unraid-%E7%88%B1%E5%BF%AB-docker",
         },
     ]
-
 }
 const IStore = {
     title: "iStore",
