@@ -30,7 +30,7 @@ const LinkeaseStore = {
         },
         {
             title: "脚本/Docker",
-            url: "https://www.linkease.com/zh/docs/store.html#_9-docker",
+            url: "https://doc.linkease.com/zh/guide/linkease_server/store.html#_10-docker",
         },
         {
             title: "更多",
@@ -90,7 +90,7 @@ const DDNSTO = {
         },
         {
             title: "脚本/Docker",
-            url: "https://www.ddnsto.com/zh/guide/koolshare_merlin.html#_6-unraid-%E7%88%B1%E5%BF%AB-docker",
+            url: "https://doc.linkease.com/zh/guide/ddnsto/koolshare_merlin.html#_6-unraid-%E7%88%B1%E5%BF%AB-docker",
         },
     ]
 
