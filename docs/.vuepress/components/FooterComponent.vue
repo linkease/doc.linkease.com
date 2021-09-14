@@ -106,7 +106,7 @@ export default {
     outline: none;
 }
 .footer {
-    background-color: #f4f4f4;
+    // background-color: #f4f4f4;
     min-height: 234px;
     display: flex;
     justify-content: center;
