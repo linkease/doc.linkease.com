@@ -109,9 +109,9 @@
 
 ## 2.开机
 
-EasePi设备，出厂自带了定制的OpenWrt路由系统，所以开箱即用。
+ * EasePi设备，出厂自带了定制的OpenWrt路由系统，所以开箱即用。
 
-#### 电源适配器接通电源(默认来电自启)，用将“EasePi的Lan口——电脑网口(自动获取IP)”连接，浏览器登录 http://192.168.100.1/ 进入管理界面。
+ * #### 电源适配器接通电源(默认来电自启)，用网线将“EasePi的Lan口——电脑网口(自动获取IP)”连接，浏览器登录 http://192.168.100.1/ 进入管理界面。
 
 ![quick1](./quick/quick1.jpg) 
 
@@ -126,8 +126,8 @@ EasePi设备，出厂自带了定制的OpenWrt路由系统，所以开箱即用�
 
 ![quick2](./quick/quick2.jpg) 
 
-协议切换成PPPoE，PAP/CHAP用户名：填入宽带帐号；PAP/CHAP密码：填入宽带密码，然后保存应用。
+ * 协议切换成PPPoE，PAP/CHAP用户名：填入宽带帐号；PAP/CHAP密码：填入宽带密码，然后保存应用。
 
 ![quick3](./quick/quick3.jpg) 
 
-然后用网线将“光猫——EasePi的Wan口”，“EasePi的Lan口——无线WiFi路由”连接，即可使用。
+ * 然后用网线将“光猫——EasePi的Wan口”，“EasePi的Lan口——无线WiFi路由”连接，即可使用。
