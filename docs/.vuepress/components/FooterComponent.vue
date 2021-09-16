@@ -217,14 +217,24 @@ li {
                 width: 100%;
                 .content_block {
                     width: 100%;
-                    padding: 20px;
+                    padding: 0 10px;
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 50%;
                         margin: 0;
                         padding: 0;
+                        margin-bottom: 14px;
+                        .content_title {
+                            padding-bottom: 6px;
+                        }
+                        a {
+                            margin-bottom: 6px;
+                        }
                     }
                 }
+            }
+            .content_info {
+                padding-left: 10px;
             }
         }
     }
