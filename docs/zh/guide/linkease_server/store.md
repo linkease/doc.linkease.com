@@ -31,7 +31,7 @@
 
 ![sy6.png](./tutorial/NAS/Synology/linkeaseAgent_url.jpg)
 
-**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
+**5.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。**
 
 
 #### 注意！由于DSM7.0对权限严格控制，所以额外配置权限(DSM6的用户无需处理)。有两种方法配置：
@@ -80,7 +80,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 ![q6.jpg](./tutorial/NAS/QNAP/q6.jpg)
 
-**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
+**5.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。**
 
 
 
@@ -109,7 +109,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 ![7.jpg](./tutorial/NAS/ASUS/7.jpg)
 
-**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
+**5.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。**
 
 
 
@@ -132,7 +132,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 ![km4.jpg](./tutorial/NAS/KoolshareMerlin/km4.jpg)
 
-**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
+**5.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。**
 
 
 
@@ -157,7 +157,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 ![kl4.jpg](./tutorial/NAS/KoolshareLede/kl4.jpg)
 
-**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
+**5.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。**
 
 
 ### 7. Openwrt
@@ -190,7 +190,7 @@ cd /tmp; wget --no-check-certificate http://firmware.koolshare.cn/binary/LinkEas
 
 **4.或者putty、MobaXterm等软件登陆SSH，输入任一上述命令，会自动安装完成。**
 
-**5.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
+**5.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。**
 
 
 
@@ -237,7 +237,7 @@ https:/ / firmware.koolshare.cn/binary/LinkEase/LinuxStorage/linkease.amd64</td>
 
 ![liunx5.jpg](./tutorial/NAS/Linux/liunx5.jpg)
 
-**7.安装后第一次打开，需要绑定设备，请查看“存储端统一绑定教程”。**
+**7.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。**
 
 
 
@@ -309,8 +309,7 @@ sudo docker run -d \
     linkease/linkease:latest
 ```
 
-5.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看“存储端统一绑定教程”。
-
+5.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。
 
 **注意事项：**
 
