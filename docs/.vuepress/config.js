@@ -160,6 +160,8 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "介绍"],
+                                ["app-meta", "插件元数据"],
+                                ["firmware-setup", "固件集成方法"],
                             ]
                         },
                     ],
