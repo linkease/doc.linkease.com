@@ -9,7 +9,7 @@ import AndroidQrcode from "../.vuepress/public/downloads/android.png"
 
 const LinkeaseStore = {
     title: "易有云存储端",
-    guide: "/zh/guide/linkease_server/",
+    guide: "/zh/guide/linkease_storage/ ",
     thumbnail: pic1,
     list: [
         {
@@ -30,7 +30,7 @@ const LinkeaseStore = {
         },
         {
             title: "脚本/Docker",
-            url: "https://doc.linkease.com/zh/guide/linkease_server/store.html#_10-docker",
+            url: "https://doc.linkease.com/zh/guide/linkease_storage/store.html#_10-docker",
         },
         {
             title: "更多",
@@ -41,7 +41,7 @@ const LinkeaseStore = {
 const LinkeaseClient = {
     title: "易有云APP",
     thumbnail: pic2,
-    guide: "/zh/guide/linkease_client/",
+    guide: "/zh/guide/linkease_app/",
     list: [
         {
             title: "Windows",
@@ -117,8 +117,8 @@ const EasePi = {
     ]
 }
 export default [
-    LinkeaseStore,
     LinkeaseClient,
+    LinkeaseStore,
     DDNSTO,
     IStore,
     EasePi,

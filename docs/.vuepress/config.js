@@ -46,8 +46,8 @@ module.exports = ctx => ({
                     {
                         text: '指南', link: '/zh/guide/linkease/', items: [
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
-                            { text: '易有云客户端', link: '/zh/guide/linkease_client/' },
-                            { text: '易有云存储端', link: '/zh/guide/linkease_server/' },
+                            { text: '易有云客户端', link: 'https://doc.linkease.com/zh/guide/linkease_app/' },
+                            { text: '易有云存储端', link: 'https://doc.linkease.com/zh/guide/linkease_storage/' },
                             { text: 'iStore', link: '/zh/guide/istore/' },
                             { text: 'EasePi', link: '/zh/guide/easepi/' },
 
@@ -64,13 +64,13 @@ module.exports = ctx => ({
                         text: '联系我们', items: [
                             { text: '问题反馈', link: 'https://github.com/linkease/doc.linkease.com/issues' },
                             // { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
-                            { text: '关于我们', link: '/zh/guide/about/' }
+                            { text: '关于我们', link: 'https://doc.linkease.com/zh/guide/about/' }
                         ]
                     },
                     { text: '下载', link: '/downloads/' },
                 ],
                 sidebar: {
-                    '/zh/guide/linkease_server/': [
+                    '/zh/guide/linkease_storage/': [
                         {
                             title: "使用指南",
                             // 显示所有页面的标题链接
@@ -88,7 +88,7 @@ module.exports = ctx => ({
                             ]
                         },
                     ],
-                    '/zh/guide/linkease_client/': [
+                    '/zh/guide/linkease_app/': [
                         {
                             title: "使用指南",
                             // 显示所有页面的标题链接

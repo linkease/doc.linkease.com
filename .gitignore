@@ -26,8 +26,8 @@ web.zip
 web
 dist
 build
-buiod.zip
-/build_doc
-/buiod.zip
-
+build.zip
+build_doc/*
+build_doc
+build_doc.zip
 package-lock.json
