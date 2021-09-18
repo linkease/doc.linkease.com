@@ -38,7 +38,7 @@ export default {
                         },
                         {
                             label: "iStore",
-                            value: "https://github.com/linkease/istore",
+                            value: "/zh/guide/istore/",
                         },
                         {
                             label: "EasePi",
@@ -74,7 +74,7 @@ export default {
                     childer: [
                         {
                             label: "关于我们",
-                            value: "https://doc.linkease.com/zh/guide/about/"
+                            value: "/zh/guide/about/"
                         },
                         {
                             label: "联系我们",
@@ -121,8 +121,11 @@ export default {
             justify-content: space-between;
             flex-wrap: wrap;
             flex: 0 0 100%;
-            border-bottom: 1.5px solid;
+            border-bottom: 1.5px solid rgba(0, 0, 0, 0.7);
             margin-bottom: 10px;
+            border-top: 1.5px solid rgba(0, 0, 0, 0.7);
+            padding-top: 24px;
+            padding-bottom: 14px;
             .content_block {
                 display: flex;
                 justify-content: space-between;
@@ -177,14 +180,22 @@ li {
         .footer-content {
             .content_text {
                 width: 100%;
+                padding-bottom: 0px;
                 .content_block {
                     width: 100%;
-                    padding: 20px;
+                    padding: 0px;
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 25%;
                         margin: 0;
                         padding: 0;
+                        margin-bottom: 20px;
+                        .content_title {
+                            padding-bottom: 8px;
+                        }
+                        a {
+                            margin-bottom: 2px;
+                        }
                     }
                 }
             }
@@ -198,12 +209,13 @@ li {
                 width: 100%;
                 .content_block {
                     width: 100%;
-                    padding: 20px;
+                    padding: 0;
                     .content_list {
                         flex: 0 0 100%;
                         max-width: 33.333%;
                         margin: 0;
                         padding: 0;
+                        margin-bottom: 16px;
                     }
                 }
             }
