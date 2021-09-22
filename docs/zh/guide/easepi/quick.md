@@ -131,3 +131,14 @@
 ![quick3](./quick/quick3.jpg) 
 
  * 然后用网线将“光猫——EasePi的Wan口”，“EasePi的Lan口——无线WiFi路由”连接，即可使用。
+
+ * 如果是PPPoE拨号上网，建议把防火墙的WAN口入站设置成拒绝或者丢弃，以免被攻击。
+ 
+![quick3](./quick/quick4.jpg)  
+
+
+## 4.救援
+
+何为救援，就是误删系统文件导致进不去系统，需要“救砖”。
+
+ * [救援模式使用教程](https://doc.linkease.com/zh/guide/easepi/question.html#救援模式) -->
