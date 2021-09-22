@@ -152,7 +152,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/istore/': [
                         {
-                            title: "使用指南",
+                            title: "iStore",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
