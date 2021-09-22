@@ -46,7 +46,7 @@ module.exports = ctx => ({
                     {
                         text: '指南', link: '/zh/guide/linkease/', items: [
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
-                            { text: '易有云客户端', link: '/zh/guide/linkease_app/' },
+                            { text: '易有云APP', link: '/zh/guide/linkease_app/' },
                             { text: '易有云存储端', link: '/zh/guide/linkease_storage/' },
                             { text: 'iStore', link: '/zh/guide/istore/' },
                             { text: 'EasePi', link: '/zh/guide/easepi/' },
@@ -72,7 +72,7 @@ module.exports = ctx => ({
                 sidebar: {
                     '/zh/guide/linkease_storage/': [
                         {
-                            title: "使用指南",
+                            title: "易有云存储端",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -90,7 +90,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/linkease_app/': [
                         {
-                            title: "使用指南",
+                            title: "易有云APP",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -110,7 +110,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/ddnsto/': [
                         {
-                            title: "使用指南",
+                            title: "DDNSTO",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -133,7 +133,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/easepi/': [
                         {
-                            title: "使用指南",
+                            title: "EasePi",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -152,7 +152,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/istore/': [
                         {
-                            title: "使用指南",
+                            title: "iStore",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
