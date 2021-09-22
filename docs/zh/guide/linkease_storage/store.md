@@ -4,7 +4,7 @@
 
 ### 2. 群晖
 
-**1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Synology/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
+**1.点击“ [存储端下载](https://fw.koolcenter.com/binary/LinkEase/Synology/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
 
 <!-- <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br /> -->
 *请根据自己群晖的CPU型号以及DSM版本选择相对应的存储端(DSM7.0请先卸载旧版本)
@@ -57,7 +57,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 ### 3. 威联通
 
-**1.点击“ [存储端下载](https://firmware.koolshare.cn/binary/LinkEase/QNAP/)”，下载QNAP插件，此处选择"LinkEaseAgent_0.2.83_x86_64.qpkg"；**
+**1.点击“ [存储端下载](https://fw.koolcenter.com/binary/LinkEase/QNAP/)”，下载QNAP插件，此处选择"LinkEaseAgent_0.2.83_x86_64.qpkg"；**
 
 <!-- <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br /> -->
 *请根据自己电脑上的CPU型号选择相对应的存储端
@@ -87,7 +87,7 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 ### 4. 华硕NAS
 
-**1.首先，点击[存储端下载](https://firmware.koolshare.cn/binary/LinkEase/Asus-Nas/)，下载易有云APK。访问NAS主页面，打开华硕`App Central`：**
+**1.首先，点击[存储端下载](https://fw.koolcenter.com/binary/LinkEase/Asus-Nas/)，下载易有云APK。访问NAS主页面，打开华硕`App Central`：**
 
 ![1.jpg](./tutorial/NAS/ASUS/1.jpg)
 
@@ -167,15 +167,15 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
    via curl
 ```
-sh -c "$(curl -sSL http://firmware.koolshare.cn/binary/LinkEase/Openwrt/install_linkease.sh)"
+sh -c "$(curl -sSL http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_linkease.sh)"
 ```
    via wget
 ```
-sh -c "$(wget --no-check-certificate -qO- http://firmware.koolshare.cn/binary/LinkEase/Openwrt/install_linkease.sh)"
+sh -c "$(wget --no-check-certificate -qO- http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_linkease.sh)"
 ```
    others
 ```
-cd /tmp; wget --no-check-certificate http://firmware.koolshare.cn/binary/LinkEase/Openwrt/install_linkease.sh; sh ./install_linkease.sh
+cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/LinkEase/Openwrt/install_linkease.sh; sh ./install_linkease.sh
 ```
 
 **2.在OpenWrt TTYD终端中输入任一上述命令，会自动安装完成。**
@@ -195,7 +195,7 @@ cd /tmp; wget --no-check-certificate http://firmware.koolshare.cn/binary/LinkEas
 
 
 ### 8. Linux 通用版
-[存储端下载链接](https://firmware.koolshare.cn/binary/LinkEase/LinuxStorage/)
+[存储端下载链接](https://fw.koolcenter.com/binary/LinkEase/LinuxStorage/)
 
 <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br />
 
@@ -211,7 +211,7 @@ cd /tmp; wget --no-check-certificate http://firmware.koolshare.cn/binary/LinkEas
 
 **3.在光标后输入"wget 存储端链接"，点击回车，下载易有云存储端。输入“ls”确认；**
  <table><tr><td bgcolor=#bae2fe>wget 
-https:/ / firmware.koolshare.cn/binary/LinkEase/LinuxStorage/linkease.amd64</td></tr></table>
+https:/ / fw.koolcenter.com/binary/LinkEase/LinuxStorage/linkease.amd64</td></tr></table>
 
 <font color="#ff0000">以上网址为易有云linux通用版存储端链接，后期有可能会更改，请您随时关注更新；</font><br />
 
@@ -219,7 +219,7 @@ https:/ / firmware.koolshare.cn/binary/LinkEase/LinuxStorage/linkease.amd64</td>
 
 **如何获取易有云linux存储端链接**
 
-点击[存储端下载链接](https://firmware.koolshare.cn/binary/LinkEase/Synology/)，打开易有云存储端下载链接。右键“linkease.amd64”文件，在出现的弹窗中单击“复制链接地址”，即可复制该存储端链接。
+点击[存储端下载链接](https://fw.koolcenter.com/binary/LinkEase/Synology/)，打开易有云存储端下载链接。右键“linkease.amd64”文件，在出现的弹窗中单击“复制链接地址”，即可复制该存储端链接。
 
 ![liunx21.jpg](./tutorial/NAS/Linux/liunx2-1.jpg)
 

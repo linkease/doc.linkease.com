@@ -14,19 +14,19 @@ const LinkeaseStore = {
     list: [
         {
             title: "群晖Synology",
-            url: "https://firmware.koolshare.cn/binary/LinkEase/Synology/",
+            url: "https://fw.koolcenter.com/binary/LinkEase/Synology/",
         },
         {
             title: "Qnap",
-            url: "https://firmware.koolshare.cn/binary/LinkEase/QNAP/",
+            url: "https://fw.koolcenter.com/binary/LinkEase/QNAP/",
         },
         {
             title: "Openwrt",
-            url: "https://firmware.koolshare.cn/binary/LinkEase/Openwrt/",
+            url: "https://fw.koolcenter.com/binary/LinkEase/Openwrt/",
         },
         {
             title: "Linux",
-            url: "https://firmware.koolshare.cn/binary/LinkEase/LinuxStorage/",
+            url: "https://fw.koolcenter.com/binary/LinkEase/LinuxStorage/",
         },
         {
             title: "脚本/Docker",
@@ -45,11 +45,11 @@ const LinkeaseClient = {
     list: [
         {
             title: "Windows",
-            url: "http://firmware.koolshare.cn/binary/LinkEase/Client/LinkEaseWin.zip",
+            url: "http://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip",
         },
         {
             title: "Mac",
-            url: "http://firmware.koolshare.cn/binary/LinkEase/Client/LinkEase.dmg",
+            url: "http://fw.koolcenter.com/binary/LinkEase/Client/LinkEase.dmg",
         },
         {
             title: "iOS",
@@ -58,12 +58,12 @@ const LinkeaseClient = {
         },
         {
             title: "Android",
-            url: "http://firmware.koolshare.cn/binary/LinkEase/Client/linkease.apk",
+            url: "http://fw.koolcenter.com/binary/LinkEase/Client/linkease.apk",
             qrcode: AndroidQrcode,
         },
         {
             title: "TV",
-            url: "http://firmware.koolshare.cn/binary/LinkEase/Client/Android-tv.apk",
+            url: "http://fw.koolcenter.com/binary/LinkEase/Client/Android-tv.apk",
         },
     ]
 }
@@ -74,19 +74,19 @@ const DDNSTO = {
     list: [
         {
             title: "群晖Synology",
-            url: "https://firmware.koolshare.cn/binary/ddnsto/synology/",
+            url: "https://fw.koolcenter.com/binary/ddnsto/synology/",
         },
         {
             title: "Qnap",
-            url: "https://firmware.koolshare.cn/binary/ddnsto/qnap/",
+            url: "https://fw.koolcenter.com/binary/ddnsto/qnap/",
         },
         {
             title: "Openwrt",
-            url: "https://firmware.koolshare.cn/binary/ddnsto/openwrt/",
+            url: "https://fw.koolcenter.com/binary/ddnsto/openwrt/",
         },
         {
             title: "Readynas",
-            url: "http://firmware.koolshare.cn/binary/ddnsto/readynas/",
+            url: "http://fw.koolcenter.com/binary/ddnsto/readynas/",
         },
         {
             title: "脚本/Docker",
@@ -112,7 +112,7 @@ const EasePi = {
     list: [
         {
             title: "最新固件",
-            url: "https://firmware.koolshare.cn/binary/ars2/"
+            url: "https://fw.koolcenter.com/binary/ars2/"
         }
     ]
 }

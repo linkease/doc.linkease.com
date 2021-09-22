@@ -32,7 +32,7 @@ EasePi默认系统已经内置DDNSTO远程穿透插件，按照[DDNSTO详细教�
 
 PS：若刷入第三方定制的固件，或者当前系统出错时，刷入新固件时不要保存配置。
 
-[官方固件](https://firmware.koolshare.cn/binary/ars2/)
+[官方固件](https://fw.koolcenter.com/binary/ars2/)
 
 ![common](./common/common4.jpg)
 
