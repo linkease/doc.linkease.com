@@ -1,6 +1,6 @@
 ## 获取Token
 
-1. 打开https://www.ddnsto.com/，点击右上角控制台，微信登录。
+1. 打开[DDNSTO官网](https://www.ddnsto.com/)，点击右上角[控制台](https://www.ddnsto.com/app/#/login)，微信扫码登录。
 
    ![image-20210201221421068](./koolshare_merlin/image-20210201221421068.png)
 

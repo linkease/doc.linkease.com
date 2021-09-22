@@ -1,6 +1,6 @@
 ## 安装三步走
 
-### Step1: 登录官网控制台拿到“令牌”
+### Step1: 登录官网 [控制台](https://www.ddnsto.com/app/#/login)拿到“令牌”
 
    ![image-20210201221633684](./koolshare_merlin/image-20210201221633684.png)
 
