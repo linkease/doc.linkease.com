@@ -1,6 +1,11 @@
 ## 各种设备安装存储端
 
-### 1. EasePi（TODO）
+### 1. EasePi
+
+#### EasePi前期固件直接自带易有云，后期固件会集成“iStore”插件商店，在商店里可以安装。
+
+![png](./tutorial/NAS/EasePi/0.png)
+
 
 ### 2. 群晖
 
@@ -249,7 +254,7 @@ TODO
 
 ### 10. Docker
 
-**Docker方式安装易有云存储端，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
+**Docker方式安装易有云存储端，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，包括一些Linux发行版等。**
 
 所以说Docker方式基本算是适合全设备，操作也比较简单，下面开始教程：
 
@@ -257,9 +262,8 @@ TODO
 
 ```
 docker run -d \
-    --cap-add=NET_ADMIN \
     -p 8897:8897 \
-    --name=linkease \
+    --name linkease \
 	--network host \
     -v /etc/localtime:/etc/linkease-data \
     -v /etc/localtime:/etc/linkease-config \
@@ -281,9 +285,8 @@ docker run -d \
 
 ```
 docker run -d \
-    --cap-add=NET_ADMIN \
     -p 8897:8897 \
-    --name=linkease \
+    --name linkease \
 	--network host \
     -v /etc/localtime:/etc/linkease-data \
     -v /etc/localtime:/etc/linkease-config \
@@ -297,9 +300,8 @@ docker run -d \
 
 ```
 sudo docker run -d \
-    --cap-add=NET_ADMIN \
     -p 8897:8897 \
-    --name=linkease \
+    --name linkease \
 	--network host \
     -v /etc/localtime:/etc/linkease-data \
     -v /etc/localtime:/etc/linkease-config \
