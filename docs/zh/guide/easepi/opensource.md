@@ -49,6 +49,7 @@ src imagebuilder file:packages
 src lean_base file:///home/build/lean-openwrt/bin/packages/aarch64_cortex-a53/base
 ```
 
+> 更多信息参考OpenWRT官方文档 https://openwrt.org/zh/docs/guide-user/additional-software/imagebuilder
 
 ## 编译插件
 
@@ -84,5 +85,7 @@ make -j8 download V=s  ##下载dl库(科学上网)
 
 比如编译：
 ```
-make package/feeds/nas/luci-app-ddnsto/compile V=99
+make package/luci-app-ddnsto/compile V=99
 ```
+
+> 更多信息参考OpenWRT官方文档 https://openwrt.org/zh/docs/guide-developer/using_the_sdk
