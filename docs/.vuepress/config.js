@@ -144,7 +144,7 @@ module.exports = ctx => ({
                                 ["quick", "快速使用"],
                                 ["common", "基础玩法"],
                                 ["advanced", "高阶玩法"],
-                                ["opensource", "固件开源"],
+                                ["opensource", "固件DIY"],
                                 ["question", "常见问题"],
                                 // ["about", "联系我们"],
                             ]
