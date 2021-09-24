@@ -141,7 +141,7 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "产品介绍"],
-                                ["quick", "快速使用"],
+                                {title:"开始", collapsable: false, children: [["start/case", "组装"], ["start/quick", "配置"]]},
                                 ["common", "基础玩法"],
                                 ["advanced", "高阶玩法"],
                                 ["opensource", "固件DIY"],
