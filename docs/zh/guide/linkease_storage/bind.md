@@ -17,6 +17,12 @@
 
 ![bs3.jpg](./tutorial/NAS/BindingSoftware/bs3.jpg)
 
+* 某些特殊Linux发行版Docker安装易有云存储端，自定义了挂载路径，是这样显示的：
+
+![bs5.jpg](./tutorial/NAS/BindingSoftware/bs5.jpg)
+
+
+
 **3.操作成功后，即可在易有云2.0客户端使用该账号管理设备文件。**
 
 ![bs4.jpg](./tutorial/NAS/BindingSoftware/bs4.jpg)

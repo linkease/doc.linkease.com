@@ -258,72 +258,97 @@ TODO
 
 所以说Docker方式基本算是适合全设备，操作也比较简单，下面开始教程：
 
-**终端运行以下命令：(先不要直接复制，看下面的说明)**
+**1.终端运行以下命令：(先不要直接复制，看下面的说明)**
 
 ```
 docker run -d \
     -p 8897:8897 \
+    --network host \
     --name linkease \
-	--network host \
-    -v /etc/localtime:/etc/linkease-data \
-    -v /etc/localtime:/etc/linkease-config \
+    --restart unless-stopped \
+    -v /root/linkease-data:/linkease-data \
+    -v /root/linkease-config:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=<uid for user> \
     -e PGID=<gid for user> \
     linkease/linkease:latest
 ```
 
-1. PUID/PGID：获取方式：终端输入id即可。
+ * PUID/PGID：获取方式：终端输入id即可。
 
 ![docker1](./tutorial/NAS/docker/docker1.jpeg)
    
 比如上图获取的UID和GID都是0。
 
-2.注意要替换 "<>" 里面的内容，且不能出现 "<>"。
+ * 注意要替换 "<>" 里面的内容，且不能出现 "<>"。
 
-3.准备工作做好了，那我的终端命令就是：
+ * 准备工作做好了，那我的终端命令就是：
 
 ```
 docker run -d \
     -p 8897:8897 \
+    --network host \
     --name linkease \
-	--network host \
-    -v /etc/localtime:/etc/linkease-data \
-    -v /etc/localtime:/etc/linkease-config \
+    --restart unless-stopped \
+    -v /root/linkease-data:/linkease-data \
+    -v /root/linkease-config:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=0 \
     -e PGID=0 \
     linkease/linkease:latest
 ```
 
-4.Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：
+ * Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：
 
 ```
 sudo docker run -d \
     -p 8897:8897 \
+    --network host \
     --name linkease \
-	--network host \
-    -v /etc/localtime:/etc/linkease-data \
-    -v /etc/localtime:/etc/linkease-config \
+    --restart unless-stopped \
+    -v /root/linkease-data:/linkease-data \
+    -v /root/linkease-config:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=0 \
     -e PGID=0 \
     linkease/linkease:latest
 ```
 
-5.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。
+
+ * 某些特殊的Linux发行版，可能选不到存储目录，这样就需要单独挂载出来：
+ 
+/mnt/sda1:/My-storage  把系统的mnt/sda1(根据自身系统路径填写)硬盘路径映射为/My-storage，便于后面绑定存储端。
+
+ 若是多个硬盘路径：
+``` 
+    -v /mnt/sda1:/My-storage \
+    -v /mnt/sda2:/My-storage1 \
+    -v /mnt/sda3:/My-storage2 \	
+```
+
+加上自定义挂载路径后的命令：
+```
+sudo docker run -d \
+    -p 8897:8897 \
+    --network host \
+    --name linkease \
+    --restart unless-stopped \
+    -v /root/linkease-data:/linkease-data \
+    -v /root/linkease-config:/linkease-config \
+    -v /etc/localtime:/etc/localtime:ro \
+    -v /mnt/sda1:/My-storage \
+    -e PUID=0 \
+    -e PGID=0 \
+    linkease/linkease:latest
+```
+
+
+
+**2.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。**
 
 **注意事项：**
 
-易有云尽可能使用点对点进行网络传输，所以在使用 Docker 的时候，为了避免给易有云增加了一层 NAT，建议网络配置使用：
-
-**Host 模式：**
-即用本主机的网络，减少了一层NAT
-
-**Custom br0 模式：**
-即把Docker里面的网络连接到一个局域网中，最好是得到根主机一个网段的IP，也能少一层NAT
-
-否则会让易有云无法充分利用本地局域网的网络通信，影响网速，同时影响网络发现、远程samba等等功能特性。(即可以通过易有云远程访问局域网其它的samba共享路径)
+易有云尽可能使用点对点进行网络传输，建议网络配置使用host网络，不要使用bridge网络(可能造成samba等协议无法访问)。
 
 [镜像地址](https://hub.docker.com/r/linkease/linkease/)
 
