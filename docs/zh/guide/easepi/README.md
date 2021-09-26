@@ -8,19 +8,19 @@ EasePi 由 [KoolShare](https://koolshare.cn/space-uid-2380.html) @小宝带领�
 
 ## 硬件详情
 
-| 硬件类别 | 硬件详情 |
+| 部件 | 详情 |
 | :----: | :----: |
-| 产品| ARS2 |
-| CPU | Realtek1296，标准 64 位四核 ARM cortex-A53 核心 CPU，16 纳米工艺 T820 三核版GPU，最高工作频率为 1.4GHz。|
-| 内存 | 板载4G，超大内存。不可扩展内存。|
+| 产品 | ARS2 |
+| CPU | Realtek RTD1296，64 位四核 ARM Cortex-A53，最高工作频率为 1.4GHz。|
+| 内存 | 板载 DDR4 4G 超大内存。不可扩展。|
 | 存储 | 板载 8G eMMC，摆脱TF卡，刷机折腾更方便。|
 | 网口 | 原生双千兆，极速体验上网娱乐游戏。|
-| USB | 双 USB3.0，外接设备不用怕。|
-| 硬盘接口 | 1个常规 SATA 硬盘接口和供电接口、1个 M.2 的 SATA 固态接口，全方位扩展存储。自备硬盘。|
-| 电源 | DC 5V/2A，待机功率3W，更省电。|
+| USB | 双 USB3.0，外接设备不用愁。|
+| 硬盘接口 | 1个常规 SATA 硬盘接口和供电接口、1个 M.2 SATA 接口，全方位扩展存储。自备硬盘。|
+| 电源 | DC 12V/2A，待机功率3W，更省电。|
 | 开关 | 电源开关、软重启/重置开关。|
-| 扩展 | TTL 预留孔位，方便极客。|
-| LED | 指示灯全方位监控设备，设备情况一目了然。|
+| 扩展 | 预留 TTL 孔位，方便极客。|
+| LED | 电源状态，刷机状态指示灯。|
 
 ![about2](./about/about2.jpg) 
 
@@ -37,7 +37,7 @@ EasePi 由 [KoolShare](https://koolshare.cn/space-uid-2380.html) @小宝带领�
 
 ## 软件支持
 
- * 支持Openwrt操作系统；
+ * 预装Openwrt操作系统；
 
  * 独立的救援模式，轻松解决主机系统崩坏问题；
 
@@ -45,7 +45,7 @@ EasePi 由 [KoolShare](https://koolshare.cn/space-uid-2380.html) @小宝带领�
 
  * DDNSTO和易有云的完美融合，软路由+NAS的完美融合，远程操作更加便利；
 
- * iStore应用市场支持；
+ * 预装iStore应用市场；
 
  * 官方提供稳定固件，开放更多玩法，开放SDK，极客可随意定制路由系统；
 
