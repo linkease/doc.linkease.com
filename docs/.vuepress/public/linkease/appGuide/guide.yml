@@ -14,7 +14,7 @@
       tagName: 易有云
       title: 如何轻松搭建属于自己的私有云
       update: '2021-09-01'
-      description: ⼀键备份、⽅便简单，释放你的手机空间，保证你的数据永不丢失，让易有云保护你的家庭回忆。
+      description: 一台路由器、一个硬盘或U盘，然后安装易有云软件后即可获得:基础NAS功能、跨平台文件管理、享受点对点的极速传输。
       cover: ''
       link: 'https://doc.linkease.com/zh/guide/linkease_server/store.html#'
     - id: 1
@@ -22,7 +22,7 @@
       tagName: 易有云
       title: 免扫码验证DDNSTO
       update: '2021-09-01'
-      description: ⼀键备份、⽅便简单，释放你的手机空间，保证你的数据永不丢失，让易有云保护你的家庭回忆。
+      description: 怎么使用易有云APP免扫码验证DDNSTO？
       cover: ''
       link: 'https://doc.linkease.com/zh/guide/ddnsto/Authentication.html'
     - id: 1
@@ -137,7 +137,7 @@
       tagName: 易有云
       title: 如何轻松搭建属于自己的私有云
       update: '2021-09-01'
-      description: ⼀键备份、⽅便简单，释放你的手机空间，保证你的数据永不丢失，让易有云保护你的家庭回忆。
+      description: 一台路由器、一个硬盘或U盘，然后安装易有云软件后即可获得:基础NAS功能、跨平台文件管理、享受点对点的极速传输。
       cover: ''
       link: 'https://doc.linkease.com/zh/guide/linkease_server/store.html#'
     - id: 1
@@ -145,7 +145,7 @@
       tagName: 易有云
       title: 免扫码验证DDNSTO
       update: '2021-09-01'
-      description: ⼀键备份、⽅便简单，释放你的手机空间，保证你的数据永不丢失，让易有云保护你的家庭回忆。
+      description: 怎么使用易有云APP免扫码验证DDNSTO？
       cover: ''
       link: 'https://doc.linkease.com/zh/guide/ddnsto/Authentication.html'
     - id: 1
