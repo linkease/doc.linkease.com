@@ -325,15 +325,9 @@ docker run -d --name nextcloud \
 
 阿里云盘WebDAV服务，主要使用场景为配合支持WebDAV协议的客户端(App如:Infuse、nPlayer)等实现直接观看云盘视频内容，支持上传文件，但受限于WebDAV协议不支持文件秒传。
 
-#### 1.[下载阿里云WebDav插件](https://github.com/messense/aliyundrive-webdav/releases)
-
-如下图下载3个ipk：
+#### 1.从iStore安装阿里云WebDav插件；
 
 ![img](./advanced/ali1.jpg)
-
-进入ARS2管理界面，打开系统——文件传输，上传3个ipk，然后安装。
-
-![img](./advanced/ali2.jpg)
 
 #### 2.打开服务——阿里云盘WebDav：
 
