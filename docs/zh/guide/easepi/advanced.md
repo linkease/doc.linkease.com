@@ -321,3 +321,48 @@ docker run -d --name nextcloud \
 ![img](./advanced/advanced26.jpg)
 
 
+## 阿里云WebDav
+
+阿里云盘WebDAV服务，主要使用场景为配合支持WebDAV协议的客户端(App如:Infuse、nPlayer)等实现直接观看云盘视频内容，支持上传文件，但受限于WebDAV协议不支持文件秒传。
+
+#### 1.[下载阿里云WebDav插件](https://github.com/messense/aliyundrive-webdav/releases)
+
+如下图下载3个ipk：
+
+![img](./advanced/ali1.jpg)
+
+进入ARS2管理界面，打开系统——文件传输，上传3个ipk，然后安装。
+
+![img](./advanced/ali2.jpg)
+
+#### 2.打开服务——阿里云盘WebDav：
+
+```
+Refresh Token：根据教程获取Token，并填入
+
+启用：勾选
+
+主机：即ARS2的管理IP，演示机为192.168.2.100
+
+端口：随意，只要不冲突
+
+用户名和密码：一般自动默认为ARS2的登录密码，也可以自行更改
+
+其余选项默认，然后保存应用
+```
+![img](./advanced/ali3.jpg)
+
+#### 3.阿里云盘WebDav运行起来后，就可以访问了，比如浏览器：
+
+```
+http://192.168.2.100:8888/
+```
+
+![img](./advanced/ali4.jpg)
+
+输入用户名和密码，就直接访问阿里云盘了。
+
+![img](./advanced/ali5.jpg)
+
+其他支持WebDav的客户端同理。
+
