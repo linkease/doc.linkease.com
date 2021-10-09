@@ -33,4 +33,4 @@
 
 何为救援，就是误删系统文件导致进不去系统，需要“救砖”。
 
- * [救援模式使用教程](https://doc.linkease.com/zh/guide/easepi/question.html#救援模式) -->
+ * [救援模式使用教程](https://doc.linkease.com/zh/guide/easepi/common.html#救援模式) -->
