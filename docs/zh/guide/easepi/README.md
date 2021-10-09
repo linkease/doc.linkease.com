@@ -64,7 +64,8 @@ EasePi 由 [KoolShare](https://koolshare.cn/space-uid-2380.html) @小宝带领�
 | NAT | 931Mbps | 880Mbps |
 | Samba | 80Mb/s | 40Mb/s |
 
-| Openssl | 跑分 |
+| AES | 跑分(block 16k) |
 | :----: | :----: | 
-| aes-256-gcm | 64151.97k |
-| chacha20-poly1305 | 41958.17k |
+| 单核aes-256-gcm | 501590.70k |
+| 四核aes-256-gcm | 1975058.43k |
+| chacha20-poly1305 | 901234.69k |
