@@ -1,3 +1,43 @@
+## 挂载硬盘
+
+1.首先在ARS2上接上SATA硬盘；
+
+2.开机后，进入管理界面，打开系统——磁盘管理；
+
+**A：如果是已经是NTFS或者ext4格式的硬盘，开机就自动挂载了，在磁盘管理和挂载点，能看到硬盘，可以直接使用。**
+
+![common](./common/sata1.jpg)
+
+![common](./common/sata2.jpg)
+
+**B：如果是新硬盘：**
+
+* 磁盘管理会发现一块空盘，点击空盘右边的“修改”按钮；
+
+![common](./common/sata3.jpg)
+
+* 先修改分区表，改成GPT，提示覆盖提示，点击确定；
+
+![common](./common/sata4.jpg)
+
+* 然后下方分区信息，点击新建，选择格式，推荐ext4或者NTFS，然后格式化，就创建好硬盘了；
+
+![common](./common/sata5.jpg)
+
+![common](./common/sata6.jpg)
+
+* 创建好后，建议重启下机器，就可以使用硬盘了。
+
+3.硬盘的选择：
+
+* SATA接口硬盘，一般常见希捷、西数等品牌的2SATA接口硬盘，一般常见希捷、西数等品牌的2.5寸、3.5寸都成；
+
+* M.2 SATA硬盘可以考虑：“三星SSD固态硬盘M.2接口(SATA总线)860EVO系列”或者“金士顿SSD固态硬盘M.2接口(SATA总线)A400系列”。
+
+
+
+
+
 ## 变身NAS
 
 EasePi默认系统已经内置易有云(NAS插件)存储端，还有配套的APP和PC客户端。
@@ -90,6 +130,7 @@ ps：演示机ARS2的IP是192.168.2.100，根据实际情况填写IP。
 
 
 
+
 ## LED灯控制
 
 LED指示灯控制，可以关闭灯光。
@@ -109,6 +150,25 @@ LED名称：选择灯，red 红灯，green 绿灯；
 * 如下图保存应用，即可关闭绿灯。
 
 ![common](./common/led1.jpg)
+
+
+
+
+## 加装风扇
+
+一些小伙伴对温度有要求，需要加装风扇，我们是预留了风扇电源接口的。
+
+![common](./common/fan4.jpg)
+
+1.购买风扇：
+
+![common](./common/fan2.jpg)
+
+![common](./common/fan3.jpg)
+
+2.安装风扇：
+
+![common](./common/fan4.jpg)
 
 
 
