@@ -20,13 +20,20 @@
 
 ![common](./common/sata4.jpg)
 
-* 然后下方分区信息，点击新建，选择格式，推荐ext4或者NTFS，然后格式化，就创建好硬盘了；
+* 然后下方分区信息，点击新建就会出现盘符；
 
 ![common](./common/sata5.jpg)
 
+* 然后点击格式化，选择磁盘格式(推荐ext4或者NTFS)，然后格式化，就创建好硬盘了；
+
 ![common](./common/sata6.jpg)
 
-* 创建好后，建议重启下机器，就可以使用硬盘了。
+![common](./common/sata7.jpg)
+
+* 格式化完成后返回，新盘已经创建完成。建议重启下机器，就可以使用硬盘了。
+
+![common](./common/sata8.jpg)
+
 
 3.硬盘的选择：
 
