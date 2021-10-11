@@ -88,6 +88,20 @@ A：支持8T。
 
 A：支持。
 
+#### Q: 有没有推荐的硬盘？
+
+A：推荐下面两款M.2接口(SATA总线)SSD固态硬盘： 
+
+* 三星(SAMSUNG)SSD固态硬盘 M.2接口(SATA总线) 860 EVO系列
+[京东链接](https://item.jd.com/6435501.html)
+
+三星250G硬盘，写速度约350MB/s，读约500MB/s。
+
+* 金士顿(Kingston)SSD固态硬盘 M.2接口(SATA总线) A400系列
+[京东链接](https://item.jd.com/100004004230.html)
+
+金士顿250G硬盘，写速度约300MB/s，读约500MB/s。
+
 
 
 
