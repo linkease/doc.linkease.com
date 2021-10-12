@@ -33,13 +33,51 @@ ip addr flush dev eth0 && udhcpc
 ```
 
 
-## Jellyfin硬解
+
+## 扩容Docker分区
+
+ARS2自带是8G EMMC，除开系统占用，会剩余6G多，自动划分到Docker数据分区。
+
+常理来说，6G是完全够玩Docker项目的，但是伙伴们玩的比较嗨，6G不够用了，那么就需要扩容了。
+
+#### 1.首先准备一个ext4的硬盘分区，教程是直接将一个120G的硬盘整个扩容为Docker数据分区，如果伙伴们是大容量的，建议用电脑分出一个容量合适的ext4分区使用；
+
+![img](./advanced/docker1.jpg)
+
+#### 2.进入管理界面，打开系统——挂载点——挂载点，添加：
+
+勾选“启用此挂载点”，选中ext硬盘分区；
+
+挂载点——自定义：
+```
+/overlay/upper/opt/docker
+```
+然后保存应用。
+
+![img](./advanced/docker2.jpg)
+
+#### 3.返回挂载点页面，点选刚添加的挂载点，右下角保存应用，然后重启设备。
+
+![img](./advanced/docker3.jpg)
+
+#### 4.重启完成，就能看到Docker数据分区已经扩容成功。
+
+![img](./advanced/docker4.jpg)
+
+
+
+
+## 玩转影音
+
+### Jellyfin硬解
 
 Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），H264等格式硬解，这样我们就可以把ARS2打造成您的私人家庭影院。
 
 #### 1.ARS2上安装硬盘，或者移动硬盘；
 
 #### 2.进入ARS2的管理界面—系统—挂载点，挂载好硬盘，记住路径；
+
+比如教程演示机的路径挂载点是：/mnt/sda1
 
 ![img](./advanced/advanced1.jpg)
 
@@ -52,37 +90,45 @@ docker pull jjm2473/jellyfin-rtk:v10.7
 
 #### 4.接着继续输入如下命令并回车运行，创建Jellyfin容器(先别直接复制输入，下方有说明)；
 ```
-docker run --restart=unless-stopped -d \
-     --device /dev/rpc0:/dev/rpc0 \
-     --device /dev/rpc1:/dev/rpc1 \
-     --device /dev/rpc2:/dev/rpc2 \
-     --device /dev/rpc3:/dev/rpc3 \
-     --device /dev/rpc4:/dev/rpc4 \
-     --device /dev/rpc5:/dev/rpc5 \
-     --device /dev/rpc6:/dev/rpc6 \
-     --device /dev/rpc7:/dev/rpc7 \
-     --device /dev/rpc100:/dev/rpc100 \
-     --device /dev/uio250:/dev/uio250 \
-     --device /dev/uio251:/dev/uio251 \
-     --device /dev/uio252:/dev/uio252 \
-     --device /dev/uio253:/dev/uio253 \
-     --device /dev/ion:/dev/ion \
-     --device /dev/ve3:/dev/ve3 \
-     --device /dev/vpu:/dev/vpu \
-     --device /dev/memalloc:/dev/memalloc \
-     -v /tmp/shm:/dev/shm \
-     -v /sys/class/uio:/sys/class/uio \
-     -v /var/tmp/vowb:/var/tmp/vowb \
-     --pid=host \
-     --dns=172.17.0.1 \
-     -p 8096:8096 -v /root/jellyfin/config:/config -v /mnt/sda3/media:/media --name myjellyfin-rtk-10.7 jjm2473/jellyfin-rtk:v10.7
+docker run --restart unless-stopped -d \
+  --device /dev/rpc0:/dev/rpc0 \
+  --device /dev/rpc1:/dev/rpc1 \
+  --device /dev/rpc2:/dev/rpc2 \
+  --device /dev/rpc3:/dev/rpc3 \
+  --device /dev/rpc4:/dev/rpc4 \
+  --device /dev/rpc5:/dev/rpc5 \
+  --device /dev/rpc6:/dev/rpc6 \
+  --device /dev/rpc7:/dev/rpc7 \
+  --device /dev/rpc100:/dev/rpc100 \
+  --device /dev/uio250:/dev/uio250 \
+  --device /dev/uio251:/dev/uio251 \
+  --device /dev/uio252:/dev/uio252 \
+  --device /dev/uio253:/dev/uio253 \
+  --device /dev/ion:/dev/ion \
+  --device /dev/ve3:/dev/ve3 \
+  --device /dev/vpu:/dev/vpu \
+  --device /dev/memalloc:/dev/memalloc \
+  -v /tmp/shm:/dev/shm \
+  -v /sys/class/uio:/sys/class/uio \
+  -v /var/tmp/vowb:/var/tmp/vowb \
+  --pid=host \
+  --dns=172.17.0.1 \
+  -p 8096:8096 \
+  -v /mnt/sda1/jellyfin/config:/config \
+  -v /mnt/sda1:/media \
+  --name jellyfin-rtk \
+  jjm2473/jellyfin-rtk:v10.7
 ```
 
 **说明：**
 
-/root/jellyfin/config 用来存放Jellyfin的配置以及转码的临时文件，按需修改。
+```
+  -v /mnt/sda1/jellyfin/config:/config \
+  -v /mnt/sda1:/media \
+```  
+/mnt/sda1/jellyfin/config --> Jellyfin的配置以及转码的临时文件夹映射路径，按需修改。
 
-/mnt/sda3/media 表示媒体文件所在路径，改成自己挂载硬盘的媒体路径，按需修改。
+/mnt/sda1 --> Jellyfin媒体文件的映射路径，按需修改。可指定文件夹，例如：/mnt/sda1/videos。
 
 ![img](./advanced/advanced3.jpg)
 
@@ -99,6 +145,98 @@ docker run --restart=unless-stopped -d \
 #### 因为docker镜像和创建容器命令中已经配置好硬解，所以千万不要去动这个硬件加速设置。
 
 ![img](./advanced/advanced55.jpg)
+
+
+
+### CloudDrive
+
+CloudDrive 是一个将云存储(阿里云盘、115网盘等)服务挂载为本地文件的系统。
+
+* 利用CloudDrive可将网盘的影视资源挂载到ARS2，然后利用Jellfin加载这些影视资源，搭建强大的家庭影院。
+
+#### 现在开始安装CloudDrive：
+
+#### 1.首先为主机中的映射卷启用共享挂载选项，在终端里运行下面的代码：
+```
+mount --make-shared  /mnt/sda1
+```
+* 路径挂载点为啥是/mnt/sda1，因为前面安装Jellyfin时，/mnt/sda1是Jellyfin的媒体路径，方便操作。若没安装Jellyfin或者不是这个挂载点，按需修改为自己的挂载点路径。
+
+* 然后ARS2管理界面，打开系统——启动项——本地启动脚本(翻到最下面)，将这行代码如图添加进去，然后保存。
+
+![img](./advanced/CloudDrive0.jpg)
+
+
+#### 2.然后安装Docker版CloudDrive，终端运行如下命令(先别直接复制输入，下方有说明)：
+```
+docker run -d \
+  --name clouddrive \
+  --privileged \
+  --restart=unless-stopped \
+  --device /dev/fuse:/dev/fuse \
+  -v /mnt/sda1/CloudNAS/:/CloudNAS:shared \
+  -v /mnt/sda1/CloudNAS/config:/config \
+  -v /mnt/sda1/CloudNAS/media:/media:shared \
+  -p 9798:9798 \
+  cloudnas/clouddrive
+```
+
+**说明：**
+```
+  -v /mnt/sda1/CloudNAS/:/CloudNAS:shared \
+  -v /mnt/sda1/CloudNAS/config:/config \
+  -v /mnt/sda1/CloudNAS/media:/media:shared \
+```
+这三处的/mnt/sda1必须和第一步里的路径挂载点一致。
+
+![img](./advanced/CloudDrive1.jpg)
+
+#### 3.上面2条命令完成以后，管理界面—Docker—容器，就能看到CloudDrive已经运行起来了；
+
+![img](./advanced/CloudDrive2.jpg)
+
+#### 4.浏览器打开设备对应IP加上9798端口，例如http://192.168.100.1:9798/，即可进入CloudDrive界面。
+
+ps：CloudDrive是需要注册登录，没帐号的，请注册。
+
+![img](./advanced/CloudDrive3.jpg)
+
+#### 5.进入CloudDrive界面后，开始添加网盘帐号(阿里云、115网盘等)。
+
+![img](./advanced/CloudDrive4.jpg)
+
+添加完阿里云盘后，内容就加载出来了：
+
+![img](./advanced/CloudDrive5.jpg)
+
+#### 6.回到ARS2管理界面，打开系统——挂载点，已经挂载了CloudDrive的盘符CloudFS，挂载点路径是：/mnt/sda1/CloudNAS/CloudDrive，相当于现在ARS2就多了一个CloudFS硬盘；
+
+![img](./advanced/CloudDrive6.jpg)
+
+#### 7.CloudDrive已经挂载到ARS2上，再将/mnt/sda1利用Samba协议共享出去，其余设备就能直接通过Samba协议访问CloudFS硬盘。
+
+**至此CloudDrive这边设置就到此完成。下面开始将如何利用Jellyfin加载网盘的影视资源。**
+
+
+
+### Jellyfin加载网盘资源
+
+#### 1.进入到Jellyfin界面添加媒体库，因为Jellyfin早就将/mnt/sda1添加，而网盘资源路径是/mnt/sda1/CloudNAS/CloudDrive，就直接加载出来了：
+
+![img](./advanced/CloudDrive7.jpg)
+
+#### 2.可以直接将/media/CloudNAS/CloudDrive添加，也可以选到下一级目录“阿里云盘”；
+
+![img](./advanced/CloudDrive8.jpg)
+
+![img](./advanced/CloudDrive9.jpg)
+
+#### 3.添加完媒体库，等待扫描完成，就能看到网盘的影视资源就出来了(如果你的网盘很大，资源很多，扫描就比较慢，然后刮削也慢，慢慢等就成)。
+
+![img](./advanced/CloudDrive10.jpg)
+
+
+
 
 
 ## Home Assistant

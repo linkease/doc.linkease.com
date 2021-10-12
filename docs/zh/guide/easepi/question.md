@@ -56,6 +56,14 @@ A：CPU有温度保护机制。根据我们测试，高强度压测半小时后�
 
 * 如果对温度有要求可以安装风扇，ARS2也提供了风扇接口。[加装风扇教程](https://doc.linkease.com/zh/guide/easepi/common.html#加装风扇) -->
 
+#### Q：ARS2运行时机身温度情况？
+
+实测，全速满载时核心温度到达80℃，机身温度才44℃。
+
+![question](./question/wd1.jpg)
+
+![question](./question/wd2.jpg)
+
 
 
 
