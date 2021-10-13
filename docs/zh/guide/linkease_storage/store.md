@@ -2,7 +2,7 @@
 
 ### 1. EasePi
 
-#### EasePi前期固件直接自带易有云，后期固件会集成“iStore”插件商店，在商店里可以安装。
+#### EasePi固件“iStore”应用商店，直接安装使用。
 
 ![png](./tutorial/NAS/EasePi/0.png)
 
