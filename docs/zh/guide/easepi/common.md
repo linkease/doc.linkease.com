@@ -115,7 +115,7 @@ ps：下载目录指定到哪个文件夹，必须这个路径存在这个文件
 
 ![common](./common/aria3.jpg)
 
-4.其他设置不用管，直接保存应用，就看到Aria2已经运行，然后点击“打开AriaNg”，在AriaNg界面就可以下载。
+4.其他设置不用管，直接保存应用。Aria2已经运行，点击“打开AriaNg”，在AriaNg界面就可以下载。
 
 ![common](./common/aria4.jpg)
 
@@ -133,6 +133,66 @@ ps：下载目录指定到哪个文件夹，必须这个路径存在这个文件
 填写完成后右上角点击“重载AriaNg”即可连接。
 
 ![common](./common/aria6.jpg)
+
+
+
+
+## qBittorrent下载
+
+1.首先从iStore中安装qBittorrent；
+
+![common](./common/qBittorrent1.jpg)
+
+2.安装完成后打开qBittorrent，开始配置：
+
+* 勾选“已启用”
+
+* 设置qBittorrent下载文件存放目录，其它不用设置，右下角保存应用。
+
+ps：下载目录指定到哪个文件夹，必须这个路径存在这个文件夹，不然不会运行。
+
+![common](./common/qBittorrent2.jpg)
+
+3.qBittorrent已经运行，点击“打开WEB管理界面”就能进入qBittorrent界面。
+
+![common](./common/qBittorrent3.jpg)
+
+* qBittorrent默认登陆用户名：admin，密码：adminadmin。
+
+![common](./common/qBittorrent4.jpg)
+
+![common](./common/qBittorrent5.jpg)
+
+* #### 配合DDNSTO可实现远程下载。[qBittorrent远程下载教程](https://doc.linkease.com/zh/guide/ddnsto/scene.html#qbittorrent远程下载) -->
+
+
+
+
+## Transmission下载
+
+1.首先从iStore中安装Transmission；
+
+![common](./common/Transmission1.jpg)
+
+2.安装完成后打开Transmission，开始配置：
+
+* 勾选“已启用”
+
+* 设置Transmission下载目录，其它不用设置，右下角保存应用。
+
+ps：下载目录指定到哪个文件夹，必须这个路径存在这个文件夹，不然不会运行。
+
+![common](./common/Transmission2.jpg)
+
+![common](./common/Transmission3.jpg)
+
+3.Transmission已经运行，浏览器输入ARS2网关地址+9091端口(例如：http://192.168.2.100:9091/) 进入Transmission界面。
+
+* 若进不去Transmission界面，重启设备即可。
+
+![common](./common/Transmission4.jpg)
+
+* #### 配合DDNSTO可实现远程下载。[Transmission远程下载教程](https://doc.linkease.com/zh/guide/ddnsto/scene.html#transmission远程下载) -->
 
 
 
