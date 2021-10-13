@@ -229,13 +229,13 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 ![img](./advanced/CloudDrive7.jpg)
 
-#### 2.可以直接将/media/CloudNAS/CloudDrive添加，也可以选到下一级目录“阿里云盘”；
+#### 2.可以直接将/media/CloudNAS/CloudDrive添加，也可以选择下一级合适的文件夹；
 
 ![img](./advanced/CloudDrive8.jpg)
 
 ![img](./advanced/CloudDrive9.jpg)
 
-#### 3.添加完媒体库，等待扫描完成，就能看到网盘的影视资源就出来了(如果你的网盘很大，资源很多，扫描就比较慢，然后刮削也慢，慢慢等就成)。
+#### 3.添加完媒体库，等待扫描刮削完成。(若选择文件夹资源很多，扫描刮削就比较慢，慢慢等就成)。
 
 ![img](./advanced/CloudDrive10.jpg)
 
