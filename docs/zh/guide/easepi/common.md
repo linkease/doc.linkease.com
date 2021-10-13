@@ -121,6 +121,11 @@ ps：下载目录指定到哪个文件夹，必须这个路径存在这个文件
 
 ![common](./common/aria41.jpg)
 
+* #### 想要一站式离线下载+随时随地在线观看？请使用易有云APP[安装易有云App](https://doc.linkease.com/downloads/)。
+
+* #### [易有云App远程下载教程](https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#远程下载) -->
+
+
 5.如果AriaNg界面进去，提示“未连接”，如下图找到位置，在Aria2 RPC密钥处填入之前设置的RPC令牌；
 
 ![common](./common/aria5.jpg)

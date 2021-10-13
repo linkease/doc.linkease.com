@@ -138,6 +138,10 @@ docker run --restart unless-stopped -d \
 
 #### 6.浏览器打开设备对应IP加上8096端口，例如http://192.168.100.1:8096/，即可进入Jellyfin视界。
 
+* #### 配合DDNSTO，可以随时随地远程在线观影哟。
+
+* #### [远程观影教程](https://doc.linkease.com/zh/guide/ddnsto/scene.html#远程穿透jellyfin) -->
+
 ![img](./advanced/advanced5.jpg)
 
 #### 7.进入Jellyfin视界后，不要去动硬件加速。
