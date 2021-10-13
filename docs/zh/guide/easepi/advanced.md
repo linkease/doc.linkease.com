@@ -83,7 +83,7 @@ Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），
 
 #### 3.Docker拉取Jellyfin镜像，进入终端，输入下面的命令并回车运行;
 ```
-docker pull jjm2473/jellyfin-rtk:v10.7
+docker pull jjm2473/jellyfin-rtk:latest
 ```
 
 ![img](./advanced/advanced2.jpg)
@@ -117,7 +117,7 @@ docker run --restart unless-stopped -d \
   -v /mnt/sda1/jellyfin/config:/config \
   -v /mnt/sda1:/media \
   --name jellyfin-rtk \
-  jjm2473/jellyfin-rtk:v10.7
+  jjm2473/jellyfin-rtk:latest
 ```
 
 **说明：**
