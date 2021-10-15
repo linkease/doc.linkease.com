@@ -2,9 +2,9 @@
 
 ### 1. EasePi
 
-#### EasePi固件“iStore”应用商店，直接安装使用。
+#### EasePi固件“iStore”应用商店，已默认安装易有云存储端，直接就可使用。
 
-![png](./tutorial/NAS/EasePi/0.png)
+![png](./tutorial/NAS/EasePi/EasePi.jpg)
 
 
 ### 2. 群晖
