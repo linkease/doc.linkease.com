@@ -164,6 +164,9 @@ CloudDrive 是一个将云存储(阿里云盘、115网盘等)服务挂载为本�
 ```
 mount --make-shared  /mnt/sda1
 ```
+
+![img](./advanced/CloudDrive.jpg)
+
 * 路径挂载点为啥是/mnt/sda1，因为前面安装Jellyfin时，/mnt/sda1是Jellyfin的媒体路径，方便操作。若没安装Jellyfin或者不是这个挂载点，按需修改为自己的挂载点路径。
 
 * 然后ARS2管理界面，打开系统——启动项——本地启动脚本(翻到最下面)，将这行代码如图添加进去，然后保存。
