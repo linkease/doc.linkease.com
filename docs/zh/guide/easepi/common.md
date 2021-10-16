@@ -313,6 +313,25 @@ LED名称：选择灯，red 红灯，green 绿灯；
 
 
 
+## 终端模式
+
+何为终端模式，就是进入路由器的终端，能输入一些命令进行操作，比如安装Docker项目。
+
+* #### 若不清楚此模式能干嘛，建议不要进入操作，以免损坏系统。
+
+1.登录系统管理界面，打开系统——TTYD终端，提示“ARS2 login”时输入“root”，回车；
+
+![common](./common/ttyd1.jpg)
+
+2.提示“Password”时输入“登录密码”，输入后并不会显示，直接回车，如果正确就会出现终端界面。
+
+![common](./common/ttyd2.jpg)
+
+![common](./common/ttyd3.jpg)
+
+3.进入到终端界面，就可以输入一些命令，操作。比如[Docker安装Jellyfin](https://doc.linkease.com/zh/guide/easepi/advanced.html#玩转影音)。
+
+
 
 
 ## 救援模式
