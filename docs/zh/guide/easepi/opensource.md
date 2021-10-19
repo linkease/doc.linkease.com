@@ -27,10 +27,19 @@ make image PROFILE=ars2
 
 #### 扩展说明
 
-1.如果需要控制打包到固件中的软件包，可以在make image时使用PACKAGES参数，例如想要增加luci-app-passwall，并删除luci-app-ttyd，则执行：
+1.如果需要控制打包到固件中的软件包，可以在make image时使用PACKAGES参数：
+
+* 例如增加：luci-theme-argon，并删除luci-app-ttyd，则执行：
 ```
-make image PROFILE=ars2 PACKAGES="luci-app-passwall -luci-app-ttyd -luci-i18n-ttyd-zh-cn"
+make image PROFILE=ars2 PACKAGES="luci-theme-argon -luci-app-ttyd -luci-i18n-ttyd-zh-cn"
 ```
+
+* 假如有中文包：luci-app-argon-config、luci-i18n-argon-config-zh-cn，可只写中文包名：
+
+```
+make image PROFILE=ars2 PACKAGES="luci-i18n-argon-config-zh-cn"
+```
+
 
 2.默认的软件源只有ImageBuilder内置的，如果需要增加外部的软件源，可编辑ImageBuilder里的repositories.conf，例如增加Openwrt官方的软件源，则repositories.conf的内容如下:
 ```
