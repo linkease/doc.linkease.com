@@ -16,7 +16,18 @@ description: 部分老版本Windows用户缺少证书无法显示二维码，请
 
 [Let’s Encrypt R3](https://letsencrypt.org/certs/lets-encrypt-r3.pem)
  
+如因证书问题无法现在， 可在github仓库下载
+https://github.com/linkease/doc.linkease.com/tree/master/cert 
 
 ## 在浏览器内安装
 ![](/assets/posts/install-cert1.jpg)
 ![](/assets/posts/install-cert2.png)
+
+
+安装后刷新页面即可。
+
+参考资料：
+
+[DST Root CA X3 Expiration (September 2021)](https://letsencrypt.org/zh-cn/docs/dst-root-ca-x3-expiration-september-2021/)
+
+[Let's Encrypt根证书将过期，请在9月30日前及时更新](https://www.163.com/dy/article/GL2TBL7205527E9J.html)
