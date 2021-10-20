@@ -13,10 +13,13 @@ module.exports = ctx => ({
         }
     },
     // 站点标题
-    title: '易有云 远程文件管理',
+    title: '易有云 远程文件管理 文档中心',
     // 网站的描述
     description: 'DDNSTO 内网穿透 设备原理 远程下载 远程开机 远程桌面 远程文件管理',
     head: [
+        [
+            'script', { src: "/script/google-analytics.js" }
+        ],
         [
             'link', { rel: 'icon', href: '/favicon.ico' }
         ]
