@@ -81,62 +81,27 @@ Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），
 
 ![img](./advanced/advanced1.jpg)
 
-#### 3.Docker拉取Jellyfin镜像，进入终端，输入下面的命令并回车运行;
-```
-docker pull jjm2473/jellyfin-rtk:latest
-```
+#### 3.iStore安装Jellyfin，安装完成打开;
 
 ![img](./advanced/advanced2.jpg)
 
-#### 4.接着继续输入如下命令并回车运行，创建Jellyfin容器(先别直接复制输入，下方有说明)；
-```
-docker run --restart unless-stopped -d \
-  --device /dev/rpc0:/dev/rpc0 \
-  --device /dev/rpc1:/dev/rpc1 \
-  --device /dev/rpc2:/dev/rpc2 \
-  --device /dev/rpc3:/dev/rpc3 \
-  --device /dev/rpc4:/dev/rpc4 \
-  --device /dev/rpc5:/dev/rpc5 \
-  --device /dev/rpc6:/dev/rpc6 \
-  --device /dev/rpc7:/dev/rpc7 \
-  --device /dev/rpc100:/dev/rpc100 \
-  --device /dev/uio250:/dev/uio250 \
-  --device /dev/uio251:/dev/uio251 \
-  --device /dev/uio252:/dev/uio252 \
-  --device /dev/uio253:/dev/uio253 \
-  --device /dev/ion:/dev/ion \
-  --device /dev/ve3:/dev/ve3 \
-  --device /dev/vpu:/dev/vpu \
-  --device /dev/memalloc:/dev/memalloc \
-  -v /tmp/shm:/dev/shm \
-  -v /sys/class/uio:/sys/class/uio \
-  -v /var/tmp/vowb:/var/tmp/vowb \
-  --pid=host \
-  --dns=172.17.0.1 \
-  -p 8096:8096 \
-  -v /mnt/sda1/jellyfin/config:/config \
-  -v /mnt/sda1:/media \
-  --name jellyfin-rtk \
-  jjm2473/jellyfin-rtk:latest
-```
-
-**说明：**
-
-```
-  -v /mnt/sda1/jellyfin/config:/config \
-  -v /mnt/sda1:/media \
-```  
-/mnt/sda1/jellyfin/config --> Jellyfin的配置以及转码的临时文件夹映射路径，按需修改。
-
-/mnt/sda1 --> Jellyfin媒体文件的映射路径，按需修改。可指定文件夹，例如：/mnt/sda1/videos。
+#### 4.配置Jellyfin(建议先看说明)，配置完成后点击安装：
 
 ![img](./advanced/advanced3.jpg)
 
-#### 5.上面2条命令完成以后，管理界面—Docker—容器，就能看到Jellyfin已经运行起来了；
+**说明：**
+
+* 媒体文件路径：Jellyfin媒体库路径，按需修改。可指定文件夹，例如：/mnt/sda1/media。
+
+* 配置数据路径：Jellyfin的配置路径，默认/root/jellyfin/config，按需修改。
+
+* 转码缓存路径：可不设置，按需修改。例如：/mnt/sda1/jellyfin/cache。
+
+* 端口：默认8096，按需修改。
+
+#### 5.安装Jellyfin完成后，打开Jellyfin，即可进入Jellyfin视界(首次进入需要设置)。
 
 ![img](./advanced/advanced4.jpg)
-
-#### 6.浏览器打开设备对应IP加上8096端口，例如http://192.168.100.1:8096/，即可进入Jellyfin视界。
 
 * #### 配合DDNSTO，可以随时随地远程在线观影哟。
 
@@ -144,7 +109,7 @@ docker run --restart unless-stopped -d \
 
 ![img](./advanced/advanced5.jpg)
 
-#### 7.进入Jellyfin视界后，不要去动硬件加速。
+#### 6.进入Jellyfin视界后，不要去动硬件加速。
 
 #### 因为docker镜像和创建容器命令中已经配置好硬解，所以千万不要去动这个硬件加速设置。
 
