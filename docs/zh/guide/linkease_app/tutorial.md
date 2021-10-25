@@ -140,6 +140,47 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 
 
+
+## Jellyfin播放
+
+**易有云App更新，在“设备”里加入了Jellyfin入口，设备上若安装了jellyfin，直接点击可登录播放。**
+
+![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin1.jpg)
+
+**1.首先要确定绑定了易有云的设备上，已经安装了Jellyfin。**
+
+* Jellyfin不要变更默认8096端口，变了易有云App目前不识别。
+
+* [ARS2设备安装Jellyfin教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#jellyfin硬解) -->
+
+* 其他设备Docker简单安装命令(说明)：[Jellyfin官方教程](https://jellyfin.org/docs/general/administration/installing.html#docker)
+
+/mnt/sda1/jellyfin/config --> Jellyfin的配置路径，按需修改。
+
+/mnt/sda1/media --> Jellyfin媒体库路径，按需修改。
+
+群晖docker安装注意：删除两行路径配置，SSH登录后台，输入“sudo -i”获取临时root权限执行。执行成功后，在Docker中配置路径。
+
+```
+docker run -d --name jellyfin \
+  --restart unless-stopped \
+  --env UID=0 \
+  --env GID=0 \
+  --env GIDLIST=0 \
+  -p 8096:8096 \
+  -v /mnt/sda1/jellyfin/config:/config \
+  -v /mnt/sda1/media:/media \
+  jellyfin/jellyfin
+```
+
+**2.设备绑定易有云存储端，然后登录APP，进入“设备”，点击Jellyfin图标即可进入。**
+
+![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin2.jpg)
+
+![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin3.jpg)
+
+
+
 ## 视频播放
 
 易有云APP直接播放远端(存储端)的视频：
