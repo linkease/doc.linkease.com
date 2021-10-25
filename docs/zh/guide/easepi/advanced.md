@@ -103,9 +103,11 @@ Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），
 
 ![img](./advanced/advanced4.jpg)
 
-* #### 配合DDNSTO，可以随时随地远程在线观影哟。
+* #### 易有云两大拳头产品，助力Jellyfin随时随地远程在线观影。
 
-* #### [远程观影教程](https://doc.linkease.com/zh/guide/ddnsto/scene.html#远程穿透jellyfin) -->
+* #### [DDNSTO远程观影教程](https://doc.linkease.com/zh/guide/ddnsto/scene.html#远程穿透jellyfin) -->
+
+* #### [易有云App远程观影教程](https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#jellyfin播放) -->
 
 ![img](./advanced/advanced5.jpg)
 
