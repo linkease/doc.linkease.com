@@ -16,7 +16,7 @@ description: 部分老版本Windows用户缺少证书无法显示二维码，请
 
 [Let’s Encrypt R3](https://letsencrypt.org/certs/lets-encrypt-r3.pem)
  
-如因证书问题无法现在， 可在github仓库下载
+如因证书问题导致以上链接无法下载， 可在github仓库下载
 https://github.com/linkease/doc.linkease.com/tree/master/cert 
 
 ## 在浏览器内安装
