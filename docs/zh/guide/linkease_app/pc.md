@@ -169,6 +169,9 @@ ps：若是其他能访问WebDAV的APP或者客户端，绑定访问也是一样
 
 1.进入协议转发，点击“添加”，协议类型选择rdp；目标设备，选择已经绑定了此易有云的设备(请确认设备启用RDP)：
 
+* 若被控电脑是windows家庭版，需要特殊处理才能开启RDP。[家庭版开始RDP](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#b-家庭版开启rdp)
+
+
 ![jpg](./tutorial/pc/Forward/4.jpg)
 
 2.目标地址写目标设备的默认地址，本地地址写要转发成的地址，填写完成后，保存。
