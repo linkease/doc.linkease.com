@@ -147,7 +147,7 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 ![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin1.jpg)
 
-**1.首先要确定绑定了易有云的设备上，已经安装了Jellyfin。**
+**1.首先要确定绑定了易有云的设备上，已经安装了Jellyfin；**
 
 * Jellyfin不要变更默认8096端口，变了易有云App目前不识别。
 
@@ -178,6 +178,20 @@ docker run -d --name jellyfin \
 ![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin2.jpg)
 
 ![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin3.jpg)
+
+
+
+## 远程路由
+
+**易有云App更新，在“设备”里加入了远程路由入口，若在路由器上安装绑定了易有云，点击可登录访问。**
+
+![router.jpg](./tutorial/App/router/router1.jpg)
+
+**1.首先确定是路由器(支持OpenWrt、LEDE、梅林等)安装绑定了易有云存储端；**
+
+**2.绑定以后，进入易有云App的“设备”，点击“远程路由”图标即可管理进入路由界面。**
+
+![router.jpg](./tutorial/App/router/router2.jpg)
 
 
 
