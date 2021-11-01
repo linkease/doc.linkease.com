@@ -98,12 +98,23 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
    ![image-20210205000203910](./koolshare_merlin/image-20210205000203910.png)
    
-   注意：若群晖发生下图错误，则必须通过docker安装。
+   * 若群晖发生下图错误，则必须通过docker安装。
          
-   ![image-qunhui0414](./koolshare_merlin/image-qunhui0414.png)
+   ![image-qunhui0414](./koolshare_merlin/image-qunhui0414.jpg)
 
-   PS：Docker安装可以参考下面的"Unraid/爱快/Docker"教程。
+   * Docker安装可以参考下面的[Unraid/爱快/Docker教程](https://doc.linkease.com/zh/guide/ddnsto/koolshare_merlin.html#_7-unraid-爱快-docker)。
+
+   * 群晖系统不要将 “自动将DSM桌面的HTTP连接重定向到HTTPS” 打开。
+
+   DSM6：
    
+   ![dsm](./koolshare_merlin/dsm6.jpg)
+
+   DSM7：
+   ![dsm](./koolshare_merlin/dsm7.jpg)
+	
+	
+ 
 ### 6. 威联通
 
   1.下载对应自己版本的 [QNAP插件](https://fw.koolcenter.com/binary/ddnsto/qnap/)进行手动安装；
@@ -122,8 +133,8 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
 #### 如果安装失败，或者无法配置，请开启 QWEB 服务。
 
-   ![qnap-QWEB](./koolshare_merlin/qnap-qweb.png)
-
+   ![qnap-QWEB](./koolshare_merlin/qnap-qweb.png)  
+   
 ### 7. Unraid/爱快/Docker
 
 **Docker方式安装ddnsto，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
