@@ -119,9 +119,8 @@ module.exports = ctx => ({
                             // 展开状态
                             collapsable: true,
                             sidebarDepth: 2,
-                            children: [
-                                ["", "介绍"],
-                                ["quick", "快速入门"],
+                            children: [ 
+                                ["", "快速入门"],
                                 ["preview", "功能预览"],
                                 ["koolshare_merlin", "详细教程"],
                                 ["Authentication", "身份验证"],
@@ -130,6 +129,7 @@ module.exports = ctx => ({
                                 ["scene", "更多玩法"],
                                 ["opensource", "开源代码"],
                                 ["question", "常见问题"],
+                                ["summary", "介绍"],
                                 // ["about", "联系我们"],
                             ]
                         },
