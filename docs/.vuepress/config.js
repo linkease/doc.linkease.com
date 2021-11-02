@@ -129,7 +129,7 @@ module.exports = ctx => ({
                                 ["scene", "更多玩法"],
                                 ["opensource", "开源代码"],
                                 ["question", "常见问题"],
-                                ["summary", "介绍"],
+                                ["summary", "关于DDNSTO"],
                                 // ["about", "联系我们"],
                             ]
                         },
