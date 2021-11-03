@@ -149,6 +149,8 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 **1.首先要确定绑定了易有云的设备上，已经安装了Jellyfin；**
 
+* 硬路由不支持安装Jellyfin，软路由(x86、ARM平台)、群晖，Unraid，威联通等NAS可安装。
+
 * Jellyfin不要变更默认8096端口，变了易有云App目前不识别。
 
 * [ARS2设备安装Jellyfin教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#jellyfin硬解) -->
