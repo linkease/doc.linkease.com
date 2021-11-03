@@ -161,7 +161,7 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 /mnt/sda1/media --> Jellyfin媒体库路径，按需修改。
 
-群晖docker安装注意：删除两行路径配置，SSH登录后台，输入“sudo -i”获取临时root权限执行。执行成功后，在Docker中配置路径。
+* 群晖等NAS注意自己硬盘的挂载路径，可能需要“sudo -i”获取临时root权限再执行docker安装。
 
 ```
 docker run -d --name jellyfin \
