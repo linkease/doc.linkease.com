@@ -149,6 +149,8 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 * 长按“Jellyfin”图标可更改地址哟。
 
+![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin0.jpg)
+
 **1.首先要确定绑定了易有云的设备上，已经安装了Jellyfin；**
 
 * 硬路由不支持安装Jellyfin，软路由(x86、ARM平台)、群晖，Unraid，威联通等NAS可安装。
@@ -190,6 +192,8 @@ docker run -d --name jellyfin \
 ![router.jpg](./tutorial/App/router/router1.jpg)
 
 * 长按“远程路由”图标可更改地址哟。
+
+![router.jpg](./tutorial/App/router/router0.jpg)
 
 **1.首先确定是路由器(支持OpenWrt、LEDE、梅林等)安装绑定了易有云存储端；**
 
