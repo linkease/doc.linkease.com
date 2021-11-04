@@ -147,11 +147,11 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 ![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin1.jpg)
 
+* 长按“Jellyfin”图标可更改地址哟。
+
 **1.首先要确定绑定了易有云的设备上，已经安装了Jellyfin；**
 
 * 硬路由不支持安装Jellyfin，软路由(x86、ARM平台)、群晖，Unraid，威联通等NAS可安装。
-
-* Jellyfin不要变更默认8096端口，变了易有云App目前不识别。
 
 * [ARS2设备安装Jellyfin教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#jellyfin硬解) -->
 
@@ -188,6 +188,8 @@ docker run -d --name jellyfin \
 **易有云App更新，在“设备”里加入了远程路由入口，若在路由器上安装绑定了易有云，点击可登录访问。**
 
 ![router.jpg](./tutorial/App/router/router1.jpg)
+
+* 长按“远程路由”图标可更改地址哟。
 
 **1.首先确定是路由器(支持OpenWrt、LEDE、梅林等)安装绑定了易有云存储端；**
 
