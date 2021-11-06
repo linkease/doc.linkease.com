@@ -380,6 +380,8 @@ port：端口，一般不需要设置，默认即可。
 
 ![jpg](./tutorial/App/agreement/7.jpg)
 
+![jpg](./tutorial/App/agreement/8.jpg)
+
 ### S3
 
 TODO
