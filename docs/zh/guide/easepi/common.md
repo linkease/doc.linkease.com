@@ -247,7 +247,7 @@ ARS2上挂载了硬盘，然后通过Samba协议共享出去，在局域网内�
 
 ![common](./common/smb2.jpg)
 
-3.上面设置好以后，保存应用。然后就可以通过局域网内其他设备访问了，比如电脑：
+3.Samba配置完成且已经运行，其他设备可通过Samba协议访问ARS2。比如电脑：
 
 打开电脑的资源管理器，输入：
 
@@ -258,10 +258,47 @@ ps：演示机ARS2的IP是192.168.2.100，根据实际情况填写IP。
 
 ![common](./common/smb3.jpg)
 
-然后回车就看到samba共享出来的硬盘sda了。
+然后回车就看到samba共享出来的硬盘sda1了。
 
 ![common](./common/smb4.jpg)
 
+
+
+## WebDav共享
+
+可在ARS2上开启WebDav服务端，通过此协议把ARS2上的磁盘空间共享出去，方便访问。
+
+1.首先从iStore中安装GO-WebDav；
+
+![common](./common/webdav1.jpg)
+
+2.安装完成后打开GO-WebDav，开始配置：
+```
+勾选“启用”
+
+监听端口：WebDav的访问端口，按需修改
+
+用户名/密码：其他设备通过WebDav访问ARS2需要输入的用户名和密码，按需修改
+
+开放目录：其他设备能通过WebDav访问ARS2的目录，默认/mnt，即为硬盘挂载路径，按需修改
+
+允许从外网访问：若要外网穿透访问，建议开启
+
+其他设置按需修改
+```
+![common](./common/webdav2.jpg)
+
+3.GO-WebDav配置完成且已经运行，其他设备可通过WebDav协议访问ARS2。比如电脑：
+
+浏览器输入ARS2网关和WebDav访问端口(如：http://192.168.2.3:6086/)，弹出密码框，输入即可访问：
+
+![common](./common/webdav3.jpg)
+
+然后回车就看到/mnt下的硬盘sda1了。
+
+![common](./common/webdav4.jpg)
+
+* #### 可配合易有云App远程WebDav访问ARS2哟。[访问教程](https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#web-dav)
 
 
 
