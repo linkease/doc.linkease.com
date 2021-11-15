@@ -12,7 +12,7 @@ DDNSTO在保护用户数据安全同时也要避免恶意分享不良内容带�
 
 PS：这是最原始的方法，如果是纯手机端操作，很不方便，那么就说到第二种方法了。
 
-#### B.易有云APP——验证DDNSTO。[易有云下载地址](https://www.ddnsto.com/linkease/download/#/)
+#### B.易有云APP——验证DDNSTO。[易有云下载地址](https://doc.linkease.com/downloads/)
 
 |平台|支持验证DDNSTO的版本|
 | :----: | :----: |

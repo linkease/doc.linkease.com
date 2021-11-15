@@ -386,4 +386,4 @@ ps：若是其他能访问WebDAV的APP或者客户端，绑定访问也是一样
 
 ![up.jpg](./tutorial/pc/update/up.jpg)
 
-**3.也可以点击下载更新易有云客户端。** [客户端下载](https://www.ddnsto.com/linkease/download/)
+**3.也可以点击下载更新易有云客户端。** [客户端下载](https://doc.linkease.com/downloads/)
