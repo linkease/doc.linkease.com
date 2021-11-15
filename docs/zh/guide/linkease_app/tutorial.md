@@ -140,6 +140,69 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 
 
+
+## Jellyfin播放
+
+**易有云App更新，在“设备”里加入了Jellyfin入口，设备上若安装了jellyfin，直接点击可登录播放。**
+
+![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin1.jpg)
+
+* 长按“Jellyfin”图标可更改地址哟。
+
+![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin0.jpg)
+
+**1.首先要确定绑定了易有云的设备上，已经安装了Jellyfin；**
+
+* 硬路由不支持安装Jellyfin，软路由(x86、ARM平台)、群晖，Unraid，威联通等NAS可安装。
+
+* [ARS2设备安装Jellyfin教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#jellyfin硬解) -->
+
+* 其他设备Docker简单安装命令(说明)：[Jellyfin官方教程](https://jellyfin.org/docs/general/administration/installing.html#docker)
+
+/mnt/sda1/jellyfin/config --> Jellyfin的配置路径，按需修改。
+
+/mnt/sda1/media --> Jellyfin媒体库路径，按需修改。
+
+* 群晖等NAS注意自己硬盘的挂载路径，可能需要“sudo -i”获取临时root权限再执行docker安装。
+
+```
+docker run -d --name jellyfin \
+  --restart unless-stopped \
+  --env UID=0 \
+  --env GID=0 \
+  --env GIDLIST=0 \
+  -p 8096:8096 \
+  -v /mnt/sda1/jellyfin/config:/config \
+  -v /mnt/sda1/media:/media \
+  jellyfin/jellyfin
+```
+
+**2.设备绑定易有云存储端，然后登录APP，进入“设备”，点击Jellyfin图标即可进入。**
+
+![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin2.jpg)
+
+![Jellyfin.jpg](./tutorial/App/Jellyfin/Jellyfin3.jpg)
+
+
+
+## 远程路由
+
+**易有云App更新，在“设备”里加入了远程路由入口，若在路由器上安装绑定了易有云，点击可登录访问。**
+
+![router.jpg](./tutorial/App/router/router1.jpg)
+
+* 长按“远程路由”图标可更改地址哟。
+
+![router.jpg](./tutorial/App/router/router0.jpg)
+
+**1.首先确定是路由器(支持OpenWrt、LEDE、梅林等)安装绑定了易有云存储端；**
+
+**2.绑定以后，进入易有云App的“设备”，点击“远程路由”图标即可管理进入路由界面。**
+
+![router.jpg](./tutorial/App/router/router2.jpg)
+
+
+
 ## 视频播放
 
 易有云APP直接播放远端(存储端)的视频：
@@ -251,7 +314,8 @@ PS：备份路径，右边先选择设备，左边再选择目录。
 
 ![jpg](./tutorial/App/agreement/1.jpg)
 
-关联设备：若选择了绑定了易有云的设备，即在任何外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
+```
+关联设备：若选择绑定了易有云的设备，外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
 
 设备IP：开启了Samba协议的设备的IP，可以进入“选择”界面选择，也可以直接输入IP。
 
@@ -264,6 +328,7 @@ port：端口，一般不需要设置，默认即可。
 设备名称：可随意设置。
 
 目标路径：选择Samba设备的磁盘。
+```
 
 #### 2.回到APP首页，就能看到刚刚添加的协议图标，点击进入即可管理。
 
@@ -275,7 +340,8 @@ port：端口，一般不需要设置，默认即可。
 
 ![jpg](./tutorial/App/agreement/3.jpg)
 
-关联设备：若选择了绑定了易有云的设备，即在任何外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
+```
+关联设备：若选择绑定了易有云的设备，外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
 
 设备IP：开启了SFTP协议的设备的IP，手动输入。
 
@@ -284,6 +350,7 @@ port：端口，一般不需要设置，默认即可。
 设备别称：可随意设置。
 
 用户名称和密码：SFTP设备的用户名和密码。
+```
 
 #### 2.回到APP首页，就能看到刚刚添加的协议图标，点击进入即可管理。
 
@@ -295,17 +362,25 @@ port：端口，一般不需要设置，默认即可。
 
 ![jpg](./tutorial/App/agreement/5.jpg)
 
-关联设备：若选择了绑定了易有云的设备，即在任何外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
+```
+关联设备：若选择绑定了易有云的设备，外网都能访问；若不关联设备，仅在设备所在局域网内能访问。
 
-服务器url：WebDAV服务器的地址。
+服务器url：WebDAV服务器的地址。若不是url，是ip+端口，就如实写，例如：192.168.2.3:6086。
 
 设备别称：可随意设置。
 
 用户名称和密码：WebDAV设置的用户名和密码。
+```
+
+* 例如webdav服务是ip+端口形式：
+
+![jpg](./tutorial/App/agreement/6.jpg)
 
 #### 2.回到APP首页，就能看到刚刚添加的协议图标，点击进入即可管理。
 
-![jpg](./tutorial/App/agreement/6.jpg)
+![jpg](./tutorial/App/agreement/7.jpg)
+
+![jpg](./tutorial/App/agreement/8.jpg)
 
 ### S3
 

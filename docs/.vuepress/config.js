@@ -13,10 +13,13 @@ module.exports = ctx => ({
         }
     },
     // 站点标题
-    title: '易有云 远程文件管理',
+    title: '易有云 远程文件管理 文档中心',
     // 网站的描述
     description: 'DDNSTO 内网穿透 设备原理 远程下载 远程开机 远程桌面 远程文件管理',
     head: [
+        [
+            'script', { src: "/script/google-analytics.js" }
+        ],
         [
             'link', { rel: 'icon', href: '/favicon.ico' }
         ]
@@ -46,7 +49,7 @@ module.exports = ctx => ({
                     {
                         text: '指南', link: '/zh/guide/linkease/', items: [
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
-                            { text: '易有云客户端', link: '/zh/guide/linkease_app/' },
+                            { text: '易有云APP', link: '/zh/guide/linkease_app/' },
                             { text: '易有云存储端', link: '/zh/guide/linkease_storage/' },
                             { text: 'iStore', link: '/zh/guide/istore/' },
                             { text: 'EasePi', link: '/zh/guide/easepi/' },
@@ -72,7 +75,7 @@ module.exports = ctx => ({
                 sidebar: {
                     '/zh/guide/linkease_storage/': [
                         {
-                            title: "使用指南",
+                            title: "易有云存储端",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -90,7 +93,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/linkease_app/': [
                         {
-                            title: "使用指南",
+                            title: "易有云APP",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -110,15 +113,14 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/ddnsto/': [
                         {
-                            title: "使用指南",
+                            title: "DDNSTO",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
                             collapsable: true,
                             sidebarDepth: 2,
-                            children: [
-                                ["", "介绍"],
-                                ["quick", "快速入门"],
+                            children: [ 
+                                ["", "快速入门"],
                                 ["preview", "功能预览"],
                                 ["koolshare_merlin", "详细教程"],
                                 ["Authentication", "身份验证"],
@@ -127,13 +129,14 @@ module.exports = ctx => ({
                                 ["scene", "更多玩法"],
                                 ["opensource", "开源代码"],
                                 ["question", "常见问题"],
+                                ["summary", "关于DDNSTO"],
                                 // ["about", "联系我们"],
                             ]
                         },
                     ],
                     '/zh/guide/easepi/': [
                         {
-                            title: "使用指南",
+                            title: "EasePi",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -141,10 +144,10 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "产品介绍"],
-                                ["quick", "快速使用"],
+                                {title:"开始", collapsable: false, children: [["case", "组装"], ["quick", "配置"]]},
                                 ["common", "基础玩法"],
                                 ["advanced", "高阶玩法"],
-                                ["opensource", "固件开源"],
+                                ["opensource", "固件DIY"],
                                 ["question", "常见问题"],
                                 // ["about", "联系我们"],
                             ]
@@ -152,7 +155,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/istore/': [
                         {
-                            title: "使用指南",
+                            title: "iStore",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态

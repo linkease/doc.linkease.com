@@ -3,28 +3,264 @@
   guideList:
     - id: 1
       type: link
-      tagName: 热门推荐
-      title: 易有云2.0介绍
-      update: '2021-01-01 12:00:00'
-      description: 帮用户解决：流媒体数据越来越多，而存储、管理、备份的难度越来越大的矛盾。
-      cover: 'http://cover.png'
-      link: 'https://www.linkease.com/zh/guide/linkease#%E6%98%93%E6%9C%89%E4%BA%912-0%E4%BB%8B%E7%BB%8D'
-    - id: 2
+      tagName: 易有云
+      title: 易有云APP 超级文件管理 全平台支持
+      update: '2021-09-01'
+      description: 打造属于你自己家庭的信息存储、读取、备份及管理中心，为你提供一个极易上手、数据永不丢失的全平台私有云服务。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/#%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BB%8B%E7%BB%8D'
+    - id: 1
       type: link
-      tagName: 场景使用
-      title: 客户端安装
-      update: '2021-01-01 12:00:00'
-      description: 点击连接，可下载易有云客户端，目前支持
-      cover: 'https://www.linkease.com/assets/img/client.78abe62a.jpg'
-      link: 'https://www.ddnsto.com/linkease/download/'
+      tagName: 易有云
+      title: 如何轻松搭建属于自己的私有云
+      update: '2021-09-01'
+      description: 一台路由器、一个硬盘或U盘，然后安装易有云软件后即可获得:基础NAS功能、跨平台文件管理、享受点对点的极速传输。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_server/store.html#'
+    - id: 1
+      type: link
+      tagName: 易有云
+      title: 免扫码验证DDNSTO
+      update: '2021-09-01'
+      description: 怎么使用易有云APP免扫码验证DDNSTO？
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/ddnsto/Authentication.html'
+    - id: 1
+      type: link
+      tagName: 易有云
+      title: 相册备份
+      update: '2021-09-01'
+      description: ⼀键备份、⽅便简单，释放你的手机空间，保证你的数据永不丢失，让易有云保护你的家庭回忆。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E7%9B%B8%E5%86%8C%E5%A4%87%E4%BB%BD'
+    - id: 1
+      type: link
+      tagName: 易有云
+      title: 远程下载
+      update: '2021-01-01'
+      description: 无论你在哪⾥，易有云支持在外网环境下随时下载影音资源到你的私有云里，高速在线观看。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD'
+    - id: 1
+      type: link
+      tagName: EasePi
+      title: EasePi ARS2介绍
+      update: '2021-10-01'
+      description: EasePi ARS2由KoolShare@小宝带领的易有云团队推出的基于 RTD1296 处理器且带存储的软路由开发板。一款兼顾软路由和 NAS，支持流媒体硬件解码，功耗又低的网络神器。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/easepi/#easepi%E4%BB%8B%E7%BB%8D'
+    - id: 1
+      type: link
+      tagName: EasePi
+      title: 如何配置成软路由
+      update: '2021-10-01'
+      description: EasePi设备，出厂自带了定制的Openwrt路由系统，可以开箱即用。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/easepi/quick.html#_2-%E5%BC%80%E6%9C%BA'
+    - id: 1
+      type: link
+      tagName: EasePi
+      title: 如何开启NAS功能
+      update: '2021-10-01'
+      description: EasePi默认系统已经内置易有云(NAS插件)存储端，还有配套的APP和PC客户端。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/easepi/common.html#%E5%8F%98%E8%BA%ABnas'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 共享设备
+      update: '2021-09-01'
+      description: 管理员如何共享设备？只有管理员才能主动分享设备，每台设备最多可邀请多位成员共享。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%85%B1%E4%BA%AB%E8%AE%BE%E5%A4%87'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 相册备份
+      update: '2021-09-01'
+      description: 自动备份手机相册，不再担心手机内存的不⾜，让你⼀年365天畅心保留家庭的记忆。随时随地查看照片。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E7%9B%B8%E5%86%8C%E5%A4%87%E4%BB%BD'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 远程下载
+      update: '2021-09-01'
+      description: 无论你在哪⾥，易有云支持在外网环境下随时下载影音资源到你的私有云里，高速在线观看。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 微信互传
+      update: '2021-09-01'
+      description: 如何实现文件在微信与易有云之间的互传（iOS）？
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%BE%AE%E4%BF%A1%E4%BA%92%E4%BC%A0'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 易有云APP协议访问
+      update: '2021-09-01'
+      description: 易有APP支持多种协议访问，SAMBA、SFTP、WebDAV、S3等。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%8D%8F%E8%AE%AE%E8%AE%BF%E9%97%AE'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 目录设置
+      update: '2021-09-01'
+      description: 管理员如何设置设备上的目录？
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE'
+    - id: 1
+      type: link
+      tagName: 常见问题
+      title: 删除设备后，如何找回设备套餐？
+      update: '2021-09-01'
+      description: 在设备列表页面，切换未购买套餐的设备。在出现的购买套餐提示弹窗上，点击“查看详情”，进入设备套餐页面...
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/question.html#q-%E5%88%A0%E9%99%A4%E8%AE%BE%E5%A4%87%E5%90%8E-%E5%A6%82%E4%BD%95%E6%89%BE%E5%9B%9E%E8%AE%BE%E5%A4%87%E5%A5%97%E9%A4%90'
 - id: 2
   tagName: 热门推荐
   guideList:
     - id: 1
       type: link
-      tagName: 热门推荐
-      title: 易有云2.0介绍
-      update: '2021-01-01 12:00:00'
-      description: 帮用户解决：流媒体数据越来越多，而存储、管理、备份的难度越来越大的矛盾。
-      cover: 'http://cover.png'
-      link: 'https://www.linkease.com/zh/guidelinkease/#%E6%98%93%E6%9C%89%E4%BA%912-0%E4%BB%8B%E7%BB%8D'
+      tagName: 易有云
+      title: 易有云APP 超级文件管理 全平台支持
+      update: '2021-09-01'
+      description: 打造属于你自己家庭的信息存储、读取、备份及管理中心，为你提供一个极易上手、数据永不丢失的全平台私有云服务。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/#%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BB%8B%E7%BB%8D'
+    - id: 1
+      type: link
+      tagName: 易有云
+      title: 如何轻松搭建属于自己的私有云
+      update: '2021-09-01'
+      description: 一台路由器、一个硬盘或U盘，然后安装易有云软件后即可获得:基础NAS功能、跨平台文件管理、享受点对点的极速传输。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_server/store.html#'
+    - id: 1
+      type: link
+      tagName: 易有云
+      title: 免扫码验证DDNSTO
+      update: '2021-09-01'
+      description: 怎么使用易有云APP免扫码验证DDNSTO？
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/ddnsto/Authentication.html'
+    - id: 1
+      type: link
+      tagName: 易有云
+      title: 相册备份
+      update: '2021-09-01'
+      description: ⼀键备份、⽅便简单，释放你的手机空间，保证你的数据永不丢失，让易有云保护你的家庭回忆。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E7%9B%B8%E5%86%8C%E5%A4%87%E4%BB%BD'
+    - id: 1
+      type: link
+      tagName: 易有云
+      title: 远程下载
+      update: '2021-01-01'
+      description: 无论你在哪⾥，易有云支持在外网环境下随时下载影音资源到你的私有云里，高速在线观看。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD'
+- id: 3
+  tagName: 场景使用
+  guideList:
+    - id: 1
+      type: link
+      tagName: 易有云
+      title: 相册备份
+      update: '2021-01-01'
+      description: ⼀键备份、⽅便简单，释放你的手机空间，保证你的数据永不丢失，让易有云保护你的家庭回忆。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/#%E5%AE%A2%E6%88%B7%E7%AB%AF%E4%BB%8B%E7%BB%8D'
+- id: 4
+  tagName: EasePi教程
+  guideList:
+    - id: 1
+      type: link
+      tagName: EasePi
+      title: EasePi ARS2介绍
+      update: '2021-10-01'
+      description: EasePi ARS2由KoolShare@小宝带领的易有云团队推出的基于 RTD1296 处理器且带存储的软路由开发板。一款兼顾软路由和 NAS，支持流媒体硬件解码，功耗又低的网络神器。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/easepi/#easepi%E4%BB%8B%E7%BB%8D'
+    - id: 1
+      type: link
+      tagName: EasePi
+      title: 如何配置成软路由
+      update: '2021-10-01'
+      description: EasePi设备，出厂自带了定制的Openwrt路由系统，可以开箱即用。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/easepi/quick.html#_2-%E5%BC%80%E6%9C%BA'
+    - id: 1
+      type: link
+      tagName: EasePi
+      title: 如何开启NAS功能
+      update: '2021-10-01'
+      description: EasePi默认系统已经内置易有云(NAS插件)存储端，还有配套的APP和PC客户端。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/easepi/common.html#%E5%8F%98%E8%BA%ABnas'
+- id: 5
+  tagName: 基础教程
+  guideList:
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 共享设备
+      update: '2021-09-01'
+      description: 管理员如何共享设备？只有管理员才能主动分享设备，每台设备最多可邀请多位成员共享。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%85%B1%E4%BA%AB%E8%AE%BE%E5%A4%87'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 相册备份
+      update: '2021-09-01'
+      description: 自动备份手机相册，不再担心手机内存的不⾜，让你⼀年365天畅心保留家庭的记忆。随时随地查看照片。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E7%9B%B8%E5%86%8C%E5%A4%87%E4%BB%BD'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 远程下载
+      update: '2021-09-01'
+      description: 无论你在哪⾥，易有云支持在外网环境下随时下载影音资源到你的私有云里，高速在线观看。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 微信互传
+      update: '2021-09-01'
+      description: 如何实现文件在微信与易有云之间的互传（iOS）？
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%BE%AE%E4%BF%A1%E4%BA%92%E4%BC%A0'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 易有云APP协议访问
+      update: '2021-09-01'
+      description: 易有APP支持多种协议访问，SAMBA、SFTP、WebDAV、S3等。
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%8D%8F%E8%AE%AE%E8%AE%BF%E9%97%AE'
+    - id: 1
+      type: link
+      tagName: 基础教程
+      title: 目录设置
+      update: '2021-09-01'
+      description: 管理员如何设置设备上的目录？
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE'
+- id: 6
+  tagName: 常见问题
+  guideList:
+    - id: 1
+      type: link
+      tagName: 常见问题
+      title: 删除设备后，如何找回设备套餐？
+      update: '2021-09-01'
+      description: 在设备列表页面，切换未购买套餐的设备。在出现的购买套餐提示弹窗上，点击“查看详情”，进入设备套餐页面...
+      cover: ''
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/question.html#q-%E5%88%A0%E9%99%A4%E8%AE%BE%E5%A4%87%E5%90%8E-%E5%A6%82%E4%BD%95%E6%89%BE%E5%9B%9E%E8%AE%BE%E5%A4%87%E5%A5%97%E9%A4%90'

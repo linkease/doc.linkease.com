@@ -1,21 +1,21 @@
 - id: 1
   type: link
-  title: 客户端安装
-  update: '2021-01-01 12:00:00'
-  description: 客户端下载
-  cover: 'https://www.linkease.com/assets/img/client.78abe62a.jpg'
-  link: 'http://www.linkease.com/'
+  title: 易有云APP 超级文件管理 全平台支持
+  update: '2021-9-01'
+  description: 打造属于你自己家庭的信息存储、读取、备份及管理中心，为你提供一个极易上手、数据永不丢失的全平台私有云服务。
+  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner1.png'
+  link: 'https://doc.linkease.com/zh/guide/linkease_app/'
 - id: 2
-  type: video
-  title: 客户端安装
-  update: '2021-01-01 12:00:00'
-  description: 客户端下载
-  cover: 'https://www.linkease.com/assets/img/client.78abe62a.jpg'
-  link: 'http://www.linkease.com/'
+  type: link
+  title: 如何轻松搭建属于自己的私有云
+  update: '2021-09-01'
+  description: 一台路由器、一个硬盘或U盘，然后安装易有云软件后即可获得:基础NAS功能、跨平台文件管理、享受点对点的极速传输。
+  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner2.png'
+  link: 'https://doc.linkease.com/zh/guide/linkease_server/store.html#'
 - id: 3
-  type: video
-  title: 客户端安装
-  update: '2021-01-01 12:00:00'
-  description: 客户端下载
-  cover: 'https://www.linkease.com/assets/img/client.78abe62a.jpg'
-  link: 'http://www.linkease.com/'
+  type: link
+  title: 免扫码验证DDNSTO
+  update: '2021-09-01'
+  description: 怎么使用易有云APP免扫码验证DDNSTO？
+  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner3.png'
+  link: 'https://doc.linkease.com/zh/guide/ddnsto/Authentication.html'

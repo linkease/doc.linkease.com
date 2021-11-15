@@ -263,11 +263,11 @@ TODO
 
 1.Win11：设置——系统——远程桌面——启用
 
-  ![Windows远程](./cloudapp/cloudapp-rdp0.jpeg)
+  ![Windows远程](./cloudapp/cloudapp-rdp0.jpg)
 
 2.Win10：设置——系统——远程桌面——启用远程桌面  
 
-  ![Windows远程](./cloudapp/cloudapp-rdp1.jpeg)
+  ![Windows远程](./cloudapp/cloudapp-rdp1.jpg)
 
 3.Win7：右键我的电脑——属性——左边侧栏高级系统设置——远程，在下方“远程桌面”方框下勾选“允许远程连接到此计算机”
   
@@ -276,124 +276,72 @@ TODO
   
 ### B.家庭版开启RDP
 
-**Windows家庭版是无法直接开启电脑的RDP，所以我们要用到别的工具。**
+**Windows家庭版是无法直接开启电脑的RDP，所以需要借助工具。**
 
-1.首先，进入网站：https://github.com/stascorp/rdpwrap/releases [点击进入](https://github.com/stascorp/rdpwrap/releases)
+1.首先，需要安装SuperRDP
+ [点击进入下载](https://github.com/anhkgg/SuperRDP/releases)；
 
-  ![Windows远程](./cloudapp/rdp/1.jpg)
+  ![Windows远程](./cloudapp/rdp/rdp1.jpg)
 
-2.下载RDPWrap-v1.6.2.zip到电脑，解压。
+2.下载后解压，运行SuperRDP.exe(需管理员权限)；
 
-3.打开工具解压目录，运行install.bat，会自动弹出窗口安装完成。
-
-  ![Windows远程](./cloudapp/rdp/2.jpg)
+  ![Windows远程](./cloudapp/rdp/rdp2.jpg)
   
-  ![Windows远程](./cloudapp/rdp/3.jpg)
-
-  ![Windows远程](./cloudapp/rdp/4.jpg)
-
-4.然后运行RDPConf.exe，看成功没。
-
-这样就是没成功，继续看后面的教程修复。
+运行后，根据提示选择1(安装)即可。
   
-  ![Windows远程](./cloudapp/rdp/5.jpg)
+  ![Windows远程](./cloudapp/rdp/rdp3.jpg)
 
-这样就成功了，可以去**C.开始设置**。 
-  ![Windows远程](./cloudapp/rdp/55.jpg) 
+3. 验证远程桌面服务是否成功。
 
-  
-**开始修复教程：**
+* Win+R，输入 mstsc.exe 启动远程桌面程序；
 
-1. 先点击uninstall.bat，卸载之前的操作。 
-  
-  ![Windows远程](./cloudapp/rdp/6.jpg)
-  
-  ![Windows远程](./cloudapp/rdp/7.jpg)
-  
-2. 打开：https://github.com/stascorp/rdpwrap/issues/1447 [点击进入](https://github.com/stascorp/rdpwrap/issues/1447)，下载rdpwrap.ini文件，替换到工具目录。
+* 输入127.0.0.1，连接成功基本验证服务启用成功。
 
-  ![Windows远程](./cloudapp/rdp/8.jpg)
-
-出现这个界面，直接右键另存为。
-  
-  ![Windows远程](./cloudapp/rdp/9.jpg)  
-  
-  ![Windows远程](./cloudapp/rdp/10.jpg)
-
-选择“是”，直接替换到工具包解压文件夹内。
-  
-  ![Windows远程](./cloudapp/rdp/11.jpg)    
-
-3.win键+R键，调出运行窗口，输入cmd，确定。
-
-  ![Windows远程](./cloudapp/rdp/12.jpg)  
-
-4.cd到工具解压包的路径，回车。
-  ![Windows远程](./cloudapp/rdp/13.jpg)
-
-5.输入以下命令进行安装。
-```
-RDPWInst.exe -i rdpwrap.ini
-```
-  
-  ![Windows远程](./cloudapp/rdp/14.jpg)  
-
-6.安装完成后，再次运行RDPConf.exe，已经成功了，然后就可以继续下一步设置了。 
-
-  ![Windows远程](./cloudapp/rdp/55.jpg)   
+  ![Windows远程](./cloudapp/rdp/rdp4.jpg)
   
 
 ### C.开始设置  
   
 1.查看被控制的电脑的IP和用户名/密码。
 
-“开始键+R”一起按，出来窗口输入“cmd”回车，出来终端窗口，输入“ipconfig”回车；
+* 查看IP：控制面板——网络和Internet——网络共享中心，点击“连接”，出来弹窗点击“详细信息”——IPv4地址。
 
-  ![Windows远程](./cloudapp/cloudapp-rdp3.jpeg)
+ps：查看IP方法很多，不一定是这一种。
 
-  ![Windows远程](./cloudapp/cloudapp-rdp4.jpeg)
+  ![Windows远程](./cloudapp/cloudapp-rdp3.jpg)
 
-确定被控电脑是以太网(网线接入)还是WLAN(WiFi)，找到ip地址，记住。(查看IP方法很多，不一定是这一种)  
-  
-  ![Windows远程](./cloudapp/cloudapp-rdp5.jpeg)
 
-用户名和密码：控制面板——用户账户——用户账户，能看到当前的用户名，密码是自己设置的。
+* 查看用户名：控制面板——用户账户——用户账户，能看到用户名，密码自己设定的。
 
-PS：某些Win10用户是用的微软帐号，没启用本地帐号，那么就使用微软帐号和密码。
+PS：某些用户是用的微软帐号，没启用本地帐号，那么就使用微软帐号和密码。
 
-或者简单点：开机登录的时候，显示的就是用户名。
+或者简单点：电脑开机登录的时候，显示的用户名和要输入的密码。
 
-   ![Windows远程](./cloudapp/cloudapp-rdp6.jpeg) 
+   ![Windows远程](./cloudapp/cloudapp-rdp4.jpg) 
  
 2.在ddnsto可用应用列表中点击添加远程RDP，填入被控电脑的IP，用户名，密码等信息。
 
-   ![Windows远程](./cloudapp/cloudapp-rdp7.jpeg) 
+   ![Windows远程](./cloudapp/cloudapp-rdp5.jpg) 
    
 3.在已添加中找到刚添加的远程RDP，点击即可进入进入RDP，操控远程电脑。 
 
-   ![Windows远程](./cloudapp/cloudapp-rdp8.jpeg)  
+   ![Windows远程](./cloudapp/cloudapp-rdp6.jpg)  
    
 4.相关提醒：
 
-  a.被控电脑必须是在设置好穿透(ddnsto)的网络设备下
+* 被控电脑必须联网且是在设置好穿透(DDNSTO)的网络下；
   
-  PS：比如我路由器上设置好了ddnsto，我电脑是连接的我的路由器上网的
+ps：假如想远程朋友的电脑，朋友的电脑只是联网，没DDNSTO，那么是不可控的。
   
-  如果是你想控制你朋友的电脑，而你朋友的电脑就是普通的接入网络，也没ddnsto，那么是不可控的
-  
-  b.被控电脑必须是开机状态，且没进入休眠状态
-
-  c.确保被控电脑接入网络，且网络是通畅的
+* 被控电脑必须是开机状态，且没进入休眠状态。
   
   
 ## 5.玩转远程VNC
-1.VNC服务端下载、安装、配置。
-
-https://www.realvnc.com/en/connect/download/vnc/
+1.VNC服务端下载、安装、配置。例如：[安装RealVNC](https://www.realvnc.com/en/connect/download/vnc/)
 
    ![Linux-VNC](./cloudapp/cloudapp-vnc1.jpeg)  
 
-2.而ddnsto的远程VNC，充当VNC Viewer，写好参数，就能远程了。
+2.而DDNSTO的远程VNC，充当VNC Viewer，写好参数，就能远程了。
  
    ![Linux-VNC](./cloudapp/cloudapp-vnc2.jpeg)  
 

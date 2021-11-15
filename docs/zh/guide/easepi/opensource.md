@@ -2,7 +2,7 @@
 
 **建议有动手能力的伙伴们去自行DIY，也可以直接用官方提供的稳定固件。**
 
-自定义OpenWrt固件，先去开源地址：[ImageBuilder+SDK](https://fw.koolcenter.com/binary/ars2/) 下载ImageBuilder和SDK。
+自定义OpenWrt固件，先下载[ImageBuilder和SDK](https://fw.koolcenter.com/binary/ars2/) 。
 
 
 1.准备好安装Debian10 x64或者ubuntu等Linux发行版的电脑或虚拟机；
@@ -27,10 +27,19 @@ make image PROFILE=ars2
 
 #### 扩展说明
 
-1.如果需要控制打包到固件中的软件包，可以在make image时使用PACKAGES参数，例如想要增加luci-app-passwall，并删除luci-app-ttyd，则执行：
+1.如果需要控制打包到固件中的软件包，可以在make image时使用PACKAGES参数：
+
+* 例如增加：luci-theme-argon，并删除luci-app-ttyd，则执行：
 ```
-make image PROFILE=ars2 PACKAGES="luci-app-passwall -luci-app-ttyd -luci-i18n-ttyd-zh-cn"
+make image PROFILE=ars2 PACKAGES="luci-theme-argon -luci-app-ttyd -luci-i18n-ttyd-zh-cn"
 ```
+
+* 假如有中文包：luci-app-argon-config、luci-i18n-argon-config-zh-cn，可只写中文包名：
+
+```
+make image PROFILE=ars2 PACKAGES="luci-i18n-argon-config-zh-cn"
+```
+
 
 2.默认的软件源只有ImageBuilder内置的，如果需要增加外部的软件源，可编辑ImageBuilder里的repositories.conf，例如增加Openwrt官方的软件源，则repositories.conf的内容如下:
 ```
@@ -49,6 +58,7 @@ src imagebuilder file:packages
 src lean_base file:///home/build/lean-openwrt/bin/packages/aarch64_cortex-a53/base
 ```
 
+> 更多信息参考OpenWRT官方文档 https://openwrt.org/zh/docs/guide-user/additional-software/imagebuilder
 
 ## 编译插件
 
@@ -84,5 +94,7 @@ make -j8 download V=s  ##下载dl库(科学上网)
 
 比如编译：
 ```
-make package/feeds/nas/luci-app-ddnsto/compile V=99
+make package/luci-app-ddnsto/compile V=99
 ```
+
+> 更多信息参考OpenWRT官方文档 https://openwrt.org/zh/docs/guide-developer/using_the_sdk

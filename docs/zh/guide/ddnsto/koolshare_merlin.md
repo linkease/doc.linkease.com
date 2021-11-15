@@ -1,6 +1,6 @@
 ## 获取Token
 
-1. 打开https://www.ddnsto.com/，点击右上角控制台，微信登录。
+1. 打开[DDNSTO官网](https://www.ddnsto.com/)，点击右上角[控制台](https://www.ddnsto.com/app/#/login)，微信扫码登录。
 
    ![image-20210201221421068](./koolshare_merlin/image-20210201221421068.png)
 
@@ -8,9 +8,15 @@
 
    ![image-20210201221633684](./koolshare_merlin/image-20210201221633684.png)
 
-## 路由器设置 
+## 安装DDNSTO 
 
-### 1. KS梅林固件
+### 1. EasePi
+
+EasePi固件“iStore”应用商店，已默认安装DDNSTO，直接就可使用。
+
+![png](./koolshare_merlin/EasePi.jpg)
+
+### 2. KS梅林固件
    KS梅林固件，在软件中心搜索并安装ddnsto插件。
 
    ![image-20210201222044149](./koolshare_merlin/image-20210201222044149.png)
@@ -19,7 +25,7 @@
 
    ![image-20210201222256261](./koolshare_merlin/image-20210201222256261.png)
 
-### 2. KS LEDE固件  
+### 3. KS LEDE固件  
    KS LEDE固件，在酷软中心搜索并安装ddnsto插件。
 
    ![image-2021022400000001](./koolshare_merlin/image-2021022400000001.png)
@@ -28,7 +34,7 @@
    
    ![image-2021022400000002](./koolshare_merlin/image-2021022400000002.png)
    
-### 3. OpenWrt固件 
+### 4. OpenWrt固件 
    OpenWrt固件开发者众多，部分固件不自带ddnsto，可通过以下任一脚本轻松安装：
 
    via curl
@@ -76,7 +82,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
   
   
-### 4. 群晖固件 
+### 5. 群晖固件 
 
    1.下载对应自己版本的 [synology插件](https://fw.koolcenter.com/binary/ddnsto/synology/)并上传安装；
   
@@ -92,13 +98,24 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
    ![image-20210205000203910](./koolshare_merlin/image-20210205000203910.png)
    
-   注意：若群晖发生下图错误，则必须通过docker安装。
+   * 若群晖发生下图错误，则必须通过docker安装。
          
-   ![image-qunhui0414](./koolshare_merlin/image-qunhui0414.png)
+   ![image-qunhui0414](./koolshare_merlin/image-qunhui0414.jpg)
 
-   PS：Docker安装可以参考下面的"Unraid/爱快/Docker"教程。
+   * Docker安装可以参考下面的[Unraid/爱快/Docker教程](https://doc.linkease.com/zh/guide/ddnsto/koolshare_merlin.html#_7-unraid-爱快-docker)。
+
+   * 群晖系统不要将 “自动将DSM桌面的HTTP连接重定向到HTTPS” 打开。
+
+   DSM6：
    
-### 5. 威联通
+   ![dsm](./koolshare_merlin/dsm6.jpg)
+
+   DSM7：
+   ![dsm](./koolshare_merlin/dsm7.jpg)
+	
+	
+ 
+### 6. 威联通
 
   1.下载对应自己版本的 [QNAP插件](https://fw.koolcenter.com/binary/ddnsto/qnap/)进行手动安装；
 
@@ -116,9 +133,9 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
 #### 如果安装失败，或者无法配置，请开启 QWEB 服务。
 
-   ![qnap-QWEB](./koolshare_merlin/qnap-qweb.png)
-
-### 6. Unraid/爱快/Docker
+   ![qnap-QWEB](./koolshare_merlin/qnap-qweb.png)  
+   
+### 7. Unraid/爱快/Docker
 
 **Docker方式安装ddnsto，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
 
@@ -213,7 +230,7 @@ docker run -d \
 
    ![docker](./koolshare_merlin/docker5.jpeg)
 
-### 7. 老毛子Padavan
+### 8. 老毛子Padavan
    扩展功能-花生壳内网，然后右侧选择ddnsto，启用并设置token。(Ps：某些纯净版的Padavan无法启用)
 
    ![image-2021022400000009](./koolshare_merlin/image-2021022400000009.png)
@@ -224,7 +241,7 @@ docker run -d \
 
   这个问题我还无法联系开发者更换最新版本
 
-### 8. ReadyNAS
+### 9. ReadyNAS
 
 * 支持以下ReadyNAS存储设备：
 
