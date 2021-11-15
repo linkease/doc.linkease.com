@@ -58,7 +58,7 @@ const LinkeaseClient = {
         },
         {
             title: "Android",
-            url: "http://fw.koolcenter.com/binary/LinkEase/Client/linkease.apk",
+            url: "koolcenter.com/binary/LinkEase/Client/linkease.apk",
             qrcode: AndroidQrcode,
         },
         {
