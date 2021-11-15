@@ -9,7 +9,7 @@ import AndroidQrcode from "../.vuepress/public/downloads/android.png"
 
 const LinkeaseStore = {
     title: "易有云存储端",
-    guide: "/zh/guide/linkease_storage/ ",
+    guide: "https://doc.linkease.com/zh/guide/linkease_storage/",
     thumbnail: pic1,
     list: [
         {
@@ -34,7 +34,7 @@ const LinkeaseStore = {
         },
         {
             title: "更多",
-            url: "https://www.ddnsto.com/linkease/download/#/disk",
+            url: "https://doc.linkease.com/zh/guide/linkease_storage/store.html#%E5%90%84%E7%A7%8D%E8%AE%BE%E5%A4%87%E5%AE%89%E8%A3%85%E5%AD%98%E5%82%A8%E7%AB%AF",
         },
     ]
 }
