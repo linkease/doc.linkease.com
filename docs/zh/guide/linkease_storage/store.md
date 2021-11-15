@@ -356,7 +356,7 @@ sudo docker run -d \
 
 ### 11. Windows
 
-**1.点击[存储端下载](https://www.ddnsto.com/linkease/download/#/disk/)，选择Windows存储端下载；**
+**1.点击[存储端下载](https://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip)，选择Windows存储端下载；**
 
 ![win1.jpg](./tutorial/NAS/win/win1.jpg)
 
@@ -380,7 +380,7 @@ sudo docker run -d \
 
 ### 12. macOS
 
-**1.点击[存储端下载](https://www.ddnsto.com/linkease/download/#/disk/)，选择MacOS存储端下载；**
+**1.点击[存储端下载](https://fw.koolcenter.com/binary/LinkEase/Client/LinkEase.dmg)，选择MacOS存储端下载；**
 
 ![mac1.jpg](./tutorial/NAS/macos/mac1.jpg)
 
