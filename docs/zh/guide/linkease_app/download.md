@@ -1,5 +1,5 @@
 ## 客户端安装
-  * [客户端下载](https://www.ddnsto.com/linkease/download/) 
+  * [客户端下载](https://doc.linkease.com/downloads/) 
   
   * 易有云客户端，目前支持：
 
