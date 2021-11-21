@@ -45,11 +45,11 @@ const LinkeaseClient = {
     list: [
         {
             title: "Windows",
-            url: "http://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip",
+            url: "https://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip",
         },
         {
             title: "Mac",
-            url: "http://fw.koolcenter.com/binary/LinkEase/Client/LinkEase.dmg",
+            url: "https://fw.koolcenter.com/binary/LinkEase/Client/LinkEase.dmg",
         },
         {
             title: "iOS",
@@ -63,7 +63,7 @@ const LinkeaseClient = {
         },
         {
             title: "TV",
-            url: "http://fw.koolcenter.com/binary/LinkEase/Client/Android-tv.apk",
+            url: "https://fw.koolcenter.com/binary/LinkEase/Client/Android-tv.apk",
         },
     ]
 }
@@ -86,7 +86,7 @@ const DDNSTO = {
         },
         {
             title: "Readynas",
-            url: "http://fw.koolcenter.com/binary/ddnsto/readynas/",
+            url: "https://fw.koolcenter.com/binary/ddnsto/readynas/",
         },
         {
             title: "脚本/Docker",
