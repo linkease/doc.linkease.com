@@ -87,6 +87,19 @@ EasePi默认系统已经内置易有云(NAS插件)存储端，还有配套的APP
 
 
 
+## 卸载插件
+
+* ARS2系统管理界面，打开系统——软件包，搜索要卸载的插件，查找结果，点击移除就好。
+```
+luci-app-xxx是插件主体，luci-i18n-xxx是语言包，可能还存在依赖，都卸载。
+```
+![common](./common/uninstall1.jpg)
+
+* 若是在iStore应用商店，安装的插件，直接在“已安装”里，点击卸载即可。
+
+![common](./common/uninstall2.jpg)
+
+
 
 ## Aria2下载
 
