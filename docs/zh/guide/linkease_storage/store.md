@@ -252,11 +252,25 @@ TODO
 
 
 
-### 10. Docker
+### 10. Unraid/爱快/铁威马/Docker
 
 **Docker方式安装易有云存储端，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，包括一些Linux发行版等。**
 
-所以说Docker方式基本算是适合全设备，操作也比较简单，下面开始教程：
+* 铁威马：首先在应用中心里安装Docker(TOS 4.0及更高的系统)，然后在控制面板——终端与SNMP——启用SSH访问。然后电脑利用putty、xshell等工具登录终端，然后输入“sudo -i”和密码获取临时ROOT权限，然后进行下面的教程。
+
+* 群晖：在控制面板——终端机与SNMP——启用SSH访问。然后电脑利用putty、xshell等工具登录终端，然后输入“sudo -i”和密码获取临时ROOT权限，然后进行下面的教程。
+
+* Linux发行版：某些Linux系统可能默认不自带Docker，那么就需要终端命令安装Docker：
+
+```
+首先执行：curl -sSL https://get.docker.com/ | sh
+
+上一条命令执行完毕后，执行：sudo chmod 777 /var/run/docker.sock
+```
+Docker安装完成后，进行下面的教程。
+
+
+**Docker安装易有云存储端教程开始：**
 
 **1.终端运行以下命令：(先不要直接复制，看下面的说明)**
 
