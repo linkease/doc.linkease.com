@@ -119,19 +119,19 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
   1.下载对应自己版本的 [QNAP插件](https://fw.koolcenter.com/binary/ddnsto/qnap/)进行手动安装；
 
-  *如果不知道自己的平台，一般来说是 DDNSTO_xxx_x86_64.qpkg
+  * 如果不知道自己的平台，一般来说是 DDNSTO_xxx_x86_64.qpkg
 
    ![qnap-install](./koolshare_merlin/qnap-install.jpeg)
 
-  2.安装好了，要配置：
+  2.安装好了，要配置：TOKEN从官网拿，填入提交就可以了，然后回到官网去配置域名。
 
-  token 从官网拿，填入提交就可以了。然后回到官网去配置域名。
-
-  注意 QNAP 的域名端口是 8080，比如配置内网地址为：http://127.0.0.1:8080。
+  * QNAP的域名端口是8080，比如配置内网地址为：http://127.0.0.1:8080。
+  
+  * **威联通升级新系统后，DDNSTO更换过TOKEN后，需要停用插件后重新开启。**
 
    ![qnap-config](./koolshare_merlin/qnap-config.jpeg)
 
-#### 如果安装失败，或者无法配置，请开启 QWEB 服务。
+  * **如果安装失败，或者无法配置，请开启 QWEB 服务。**
 
    ![qnap-QWEB](./koolshare_merlin/qnap-qweb.png)  
    
