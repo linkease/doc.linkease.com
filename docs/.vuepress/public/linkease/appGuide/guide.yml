@@ -72,7 +72,7 @@
       update: '2021-09-01'
       description: 管理员如何共享设备？只有管理员才能主动分享设备，每台设备最多可邀请多位成员共享。
       cover: ''
-      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%85%B1%E4%BA%AB%E8%AE%BE%E5%A4%87'
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E5%85%B1%E4%BA%AB%E8%AE%BE%E5%A4%87'
     - id: 1
       type: link
       tagName: 基础教程
@@ -96,7 +96,7 @@
       update: '2021-09-01'
       description: 如何实现文件在微信与易有云之间的互传（iOS）？
       cover: ''
-      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%BE%AE%E4%BF%A1%E4%BA%92%E4%BC%A0'
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E5%BE%AE%E4%BF%A1%E4%BA%92%E4%BC%A0'
     - id: 1
       type: link
       tagName: 基础教程
@@ -104,7 +104,7 @@
       update: '2021-09-01'
       description: 易有APP支持多种协议访问，SAMBA、SFTP、WebDAV、S3等。
       cover: ''
-      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%8D%8F%E8%AE%AE%E8%AE%BF%E9%97%AE'
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E5%8D%8F%E8%AE%AE%E8%AE%BF%E9%97%AE'
     - id: 1
       type: link
       tagName: 基础教程
@@ -112,7 +112,7 @@
       update: '2021-09-01'
       description: 管理员如何设置设备上的目录？
       cover: ''
-      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE'
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE'
     - id: 1
       type: link
       tagName: 常见问题
@@ -212,7 +212,7 @@
       update: '2021-09-01'
       description: 管理员如何共享设备？只有管理员才能主动分享设备，每台设备最多可邀请多位成员共享。
       cover: ''
-      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%85%B1%E4%BA%AB%E8%AE%BE%E5%A4%87'
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E5%85%B1%E4%BA%AB%E8%AE%BE%E5%A4%87'
     - id: 1
       type: link
       tagName: 基础教程
@@ -236,7 +236,7 @@
       update: '2021-09-01'
       description: 如何实现文件在微信与易有云之间的互传（iOS）？
       cover: ''
-      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%BE%AE%E4%BF%A1%E4%BA%92%E4%BC%A0'
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E5%BE%AE%E4%BF%A1%E4%BA%92%E4%BC%A0'
     - id: 1
       type: link
       tagName: 基础教程
@@ -244,7 +244,7 @@
       update: '2021-09-01'
       description: 易有APP支持多种协议访问，SAMBA、SFTP、WebDAV、S3等。
       cover: ''
-      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E5%8D%8F%E8%AE%AE%E8%AE%BF%E9%97%AE'
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E5%8D%8F%E8%AE%AE%E8%AE%BF%E9%97%AE'
     - id: 1
       type: link
       tagName: 基础教程
@@ -252,7 +252,7 @@
       update: '2021-09-01'
       description: 管理员如何设置设备上的目录？
       cover: ''
-      link: 'https://doc.linkease.com/zh/guide/linkease_client/tutorial.html#%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE'
+      link: 'https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#%E7%9B%AE%E5%BD%95%E8%AE%BE%E7%BD%AE'
 - id: 6
   tagName: 常见问题
   guideList:
