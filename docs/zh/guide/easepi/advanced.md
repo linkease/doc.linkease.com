@@ -328,25 +328,17 @@ docker run -d --name emqx --restart unless-stopped -p 1883:1883 -p 8081:8081 -p 
 
 ## 内网测速
 
-speedtest-x是基于librespeed的一款优秀轻量的本地内网测速工具。
+HomeBox是一款优秀轻量的本地内网测速工具。
 
-#### 1.Docker拉取speedtest-x镜像并创建容器，进入终端，输入下面的命令并回车运行(先别直接复制输入，下方有说明);
-
-```
-docker run -d --name speedtest-x --restart unless-stopped -p 9999:80 stilleshan/speedtest-x
-```
-
-**说明：**
-
-9999 是http地址的访问端口，可以自行修改。
+#### 1.从iStore安装HomeBox插件；
 
 ![img](./advanced/advanced19.jpg)
 
-#### 2.上面命令完成以后，管理界面—Docker—容器，就能看到speedtest-x已经运行起来了；
+#### 2.安装以后，启用后并“打开HomeBox”；
 
 ![img](./advanced/advanced20.jpg)
 
-#### 3.浏览器打开设备对应IP加上端口，例如http://192.168.100.1:9999/，即可进行内网测速。
+#### 3.在Download(下载)和Upload(上传)项目下，点击“Start”即可进行内网测速。
 
 ![img](./advanced/advanced21.jpg)
 
