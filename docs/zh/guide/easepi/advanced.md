@@ -127,21 +127,7 @@ CloudDrive 是一个将云存储(阿里云盘、115网盘等)服务挂载为本�
 
 #### 现在开始安装CloudDrive：
 
-#### 1.首先为主机中的映射卷启用共享挂载选项，在终端里运行下面的代码：
-```
-mount --make-shared  /mnt/sda1
-```
-
-![img](./advanced/CloudDrive.jpg)
-
-* 路径挂载点为啥是/mnt/sda1，因为前面安装Jellyfin时，/mnt/sda1是Jellyfin的媒体路径，方便操作。若没安装Jellyfin或者不是这个挂载点，按需修改为自己的挂载点路径。
-
-* 然后ARS2管理界面，打开系统——启动项——本地启动脚本(翻到最下面)，将这行代码如图添加进去，然后保存。
-
-![img](./advanced/CloudDrive0.jpg)
-
-
-#### 2.然后安装Docker版CloudDrive，终端运行如下命令(先别直接复制输入，下方有说明)：
+#### 1.安装Docker版CloudDrive，终端运行如下命令(先别直接复制输入，下方有说明)：
 ```
 docker run -d \
   --name clouddrive \
@@ -156,26 +142,29 @@ docker run -d \
 ```
 
 **说明：**
+
+* 路径挂载点按需修改为自己的挂载点路径。
+
+* 若是其他挂载点，比如/mnt/sdb1：
 ```
-  -v /mnt/sda1/CloudNAS/:/CloudNAS:shared \
-  -v /mnt/sda1/CloudNAS/config:/config \
-  -v /mnt/sda1/CloudNAS/media:/media:shared \
+  -v /mnt/sdb1/CloudNAS/:/CloudNAS:shared \
+  -v /mnt/sdb1/CloudNAS/config:/config \
+  -v /mnt/sdb1/CloudNAS/media:/media:shared \
 ```
-这三处的/mnt/sda1必须和第一步里的路径挂载点一致。
 
 ![img](./advanced/CloudDrive1.jpg)
 
-#### 3.上面2条命令完成以后，管理界面—Docker—容器，就能看到CloudDrive已经运行起来了；
+#### 2.上面2条命令完成以后，管理界面—Docker—容器，就能看到CloudDrive已经运行起来了；
 
 ![img](./advanced/CloudDrive2.jpg)
 
-#### 4.浏览器打开设备对应IP加上9798端口，例如http://192.168.100.1:9798/，即可进入CloudDrive界面。
+#### 3.浏览器打开设备对应IP加上9798端口，例如http://192.168.100.1:9798/，即可进入CloudDrive界面。
 
 ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 ![img](./advanced/CloudDrive3.jpg)
 
-#### 5.进入CloudDrive界面后，开始添加网盘帐号(阿里云、115网盘等)。
+#### 4.进入CloudDrive界面后，开始添加网盘帐号(阿里云、115网盘等)。
 
 ![img](./advanced/CloudDrive4.jpg)
 
@@ -183,11 +172,13 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 ![img](./advanced/CloudDrive5.jpg)
 
-#### 6.回到ARS2管理界面，打开系统——挂载点，已经挂载了CloudDrive的盘符CloudFS，挂载点路径是：/mnt/sda1/CloudNAS/CloudDrive，相当于现在ARS2就多了一个CloudFS硬盘；
+#### 5.回到ARS2管理界面，打开系统——挂载点，已经挂载了CloudDrive的盘符CloudFS，挂载点路径是：/mnt/sda1/CloudNAS/CloudDrive，相当于现在ARS2就多了一个CloudFS硬盘；
+
+* 若没出现盘符CloudFS，请升级固件至19.07.8 r11804或者更新版本。
 
 ![img](./advanced/CloudDrive6.jpg)
 
-#### 7.CloudDrive已经挂载到ARS2上，再将/mnt/sda1利用Samba协议共享出去，其余设备就能直接通过Samba协议访问CloudFS硬盘。
+#### 6.CloudDrive已经挂载到ARS2上，再将盘CloudFS利用Samba协议共享出去，其余设备就能直接通过Samba协议访问CloudFS硬盘。
 
 **至此CloudDrive这边设置就到此完成。下面开始将如何利用Jellyfin加载网盘的影视资源。**
 
