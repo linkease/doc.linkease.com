@@ -202,6 +202,39 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 
 
+### Jellyfin豆瓣刮削器
+
+众所周知，Jellyfin自带刮削器受限于网络，可能不是很好刮削，所以添加国内的豆瓣刮削。
+
+#### 1.Jellyfin控制台——插件——存储库——添加：
+
+![img](./advanced/douban1.jpg)
+
+#### 2.新建存储库，存储库URL填入下列地址，名称随意；
+```
+https://raw.githubusercontent.com/Libitum/jellyfin-plugin-douban/master/manifest.json
+```
+
+![img](./advanced/douban2.jpg)
+
+#### 3.添加完成后，目录——元数据——Douban，点击安装；安装完成后，重启Jellyfish。
+
+![img](./advanced/douban3.jpg)
+
+![img](./advanced/douban4.jpg)
+
+#### 4.重启后，在媒体库——管理媒体库中，在元数据/图片等勾选"Douban"，并置顶为第一位。
+
+![img](./advanced/douban5.jpg)
+
+![img](./advanced/douban6.jpg)
+
+#### 5.这样就能享受豆瓣的刮削了。
+
+![img](./advanced/douban7.jpg)
+
+
+
 
 
 ## Home Assistant
