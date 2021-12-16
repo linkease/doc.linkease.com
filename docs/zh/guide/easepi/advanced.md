@@ -69,7 +69,7 @@ UUID选择ext4硬盘分区；
 
 ## 玩转影音
 
-### Jellyfin硬解
+### Jellyfin安装
 
 Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），H264等格式硬解，这样我们就可以把ARS2打造成您的私人家庭影院。
 
@@ -99,7 +99,7 @@ Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），
 
 * 端口：默认8096，按需修改。
 
-#### 5.安装Jellyfin完成后，打开Jellyfin，即可进入Jellyfin视界(首次进入需要设置)。
+#### 5.安装Jellyfin完成后，打开Jellyfin，即可进入Jellyfin视界(首次进入需要设置)。 [配置教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#jellyfin简易配置) -->
 
 ![img](./advanced/advanced4.jpg)
 
@@ -111,11 +111,87 @@ Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），
 
 ![img](./advanced/advanced5.jpg)
 
-#### 6.进入Jellyfin视界后，不要去动硬件加速。
 
-#### 因为docker镜像和创建容器命令中已经配置好硬解，所以千万不要去动这个硬件加速设置。
+
+
+### Jellyfin简易配置
+
+#### 1.Jellyfin安装好以后，打开(设备IP+8096端口)：设置显示语言为简体中文，设置用户名和密码；
+
+![img](./advanced/jellyfin1.jpg)
+
+![img](./advanced/jellyfin2.jpg)
+
+#### 2.添加媒体库：
+
+* 选好内容类型(电影、节目(电视剧)、音乐等);
+
+![img](./advanced/jellyfin3.jpg)
+
+![img](./advanced/jellyfin4.jpg)
+
+* 选择媒体库路径：
+
+* 前面我们安装的时候“媒体文件路径”，是映射到了Jellyfish的/media路径，所以选择/media；
+
+* 如果我们在“媒体文件路径”下创建了任何文件夹，也能直接在/media选到文件夹；
+
+![img](./advanced/jellyfin5.jpg)
+
+![img](./advanced/jellyfin6.jpg)
+
+* 设置首选下载语言(中文)和国家(中国)；
+
+![img](./advanced/jellyfin7.jpg)
+
+* 下面的刮削器设置默认，然后保存确定，下一步；
+
+![img](./advanced/jellyfin8.jpg)
+
+![img](./advanced/jellyfin9.jpg)
+
+#### 3.设置完成，登录框，填入之前设置的用户名和密码即可进入Jellyfish视界。
+
+![img](./advanced/jellyfin10.jpg)
+
+#### 4.进入Jellyfin视界后，无需去动硬件加速选项。
+
+* 因为Jellyfish镜像的安装过程中已经配置好硬解，无需再去设置。
 
 ![img](./advanced/advanced55.jpg)
+
+
+
+### Jellyfin豆瓣刮削器
+
+众所周知，Jellyfin自带刮削器受限于网络，可能不是很好刮削，所以添加国内的豆瓣刮削。
+
+#### 1.Jellyfin控制台——插件——存储库——添加：
+
+![img](./advanced/douban1.jpg)
+
+#### 2.新建存储库，存储库URL填入下列地址，名称随意；
+```
+https://raw.githubusercontent.com/Libitum/jellyfin-plugin-douban/master/manifest.json
+```
+
+![img](./advanced/douban2.jpg)
+
+#### 3.添加完成后，目录——元数据——Douban，点击安装；安装完成后，重启Jellyfish。
+
+![img](./advanced/douban3.jpg)
+
+![img](./advanced/douban4.jpg)
+
+#### 4.重启后，在媒体库——管理媒体库中，在元数据/图片等勾选"Douban"，并置顶为第一位。
+
+![img](./advanced/douban5.jpg)
+
+![img](./advanced/douban6.jpg)
+
+#### 5.这样就能享受豆瓣的刮削了。
+
+![img](./advanced/douban7.jpg)
 
 
 
@@ -199,39 +275,6 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 #### 3.添加完媒体库，等待扫描刮削完成。(若选择文件夹资源很多，扫描刮削就比较慢，慢慢等就成)。
 
 ![img](./advanced/CloudDrive10.jpg)
-
-
-
-### Jellyfin豆瓣刮削器
-
-众所周知，Jellyfin自带刮削器受限于网络，可能不是很好刮削，所以添加国内的豆瓣刮削。
-
-#### 1.Jellyfin控制台——插件——存储库——添加：
-
-![img](./advanced/douban1.jpg)
-
-#### 2.新建存储库，存储库URL填入下列地址，名称随意；
-```
-https://raw.githubusercontent.com/Libitum/jellyfin-plugin-douban/master/manifest.json
-```
-
-![img](./advanced/douban2.jpg)
-
-#### 3.添加完成后，目录——元数据——Douban，点击安装；安装完成后，重启Jellyfish。
-
-![img](./advanced/douban3.jpg)
-
-![img](./advanced/douban4.jpg)
-
-#### 4.重启后，在媒体库——管理媒体库中，在元数据/图片等勾选"Douban"，并置顶为第一位。
-
-![img](./advanced/douban5.jpg)
-
-![img](./advanced/douban6.jpg)
-
-#### 5.这样就能享受豆瓣的刮削了。
-
-![img](./advanced/douban7.jpg)
 
 
 
