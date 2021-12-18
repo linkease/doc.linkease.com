@@ -14,6 +14,12 @@
 
 **B：如果是新硬盘：**
 
+* 若使用docker，想运行更多的大型docker项目，建议直接看docker扩容的教程。
+
+[docker扩容教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#扩容docker分区) -->
+
+若不用docker，继续看下一步。
+
 * 磁盘管理会发现一块空盘，点击空盘右边的“修改”按钮；
 
 ![common](./common/sata3.jpg)
