@@ -62,7 +62,7 @@ EasePi 由 [KoolShare](https://koolshare.cn/space-uid-2380.html) @小宝带领�
 | :----: | :----: | :----: |
 | WAN口 | 935Mbps | 881Mbps |
 | NAT | 931Mbps | 880Mbps |
-| Samba | 80Mb/s | 40Mb/s |
+| Samba（LAN口） | 113MB/s | 110MB/s |
 
 | AES | 跑分(block 16k) |
 | :----: | :----: | 
