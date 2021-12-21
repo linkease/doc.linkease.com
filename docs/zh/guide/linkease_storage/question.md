@@ -19,6 +19,11 @@ sidebarDepth: 1
 4. 其它很多很多功能使用的提升。
 
 
+### Q: 如何快速绑定易有云套餐和使用兑换码？
+
+参考 [绑定套餐](https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#绑定套餐) -->
+
+
 ### Q: 关于iOS注册失败问题？
 如iOS用户出现下图注册提示，请检查本机易有云是否已开启网络权限。
 
