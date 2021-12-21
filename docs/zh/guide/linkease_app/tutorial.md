@@ -2,7 +2,7 @@
 
 管理员如何绑定设备？
 
-* 设备是啥？设备通指绑定了易有云存储端的终端设备。[安装存储端](/zh/guide/linkease_storage/store.md) -->
+* 设备是啥？设备通指安装了易有云存储端的终端设备。[安装存储端](/zh/guide/linkease_storage/store.md) -->
 
 **1.安装易有云App，注册登录并打开，会自动扫描局域网内可绑定设备，会展示在顶部，点击进行绑定；**
 
@@ -10,7 +10,13 @@
 
 ![搜索设备1.jpg](./tutorial/App/devices/searchDevice1.jpg)
 
-**2.会出现设备，点击进入设备初始设置页面；**
+
+* 若没自动扫描出新易有云设备，也可点击首页“+易有云”按钮，通过扫描绑定或者扫码绑定。
+
+![绑定步骤4.jpg](./tutorial/App/devices/bindStep4.jpg)
+
+
+**2.发现设备后，点击进入设备初始设置页面；**
 
 ![搜索设备结果2.jpg](./tutorial/App/devices/searchDeviceResult2.jpg)
 
@@ -20,13 +26,8 @@
 
 ![绑定步骤2.jpg](./tutorial/App/devices/bindStep2.jpg)
 
+**4.首位用户绑定设备后成为该设备的管理员，一个设备只能有一个管理员。**
 
-**4.若没自动扫描出新易有云设备，也可以点击首页的“+易有云”按钮，通过扫描绑定或者扫描二维码绑定设备。**
-
-![绑定步骤4.jpg](./tutorial/App/devices/bindStep4.jpg)
-
-
-**5.首位用户绑定设备后成为该设备的管理员，一个设备只能有一个管理员。**
 
 
 ## 绑定套餐
