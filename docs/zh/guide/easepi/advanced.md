@@ -578,3 +578,26 @@ http://192.168.2.100:8888/
 
 其他支持WebDav的客户端同理。
 
+
+
+## Portainer-CE
+
+Portainer-CE是docker的图形化管理面板，提供一个后台页面方便操作docker。
+
+#### 1.终端输入命令，一键安装Portainer-CE中文版；
+
+```
+docker run -d --restart=always --name="portainer" -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data 6053537/portainer-ce:linux-arm64
+```
+![img](./advanced/Portainer1.jpg)
+
+#### 2.安装完毕，浏览器打开设备对应IP加上9000端口，例如:http://192.168.100.1:9000，进入Portainer-CE；
+
+* 创建用户名和密码，即可进入到Portainer-CE界面。
+
+![img](./advanced/Portainer2.jpg)
+
+
+![img](./advanced/Portainer3.jpg)
+
+
