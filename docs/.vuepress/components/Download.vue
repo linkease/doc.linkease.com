@@ -29,19 +29,7 @@
                             </div>
                             <div class="list">
                                 <template v-for="ole in item.list">
-                                    <li class="item" :key="ole.title">
-                                        <a :href="ole.url" target="_blank" :title="ole.title" rel="noopener noreferrer">
-                                            {{ole.title}}
-                                        </a>
-                                        <div class="qrcode" v-if="ole.qrcode">
-                                            <div class="qrcode_content">
-                                                <div class="qrcode_info"><span>扫码下载</span></div>
-                                                <div class="qrcode_image">
-                                                    <img :src="ole.qrcode" alt="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
+                                    <download2 :ole="ole" :key="ole.title" />
                                 </template>
                             </div>
                         </div>
@@ -54,14 +42,18 @@
 </template>
 
 <script>
-
+import Download2 from "./Download2.vue"
 export default {
     props: {
         list: Array,
     },
     data() {
         return {
+            isShow: false
         }
+    },
+    components: {
+        Download2
     },
     methods: {
         // 判断是否移动端
@@ -72,6 +64,9 @@ export default {
                 if (info.indexOf(agents[i]) >= 0) return true;
             }
             return false;
+        },
+        openQrcode() {
+            this.isShow = true
         }
     },
     mounted() {
@@ -206,21 +201,22 @@ export default {
                                 cursor: pointer;
                                 position: absolute;
                                 background-color: hsla(0, 0%, 100%, 0.99);
-                                visibility: hidden;
                                 left: 0;
                                 margin: 0 auto;
                                 top: 0;
                                 box-shadow: 0 15px 30px 5px rgb(0 0 0 / 15%);
                                 border: 1px solid #e4e7ed;
-                                opacity: 0;
                                 z-index: 1;
                                 text-align: center;
                                 border-radius: 5px;
                                 transform-origin: top left;
-                                transform: scale3d(0.9, 0.7, 1);
                                 padding: 10px;
                                 width: 230px;
                                 overflow-y: auto;
+                                visibility: visible;
+                                transform: scaleX(1);
+                                opacity: 1;
+                                right: 0;
                                 .qrcode_content {
                                     width: 100%;
                                     height: 100%;
@@ -240,16 +236,16 @@ export default {
                                 }
                             }
                         }
-                        li.item:hover {
-                            .qrcode {
-                                visibility: visible;
-                                transform: scaleX(1);
-                                opacity: 1;
-                                transition: 0.6s;
-                                left: 0;
-                                right: 0;
-                            }
-                        }
+                        // li.item:hover {
+                        //     .qrcode {
+                        //         visibility: visible;
+                        //         transform: scaleX(1);
+                        //         opacity: 1;
+                        //         transition: 0.6s;
+                        //         left: 0;
+                        //         right: 0;
+                        //     }
+                        // }
                     }
                 }
             }
