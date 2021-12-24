@@ -12,9 +12,10 @@
 **1.点击“ [存储端下载](https://fw.koolcenter.com/binary/LinkEase/Synology/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
 
 <!-- <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br /> -->
-*请根据自己群晖的CPU型号以及DSM版本选择相对应的存储端(DSM7.0请先卸载旧版本)
+* 请根据自己群晖的CPU型号以及DSM版本选择相对应的存储端
+* DSM7.x安装或者更新请先卸载旧版本
 
-![sy0.png](./tutorial/NAS/Synology/sy0.png)
+![sy0.png](./tutorial/NAS/Synology/sy0.jpg)
 
 **2.登录群晖操作系统，点击套件中心，在出现的套件中心弹窗上点击“手动安装”；**
 
@@ -28,20 +29,24 @@
 
 ![sy5.png](./tutorial/NAS/Synology/sy5.png)
 
-**4.插件安装完成后，点击群晖系统左上角“主菜单”，在出现的主菜单页面点击“易有云”或“易有云设置”均可进入易有云向导页面；**
+**4.插件安装完成后，进行配置；**
+
+* DSM6.x在“主菜单”点击“易有云”或“易有云设置”均可进入易有云向导页面；
 
 ![sy6.png](./tutorial/NAS/Synology/sy6.png)
 
-**DSM7.0的设置入口在套件中心—已安装—LinkEaseAgent：**
+* DSM7.x的设置入口在套件中心—已安装—LinkEaseAgent—点击下方的URL进行配置。
 
 ![sy6.png](./tutorial/NAS/Synology/linkeaseAgent_url.jpg)
 
 **5.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](https://doc.linkease.com/zh/guide/linkease_server/bind.html)。**
 
 
-#### 注意！由于DSM7.0对权限严格控制，所以额外配置权限(DSM6的用户无需处理)。有两种方法配置：
+#### 注意！由于DSM7.x对权限严格控制，所以额外配置权限(DSM6.x用户无需处理)。有两种方法配置：
 
-- 方法一： 进入“控制面板”—“共享文件夹”, 在选择文件夹上右键选择“编辑”，选择“权限”页签，在页签内用户选择器选择“系统内部用户账户”, 找到“linkease”，勾选“可读写”，最后保存。
+- 方法一： 进入“控制面板”—“共享文件夹”, 在目标文件夹上右键选择“编辑”，选择“权限”页签，在页签内用户选择器选择“系统内部用户账户”, 找到“linkease”，勾选“可读写”，最后保存。
+
+ps：目标文件夹：绑定存储端时选中的文件夹或者你易有云想访问的文件夹。
 
 ![sy0.png](./tutorial/NAS/Synology/syno_edit_permissions-1.jpg)
 
