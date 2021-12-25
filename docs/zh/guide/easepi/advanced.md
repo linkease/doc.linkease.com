@@ -257,23 +257,20 @@ docker run -d \
   --privileged \
   --restart=unless-stopped \
   --device /dev/fuse:/dev/fuse \
-  -v /mnt/sda1/CloudNAS/:/CloudNAS:shared \
-  -v /mnt/sda1/CloudNAS/config:/config \
-  -v /mnt/sda1/CloudNAS/media:/media:shared \
+  -v /mnt/sda1/CloudNAS:/CloudNAS:shared \
+  -v /mnt/sda1/CloudNAS/config:/Config \
   -p 9798:9798 \
   cloudnas/clouddrive
 ```
 
 **说明：**
-
-* 路径挂载点按需修改为自己的挂载点路径。
-
-* 若是其他挂载点，比如/mnt/sdb1：
 ```
-  -v /mnt/sdb1/CloudNAS/:/CloudNAS:shared \
-  -v /mnt/sdb1/CloudNAS/config:/config \
-  -v /mnt/sdb1/CloudNAS/media:/media:shared \
+-v /mnt/sda1/CloudNAS:/CloudNAS:shared \       ##CloudDrive 磁盘映射挂载点
+-v /mnt/sda1/CloudNAS/config:/Config \         ##CloudDrive 配置文件夹
 ```
+
+* 路径挂载点按需修改为自己硬盘的挂载点路径(比如/mnt/sdb1)。
+
 
 ![img](./advanced/CloudDrive1.jpg)
 
@@ -295,13 +292,15 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 ![img](./advanced/CloudDrive5.jpg)
 
-#### 5.回到ARS2管理界面，打开系统——挂载点，已经挂载了CloudDrive的盘符CloudFS，挂载点路径是：/mnt/sda1/CloudNAS/CloudDrive，相当于现在ARS2就多了一个CloudFS硬盘；
+#### 5.回到管理界面，打开系统——挂载点，已经挂载CloudDrive，相当于多了一个CloudDrive硬盘；
 
-* 若没出现盘符CloudFS，请升级固件至19.07.8 r11804或者更新版本。
+* 挂载点路径是：/mnt/sda1/CloudNAS/CloudDrive；
+
+* 若没出现CloudFS，请升级固件至19.07.8 r11804或者更新版本。
 
 ![img](./advanced/CloudDrive6.jpg)
 
-#### 6.CloudDrive已经挂载到ARS2上，再将盘CloudFS利用Samba协议共享出去，其余设备就能直接通过Samba协议访问CloudFS硬盘。
+#### 6.可将CloudDrive盘利用Samba等协议共享出去，其他设备就能直接访问CloudDrive盘。
 
 **至此CloudDrive这边设置就到此完成。下面开始将如何利用Jellyfin加载网盘的影视资源。**
 
