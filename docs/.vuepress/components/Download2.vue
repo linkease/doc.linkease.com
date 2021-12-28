@@ -44,6 +44,7 @@ li.item {
     list-style: none;
     margin: 10px 0;
     position: relative;
+    cursor: pointer;
     a {
         font-size: 14px;
         font-family: PingFangSC-Medium, PingFang SC;
