@@ -322,7 +322,7 @@ docker run -d \
 
 ![img](./advanced/advanced8.jpg)
 
-#### 4.浏览器打开设备对应IP加上8123端口，例如http://192.168.100.1:8123/，即可进入homeassistant控制台。
+#### 4.浏览器打开设备对应IP加上8123端口，例如 [http://ars2.lan:8123/](http://ars2.lan:8123/) ，即可进入homeassistant控制台。
 
 ![img](./advanced/advanced9.jpg)
 
@@ -366,7 +366,7 @@ chmod -R 777 /root/node-red/nodered
 
 ![img](./advanced/advanced13.jpg)
 
-#### 5.浏览器打开设备对应IP加上1880端口，例如http://192.168.100.1:1880/，即可进入node-red控制台。
+#### 5.浏览器打开设备对应IP加上1880端口，例如 [http://ars2.lan:1880/](http://ars2.lan:1880/) ，即可进入node-red控制台。
 
 ![img](./advanced/advanced14.jpg)
 
@@ -386,7 +386,7 @@ docker run -d --name emqx --restart unless-stopped -p 1883:1883 -p 8081:8081 -p 
 
 ![img](./advanced/advanced16.jpg)
 
-#### 3.浏览器打开设备对应IP加上18083端口，例如http://192.168.100.1:18083/，即可进入eqmx控制台。
+#### 3.浏览器打开设备对应IP加上18083端口，例如 [http://ars2.lan:18083/](http://ars2.lan:18083/)，即可进入eqmx控制台。
 
 **说明：**
 
@@ -473,7 +473,7 @@ docker run -d --name nextcloud \
 
 ![img](./advanced/advanced24.jpg)
 
-#### 4.浏览器打开设备对应IP加上端口3333，例如http://192.168.100.1:3333/，访问nextcloud进行配置(建议稍微等几分钟再配置，等待数据库完全运行。)。
+#### 4.浏览器打开设备对应IP加上端口3333，例如 [http://ars2.lan:3333/](http://ars2.lan:3333/) ，访问nextcloud进行配置(建议稍微等几分钟再配置，等待数据库完全运行。)。
 
 ![img](./advanced/advanced25.jpg)
 
@@ -517,9 +517,9 @@ Refresh Token：根据教程获取Token，并填入
 
 启用：勾选
 
-主机：即ARS2的管理IP，演示机为192.168.2.100
+主机：即ARS2的IP，默认情况下填192.168.100.1，演示机为192.168.2.100
 
-端口：随意，只要不冲突
+端口：随意，只要不冲突，这里假设使用8888
 
 用户名和密码：一般自动默认为ARS2的登录密码，也可以自行更改
 
@@ -527,11 +527,7 @@ Refresh Token：根据教程获取Token，并填入
 ```
 ![img](./advanced/ali3.jpg)
 
-#### 3.阿里云盘WebDav运行起来后，就可以访问了，比如浏览器：
-
-```
-http://192.168.2.100:8888/
-```
+#### 3.阿里云盘WebDav运行起来后，就可以访问了，比如浏览器打开 [http://ars2.lan:8888/](http://ars2.lan:8888/)：
 
 ![img](./advanced/ali4.jpg)
 
@@ -554,7 +550,7 @@ docker run -d --restart=always --name="portainer" -p 9000:9000 -v /var/run/docke
 ```
 ![img](./advanced/Portainer1.jpg)
 
-#### 2.安装完毕，浏览器打开设备对应IP加上9000端口，例如:http://192.168.100.1:9000，进入Portainer-CE；
+#### 2.安装完毕，浏览器打开设备对应IP加上9000端口，例如 [http://ars.lan:9000/](http://ars.lan:9000/)， 进入Portainer-CE；
 
 * 创建用户名和密码，即可进入到Portainer-CE界面。
 
