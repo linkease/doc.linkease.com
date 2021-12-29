@@ -212,7 +212,7 @@ https://raw.githubusercontent.com/Libitum/jellyfin-plugin-douban/master/manifest
 CloudDrive 是一个将云存储(阿里云盘、115网盘等)服务挂载为本地文件的系统。
 
 * 利用CloudDrive可将网盘的影视资源挂载到ARS2，然后利用Jellfin加载这些影视资源，搭建强大的家庭影院。
-* 为简化配置，请将固件升级到**19.07.8 r11804**以后版本
+* 为简化配置，请将固件升级到**19.07.8 r11804**以后版本。
 
 #### 现在开始安装CloudDrive：
 
@@ -231,11 +231,11 @@ docker run -d \
 
 **说明：**
 ```
--v /mnt/CloudNAS:/CloudNAS:rshared \           ##CloudDrive 磁盘映射挂载点，无需修改
--v /mnt/sda1/CloudNAS/config:/Config \         ##CloudDrive 配置文件夹，/mnt/sda1/CloudNAS/config 可改成其他合适的文件夹
+-v /mnt/CloudNAS:/CloudNAS:rshared \      ##CloudDrive 磁盘映射挂载点，无需修改
+-v /mnt/sda1/CloudNAS/config:/Config \    ##CloudDrive 配置文件夹，/mnt/sda1/CloudNAS/config可改成其他合适的文件夹
 ```
 
-* 如果启动失败，请将固件升级到**19.07.8 r11804**以后版本
+* 如果启动失败，请将固件升级到**19.07.8 r11804**以后版本。
 
 
 ![img](./advanced/CloudDrive1.jpg)
@@ -260,7 +260,7 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 #### 5.回到管理界面，打开系统——挂载点，已经挂载CloudDrive，相当于多了一个CloudDrive硬盘；
 
-* 挂载点路径是：/mnt/CloudNAS/CloudDrive；
+* 挂载点路径是：/mnt/CloudNAS/CloudDrive。
 
 ![img](./advanced/CloudDrive6.jpg)
 
@@ -276,9 +276,9 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 ![img](./advanced/CloudDrive7.jpg)
 
-#### 2.可以直接将`/mnt/CloudNAS/CloudDrive`添加，也可以选择下一级合适的文件夹；
-
 ![img](./advanced/CloudDrive8.jpg)
+
+#### 2.可以直接将`/mnt/CloudNAS/CloudDrive`添加，也可以选择下一级合适的文件夹；
 
 ![img](./advanced/CloudDrive9.jpg)
 
