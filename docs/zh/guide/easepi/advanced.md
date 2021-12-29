@@ -212,6 +212,7 @@ https://raw.githubusercontent.com/Libitum/jellyfin-plugin-douban/master/manifest
 CloudDrive 是一个将云存储(阿里云盘、115网盘等)服务挂载为本地文件的系统。
 
 * 利用CloudDrive可将网盘的影视资源挂载到ARS2，然后利用Jellfin加载这些影视资源，搭建强大的家庭影院。
+* 为简化配置，请将固件升级到**19.07.8 r11804**以后版本
 
 #### 现在开始安装CloudDrive：
 
@@ -222,7 +223,7 @@ docker run -d \
   --privileged \
   --restart=unless-stopped \
   --device /dev/fuse:/dev/fuse \
-  -v /mnt/sda1/CloudNAS:/CloudNAS:shared \
+  -v /mnt/CloudNAS:/CloudNAS:rshared \
   -v /mnt/sda1/CloudNAS/config:/Config \
   -p 9798:9798 \
   cloudnas/clouddrive
@@ -230,11 +231,11 @@ docker run -d \
 
 **说明：**
 ```
--v /mnt/sda1/CloudNAS:/CloudNAS:shared \       ##CloudDrive 磁盘映射挂载点
--v /mnt/sda1/CloudNAS/config:/Config \         ##CloudDrive 配置文件夹
+-v /mnt/CloudNAS:/CloudNAS:rshared \           ##CloudDrive 磁盘映射挂载点，无需修改
+-v /mnt/sda1/CloudNAS/config:/Config \         ##CloudDrive 配置文件夹，/mnt/sda1/CloudNAS/config 可改成其他合适的文件夹
 ```
 
-* 路径挂载点按需修改为自己硬盘的挂载点路径(比如/mnt/sdb1)。
+* 如果启动失败，请将固件升级到**19.07.8 r11804**以后版本
 
 
 ![img](./advanced/CloudDrive1.jpg)
@@ -243,7 +244,7 @@ docker run -d \
 
 ![img](./advanced/CloudDrive2.jpg)
 
-#### 3.浏览器打开设备对应IP加上9798端口，例如http://192.168.100.1:9798/，即可进入CloudDrive界面。
+#### 3.浏览器打开设备对应IP加上9798端口，例如 [http://ars2.lan:9798/](http://ars2.lan:9798/) 或者 [http://192.168.100.1:9798/](http://192.168.100.1:9798/) ，即可进入CloudDrive界面。
 
 ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
@@ -259,9 +260,7 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 #### 5.回到管理界面，打开系统——挂载点，已经挂载CloudDrive，相当于多了一个CloudDrive硬盘；
 
-* 挂载点路径是：/mnt/sda1/CloudNAS/CloudDrive；
-
-* 若没出现CloudFS，请升级固件至19.07.8 r11804或者更新版本。
+* 挂载点路径是：/mnt/CloudNAS/CloudDrive；
 
 ![img](./advanced/CloudDrive6.jpg)
 
@@ -273,11 +272,11 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 ### Jellyfin加载网盘资源
 
-#### 1.进入到Jellyfin界面添加媒体库，因为Jellyfin早就将/mnt/sda1添加，而网盘资源路径是/mnt/sda1/CloudNAS/CloudDrive，就直接加载出来了：
+#### 1.进入到Jellyfin界面添加媒体库，网盘资源路径是`/mnt/CloudNAS/CloudDrive`，应该已经加载出来了：
 
 ![img](./advanced/CloudDrive7.jpg)
 
-#### 2.可以直接将/media/CloudNAS/CloudDrive添加，也可以选择下一级合适的文件夹；
+#### 2.可以直接将`/mnt/CloudNAS/CloudDrive`添加，也可以选择下一级合适的文件夹；
 
 ![img](./advanced/CloudDrive8.jpg)
 
