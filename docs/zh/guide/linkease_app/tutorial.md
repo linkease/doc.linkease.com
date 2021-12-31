@@ -89,53 +89,69 @@
 
 
 
-## 相册备份
+## 照片备份
 
-如何备份相册呢？
+如何备份照片呢？
 
+* 存储端必须升级至0.5.2或者更新；
 
-### iOS客户端
-
-**1.易有云APP打开“我的”，然后点击“照片备份”；**
-
-![一键备份1.jpg](./tutorial/App/backup/1.jpg)
-
-**2.然后继续点击“照片备份”，出来的弹窗点击“选择目标设备”；**
-
-![自动备份.jpg](./tutorial/App/backup/2.jpg)
-
-**3.然后选择设备，然后选择目录；**
-
-![备份文件3.jpg](./tutorial/App/backup/3.jpg)
-
-![备份文件4.jpg](./tutorial/App/backup/4.jpg)
-
-**4.选好目录后，就能看到一些设置选项；**
-
-![备份文件5.jpg](./tutorial/App/backup/5.jpg)
-
-**5.设置好就可以点击“立即开始备份”，以后就可以自动备份相册了。**
-
-![备份文件6.jpg](./tutorial/App/backup/6.jpg)
+* 易有云App更新至最新。
 
 
-### Android客户端
+### 照片备份
 
-**1.易有云APP打开“我的”，然后点击“照片备份”；**
+**1.进入易有云App首页底部——照片；**
 
-![一键备份1.jpg](./tutorial/App/backup/1.jpg)
+![jpg](./tutorial/App/backup/1.jpg)
+
+**2.点击右上角的齿轮，设置备份目标；**
+
+![jpg](./tutorial/App/backup/2.jpg)
+
+* 点击备份目标，进入选择合适的位置；
+
+* 仅WiFi下自动备份，按需设置。
+
+![jpg](./tutorial/App/backup/3.jpg)
+
+**3.设置好备份目标后，就可以开始备份了；**
+
+* 在照片——本地，若要单独备份某个照片或者视频，点击右上角的备份按钮即可；
+
+![jpg](./tutorial/App/backup/4.jpg)
+
+* 若要多选，长按某照片，出来多选选项，然后一一选择备份，也可以右上角全选；
+
+![jpg](./tutorial/App/backup/5.jpg)
+
+![jpg](./tutorial/App/backup/6.jpg)
+
+* 若要筛选已备份/未备份、照片/视频，点击全部即可选择条件筛选。
+
+![jpg](./tutorial/App/backup/7.jpg)
+
+**4.备份好的照片在存储端下可见，也会显示是某设备上的备份。**
+
+![jpg](./tutorial/App/backup/8.jpg)
+
+* 也可在备份目标的路径下看到某某的备份相册。
+
+![jpg](./tutorial/App/backup/9.jpg)
 
 
-**2.打开“相册备份”，然后选择“备份路径”；**
+### 媒体图库
 
-PS：备份路径，右边先选择设备，左边再选择目录。
+说完了照片备份，再来看媒体图库。媒体图库是干嘛的？
 
-![一键备份22.jpg](./tutorial/App/backup/22.jpg)
+你可能多个手机备份，或者自建的其他图片/视频文件夹等，就可以从这里添加成一个图库，方便管理。
 
-**3.设置好以后，右上角点击“开始备份”即可。**
+简单来说就是一个自定义图片或视频的文件夹。
 
-![一键备份33.jpg](./tutorial/App/backup/33.jpg)
+![jpg](./tutorial/App/backup/10.jpg)
 
+* 直接点击“新建媒体库入口”，选择合适的文件夹即可。
+
+![jpg](./tutorial/App/backup/11.jpg)
 
 
 
