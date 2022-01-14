@@ -222,6 +222,7 @@ docker run -d \
   --name clouddrive \
   --privileged \
   --restart=unless-stopped \
+  --dns=172.17.0.1 \
   --device /dev/fuse:/dev/fuse \
   -v /mnt/CloudNAS:/CloudNAS:rshared \
   -v /mnt/sda1/CloudNAS/config:/Config \
