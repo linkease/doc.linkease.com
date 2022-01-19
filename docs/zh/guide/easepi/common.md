@@ -50,32 +50,25 @@
 * M.2 SATA硬盘可以考虑：“三星SSD固态硬盘M.2接口(SATA总线)860EVO系列”或者“金士顿SSD固态硬盘M.2接口(SATA总线)A400系列”。
 
 
-### 挂载修复
+### NTFS挂载修复
 
-某些小伙伴把固件升级到r11867或者更高版本后，可能遇到NTFS硬盘挂载问题，只读或者完全挂载不了。
+若遇到NTFS硬盘挂载后只读或者挂载失败。
 
-#### 1.修复只读，有2个方法(二选一)；
+#### 1.修复挂载后只读
 
-* 方法一：进入挂载点，修改挂载点——高级设置，挂载选项填入：“force”，然后保存应用。
-
-![common](./common/fixntfs1.jpg)
-
-![common](./common/fixntfs2.jpg)
-
-* 方法二：升级固件r11872或更新，然后终端输入命令修复：`ntfsfix -b -d {设备路径}`；
+终端输入命令修复：`ntfsfix -b -d {设备路径}`；
 
 例如修复sda1则执行`ntfsfix -b -d /dev/sda1`。
 
 ![common](./common/fixntfs3.jpg)
 
-#### 2.修复完全没挂载
+若`ntfsfix`命令不存在，升级固件到'19.07.8 r11872'或者之后版本再试
 
-升级固件r11872或更新，售后群下载安装“ntfsprogs_2021.8.22-2_aarch64_cortex-a53.ipk”；
+#### 2.修复挂载失败
 
-然后终端输入命令修复：`ntfsrecover {设备路径}`；例如修复sda1则执行`ntfsrecover /dev/sda1`。
+终端输入命令修复：`ntfsrecover {设备路径}`；例如修复sda1则执行`ntfsrecover /dev/sda1`。
 
 ![common](./common/fixntfs4.jpg)
-
 
 
 
