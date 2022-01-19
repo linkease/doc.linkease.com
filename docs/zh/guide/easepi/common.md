@@ -56,7 +56,7 @@
 
 #### 1.修复挂载后只读
 
-终端输入命令修复：`ntfsfix -b -d {设备路径}`；
+终端输入命令修复：`ntfsfix -b -d {设备路径}`，修复后需重新挂载或者重启设备；
 
 例如修复sda1则执行`ntfsfix -b -d /dev/sda1`。
 
@@ -68,7 +68,9 @@
 
 请先升级到最新固件，如果问题依旧，则
 
-终端输入命令修复：`ntfsrecover {设备路径}`；例如修复sda1则执行`ntfsrecover /dev/sda1`。
+终端输入命令修复：`ntfsrecover {设备路径}`，修复后需重新挂载或者重启设备；
+
+例如修复sda1则执行`ntfsrecover /dev/sda1`。
 
 ![common](./common/fixntfs4.jpg)
 
