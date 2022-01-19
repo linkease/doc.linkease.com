@@ -66,6 +66,8 @@
 
 #### 2.修复挂载失败
 
+请先升级到最新固件，如果问题依旧，则
+
 终端输入命令修复：`ntfsrecover {设备路径}`；例如修复sda1则执行`ntfsrecover /dev/sda1`。
 
 ![common](./common/fixntfs4.jpg)
