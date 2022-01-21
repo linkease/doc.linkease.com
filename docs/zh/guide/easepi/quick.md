@@ -22,6 +22,24 @@
 ![quick](./quick/bohao1.jpg) 
 
 
+#### IPv6透传/中继
+
+* 进入ARS2管理界面，网络——接口——WAN6——修改；
+
+如果DHCP服务器显示“未配置”，则点击“配置DHCP服务器”：勾选 “忽略此接口”，切换到“IPv6设置”，全部改成中继模式，勾选“Master”，保存应用；
+
+![quick](./quick/ipv6-1.jpg) 
+
+![quick](./quick/ipv6-2.jpg) 
+
+![quick](./quick/ipv6-3.jpg) 
+
+* 然后到网络——接口——修改；切换到“IPv6设置”，全部改成中继模式，不勾选“Master”，保存应用。
+
+![quick](./quick/ipv6-4.jpg) 
+
+
+
 ### ARS2拨号
 
 若需要ARS2拨号，如下图连接，然后电脑浏览器登录ARS网关 http://192.168.100.1/ (默认用户名为root，无密码)：
