@@ -195,8 +195,14 @@ A：不支持。
 A：目前仅支持OpenWrt，自带易有云轻NAS。
 
 
+### Q：若遇到系统显示英文，没有中文选项，怎么修复？
 
+A：在终端执行下列命令即可修复。
 
+```
+uci set luci.languages.zh_cn='中文 (Chinese)';   uci set luci.main.lang='zh_cn';  uci commit luci
+```
+   ![中文](./question/zh_cn.jpg)
 
 
 
