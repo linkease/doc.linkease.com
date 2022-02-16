@@ -32,9 +32,9 @@
  
   ![Aria2](./cloudapp/cloudapp-aria2-lede4.jpeg)
 
-  ![Aria2](./cloudapp/cloudapp-aria2-lede5.jpeg)  
+  ![Aria2](./cloudapp/cloudapp-aria2-lede5.jpeg)
   
-5.然后跳转到“远程配置”，去设置远程下载。 
+5.然后跳转到[远程配置](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)，去设置远程下载。 
 
 
 ### Aria2配置：KS LEDE
@@ -56,23 +56,23 @@
 
   ![Aria2](./cloudapp/cloudapp-aria2-lede5.jpeg)
 
-5.然后跳转到“远程配置”，去设置远程下载。   
+5.然后跳转到[远程配置](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)，去设置远程下载。
 
   
 ### Aria2配置：KS 梅林
 1.在软件中心安装Aria2。
 
-  ![Aria2](./cloudapp/cloudapp-aria2-ml1.jpeg)
+  ![Aria2](./cloudapp/cloudapp-aria2-ml1.jpg)
 
-2.开启Aria2和远程穿透连接，然后会自动配置RPC。
+2.开启Aria2和设置RPC密码，然后提交。
   
-  ![Aria2](./cloudapp/cloudapp-aria2-ml2.jpeg)
+  ![Aria2](./cloudapp/cloudapp-aria2-ml2.jpg)
 
 3.点击RPC设定，然后复制RPC密码/token(后面要用)。
   
-  ![Aria2](./cloudapp/cloudapp-aria2-ml3.jpeg)
+  ![Aria2](./cloudapp/cloudapp-aria2-ml3.jpg)
 
-4.然后跳转到“远程配置”，去设置远程下载。
+4.然后跳转到[远程配置](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)，去设置远程下载。
 
 ### Aria2配置：Unraid/爱快/Docker
 1.Unraid、爱快、群晖、威联通等可以docker的设备，都可以用这种方式，一键部署Aria2。
@@ -126,16 +126,20 @@ docker run -d \
 
   ![Docker](./cloudapp/cloudapp-aria2-docker1.jpg)
 
-3. 上面执行完成，Aria2安装完成。 
+3. 上面执行完成，Docker版的Aria2运行成功。 
   
-  ![Docker](./cloudapp/cloudapp-aria2-docker2.jpg)  
+  ![Docker](./cloudapp/cloudapp-aria2-docker2.jpg)
   
-4. 设置穿透的时候，注意端口，我命令里是用的6880端口。 
+4. 然后跳转到[远程配置](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)，去设置远程下载。
 
-  ![Docker](./cloudapp/cloudapp-aria2-docker4.jpeg)  
+* 设置穿透的时候，注意端口，我命令里是用的6880端口。 
+
+  ![Docker](./cloudapp/cloudapp-aria2-docker4.jpeg)
+ 
+ 
   
 ### Aria2配置：群晖
-群晖通过Docker方式安装Aria2，大体和上面"Unraid/爱快/Docker"教程一样，不过有2点要注意:
+群晖通过Docker方式安装Aria2，大体和上面[Unraid/爱快/Docker教程](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#aria2配置-unraid-爱快-docker)一样，不过有2点要注意:
 
 1.群晖如何启用SSH，如下图所示：
 
@@ -161,15 +165,16 @@ docker run -d \
     -v $PWD/aria2-config:/volume1/docker/aria2-config \
     -v $PWD/aria2-downloads:/volume1/Data/aria2-downloads \
     p3terx/aria2-pro
-```  
+```
+* 注意更改令牌 TOKEN 信息。
 
-注意更改令牌 TOKEN 信息。
-
+4. 然后跳转到[远程配置](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)，去设置远程下载。
 
 
 ### Aria2配置：威联通
 
-威联通也可以采用Docker方式安装Aria2。(具体命令看上面"Unraid/爱快/Docker"教程)
+威联通也可以采用Docker方式安装Aria2。(具体命令看上面[Unraid/爱快/Docker教程](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#aria2配置-unraid-爱快-docker))
+
 
 ### Aria2配置：老毛子Padavan
 1.首先确认设备Padavan固件带有Aria。(hiboyhiboyhiboy大佬固件是有的)
@@ -192,7 +197,7 @@ host: 指Aria2所在机器的IP
 
 port: 使用--rpc-listen-port选项设置的端口, 未设置则是6800
 
-5.然后跳转到“远程配置”，去设置远程下载。
+5.然后跳转到[远程配置](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)，去设置远程下载。
 
 ### Aria2配置：ReadyNAS
  
@@ -230,11 +235,11 @@ TODO
 
   PS：端口一般不需要改，除非你自己改了！
   
-  ![SSH](./cloudapp/cloudapp-ssh1.jpeg)  
+  ![SSH](./cloudapp/cloudapp-ssh1.jpeg)
 
-4.在已添加中找到刚添加的远程应用，点击即可进入设备的SSH。  
+4.在已添加中找到刚添加的远程应用，点击即可进入设备的SSH。
   
-  ![SSH](./cloudapp/cloudapp-ssh2.jpeg)  
+  ![SSH](./cloudapp/cloudapp-ssh2.jpeg)
 	
   ![SSH](./cloudapp/cloudapp-ssh3.jpeg)
  
@@ -248,9 +253,9 @@ TODO
 
   PS：端口一般不需要改，除非你自己改了！
   
-  ![Telnet](./cloudapp/cloudapp-telnet1.jpeg)  
+  ![Telnet](./cloudapp/cloudapp-telnet1.jpeg)
 
-4.在已添加中找到刚添加的远程应用，点击即可通过Telnet进入设备的。  
+4.在已添加中找到刚添加的远程应用，点击即可通过Telnet进入设备的。
 
   ![Telnet](./cloudapp/cloudapp-telnet2.jpeg)
 
