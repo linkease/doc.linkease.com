@@ -290,6 +290,57 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 
 
+## Ubuntu
+
+带Web远程桌面的Docker版Ubuntu，纯英文系统，欢迎各位极客体验。
+
+#### 1.首先准备一块硬盘，然后扩容Docker数据分区。
+
+* 起码10G起步，Ubuntu镜像很大。[扩容Docker分区教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#扩容docker分区)
+
+#### 2.应用商店里安装Ubuntu;
+
+![img](./advanced/Ubuntu1.jpg)
+
+
+#### 3.命令行获取镜像；
+
+终端输入下列命令获取镜像：
+
+![img](./advanced/Ubuntu4.jpg)
+
+* 自行选择全量版本或者标准版本，二选一。
+
+全量版本：(包含WPS、中文输入法等，镜像3.5G左右。)
+```
+docker pull linkease/desktop-ubuntu-full-arm64:latest
+```
+
+标准版本：(单纯的系统，镜像1.6G左右。)
+```
+docker pull linkease/desktop-ubuntu-standard-arm64:latest
+```
+
+#### 4.然后打开Ubuntu，进行配置；
+
+![img](./advanced/Ubuntu2.jpg)
+
+* 端口：默认6901，可自定义；密码：默认password，可自定义；
+
+* 系统版本：上一步拉取的啥版本镜像，就选择啥版本。
+
+* 设定好以后，点击“安装ubuntu”。
+
+* 点击“安装ubuntu”提示“docker not in disk”，请参考第一步扩容Docker分区。
+
+![img](./advanced/Ubuntu3.jpg)
+
+#### 5.安装完成以后，点击“打开ubuntu”，进入web远程桌面。输入用户名和密码进入ubuntu系统。
+
+![img](./advanced/Ubuntu5.jpg)
+
+![img](./advanced/Ubuntu7.jpg)
+
 
 ## Home Assistant
 
