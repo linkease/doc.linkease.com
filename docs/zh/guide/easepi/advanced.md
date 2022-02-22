@@ -303,13 +303,13 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 ![img](./advanced/Ubuntu1.jpg)
 
 
-#### 3.命令行获取镜像；
+#### 3.获取镜像；
 
-终端输入下列命令获取镜像：
+* 方法一：终端输入下列命令获取镜像：
 
 ![img](./advanced/Ubuntu4.jpg)
 
-* 自行选择全量版本或者标准版本，二选一。
+自行选择全量版本或者标准版本，二选一。
 
 全量版本：(包含WPS、中文输入法等，镜像3.5G左右。)
 ```
@@ -320,6 +320,31 @@ docker pull linkease/desktop-ubuntu-full-arm64:latest
 ```
 docker pull linkease/desktop-ubuntu-standard-arm64:latest
 ```
+
+* 方法二：下载离线镜像导入；
+
+有些伙伴网络不佳，所以提供离线镜像下载。[离线镜像下载](https://www.aliyundrive.com/s/FyEaZofWt9C)
+
+下载想要的镜像压缩包，然后解压得到镜像：
+```
+标准版本解压出来的镜像：ubuntu-standard-arm64.tar 
+全量版本解压出来的镜像：ubuntu-full-arm64.tar
+```
+然后把镜像放入ARS2的磁盘，比如/mnt/sda2/下；
+
+然后终端执行命令导入离线镜像：
+
+```
+标准版本：
+docker load -i /mnt/sda2/ubuntu-standard-arm64.tar
+```
+![img](./advanced/Ubuntu7.jpg)
+
+```
+全量版本：
+docker load -i /mnt/sda2/ubuntu-full-arm64.tar
+```
+![img](./advanced/Ubuntu8.jpg)
 
 #### 4.然后打开Ubuntu，进行配置；
 
@@ -339,7 +364,7 @@ docker pull linkease/desktop-ubuntu-standard-arm64:latest
 
 ![img](./advanced/Ubuntu5.jpg)
 
-![img](./advanced/Ubuntu7.jpg)
+![img](./advanced/Ubuntu6.jpg)
 
 
 ## Home Assistant
