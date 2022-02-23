@@ -109,6 +109,22 @@ Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），
 
 * 端口：默认8096，按需修改。
 
+* 有些伙伴网络不佳，所以提供离线镜像下载。[离线镜像下载](https://www.aliyundrive.com/s/HMGeGTqsnU8)
+
+下载想要的镜像压缩包，然后解压得到镜像：
+```
+解压出来的镜像：jellyfin-rtk.tar
+```
+然后把镜像放入ARS2的磁盘，比如/mnt/sda2/下；
+
+然后终端执行命令导入离线镜像：
+
+```
+docker load -i /mnt/sda2/jellyfin-rtk.tar
+```
+
+
+
 #### 5.安装Jellyfin完成后，打开Jellyfin，即可进入Jellyfin视界(首次进入需要设置)。 [配置教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#jellyfin简易配置) -->
 
 ![img](./advanced/advanced4.jpg)
@@ -323,12 +339,12 @@ docker pull linkease/desktop-ubuntu-standard-arm64:latest
 
 * 方法二：下载离线镜像导入；
 
-有些伙伴网络不佳，所以提供离线镜像下载。[离线镜像下载](https://www.aliyundrive.com/s/FyEaZofWt9C)
+有些伙伴网络不佳，所以提供离线镜像下载。[离线镜像下载](https://www.aliyundrive.com/s/HMGeGTqsnU8)
 
 下载想要的镜像压缩包，然后解压得到镜像：
 ```
-标准版本解压出来的镜像：ubuntu-standard-arm64.tar 
-全量版本解压出来的镜像：ubuntu-full-arm64.tar
+标准版本解压出来的镜像：desktop-ubuntu-standard-arm64.tar
+全量版本解压出来的镜像：desktop-ubuntu-full-arm64.tar
 ```
 然后把镜像放入ARS2的磁盘，比如/mnt/sda2/下；
 
@@ -336,15 +352,14 @@ docker pull linkease/desktop-ubuntu-standard-arm64:latest
 
 ```
 标准版本：
-docker load -i /mnt/sda2/ubuntu-standard-arm64.tar
+docker load -i /mnt/sda2/desktop-ubuntu-standard-arm64.tar
 ```
-![img](./advanced/Ubuntu7.jpg)
 
 ```
 全量版本：
-docker load -i /mnt/sda2/ubuntu-full-arm64.tar
+docker load -i /mnt/sda2/desktop-ubuntu-full-arm64.tar
 ```
-![img](./advanced/Ubuntu8.jpg)
+
 
 #### 4.然后打开Ubuntu，进行配置；
 
