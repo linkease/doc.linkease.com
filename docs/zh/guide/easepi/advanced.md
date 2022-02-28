@@ -5,74 +5,23 @@
 
 * 但是docker项目大小不一，可能有些小伙伴玩的项目体积比较大，6G容量不够， 那么就需要扩容Docker数据分区。
 
-#### 1.硬盘分区:
+#### 开始扩容:
 
-* #### 首先准备一块硬盘，如果有硬盘盒之类的，可以接电脑上划分一个合适的EXT4格式单独分区出来(比如一块240G硬盘，划分10G用来做docker数据，其余用来作常规存储分区)，然后接上ARS2；然后直接翻到下面的“挂载分区”教程。
+* 扩容前，先停用已部署的docker项目，扩容完成后重新部署。若当前无docker项目，直接开始扩容。
 
-* #### 若硬盘已经接上ARS2，直接在ARS2上分区(分区会清掉整个盘，注意备份)，打开“系统——磁盘管理”:
-
-* 查看磁盘分区，然后卸载，然后点击修改；(若是新盘没分区，直接点修改。)
-
-ps:教程演示的sda磁盘有2个分区，全部卸载。
+* 确定自己已经挂载了硬盘，可以看挂载点里的信息。比如我的硬盘路径就是/mnt/sda1。
 
 ![img](./advanced/docker1.jpg)
 
-* 进入磁盘修改界面后，移除分区；(若是新盘没分区，不需要操作。)
+* 然后在/mnt/sda1建立一个docker文件夹，最终路径为：/mnt/sda1/docker。
+
+* 进入Docker——概况——设置，根目录填入/mnt/sda1/docker，然后保存应用。
 
 ![img](./advanced/docker2.jpg)
 
-* 分区之前先改分区表，建议改成GPT。
-
-![img](./advanced/docker3-1.jpg)
-
-* 开始分区：中止扇区填入希望的docker数据分区大小(比如10G，就写+10G)，然后新建；
+* 扩容完成，然后就能畅快的部署Docker项目了。
 
 ![img](./advanced/docker3.jpg)
-
-* 其余分区作为常规存储分区，中止扇区不用动，直接新建；
-
-![img](./advanced/docker4.jpg)
-
-* 将2个分区都格式化为EXT4(若没自动格式化，就点击红色按钮，选择EXT4手动格式化)；
-
-![img](./advanced/docker5.jpg)
-
-* #### 这样就将sda磁盘分为sda1和sda2两个分区，下面进行挂载。
-
-#### 2.挂载分区：
-
-* 打开“系统——挂载点”，点击添加：
-
-![img](./advanced/docker6.jpg)
-
-* 挂载docker数据分区：
-```
-启用挂载点
-UUID选择sda1 10G
-挂载点自定义为：/overlay/upper/opt/docker
-然后保存应用
-```
-![img](./advanced/docker7.jpg)
-
-* 挂载常规存储分区：
-```
-启用挂载点
-UUID选择sda2
-挂载点自定义为：/mnt/sda2  (常规存储分区，都是挂载在/mnt下)
-然后保存应用
-```
-![img](./advanced/docker8.jpg)
-
-* 分区挂载完成，然后重启ARS2以便完整挂载分区。。
-
-![img](./advanced/docker9.jpg)
-
-
-#### 3.扩容完成
-
-![img](./advanced/docker10.jpg)
-
-
 
 
 
@@ -310,9 +259,9 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 带Web远程桌面的Docker版Ubuntu，纯英文系统，欢迎各位极客体验。
 
-#### 1.首先准备一块硬盘，然后扩容Docker数据分区。
+#### 1.ARS2接入硬盘，然后扩容Docker数据分区。
 
-* 起码10G起步，Ubuntu镜像很大。[扩容Docker分区教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#扩容docker分区)
+* Ubuntu镜像很大，所以需要扩容docker数据分区。[扩容Docker分区教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#扩容docker分区)
 
 #### 2.应用商店里安装Ubuntu;
 
@@ -346,18 +295,18 @@ docker pull linkease/desktop-ubuntu-standard-arm64:latest
 标准版本解压出来的镜像：desktop-ubuntu-standard-arm64.tar
 全量版本解压出来的镜像：desktop-ubuntu-full-arm64.tar
 ```
-然后把镜像放入ARS2的磁盘，比如/mnt/sda2/下；
+然后把镜像放入ARS2的磁盘下，比如/mnt/sda1/下；
 
 然后终端执行命令导入离线镜像：
 
 ```
 标准版本：
-docker load -i /mnt/sda2/desktop-ubuntu-standard-arm64.tar
+docker load -i /mnt/sda1/desktop-ubuntu-standard-arm64.tar
 ```
 
 ```
 全量版本：
-docker load -i /mnt/sda2/desktop-ubuntu-full-arm64.tar
+docker load -i /mnt/sda1/desktop-ubuntu-full-arm64.tar
 ```
 
 
