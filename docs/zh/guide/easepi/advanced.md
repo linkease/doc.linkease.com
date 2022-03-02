@@ -331,6 +331,28 @@ docker load -i /mnt/sda1/desktop-ubuntu-full-arm64.tar
 ![img](./advanced/Ubuntu6.jpg)
 
 
+
+## 简易沙箱
+
+简易沙箱实际是多层OverlayFS，方便用来实验系统配置和程序，方便开发未完成的软件，但不保护Docker和硬盘的数据。
+
+#### 1.准备一个U盘或者移动硬盘(建议U盘)，然后分区格式化成ext4。
+
+![img](./advanced/sx1.jpg)
+演示为64G的U盘。
+
+
+#### 2.U盘插入到ARS2上，然后进入挂载点——添加——选择U盘，挂载点：作为外部 overlay 使用。
+
+![img](./advanced/sx2.jpg)
+
+#### 3.上一步保存应用后，重启设备。然后进入系统——杂项设置——沙箱。
+
+![img](./advanced/sx3.jpg)
+
+
+
+
 ## Home Assistant
 
 一款优秀的家庭自动化平台，您的智能家居好帮手。
