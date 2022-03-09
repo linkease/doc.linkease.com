@@ -111,15 +111,17 @@ PC客户端下载后的文件在哪里？（以Win10为例）
 
 ![dav1.jpg](./tutorial/pc/webdav/dav1.jpg)
 
-**2.然后服务设置，设置Webdav用户和Webdav密码(设置完成请记住)；**
+**2.然后服务设置，设置Webdav用户名和Webdav密码(设置完成请记住)；**
 
 ![dav2.jpg](./tutorial/pc/webdav/dav2.jpg)
 
 **3.然后磁盘管理，选择一个目标主机，可以选择盘符映射到本地；**
 
+* 推荐用更加稳定的RaiDrive来映射。[RaiDrive映射教程](https://doc.linkease.com/zh/guide/linkease_app/pc.html#raidrive)
+
 ![dav3.jpg](./tutorial/pc/webdav/dav3.jpg)
 
-**4.最后打开“此电脑”，就能看到映射的盘，就能点击进去直接访问了。**
+打开“此电脑”，就能看到映射的盘，就能点击进去直接访问了。
 
 ![dav4.jpg](./tutorial/pc/webdav/dav4.jpg)
 
@@ -130,7 +132,7 @@ PC客户端下载后的文件在哪里？（以Win10为例）
 
 **1.选择一个目标主机，有个地址，我们整个地址复制下来；**
 
-PS：地址类似这种：**http://192.168.2.135:8896/webdav/XXXXXXX** (这就是WebDAV的服务器url)
+PS：地址类似这种：**http://192.168.2.135:8896/webdav/xxxxxxx** (这就是WebDAV的服务器url)
 
 ![dav5.jpg](./tutorial/pc/webdav/dav5.jpg)
 
@@ -138,8 +140,36 @@ PS：地址类似这种：**http://192.168.2.135:8896/webdav/XXXXXXX** (这就�
 
 [易有云APP WebDAV绑定教程](/zh/guide/linkease_app/tutorial.html#web-dav) -->
 
-ps：若是其他能访问WebDAV的APP或者客户端，绑定访问也是一样的操作。
 
+### RaiDrive
+
+**介绍一个PC端的软件访问/映射到本地：RaiDrive。[下载地址]()**
+
+**1.下载安装RaiDrive，安装完成后，打开；**
+
+![jpg](./tutorial/pc/webdav/dav6.jpg)
+
+![jpg](./tutorial/pc/webdav/dav7.jpg)
+
+**2.“Add按钮”进来，选择“NAS”，然后选择“WebDav”；**
+
+* Drive：选择映射到本地的盘符，比如：X
+
+* Address：WebDAV的服务器url：http://192.168.2.135:8896/webdav/xxxxxxx
+
+(因为地址是http，不是https，取消前面那个小盾牌)
+
+* Account：Webdav用户名和Webdav密码
+
+* 最后点击“Connect”按钮连接
+
+![jpg](./tutorial/pc/webdav/dav8.jpg)
+
+**3.连接成功就能访问映射的盘。**
+
+![jpg](./tutorial/pc/webdav/dav9.jpg)
+
+![jpg](./tutorial/pc/webdav/dav10.jpg)
 
 ## 协议转发
 
