@@ -172,12 +172,13 @@ https://raw.githubusercontent.com/Libitum/jellyfin-plugin-douban/master/manifest
 
 
 
-### CloudDrive
+### 网盘影院之CloudDrive
 
 CloudDrive 是一个将云存储(阿里云盘、115网盘等)服务挂载为本地文件的系统。
 
 * 利用CloudDrive可将网盘的影视资源挂载到ARS2，然后利用Jellfin加载这些影视资源，搭建强大的家庭影院。
 * 为简化配置，请将固件升级到**19.07.8 r11804**以后版本。
+* 若只是简单的想观看阿里云盘里的影视资源，建议使用阿里云盘Fuse，操作简单。[阿里云盘Fuse教程](https://doc.linkease.com/zh/guide/easepi/advanced.html#网盘影院之阿里云盘fuse)
 
 #### 现在开始安装CloudDrive：
 
@@ -232,11 +233,9 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 
 #### 6.可将CloudDrive盘利用Samba等协议共享出去，其他设备就能直接访问CloudDrive盘。
 
-**至此CloudDrive这边设置就到此完成。下面开始将如何利用Jellyfin加载网盘的影视资源。**
+***
 
-
-
-### Jellyfin加载网盘资源
+#### Jellyfin加载网盘资源
 
 #### 1.进入到Jellyfin界面添加媒体库，网盘资源路径是`/mnt/CloudNAS/CloudDrive`，应该已经加载出来了：
 
@@ -251,6 +250,41 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 #### 3.添加完媒体库，等待扫描刮削完成。(若选择文件夹资源很多，扫描刮削就比较慢，慢慢等就成)。
 
 ![img](./advanced/CloudDrive10.jpg)
+
+
+### 网盘影院之阿里云盘Fuse
+
+阿里云盘Fuse磁盘挂载，用于配合Emby或者Jellyfin观看阿里云盘内容，目前只读，不支持写入，操作更加简单。
+
+#### 1.从iStore安装阿里云盘Fuse插件；
+
+![img](./advanced/fuse1.jpg)
+
+#### 2.打开服务——阿里云盘Fuse：
+
+```
+启用：勾选
+
+Refresh Token：根据教程获取Token，并填入
+
+挂载点：可默认，也可自定义，比如/mnt/yun
+
+其余选项默认，然后保存应用
+```
+![img](./advanced/fuse2.jpg)
+
+#### 3.运行成功后，可通过文件管理——进入到挂载点/mnt/aliyundrive，里面内容是否和我们的阿里云盘一致，若一致，就证明挂载成功。
+
+![img](./advanced/fuse3.jpg)
+
+#### 4.进入到Jellyfin界面添加媒体库，网盘资源路径是`/mnt/aliyundrive`，应该已经加载出来了。
+
+![img](./advanced/fuse4.jpg)
+
+![img](./advanced/fuse5.jpg)
+
+#### 5.添加完媒体库，等待扫描刮削完成即可。
+
 
 
 
