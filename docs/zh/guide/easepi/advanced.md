@@ -265,7 +265,7 @@ ps：CloudDrive是需要注册登录，没帐号的，请注册。
 ```
 启用：勾选
 
-Refresh Token：根据教程获取Token，并填入
+Refresh Token：根据教程获取Token，并填入，Refresh Token很容易失效，基本三五天就要更换一次
 
 挂载点：可默认，也可自定义，比如/mnt/yun
 
@@ -273,7 +273,7 @@ Refresh Token：根据教程获取Token，并填入
 ```
 ![img](./advanced/fuse2.jpg)
 
-#### 3.运行成功后，可通过文件管理——进入到挂载点/mnt/aliyundrive，里面内容是否和我们的阿里云盘一致，若一致，就证明挂载成功。
+#### 3.运行成功后，终端输入 `ls /mnt/aliyundrive` ，看到和我们阿里网盘一样的目录内容，证明挂载成功。
 
 ![img](./advanced/fuse3.jpg)
 
@@ -610,7 +610,7 @@ docker run -d --name nextcloud \
 #### 2.打开服务——阿里云盘WebDav：
 
 ```
-Refresh Token：根据教程获取Token，并填入
+Refresh Token：根据教程获取Token，并填入，Refresh Token很容易失效，基本三五天就要更换一次
 
 启用：勾选
 
