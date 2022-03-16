@@ -52,7 +52,7 @@ Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），
 
 * 媒体文件路径：Jellyfin媒体库路径，按需修改。可指定文件夹，例如：/mnt/sda1/media。
 
-* 配置数据路径：Jellyfin的配置路径，默认/root/jellyfin/config，按需修改。
+* 配置数据路径：Jellyfin的配置路径，默认/root/jellyfin/config，建议改到硬盘目录下，如：/mnt/sda1/jellyfin/config按需修改。
 
 * 转码缓存路径：可不设置，按需修改。例如：/mnt/sda1/jellyfin/cache。
 
@@ -64,12 +64,12 @@ Jellyfin是一个优秀的家庭影院平台，而ARS2支持4K H265（HEVC），
 ```
 解压出来的镜像：jellyfin-rtk.tar
 ```
-然后把镜像放入ARS2的磁盘，比如/mnt/sda2/下；
+然后把镜像放入ARS2的磁盘，比如/mnt/sda1/下；
 
 然后终端执行命令导入离线镜像：
 
 ```
-docker load -i /mnt/sda2/jellyfin-rtk.tar
+docker load -i /mnt/sda1/jellyfin-rtk.tar
 ```
 
 
@@ -143,24 +143,32 @@ docker load -i /mnt/sda2/jellyfin-rtk.tar
 
 众所周知，Jellyfin自带刮削器受限于网络，可能不是很好刮削，所以添加国内的豆瓣刮削。
 
-#### 1.Jellyfin控制台——插件——存储库——添加：
+#### 1.首先下载豆瓣刮削插件[下载地址](https://www.aliyundrive.com/s/5ZP1ymLjmSt)；
 
 ![img](./advanced/douban1.jpg)
 
-#### 2.新建存储库，存储库URL填入下列地址，名称随意；
-```
-https://raw.githubusercontent.com/Libitum/jellyfin-plugin-douban/master/manifest.json
-```
+下载后解压得到插件文件夹：
 
 ![img](./advanced/douban2.jpg)
 
-#### 3.添加完成后，目录——元数据——Douban，点击安装；安装完成后，重启Jellyfish。
+#### 2.然后查看上一步安装Jellyfish的配置数据路径，比如/mnt/sda1/jellyfin/config；
 
-![img](./advanced/douban3.jpg)
+* 一般来说我们都会设置samba共享，方便局域网内访问，若没设置，参考[samba共享教程](https://doc.linkease.com/zh/guide/easepi/common.html#samba共享)
+
+* 设置好samba共享后，直接电脑进入`\\192.168.xxx.xxx`，进入ARS2挂载的硬盘，找到此目录`sda1/jellyfin/config/plugins`，把插件文件夹放进去，然后重启Jellyfish服务器。
+
+![img](./advanced/douban3-0.jpg)
+
+![img](./advanced/douban3-1.jpg)
+
+* 若有伙伴配置数据路径还是在/root/，建议改到/mnt/挂载的硬盘下。
+
+
+#### 3.重启完成后，在插件里就能看到`Douban`了。
 
 ![img](./advanced/douban4.jpg)
 
-#### 4.重启后，在媒体库——管理媒体库中，在元数据/图片等勾选"Douban"，并置顶为第一位。
+#### 4.然后，在媒体库——管理媒体库中，在元数据/图片等勾选"Douban"，并置顶为第一位。
 
 ![img](./advanced/douban5.jpg)
 
@@ -487,9 +495,9 @@ docker run -d --name emqx --restart unless-stopped -p 1883:1883 -p 8081:8081 -p 
 
 **说明：**
 
-初始帐号：admin  
+初始帐号：admin
 
-初始密码：public  
+初始密码：public
 
 连接端口是1883
 
