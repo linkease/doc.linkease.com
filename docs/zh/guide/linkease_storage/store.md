@@ -84,6 +84,15 @@ sudo /usr/syno/bin/synopkg restart LinkEaseAgent
 
 ![q4.jpg](./tutorial/NAS/QNAP/q4.jpg)
 
+* 若遇到安装失败，日志如图：
+
+![jpg](./tutorial/NAS/QNAP/1.jpg)
+
+则如图开启允许未签名即可。
+
+![jpg](./tutorial/NAS/QNAP/2.jpg)
+
+
 **4.插件安装完成后，点击APP Center弹窗上出现的“易有云”或主页面上的“易有云”均可进入易有云向导页面；**
 
 ![q5.jpg](./tutorial/NAS/QNAP/q5.jpg)

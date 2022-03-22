@@ -122,6 +122,14 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
   * 如果不知道自己的平台，一般来说是 DDNSTO_xxx_x86_64.qpkg
 
    ![qnap-install](./koolshare_merlin/qnap-install.jpeg)
+   
+  * 若遇到安装失败，日志如图：
+  
+   ![qnap-install](./koolshare_merlin/qnap-1.jpg)
+     
+  则如图开启允许未签名即可。
+  
+   ![qnap-install](./koolshare_merlin/qnap-2.jpg) 
 
   2.安装好了，要配置：TOKEN从官网拿，填入提交就可以了，然后回到官网去配置域名。
 
