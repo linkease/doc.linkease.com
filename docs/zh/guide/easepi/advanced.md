@@ -82,7 +82,7 @@ docker load -i /mnt/sda1/jellyfin-rtk.tar
 
 * #### [DDNSTO远程观影教程](https://doc.linkease.com/zh/guide/ddnsto/scene.html#远程穿透jellyfin) -->
 
-* #### [易有云App远程观影教程](https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#jellyfin播放) -->
+* #### [易有云App远程观影教程](https://doc.linkease.com/zh/guide/linkease_app/tutorial.html#jellyfin远程播放) -->
 
 ![img](./advanced/advanced5.jpg)
 
