@@ -408,6 +408,20 @@ LED名称：选择灯，red 红灯，green 绿灯；
 ![common](./common/led1.jpg)
 
 
+* 固件升级到r22.02，关灯操作更加简单。系统——LED配置——添加LED事件：
+
+```
+名称：随意；
+
+LED名称：选择灯，red 红灯，green 绿灯；
+
+触发器：选择始终关闭；
+
+默认状态：不勾选。
+```
+
+![common](./common/led2.jpg)
+
 
 
 ## 加装风扇
