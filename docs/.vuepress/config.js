@@ -51,7 +51,7 @@ module.exports = ctx => ({
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
                             { text: '易有云APP', link: '/zh/guide/linkease_app/' },
                             { text: '易有云存储端', link: '/zh/guide/linkease_storage/' },
-                            { text: 'iStore', link: '/zh/guide/istore/' },
+                            { text: 'iStoreOS', link: '/zh/guide/istoreos/' },
                             { text: 'EasePi', link: '/zh/guide/easepi/' },
 
                         ]
@@ -154,9 +154,9 @@ module.exports = ctx => ({
                             ]
                         },
                     ],
-                    '/zh/guide/istore/': [
+                    '/zh/guide/istoreos/': [
                         {
-                            title: "iStore",
+                            title: "iStoreOS",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -164,8 +164,24 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "介绍"],
-                                ["app-meta", "插件元数据"],
-                                ["firmware-setup", "固件集成方法"],
+                                ["install", "安装"],
+                                ["question", "常见问题"],
+                                {title:"基础使用", collapsable: true, children: [
+                                    ["basic/network_guide", "网络向导"],
+                                    ["basic/intranet", "内网配置"],
+                                    ["basic/dns", "DNS配置"],
+                                    ["basic/source", "软件源配置"],
+                                    ["basic/disk", "磁盘信息"],
+                                    ["basic/storage", "存储服务"],
+                                    ["basic/docker", "Docker"],
+                                    ["basic/download", "下载服务"]
+                                ]},
+                                {title:"软件使用", collapsable: true, children: [
+                                    ["software/ddnsto", "DDNSTO"], 
+                                    ["software/linkease", "易有云"], 
+                                    ["software/aria2", "Aria2下载器"], 
+                                    ["software/jellyfin", "Jellyfin"]
+                                ]},
                             ]
                         },
                     ],
