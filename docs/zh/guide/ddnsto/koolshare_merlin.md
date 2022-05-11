@@ -317,13 +317,15 @@ docker run -d \
 
 假如我群晖主机IP是http://127.0.0.1/，那就后面就加个5000端口，那么就是http://127.0.0.1:5000/；
 
+* 群晖若遇到IP+5000端口穿透不过去的，建议改成http://127.0.0.1:5000/
+
   ![image-20210203001606683](./koolshare_merlin/synology0805-1.jpg) 
 
 这样设置成功，访问域名就能正常访问NAS了。
   
   ![image-20210203001606683](./koolshare_merlin/synology0805-2.jpg) 
   
-  ![image-20210203001606683](./koolshare_merlin/synology0805-3.jpg)        
+  ![image-20210203001606683](./koolshare_merlin/synology0805-3.jpg)
 
 3. 成功添加后请稍等1分钟左右即可正常访问。如果提交后立刻访问，可能会看到下面的错误页面，此时插件还正在重启。
 
