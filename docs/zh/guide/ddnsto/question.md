@@ -35,8 +35,26 @@ A: 配置域名、切换通道后需要等待1分钟左右，如长时间后仍�
 ### Q：一定要微信登录验证才能访问，Synology Drive无法用？
 
 A: 为了用户数据安全，目前只允许本人使用！
+
 A: Synology Drive 要用，必须先在浏览器当中验证一次
 
+
+### Q：提示域名无法访问？
+
+   ![question](./question/wffw.jpg)
+   
+A: 网络各方面都没问题，但是就是提示域名无法访问。
+
+可能是路由器中某些插件会改变网络规则，需要添加以下地址到白名单。
+
+```
+tunnel.ddnsto.com
+tunnel.kooldns.cn
+tunnel.tocmcc.cn
+www.kooldns.cn
+www.tocmcc.cn
+www.ddnsto.com
+```
 
 
 ## 通道类
