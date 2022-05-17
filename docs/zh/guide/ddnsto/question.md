@@ -39,6 +39,9 @@ A: 为了用户数据安全，目前只允许本人使用！
 A: Synology Drive 要用，必须先在浏览器当中验证一次
 
 
+
+## 网络类
+
 ### Q：提示域名无法访问？
 
    ![question](./question/wffw.jpg)
