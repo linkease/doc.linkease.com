@@ -196,5 +196,18 @@ URL：开启了webdav设备的ip+端口的完整地址，必须带http://
   
 * 然后利用webdav客户端，通过复制的链接即可访问。
 
+* 比如PC端的RaiDrive客户端：
+
+复制的公网WebDav链接格式：https://file.ddnsto.com:9443/pub-webdav/bcxxxxxxxxxxxxxxxxxxxc7d0/
+
+完整的填入红框地址栏内，然后输入账户和密码，即可访问。
+
+  ![文件管理](./ddnstofile/webdav5.jpg)
+
+
+
+
+
+
 
 
