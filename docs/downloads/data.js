@@ -94,14 +94,28 @@ const DDNSTO = {
         },
     ]
 }
-const IStore = {
-    title: "iStore",
-    guide: "/zh/guide/istore/",
+const IStoreOs = {
+    title: "iStoreOs",
+    guide: "/zh/guide/istoreos/",
     thumbnail: pic4,
     list: [
         {
             title: "最新固件",
-            url: "/zh/guide/istore/"
+            url: "https://fw.koolcenter.com/iStoreOS/"
+        },
+
+        {
+            title: "EasePi ARS2",
+            url: "https://fw.koolcenter.com/iStoreOS/ars2/"
+        },
+
+        {
+            title: "X86",
+            url: "https://fw.koolcenter.com/iStoreOS/x86_64/"
+        },
+        {
+            title: "更多",
+            url: "https://fw.koolcenter.com/iStoreOS/"
         }
     ]
 }
@@ -120,6 +134,6 @@ export default [
     LinkeaseClient,
     LinkeaseStore,
     DDNSTO,
-    IStore,
+    IStoreOs,
     EasePi,
 ]
