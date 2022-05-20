@@ -35,8 +35,29 @@ A: 配置域名、切换通道后需要等待1分钟左右，如长时间后仍�
 ### Q：一定要微信登录验证才能访问，Synology Drive无法用？
 
 A: 为了用户数据安全，目前只允许本人使用！
+
 A: Synology Drive 要用，必须先在浏览器当中验证一次
 
+
+
+## 网络类
+
+### Q：提示域名无法访问？
+
+   ![question](./question/wffw.jpg)
+   
+A: 网络各方面都没问题，但是就是提示域名无法访问。
+
+可能是路由器中某些插件会改变网络规则，需要添加以下地址到白名单。
+
+```
+tunnel.ddnsto.com
+tunnel.kooldns.cn
+tunnel.tocmcc.cn
+www.kooldns.cn
+www.tocmcc.cn
+www.ddnsto.com
+```
 
 
 ## 通道类
@@ -50,36 +71,61 @@ A：登录进ddnsto控制台，绑定的设备的右边有三个点，点击解�
 
 ### Q：切换通道服务器？
 
- A：登录进ddnsto控制台，绑定的设备的右边有三个点，点击切换服务器，出来的弹窗就可以切换了。  
+ A：登录进ddnsto控制台，绑定的设备的右边有三个点，点击切换服务器，出来的弹窗就可以切换了。
 
    ![question](./question/question3.jpg)
-   ![question](./question/question4.jpg)   
+   ![question](./question/question4.jpg)
   
   
-### Q：切换通道？
-
- A：帐号已经买过通道，要绑定新设备，请先解除旧设备的通道。然后登录进ddnsto控制台，绑定好新设备后，右边会有切换通道的图标，点击出现弹窗，点击绑定已有通道，就能看到之前购买的通道，立即绑定。 
-   
-   ![question](./question/question5.jpg)
-   ![question](./question/question6.jpg)  
-   ![question](./question/question7.jpg)  
-
-   
 ### Q：购买新通道？
 
  A：登录进ddnsto控制台，绑定设备后，右边会有切换通道的图标，点击出现弹窗，点击购买新通道，按需购买通道。
-
-   ![question](./question/question5.jpg)
-   ![question](./question/question6.jpg)  
-   ![question](./question/question8.jpg)  
  
+   ![question](./question/question5.jpg)
+
+   ![question](./question/question8.jpg)
+
+ * 购买完成后，如果要使用新通道，就在“绑定已有通道”里绑定。
+ 
+### Q：切换通道？
+
+ A：帐号已经买过通道，要绑定新设备，请先解除旧设备的通道。
+ 
+ 登录进ddnsto控制台，绑定好新设备后，右边会有切换通道的图标，点击出现弹窗，点击绑定已有通道，就能看到之前购买的通道，立即绑定。 
+   
+   ![question](./question/question6.jpg)
+
+   ![question](./question/question7.jpg)
+
+ 
+ 
+### Q：通道续费？
+
+    通道快到期了，怎么续费呢。
+    
+   ![question](./question/xf1.jpg) 
+    
+ A：目前ddnsto的通道天数不能叠加，所以续费通道，就是一个“购买新通道”，然后“切换通道”的过程。
+
+ * 因为不能叠加，所以建议在通道快过期1天内，或者过期了，再购买新通道。 点击绑定通道——购买新通道，选择合适的通道套餐。
+ 
+   ![question](./question/xf2.jpg)
+   
+   ![question](./question/xf3.jpg)
+ 
+ * 然后，再次点击绑定通道——绑定已有通道，就能看到刚刚购买的新通道，立即绑定即可。
+ 
+   ![question](./question/xf4.jpg)
+   
+   ![question](./question/xf5.jpg)
+
 
 ### Q：通道兑换码怎么使用？
 
 A: 登录ddnsto控制台，点击头像——兑换码使用，弹窗输入兑换码激活，即可绑定通道正常使用。。
 
    ![question](./question/question12.jpg)
-   ![question](./question/question13.jpg)   
+   ![question](./question/question13.jpg)
  
 ### Q：已购买通道的设备不小心删除了怎么办？
 
