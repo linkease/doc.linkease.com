@@ -90,12 +90,17 @@
                     <div class="_box">
                         <router-link to="/zh/guide/easepi/">
                             <span class="_title" title="EasePi">EasePi</span>
-                            <span class="_text" title="X86">
-                                X86
-                            </span>
-                            <span class="_text" title="更多">
-                                更多
-                            </span>
+                            <router-link to="https://fw.koolcenter.com/iStoreOS/x86_64/">
+                                <span class="_title" title="X86">
+                                    X86
+                                </span>
+                            </router-link>
+
+                            <router-link to="https://fw.koolcenter.com/iStoreOS/">
+                                <span class="_title" title="更多">
+                                    更多
+                                </span>
+                            </router-link>
                         </router-link>
                     </div>
                 </div>
@@ -187,6 +192,10 @@ export default {
                         color: #000000;
                         width: 100%;
                         display: block;
+                    }
+
+                    span._title:hover {
+                        color: #0060ff;
                     }
 
                     span._text {

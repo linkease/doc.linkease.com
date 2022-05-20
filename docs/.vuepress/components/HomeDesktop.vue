@@ -107,13 +107,18 @@
                             <span class="text">支持硬件</span>
                         </div>
                         <div class="_content">
-                            <div class="_box">
+                            <div class="_box_setup5">
                                 <router-link to="/zh/guide/EasePi/">
                                     <span class="_title" title="EasePi">EasePi</span>
-                                    <span class="_text" title="X86">
+                                </router-link>
+                                <router-link to="https://fw.koolcenter.com/iStoreOS/x86_64/">
+                                    <span class="_title" title="X86">
                                         X86
                                     </span>
-                                    <span class="_text" title="更多">
+                                </router-link>
+
+                                <router-link to="https://fw.koolcenter.com/iStoreOS/">
+                                    <span class="_title" title="更多">
                                         更多
                                     </span>
                                 </router-link>
@@ -298,6 +303,40 @@ export default {
                             }
                         }
 
+                        ._box_setup5 {
+                            background: rgba(255, 255, 255, 0.6);
+                            box-shadow: 0px 2px 8px 4px rgb(231 231 231 / 50%);
+                            border-radius: 2px;
+                            padding: 0.625rem 1.25rem;
+                            margin-bottom: 0.625rem;
+
+                            span._title {
+                                font-size: 1.5rem;
+                                font-family: PingFangSC-Semibold, PingFang SC;
+                                font-weight: 600;
+                                color: #000000;
+                                width: 100%;
+                                display: block;
+                            }
+
+                            span._text {
+                                font-size: 0.875rem;
+                                font-family: PingFangSC-Regular, PingFang SC;
+                                font-weight: 400;
+                                color: #000000;
+                                line-height: 1.25rem;
+                                width: 100%;
+                                display: block;
+                            }
+
+                            span._title:hover {
+
+                                color: #0060ff;
+
+                            }
+
+                        }
+
                         ._box:hover {
                             span._title {
                                 color: #0060ff;
@@ -307,6 +346,7 @@ export default {
                                 color: #0060ff;
                             }
                         }
+
                     }
                 }
             }
@@ -341,8 +381,8 @@ export default {
 
             ul.setup2 {
                 position: absolute;
-                top: 250px;
-                left: -320px;
+                top: 211px;
+                left: -406px;
 
                 li.item {
                     list-style: none;
@@ -372,8 +412,8 @@ export default {
 
             ul.setup3 {
                 position: absolute;
-                top: 283px;
-                right: -136px;
+                top: 252px;
+                right: 38px;
 
                 li.item {
                     ._title {
@@ -400,8 +440,8 @@ export default {
 
             ul.setup4 {
                 position: absolute;
-                top: 175px;
-                right: -315px;
+                top: 234px;
+                right: -274px;
 
                 li.item {
                     ._title {
@@ -429,7 +469,7 @@ export default {
             ul.setup5 {
                 position: absolute;
                 top: 12px;
-                right: -300px;
+                right: -130px;
 
                 li.item {
                     ._title {
