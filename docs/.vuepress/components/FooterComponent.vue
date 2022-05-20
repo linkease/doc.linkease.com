@@ -31,7 +31,7 @@ export default {
                     title: "所有产品",
                     childer: [
                         {
-                            label: "iStoreOs",
+                            label: "iStoreOS",
                             value: "/zh/guide/istoreos/",
                         },
                         {
@@ -197,8 +197,8 @@ li {
     .footer {
         .footer-content {
             .content_text {
-                width: 100%;
-                padding-bottom: 0px;
+                // padding-bottom: 0px;
+                padding: 20px 20px 0;
 
                 .content_block {
                     width: 100%;
@@ -229,20 +229,13 @@ li {
     .footer {
         .footer-content {
             .content_text {
-                width: 100%;
+                // width: 100%;
+                padding: 20px 20px 0;
 
-                .content_block {
-                    width: 100%;
-                    padding: 0;
-
-                    .content_list {
-                        flex: 0 0 100%;
-                        max-width: 33.333%;
-                        margin: 0;
-                        padding: 0;
-                        margin-bottom: 16px;
-                    }
-                }
+                // .content_block {
+                //     // width: 100%;
+                //     padding: 0;
+                // }
             }
         }
     }
@@ -253,6 +246,7 @@ li {
         .footer-content {
             .content_text {
                 width: 100%;
+                padding: 20px 20px 0;
 
                 .content_block {
                     width: 100%;
@@ -276,9 +270,9 @@ li {
                 }
             }
 
-            .content_info {
-                padding-left: 10px;
-            }
+            // .content_info {
+            //     padding-left: 10px;
+            // }
         }
     }
 }

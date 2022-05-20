@@ -24,7 +24,7 @@
                         <div class="_content">
                             <div class="_box">
                                 <router-link to="/zh/guide/istoreos/">
-                                    <span class="_title" title="iStoreOs">iStoreOs</span>
+                                    <span class="_title" title="iStoreOs">iStoreOS</span>
                                     <span class="_text" title="更简单的OpenWRT/一键配置/智能向导">
                                         更简单的OpenWrt/一键配置/智能向导
                                     </span>
@@ -110,8 +110,11 @@
                             <div class="_box">
                                 <router-link to="/zh/guide/EasePi/">
                                     <span class="_title" title="EasePi">EasePi</span>
-                                    <span class="_text" title="X86更多">
-                                        X86更多
+                                    <span class="_text" title="X86">
+                                        X86
+                                    </span>
+                                    <span class="_text" title="更多">
+                                        更多
                                     </span>
                                 </router-link>
                             </div>
@@ -455,7 +458,7 @@ export default {
 }
 </style>
 <style lang="scss" scoped>
-@media screen and(max-width: 719px) {
+@media screen and(max-width: 1300px) {
     #page.desktop {
         display: none;
     }

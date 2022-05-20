@@ -94,8 +94,8 @@ const DDNSTO = {
         },
     ]
 }
-const IStoreOs = {
-    title: "iStoreOs",
+const IStoreOS = {
+    title: "iStoreOS",
     guide: "/zh/guide/istoreos/",
     thumbnail: pic4,
     list: [
@@ -134,6 +134,6 @@ export default [
     LinkeaseClient,
     LinkeaseStore,
     DDNSTO,
-    IStoreOs,
+    IStoreOS,
     EasePi,
 ]
