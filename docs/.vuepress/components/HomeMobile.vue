@@ -7,17 +7,18 @@
             <div class="block"></div>
         </div>
         <div class="containers">
+
             <ul class="items">
-                <div class="_title" title="1 选择硬件">
+                <div class="_title" title="1 选择固件">
                     <span class="number">1</span>
-                    <span class="text"> 选择硬件</span>
+                    <span class="text"> 选择固件</span>
                 </div>
                 <div class="_content">
                     <div class="_box">
-                        <router-link to="/zh/guide/easepi/">
-                            <span class="_title" title="EasePi">EasePi</span>
-                            <span class="_text" title="性能强劲/接口丰富/带存储的软路由">
-                                性能强劲/接口丰富/带存储的软路由
+                        <router-link to="/zh/guide/istoreos/">
+                            <span class="_title" title="iStoreOs">iStoreOs</span>
+                            <span class="_text" title="更简单的OpenWRT/一键配置/智能向导">
+                                更简单的OpenWRT/一键配置/智能向导
                             </span>
                         </router-link>
                     </div>
@@ -79,6 +80,31 @@
                     </div>
                 </div>
             </ul>
+
+            <ul class="items">
+                <div class="_title" title="5 支持硬件">
+                    <span class="number">5</span>
+                    <span class="text"> 支持硬件</span>
+                </div>
+                <div class="_content">
+                    <div class="_box">
+                        <router-link to="/zh/guide/easepi/">
+                            <span class="_title" title="EasePi">EasePi</span>
+                            <router-link to="https://fw.koolcenter.com/iStoreOS/x86_64/">
+                                <span class="_title" title="X86">
+                                    X86
+                                </span>
+                            </router-link>
+
+                            <router-link to="https://fw.koolcenter.com/iStoreOS/">
+                                <span class="_title" title="更多">
+                                    更多
+                                </span>
+                            </router-link>
+                        </router-link>
+                    </div>
+                </div>
+            </ul>
         </div>
     </div>
 </template>
@@ -96,17 +122,21 @@ export default {
     word-wrap: break-word;
     outline: none;
 }
+
 #page.mobile {
     display: none;
     width: 100%;
     padding: 0 0.625rem;
     padding-bottom: 6.25rem;
+
     ._header {
         width: 100%;
         margin-top: 6.25rem;
         margin-bottom: 1.25rem;
+
         h1.title {
             text-align: center;
+
             span {
                 height: 40px;
                 font-size: 28px;
@@ -116,6 +146,7 @@ export default {
                 line-height: 40px;
             }
         }
+
         .block {
             width: 313px;
             height: 1px;
@@ -123,10 +154,12 @@ export default {
             margin: 0 auto;
         }
     }
+
     .containers {
         ul.items {
             padding: 0;
             margin: 0;
+
             div._title {
                 span.number {
                     font-size: 60px;
@@ -143,6 +176,7 @@ export default {
                     color: #0060ff;
                 }
             }
+
             ._content {
                 ._box {
                     background: rgba(255, 255, 255, 0.6);
@@ -150,6 +184,7 @@ export default {
                     border-radius: 2px;
                     padding: 0.625rem 1.25rem;
                     margin-bottom: 0.625rem;
+
                     span._title {
                         font-size: 1.5rem;
                         font-family: PingFangSC-Semibold, PingFang SC;
@@ -158,6 +193,11 @@ export default {
                         width: 100%;
                         display: block;
                     }
+
+                    span._title:hover {
+                        color: #0060ff;
+                    }
+
                     span._text {
                         font-size: 0.875rem;
                         font-family: PingFangSC-Regular, PingFang SC;
@@ -174,10 +214,11 @@ export default {
 }
 </style>
 <style lang="scss" scoped>
-@media screen and(max-width: 719px) {
+@media screen and(max-width: 1300px) {
     #page.desktop {
         display: none;
     }
+
     #page.mobile {
         display: block;
     }

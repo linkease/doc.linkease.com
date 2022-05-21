@@ -1,62 +1,41 @@
-# Linkease
+# [易有云团队文档仓库](https://doc.linkease.com)
 
-未来易有云跟 [ddnsto](https://www.ddnsto.com) 是完全独立的两个产品，他们的官网也是独立的，维护的人员也是独立的。
+目标：为每个想提升自己网络跟存储体验的用户，提供一个更友好的文档入口。文档核心覆盖：
 
-更多信息请到官网： [https://www.linkease.com](https://www.linkease.com) 
+* iStoreOS
+* iStore 应用中心软件
+* 易有云
+* DDNSTO
+* EasePi
 
-功能预览：[产品截图](https://www.ddnsto.com/linkease/#/zh-cn/features/preview)
+## 找到我们
 
-问题反馈：[issues](https://github.com/koolshare/linkease/issues)
+* [官网](https://www.linkease.com)
+* [酷友社 B 站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
+* [酷友社 Youtube](https://www.youtube.com/channel/UCvENMyIFurJi_SrnbnbyiZw)
+* [QQ 群](https://www.koolcenter.com/posts/117)
+* [TG 群](https://t.me/+QwxW7aimSMeRdQJX)
 
-下载：
+VIP 用户请加入相关 VIP 群咨询。
 
-1. [客户端下载](https://doc.linkease.com/downloads/)
+## 提供的软件产品
 
-2. [存储端下载](https://doc.linkease.com/downloads/)
+### [iStoreOS](https://github.com/linkease/istoreos)
 
-![QQ群介绍图](manual/pages/zh-cn/README/QQ%E7%BE%A4%E4%BB%8B%E7%BB%8D%E5%9B%BE.png?raw=true)
+基于 OpenWRT 一个可用于路由或者网络存储场景的操作系统。给入门用户一个更简单易用的固件。
 
-#### 更新日志
+### [iStore](https://github.com/linkease/istore)
 
-##### 0.2.98
+一个更现代化的软件中心实现，方便 iStoreOS 安装更多的软件
 
-* NETBIOS 支持，搜索局域网内的 NETBIOS 域名跟 IP
-* 支持终端通过 Agent 来访问到局域网内的 SAMBA 2/3 版本的服务器
-* 支持终端通过 Agent 来访问到局域网内的 SFTP 服务器
-* 支持文件后缀搜索，以支持终端拿到视频字幕
-* 支持文件的正序、逆序排序
-* 修复空间容量显示问题
-* 添加了部分 case 的错误信息提示
-* 修复了删除设备之后，要等很久才能再次重新绑定的问题（目前删除设备之后，等 10s ~ 20s 可以重新绑定）
-* 修复了底层的一个通信错误，当持续用 4G 网络的时候，超过 15 分钟会通信超时
+### [易有云](https://app.linkease.com/)
 
-##### 0.2.87
-* 支持 ipv6 直连
-* 新增套餐支持，用户可以选择买套餐
-* 新增设置页面
-* 设备列表页面换到个人目录下面
+提供整套私有化的网络存储服务，用户可以轻松达成各种专业级别功能。客户端支持 iOS、Android、macOS、Windows，服务器端支持 iStoreOS、Merlin、群晖、QNAP、Windows、macOS、Linux 。
 
-##### 0.2.86
-* 修复网络切换导致的通新问题
+### [DDNSTO](https://www.ddnsto.com)
 
-##### 0.2.81
-* 优化底层通信
-* 更友善的支持用户设备的绑定
-* 可以显示设备的容量等
-* 修复双向同步的 BUG
-* 更新新的 UI
+提供基于浏览器的便捷远程域名访问，远程电脑，远程文件管理等
 
-##### 0.2.73
-* 更新了新的绑定方式，支持 web 端绑定
-* 更新了绑定方式，支持手机自动发现局域网设备并绑定
-* 支持硬盘列表选择
-* 支持修改共享目录
+## 提供的硬件解决方案
 
-##### 0.2.70
-* 更新了 Windows 客户端，QNAP、Synology，Linux 通用版存储端
-* Windows 端支持自动检索局域网未绑定的设备，然后添加进行绑定
-* 更新客户端与存储端之后，支持目录更改！
-* 下个版本更新目标：二进制自动更新能力！
-
-##### 0.2.68
-* 修复序列号的错误，导致无法绑定设备
+[EasePi](https://item.taobao.com/item.htm?ft=t&id=655381846734)，一个可以作为路由，也可以作为轻存储的一体化硬件。

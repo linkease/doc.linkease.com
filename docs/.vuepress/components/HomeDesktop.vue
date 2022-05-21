@@ -17,16 +17,16 @@
                 <!-- 步骤1 -->
                 <ul class="setup1">
                     <li class="item">
-                        <div class="_title" title="选择硬件">
-                            <span class="text"> 选择硬件</span>
+                        <div class="_title" title="选择固件">
+                            <span class="text"> 选择固件</span>
                             <span class="number">1</span>
                         </div>
                         <div class="_content">
                             <div class="_box">
-                                <router-link to="/zh/guide/easepi/">
-                                    <span class="_title" title="EasePi">EasePi</span>
-                                    <span class="_text" title="性能强劲/接口丰富/带存储的软路由">
-                                        性能强劲/接口丰富/带存储的软路由
+                                <router-link to="/zh/guide/istoreos/">
+                                    <span class="_title" title="iStoreOs">iStoreOS</span>
+                                    <span class="_text" title="更简单的OpenWRT/一键配置/智能向导">
+                                        更简单的OpenWrt/一键配置/智能向导
                                     </span>
                                 </router-link>
                             </div>
@@ -98,6 +98,34 @@
                         </div>
                     </li>
                 </ul>
+
+                <!-- 步骤5 -->
+                <ul class="setup5">
+                    <li class="item">
+                        <div class="_title" title="支持硬件">
+                            <span class="number">5</span>
+                            <span class="text">支持硬件</span>
+                        </div>
+                        <div class="_content">
+                            <div class="_box_setup5">
+                                <router-link to="/zh/guide/EasePi/">
+                                    <span class="_title" title="EasePi">EasePi</span>
+                                </router-link>
+                                <router-link to="https://fw.koolcenter.com/iStoreOS/x86_64/">
+                                    <span class="_title" title="X86">
+                                        X86
+                                    </span>
+                                </router-link>
+
+                                <router-link to="https://fw.koolcenter.com/iStoreOS/">
+                                    <span class="_title" title="更多">
+                                        更多
+                                    </span>
+                                </router-link>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
             <div class="container">
 
@@ -159,16 +187,20 @@ export default {
     word-wrap: break-word;
     outline: none;
 }
+
 #page.desktop {
     width: 100%;
     max-width: 84.375rem; //1350px
     margin: 0 auto;
     padding: 3.125rem 0;
+
     ._header {
         width: 100%;
         margin: 6.25rem 0;
+
         h1.title {
             text-align: center;
+
             span {
                 height: 2.5rem;
                 font-size: 1.75rem;
@@ -178,6 +210,7 @@ export default {
                 line-height: 2.5rem;
             }
         }
+
         .block {
             width: 19.5625rem;
             height: 1px;
@@ -185,6 +218,7 @@ export default {
             margin: 0 auto;
         }
     }
+
     .containers {
         text-align: center;
         position: relative;
@@ -192,20 +226,24 @@ export default {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+
         .sphere {
             position: relative;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
+
             ._image {
                 position: relative;
                 z-index: 0;
+
                 img {
                     max-width: 37.625rem;
                     max-height: 38.6875rem;
                 }
             }
+
             ._titles {
                 position: absolute;
                 z-index: 1;
@@ -215,10 +253,12 @@ export default {
                 color: #000000;
                 margin-top: -12.5rem;
             }
+
             ul {
                 li.item {
                     list-style: none;
                     flex: 0 0 100%;
+
                     ._title {
                         span.text {
                             font-size: 1.5rem;
@@ -226,6 +266,7 @@ export default {
                             font-weight: 500;
                             color: #0060ff;
                         }
+
                         span.number {
                             font-size: 60px;
                             font-family: Apple-Chancery, Apple;
@@ -233,6 +274,7 @@ export default {
                             color: #0060ff;
                         }
                     }
+
                     ._content {
                         ._box {
                             background: rgba(255, 255, 255, 0.6);
@@ -240,6 +282,7 @@ export default {
                             border-radius: 2px;
                             padding: 0.625rem 1.25rem;
                             margin-bottom: 0.625rem;
+
                             span._title {
                                 font-size: 1.5rem;
                                 font-family: PingFangSC-Semibold, PingFang SC;
@@ -248,6 +291,7 @@ export default {
                                 width: 100%;
                                 display: block;
                             }
+
                             span._text {
                                 font-size: 0.875rem;
                                 font-family: PingFangSC-Regular, PingFang SC;
@@ -258,101 +302,191 @@ export default {
                                 display: block;
                             }
                         }
+
+                        ._box_setup5 {
+                            background: rgba(255, 255, 255, 0.6);
+                            box-shadow: 0px 2px 8px 4px rgb(231 231 231 / 50%);
+                            border-radius: 2px;
+                            padding: 0.625rem 1.25rem;
+                            margin-bottom: 0.625rem;
+
+                            span._title {
+                                font-size: 1.5rem;
+                                font-family: PingFangSC-Semibold, PingFang SC;
+                                font-weight: 600;
+                                color: #000000;
+                                width: 100%;
+                                display: block;
+                            }
+
+                            span._text {
+                                font-size: 0.875rem;
+                                font-family: PingFangSC-Regular, PingFang SC;
+                                font-weight: 400;
+                                color: #000000;
+                                line-height: 1.25rem;
+                                width: 100%;
+                                display: block;
+                            }
+
+                            span._title:hover {
+
+                                color: #0060ff;
+
+                            }
+
+                        }
+
                         ._box:hover {
                             span._title {
                                 color: #0060ff;
                             }
+
                             span._text {
                                 color: #0060ff;
                             }
                         }
+
                     }
                 }
             }
+
             ul.setup1 {
                 position: absolute;
-                top: 40px;
+                top: 12px;
                 left: -320px;
+
                 li.item {
                     ._title {
                         text-align: right;
+
                         span.text {
                             margin-right: 25px;
                         }
+
                         span.number {
                             margin-right: -60px;
                         }
                     }
+
                     ._content {
                         text-align: right;
+
                         ._box {
                             width: 18rem;
                         }
                     }
                 }
             }
+
             ul.setup2 {
                 position: absolute;
-                top: 250px;
-                left: -320px;
+                top: 211px;
+                left: -406px;
+
                 li.item {
                     list-style: none;
                     flex: 0 0 100%;
+
                     ._title {
                         text-align: right;
+
                         span.text {
                             margin-right: 25px;
                         }
+
                         span.number {
                             margin-right: -60px;
                         }
                     }
+
                     ._content {
                         text-align: right;
+
                         ._box {
                             width: 24.5rem;
                         }
                     }
                 }
             }
+
             ul.setup3 {
                 position: absolute;
-                top: 250px;
-                right: -310px;
+                top: 252px;
+                right: 38px;
+
                 li.item {
                     ._title {
                         text-align: left;
+
                         span.text {
                             margin-left: 25px;
                         }
+
                         span.number {
                             margin-left: -60px;
                         }
                     }
+
                     ._content {
                         text-align: left;
+
                         ._box {
                             width: 24.5rem;
                         }
                     }
                 }
             }
+
             ul.setup4 {
                 position: absolute;
-                top: 40px;
-                right: -300px;
+                top: 234px;
+                right: -274px;
+
                 li.item {
                     ._title {
                         text-align: left;
+
                         span.text {
                             margin-left: 25px;
                         }
+
                         span.number {
                             margin-left: -60px;
                         }
                     }
+
                     ._content {
                         text-align: left;
+
+                        ._box {
+                            width: 18rem;
+                        }
+                    }
+                }
+            }
+
+            ul.setup5 {
+                position: absolute;
+                top: 12px;
+                right: -130px;
+
+                li.item {
+                    ._title {
+                        text-align: left;
+
+                        span.text {
+                            margin-left: 25px;
+                        }
+
+                        span.number {
+                            margin-left: -60px;
+                        }
+                    }
+
+                    ._content {
+                        text-align: left;
+
                         ._box {
                             width: 18rem;
                         }
@@ -364,10 +498,11 @@ export default {
 }
 </style>
 <style lang="scss" scoped>
-@media screen and(max-width: 719px) {
+@media screen and(max-width: 1300px) {
     #page.desktop {
         display: none;
     }
+
     #page.mobile {
         display: block;
     }
