@@ -1,4 +1,8 @@
-## iStoreOS
+# iStoreOS 固件
+
+[易有云团队](https://www.linkease.com)的目标是：提供更简单易用的网络存储方案。为了让用户能够在更多的硬件上享受易有云团队带来的软件福利，我们开发了本系统。
+
+## 介绍
 
 iStoreOS 是提供给入门级 OpenWRT 爱好者使用的固件，主要是为了简化操作，避免入门用户走进太多坑。其中包括：
 
@@ -11,16 +15,25 @@ iStoreOS 是提供给入门级 OpenWRT 爱好者使用的固件，主要是为�
 
 iStoreOS 还提供了软件中心：[iStore](https://github.com/linkease/istore)，尽可能解决插件之间的依赖关系，可让大家自由自在安装插件。
 
-除此之外，为了方便大家折腾不出问题，避免掉坑里，我们还做了很多防坑操作，比如 ARS2 固件里面有：
+除此之外，为了方便大家折腾不出问题，避免掉坑里，我们还做了很多防坑操作，比如 [ARS2](https://easepi.linkease.com/) 固件里面有：
 
 * 救援模式，即是固件完全刷坏，也可以进入救援模式救回来
 * 沙箱模式，通过 U 盘进入沙箱模式，不管如何安装插件搞坏了系统，拔掉 U 盘就回到上个状态
 
 当然 iStoreOS 还有整套易有云 APP 的协助，可以远程管理系统，远程访问插件，远程访问文件，备份相册，看电影等。满足了很多用户折腾半天都搞不定的场景需求。
 
+## 支持硬件
+
+* [ARS2](https://easepi.linkease.com) 固件最初硬件产品，没有这个产品，就没有这个项目
+* X86
+* R2S 开发中
+* R4S 开发中
+* R68S 开发中
+* R5S 开发中
+
 ## 固件下载
 
-[https://fw.koolcenter.com/iStoreOS/](https://fw.koolcenter.com/iStoreOS/)
+https://fw.koolcenter.com/iStoreOS/
 
 ## 使用方法
 
@@ -35,29 +48,25 @@ iStoreOS 还提供了软件中心：[iStore](https://github.com/linkease/istore)
 
 iStoreOS 来源于官方的 OpenWRT Release 分支源码，没有 fork 自己的分支，几乎都是通过 OpenWRT 标准组件形式实现。我们修改或者开发的部分，都以插件形式，具体源代码如下：
 
-* [https://github.com/linkease/nas-packages-luci](https://github.com/linkease/nas-packages-luci) 我们自己开发的插件 UI 代码
-* [https://github.com/linkease/nas-packages](https://github.com/linkease/nas-packages) 我们自己开发插件的程序代码，部分程序并不开源
-* [https://github.com/linkease/istore](https://github.com/linkease/istore) 软件中心核心代码，包含备份插件功能等，全部开源
-* [https://github.com/linkease/openwrt-themedog](https://github.com/linkease/openwrt-themedog) 本来尝试做的桌面主题，目前还有些问题
-* [https://github.com/linkease/istore-packages](https://github.com/linkease/istore-packages) 软件中心的一些非 OpenWRT 官方包
-* [https://github.com/linkease/openwrt-app-actions](https://github.com/linkease/openwrt-app-actions) 其他一些软件包
+* [nas-packages-luci](https://github.com/linkease/nas-packages-luci) 我们自己开发的插件 UI 代码
+* [nas-packages](https://github.com/linkease/nas-packages) 我们自己开发插件的程序代码，部分程序并不开源
+* [istore](https://github.com/linkease/istore) 软件中心核心代码，包含备份插件功能等，全部开源
+* [openwrt-themedog](https://github.com/linkease/openwrt-themedog) 本来尝试做的桌面主题，目前还有些问题
+* [istore-packages](https://github.com/linkease/istore-packages) 软件中心的一些非 OpenWRT 官方包
+* [openwrt-app-actions](https://github.com/linkease/openwrt-app-actions) 其他一些软件包
 
 iStoreOS 就是在 OpenWRT 最基础最原始的固件基础上，加上了上面插件的能力来实现。
 
+`更新`：最近发现，用 patch 方式开发太麻烦，等稳定以后，还是计划 fork OpenWRT 代码，并开源到这里。这样也方便更多人参与到本项目。
+
 ### 固件编译的 action 参考
 
-iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给高级用户自己编译固件，如果大家有动手能力，可以参考下面的第三方 action 编译自己的固件：
+iStoreOS 目标是给入门者提供固件，暂时没直接提供 action 来给高级用户自己编译固件，如果大家有动手能力，可以参考下面的第三方 action 编译自己的固件：
 
-* [https://github.com/xiangfeidexiaohuo/OpenWrt_Build](https://github.com/xiangfeidexiaohuo/OpenWrt_Build)
-* [https://github.com/xiangfeidexiaohuo/openwrt-packages](https://github.com/xiangfeidexiaohuo/openwrt-packages)
+* https://github.com/xiangfeidexiaohuo/OpenWrt_Build
+* https://github.com/xiangfeidexiaohuo/openwrt-packages
 
 上面为非我们提供的支持，只是提供给大家一个源代码参考。我们不会对任何结果或者过程负责。
-
-## 测试用例以及其它信息
-
-请查看 wiki 侧边栏：
-
-[Wiki](https://github.com/linkease/istoreos/wiki)
 
 ## 更多 iStoreOS 功能，请关注我们的 B 站账号
 
@@ -68,13 +77,13 @@ iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给
 
 ## 问题反馈
 
-* [https://github.com/linkease/istoreos/issues](https://github.com/linkease/istoreos/issues)
+* https://github.com/linkease/istoreos/issues
 
 ### 交流群汇总
 
 大家请选择加入 iStoreOS 固件互助群。
 
-* [https://www.koolcenter.com/posts/117](https://www.koolcenter.com/posts/117)
+* https://www.koolcenter.com/posts/117
 
 ### 功能介绍
 
@@ -97,7 +106,7 @@ iStoreOS 目标是给入门者提供固件，并没有直接提供 action 来给
 
 ### 第三方离线包制作
 
-iStoreOS 离线包不是一个压缩包，也没啥黑科技，而是借助第三方软件实现。原理是这个项目：[https://github.com/megastep/makeself](https://github.com/megastep/makeself)
+iStoreOS 离线包不是一个压缩包，也没啥黑科技，而是借助第三方软件实现。原理是这个项目：https://github.com/megastep/makeself
 
 生成方法例子：
 
@@ -118,67 +127,3 @@ iStoreOS 离线包不是一个压缩包，也没啥黑科技，而是借助第�
 * OpenWRT 官方团队
 * 众多 OpenWRT 的固件或者插件开发者
 
-## v20220506 版本更新说明
- 
-1. 修复：NTFS 格式不支持中文目录（导致 Samba 配置也无法支持中文）
-2. 修复：miniupnp有问题的更换版本可以解决
-3. 修复：部分新硬盘出现格式化错误
-4. 增加：单线多拨支持
-5. 增加：挂载网络文件系统插件
-
-注意，目前升级之后，软件中心的插件都会丢失，离线的插件也会丢失。软件中心本地备份也只能备份软件中心安装的插件。
-
-## v20220429 版本更新说明
- 
-1. 修复：UI 配置界面，有时候卡主不动，非常影响体验
-2. 修复：table full, dropping packet
-3. 修复：首页改 DNS 的错误
-4. 增加 aliyun/dnspod DDNS
-5. 做一些兼容性，保证一些离线插件能运行
-6. 增加驱动：kmod-ath10k
-7. 增加 qb，tr 下载器的设置向导
-8. 把终端放到首页，更好找
-
-## v20220422 版本更新说明
-
-### 新增驱动
-
-RTL8125B i40e
-
-### 新增功能
-
-1. 首页向导新增更多快捷入口
-2. 支持更好的局域网统计
-3. 支持快速修改内网IP
-4. 更方便的内网测速
-5. 命令行快捷修改 内网IP
-6. 更好的上网检测，能区别出来 DNS 的配置错误
-7. 增加 socat 插件
-
-### 修复 BUG 
-
-1. 有分区的情况下的，在线升级失败
-2. Argon 主题导致网页偶尔卡
-3. NAT 环回地址失败
-4. 旁路由的配置修复，强制配置 DNS，保证旁路由内部有网络
-5. Aria2 向导设置好文件夹权限
-6. 磁盘格式化更稳
-7. 重启网络模块导致 docker 安装错误
-
-### 注意事项
-
-如果在线升级失败，请下载[openwrt-21.02.1-2022042219-x86-64-squashfs-combined.img.gz](https://fw.koolcenter.com/iStoreOS/x86_64/openwrt-21.02.1-2022042219-x86-64-squashfs-combined.img.gz) 不用解压升级。
-
-命令行修改内网 IP 方法：
-
-```
- quickstart lan --ip 192.168.99.1 --mask 255.255.255.0
-```
-
-也可以直接用
-
-```
-quickstart
-```
-
-进入交互模式修改 IP。（显示器模式下中文乱码，下个版本修复）
