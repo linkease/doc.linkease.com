@@ -4,6 +4,10 @@
 
 ## X86 物理机
 
+### 视频介绍
+
+<iframe src="//player.bilibili.com/player.html?aid=811882019&bvid=BV1p34y1j7Jw&cid=729311389&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ### 准备：
 
 1. 一个 USB
@@ -13,13 +17,14 @@
 
 ### 下载最新的固件
 
-https://fw.koolcenter.com/iStoreOS/x86_64/
+* [固件下载](https://fw.koolcenter.com/iStoreOS/x86_64/)
+* [固件下载-EFI](https://fw.koolcenter.com/iStoreOS/x86_64/)
 
 越后面的版本越新，下载最新的版本。下载完成之后不需要解压。
 
 ### 用 rufus 做 USB 启动盘 
 
-https://rufus.ie/zh/
+[Rufus下载](https://rufus.ie/zh/)
 
 插入 USB，选择 下载好的固件
 
@@ -36,7 +41,9 @@ quickstart
 
 或者 qu + tab 自动补全
 
-选择 Install X86，一直按确定，就行了。
+选择 Install X86，一直按确定，就行了。具体如下图所示：
+
+![install.png](./install/install.png)
 
 ### 用 Show Interfaces 查看网线插入到了哪个网口
 
