@@ -177,7 +177,8 @@ module.exports = ctx => ({
                                         ["basic/disk", "磁盘信息"],
                                         ["basic/storage", "存储服务"],
                                         ["basic/docker", "Docker"],
-                                        ["basic/download", "下载服务"]
+                                        ["basic/download", "下载服务"],
+                                        ["basic/domain", "远程域名"]
                                     ]
                                 },
                                 {
