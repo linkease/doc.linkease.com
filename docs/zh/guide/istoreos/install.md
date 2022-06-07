@@ -49,17 +49,17 @@ quickstart
 
 以及查看当前 LAN 口的 IP
 
-## R2S 设备/R4S 设备
+## R2S 设备
 
 ### 准备：
 
-1. 一个 USB读卡器
-2. 一张 TF卡
+1. 一个 USB 读卡器
+2. 一张 TF 卡
 3. 还需要一台 windows 电脑
 
 ### 下载最新的固件
 
-* [固件下载](https://fw.koolcenter.com/iStoreOS/alpha/)
+* [固件下载](https://fw.koolcenter.com/iStoreOS/r2s/)
 
 越后面的版本越新，下载最新的版本。下载完成之后不需要解压。
 
@@ -67,8 +67,11 @@ quickstart
 
 [Rufus下载](https://rufus.ie/zh/)
 
-### 将 TF卡插入 R2S 设备/R4S 设备卡槽后接通电源即可
+### 将 TF 卡插入 R2S 设备卡槽后接通电源即可
 
+## R4S 设备
+
+同 R2S，固件下载地址不一样，请从[这里](https://fw.koolcenter.com/iStoreOS/r4s/)下载
 
 ## R68S 设备
 
