@@ -166,8 +166,7 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "介绍"],
-                                ["install", "安装"],
-                                ["question", "常见问题"],
+                                ["install", "固件安装"],
                                 {
                                     title: "基础使用", collapsable: true, children: [
                                         ["basic/network_guide", "网络向导"],
@@ -189,6 +188,7 @@ module.exports = ctx => ({
                                         ["software/jellyfin", "Jellyfin"]
                                     ]
                                 },
+                                ["question", "常见问题"],
                             ]
                         },
                     ],
