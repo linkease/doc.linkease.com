@@ -26,10 +26,10 @@ iStoreOS 还提供了软件中心：[iStore](https://github.com/linkease/istore)
 
 * [ARS2](https://easepi.linkease.com) 固件最初硬件产品，没有这个产品，就没有这个项目
 * X86
-* R2S 开发中
-* R4S 开发中
-* R68S 开发中
-* R5S 开发中
+* R2S
+* R4S
+* R5S
+* R68S
 
 ## 固件下载
 
