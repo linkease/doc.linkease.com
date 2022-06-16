@@ -178,7 +178,10 @@ module.exports = ctx => ({
                                         ["software/ddnsto", "DDNSTO"],
                                         ["software/linkease", "易有云"],
                                         ["software/aria2", "Aria2下载器"],
-                                        ["software/jellyfin", "Jellyfin"]
+                                        ["software/qBittorrent", "qBittorrent下载器"],
+                                        ["software/transmission", "Transmission下载器"],
+                                        ["software/homebox", "内网测速"],
+                                        ["software/aliyunwebdav", "阿里云WebDav"]
                                     ]
                                 },
                                 ["question", "常见问题"],
