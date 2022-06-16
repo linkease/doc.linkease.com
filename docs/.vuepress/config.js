@@ -168,20 +168,13 @@ module.exports = ctx => ({
                                 ["", "介绍"],
                                 ["install", "固件安装"],
                                 {
-                                    title: "基础使用", collapsable: true, children: [
+                                    title: "特色功能", collapsable: true, children: [
                                         ["basic/network_guide", "网络向导"],
-                                        ["basic/intranet", "内网配置"],
-                                        ["basic/dns", "DNS配置"],
-                                        ["basic/source", "软件源配置"],
-                                        ["basic/disk", "磁盘信息"],
-                                        ["basic/storage", "存储服务"],
-                                        ["basic/docker", "Docker"],
-                                        ["basic/download", "下载服务"],
-                                        ["basic/domain", "远程域名"]
+                                        ["basic/page", "首页向导"]
                                     ]
                                 },
                                 {
-                                    title: "软件使用", collapsable: true, children: [
+                                    title: "软件中心", collapsable: true, children: [
                                         ["software/ddnsto", "DDNSTO"],
                                         ["software/linkease", "易有云"],
                                         ["software/aria2", "Aria2下载器"],
