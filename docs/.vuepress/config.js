@@ -166,7 +166,15 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "介绍"],
-                                ["install", "固件安装"],
+                                {
+                                    title: "固件安装", collapsable: true, children: [
+                                        ["install_ars2", "EasePi ARS2"],                                    
+                                        ["install_x86", "X86 物理机"],
+                                        ["install_r2s", "R2S/R4S 设备"],
+                                        ["install_r5s", "R5S 设备"],
+                                        ["install_r68s", "R68S 设备"]
+                                    ]
+                                },                    
                                 {
                                     title: "特色功能", collapsable: true, children: [
                                         ["basic/network_guide", "网络向导"],
