@@ -126,6 +126,7 @@ module.exports = ctx => ({
                                 ["koolshare_merlin", "详细教程"],
                                 ["Authentication", "身份验证"],
                                 ["cloudapp", "远程教学"],
+                                ["ddnstofile", "文件管理"],
                                 ["synology", "群晖玩法"],
                                 ["scene", "更多玩法"],
                                 ["opensource", "开源代码"],
@@ -165,28 +166,33 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "介绍"],
-                                ["install", "安装"],
-                                ["question", "常见问题"],
                                 {
-                                    title: "基础使用", collapsable: true, children: [
+                                    title: "固件安装", collapsable: true, children: [
+                                        ["install_ars2", "EasePi ARS2"],                                    
+                                        ["install_x86", "X86 物理机"],
+                                        ["install_r2s", "R2S/R4S 设备"],
+                                        ["install_r5s", "R5S 设备"],
+                                        ["install_r68s", "R68S 设备"]
+                                    ]
+                                },                    
+                                {
+                                    title: "特色功能", collapsable: true, children: [
                                         ["basic/network_guide", "网络向导"],
-                                        ["basic/intranet", "内网配置"],
-                                        ["basic/dns", "DNS配置"],
-                                        ["basic/source", "软件源配置"],
-                                        ["basic/disk", "磁盘信息"],
-                                        ["basic/storage", "存储服务"],
-                                        ["basic/docker", "Docker"],
-                                        ["basic/download", "下载服务"]
+                                        ["basic/page", "首页向导"]
                                     ]
                                 },
                                 {
-                                    title: "软件使用", collapsable: true, children: [
+                                    title: "软件中心", collapsable: true, children: [
                                         ["software/ddnsto", "DDNSTO"],
                                         ["software/linkease", "易有云"],
                                         ["software/aria2", "Aria2下载器"],
-                                        ["software/jellyfin", "Jellyfin"]
+                                        ["software/qBittorrent", "qBittorrent下载器"],
+                                        ["software/transmission", "Transmission下载器"],
+                                        ["software/homebox", "内网测速"],
+                                        ["software/aliyunwebdav", "阿里云WebDav"]
                                     ]
                                 },
+                                ["question", "常见问题"],
                             ]
                         },
                     ],

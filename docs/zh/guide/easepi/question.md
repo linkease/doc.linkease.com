@@ -115,7 +115,12 @@ A：推荐下面两款M.2接口(SATA总线)SSD固态硬盘：
 
 金士顿250G硬盘，写速度约300MB/s，读约500MB/s。
 
+### Q：如何把msata硬盘转换成ngff m.2硬盘 sata协议？
 
+A：需要购买一个转接板子,如下图所示：
+[淘宝链接](https://item.taobao.com/item.htm?spm=a230r.1.14.126.6e2c4a13Tw3MnF&id=550437815629&ns=1&abbucket=13#detail)
+
+![question](./question/msatatongff.png)
 
 
 
