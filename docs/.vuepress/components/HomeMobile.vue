@@ -96,7 +96,7 @@
                                     </span>
                                 </a>
 
-                           <a  target="_blank" href="https://doc.linkease.com/zh/guide/istoreos/install_x86.html">
+                           <a  target="_blank" href="https://fw.koolcenter.com/iStoreOS/">
                                     <span class="_title" title="更多">
                                         更多
                                     </span>
