@@ -90,17 +90,17 @@
                     <div class="_box">
                         <router-link to="/zh/guide/easepi/">
                             <span class="_title" title="EasePi">EasePi</span>
-                            <router-link to="https://fw.koolcenter.com/iStoreOS/x86_64/">
-                                <span class="_title" title="X86">
-                                    X86
-                                </span>
-                            </router-link>
+                             <a  target="_blank" href="https://fw.koolcenter.com/iStoreOS/x86_64/">
+                                    <span class="_title" title="X86">
+                                        X86
+                                    </span>
+                                </a>
 
-                            <router-link to="https://fw.koolcenter.com/iStoreOS/">
-                                <span class="_title" title="更多">
-                                    更多
-                                </span>
-                            </router-link>
+                           <a  target="_blank" href="https://doc.linkease.com/zh/guide/istoreos/install_x86.html">
+                                    <span class="_title" title="更多">
+                                        更多
+                                    </span>
+                                </a>
                         </router-link>
                     </div>
                 </div>
