@@ -10,9 +10,7 @@
 
 ## 2.下载固件
 
-* [R68S固件下载](https://fw.koolcenter.com/iStoreOS/alpha/)
-
-越后面的版本越新，下载最新的版本。下载完成之后不需要解压。
+* [R68S固件下载](https://fw.koolcenter.com/iStoreOS/r68s/)  固件格式为：`r68s-update-xxxx.img`
 
 ## 3.写入固件
 

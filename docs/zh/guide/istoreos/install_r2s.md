@@ -1,6 +1,6 @@
 ### R2S/R4S 设备
 
-友善电子nanopi-R2s/R4s。两款机器，刷入固件方法一样，固件不一样而已。
+友善电子nanopi-R2S/R4S。两款机器，刷入固件方法一样，固件不一样而已。
 
 * 注意，目前 R4S 固件仅支持 4G 内存版本，暂时不支持 1G 内存版本。
 
@@ -12,9 +12,9 @@
 
 ## 2.下载固件
 
-* [R2s固件下载](https://fw.koolcenter.com/iStoreOS/r2s/)
+* [R2S固件下载](https://fw.koolcenter.com/iStoreOS/r2s/)
 
-* [R4s固件下载](https://fw.koolcenter.com/iStoreOS/r4s/)
+* [R4S固件下载](https://fw.koolcenter.com/iStoreOS/r4s/)
 
 越后面的版本越新，下载最新的版本。下载完成之后不需要解压。
 

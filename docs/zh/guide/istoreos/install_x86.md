@@ -16,7 +16,7 @@ X86物理机，范围很广，可以是各种"电脑"，或者J4125/N5105等小�
 ## 3.下载固件
 
 * [固件下载](https://fw.koolcenter.com/iStoreOS/x86_64/)
-* [固件下载-EFI](https://fw.koolcenter.com/iStoreOS/x86_64/)
+* [固件下载-EFI](https://fw.koolcenter.com/iStoreOS/x86_64_efi/)
 
 越后面的版本越新，下载最新的版本。下载完成之后不需要解压。
 

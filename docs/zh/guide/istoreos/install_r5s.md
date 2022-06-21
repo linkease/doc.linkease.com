@@ -2,7 +2,7 @@
 
 ## 方法一：
 
-* 同 R2s/R4s，用 rufus 写入固件到 TF 卡启动。必须下载 `r5s-sdcard-xxxx.img.gz` 这样格式的固件。
+* 同 R2S/R4S，用 rufus 写入固件到 TF 卡启动。必须下载 `r5s-sdcard-xxxx.img.gz` 这样格式的固件。
 
 * 固件下载地址不一样，请从 [这里](https://fw.koolcenter.com/iStoreOS/r5s/)下载
 
