@@ -34,6 +34,8 @@ DNS服务器：可填写运营商的DNS，也可以公共DNS，比如114.114.114
 
 旁路由即为单臂路由，LAN口连接上级路由的LAN口。即为上级路由拨号，iStoreOS设备来做一些高级功能。
 
+视频教程：[iStoreOS 旁路由](https://www.bilibili.com/video/BV1pY411N7fX)。
+
 * 首先要进行一些配置。
 
 ```

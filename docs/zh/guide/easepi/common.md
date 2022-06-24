@@ -454,6 +454,8 @@ LED名称：选择灯，red 红灯，green 绿灯；
 
 * 旁路由模式，即为单臂路由，上一级路由拨号，由ARS2来实现一些高级功能。
 
+视频教程：[iStoreOS 旁路由](https://www.bilibili.com/video/BV1pY411N7fX)。
+
 1.首先关闭主路由LAN口的DHCP服务，假设主路由的LAN口IP是192.168.2.1；
 
 2.进入ARS2网口设置，网络——接口——LAN——修改：
