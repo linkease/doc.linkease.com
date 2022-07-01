@@ -30,7 +30,7 @@
 
 
 
-## 绑定套餐
+<!-- ## 绑定套餐
 
 **1. 绑定设备后，登录易有云App，首页设备总览里，点击已绑定的设备；**
 
@@ -48,7 +48,7 @@
 
 ![jpg](./tutorial/App/code/4.jpg)
 
-![jpg](./tutorial/App/code/5.jpg)
+![jpg](./tutorial/App/code/5.jpg) -->
 
 
 

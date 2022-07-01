@@ -35,7 +35,7 @@ export default {
                             value: "/zh/guide/istoreos/",
                         },
                         {
-                            label: "易有云APP",
+                            label: "易有云软件",
                             value: "https://app.linkease.com/",
                         },
                         {

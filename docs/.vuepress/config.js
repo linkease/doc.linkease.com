@@ -50,8 +50,8 @@ module.exports = ctx => ({
                         text: '指南', link: '/zh/guide/linkease/', items: [
                             { text: 'iStoreOS', link: '/zh/guide/istoreos/' },
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
-                            { text: '易有云APP', link: '/zh/guide/linkease_app/' },
-                            { text: '易有云存储端', link: '/zh/guide/linkease_storage/' },
+                            { text: '易有云软件', link: '/zh/guide/linkease_app/' },
+                            // { text: '易有云存储端', link: '/zh/guide/linkease_storage/' },
                             { text: 'iStore', link: '/zh/guide/istore/' },
                             { text: 'EasePi', link: '/zh/guide/easepi/' }
 
@@ -94,7 +94,7 @@ module.exports = ctx => ({
                     ],
                     '/zh/guide/linkease_app/': [
                         {
-                            title: "易有云APP",
+                            title: "易有云软件",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
@@ -102,10 +102,42 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "介绍"],
+                                ["start", "开始体验"],
+                                {
+                                    title: "玩转私有云", collapsable: true, children: [
+                                        ["play/file_manage", "文件管理"],                                    
+                                        ["play/photo_backup", "相册备份"],
+                                        ["play/remote_connects", "设备互联"],
+                                        ["play/multiple_devices_sync", "多端同步"],
+                                        ["play/remote_app", "远程应用"]
+                                    ]
+                                },
+                                {
+                                    title: "存储端安装", collapsable: true, children: [
+                                        ["storage/easepi", "EasePi"],        
+                                        ["storage/istoreos", "iStoreOS"],                                
+                                        ["storage/synology", "群晖"],
+                                        ["storage/qnap", "威联通"],
+                                        ["storage/asus_nas", "华硕NAS"],
+                                        ["storage/koolcenter_merlin", "Koolcenter 梅林"],
+                                        ["storage/koolcenter_lede", "Koolcenter Lede"],
+                                        ["storage/openwrt", "OpenWrt"],
+                                        ["storage/linux", "Linux 通用版"],
+                                        ["storage/ready_nas", "ReadyNAS"],
+                                        ["storage/unraid", "Unraid"],
+                                        ["storage/ikuai", "爱快"],
+                                        ["storage/terra_master", "铁威马"],
+                                        ["storage/docker", "Docker"],
+                                        ["storage/windows", "Windows"],
+                                        ["storage/mac", "Mac"]
+                                    ]
+                                },
+                                ["bind", "存储端绑定"],
                                 ["download", "客户端安装"],
                                 ["tutorial", "APP端教程"],
                                 ["pc", "PC端教程"],
                                 ["tv", "TV端教程"],
+                                ["buy", "购买套餐"],
                                 ["question", "常见问题"],
                                 ["plan", "更新日志"],
                                 //["about", "关于我们"],
