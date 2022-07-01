@@ -126,7 +126,7 @@ module.exports = ctx => ({
                                 ["koolshare_merlin", "详细教程"],
                                 ["Authentication", "身份验证"],
                                 ["cloudapp", "远程教学"],
-                                ["ddnstofile", "文件管理"],
+                                ["ddnstofile", "拓展功能"],
                                 ["synology", "群晖玩法"],
                                 ["scene", "更多玩法"],
                                 ["opensource", "开源代码"],
