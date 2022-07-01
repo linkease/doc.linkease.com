@@ -353,7 +353,4 @@ ps：假如想远程朋友的电脑，朋友的电脑只是联网，没DDNSTO，
 
 ## 6.玩转远程开机
 
-  TODO
-  
-  即将支持远程开机，敬请期待！
-  
+具体操作，请看 [拓展功能之远程开机](https://doc.linkease.com/zh/guide/ddnsto/ddnstofile.html#远程开机)。
