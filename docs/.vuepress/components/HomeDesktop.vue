@@ -42,21 +42,21 @@
                         </div>
                         <div class="_content">
                             <div class="_box">
-                                <router-link to="/zh/guide/linkease_storage/">
-                                    <span class="_title" title="易有云存储端">易有云存储端</span>
-                                    <span class="_text" title="跨平台设备传输/文件管理/相册备份/多种网络协议">
-                                        跨平台设备传输/文件管理/相册备份/多种网络协议
+                                <router-link to="/zh/guide/linkease_app/">
+                                    <span class="_title" title="易有云软件">易有云软件</span>
+                                    <span class="_text" title="跨平台设备传输/多设备文件管理/相册备份/设备互联/多端同步/远程应用">
+                                        跨平台设备传输/多设备文件管理/相册备份/设备互联/多端同步/远程应用
                                     </span>
                                 </router-link>
                             </div>
-                            <div class="_box">
+                            <!-- <div class="_box">
                                 <router-link to="/zh/guide/linkease_app/">
                                     <span class="_title" title="易有云APP">易有云APP</span>
                                     <span class="_text" title="全平台客户端/多设备文件管理/增量传输不限速">
                                         全平台客户端/多设备文件管理/增量传输不限速
                                     </span>
                                 </router-link>
-                            </div>
+                            </div> -->
                         </div>
                     </li>
                 </ul>
