@@ -231,9 +231,10 @@ URL：开启了webdav设备的ip+端口的完整地址，必须带http://
 
 ```
 设置共享磁盘的位置，也是本机开启webdav服务后，局域网内其他webdav客户端能访问的位置。
+想把哪个盘共享出去，就写哪个盘的挂载点，比如/mnt/sdb1。
 ``` 
   
-* 如图设置好以后，就能访问了，比如浏览器直接输入 `http://192.168.2.2:3344/webdav`  
+* 如图设置好以后，其他webdav客户端就能访问了，比如浏览器直接输入 `http://192.168.2.2:3344/webdav`  
 
   ![文件管理](./ddnstofile/webdav1-2.jpg) 
   
@@ -250,12 +251,78 @@ URL：开启了webdav设备的ip+端口的完整地址，必须带http://
 
 #### 如何使用：
 
-* 已经启用了ddnsto拓展功能
+* 已经启用了ddnsto[拓展功能](https://doc.linkease.com/zh/guide/ddnsto/ddnstofile.html)，并记录授权用户名和授权用户密码(后面要用)
 
-* 其余操作后续更新
+  ![文件管理](./ddnstofile/wake0.jpg) 
 
+* 电脑(台式机/笔记本)必须通过网线连接到ddnsto所在的网络
 
+* 电脑的主板BIOS里启用“网络唤醒”
+```
+BIOS -> Advanced -> Device Options -> Wake on LAN -> 选择Enable
 
+或者
 
+BIOS -> 高级 -> 高级电源管理(APM) -> 由PCI-E设备唤醒 -> 选择Enable
+```
+不同的主板对Wake on LAN功能的称呼不同，比如可能会叫`由PCI-E设备唤醒`、`Power On By PCI-E`、`Resume By LAN`、`Enable Wake ON LAN`、`Wake on LAN`等等。电脑主板种类繁多，自行查阅资料。
 
+  ![截图预览](./ddnstofile/wake1.jpg) 
 
+  ![截图预览](./ddnstofile/wake2.jpg) 
+
+* 电脑设置：取消“快速启动”
+```
+控制面板->系统和安全->电源选项->左侧 选择电源按钮的功能->关机设置->取消勾选“启用快速启动(推荐)”
+```	
+  ![截图预览](./ddnstofile/wake3.jpg) 
+
+  ![截图预览](./ddnstofile/wake4.jpg) 
+  
+如果无法取消勾选，先点页面上部的`更改当前不可用设置`，即可修改。
+
+  ![截图预览](./ddnstofile/wake5.jpg) 
+  
+* 电脑设置：设置“网卡唤醒”
+```  
+控制面板->硬件和声音->设备管理器->点开网络适配器->会显示网卡
+网卡一般会显示品牌，例如：Inter、Realtek等
+```
+  ![截图预览](./ddnstofile/wake6.jpg) 
+
+  ![截图预览](./ddnstofile/wake7.jpg)
+
+```  
+双击网卡名称->电源管理：
+勾选“允许计算机关闭此设备以节约电源”，“允许此设备唤醒计算机”和“只允许魔幻数据包唤醒计算机”
+```
+特别注意：若有多块网卡(不管是有线还是无线)都需要这么设置，否则有可能无法远程唤醒。 
+ 
+  ![截图预览](./ddnstofile/wake8.jpg)   
+ 
+  ![截图预览](./ddnstofile/wake9.jpg)   
+  
+* 电脑设置：找到联网网卡的物理地址(mac地址)
+```
+控制面板->网络和Internet->网络和共享中心->查看活动网络->连接->详细信息->物理地址
+```
+  ![截图预览](./ddnstofile/wake10.jpg)   
+ 
+  ![截图预览](./ddnstofile/wake11.jpg)   
+
+  ![截图预览](./ddnstofile/wake12.jpg)
+
+在“网络连接详细信息”页面，直接`ctrl+c`能复制整页信息，然后粘贴到文本里，找出物理地址备用。
+```
+物理地址：xx-xx-xx-xx-xx-xx，然后把地址中间的间隔符-改成英文冒号，让地址变成：xx:xx:xx:xx:xx:xx。
+```
+ 
+* 登录到[DDNSTO控制台](https://www.ddnsto.com/app/#/login) -> 远程应用 -> 添加远程开机
+
+  ![截图预览](./ddnstofile/wake13.jpg)   
+
+* 添加完成后，把要远程开机的电脑关机，然后用另外的设备登录ddnsto控制台，点击“远程开机”图标，即可对电脑发送开机指令
+  
+  ![截图预览](./ddnstofile/wake14.jpg)
+  
+  ![截图预览](./ddnstofile/wake15.jpg)  
