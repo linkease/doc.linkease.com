@@ -4,14 +4,16 @@
 
 * [开始体验，一步步教你搭建属于自己的私有云](/zh/guide/linkease_app/start.md) -->
 
-## 远程下载、远程看电影
-
-* [远程下载](/zh/guide/linkease_app/tutorial.md#远程下载) -->
-
-**下载完成后，你就可以通过易有云客户端远程看电影了。**
-
 ## 多设备文件统一管理
+
+* [数据互传](/zh/guide/linkease_app/start.html#_5、数据互传) -->
 
 ## 闲置电脑搭建私有云盘
 
+* [windows设备变易有云存储端](/zh/guide/linkease_app/storage/windows.html) -->
+
 ## 家庭NAS
+
+* 你将 [设备共享](/zh/guide/linkease_app/tutorial.md#共享设备) 给你的家人，家人就可以 [备份相册](/zh/guide/linkease_app/tutorial.md#照片备份)。
+
+* 你将 [设备共享](/zh/guide/linkease_app/tutorial.md#共享设备) 给你的家人，家人也可以 [观看视频](/zh/guide/linkease_app/tutorial.html#视频播放)。

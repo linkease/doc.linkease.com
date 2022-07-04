@@ -50,7 +50,7 @@
 
   * [购买套餐](/zh/guide/linkease_app/buy.md) -->
 
-## 开始体验，搭建私有云
+## 快速上手
 
 只需几步，轻松搭建自己的私有云，组成完美的NAS。
 
@@ -58,7 +58,7 @@
 
 ## 更多玩法
 
-  * [玩转私有云](/zh/guide/linkease_app/play) -->
+  * [玩转私有云](/zh/guide/linkease_app/play/file_manage.html) -->
 
 ## 更多精彩
 

@@ -6,7 +6,7 @@
 
 ## 远程控制iStoreOS
 
-* [远程iStoreOS](/zh/guide/linkease_app/tutorial.md#Web网页服务) -->
+* [远程iStoreOS](/zh/guide/linkease_app/tutorial.md#web网页服务) -->
 
 **管理插件**
 
