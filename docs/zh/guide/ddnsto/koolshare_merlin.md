@@ -139,9 +139,9 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
    ![qnap-config](./koolshare_merlin/qnap-config.jpeg)
 
-  * **如果安装失败，或者无法配置，请开启 QWEB 服务。**
+  * **如果安装失败，或者无法配置，请开启 WEB服务，并且取消勾选HTTPS(若之前勾选过，请卸载重装ddnsto)。**
 
-   ![qnap-QWEB](./koolshare_merlin/qnap-qweb.png)  
+   ![qnap-QWEB](./koolshare_merlin/qnap-qweb.jpg)  
    
 ### 7. Unraid/爱快/铁威马/Docker
 
