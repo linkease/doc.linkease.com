@@ -16,7 +16,15 @@ EasePi固件“iStore”应用商店，已默认安装DDNSTO，直接就可使�
 
 ![png](./koolshare_merlin/EasePi.jpg)
 
-### 2. KS梅林固件
+
+### 2. iStoreOS
+
+iStoreOS固件自带“iStore”应用商店，直接在商店里安装DDNSTO。
+
+![png](./koolshare_merlin/iStoreOS.jpg)
+
+
+### 3. KS梅林固件
    KS梅林固件，在软件中心搜索并安装ddnsto插件。
 
    ![image-20210201222044149](./koolshare_merlin/image-20210201222044149.png)
@@ -25,7 +33,7 @@ EasePi固件“iStore”应用商店，已默认安装DDNSTO，直接就可使�
 
    ![image-20210201222256261](./koolshare_merlin/image-20210201222256261.png)
 
-### 3. KS LEDE固件  
+### 4. KS LEDE固件  
    KS LEDE固件，在酷软中心搜索并安装ddnsto插件。
 
    ![image-2021022400000001](./koolshare_merlin/image-2021022400000001.png)
@@ -34,7 +42,7 @@ EasePi固件“iStore”应用商店，已默认安装DDNSTO，直接就可使�
    
    ![image-2021022400000002](./koolshare_merlin/image-2021022400000002.png)
    
-### 4. OpenWrt固件 
+### 5. OpenWrt固件 
    OpenWrt固件开发者众多，部分固件不自带ddnsto，可通过以下任一脚本轻松安装：
 
    via curl
@@ -82,7 +90,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
   
   
-### 5. 群晖固件 
+### 6. 群晖固件 
 
    1.下载对应自己版本的 [synology插件](https://fw.koolcenter.com/binary/ddnsto/synology/)并上传安装；
   
@@ -115,7 +123,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 	
 	
  
-### 6. 威联通
+### 7. 威联通
 
   1.下载对应自己版本的 [QNAP插件](https://fw.koolcenter.com/binary/ddnsto/qnap/)进行手动安装；
 
@@ -143,7 +151,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
    ![qnap-QWEB](./koolshare_merlin/qnap-qweb.jpg)  
    
-### 7. Unraid/爱快/铁威马/Docker
+### 8. Unraid/爱快/铁威马/Docker
 
 **Docker方式安装ddnsto，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
 
@@ -252,7 +260,7 @@ docker run -d \
 
    ![docker](./koolshare_merlin/docker5.jpeg)
 
-### 8. 老毛子Padavan
+### 9. 老毛子Padavan
    扩展功能-花生壳内网，然后右侧选择ddnsto，启用并设置token。(Ps：某些纯净版的Padavan无法启用)
 
    ![image-2021022400000009](./koolshare_merlin/image-2021022400000009.png)
@@ -263,7 +271,7 @@ docker run -d \
 
   这个问题我还无法联系开发者更换最新版本
 
-### 9. ReadyNAS
+### 10. ReadyNAS
 
 * 支持以下ReadyNAS存储设备：
 
