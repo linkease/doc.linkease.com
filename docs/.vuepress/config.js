@@ -154,7 +154,7 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "快速入门"],
-								["support", "设备支持"],
+                                ["support", "设备支持"],
                                 ["preview", "功能预览"],
                                 ["koolshare_merlin", "详细教程"],
                                 ["Authentication", "身份验证"],
