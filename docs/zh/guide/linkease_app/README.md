@@ -19,7 +19,7 @@
 * 全平台的数据互通，P2P的极速体验。随时随地备份你的照片、文件；
 * 完全的数据私有化。
 
-**功能亮点**
+**功能亮点：**
 
 * [私有云](/zh/guide/linkease_app/start.md)搭建更简单；
 * 远程的[文件管理](/zh/guide/linkease_app/play/file_manage.md)，点对点的跨平台传输体验；
@@ -73,7 +73,7 @@
 ## 问题反馈
 
 GitHub
-* [提交反馈](https://github.com/linkease/doc.linkease.com/issues)
+* [提交反馈](https://github.com/linkease/linkease/issues)
 
 大家也可以选择加入 易有云 交流群。
 

@@ -153,7 +153,8 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "快速入门"],
+                                ["", "介绍"],
+                                ["start", "快速入门"],
                                 ["support", "设备支持"],
                                 ["preview", "功能预览"],
                                 ["koolshare_merlin", "详细教程"],
@@ -162,10 +163,10 @@ module.exports = ctx => ({
                                 ["ddnstofile", "拓展功能"],
                                 ["synology", "群晖玩法"],
                                 ["scene", "更多玩法"],
+                                ["pay", "收费标准"],
                                 ["opensource", "开源代码"],
                                 ["question", "常见问题"],
-                                ["pay", "收费标准"],
-                                ["summary", "关于DDNSTO"],
+                                // ["summary", "关于DDNSTO"],
                                 // ["about", "联系我们"],
                             ]
                         },
