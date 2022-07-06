@@ -17,7 +17,7 @@
 3. 一个命令的 [Docker方式](https://github.com/linkease/docker_ddnsto)
 4. [群晖离线包](https://fw.koolcenter.com/binary/ddnsto/synology/) -->
 
-安装好 DDNSTO 之后必须填入 Token
+安装好 DDNSTO 之后必须填入 Token。
 
 ### Step3: 在官网控制台设置域名
 
