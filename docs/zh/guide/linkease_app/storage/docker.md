@@ -1,5 +1,4 @@
 ## 安装
-### Unraid/爱快/铁威马/Docker
 
 **Docker方式安装易有云存储端，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，包括一些Linux发行版等。**
 
@@ -111,6 +110,10 @@ sudo docker run -d \
 
 **注意事项：**
 
-易有云尽可能使用点对点进行网络传输，建议网络配置使用host网络，不要使用bridge网络(可能造成samba等协议无法访问)。
+* 易有云尽可能使用点对点进行网络传输，建议网络配置使用host网络，不要使用bridge网络(可能造成samba等协议无法访问)。
 
 [镜像地址](https://hub.docker.com/r/linkease/linkease/)
+
+* 若群晖用docker安装，建议去Docker管理器里，先停用linkease容器，然后编辑，开启`使用高权限执行容器`和`启用自动重新启动`，保存应用。
+
+![docker1](./docker/docker2.jpg)
