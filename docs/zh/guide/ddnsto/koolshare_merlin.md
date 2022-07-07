@@ -110,7 +110,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
    1.下载对应自己版本的 [synology插件](https://fw.koolcenter.com/binary/ddnsto/synology/)并上传安装；
   
-  *请根据自己群晖的CPU型号以及DSM版本选择相对应的插件(DSM7.0用户，请先卸载旧版ddnsto套件)
+  * 请根据自己群晖的CPU型号以及DSM版本选择相对应的插件(DSM7.x用户，请先卸载旧版ddnsto套件)
 
    ![image-20210204235851709](./koolshare_merlin/image-20210204235851709.png)
 
@@ -118,7 +118,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
    ![image-20210204235956264](./koolshare_merlin/image-20210204235956264.png)
 
-   3.即可在面板看到ddnsto(DSM7.0不会显示在面板)。
+   3.即可在面板看到ddnsto(ddnsto官网的快速访问链接)。
 
    ![image-20210205000203910](./koolshare_merlin/image-20210205000203910.png)
    
@@ -126,7 +126,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
          
    ![image-qunhui0414](./koolshare_merlin/image-qunhui0414.jpg)
 
-   * Docker安装可以参考下面的[Unraid/爱快/Docker教程](https://doc.linkease.com/zh/guide/ddnsto/koolshare_merlin.html#_7-unraid-爱快-docker)。
+   * Docker安装可以参考下面的[Unraid/爱快/Docker教程](/zh/guide/ddnsto/koolshare_merlin.html#_8-unraid-爱快-铁威马-docker)。
 
    * 群晖系统不要将 “自动将DSM桌面的HTTP连接重定向到HTTPS” 打开。
 
@@ -242,10 +242,13 @@ sudo docker run -d \
 
 #### Docker常见问题
 
-Docker里面的网关设置，不能为路由器的网关，保证 Docker 里面有网络才能访问 ddnsto 服务器。
+* Docker里面的网关设置，不能为路由器的网关，保证 Docker 里面有网络才能访问 ddnsto 服务器。
 
 [镜像地址](https://hub.docker.com/r/linkease/ddnsto/)
 
+* 若群晖用docker安装，建议去Docker管理器里，先停用ddnsto容器，然后编辑，开启`使用高权限执行容器`和`启用自动重新启动`，保存应用。
+
+   ![docker](./koolshare_merlin/dd.jpg)
 
 
 #### Unraid实战ddnsto
