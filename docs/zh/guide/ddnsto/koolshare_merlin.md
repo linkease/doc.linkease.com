@@ -191,6 +191,7 @@ Docker安装完成后，进行下面的教程。
 ```
 docker run -d \
     --name=ddnsto \
+    --restart always \
 	--network host \
     -e TOKEN=<填入你的token> \
     -e DEVICE_IDX=<默认0，如果设备ID重复则为1-100之间> \
@@ -214,6 +215,7 @@ docker run -d \
 ```
 docker run -d \
     --name=ddnsto \
+    --restart always \
 	--network host \
     -e TOKEN=abcdefg-8888-8888-1111-abcdefghijk \
     -e DEVICE_IDX=0 \
@@ -228,6 +230,7 @@ docker run -d \
 ```
 sudo docker run -d \
     --name=ddnsto \
+    --restart always \
 	--network host \
     -e TOKEN=abcdefg-8888-8888-1111-abcdefghijk \
     -e DEVICE_IDX=0 \
@@ -258,6 +261,7 @@ Unraid也能远程穿透，使用ddnsto超级简单：
 ```
 docker run -d \
     --name=ddnsto \
+    --restart always \
     --network host \
     -e TOKEN=b5xxxxxxxxxx26622 \
     -e DEVICE_IDX=0 \
@@ -277,15 +281,17 @@ docker run -d \
    ![docker](./koolshare_merlin/docker5.jpeg)
 
 ### 9. 老毛子Padavan
-   扩展功能-花生壳内网，然后右侧选择ddnsto，启用并设置token。(Ps：某些纯净版的Padavan无法启用)
+   * 扩展功能—花生壳内网，然后右侧选择ddnsto，启用并设置token。
+   
+   * 并不是所有的Padavan固件都会带ddnsto，这个要看固件作者是否加入ddnsto。
 
    ![image-2021022400000009](./koolshare_merlin/image-2021022400000009.png)
 
 #### Padavan 常见问题
 
-  1. 如果 Padavan 的二进制版本 < 0.2.9 版本，可能导致重启之后 ddnsto 无法用，需要自己到网站[更新二进制](https://fw.koolcenter.com/binary/ddnsto/mipsel/ddnsto)
+  * 若Padavan内置二进制版本 < 0.2.9版本，可能导致重启后ddnsto 无法用，需自己[更新二进制](https://fw.koolcenter.com/binary/ddnsto/mipsel/ddnsto)。
 
-  这个问题我还无法联系开发者更换最新版本
+  这个问题还无法联系开发者更换最新版本。
 
 ### 10. ReadyNAS
 
