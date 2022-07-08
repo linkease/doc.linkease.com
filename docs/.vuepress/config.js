@@ -227,6 +227,7 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 ["question", "常见问题"],
+								["changelog", "更新日志"],
                             ]
                         },
                     ],
