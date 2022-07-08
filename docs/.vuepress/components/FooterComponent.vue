@@ -66,11 +66,11 @@ export default {
                     childer: [
                         {
                             label: "问题反馈",
-                            value: "https://github.com/linkease/linkease/issues"
+                            value: "https://github.com/linkease/doc.linkease.com/issues"
                         },
                         {
                             label: "商务洽谈",
-                            value: "mailto:xiaobao@linkease.com"
+                            value: "mailto:admin@linkease.com"
                         }
 
                     ]
@@ -80,12 +80,12 @@ export default {
                     childer: [
                         {
                             label: "关于我们",
-                            value: "/zh/guide/about/"
+                            value: "https://www.linkease.com/about"
                         },
-                        {
-                            label: "联系我们",
-                            value: "mailto:xiaobao@linkease.com"
-                        }
+                        // {
+                        //     label: "联系我们",
+                        //     value: "mailto:xiaobao@linkease.com"
+                        // }
                     ]
                 },
                 {

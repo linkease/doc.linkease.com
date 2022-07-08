@@ -13,7 +13,7 @@ module.exports = ctx => ({
         }
     },
     // 站点标题
-    title: '易有云 远程文件管理 文档中心',
+    title: '易有云 文档中心',
     // 网站的描述
     description: 'DDNSTO 内网穿透 设备原理 远程下载 远程开机 远程桌面 远程文件管理',
     head: [
@@ -47,7 +47,7 @@ module.exports = ctx => ({
                 nav: [
                     { text: '首页', link: '/' },
                     {
-                        text: '指南', link: '/zh/guide/linkease/', items: [
+                        text: '文档', link: '/zh/guide/linkease/', items: [
                             { text: 'iStoreOS', link: '/zh/guide/istoreos/' },
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
                             { text: '易有云软件', link: '/zh/guide/linkease_app/' },
@@ -65,11 +65,7 @@ module.exports = ctx => ({
                         ]
                     },
                     {
-                        text: '联系我们', items: [
-                            { text: '问题反馈', link: 'https://github.com/linkease/doc.linkease.com/issues' },
-                            // { text: '问卷调查', link: 'https://wj.qq.com/s2/8425893/80c4/' },
-                            { text: '关于我们', link: '/zh/guide/about/' }
-                        ]
+                        text: '关于我们', link: 'https://www.linkease.com/about'
                     },
                     { text: '下载', link: '/downloads/' },
                 ],
@@ -105,7 +101,7 @@ module.exports = ctx => ({
                                 ["start", "开始体验"],
                                 {
                                     title: "玩转私有云", collapsable: true, children: [
-                                        ["play/file_manage", "文件管理"],                                    
+                                        ["play/file_manage", "文件管理"],
                                         ["play/photo_backup", "相册备份"],
                                         ["play/remote_connects", "设备互联"],
                                         ["play/multiple_devices_sync", "多端同步"],
@@ -114,8 +110,8 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "存储端安装", collapsable: true, children: [
-                                        ["storage/easepi", "EasePi"],        
-                                        ["storage/istoreos", "iStoreOS"],                                
+                                        ["storage/easepi", "EasePi"],
+                                        ["storage/istoreos", "iStoreOS"],
                                         ["storage/synology", "群晖"],
                                         ["storage/qnap", "威联通"],
                                         ["storage/asus_nas", "华硕NAS"],
@@ -202,13 +198,13 @@ module.exports = ctx => ({
                                 ["", "介绍"],
                                 {
                                     title: "固件安装", collapsable: true, children: [
-                                        ["install_ars2", "EasePi ARS2"],                                    
+                                        ["install_ars2", "EasePi ARS2"],
                                         ["install_x86", "X86 物理机"],
                                         ["install_r2s", "R2S/R4S 设备"],
                                         ["install_r5s", "R5S 设备"],
                                         ["install_r68s", "R68S 设备"]
                                     ]
-                                },                    
+                                },
                                 {
                                     title: "特色功能", collapsable: true, children: [
                                         ["basic/network_guide", "网络向导"],
@@ -227,7 +223,7 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 ["question", "常见问题"],
-								["changelog", "更新日志"],
+                                ["changelog", "更新日志"],
                             ]
                         },
                     ],

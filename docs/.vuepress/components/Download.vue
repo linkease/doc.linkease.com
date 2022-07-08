@@ -38,18 +38,104 @@
             </template>
 
         </div>
+
+        <div class="connect">
+            <div class="connect_content max-width">
+                <div class="content_top">
+                    <div class="top_title tit" title="联系我们">联系我们</div>
+                </div>
+                <div class="content_connect">
+                    <div class="connect_block">
+                        <div class="block_content">
+                            <div class="block_tit">问题反馈/建议</div>
+                            <div class="block_icon question">
+                                <a href="https://github.com/linkease/doc.linkease.com/issues" target="_blank">
+                                    <div class="icon left">
+                                        <img :src="icon_github" alt="">
+                                        <div class="icon_info">GitHub</div>
+                                    </div>
+                                </a>
+                                <a href="https://www.koolcenter.com/posts/117" target="_blank">
+                                    <div class="icon right">
+                                        <img :src="icon_users" alt="">
+                                        <div class="icon_info">用户群</div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="connect_block">
+                        <div class="block_content">
+                            <div class="block_tit">商务合作</div>
+                            <div class="block_icon">
+                                <a href="mailto:admin@linkease.com" target="_blank">
+                                    <div class="icon">
+                                        <img :src="icon_email" alt="">
+                                        <div class="icon_info">邮箱</div>
+                                        <div>admin@linkease.com</div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="connect_block">
+                        <div class="block_content">
+                            <div class="block_tit">社交媒体</div>
+                            <div class="block_icon question">
+                                <a href="https://space.bilibili.com/1492058311" target="_blank">
+                                    <div class="icon">
+                                        <img :src="icon_koolcenter" alt="">
+                                        <div class="icon_info">B站</div>
+                                        <div>酷友社</div>
+                                    </div>
+                                </a>
+                                <a href="https://space.bilibili.com/626572404?spm_id_from=333.337.0.0" target="_blank">
+                                    <div class="icon right">
+                                        <img :src="icon_linkease" alt="">
+                                        <div class="icon_info">B站</div>
+                                        <div>易有云网络</div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <FooterComponent />
     </div>
+
 </template>
 
 <script>
 import Download2 from "./Download2.vue"
+import FooterComponent from "./FooterComponent.vue"
+import icon_email from "../public/downloads/icon_email.png"
+import icon_koolcenter from "../public/downloads/icon_koolcenter.png"
+import icon_github from "../public/downloads/icon_github.png"
+import icon_users from "../public/downloads/icon_users.png"
+import icon_linkease from "../public/downloads/icon_linkease.png"
 export default {
     props: {
         list: Array,
     },
     data() {
         return {
-            isShow: false
+            isShow: false,
+            FooterComponent,
+            icon_email,
+            icon_koolcenter,
+            icon_github,
+            icon_users,
+            icon_linkease
         }
     },
     components: {
@@ -252,6 +338,99 @@ export default {
             }
         }
     }
+    .connect {
+        margin-bottom: 60px;
+        font-family: PingFangSC-Medium, PingFang SC;
+        .connect_content {
+            .content_top {
+                text-align: -webkit-center;
+            }
+            .content_connect {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                .connect_block {
+                    flex: 0 0 33.33%;
+                    max-width: calc(33.33% - 20px);
+                    padding: 20px 0;
+                    background: #e8edf4;
+                    border-radius: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 20px;
+                    height: 385px;
+                    .block_content {
+                        width: 100%;
+                        .block_tit {
+                            font-size: 28px;
+                            color: rgba(0, 0, 0, 0.83);
+                            line-height: 40px;
+                            text-align: center;
+                        }
+
+                        .block_icon {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-top: 52px;
+                            font-size: 18px;
+                            &.question {
+                                justify-content: space-between;
+                            }
+                            a {
+                                width: 100%;
+                                .icon {
+                                    text-align: center;
+                                    img {
+                                        max-width: 65px;
+                                    }
+                                    .icon_info {
+                                        color: rgba(0, 0, 0, 0.83);
+                                        line-height: 25px;
+                                        margin-top: 24px;
+                                    }
+                                }
+                                .icon {
+                                    text-align: center;
+                                    img {
+                                        max-width: 65px;
+                                    }
+                                    .icon_info {
+                                        font-size: 18px;
+                                        color: rgba(0, 0, 0, 0.83);
+                                        line-height: 25px;
+                                        margin-top: 24px;
+                                        margin-bottom: 6px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    a {
+        color: rgba(0, 0, 0, 0.83);
+    }
+}
+</style>
+
+<style scoped>
+.tit {
+    margin-top: 43px;
+    width: 314px;
+    height: 58px;
+    font-size: 28px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    font-weight: 600;
+    color: #000000;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #666;
+    margin-bottom: 24px;
 }
 </style>
 <style lang="scss" scoped>

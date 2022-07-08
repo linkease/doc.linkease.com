@@ -39,7 +39,7 @@ const LinkeaseStore = {
     ]
 }
 const LinkeaseClient = {
-    title: "易有云APP",
+    title: "易有云软件",
     thumbnail: pic2,
     guide: "/zh/guide/linkease_app/",
     list: [
@@ -92,6 +92,10 @@ const DDNSTO = {
             title: "脚本/Docker",
             url: "/zh/guide/ddnsto/koolshare_merlin.html#_6-unraid-%E7%88%B1%E5%BF%AB-docker",
         },
+        {
+            title: "更多",
+            url: "https://fw.koolcenter.com/binary/ddnsto/",
+        }
     ]
 }
 const IStoreOS = {
