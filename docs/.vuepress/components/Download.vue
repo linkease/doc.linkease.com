@@ -442,6 +442,17 @@ export default {
                 max-width: 25%;
             }
         }
+        .connect {
+            margin: 0 15px;
+            .connect_content {
+                .content_connect {
+                    .connect_block {
+                        flex: 0 0 50%;
+                        max-width: calc(50% - 20px);
+                    }
+                }
+            }
+        }
     }
 }
 @media screen and(max-width: 1180px) {
@@ -471,6 +482,17 @@ export default {
         .containers {
             ul.items {
                 max-width: 100%;
+            }
+        }
+        .connect {
+            margin: 0 15px;
+            .connect_content {
+                .content_connect {
+                    .connect_block {
+                        flex: 0 0 100%;
+                        max-width: 100%;
+                    }
+                }
             }
         }
     }
