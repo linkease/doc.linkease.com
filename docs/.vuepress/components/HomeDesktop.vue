@@ -2,7 +2,7 @@
     <div id="page" class="desktop">
         <div class="_header">
             <h1 class="title">
-                <a href="https://www.linkease.com/" target="_blank">易有云文档中心</a>
+                <a href="https://www.linkease.com/" target="_blank">易有云 </a>&nbsp;<span>文档中心</span>
             </h1>
             <div class="block"></div>
         </div>
@@ -201,13 +201,16 @@ export default {
         h1.title {
             text-align: center;
 
+            height: 2.5rem;
+            font-size: 1.75rem;
+            font-family: PingFangSC-Semibold, PingFang SC;
+            font-weight: 600;
+            line-height: 2.5rem;
             a {
-                height: 2.5rem;
-                font-size: 1.75rem;
-                font-family: PingFangSC-Semibold, PingFang SC;
-                font-weight: 600;
+                font-weight: 700;
+            }
+            span {
                 color: #000000;
-                line-height: 2.5rem;
             }
         }
 
