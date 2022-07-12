@@ -32,7 +32,7 @@ iStoreOS固件自带“iStore”应用商店，直接在商店里安装DDNSTO。
 ![png](./koolshare_merlin/EasePi1.jpg)
 
 
-### 3. KS梅林固件
+### 3. KS梅林
    KS梅林固件，在软件中心搜索并安装ddnsto插件。
 
    ![image-20210201222044149](./koolshare_merlin/image-20210201222044149.png)
@@ -41,7 +41,7 @@ iStoreOS固件自带“iStore”应用商店，直接在商店里安装DDNSTO。
 
    ![image-20210201222256261](./koolshare_merlin/image-20210201222256261.png)
 
-### 4. KS LEDE固件  
+### 4. KS LEDE  
    * KS LEDE v2.3.7及以下版本固件，在酷软中心搜索并安装ddnsto插件。
 
    ![image-2021022400000001](./koolshare_merlin/image-2021022400000001.png)
@@ -59,7 +59,7 @@ iStoreOS固件自带“iStore”应用商店，直接在商店里安装DDNSTO。
    ![image](./koolshare_merlin/kslede.jpg) 
    
    
-### 5. OpenWrt固件 
+### 5. OpenWrt
    OpenWrt固件开发者众多，部分固件不自带ddnsto，可通过以下任一脚本轻松安装：
 
    via curl
@@ -107,7 +107,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
   
   
-### 6. 群晖固件 
+### 6. 群晖 
 
    1.下载对应自己版本的 [synology插件](https://fw.koolcenter.com/binary/ddnsto/synology/)并上传安装；
   
@@ -168,7 +168,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
    ![qnap-QWEB](./koolshare_merlin/qnap-qweb.jpg)  
    
-### 8. Unraid/爱快/铁威马/Docker
+### 8. Docker
 
 **Docker方式安装ddnsto，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
 
@@ -324,7 +324,17 @@ docker run -d \
 ![安装图解2](./koolshare_merlin/readynas-2.jpg)
 ![安装图解3](./koolshare_merlin/readynas-3.jpg)
 ![安装图解4](./koolshare_merlin/readynas-token.jpg)
-   
+
+### 11. 爱快
+参考Docker安装方式
+### 12. Unraid 
+参考Docker安装方式
+### 13. 铁威马
+参考Docker安装方式
+### 14. Windows
+参考Docker安装方式
+
+
 ## 穿透设置
 
    回到ddnsto.com控制台，刷新等待设备出现在界面上。如长时间没有出现请查看【常见问题】！

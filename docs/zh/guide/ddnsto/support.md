@@ -22,6 +22,7 @@
 |威联通| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_7-威联通) | v3.0.0 | **<font color=#008000 >A</font>** | 覆盖安装新版 |
 |Unraid| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_8-unraid-爱快-铁威马-docker) | v0.3.0 | 暂未支持 | 新建docker容器 |
 |爱快| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_8-unraid-爱快-铁威马-docker) | v0.3.0 | 暂未支持 | 新建docker容器 |
+|Windows| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_8-unraid-爱快-铁威马-docker) | v0.3.0 | 暂未支持 | 新建docker容器 |
 |铁威马| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_8-unraid-爱快-铁威马-docker) | v0.3.0 | 暂未支持 | 新建docker容器 |
 |Docker| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_8-unraid-爱快-铁威马-docker) | v0.3.0 | 暂未支持 | 新建docker容器 |
 |Linux| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_8-unraid-爱快-铁威马-docker) | v0.3.0 | 暂未支持 | 新建docker容器 |
