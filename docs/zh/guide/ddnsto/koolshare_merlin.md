@@ -10,6 +10,7 @@
 
 ## 安装DDNSTO 
 
+  * [查看设备支持列表](/zh/guide/ddnsto/support.md) -->
 ### 1. EasePi
 
 EasePi固件“iStore”应用商店，已默认安装DDNSTO，直接就可使用。

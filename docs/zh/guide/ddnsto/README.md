@@ -22,6 +22,16 @@ DDNSTO 解决了常见穿透工具年费贵、配置复杂的问题，让小白�
 * [远程应用](/zh/guide/ddnsto/cloudapp.md)，玩转远程下载、远程SSH、远程Windows桌面、远程开机；
 * [文件管理](/zh/guide/ddnsto/ddnstofile.md#文件管理)，支持访问samba、sftp、webdav等协议。
 
+## 外网域名设置很简单
+
+  ![image-20210202235150872](./koolshare_merlin/image-20210202235150872.png)
+
+## 强大的远程应用中心
+
+  ![CloudApp](./cloudapp/cloudapp.jpeg)
+
+  ![CloudApp](./cloudapp/cloudapp210509.jpeg)
+
 ## 收费标准
 
   * [收费标准](/zh/guide/ddnsto/pay.md) -->

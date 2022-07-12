@@ -8,7 +8,7 @@
 
 根据你的设备安装DDNSTO。
 
-  * [设备支持](/zh/guide/ddnsto/support.md) -->
+  * [查看安装教程](/zh/guide/ddnsto/koolshare_merlin.md) -->
 
 <!-- 有以下快速的方法：
 
@@ -17,7 +17,7 @@
 3. 一个命令的 [Docker方式](https://github.com/linkease/docker_ddnsto)
 4. [群晖离线包](https://fw.koolcenter.com/binary/ddnsto/synology/) -->
 
-安装好 DDNSTO 之后必须填入 Token。
+安装好 DDNSTO 之后必须填入 Token才能运行。
 
 ### Step3: 在官网控制台设置域名
 
@@ -73,11 +73,11 @@
   **https://nas666666.ddnsto.com/webman/index.cgi**
   **用HTTP协议访问可以忽略上面的这个问题：http://nas666666.ddnsto.com:5000/ 这个就可以直接访问了，不需要手动补齐**
 
-  点击切换到http即可方便的切换
+  点击“切换到http”即可方便的切换
 
   ![image-20210203001526915](./koolshare_merlin/image-20210203001526915.png)
 
-  还可以来回切换 https和http呢！
+  还可以来回切换 https和http
 
   ![image-20210203001606683](./koolshare_merlin/image-20210203001606683.png)
 

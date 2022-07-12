@@ -17,6 +17,16 @@ DDNSTO 的优秀之处：
 
 5. 独家的远程应用中心，让远程电脑桌面、远程下载、远程文件管理等多种丰富的功能在浏览器上就可以实现
 
+## 外网域名设置很简单
+
+  ![image-20210202235150872](./koolshare_merlin/image-20210202235150872.png)
+
+## 强大的远程应用中心
+
+  ![CloudApp](./cloudapp/cloudapp.jpeg)
+
+  ![CloudApp](./cloudapp/cloudapp210509.jpeg)
+
 ## 交流群
 
 ​												QQ交流群1~6群已满人，请加7群，群号：776787274
