@@ -2,7 +2,7 @@
     <div id="page" class="desktop">
         <div class="_header">
             <h1 class="title">
-                <span>文档中心</span>
+                <a href="https://www.linkease.com/" target="_blank">易有云文档中心</a>
             </h1>
             <div class="block"></div>
         </div>
@@ -111,13 +111,13 @@
                                 <router-link to="/zh/guide/EasePi/">
                                     <span class="_title" title="EasePi">EasePi</span>
                                 </router-link>
-                                <a  target="_blank" href="https://fw.koolcenter.com/iStoreOS/x86_64/">
+                                <a target="_blank" href="https://fw.koolcenter.com/iStoreOS/x86_64/">
                                     <span class="_title" title="X86">
                                         X86
                                     </span>
                                 </a>
 
-                                <a  target="_blank" href="https://fw.koolcenter.com/iStoreOS/">
+                                <a target="_blank" href="https://fw.koolcenter.com/iStoreOS/">
                                     <span class="_title" title="更多">
                                         更多
                                     </span>
@@ -201,7 +201,7 @@ export default {
         h1.title {
             text-align: center;
 
-            span {
+            a {
                 height: 2.5rem;
                 font-size: 1.75rem;
                 font-family: PingFangSC-Semibold, PingFang SC;
@@ -330,11 +330,8 @@ export default {
                             }
 
                             span._title:hover {
-
                                 color: #0060ff;
-
                             }
-
                         }
 
                         ._box:hover {
@@ -346,7 +343,6 @@ export default {
                                 color: #0060ff;
                             }
                         }
-
                     }
                 }
             }

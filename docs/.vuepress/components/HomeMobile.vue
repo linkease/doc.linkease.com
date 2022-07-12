@@ -2,7 +2,7 @@
     <div id="page" class="mobile">
         <div class="_header">
             <h1 class="title">
-                <span>文档中心</span>
+                <a href="https://www.linkease.com/" target="_blank">易有云文档中心</a>
             </h1>
             <div class="block"></div>
         </div>
@@ -90,17 +90,17 @@
                     <div class="_box">
                         <router-link to="/zh/guide/easepi/">
                             <span class="_title" title="EasePi">EasePi</span>
-                             <a  target="_blank" href="https://fw.koolcenter.com/iStoreOS/x86_64/">
-                                    <span class="_title" title="X86">
-                                        X86
-                                    </span>
-                                </a>
+                            <a target="_blank" href="https://fw.koolcenter.com/iStoreOS/x86_64/">
+                                <span class="_title" title="X86">
+                                    X86
+                                </span>
+                            </a>
 
-                           <a  target="_blank" href="https://fw.koolcenter.com/iStoreOS/">
-                                    <span class="_title" title="更多">
-                                        更多
-                                    </span>
-                                </a>
+                            <a target="_blank" href="https://fw.koolcenter.com/iStoreOS/">
+                                <span class="_title" title="更多">
+                                    更多
+                                </span>
+                            </a>
                         </router-link>
                     </div>
                 </div>
@@ -137,7 +137,7 @@ export default {
         h1.title {
             text-align: center;
 
-            span {
+            a {
                 height: 40px;
                 font-size: 28px;
                 font-family: PingFangSC-Semibold, PingFang SC;
