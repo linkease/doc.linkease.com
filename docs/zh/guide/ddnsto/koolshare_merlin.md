@@ -326,25 +326,25 @@ docker run -d \
 ![安装图解4](./koolshare_merlin/readynas-token.jpg)
 
 ### 11. 爱快
-**1.在ikuai后台安装配置好docker。**
+1.在ikuai后台安装配置好docker；
 
   * [ikuai官方docker安装教程](https://bbs.ikuai8.com/thread-121904-1-1.html) -->
 
-**2.通过docker方式安装DDNSTO，首先打开“高级应用-插件管理”的docker。**
+2.通过docker方式安装DDNSTO，首先打开“高级应用-插件管理”的docker；
 
 ![png](./koolshare_merlin/ikuai1.jpg)
 
-**3.点击“镜像管理”，然后点击“添加”。**
+3.点击“镜像管理”，然后点击“添加”；
 
 ![png](./koolshare_merlin/ikuai2.jpg)
 
-**4.上传方式选择“镜像库下载”，然后镜像搜索“linkease/ddnsto”，在镜像列表选择中点击“进入下载页”，选择第一个最新的点击“下载”后等待下载完成即可。**
+4.上传方式选择“镜像库下载”，然后镜像搜索“linkease/ddnsto”，在镜像列表选择中点击“进入下载页”，选择第一个最新的点击“下载”后等待下载完成即可；
 
 ![png](./koolshare_merlin/ikuai3.jpg)
 
 ![png](./koolshare_merlin/ikuai4.jpg)
 
-**5.回到docker页面容器列表，点击“添加”，填写相关信息后保存后启用**
+5.回到docker页面容器列表，点击“添加”，填写相关信息后保存后启用。
 
 ![png](./koolshare_merlin/ikuai5.jpg)
 
@@ -373,7 +373,76 @@ docker run -d \
 参考 [Docker安装](/zh/guide/ddnsto/koolshare_merlin.html#_8-docker) -->
 
 ### 14. Windows
+
+Windows也是利用docker方式安装，操作比较麻烦。
+
+#### windows上安装docker。
+
+1.Win11和Win10平台，先安装/开启Hyper-V；
+
+控制面板——程序——启用或关闭WIndows功能——Hyper-V(全部勾选)，适用于Linux的Windows子系统也勾选，然后确定。电脑要重启生效。
+
+![png](./koolshare_merlin/win1-1.jpg)
+
+![png](./koolshare_merlin/win1-2.jpg)
+
+2.安装Docker For Windows；
+
+[点击下载](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)，然后点击Docker Desktop Installer.exe，一步步执行即可，等待安装完成。
+
+![png](./koolshare_merlin/win2.jpg)
+
+![png](./koolshare_merlin/win3.jpg)
+
+3.安装Ubuntu子系统。以超级管理员权限执行PowerShell，输入以下命令安装；
+
+```
+wsl --install -d Ubuntu-20.04
+```
+![png](./koolshare_merlin/win4.jpg)
+
+上一步最后安装完成，可能会有弹窗说啥报错，不用管，接着输入以下命令升级Linux内核；
+
+```
+wsl --update
+```
+![png](./koolshare_merlin/win5.jpg)
+
+4.运行Ubuntu，并设置密码；
+
+在所有应用里，找到Ubuntu on Windows，点击运行；
+
+![png](./koolshare_merlin/win6.jpg)
+
+会提示要输入用户名和密码；
+
+![png](./koolshare_merlin/win7.jpg)
+
+设置完成后，Ubuntu子系统就运行起来了。
+
+![png](./koolshare_merlin/win8.jpg)
+
+5.点击Docker Desktop桌面图标，运行Docker；
+
+![png](./koolshare_merlin/win9.jpg)
+
+一路下一步，完成，然后看右下角图标，是running状态就好，然后窗口就可以关闭了。。
+
+![png](./koolshare_merlin/win10.jpg)
+
+Docker Desktop桌面图标的作用就是每次开机后，启动Docker和Docker某些设置。
+
+6.PowerShell执行`docker version`，可以看到docker的版本，docker已经安装成功。
+
+![png](./koolshare_merlin/win11.jpg)
+
+#### 利用docker部署ddnsto。
+
 参考 [Docker安装](/zh/guide/ddnsto/koolshare_merlin.html#_8-docker) -->
+
+在PowerShell中输入docker项目命令，即可部署docker项目。
+
+
 
 
 ## 穿透设置
@@ -448,7 +517,7 @@ docker run -d \
 
 2.出来的弹窗，填写自己喜欢的名字即可。
  
- ![image-gaiming2](./koolshare_merlin/gaiming2.png)  
+ ![image-gaiming2](./koolshare_merlin/gaiming2.png) 
  
  
   
