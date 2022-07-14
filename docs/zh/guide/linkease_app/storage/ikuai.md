@@ -1,24 +1,24 @@
 ### 爱快
 
-**1.在ikuai后台安装配置好docker。**
+**1.在ikuai后台安装配置好docker；**
 
   * [ikuai官方docker安装教程](https://bbs.ikuai8.com/thread-121904-1-1.html) -->
 
-**2.通过docker方式安装易有云，首先打开“高级应用-插件管理”的docker。**
+**2.通过docker方式安装易有云，首先打开“高级应用-插件管理”的docker；**
 
 ![png](./ikuai/ikuai1.jpg)
 
-**3.点击“镜像管理”，然后点击“添加”。**
+**3.点击“镜像管理”，然后点击“添加”；**
 
 ![png](./ikuai/ikuai2.jpg)
 
-**4.上传方式选择“镜像库下载”，然后镜像搜索“linkease/linkease”，在镜像列表选择中点击“进入下载页”，选择第一个最新的点击“下载”后等待下载完成即可。**
+**4.上传方式选择“镜像库下载”，然后镜像搜索“linkease/linkease”，在镜像列表选择中点击“进入下载页”，选择第一个最新的点击“下载”后等待下载完成即可；**
 
 ![png](./ikuai/ikuai3.jpg)
 
 ![png](./ikuai/ikuai4.jpg)
 
-**5.回到docker页面容器列表，点击“添加”，填写相关信息后保存后启用**
+**5.回到docker页面容器列表，点击“添加”，填写相关信息后保存后启用。**
 
 ![png](./ikuai/ikuai5.jpg)
 

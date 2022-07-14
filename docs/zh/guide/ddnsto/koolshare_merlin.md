@@ -360,7 +360,7 @@ docker run -d \
 
 * 环境变量：添加一个环境变量，变量名填入“TOKEN”，值填入从DDNSTO控制台获取的令牌（token）。
 
-**6.最后“启用”**
+6.最后“启用”。
 
 ![png](./koolshare_merlin/ikuai7.jpg)
 
