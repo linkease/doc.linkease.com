@@ -22,11 +22,13 @@ DDNSTO 解决了常见穿透工具年费贵、配置复杂的问题，让小白�
 * [远程应用](/zh/guide/ddnsto/cloudapp.md)，玩转远程下载、远程SSH、远程Windows桌面、远程开机；
 * [文件管理](/zh/guide/ddnsto/ddnstofile.md#文件管理)，支持访问samba、sftp、webdav等协议。
 
-## 外网域名设置很简单
+## 配置简单
+#### 外网域名设置很简单
 
   ![image-20210202235150872](./koolshare_merlin/image-20210202235150872.png)
 
-## 强大的远程应用中心
+## 远程应用
+#### 强大的远程应用中心
 
   ![CloudApp](./cloudapp/cloudapp.jpeg)
 
@@ -69,7 +71,7 @@ GitHub
 
 * [用户群](https://www.koolcenter.com/posts/117)
 
-## 感想
+## 一些感想
 
 不知不觉 DDNSTO 已经累积了超过 10W+ 的用户，也得到了大家的广泛好评。为了提供更好的带宽和使用体验，我们将会添加更多的服务器，增加更多的新功能，请大家拭目以待
 现在就点"购买新通道"支持我们吧！帮助我们一起把 DDNSTO 做的更好！

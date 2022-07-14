@@ -54,7 +54,7 @@ iStoreOS固件自带“iStore”应用商店，直接在商店里安装DDNSTO。
 
    1.首先在系统——软件包里，搜索ddnsto，并卸载自带的ddnsto；
 
-   2.然后进入iStore——维护，把iStore商店升级为最新，然后在iStore里安装ddnsto。   
+   2.然后进入iStore——维护，把iStore商店升级为最新，然后在iStore里安装ddnsto。
  
    ![image](./koolshare_merlin/kslede.jpg) 
    
@@ -166,7 +166,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
   * **如果安装失败，或者无法配置，请开启 WEB服务，并且取消勾选HTTPS(若之前勾选过，请卸载重装ddnsto)。**
 
-   ![qnap-QWEB](./koolshare_merlin/qnap-qweb.jpg)  
+   ![qnap-QWEB](./koolshare_merlin/qnap-qweb.jpg) 
    
 ### 8. Docker
 
@@ -326,13 +326,16 @@ docker run -d \
 ![安装图解4](./koolshare_merlin/readynas-token.jpg)
 
 ### 11. 爱快
-参考Docker安装方式
+参考 [Docker安装](/zh/guide/ddnsto/koolshare_merlin.html#_8-docker) -->
+
 ### 12. Unraid 
-参考Docker安装方式
+参考 [Docker安装](/zh/guide/ddnsto/koolshare_merlin.html#_8-docker) -->
+
 ### 13. 铁威马
-参考Docker安装方式
+参考 [Docker安装](/zh/guide/ddnsto/koolshare_merlin.html#_8-docker) -->
+
 ### 14. Windows
-参考Docker安装方式
+参考 [Docker安装](/zh/guide/ddnsto/koolshare_merlin.html#_8-docker) -->
 
 
 ## 穿透设置
