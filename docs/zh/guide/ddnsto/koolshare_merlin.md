@@ -272,7 +272,7 @@ docker run -d \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=0 \
     -e PGID=0 \
-    linkease/ddnsto:latest
+    linkease/ddnsto:3.0.0
 ```
    ![docker](./koolshare_merlin/docker3.jpeg)
   
