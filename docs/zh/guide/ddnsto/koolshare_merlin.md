@@ -199,7 +199,7 @@ docker run -d \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=<uid for user> \
     -e PGID=<gid for user> \
-    linkease/ddnsto
+    linkease/ddnsto:3.0.0
 ```
 
 1. <填入你的token>: 填写从ddnsto控制台拿到的 token。
@@ -223,7 +223,7 @@ docker run -d \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=0 \
     -e PGID=0 \
-    linkease/ddnsto
+    linkease/ddnsto:3.0.0
 ```
 
 6.Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：
@@ -238,7 +238,7 @@ sudo docker run -d \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=0 \
     -e PGID=0 \
-    linkease/ddnsto
+    linkease/ddnsto:3.0.0
 ```
 
 #### Docker常见问题
