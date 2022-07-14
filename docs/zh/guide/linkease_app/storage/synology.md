@@ -1,4 +1,4 @@
-## 安装
+### 群晖
 
 **1.点击“ [存储端下载](https://fw.koolcenter.com/binary/LinkEase/Synology/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
 

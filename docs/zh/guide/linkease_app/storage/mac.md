@@ -1,3 +1,5 @@
+### MacOS
+
 **1.点击“[存储端下载](https://fw.koolcenter.com/binary/LinkEase/Client/LinkEase.dmg)”，选择MacOS[下载](https://doc.linkease.com/downloads/)；**
 
 MacOS端的客户端和存储端是同一程序。

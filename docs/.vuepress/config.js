@@ -120,10 +120,10 @@ module.exports = ctx => ({
                                         ["storage/openwrt", "OpenWrt"],
                                         ["storage/linux", "Linux 通用版"],
                                         ["storage/ready_nas", "ReadyNAS"],
-                                        //["storage/unraid", "Unraid"],
-                                        //["storage/ikuai", "爱快"],
-                                        //["storage/terra_master", "铁威马"],
-                                        ["storage/docker", "Unraid/爱快/铁威马/Docker"],
+                                        ["storage/docker", "Docker"],
+                                        ["storage/unraid", "Unraid"],
+                                        ["storage/ikuai", "爱快"],
+                                        ["storage/terra_master", "铁威马"],
                                         ["storage/windows", "Windows"],
                                         ["storage/mac", "Mac"]
                                     ]
