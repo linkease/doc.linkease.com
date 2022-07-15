@@ -218,7 +218,8 @@ module.exports = ctx => ({
                                         ["software/qBittorrent", "qBittorrent下载器"],
                                         ["software/transmission", "Transmission下载器"],
                                         ["software/homebox", "内网测速"],
-                                        ["software/aliyunwebdav", "阿里云WebDav"]
+                                        ["software/aliyunwebdav", "阿里云WebDav"],
+                                        ["software/wxedge", "网心云"]
                                     ]
                                 },
                                 ["question", "常见问题"],
