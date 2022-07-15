@@ -386,15 +386,7 @@ Windows也是利用docker方式安装，操作比较麻烦。
 
 ![png](./koolshare_merlin/win1-2.jpg)
 
-2.安装Docker For Windows；
-
-[点击下载](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)，然后点击Docker Desktop Installer.exe，一步步执行即可，等待安装完成。
-
-![png](./koolshare_merlin/win2.jpg)
-
-![png](./koolshare_merlin/win3.jpg)
-
-3.安装Ubuntu子系统。以超级管理员权限执行PowerShell，输入以下命令安装；
+2.安装Ubuntu子系统。以超级管理员权限执行PowerShell，输入以下命令安装；
 
 ```
 wsl --install -d Ubuntu-20.04
@@ -408,7 +400,7 @@ wsl --update
 ```
 ![png](./koolshare_merlin/win5.jpg)
 
-4.运行Ubuntu，并设置密码；
+3.运行Ubuntu，并设置密码；
 
 在所有应用里，找到Ubuntu on Windows，点击运行；
 
@@ -418,15 +410,23 @@ wsl --update
 
 ![png](./koolshare_merlin/win7.jpg)
 
-设置完成后，Ubuntu子系统就运行起来了。
+设置完成后，Ubuntu子系统就运行起来了。ubuntu的运行窗口可关闭。
 
 ![png](./koolshare_merlin/win8.jpg)
+
+4.安装Docker For Windows；
+
+[点击下载](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)，然后点击Docker Desktop Installer.exe，一步步执行即可，等待安装完成。
+
+![png](./koolshare_merlin/win2.jpg)
+
+![png](./koolshare_merlin/win3.jpg)
 
 5.点击Docker Desktop桌面图标，运行Docker；
 
 ![png](./koolshare_merlin/win9.jpg)
 
-一路下一步，完成，然后看右下角图标，是running状态就好，然后窗口就可以关闭了。。
+一路下一步，完成，然后看右下角图标，是running状态就好，然后窗口就可以关闭了。
 
 ![png](./koolshare_merlin/win10.jpg)
 
