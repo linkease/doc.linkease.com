@@ -170,6 +170,10 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
    
 ### 8. Docker
 
+#### 注意：docker安装的ddnsto由于DeviceID相同导致控制台无法看到新设备，请通过修改DEVICE_IDX变量来生成新的DeviceID。
+#### 注意：docker安装的ddnsto由于DeviceID相同导致控制台无法看到新设备，请通过修改DEVICE_IDX变量来生成新的DeviceID。
+#### 注意：docker安装的ddnsto由于DeviceID相同导致控制台无法看到新设备，请通过修改DEVICE_IDX变量来生成新的DeviceID。
+
 **Docker方式安装ddnsto，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
 
 * 铁威马：首先在应用中心里安装Docker(TOS 4.0及更高的系统)，然后在控制面板——终端与SNMP——启用SSH访问。然后电脑利用putty、xshell等工具登录终端，然后输入“sudo -i”和密码获取临时ROOT权限，然后进行下面的教程。
