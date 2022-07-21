@@ -325,7 +325,10 @@ docker run -d \
 ![安装图解3](./koolshare_merlin/readynas-3.jpg)
 ![安装图解4](./koolshare_merlin/readynas-token.jpg)
 
-### 11. 爱快
+### 11. 爱快 iKuai
+
+#### [点击查看视频教程](https://www.bilibili.com/video/BV1tt4y157W5?spm_id_from=333.999.0.0)
+
 1.在ikuai后台安装配置好docker；
 
   * [ikuai官方docker安装教程](https://bbs.ikuai8.com/thread-121904-1-1.html) -->
