@@ -2,9 +2,9 @@
     <div id="page" class="mobile">
         <div class="_header">
             <h1 class="title">
-                <div class="content_top">
-                    <div class="top_title tit" title="文档中心">文档中心</div>
-                </div>
+
+                <a href="https://www.linkease.com/" target="_blank">易有云 </a>&nbsp;<span>文档中心</span>
+
             </h1>
             <div class="block"></div>
         </div>
