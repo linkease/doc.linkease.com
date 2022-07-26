@@ -10,6 +10,65 @@
 
             <div class="content_service">
                 <div class="service_par1">
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/ddnsto/" target="_blank">
+
+                        <div class="content_top">
+                            <img :src="pic_ddnsto" alt="">
+                        </div>
+                        <div class="block_content">
+                            <div class="content_left">
+                                <img class="left_icon" :src="logo_ddnsto">
+                            </div>
+                            <div class="content_right">
+                                <div class="right_top">
+                                    <div class="top_title" title="DDNSTO">DDNSTO</div>
+                                    <div class="top_tit" title="内网穿透工具，只需一个浏览器，立刻回到内网">内网穿透工具，只需一个浏览器，立刻回到内网</div>
+                                </div>
+
+                            </div>
+                            <a href="https://doc.linkease.com/zh/guide/ddnsto/" title="查看文档" target="_blank">查看文档</a>
+                        </div>
+                    </a>
+
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/linkease_app/" target="_blank">
+                        <div class="content_top">
+                            <img :src="pic_likease" alt="">
+                        </div>
+                        <div class="block_content">
+                            <div class="content_left">
+                                <img class="left_icon" :src="istoreeaselink">
+                            </div>
+                            <div class="content_right">
+                                <div class="right_top">
+                                    <div class="top_title" title="易有云软件">易有云软件</div>
+                                    <div class="top_tit" title="一个可以随时随地远程连接个人文件或设备的私有存储云">一个可以随时随地远程连接个人文件或设备的私有存储云</div>
+                                </div>
+
+                            </div>
+                            <a href="https://doc.linkease.com/zh/guide/linkease_app/" title="查看文档" target="_blank">查看文档</a>
+                        </div>
+                    </a>
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/easepi/" target="_blank">
+                        <div class="content_top">
+                            <img :src="pic_easepi" alt="">
+                        </div>
+                        <div class="block_content">
+                            <div class="content_left">
+                                <img class="left_icon" :src="logo_easepi">
+                            </div>
+                            <div class="content_right">
+                                <div class="right_top">
+                                    <div class="top_title" title="EasePi">EasePi</div>
+                                    <div class="top_tit" title="接口丰富、稳定、省电的软路由和私有云存储">接口丰富、稳定、省电的软路由和私有云存储</div>
+                                </div>
+
+                            </div>
+                            <a href="https://doc.linkease.com/zh/guide/easepi/" title="查看文档" target="_blank">查看文档</a>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="service_par1 part2">
                     <a class="service_block" href="https://doc.linkease.com/zh/guide/istoreos/" target="_blank">
                         <div class="content_top">
                             <img :src="pic_iSoreOS" alt="">
@@ -43,64 +102,6 @@
                                 </div>
                             </div>
                             <a href="https://doc.linkease.com/zh/guide/istore/" title="查看文档" target="_blank">查看文档</a>
-                        </div>
-                    </a>
-
-                    <a class="service_block" href="https://doc.linkease.com/zh/guide/linkease_app/" target="_blank">
-                        <div class="content_top">
-                            <img :src="pic_likease" alt="">
-                        </div>
-                        <div class="block_content">
-                            <div class="content_left">
-                                <img class="left_icon" :src="istoreeaselink">
-                            </div>
-                            <div class="content_right">
-                                <div class="right_top">
-                                    <div class="top_title" title="易有云软件">易有云软件</div>
-                                    <div class="top_tit" title="一个可以随时随地远程连接个人文件或设备的私有存储云">一个可以随时随地远程连接个人文件或设备的私有存储云</div>
-                                </div>
-
-                            </div>
-                            <a href="https://doc.linkease.com/zh/guide/linkease_app/" title="查看文档" target="_blank">查看文档</a>
-                        </div>
-                    </a>
-                </div>
-                <div class="service_par1 part2">
-                    <a class="service_block" href="https://doc.linkease.com/zh/guide/easepi/" target="_blank">
-                        <div class="content_top">
-                            <img :src="pic_easepi" alt="">
-                        </div>
-                        <div class="block_content">
-                            <div class="content_left">
-                                <img class="left_icon" :src="logo_easepi">
-                            </div>
-                            <div class="content_right">
-                                <div class="right_top">
-                                    <div class="top_title" title="EasePi">EasePi</div>
-                                    <div class="top_tit" title="接口丰富、稳定、省电的软路由和私有云存储">接口丰富、稳定、省电的软路由和私有云存储</div>
-                                </div>
-
-                            </div>
-                            <a href="https://doc.linkease.com/zh/guide/easepi/" title="查看文档" target="_blank">查看文档</a>
-                        </div>
-                    </a>
-                    <a class="service_block" href="https://doc.linkease.com/zh/guide/ddnsto/" target="_blank">
-
-                        <div class="content_top">
-                            <img :src="pic_ddnsto" alt="">
-                        </div>
-                        <div class="block_content">
-                            <div class="content_left">
-                                <img class="left_icon" :src="logo_ddnsto">
-                            </div>
-                            <div class="content_right">
-                                <div class="right_top">
-                                    <div class="top_title" title="DDNSTO">DDNSTO</div>
-                                    <div class="top_tit" title="内网穿透工具，只需一个浏览器，立刻回到内网">内网穿透工具，只需一个浏览器，立刻回到内网</div>
-                                </div>
-
-                            </div>
-                            <a href="https://doc.linkease.com/zh/guide/ddnsto/" title="查看文档" target="_blank">查看文档</a>
                         </div>
                     </a>
                 </div>
