@@ -12,7 +12,7 @@
 
             <div class="content_service">
                 <div class="service_par1">
-                    <div class="service_block">
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/istoreos/" target="_blank">
                         <div class="content_top">
                             <img :src="pic_iSoreOS" alt="">
                         </div>
@@ -25,13 +25,12 @@
                                     <div class="top_title" title="iStoreOS">iStoreOS</div>
                                     <div class="top_tit" title="操作简单、轻量化的网络存储系统">操作简单、轻量化的网络存储系统</div>
                                 </div>
-
                             </div>
                             <a href="https://doc.linkease.com/zh/guide/istoreos/" title="查看文档" target="_blank">查看文档</a>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="service_block">
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/istore/" target="_blank">
                         <div class="content_top">
                             <img :src="pic_istoremerlin" alt="">
                         </div>
@@ -44,13 +43,12 @@
                                     <div class="top_title" title="iStore/梅林应用市场">iStore/梅林应用市场</div>
                                     <div class="top_tit" title="开源且标准的OpenWrt / 梅林软件中心">开源且标准的OpenWrt / 梅林软件中心</div>
                                 </div>
-
                             </div>
                             <a href="https://doc.linkease.com/zh/guide/istore/" title="查看文档" target="_blank">查看文档</a>
                         </div>
-                    </div>
+                    </a>
 
-                    <div class="service_block">
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/linkease_app/" target="_blank">
                         <div class="content_top">
                             <img :src="pic_likease" alt="">
                         </div>
@@ -65,12 +63,12 @@
                                 </div>
 
                             </div>
-                            <a href="https://app.linkease.com/" title="查看文档" target="_blank">查看文档</a>
+                            <a href="https://doc.linkease.com/zh/guide/linkease_app/" title="查看文档" target="_blank">查看文档</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="service_par1 part2">
-                    <div class="service_block">
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/easepi/" target="_blank">
                         <div class="content_top">
                             <img :src="pic_easepi" alt="">
                         </div>
@@ -85,10 +83,11 @@
                                 </div>
 
                             </div>
-                            <a href="https://item.taobao.com/item.htm?ft=t&id=655381846734" title="查看文档" target="_blank">查看文档</a>
+                            <a href="https://doc.linkease.com/zh/guide/easepi/" title="查看文档" target="_blank">查看文档</a>
                         </div>
-                    </div>
-                    <div class="service_block">
+                    </a>
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/ddnsto/" target="_blank">
+
                         <div class="content_top">
                             <img :src="pic_ddnsto" alt="">
                         </div>
@@ -103,9 +102,9 @@
                                 </div>
 
                             </div>
-                            <a href="https://www.ddnsto.com/" title="查看文档" target="_blank">查看文档</a>
+                            <a href="https://doc.linkease.com/zh/guide/ddnsto/" title="查看文档" target="_blank">查看文档</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
 
@@ -238,16 +237,35 @@ export default {
     display: none;
     width: 100%;
     padding: 0 0.625rem;
-    padding-bottom: 6.25rem;
+    padding-bottom: 0.5rem;
 
     ._header {
         width: 100%;
-        margin-top: 6.25rem;
-        margin-bottom: 1.25rem;
-        .top_title {
+        margin: 6.25rem 0;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 24px;
+        h1.title {
+            text-align: center;
+
+            height: 2.5rem;
+            font-size: 1.75rem;
+            font-family: PingFangSC-Semibold, PingFang SC;
+            font-weight: 600;
+            line-height: 2.5rem;
+            a {
+                font-weight: 700;
+            }
+            span {
+                color: #000000;
+            }
+        }
+
+        .block {
+            width: 19.5625rem;
+            height: 1px;
+            background: #000000;
             margin: 0 auto;
-            margin-bottom: 24px;
-            margin-top: 50px;
         }
     }
 
@@ -327,7 +345,7 @@ export default {
         .connect {
             margin-bottom: 60px;
             font-family: PingFangSC-Medium, PingFang SC;
-            margin: 0 20px;
+            // margin: 0 20px;
             .connect_content {
                 .content_top {
                     text-align: -webkit-center;
