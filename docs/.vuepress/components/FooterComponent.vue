@@ -125,7 +125,7 @@ export default {
         flex-wrap: wrap;
 
         .content_text {
-            width: 922px;
+            width: 1064px;
             display: flex;
             justify-content: space-between;
             flex-wrap: wrap;
