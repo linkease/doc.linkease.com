@@ -451,9 +451,15 @@ Docker Desktop桌面图标的作用就是每次开机后，启动Docker和Docker
 
 ### 15. Linux
 1. 下载ddnsto至运行环境
-前往 https://fw.koolcenter.com/binary/ddnsto/ ，选择下载最新的二进制文件压缩包，如ddnsto-binary-3.0.0.tar.gz。
-解压后根据运行环境选择ddnsto.x86_64或ddnsto.aarch64，复制至运行环境。
+
+前往 https://fw.koolcenter.com/binary/ddnsto/ 
+
+选择下载最新的二进制文件压缩包，如ddnsto-binary-3.0.0.tar.gz。
+
+解压后根据运行环境选择ddnsto.x86_64或ddnsto.aarch64，复制对应程序至运行环境。
+
 2. 运行
+
 以x86环境举例,先cd至ddnsto所在目录
 ``` shell
 #赋予执行权限
