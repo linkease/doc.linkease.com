@@ -449,9 +449,20 @@ Docker Desktop桌面图标的作用就是每次开机后，启动Docker和Docker
 
 在PowerShell中输入docker项目命令，即可部署docker项目。
 
+### 15. Linux
+1. 下载ddnsto至运行环境
+前往 https://fw.koolcenter.com/binary/ddnsto/ ，选择下载最新的二进制文件压缩包，如ddnsto-binary-3.0.0.tar.gz。
+解压后根据运行环境选择ddnsto.x86_64或ddnsto.aarch64，复制至运行环境。
+2. 运行
+以x86环境举例,先cd至ddnsto所在目录
+``` shell
+#赋予执行权限
+chmod +x ./ddnsto.x86_64
 
-
-
+#配置令牌参数并运行
+./ddnsto.x86_64 -u xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx(你的令牌)
+```
+如成功连接服务器，会显示“client init ok, username=xxxxx-xxxxxx-xxxxxx-xxx(你的令牌)....”
 ## 穿透设置
 
    回到ddnsto.com控制台，刷新等待设备出现在界面上。如长时间没有出现请查看【常见问题】！
