@@ -14,11 +14,11 @@ const LinkeaseStore = {
     list: [
         {
             title: "群晖Synology",
-            url: "https://fw.koolcenter.com/binary/LinkEase/Synology/",
+            url: "https://www.linkease.com/rd/linkease-syonlogy/",
         },
         {
             title: "Qnap",
-            url: "https://fw.koolcenter.com/binary/LinkEase/QNAP/",
+            url: "https://www.linkease.com/rd/linkease-qnap/",
         },
         {
             title: "Openwrt",
@@ -45,20 +45,20 @@ const LinkeaseClient = {
     list: [
         {
             title: "Windows",
-            url: "https://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip",
+            url: "https://www.linkease.com/rd/linkease-windows/",
         },
         {
             title: "Mac",
-            url: "https://fw.koolcenter.com/binary/LinkEase/Client/LinkEase.dmg",
+            url: "https://www.linkease.com/rd/linkease-mac/",
         },
         {
             title: "iOS",
-            url: "https://apps.apple.com/cn/app/id1526441128",
+            url: "https://www.linkease.com/rd/linkease-ios/",
             qrcode: IosQrcode,
         },
         {
             title: "Android",
-            url: "https://fw.koolcenter.com/binary/LinkEase/Client/linkease.apk",
+            url: "https://www.linkease.com/rd/linkease-android/",
             qrcode: AndroidQrcode,
         },
         {
@@ -74,11 +74,11 @@ const DDNSTO = {
     list: [
         {
             title: "群晖Synology",
-            url: "https://fw.koolcenter.com/binary/ddnsto/synology/",
+            url: "https://www.linkease.com/rd/ddnsto-syonlogy/",
         },
         {
             title: "Qnap",
-            url: "https://fw.koolcenter.com/binary/ddnsto/qnap/",
+            url: "https://www.linkease.com/rd/ddnsto-qnap/",
         },
         {
             title: "Openwrt",
