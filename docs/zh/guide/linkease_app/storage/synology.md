@@ -1,6 +1,6 @@
 ### 群晖
 
-**1.点击“ [存储端下载](https://fw.koolcenter.com/binary/LinkEase/Synology/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
+**1.点击“ [存储端下载](https://www.linkease.com/rd/linkease-syonlogy/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
 
 <!-- <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br /> -->
 * 请根据自己群晖的CPU型号以及DSM版本选择相对应的存储端

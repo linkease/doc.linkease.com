@@ -1,6 +1,6 @@
 ### 威联通
 
-**1.点击“ [存储端下载](https://fw.koolcenter.com/binary/LinkEase/QNAP/)”，下载QNAP插件，此处选择"LinkEaseAgent_0.2.83_x86_64.qpkg"；**
+**1.点击“ [存储端下载](https://www.linkease.com/rd/linkease-qnap/)”，下载QNAP插件，此处选择"LinkEaseAgent_0.2.83_x86_64.qpkg"；**
 
 <!-- <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br /> -->
 *请根据自己电脑上的CPU型号选择相对应的存储端

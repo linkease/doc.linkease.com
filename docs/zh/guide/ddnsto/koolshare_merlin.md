@@ -109,7 +109,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
   
 ### 6. 群晖 
 
-   1.下载对应自己版本的 [synology插件](https://fw.koolcenter.com/binary/ddnsto/synology/)并上传安装；
+   1.下载对应自己版本的 [synology插件](https://www.linkease.com/rd/ddnsto-syonlogy/)并上传安装；
   
   * 请根据自己群晖的CPU型号以及DSM版本选择相对应的插件(DSM7.x用户，请先卸载旧版ddnsto套件)
 
@@ -142,7 +142,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
  
 ### 7. 威联通
 
-  1.下载对应自己版本的 [QNAP插件](https://fw.koolcenter.com/binary/ddnsto/qnap/)进行手动安装；
+  1.下载对应自己版本的 [QNAP插件](https://www.linkease.com/rd/ddnsto-qnap/)进行手动安装；
 
   * 如果不知道自己的平台，一般来说是 DDNSTO_xxx_x86_64.qpkg
 
