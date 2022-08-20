@@ -170,9 +170,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
    
 ### 8. Docker
 
-#### 注意：docker安装的ddnsto由于DeviceID相同导致控制台无法看到新设备，请通过修改DEVICE_IDX变量来生成新的DeviceID。
-#### 注意：docker安装的ddnsto由于DeviceID相同导致控制台无法看到新设备，请通过修改DEVICE_IDX变量来生成新的DeviceID。
-#### 注意：docker安装的ddnsto由于DeviceID相同导致控制台无法看到新设备，请通过修改DEVICE_IDX变量来生成新的DeviceID。
+#### <font color="#dd0000">注意：docker安装的ddnsto由于DeviceID相同导致控制台无法看到新设备，请通过修改DEVICE_IDX变量来生成新的DeviceID。</font><br />
 
 **Docker方式安装ddnsto，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
 
@@ -450,17 +448,17 @@ Docker Desktop桌面图标的作用就是每次开机后，启动Docker和Docker
 在PowerShell中输入docker项目命令，即可部署docker项目。
 
 ### 15. Linux
-1. 下载ddnsto至运行环境
+1. 下载ddnsto至Linux环境；
 
-前往 https://fw.koolcenter.com/binary/ddnsto/ 
+前往[DDNSTO下载地址](https://fw.koolcenter.com/binary/ddnsto/)；
 
-选择下载最新的二进制文件压缩包，如ddnsto-binary-3.0.0.tar.gz。
+选择下载最新的二进制文件压缩包，如`ddnsto-binary-3.0.2.tar.gz`。
 
-解压后根据运行环境选择ddnsto.x86_64或ddnsto.aarch64，复制对应程序至运行环境。
+解压后根据运行环境选择`ddnsto.x86_64`或`ddnsto.aarch64`，复制对应程序至运行环境。
 
-2. 运行
+2. 运行ddnsto。
 
-以x86环境举例,先cd至ddnsto所在目录
+以x86环境举例,先cd至ddnsto所在目录，然后终端执行以下命令：
 ``` shell
 #赋予执行权限
 chmod +x ./ddnsto.x86_64
@@ -469,6 +467,7 @@ chmod +x ./ddnsto.x86_64
 ./ddnsto.x86_64 -u xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx(你的令牌)
 ```
 如成功连接服务器，会显示“client init ok, username=xxxxx-xxxxxx-xxxxxx-xxx(你的令牌)....”
+
 ## 穿透设置
 
    回到ddnsto.com控制台，刷新等待设备出现在界面上。如长时间没有出现请查看【常见问题】！
