@@ -84,7 +84,7 @@ module.exports = ctx => ({
                                 ["bind", "存储端绑定"],
                                 ["opensource", "开源代码"],
                                 ["question", "常见问题"],
-                                ["plan", "更新日志"],
+                                ["changelog", "更新日志"],
                             ]
                         },
                     ],
@@ -135,7 +135,7 @@ module.exports = ctx => ({
                                 ["tv", "TV端教程"],
                                 ["buy", "购买套餐"],
                                 ["question", "常见问题"],
-                                ["plan", "更新日志"],
+                                ["changelog", "更新日志"],
                                 //["about", "关于我们"],
                             ]
                         },
