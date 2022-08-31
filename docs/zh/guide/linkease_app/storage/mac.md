@@ -1,8 +1,8 @@
 ### MacOS
 
-**1.点击“[存储端下载](https://fw.koolcenter.com/binary/LinkEase/Client/LinkEase.dmg)”，选择MacOS[下载](https://doc.linkease.com/downloads/)；**
+**1.可选择“[存储端下载](https://doc.linkease.com/downloads/)”，或直接点击[下载MacOS](https://fw.koolcenter.com/binary/LinkEase/Client/LinkEase.dmg)；**
 
-MacOS端的客户端和存储端是同一程序。
+MacOS端的客户端和存储端是同一程序。详细更新日志，[请点击](/zh/guide/linkease_app/changelog.md)
 
 ![mac1.jpg](./mac/mac1.jpg)
 
@@ -19,3 +19,4 @@ MacOS端的客户端和存储端是同一程序。
 ![mac3.jpg](./mac/mac4.jpg)
 
 **5.然后绑定设备，[存储端绑定教程](/zh/guide/linkease_app/bind.md)。**
+
