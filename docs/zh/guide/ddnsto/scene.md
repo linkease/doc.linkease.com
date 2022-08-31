@@ -48,6 +48,8 @@ PS：比如pve是https，别写成http了。
     
 ## qBittorrent远程下载
 
+### 注意： 如页面显示unauthorized，请在域名后加上“/”
+
 1.qBittorrent，一款bt下载插件，是能通过ddnsto远程控制的，注意下端口。
 
    ![scene](./scene/scene-qb1.jpeg)
