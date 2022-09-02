@@ -12,11 +12,11 @@ mtb为存放Linux易有云存储端的目录，根据自身实际情况，可新
 
 **3.在光标后输入"wget 存储端链接"，点击回车，下载易有云存储端。输入“ls”确认；**
  <table><tr><td bgcolor=#bae2fe>wget 
-https:/ / fw.koolcenter.com/binary/LinkEase/LinuxStorage/linkease.amd64</td></tr></table>
+https://fw.koolcenter.com/binary/LinkEase/LinuxStorage/linkease.amd64</td></tr></table>
 
 若您使用的是arm架构的Linux，则命令为：
  <table><tr><td bgcolor=#bae2fe>wget 
-https:/ / fw.koolcenter.com/binary/LinkEase/LinuxStorage/linkease.arm</td></tr></table>
+https://fw.koolcenter.com/binary/LinkEase/LinuxStorage/linkease.arm</td></tr></table>
 
 
 ![liunx2.jpg](./linux/liunx2.jpg)
