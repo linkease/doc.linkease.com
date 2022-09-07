@@ -401,6 +401,8 @@ PC端目前已有客户端，处于公测阶段，可能难免有些bug等，大
 
 * 参考 [wendav服务](/zh/guide/ddnsto/ddnstofile.html#本机webdav服务) -->
 
+3.目前ddnsto的PC客户端是绿色程序，点右上角的`X`，就直接关闭了，若需要后台运行，点击`—`。
+
 
 ### 15. Linux
 1. 下载ddnsto至Linux环境；
