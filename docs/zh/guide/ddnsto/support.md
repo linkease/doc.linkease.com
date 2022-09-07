@@ -16,7 +16,7 @@
 |EasePi| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_1-easepi) | v3.0.2 | **<font color=#008000 >A、B、C</font>** | iStore商店直接升级 |
 |iStoreOS| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_2-istoreos) | v3.0.2 | **<font color=#008000 >A、B、C</font>** | iStore商店直接升级 |
 |Koolcenter 梅林| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_3-ks梅林) | v3.0.2 | **<font color=#008000 >A、B、C</font>** | 软件中心直接升级 |
-|Koolcenter Lede| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_4-ks-lede) | v3.0.0 | **<font color=#008000 >A、B、C</font>** | iStore商店直接升级 |
+|Koolcenter Lede| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_4-ks-lede) | v3.0.2 | **<font color=#008000 >A、B、C</font>** | iStore商店直接升级 |
 |OpenWrt| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_5-openwrt) | v3.0.2 | **<font color=#008000 >A、B、C</font>** | 覆盖安装新版 |
 |群晖| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_6-群晖) | v3.0.1 | **<font color=#008000 >A</font>** | 卸载旧版安装新版 |
 |威联通| [详细教程](/zh/guide/ddnsto/koolshare_merlin.html#_7-威联通) | v3.0.0 | **<font color=#008000 >A</font>** | 覆盖安装新版 |

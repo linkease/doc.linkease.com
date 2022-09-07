@@ -58,6 +58,8 @@ iStoreOS固件自带“iStore”应用商店，直接在商店里安装DDNSTO。
  
    ![image](./koolshare_merlin/kslede.jpg) 
    
+   3.新版的ddnsto插件界面已经更新，参考 [扩展功能](/zh/guide/ddnsto/ddnstofile.html) -->。 
+   
    
 ### 5. OpenWrt
    OpenWrt固件开发者众多，部分固件不自带ddnsto，可通过以下任一脚本轻松安装：
@@ -92,6 +94,8 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 
    ![image-2021022400000008](./koolshare_merlin/image-2021022400000008.png) 
 
+* OpenWrt新版的ddnsto插件界面已经更新，参考 [扩展功能](/zh/guide/ddnsto/ddnstofile.html) -->。 
+   
 #### Openwrt 常见问题解决思路
 
   *安装好ddnsto之后无法启用配置
@@ -379,73 +383,24 @@ docker run -d \
 
 ### 14. Windows
 
-Windows也是利用docker方式安装，操作比较麻烦。
+PC端目前已有客户端，处于公测阶段，可能难免有些bug等，大家见谅，请期待后续更新！
 
-#### windows上安装docker。
+1.下载windows客户端[下载地址](http://fw.koolcenter.com/binary/ddnsto/pc/)，下载后解压，执行`ddnsto.exe`;
 
-1.Win11和Win10平台，先安装/开启Hyper-V；
+![png](./koolshare_merlin/pc-1.jpg)
 
-控制面板——程序——启用或关闭WIndows功能——Hyper-V(全部勾选)，适用于Linux的Windows子系统也勾选，然后确定。电脑要重启生效。
+如果遇到网络警报，请允许访问：
 
-![png](./koolshare_merlin/win1-1.jpg)
+![png](./koolshare_merlin/pc-2.jpg)
 
-![png](./koolshare_merlin/win1-2.jpg)
+2.ddnsto程序界面如图：
 
-2.安装Ubuntu子系统。以超级管理员权限执行PowerShell，输入以下命令安装；
+![png](./koolshare_merlin/pc-3.jpg)
 
-```
-wsl --install -d Ubuntu-20.04
-```
-![png](./koolshare_merlin/win4.jpg)
+设置好Token，按需开启Webdav，然后保存即可。
 
-上一步最后安装完成，可能会有弹窗说啥报错，不用管，接着输入以下命令升级Linux内核；
+* 参考 [wendav服务](/zh/guide/ddnsto/ddnstofile.html#本机webdav服务) -->
 
-```
-wsl --update
-```
-![png](./koolshare_merlin/win5.jpg)
-
-3.运行Ubuntu，并设置密码；
-
-在所有应用里，找到Ubuntu on Windows，点击运行；
-
-![png](./koolshare_merlin/win6.jpg)
-
-会提示要输入用户名和密码；
-
-![png](./koolshare_merlin/win7.jpg)
-
-设置完成后，Ubuntu子系统就运行起来了。ubuntu的运行窗口可关闭。
-
-![png](./koolshare_merlin/win8.jpg)
-
-4.安装Docker For Windows；
-
-[点击下载](https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe)，然后点击Docker Desktop Installer.exe，一步步执行即可，等待安装完成。
-
-![png](./koolshare_merlin/win2.jpg)
-
-![png](./koolshare_merlin/win3.jpg)
-
-5.点击Docker Desktop桌面图标，运行Docker；
-
-![png](./koolshare_merlin/win9.jpg)
-
-一路下一步，完成，然后看右下角图标，是running状态就好，然后窗口就可以关闭了。
-
-![png](./koolshare_merlin/win10.jpg)
-
-Docker Desktop桌面图标的作用就是每次开机后，启动Docker和Docker某些设置。
-
-6.PowerShell执行`docker version`，可以看到docker的版本，docker已经安装成功。
-
-![png](./koolshare_merlin/win11.jpg)
-
-#### 利用docker部署ddnsto。
-
-参考 [Docker安装](/zh/guide/ddnsto/koolshare_merlin.html#_8-docker) -->
-
-在PowerShell中输入docker项目命令，即可部署docker项目。
 
 ### 15. Linux
 1. 下载ddnsto至Linux环境；
