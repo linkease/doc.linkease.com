@@ -82,7 +82,7 @@ A：内部可加装一个2.5寸 SATA硬盘和一个M.2 SATA硬盘。
 
 A：不支持M.2 NVME硬盘，支持M.2 SATA硬盘。
 
-* M.2 SATA和M.2 NVME两者的接口和硬盘外观都很相似，但是数据通道不一样，SATA走的是SATA通道，NVME走的是PCIE通道，两个通道的最高速度差距较大，SATA通道最高600MB/s，PCIE通道普遍都能达到2GB/s以上。
+* M.2 SATA和M.2 NVME两者的接口和硬盘外观都很相似，但是数据套餐不一样，SATA走的是SATA套餐，NVME走的是PCIE套餐，两个套餐的最高速度差距较大，SATA套餐最高600MB/s，PCIE套餐普遍都能达到2GB/s以上。
 
 
 ### Q：USB接口最大支持多大容量？
