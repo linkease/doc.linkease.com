@@ -1,21 +1,21 @@
 - id: 1
   type: link
-  title: 易有云APP 超级文件管理 全平台支持
-  update: '2021-9-01'
-  description: 打造属于你自己家庭的信息存储、读取、备份及管理中心，为你提供一个极易上手、数据永不丢失的全平台私有云服务。
+  title: 快速搭建私有网盘
+  update: '2022-09-09'
+  description: 使用易有云快速搭建私有网盘。
   cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner1.png'
-  link: 'https://doc.linkease.com/zh/guide/linkease_app/'
+  link: 'https://doc.linkease.com/zh/guide/linkease_app/start.html'
 - id: 2
   type: link
-  title: 如何轻松搭建属于自己的私有云
-  update: '2021-09-01'
-  description: 一台路由器、一个硬盘或U盘，然后安装易有云软件后即可获得:基础NAS功能、跨平台文件管理、享受点对点的极速传输。
+  title: 同步圈：让你的文件在多台设备相互同步
+  update: '2022-09-09'
+  description: 同步圈：让你的文件在多台设备相互同步。
   cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner2.png'
-  link: 'https://doc.linkease.com/zh/guide/linkease_server/store.html#'
-- id: 3
-  type: link
-  title: 免扫码验证DDNSTO
-  update: '2021-09-01'
-  description: 怎么使用易有云APP免扫码验证DDNSTO？
-  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner3.png'
-  link: 'https://doc.linkease.com/zh/guide/ddnsto/Authentication.html'
+  link: 'https://doc.linkease.com/zh/guide/linkease_app/pc.html#%E5%90%8C%E6%AD%A5%E5%9C%88'
+# - id: 3
+#   type: link
+#   title: 免扫码验证DDNSTO
+#   update: '2021-09-01'
+#   description: 怎么使用易有云APP免扫码验证DDNSTO？
+#   cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner3.png'
+#   link: 'https://doc.linkease.com/zh/guide/ddnsto/Authentication.html'
