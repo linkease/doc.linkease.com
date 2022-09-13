@@ -1,6 +1,6 @@
 ### Windows
 
-**1.点击“[存储端下载](https://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip)”，选择Windows[下载](https://doc.linkease.com/downloads/)；**
+**1.进入“[下载中心](https://doc.linkease.com/downloads/)”，选择Windows[下载](https://fw.koolcenter.com/binary/LinkEase/Client/LinkEaseWin.zip)；**
 
 Windows端的客户端和存储端是同一程序。
 
