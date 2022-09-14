@@ -179,7 +179,7 @@ module.exports = ctx => ({
                                 { title: "开始", collapsable: false, children: [["case", "组装"], ["quick", "配置"]] },
                                 ["common", "基础玩法"],
                                 ["advanced", "高阶玩法"],
-                                ["opensource", "固件DIY"],
+                                { title: "其他", collapsable: true, children: [["opensource", "固件DIY"], ["usb_flash", "USB线刷"]] },
                                 ["question", "常见问题"],
                                 // ["about", "联系我们"],
                             ]
