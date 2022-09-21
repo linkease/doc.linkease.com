@@ -63,13 +63,17 @@
 
 * 利用WinSCP等工具，把下载好的固件(教程用的EFI固件)和img2kvm工具放入root目录下；
 
+* [img2kvm工具下载](https://fw.koolcenter.com/binary/other-tools/)
+
 * 终端登录PVE系统后台，终端输入命令：`chmod 777 ./img2kvm`
 
 * 继续终端输入：`./img2kvm 固件完整名 虚拟机ID`
 
 比如教程所示的虚拟机ID是104，下载的固件完整名：istoreos-21.02.3-2022092019-x86-64-squashfs-combined-efi.img.gz
 
-所以输入的命令就是：`./img2kvm istoreos-21.02.3-2022092019-x86-64-squashfs-combined-efi.img.gz 104`
+所以输入的命令就是：
+
+`./img2kvm istoreos-21.02.3-2022092019-x86-64-squashfs-combined-efi.img.gz 104`
 
 ![install.png](./install/pve/11.jpg)
 
@@ -115,9 +119,9 @@
 
 ![install.png](./install/pve/21.jpg)
 
-输入：`quickstart`，利用键盘“上下键”选择2，回车：
-
 ![install.png](./install/pve/22.jpg)
+
+输入：`quickstart`，利用键盘“上下键”选择2，回车：
 
 输入要分配给iStoreOS的LAN口的ip(必须是PVE虚拟LAN的IP段，比如PVE的管理IP是192.168.2.88，那么此处的IP就必须是192.168.2.XXX)，回车生效；
 
@@ -160,6 +164,9 @@ iStoreOS默认登录密码是：password
 
 ## EXSI 安装
 
+TODO
 
 
 ## VMware 安装
+
+TODO
