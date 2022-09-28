@@ -145,6 +145,10 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/open
 	
  
 ### 7. 威联通
+   #### <font color="#dd0000">威联通用户请仔细看完本节教程再操作，以节约时间！！！</font><br />
+   #### <font color="#dd0000">注意：请开启 WEB服务，并且取消勾选HTTPS</font><br />
+   #### <font color="#dd0000">注意：请开启 WEB服务，并且取消勾选HTTPS</font><br />
+   #### <font color="#dd0000">注意：请开启 WEB服务，并且取消勾选HTTPS</font><br /> 
 
   1.下载对应自己版本的 [QNAP插件](https://www.linkease.com/rd/ddnsto-qnap/)进行手动安装；
 
