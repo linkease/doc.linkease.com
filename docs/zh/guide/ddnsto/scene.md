@@ -1,6 +1,21 @@
 
 **此版块，主要说一些ddnsto的更多玩法，有很多朋友们，玩出了很多新花样，所以归纳一些比较常用的。**
 
+## 远程穿透易有云网页端
+
+易有云网页端也可以利用DDNSTO远程穿透访问。
+
+1.首先保证DDNSTO和易有云在同一网络，不一定在同一个设备上，然后DDNSTO控制台添加易有云网页端域名；
+
+   ![scene](./scene/linease1.jpg)
+
+ps：输入IP地址时记得带上易有云的端口8897。
+
+   ![scene](./scene/linease2.jpg)
+   
+2.然后就可以用过域名远程访问易有云网页端了。
+
+
 ## 远程穿透Jellyfin
 
 Jellyfin是一个自由的软件媒体系统，用于控制和管理媒体和流媒体。
@@ -10,7 +25,7 @@ Jellyfin是一个自由的软件媒体系统，用于控制和管理媒体和流
 1.直接开始设置ddnsto，注意端口，若没有改默认端口那就是8096；
    ![scene](./scene/Jellyfin1.jpg)
 
-2.这样我们就能畅快的远程浏览个人媒体中心了。   
+2.这样我们就能畅快的远程浏览个人媒体中心了。
 
    ![scene](./scene/Jellyfin2.jpg)
    
@@ -48,7 +63,7 @@ PS：比如pve是https，别写成http了。
     
 ## qBittorrent远程下载
 
-### 注意： 如页面显示unauthorized，请在域名后加上“/”
+#### 注意： 如页面显示unauthorized，请在域名后加上“/”
 
 1.qBittorrent，一款bt下载插件，是能通过ddnsto远程控制的，注意下端口。
 
@@ -56,7 +71,7 @@ PS：比如pve是https，别写成http了。
    
 2.打开WEB管理界面，设置——WebUI——“取消”启用跨站请求伪造(CSRF)保护。
 
-PS：此选项需要取消，不然后面ddnsto可能连不上。   
+PS：此选项需要取消，不然后面ddnsto可能连不上。
    
    ![scene](./scene/scene-qb4.jpeg)
    
