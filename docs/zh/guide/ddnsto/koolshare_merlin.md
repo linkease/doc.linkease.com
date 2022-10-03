@@ -507,15 +507,19 @@ chmod +x ./ddnsto.x86_64
   
 ## 套餐和服务器
 
-为了ddnsto更健康的发展，需要大家多多支持！现推出了26元/年的套餐，每个套餐可以绑定一台设备。
+* 为了ddnsto更健康的发展，需要大家多多支持！推出了多元化的套餐供大家选择，每个套餐可以绑定一台设备。
 
   ![image-tongdao1](./koolshare_merlin/tongdao0.png)
-
-同时我们也增加了新的服务器以满足更多用户的稳定使用。
+  
+* 年套餐低至26元，当然我们也有7天试用套餐给大家尝鲜体验。 
 
   ![image-tongdao1](./koolshare_merlin/tongdao1.png)
+
+* 同时我们也增加了新的服务器以满足更多用户的稳定使用。
+
+  ![image-tongdao1](./koolshare_merlin/tongdao2.png)
   
-  ![image-tongdao2](./koolshare_merlin/tongdao2.png)
+  ![image-tongdao2](./koolshare_merlin/tongdao3.png)
 
 切换服务器后，有几点需要注意的：
 

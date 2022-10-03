@@ -95,23 +95,24 @@ A：登录进ddnsto控制台，绑定的设备的右边有三个点，点击解�
   
 ### Q：购买新套餐？
 
- A：登录进ddnsto控制台，绑定设备后，右边会有切换套餐的图标，点击出现弹窗，点击购买新套餐，按需购买套餐。
+ A：登录进ddnsto控制台，绑定设备后，右边会有“管理套餐”的图标，点击出现弹窗，点击购买新套餐，按需购买套餐。
  
    ![question](./question/question5.jpg)
 
    ![question](./question/question8.jpg)
 
- * 购买完成后，如果要使用新套餐，就在“绑定已有套餐”里绑定。
+ * 购买完成后，再次点击“管理套餐”，弹窗“已购套餐”里点击新套餐绑定即可。
  
+   ![question](./question/question6.jpg)
+    
 ### Q：切换套餐？
 
  A：帐号已经买过套餐，要绑定新设备，请先解除旧设备的套餐。
  
- 登录进ddnsto控制台，绑定好新设备后，右边会有切换套餐的图标，点击出现弹窗，点击绑定已有套餐，就能看到之前购买的套餐，立即绑定。 
+ 登录进ddnsto控制台，绑定好新设备后，右边会有“管理套餐”的图标，弹窗“已购套餐”未绑定设备的套餐，就可以绑定至本机。 
    
    ![question](./question/question6.jpg)
 
-   ![question](./question/question7.jpg)
 
  
  
@@ -121,20 +122,39 @@ A：登录进ddnsto控制台，绑定的设备的右边有三个点，点击解�
     
    ![question](./question/xf1.jpg) 
     
- A：目前ddnsto的套餐天数不能叠加，所以续费套餐，就是一个“购买新套餐”，然后“切换套餐”的过程。
+   A：快要过期的时候的，直接续费。
+   
+* 点击“管理套餐”的图标，弹窗菜单选择“续费”，然后购买套餐。
 
- * 因为不能叠加，所以建议在套餐快过期1天内，或者过期了，再购买新套餐。 点击绑定套餐——购买新套餐，选择合适的套餐套餐。
+   ![question](./question/question7.jpg)
+   
+   ![question](./question/xf0.jpg)
+
+ * 如果已经过期，就只能购买新套餐。点击“立即购买”——购买新套餐，选择合适的套餐套餐。
  
-   ![question](./question/xf2.jpg)
+   ![question](./question/xf2.jpg) 
    
    ![question](./question/xf3.jpg)
- 
- * 然后，再次点击绑定套餐——绑定已有套餐，就能看到刚刚购买的新套餐，立即绑定即可。
- 
-   ![question](./question/xf4.jpg)
    
+   ![question](./question/xf4.jpg)
+ 
+ * 然后，“管理套餐”的图标，弹窗“已购套餐”未绑定设备的套餐，就可以绑定至本机。
+ 
    ![question](./question/xf5.jpg)
+   
+   ![question](./question/xf6.jpg)
 
+
+### Q：套餐升级？
+
+现在已推出8Mbps的套餐，可从4Mbps套餐升级。
+
+A：点击“管理套餐”的图标，弹窗菜单选择“升级至8Mbps”，然后购买套餐。
+
+   ![question](./question/xf7.jpg)
+   
+   ![question](./question/xf8.jpg) 
+   
 
 ### Q：套餐兑换码怎么使用？
 
