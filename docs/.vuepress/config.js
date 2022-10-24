@@ -194,7 +194,16 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "介绍"],
+                                ["", "概述"],
+                                {
+                                    title: "固件介绍", collapsable: true, children: [
+                                        ["storeos_introduce", "固件展示"],
+                                        ["storeos_hardware", "支持硬件"],
+										["storeosl_custom", "定制固件"],
+                                        ["storeos_more", "更多精彩"],
+                                        ["storeos_thanks", "鸣谢"]
+                                    ]
+                                },								
                                 {
                                     title: "固件安装", collapsable: true, children: [
                                         ["install_ars2", "EasePi ARS2"],
