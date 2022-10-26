@@ -97,7 +97,17 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "介绍"],
+                                ["", "概述"],
+                                {
+                                    title: "详细介绍", collapsable: true, children: [
+                                        ["linkease_software", "软件组成"],
+										["linkease_pay", "收费价格"],
+                                        ["linkease_start", "快速上手"],
+                                        ["linkease_more", "更多精彩"],
+                                        ["linkease_question", "问题反馈"],
+                                        ["linkease_impression", "未来思路"]										
+                                    ]
+                                },
                                 ["start", "开始体验"],
                                 {
                                     title: "玩转私有云", collapsable: true, children: [
