@@ -149,7 +149,18 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "介绍"],
+                                ["", "概述"],
+                                {
+                                    title: "详细介绍", collapsable: true, children: [
+                                        ["ddnsto_configure", "配置简单"],
+                                        ["ddnsto_remotely", "远程应用"],
+										["ddnsto_pay", "收费标准"],
+                                        ["ddnsto_start", "快速入门"],
+                                        ["ddnsto_more", "更多精彩"],
+                                        ["ddnsto_question", "问题反馈"],
+                                        ["ddnsto_impression", "一些感想"]										
+                                    ]
+                                },
                                 ["start", "快速入门"],
                                 ["koolshare_merlin", "安装插件"],
                                 ["Authentication", "身份验证"],
@@ -199,7 +210,7 @@ module.exports = ctx => ({
                                     title: "固件介绍", collapsable: true, children: [
                                         ["storeos_introduce", "固件展示"],
                                         ["storeos_hardware", "支持硬件"],
-										["storeosl_custom", "定制固件"],
+										["storeos_custom", "定制固件"],
                                         ["storeos_more", "更多精彩"],
                                         ["storeos_thanks", "鸣谢"]
                                     ]
