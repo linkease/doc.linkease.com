@@ -423,7 +423,7 @@ export default {
 }
 </style>
 <style lang="scss" scoped>
-@media screen and(max-width: 719px) {
+@media screen and (max-width: 719px) {
     #page.desktop {
         display: none;
     }

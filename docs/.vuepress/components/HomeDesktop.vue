@@ -480,7 +480,7 @@ export default {
 }
 </style>
 <style lang="scss" scoped>
-@media screen and(max-width: 1400px) {
+@media screen and (max-width: 1400px) {
     #page.desktop {
         .containers {
             .content_service {
@@ -492,7 +492,7 @@ export default {
         }
     }
 }
-@media screen and(max-width: 1300px) {
+@media screen and (max-width: 1300px) {
     #page.desktop {
         .containers {
             .content_service {
@@ -526,7 +526,7 @@ export default {
     }
 }
 
-@media screen and(max-width: 1060px) {
+@media screen and (max-width: 1060px) {
     #page.desktop {
         .containers {
             .content_service {
@@ -547,7 +547,7 @@ export default {
     }
 }
 
-@media screen and(max-width: 920px) {
+@media screen and (max-width: 920px) {
     #page.desktop {
         .containers {
             .content_service {
@@ -568,7 +568,7 @@ export default {
     }
 }
 
-@media screen and(max-width: 810px) {
+@media screen and (max-width: 810px) {
     #page.desktop {
         .containers {
             .content_service {
@@ -597,7 +597,7 @@ export default {
         }
     }
 }
-@media screen and(max-width: 719px) {
+@media screen and (max-width: 719px) {
     #page.desktop {
         display: none;
     }

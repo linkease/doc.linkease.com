@@ -434,7 +434,7 @@ export default {
 }
 </style>
 <style lang="scss" scoped>
-@media screen and(max-width: 1350px) {
+@media screen and (max-width: 1350px) {
     #page {
         max-width: 73.75rem; //1180px
         .containers {
@@ -455,7 +455,7 @@ export default {
         }
     }
 }
-@media screen and(max-width: 1180px) {
+@media screen and (max-width: 1180px) {
     #page {
         max-width: 57.25rem;
         .containers {
@@ -465,7 +465,7 @@ export default {
         }
     }
 }
-@media screen and(max-width: 916px) {
+@media screen and (max-width: 916px) {
     #page {
         max-width: 45rem;
         .containers {
@@ -475,7 +475,7 @@ export default {
         }
     }
 }
-@media screen and(max-width: 719px) {
+@media screen and (max-width: 719px) {
     #page {
         max-width: 100%;
         padding: 0 10px;

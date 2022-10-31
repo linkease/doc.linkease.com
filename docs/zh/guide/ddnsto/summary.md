@@ -1,3 +1,4 @@
+
 DDNSTO 由 [KoolShare](https://koolshare.cn/space-uid-2380.html) @小宝 开发，是一款稳定、快速、简单易用的内网穿透工具。
 让用户在公司、旅行途中都能够使用浏览器方便的访问家庭内的网络设备。
 
@@ -38,7 +39,7 @@ DDNSTO 的优秀之处：
 
 现在就点"购买新通道"支持我们吧！帮助我们一起把 DDNSTO 做的更好！
 
-![image-20210203212255250](./koolshare_merlin/image-20210203212255250.png)
+![image-20210203212255250](./koolshare_merlin/image-20210203212255250.jpg)
 
 ## 下一步 DDNSTO 开发计划
 

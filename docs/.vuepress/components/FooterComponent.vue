@@ -193,7 +193,7 @@ li {
 }
 </style>
 <style lang="scss" scoped>
-@media screen and(max-width:1300px) {
+@media screen and (max-width:1300px) {
     .footer {
         .footer-content {
             .content_text {
@@ -225,7 +225,7 @@ li {
     }
 }
 
-@media screen and(max-width:1100px) {
+@media screen and (max-width:1100px) {
     .footer {
         .footer-content {
             .content_text {
@@ -241,7 +241,7 @@ li {
     }
 }
 
-@media screen and(max-width:900px) {
+@media screen and (max-width:900px) {
     .footer {
         .footer-content {
             .content_text {
