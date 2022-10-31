@@ -1,21 +1,21 @@
 - id: 1
   type: link
+  title: 用 EasePi 玩轻NAS，双11活动价低至:540元
+  update: '2021-10-31'
+  description: EasePi ARS2 参与双 11 活动，价格低至 540 元。EasePi 带有双 SATA，双千兆网卡，双 USB。来玩最新的轻 NAS 皮肤，可以体验更好的在线文件管理，下载，追剧，文件同步，相册备份等功能。
+  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner1.png'
+  link: 'https://doc.linkease.com/post/2022/10/30/easepi-1111/'
+- id: 2
+  type: link
   title: 快速搭建私有网盘
   update: '2022-09-09'
   description: 使用易有云快速搭建私有网盘。
-  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner1.png'
+  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner2.png'
   link: 'https://doc.linkease.com/zh/guide/linkease_app/start.html'
-- id: 2
+- id: 3
   type: link
   title: 同步圈：让你的文件在多台设备相互同步
   update: '2022-09-09'
   description: 同步圈：让你的文件在多台设备相互同步。
-  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner2.png'
+  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner3.png'
   link: 'https://doc.linkease.com/zh/guide/linkease_app/pc.html#%E5%90%8C%E6%AD%A5%E5%9C%88'
-# - id: 3
-#   type: link
-#   title: 免扫码验证DDNSTO
-#   update: '2021-09-01'
-#   description: 怎么使用易有云APP免扫码验证DDNSTO？
-#   cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner3.png'
-#   link: 'https://doc.linkease.com/zh/guide/ddnsto/Authentication.html'
