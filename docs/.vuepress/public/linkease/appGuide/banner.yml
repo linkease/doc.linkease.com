@@ -7,15 +7,15 @@
   link: 'https://doc.linkease.com/post/2022/10/30/easepi-1111/'
 - id: 2
   type: link
-  title: 快速搭建私有网盘
-  update: '2022-09-09'
-  description: 使用易有云快速搭建私有网盘。
-  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner2.png'
-  link: 'https://doc.linkease.com/zh/guide/linkease_app/start.html'
-- id: 3
-  type: link
   title: KoolCenter提供1对1付费服务，如需协助，联系我们
   update: '2022-11-04'
   description: KoolCenter提供1对1付费服务，如需协助，联系我们。
   cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner_service.png'
-  link: 'https://wwww.linkease.com/rd/service-from-app/'
+  link: 'https://www.linkease.com/rd/service-from-app/'
+- id: 3
+  type: link
+  title: 快速搭建私有网盘
+  update: '2022-09-09'
+  description: 使用易有云快速搭建私有网盘。
+  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner_start.png'
+  link: 'https://doc.linkease.com/zh/guide/linkease_app/start.html'
