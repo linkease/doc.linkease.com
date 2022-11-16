@@ -12,7 +12,7 @@
   ![CloudApp](./cloudapp/cloudapp.jpeg)
 
 ## 1.玩转Aria2远程下载
-**远程访问Aria2建议使用远程应用[远程应用](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)，而非ddnsto访问路由器管理页面后跳转**
+**远程访问Aria2建议使用[远程应用](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)进行访问，而非ddnsto访问路由器管理页面后跳转**
 ### Aria2配置：OpenWrt
 1.首先确定你的路由等设备安装好了Aria2。
   
