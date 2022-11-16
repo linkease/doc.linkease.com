@@ -12,7 +12,7 @@
   ![CloudApp](./cloudapp/cloudapp.jpeg)
 
 ## 1.玩转Aria2远程下载
-
+**远程访问Aria2建议使用远程应用[远程应用](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)，而非ddnsto访问路由器管理页面后跳转**
 ### Aria2配置：OpenWrt
 1.首先确定你的路由等设备安装好了Aria2。
   
@@ -29,7 +29,7 @@
   ![Aria2](./cloudapp/cloudapp-op.jpeg)
 
 4. 进入AriaNg控制台，会发现状态未连接，那我们就来设置：先点击AriaNg设置，再点击RPC，地址填入路由IP，再填入密钥，重载界面就发现已经连接了。
- 
+
   ![Aria2](./cloudapp/cloudapp-aria2-lede4.jpeg)
 
   ![Aria2](./cloudapp/cloudapp-aria2-lede5.jpeg)
