@@ -232,7 +232,9 @@ module.exports = ctx => ({
 										["install_pve", "X86 虚拟机"],
                                         ["install_r2s", "R2S/R4S 设备"],
                                         ["install_r5s", "R5S 设备"],
-                                        ["install_r68s", "R68S 设备"]
+                                        ["install_r68s", "R68S 设备"],
+										["install_r66s", "R66S 设备"],
+										["install_rpi4", "树莓派 Model4"]
                                     ]
                                 },
                                 {
@@ -253,7 +255,7 @@ module.exports = ctx => ({
                                         ["software/wxedge", "网心云"]
                                     ]
                                 },
-                                ["question", "常见问题"],
+                                ["question", "FAQ 必读"],
                                 ["changelog", "更新日志"],
                             ]
                         },
