@@ -1,8 +1,7 @@
 # iStoreOS 固件
 
-* iStoreOS 目标是提供一个人人会用的路由兼轻 NAS 系统，保证能运行在 200元-5000元的各种类型的硬件上，快速解决自己的网络存储问题。
+* iStoreOS 目标是提供一个人人会用的路由兼轻 NAS 系统，不管是作为路由还是 NAS，你都有相似的操作体验。
 * 系统本身开源免费，目前系统代码开源在：[Github iStoreOS](https://www.github.com/istoreos/istoreos)
-* 请关注我们公众号来获取更新动态：
 
 ## 关注更新
 
