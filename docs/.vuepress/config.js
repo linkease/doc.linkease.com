@@ -200,7 +200,7 @@ module.exports = ctx => ({
                                 { title: "开始", collapsable: false, children: [["case", "组装"], ["quick", "配置"]] },
                                 ["common", "基础玩法"],
                                 ["advanced", "高阶玩法"],
-                                { title: "其他", collapsable: true, children: [["opensource", "固件DIY"], ["usb_flash", "USB线刷"]] },
+                                { title: "其他", collapsable: true, children: [["opensource", "系统DIY"], ["usb_flash", "USB线刷"]] },
                                 ["question", "常见问题"],
                                 // ["about", "联系我们"],
                             ]
@@ -217,16 +217,16 @@ module.exports = ctx => ({
                             children: [
                                 ["", "概述"],
                                 {
-                                    title: "固件介绍", collapsable: true, children: [
-                                        ["storeos_introduce", "固件展示"],
+                                    title: "系统介绍", collapsable: true, children: [
+                                        ["storeos_introduce", "系统展示"],
                                         ["storeos_hardware", "支持硬件"],
-										["storeos_custom", "定制固件"],
+										["storeos_custom", "定制系统"],
                                         ["storeos_more", "更多精彩"],
                                         ["storeos_thanks", "鸣谢"]
                                     ]
                                 },								
                                 {
-                                    title: "固件安装", collapsable: true, children: [
+                                    title: "系统安装", collapsable: true, children: [
                                         ["install_ars2", "EasePi ARS2"],
                                         ["install_x86", "X86 物理机"],
 										["install_pve", "X86 虚拟机"],

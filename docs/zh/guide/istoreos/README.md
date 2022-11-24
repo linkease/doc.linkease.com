@@ -1,5 +1,18 @@
 # iStoreOS 固件
 
-* iStoreOS 目标是提供一个人人会用的路由兼轻 NAS 系统，保证能运行在 200元-5000元的各种类型的硬件上，实现自己的网络存储自由。
+* iStoreOS 目标是提供一个人人会用的路由兼轻 NAS 系统，保证能运行在 200元-5000元的各种类型的硬件上，快速解决自己的网络存储问题。
+* 系统本身开源免费，目前系统代码开源在：[Github iStoreOS](https://www.github.com/istoreos/istoreos)
+* 请关注我们公众号来获取更新动态：
 
-* 系统本身完全免费，目前系统代码开源在：[Github iStoreOS](https://www.github.com/istoreos/istoreos)
+## 关注更新
+
+* [酷友社B站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
+* [酷友社 Youtube](https://www.youtube.com/channel/UCvENMyIFurJi_SrnbnbyiZw)
+* [QQ 群](https://www.koolcenter.com/posts/117)
+* [TG 群](https://t.me/+QwxW7aimSMeRdQJX)
+* 微信扫码公众号：
+![istoreos-gongzhong.png](./preview/istoreos-gongzhong.png)
+
+iStoreOS 来源于 OpenWRT，重点是做了很多很多的交互简化。但是即使再简化，对于不同的用户级别，我们还是得提供了三套完全不一样的交互 UI，具体可以查看我们的固件介绍。
+
+
