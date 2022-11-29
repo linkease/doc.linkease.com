@@ -84,6 +84,14 @@ iStoreOS 跟随官方的 OpenWRT Master 分支，有 BUG，如果你运行了：
 
 ## 网络
 
+### 只有一个 LAN 口的时候，只能走旁路由配置向导，设置为固定 IP
+
+比如用的是树莓派等设备，如果只有 LAN 口，则需要用电脑先接到旁路由，再通过向导只能配置为旁路由形态。
+
+如果不懂的话，就按下面的图片进行配置：（配置完成之后，电脑就没网络了，必须把树莓派接到路由器下面再用新的 IP 链接）
+
+![transparent-raspi.png](./question/transparent-raspi.png)
+
 ### 旁路由设置完成之后，下面的设备无法上网
 
 首先推荐走旁路由设置向导，出问题的概率就很低了。如果出现这样的问题，可能性一：
@@ -119,6 +127,11 @@ iStoreOS 跟随官方的 OpenWRT Master 分支，有 BUG，如果你运行了：
 iStoreOS 目标做个国内外都合法的固件，这样企业才能更安全的使用 iStoreOS。代码开源地址：[iStoreOS](https://github.com/istoreos/istoreos)
 
 我们努力做到这一点，如果觉得有任何疑问，可以到官方咨询或者告知我们。
+
+### iStoreOS 没进行魔改
+
+完全兼容官方仓库，也就是 OpenWRT 官方编译的软件包。目前已知的问题是不能安装 curl，会导致冲突，是官方包依赖的问题。
+同时把我们的 luci-app-quickstart luci-app-linkease luci-app-ddnsto luci-app-istorex 等插件删除，那么就是接近纯净的 OpenWRT 包。
 
 ## 问题自己调试方法
 
