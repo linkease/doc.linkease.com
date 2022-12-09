@@ -283,7 +283,11 @@ module.exports = ctx => ({
         // lastUpdated: 'Last Updated', // string | boolean
         // 搜索
         // search: false,
-        // searchMaxSuggestions: 10
+        // searchMaxSuggestions: 10,
+        docsRepo: 'linkease/doc.linkease.com',
+        docsDir: 'docs',
+        docsBranch: 'master',
+        editLinks: true,
     },
     plugins: [
         ['@vuepress/blog',
