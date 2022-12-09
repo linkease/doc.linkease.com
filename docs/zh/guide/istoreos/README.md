@@ -2,6 +2,7 @@
 
 * iStoreOS 目标是提供一个人人会用的路由兼轻 NAS 系统，不管是作为路由还是 NAS，你都有相似的操作体验。
 * 系统本身开源免费，目前系统代码开源在：[Github iStoreOS](https://www.github.com/istoreos/istoreos)
+* 更多请查看[官网](https://www.istoreos.com)
 
 ## 关注更新
 

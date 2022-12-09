@@ -48,3 +48,12 @@ DNS服务器：可为上级路由的IP，也可填写运营商的DNS，也可以
 ![png](./picture/network_guide6.png)
 
 * 配置完成后，iStoreOS设备LAN口连接上级路由的LAN口。
+
+## IPv6 配置
+
+路由器拨号的视频参考：
+
+<iframe src="//player.bilibili.com/player.html?aid=606031963&bvid=BV1g84y1r7nY&cid=916744694&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+光猫拨号的 IPv6 中继：[配置参考](/zh/guide/easepi/quick.html#ipv6透传-中继)
+ 
