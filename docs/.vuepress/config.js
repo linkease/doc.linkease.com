@@ -229,7 +229,7 @@ module.exports = ctx => ({
                                     title: "系统安装", collapsable: true, children: [
                                         ["install_ars2", "EasePi ARS2"],
                                         ["install_x86", "X86 物理机"],
-										["install_pve", "X86 虚拟机"],
+										["install_pve", "X86 PVE"],
 										["install_esxi_8", "X86 ESXI 8.0"],
 										["install_vmware", "X86 VMWare Workstation"],
                                         ["install_r2s", "R2S/R4S 设备"],
@@ -254,7 +254,8 @@ module.exports = ctx => ({
                                         ["software/transmission", "Transmission下载器"],
                                         ["software/homebox", "内网测速"],
                                         ["software/aliyunwebdav", "阿里云WebDav"],
-                                        ["software/wxedge", "网心云"]
+                                        ["software/wxedge", "网心云"],
+										["software/navidrome", "Navidrome 音乐平台"]
                                     ]
                                 },
                                 ["question", "FAQ 必读"],

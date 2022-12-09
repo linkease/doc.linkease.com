@@ -1,23 +1,17 @@
-### X86 虚拟机
+### X86 PVE 安装
 
-* X86物理机，玩法太多，有些小伙伴不一定会实机安装iStoreOS。
-
-* 这里介绍X86各种虚拟机安装iStoreOS固件。
-
-## PVE 安装
-
-### 1.首先X86机器已经安装好PVE机器，且能正常联网；
+#### 1.首先X86机器已经安装好PVE机器，且能正常联网；
 
 * 这里不提供X86机器安装pve教程，自行科普。
 
-### 2.下载固件
+#### 2.下载固件
 
 * [固件下载](https://fw.koolcenter.com/iStoreOS/x86_64/)
 * [固件下载-EFI](https://fw.koolcenter.com/iStoreOS/x86_64_efi/)
 
 越后面的版本越新，下载最新的版本。下载完成之后不需要解压。
 
-### 3.在PVE里新建虚拟机；
+#### 3.在PVE里新建虚拟机；
 
 * 进入PVE系统管理界面，右上角“新建虚拟机”；
 
@@ -59,7 +53,7 @@
 
 ![install.png](./install/pve/10.jpg)
 
-### 4.往刚创建的虚拟机里写入固件；
+#### 4.往刚创建的虚拟机里写入固件；
 
 * 利用WinSCP等工具，把下载好的固件(教程用的EFI固件)和img2kvm工具放入root目录下；
 
@@ -103,7 +97,7 @@
 
 ![install.png](./install/pve/14.jpg)
 
-### 5.启动iStoreOS：
+#### 5.启动iStoreOS：
 
 ![install.png](./install/pve/19.jpg)
 
@@ -143,7 +137,7 @@ iStoreOS默认登录密码是：password
 
 ![install.png](./install/pve/27.jpg)
 
-### 6.配置iStoreOS：
+#### 6.配置iStoreOS：
 
 此刻我们进入iStoreOS，但是目前iStoreOS是个单笔路由状态，只有一个LAN口。
 
@@ -160,13 +154,3 @@ iStoreOS默认登录密码是：password
 * 然后再确认2个IP，首先确认：PVE的虚拟LAN管理IP，比如是192.168.2.88，那么就必须把iStoreOS的IP改成192.168.2.1~192.168.2.77之间，比如把PVE的IP放在iStoreOS主路由LAN口IP之后，不然PVE无法联网。
 
 * 然后启动iStoreOS虚拟机，进入iStoreOS后，在“网络向导”里配置联网即可。
-
-
-## EXSI 安装
-
-TODO
-
-
-## VMware 安装
-
-TODO
