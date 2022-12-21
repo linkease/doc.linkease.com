@@ -120,6 +120,26 @@ iStoreOS 跟随官方的 OpenWRT Master 分支，有 BUG，如果你运行了：
 
 首页进到终端，用 top 等相关的命令自行排查
 
+## 网络向导
+
+### Merlin 跟 iStoreOS 的旁路由设置
+
+视频教程：[iStoreOS 旁路由](https://www.bilibili.com/video/BV1pY411N7fX)。
+
+### 旁路由 DHCP 设置
+
+如果主路由打开 DHCP，则需要把 DHCP 的网关改成旁路由的网关。要不就关闭主路由 DHCP，打开旁路由 DHCP。一个局域网不能同时存在两个DHCP。
+
+### ARS2 作为主路由，如果要让无线路由器底下的设备跟 ARS2 一个局域网
+
+需要把无线路由器设置为 AP 模式
+
+### 如果是 Mesh 路由器，比如 AIMesh，或者 Orbi，可以把 AIMesh 工作在 AP 模式，AiMesh 依然有效
+
+### Orbi 跟 iStoreOS 的组网教程
+
+TODO
+
 ## 其它
 
 ### 我们没有违反任何协议
