@@ -213,3 +213,8 @@ A: wordpress需要配置“站点地址”和ddnsto域名相同。
    ![question](./question/question1.jpeg)
 
 ### 还有任何问题都可以跟帖提问！
+
+
+### Q: Exsi 无法使用远程应用里的SSH？
+
+A: 要在/etc/ssh/sshd_config里把PasswordAuthentication 设为yes
