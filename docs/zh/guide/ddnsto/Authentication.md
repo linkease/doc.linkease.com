@@ -27,7 +27,7 @@ DDNSTO在保护用户数据安全同时也要避免恶意分享不良内容带�
 
 PS：若是易有云APP新用户，下载最新版，然后注册登录；老用户直接更新最新版本即可。
 
-打开易有云APP——我的，能看到“验证DDNSTO”即可。
+打开易有云APP——导航——DDNSTO——“绑定DDNSTO/验证当前IP”。
 
    ![Authentication](./Authentication/Authentication0.jpg)
    
@@ -39,13 +39,11 @@ PS：若是易有云APP新用户，下载最新版，然后注册登录；老用
  
    ![Authentication](./Authentication/Authentication2.jpg)
    
-2.打开“易有云APP——我的”，右上角二维码扫码，会提示绑定成功，然后点击“验证DDNSTO”，会提示已经绑定的账号和当前的IP；
+2.打开易有云APP——导航——DDNSTO——“绑定DDNSTO”，按照操作绑定成功；
 
    ![Authentication](./Authentication/Authentication3.jpg)
 
+3.绑定成功后，以后需要DDNSTO身份验证的时候，直接打开“易有云APP——导航——DDNSTO——“验证当前IP”——“验证IP”即可。
+
    ![Authentication](./Authentication/Authentication4.jpg)
-
-3.绑定成功后，以后需要DDNSTO身份验证的时候，直接打开“易有云APP——我的——验证DDNSTO——验证”即可。
-
-   
    
