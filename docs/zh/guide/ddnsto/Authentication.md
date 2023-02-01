@@ -43,6 +43,8 @@ PS：若是易有云APP新用户，下载最新版，然后注册登录；老用
 
    ![Authentication](./Authentication/Authentication3.jpg)
 
+   ![Authentication](./Authentication/Authentication5.jpg)
+
 3.绑定成功后，以后需要DDNSTO身份验证的时候，直接打开“易有云APP——导航——DDNSTO——“验证当前IP”——“验证IP”即可。
 
    ![Authentication](./Authentication/Authentication4.jpg)
