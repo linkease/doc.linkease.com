@@ -217,4 +217,12 @@ A: wordpress需要配置“站点地址”和ddnsto域名相同。
 
 A: 要在/etc/ssh/sshd_config里把PasswordAuthentication 设为yes
 
+
+## 插件类
+
+### Q: Merlin 路由器重启后ddnsto插件未运行
+Merlin 路由器如果是 AP 模式，服务不会跟随系统启动
+
 ### 还有任何问题都可以跟帖提问！
+
+
