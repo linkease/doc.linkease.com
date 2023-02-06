@@ -14,8 +14,8 @@
                     </template>
                 </div>
             </div>
-            <div class="content_info" title="易有云网络科技有限责任公司 Copyright © 2019-2021  备案号： 粤ICP备20024441号">易有云网络科技有限责任公司
-                Copyright © 2019-2021<br />
+            <div class="content_info" title="易有云网络科技有限责任公司 Copyright © 2019-2023  备案号： 粤ICP备20024441号">易有云网络科技有限责任公司
+                Copyright © 2019-2023<br />
                 <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号： 粤ICP备20024441号</a>
             </div>
         </div>
