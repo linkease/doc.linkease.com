@@ -56,7 +56,8 @@ module.exports = ctx => ({
                         text: '文档', link: '/zh/guide/linkease/', items: [
                             { text: 'iStoreOS', link: '/zh/guide/istoreos/' },
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
-                            { text: '易有云软件', link: '/zh/guide/linkease_app/' },
+                            { text: '易有云', link: '/zh/guide/linkease/' },
+                            // { text: '易有云软件', link: '/zh/guide/linkease_app/' },
                             // { text: '易有云存储端', link: '/zh/guide/linkease_storage/' },
                             { text: 'iStore', link: '/zh/guide/istore/' },
                             { text: 'EasePi', link: '/zh/guide/easepi/' }
@@ -94,65 +95,124 @@ module.exports = ctx => ({
                             ]
                         },
                     ],
-                    '/zh/guide/linkease_app/': [
+                    // '/zh/guide/linkease_app/': [
+                    //     {
+                    //         title: "易有云软件",
+                    //         // 显示所有页面的标题链接
+                    //         displayAllHeaders: true,
+                    //         // 展开状态
+                    //         collapsable: true,
+                    //         sidebarDepth: 2,
+                    //         children: [
+                    //             ["", "概述"],
+                    //             {
+                    //                 title: "详细介绍", collapsable: true, children: [
+                    //                     ["linkease_software", "软件组成"],
+					// 					["linkease_pay", "收费价格"],
+                    //                     ["linkease_start", "快速上手"],
+                    //                     ["linkease_more", "更多精彩"],
+                    //                     ["linkease_question", "问题反馈"],
+                    //                     ["linkease_impression", "未来思路"]										
+                    //                 ]
+                    //             },
+                    //             ["start", "开始体验"],
+                    //             {
+                    //                 title: "玩转私有云", collapsable: true, children: [
+                    //                     ["play/file_manage", "文件管理"],
+                    //                     ["play/photo_backup", "相册备份"],
+                    //                     ["play/remote_connects", "设备互联"],
+                    //                     ["play/multiple_devices_sync", "多端同步"],
+                    //                     ["play/remote_app", "远程应用"]
+                    //                 ]
+                    //             },
+                    //             {
+                    //                 title: "存储端安装", collapsable: true, children: [
+                    //                     ["storage/easepi", "EasePi"],
+                    //                     ["storage/istoreos", "iStoreOS"],
+                    //                     ["storage/synology", "群晖"],
+                    //                     ["storage/qnap", "威联通"],
+                    //                     ["storage/asus_nas", "华硕NAS"],
+                    //                     ["storage/koolcenter_merlin", "Koolcenter 梅林"],
+                    //                     ["storage/koolcenter_lede", "Koolcenter Lede"],
+                    //                     ["storage/openwrt", "OpenWrt"],
+                    //                     ["storage/linux", "Linux 通用版"],
+                    //                     ["storage/ready_nas", "ReadyNAS"],
+                    //                     ["storage/docker", "Docker"],
+                    //                     ["storage/unraid", "Unraid"],
+                    //                     ["storage/ikuai", "爱快"],
+                    //                     ["storage/terra_master", "铁威马"],
+                    //                     ["storage/windows", "Windows"],
+                    //                     ["storage/mac", "Mac"]
+                    //                 ]
+                    //             },
+                    //             ["bind", "存储端绑定"],
+                    //             ["download", "客户端安装"],
+                    //             ["tutorial", "APP端教程"],
+                    //             ["pc", "PC端教程"],
+                    //             ["tv", "TV端教程"],
+                    //             ["buy", "购买套餐"],
+                    //             ["question", "常见问题"],
+                    //             ["changelog", "更新日志"],
+                    //             //["about", "关于我们"],
+                    //         ]
+                    //     },
+                    // ],
+                    '/zh/guide/linkease/': [
                         {
-                            title: "易有云软件",
+                            title: "易有云",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "概述"],
+                                ["function/file_transfer", "多设备文件互传"],
+                                ["function/file_share", "文件共享"],
+                                ["function/file_backup", "文件备份及同步"],
+                                ["function/photo_backup", "相册备份"],
+                                ["function/remote_connects", "异地互联"],
+                                ["function/home_share", "家庭共享"],
+                                // {
+                                //     title: "使用易有云", collapsable: false, children: [
+                                //         ["function/file_transfer", "多设备文件互传"],
+								// 		   ["function/file_share", "文件共享"],
+                                //         ["function/file_backup", "文件备份及同步"],
+                                //         ["function/photo_backup", "相册备份"],
+                                //         ["function/remote_connects", "异地互联"],
+                                //         ["function/home_share", "家庭共享"],									
+                                //     ]
+                                // },
                                 {
-                                    title: "详细介绍", collapsable: true, children: [
-                                        ["linkease_software", "软件组成"],
-                                        ["linkease_pay", "收费价格"],
-                                        ["linkease_start", "快速上手"],
-                                        ["linkease_more", "更多精彩"],
-                                        ["linkease_question", "问题反馈"],
-                                        ["linkease_impression", "未来思路"]
+                                    title: "更多功能", collapsable: true, children: [
+                                        ["more/app_navigation", "应用导航"],
+                                        ["more/verify_ddnsto", "验证ddnsto"],
+                                        ["more/network_drive", "网络硬盘"],
+                                        ["more/edit_file", "编辑文档"],
+                                        ["more/load_subtitle", "加载字幕"],
+                                        ["more/remote_download", "远程下载"],
                                     ]
                                 },
-                                ["start", "开始体验"],
                                 {
-                                    title: "玩转私有云", collapsable: true, children: [
-                                        ["play/file_manage", "文件管理"],
-                                        ["play/photo_backup", "相册备份"],
-                                        ["play/remote_connects", "设备互联"],
-                                        ["play/multiple_devices_sync", "多端同步"],
-                                        ["play/remote_app", "远程应用"]
+                                    title: "账户", collapsable: true, children: [
+                                        ["account/register", "应用导航"],
+                                        ["account/pay", "套餐购买"],
+                                        ["account/safe", "使用安全"],
                                     ]
                                 },
                                 {
-                                    title: "存储端安装", collapsable: true, children: [
-                                        ["storage/easepi", "EasePi"],
-                                        ["storage/istoreos", "iStoreOS"],
-                                        ["storage/synology", "群晖"],
-                                        ["storage/qnap", "威联通"],
-                                        ["storage/asus_nas", "华硕NAS"],
-                                        ["storage/koolcenter_merlin", "Koolcenter 梅林"],
-                                        ["storage/koolcenter_lede", "Koolcenter Lede"],
-                                        ["storage/openwrt", "OpenWrt"],
-                                        ["storage/linux", "Linux 通用版"],
-                                        ["storage/ready_nas", "ReadyNAS"],
-                                        ["storage/docker", "Docker"],
-                                        ["storage/unraid", "Unraid"],
-                                        ["storage/ikuai", "爱快"],
-                                        ["storage/terra_master", "铁威马"],
-                                        ["storage/windows", "Windows"],
-                                        ["storage/mac", "Mac"]
+                                    title: "安装", collapsable: true, children: [
+                                        ["install/config", "安装及配置"],
+                                        ["install/cloud", "开启网盘"],
+                                        ["install/update", "升级"],
                                     ]
                                 },
-                                ["bind", "存储端绑定"],
-                                ["download", "客户端安装"],
-                                ["tutorial", "APP端教程"],
-                                ["pc", "PC端教程"],
-                                ["tv", "TV端教程"],
-                                ["buy", "购买套餐"],
-                                ["question", "常见问题"],
-                                ["changelog", "更新日志"],
-                                //["about", "关于我们"],
+                                {
+                                    title: "问题反馈", collapsable: true, children: [
+                                        ["feedback/faq", "常见问题"],
+                                        ["feedback/group", "交流群"],
+                                        ["feedback/email", "Email"], 
+                                    ]
+                                },
                             ]
                         },
                     ],
