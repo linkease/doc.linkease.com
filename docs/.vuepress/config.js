@@ -18,10 +18,16 @@ module.exports = ctx => ({
     description: 'DDNSTO 内网穿透 设备原理 远程下载 远程开机 远程桌面 远程文件管理',
     head: [
         [
-            'script', { src: "/script/google-analytics.js" }
+            'script', { src: "/script/google-analytics.js" },
+        ],
+        [
+            'script', { src: "https://assets.koolcenter.com/linkease-navigation-script/main.js?v=5", defer: true },
         ],
         [
             'link', { rel: 'icon', href: '/favicon.ico' }
+        ],
+        [
+            'link', { rel: 'stylesheet', href: 'https://assets.koolcenter.com/linkease-navigation-script/main.css?v=5' }
         ]
     ],
     // 多语言
@@ -101,11 +107,11 @@ module.exports = ctx => ({
                                 {
                                     title: "详细介绍", collapsable: true, children: [
                                         ["linkease_software", "软件组成"],
-										["linkease_pay", "收费价格"],
+                                        ["linkease_pay", "收费价格"],
                                         ["linkease_start", "快速上手"],
                                         ["linkease_more", "更多精彩"],
                                         ["linkease_question", "问题反馈"],
-                                        ["linkease_impression", "未来思路"]										
+                                        ["linkease_impression", "未来思路"]
                                     ]
                                 },
                                 ["start", "开始体验"],
@@ -164,11 +170,11 @@ module.exports = ctx => ({
                                     title: "详细介绍", collapsable: true, children: [
                                         ["ddnsto_configure", "配置简单"],
                                         ["ddnsto_remotely", "远程应用"],
-										["ddnsto_pay", "收费标准"],
+                                        ["ddnsto_pay", "收费标准"],
                                         ["ddnsto_start", "快速入门"],
                                         ["ddnsto_more", "更多精彩"],
                                         ["ddnsto_question", "问题反馈"],
-                                        ["ddnsto_impression", "一些感想"]										
+                                        ["ddnsto_impression", "一些感想"]
                                     ]
                                 },
                                 ["start", "快速入门"],
@@ -220,23 +226,23 @@ module.exports = ctx => ({
                                     title: "系统介绍", collapsable: true, children: [
                                         ["storeos_introduce", "系统展示"],
                                         ["storeos_hardware", "支持硬件"],
-										["storeos_custom", "定制系统"],
+                                        ["storeos_custom", "定制系统"],
                                         ["storeos_more", "更多精彩"],
                                         ["storeos_thanks", "鸣谢"]
                                     ]
-                                },								
+                                },
                                 {
                                     title: "系统安装", collapsable: true, children: [
                                         ["install_ars2", "EasePi ARS2"],
                                         ["install_x86", "X86 物理机"],
-										["install_pve", "X86 PVE"],
-										["install_esxi_8", "X86 ESXI 8.0"],
-										["install_vmware", "X86 VMWare Workstation"],
+                                        ["install_pve", "X86 PVE"],
+                                        ["install_esxi_8", "X86 ESXI 8.0"],
+                                        ["install_vmware", "X86 VMWare Workstation"],
                                         ["install_r2s", "R2S/R4S 设备"],
                                         ["install_r5s", "R5S 设备"],
                                         ["install_r68s", "R68S 设备"],
-										["install_r66s", "R66S 设备"],
-										["install_rpi4", "树莓派 Model4"]
+                                        ["install_r66s", "R66S 设备"],
+                                        ["install_rpi4", "树莓派 Model4"]
                                     ]
                                 },
                                 {
@@ -255,7 +261,7 @@ module.exports = ctx => ({
                                         ["software/homebox", "内网测速"],
                                         ["software/aliyunwebdav", "阿里云WebDav"],
                                         ["software/wxedge", "网心云"],
-										["software/navidrome", "Navidrome 音乐平台"]
+                                        ["software/navidrome", "Navidrome 音乐平台"]
                                     ]
                                 },
                                 ["question", "FAQ 必读"],
