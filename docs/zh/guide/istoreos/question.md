@@ -120,6 +120,32 @@ iStoreOS 跟随官方的 OpenWRT Master 分支，有 BUG，如果你运行了：
 
 首页进到终端，用 top 等相关的命令自行排查
 
+### Win10无法访问部分Samba服务器的解决方案
+
+* 依次打开“控制面板 -> 程序 -> 程序和功能”， 点击“启用或关闭Windows功能 -> SMB1.0/CIFS文件共享支持”；
+
+![smb](./question/smb1.jpg)
+
+* 按下【win】+【R】键，然后输入“gpedit.msc”回车进入组策略界面；
+
+![smb](./question/smb2.jpg)
+
+然后“计算机配置 -> 管理模板 -> 网络 -> Lanman工作站 -> 启用不安全的来宾策略”；
+
+![smb](./question/smb3.jpg)
+
+* 注册表编辑器 -> 
+```
+\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanWorkstation\Parameters
+```
+找到“AllowInsecureGuestAuth”这个值，然后数值数据改为1。
+
+若无，则新建DWORD(32位)值，名称为“AllowInsecureGuestAuth”，然后数值数据改为1。
+
+![smb](./question/smb4.jpg)
+
+
+
 ## 网络向导
 
 ### Merlin 跟 iStoreOS 的旁路由设置
