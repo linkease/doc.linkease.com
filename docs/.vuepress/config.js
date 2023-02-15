@@ -194,7 +194,7 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "账户", collapsable: true, children: [
-                                        ["account/register", "应用导航"],
+                                        ["account/register", "注册帐号"],
                                         ["account/pay", "套餐购买"],
                                         ["account/safe", "使用安全"],
                                     ]
