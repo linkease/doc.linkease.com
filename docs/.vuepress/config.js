@@ -200,8 +200,23 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "安装", collapsable: true, children: [
-                                        ["install/config", "安装及配置"],
+                                    title: "安装及配置", collapsable: true, children: [
+                                        ["install/device/windows", "Windows"],
+                                        ["install/device/mac", "macOS"],
+                                        ["install/device/easepi", "EasePi"],
+                                        ["install/device/istoreos", "iStoreOS"],
+                                        ["install/device/synology", "群晖"],
+                                        ["install/device/qnap", "威联通"],
+                                        ["install/device/asus_nas", "华硕NAS"],
+                                        ["install/device/koolcenter_merlin", "Koolcenter 梅林"],
+                                        ["install/device/koolcenter_lede", "Koolcenter Lede"],
+                                        ["install/device/openwrt", "OpenWrt"],
+                                        ["install/device/linux", "Linux 通用版"],
+                                        ["install/device/ready_nas", "ReadyNAS"],
+                                        ["install/device/docker", "Docker"],
+                                        ["install/device/unraid", "Unraid"],
+                                        ["install/device/ikuai", "爱快"],
+                                        ["install/device/terra_master", "铁威马"],
                                         ["install/cloud", "开启网盘"],
                                         ["install/update", "升级"],
                                     ]
