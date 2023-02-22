@@ -193,13 +193,6 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "账户", collapsable: true, children: [
-                                        ["account/register", "注册帐号"],
-                                        ["account/pay", "套餐购买"],
-                                        ["account/safe", "使用安全"],
-                                    ]
-                                },
-                                {
                                     title: "安装及配置", collapsable: true, children: [
                                         ["install/device/windows", "Windows"],
                                         ["install/device/mac", "macOS"],
@@ -219,6 +212,23 @@ module.exports = ctx => ({
                                         ["install/device/terra_master", "铁威马"],
                                         ["install/cloud", "开启网盘"],
                                         ["install/update", "升级"],
+                                    ]
+                                }, 
+                                {
+                                    title: "账户及套餐", collapsable: true, children: [
+                                        ["account/register", "注册帐号"],
+                                        ["account/pay", "套餐购买"],
+                                        ["account/safe", "使用安全"],
+                                    ]
+                                },
+                                {
+                                    title: "最佳实践🚀", collapsable: true, children: [ 
+                                        ["tips/mount", "远程硬件挂载"],
+                                        ["tips/syno_drive", "Synology Drive 同步支持"],
+                                        ["tips/transmission", "Transmission 远程下载"],
+                                        ["tips/aria2", "Aria2 远程访问"],
+                                        ["tips/cloud_backup", "云备份支持"],
+                                        ["tips/note", "多平台本地笔记同步（Joplin，思源笔记等）"],
                                     ]
                                 },
                                 {
