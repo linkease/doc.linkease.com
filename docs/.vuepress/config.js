@@ -48,7 +48,7 @@ module.exports = ctx => ({
                 label: '简体中文',
                 selectText: '选择语言',
                 ariaLabel: '选择语言',
-                editLinkText: '在 GitHub 上编辑此页',
+                editLinkText: '此文档有误？在 GitHub 上反馈。',
                 lastUpdated: '上次更新',
                 nav: [
                     { text: '首页', link: '/' },
