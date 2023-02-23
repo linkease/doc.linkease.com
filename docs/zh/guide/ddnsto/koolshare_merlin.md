@@ -207,22 +207,29 @@ docker run -d \
     -e TOKEN=<填入你的token> \
     -e DEVICE_IDX=<默认0，如果设备ID重复则为1-100之间> \
     -v /etc/localtime:/etc/localtime:ro \
+    -v /your/config-path/ddnsto-config:/ddnsto-config \
     -e PUID=<uid for user> \
     -e PGID=<gid for user> \
-    linkease/ddnsto:3.0.0
+    linkease/ddnsto
 ```
 
-1. <填入你的token>: 填写从ddnsto控制台拿到的 token。
-2. DEVICE_IDX: 默认0，如果设备ID重复则改为1-100之间。
-3. PUID/PGID：获取方式：终端输入id即可。
+* <填入你的token>: 填写从ddnsto控制台拿到的 token。
+* DEVICE_IDX: 默认0，如果设备ID重复则改为1-100之间。
+* PUID/PGID：获取方式：终端输入id即可。
 
    ![docker](./koolshare_merlin/docker1.jpeg)
    
 比如上图获取的UID和GID都是0。
-   
-4.注意要替换 "<>" 里面的内容，且不能出现 "<>"。
 
-5.准备工作做好了，比如我的TOKEN为abcdefg-8888-8888-1111-abcdefghijk，那我的终端命令就是：
+* /your/config-path/ddnsto-config 是你的配置文件，保证重启之后，设备ID不变。每个Docker都应该设置不同的配置文件路径
+
+比如我想把配置文件放在/mnt/sda1/
+```
+    -v /mnt/sda1/ddnsto-config:/ddnsto-config
+```
+* 注意要替换 "<>" 里面的内容，且不能出现 "<>"。
+
+* 准备工作做好了，比如我的TOKEN为abcdefg-8888-8888-1111-abcdefghijk，那我的终端命令就是：
 ```
 docker run -d \
     --name=ddnsto \
@@ -231,12 +238,13 @@ docker run -d \
     -e TOKEN=abcdefg-8888-8888-1111-abcdefghijk \
     -e DEVICE_IDX=0 \
     -v /etc/localtime:/etc/localtime:ro \
+    -v /mnt/sda1/ddnsto-config:/ddnsto-config \    
     -e PUID=0 \
     -e PGID=0 \
-    linkease/ddnsto:3.0.0
+    linkease/ddnsto
 ```
 
-6.Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：
+* Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：
 
 ```
 sudo docker run -d \
@@ -246,9 +254,10 @@ sudo docker run -d \
     -e TOKEN=abcdefg-8888-8888-1111-abcdefghijk \
     -e DEVICE_IDX=0 \
     -v /etc/localtime:/etc/localtime:ro \
+    -v /mnt/sda1/ddnsto-config:/ddnsto-config \    
     -e PUID=0 \
     -e PGID=0 \
-    linkease/ddnsto:3.0.0
+    linkease/ddnsto
 ```
 
 #### Docker常见问题
