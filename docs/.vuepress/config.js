@@ -166,12 +166,12 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["function/file_transfer", "多设备文件互传"],
+                                ["function/file_transfer", "多设备互传"],
                                 ["function/file_share", "文件共享"],
-                                ["function/file_backup", "文件备份及同步"],
+                                ["function/file_backup", "备份及同步"],
                                 ["function/photo_backup", "相册备份"],
                                 ["function/remote_connects", "异地互联"],
-                                ["function/home_share", "家庭共享"],
+                                ["function/home_share", "多人共享"],
                                 // {
                                 //     title: "使用易有云", collapsable: false, children: [
                                 //         ["function/file_transfer", "多设备文件互传"],
@@ -228,7 +228,7 @@ module.exports = ctx => ({
                                         ["tips/transmission", "Transmission 远程下载"],
                                         ["tips/aria2", "Aria2 远程访问"],
                                         ["tips/cloud_backup", "云备份支持"],
-                                        ["tips/note", "多平台本地笔记同步（Joplin，思源笔记等）"],
+                                        ["tips/note", "多平台本地笔记同步(Joplin, 思源笔记等)"],
                                     ]
                                 },
                                 {
