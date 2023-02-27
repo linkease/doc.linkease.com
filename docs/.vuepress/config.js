@@ -172,6 +172,8 @@ module.exports = ctx => ({
                                 ["function/photo_backup", "相册备份"],
                                 ["function/remote_connects", "异地互联"],
                                 ["function/home_share", "多人共享"],
+								["function/directory_manager", "目录管理"],
+								["function/remote_protocol", "远程协议"],
                                 // {
                                 //     title: "使用易有云", collapsable: false, children: [
                                 //         ["function/file_transfer", "多设备文件互传"],
@@ -189,7 +191,8 @@ module.exports = ctx => ({
                                         ["more/network_drive", "网络硬盘"],
                                         ["more/edit_file", "编辑文档"],
                                         ["more/load_subtitle", "加载字幕"],
-                                        ["more/remote_download", "远程下载"],
+                                        ["more/protocol_access", "协议访问"],
+										["more/protocol_forwarding", "协议转发"],
                                     ]
                                 },
                                 {
