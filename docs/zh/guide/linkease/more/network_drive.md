@@ -35,7 +35,7 @@ PS：地址类似这种：**http://192.168.2.135:8896/webdav/xxxxxxx** (这就�
 
 **2.然后参考教程，绑定即可。**
 
-[易有云APP WebDAV绑定教程](/zh/guide/linkease_app/tutorial.html#web-dav) -->
+[易有云APP WebDAV绑定教程](/zh/guide/linkease/function/remote_protocol.html#webdav) -->
 
 
 ### RaiDrive
