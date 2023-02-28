@@ -195,7 +195,7 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "安装及配置", collapsable: true, children: [
+                                    title: "安装及配置🚀", collapsable: true, children: [
                                         ["install/device/windows", "Windows"],
                                         ["install/device/mac", "macOS"],
                                         ["install/device/easepi", "EasePi"],
@@ -224,7 +224,7 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "最佳实践🚀", collapsable: true, children: [ 
+                                    title: "最佳实践💡", collapsable: true, children: [ 
                                         ["tips/mount", "远程硬件挂载"],
                                         ["tips/syno_drive", "Synology Drive 同步支持"],
                                         ["tips/transmission", "Transmission 远程下载"],
@@ -233,9 +233,10 @@ module.exports = ctx => ({
                                         ["tips/note", "多平台本地笔记同步(Joplin, 思源笔记等)"],
                                     ]
                                 },
+                                ["feedback/faq", "常见问题"],
                                 {
                                     title: "问题反馈", collapsable: true, children: [
-                                        ["feedback/faq", "常见问题"],
+                                       
                                         ["feedback/group", "交流群"],
                                         ["feedback/email", "Email"], 
                                     ]
