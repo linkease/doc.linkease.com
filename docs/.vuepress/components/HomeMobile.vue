@@ -32,7 +32,7 @@
                         </div>
                     </a>
 
-                    <a class="service_block" href="https://doc.linkease.com/zh/guide/linkease_app/" target="_blank">
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/linkease/" target="_blank">
                         <div class="content_top">
                             <img :src="pic_likease" alt="">
                         </div>
@@ -47,7 +47,7 @@
                                 </div>
 
                             </div>
-                            <a href="https://doc.linkease.com/zh/guide/linkease_app/" title="查看文档" target="_blank">查看文档</a>
+                            <a href="https://doc.linkease.com/zh/guide/linkease/" title="查看文档" target="_blank">查看文档</a>
                         </div>
                     </a>
                     <a class="service_block" href="https://doc.linkease.com/zh/guide/easepi/" target="_blank">
@@ -246,6 +246,7 @@ export default {
         margin: 0 auto;
         margin-top: 100px;
         margin-bottom: 24px;
+
         h1.title {
             text-align: center;
 
@@ -254,9 +255,11 @@ export default {
             font-family: PingFangSC-Semibold, PingFang SC;
             font-weight: 600;
             line-height: 2.5rem;
+
             a {
                 font-weight: 700;
             }
+
             span {
                 color: #000000;
             }
@@ -276,6 +279,7 @@ export default {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
+
                 .service_block {
                     height: 488px;
                     background: #ffffff;
@@ -284,6 +288,7 @@ export default {
                     position: relative;
                     flex: 0 0 100%;
                     border: 1px solid #000000;
+
                     .content_top {
                         img {
                             max-width: 100%;
@@ -292,19 +297,23 @@ export default {
                             width: 100%;
                         }
                     }
+
                     .block_content {
                         margin-left: 32px;
                         padding-top: 32px;
                         padding-right: 32px;
                         display: flex;
+
                         .content_left {
                             .left_icon {
                                 width: 80px;
                                 height: 80px;
                             }
                         }
+
                         .content_right {
                             margin-left: 24px;
+
                             .right_top {
                                 .top_title {
                                     font-size: 24px;
@@ -313,6 +322,7 @@ export default {
                                     line-height: 32px;
                                     margin-top: 10px;
                                 }
+
                                 .top_tit {
                                     font-size: 14px;
                                     font-family: PingFangSC-Semibold,
@@ -323,6 +333,7 @@ export default {
                                 }
                             }
                         }
+
                         a {
                             text-align: right;
                             position: absolute;
@@ -343,19 +354,23 @@ export default {
                 }
             }
         }
+
         .connect {
             margin-bottom: 60px;
             font-family: PingFangSC-Medium, PingFang SC;
+
             // margin: 0 20px;
             .connect_content {
                 .content_top {
                     text-align: -webkit-center;
                 }
+
                 .content_connect {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     flex-wrap: wrap;
+
                     .connect_block {
                         flex: 0 0 100%;
                         padding: 20px 0;
@@ -365,8 +380,10 @@ export default {
                         justify-content: center;
                         align-items: center;
                         margin-bottom: 20px;
+
                         .block_content {
                             width: 100%;
+
                             .block_tit {
                                 font-size: 28px;
                                 color: rgba(0, 0, 0, 0.83);
@@ -379,16 +396,21 @@ export default {
                                 justify-content: center;
                                 align-items: center;
                                 margin-top: 44px;
+
                                 &.question {
                                     justify-content: space-between;
                                 }
+
                                 a {
                                     width: 100%;
+
                                     .icon {
                                         text-align: center;
+
                                         img {
                                             max-width: 65px;
                                         }
+
                                         .icon_info {
                                             font-size: 18px;
                                             color: rgba(0, 0, 0, 0.83);
@@ -396,11 +418,14 @@ export default {
                                             margin-top: 24px;
                                         }
                                     }
+
                                     .icon {
                                         text-align: center;
+
                                         img {
                                             max-width: 65px;
                                         }
+
                                         .icon_info {
                                             font-size: 18px;
                                             color: rgba(0, 0, 0, 0.83);
@@ -416,6 +441,7 @@ export default {
                 }
             }
         }
+
         a {
             color: rgba(0, 0, 0, 0.83);
         }

@@ -30,7 +30,7 @@
                         </div>
                     </a>
 
-                    <a class="service_block" href="https://doc.linkease.com/zh/guide/linkease_app/" target="_blank">
+                    <a class="service_block" href="https://doc.linkease.com/zh/guide/linkease/" target="_blank">
                         <div class="content_top">
                             <img :src="pic_likease" alt="">
                         </div>
@@ -45,7 +45,7 @@
                                 </div>
 
                             </div>
-                            <a href="https://doc.linkease.com/zh/guide/linkease_app/" title="查看文档" target="_blank">查看文档</a>
+                            <a href="https://doc.linkease.com/zh/guide/linkease/" title="查看文档" target="_blank">查看文档</a>
                         </div>
                     </a>
                     <a class="service_block" href="https://doc.linkease.com/zh/guide/easepi/" target="_blank">
@@ -279,6 +279,7 @@ export default {
         margin: 0 auto;
         margin-top: 50px;
         margin-bottom: 24px;
+
         h1.title {
             text-align: center;
 
@@ -287,9 +288,11 @@ export default {
             font-family: PingFangSC-Semibold, PingFang SC;
             font-weight: 600;
             line-height: 2.5rem;
+
             a {
                 font-weight: 700;
             }
+
             span {
                 color: #000000;
             }
@@ -316,6 +319,7 @@ export default {
                 display: flex;
                 justify-content: space-between;
                 flex-wrap: wrap;
+
                 .service_block {
                     height: 488px;
                     background: #ffffff;
@@ -325,6 +329,7 @@ export default {
                     flex: 0 0 33.33%;
                     max-width: calc(33.33% - 20px);
                     border: 1px solid #000000;
+
                     .content_top {
                         img {
                             max-width: 100%;
@@ -332,21 +337,26 @@ export default {
                             border-radius: 16px 16px 0px 0px;
                         }
                     }
+
                     .block_content {
                         margin-left: 32px;
                         padding-top: 32px;
                         padding-right: 32px;
                         display: flex;
+
                         .content_left {
                             .left_icon {
                                 width: 80px;
                                 height: 80px;
                             }
                         }
+
                         .content_right {
                             margin-left: 24px;
+
                             .right_top {
                                 text-align: left;
+
                                 .top_title {
                                     font-size: 28px;
                                     font-weight: 600;
@@ -354,6 +364,7 @@ export default {
                                     line-height: 40px;
                                     margin-top: 10px;
                                 }
+
                                 .top_tit {
                                     font-size: 18px;
                                     font-family: PingFangSC-Semibold,
@@ -363,6 +374,7 @@ export default {
                                     margin: 8px 0;
                                 }
                             }
+
                             .right_info {
                                 p {
                                     font-size: 16px;
@@ -372,6 +384,7 @@ export default {
                                 }
                             }
                         }
+
                         a {
                             text-align: right;
                             position: absolute;
@@ -391,8 +404,10 @@ export default {
                     }
                 }
             }
+
             .part2 {
                 justify-content: center;
+
                 .service_block {
                     margin-right: 2rem;
                 }
@@ -402,15 +417,18 @@ export default {
         .connect {
             font-family: PingFangSC-Medium, PingFang SC;
             width: 100%;
+
             .connect_content {
                 .content_top {
                     text-align: -webkit-center;
                 }
+
                 .content_connect {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
                     flex-wrap: wrap;
+
                     .connect_block {
                         flex: 0 0 33.33%;
                         max-width: calc(33.33% - 20px);
@@ -422,8 +440,10 @@ export default {
                         align-items: center;
                         margin-bottom: 20px;
                         height: 385px;
+
                         .block_content {
                             width: 100%;
+
                             .block_tit {
                                 font-size: 28px;
                                 color: rgba(0, 0, 0, 0.83);
@@ -437,27 +457,35 @@ export default {
                                 align-items: center;
                                 margin-top: 52px;
                                 font-size: 18px;
+
                                 &.question {
                                     justify-content: space-between;
                                 }
+
                                 a {
                                     width: 100%;
+
                                     .icon {
                                         text-align: center;
+
                                         img {
                                             max-width: 65px;
                                         }
+
                                         .icon_info {
                                             color: rgba(0, 0, 0, 0.83);
                                             line-height: 25px;
                                             margin-top: 24px;
                                         }
                                     }
+
                                     .icon {
                                         text-align: center;
+
                                         img {
                                             max-width: 65px;
                                         }
+
                                         .icon_info {
                                             font-size: 18px;
                                             color: rgba(0, 0, 0, 0.83);
@@ -473,6 +501,7 @@ export default {
                 }
             }
         }
+
         a {
             color: rgba(0, 0, 0, 0.83);
         }
@@ -486,18 +515,21 @@ export default {
             .content_service {
                 padding: 0 20px;
             }
+
             .connect {
                 padding: 0 20px;
             }
         }
     }
 }
+
 @media screen and (max-width: 1300px) {
     #page.desktop {
         .containers {
             .content_service {
                 .service_par1 {
                     .service_block {
+
                         //
                         .block_content {
                             .content_right {
@@ -507,6 +539,7 @@ export default {
                                         line-height: 24px;
                                     }
                                 }
+
                                 .right_info {
                                     p {
                                         font-size: 14px;
@@ -514,6 +547,7 @@ export default {
                                     }
                                 }
                             }
+
                             a {
                                 font-size: 14px;
                                 line-height: 28px;
@@ -578,12 +612,14 @@ export default {
                         max-width: 100%;
                     }
                 }
+
                 .part2 {
                     .service_block {
                         margin-right: 0rem;
                     }
                 }
             }
+
             .connect {
                 .connect_content {
                     .content_connect {
@@ -597,6 +633,7 @@ export default {
         }
     }
 }
+
 @media screen and (max-width: 719px) {
     #page.desktop {
         display: none;
