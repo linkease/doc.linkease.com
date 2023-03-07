@@ -234,7 +234,7 @@ module.exports = ctx => ({
                                         ["tips/Synchronize", "同步圈"],
                                         // ["tips/mount", "远程硬件挂载"],
                                         // ["tips/syno_drive", "Synology Drive 同步支持"],
-                                        // ["tips/transmission", "Transmission 远程下载"],
+                                        ["tips/transmission", "Transmission 远程下载"],
                                         ["tips/aria2", "Aria2 远程访问"],
                                         // ["tips/cloud_backup", "云备份支持"],
                                         // ["tips/note", "多平台本地笔记同步(Joplin, 思源笔记等)"],
