@@ -26,7 +26,13 @@ A：ARM Cortex-A53。
 
 A：网卡是和CPU集成在一个SOC芯片，无具体品牌。
 
+## 电源
 
+### Q：电源规格？
+
+A：DC 12V/2A，接口 2.5*5.5
+
+![image](./question/dc.png)
 
 ## 附件
 
