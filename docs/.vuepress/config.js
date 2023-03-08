@@ -232,7 +232,7 @@ module.exports = ctx => ({
                                         ["tips/remote", "异地互联"],
                                         // ["tips/mount", "管理相册"],
                                         ["tips/Synchronize", "同步圈"],
-                                        // ["tips/mount", "远程硬件挂载"],
+                                        ["tips/mount", "远程硬件挂载"],
                                         // ["tips/syno_drive", "Synology Drive 同步支持"],
                                         ["tips/transmission", "Transmission 远程下载"],
                                         ["tips/aria2", "Aria2 远程访问"],
