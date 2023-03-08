@@ -108,7 +108,7 @@ module.exports = ctx => ({
                     //             {
                     //                 title: "详细介绍", collapsable: true, children: [
                     //                     ["linkease_software", "软件组成"],
-					// 					["linkease_pay", "收费价格"],
+                    // 					["linkease_pay", "收费价格"],
                     //                     ["linkease_start", "快速上手"],
                     //                     ["linkease_more", "更多精彩"],
                     //                     ["linkease_question", "问题反馈"],
@@ -171,12 +171,12 @@ module.exports = ctx => ({
                                 ["function/photo_backup", "相册备份"],
                                 ["function/remote_connects", "异地互联"],
                                 ["function/home_share", "多人共享"],
-								["function/directory_manager", "目录管理"],
-								["function/remote_protocol", "远程协议"],
+                                ["function/directory_manager", "目录管理"],
+                                ["more/app_navigation", "应用导航"],
                                 // {
                                 //     title: "使用易有云", collapsable: false, children: [
                                 //         ["function/file_transfer", "多设备文件互传"],
-								// 		   ["function/file_share", "文件共享"],
+                                // 		   ["function/file_share", "文件共享"],
                                 //         ["function/file_backup", "文件备份及同步"],
                                 //         ["function/photo_backup", "相册备份"],
                                 //         ["function/remote_connects", "异地互联"],
@@ -185,13 +185,13 @@ module.exports = ctx => ({
                                 // },
                                 {
                                     title: "更多功能", collapsable: true, children: [
-                                        ["more/app_navigation", "应用导航"],
+                                        ["function/remote_protocol", "远程协议"],
                                         ["more/verify_ddnsto", "验证ddnsto"],
                                         ["more/network_drive", "网络硬盘"],
                                         ["more/edit_file", "编辑文档"],
                                         ["more/load_subtitle", "加载字幕"],
                                         ["more/protocol_access", "协议访问"],
-										["more/protocol_forwarding", "协议转发"],
+                                        ["more/protocol_forwarding", "协议转发"],
                                     ]
                                 },
                                 {
@@ -215,7 +215,7 @@ module.exports = ctx => ({
                                         ["install/cloud", "开启网盘"],
                                         ["install/update", "升级"],
                                     ]
-                                }, 
+                                },
                                 {
                                     title: "账户及套餐", collapsable: true, children: [
                                         ["account/register", "注册帐号"],
@@ -224,21 +224,28 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "最佳实践💡", collapsable: true, children: [ 
-                                        ["tips/mount", "远程硬件挂载"],
-                                        ["tips/syno_drive", "Synology Drive 同步支持"],
+                                    title: "最佳实践💡", collapsable: true, children: [
+                                        ["tips/device", "跨设备传输"],
+                                        ["tips/fileTransfer", "文件传输"],
+                                        ["tips/multipleDevices", "查看不同设备下的文件"],
+                                        ["tips/backup", "手机瘦身"],
+                                        ["tips/remote", "异地互联"],
+                                        // ["tips/mount", "管理相册"],
+                                        ["tips/Synchronize", "同步圈"],
+                                        // ["tips/mount", "远程硬件挂载"],
+                                        // ["tips/syno_drive", "Synology Drive 同步支持"],
                                         ["tips/transmission", "Transmission 远程下载"],
                                         ["tips/aria2", "Aria2 远程访问"],
-                                        ["tips/cloud_backup", "云备份支持"],
-                                        ["tips/note", "多平台本地笔记同步(Joplin, 思源笔记等)"],
+                                        // ["tips/cloud_backup", "云备份支持"],
+                                        // ["tips/note", "多平台本地笔记同步(Joplin, 思源笔记等)"],
                                     ]
                                 },
                                 ["feedback/faq", "常见问题"],
                                 {
                                     title: "问题反馈", collapsable: true, children: [
-                                       
+
                                         ["feedback/group", "交流群"],
-                                        ["feedback/email", "Email"], 
+                                        ["feedback/email", "Email"],
                                     ]
                                 },
                             ]
