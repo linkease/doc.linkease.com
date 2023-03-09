@@ -1,30 +1,9 @@
-### 远程硬盘挂载
+## 远程硬盘挂载
+#### 想要在家里远程公司电脑硬盘挂载？<br/>下面教大家用一种简单的方式来远程公司的电脑硬盘挂载<br/>通过易有云的异地互联来实现<br/>因为易有云是点对点通信的，速度快<br/> 所以通过易有云来访问就相当于你在内网访问是一样的<br/>我们来看看具体是怎么实现的吧！
 
-- 如果你的设备是iStoreOS，可以在iStore[安装易有云并配置](https://doc.linkease.com/zh/guide/linkease/install/device/istoreos.html)
-- 在【首页】【存储服务】里可以快速配置【SAMBA】
-
-![image](./image/mount/1.jpg)
-
-- 点击【快速配置】，选择 局域网文件共享（Samba）
-
-![image](./image/mount/2.jpg)
-
-- 选择一个硬盘分区
-
-![image](./image/mount/3.jpg)
-
-- 选择不格式化，使用原文件系统
-
-![image](./image/mount/4.jpg)
-
-- 输入共享名（建议使用英文字母）
-- 输入用户名和密码
-- 勾选 允许旧协议与身份验证
-
-![image](./image/mount/5.jpg)
-
-
-- 开启完SAMBA后，我们现在在家里远程访问公司硬盘挂载
+- 公司电脑挂载的硬盘开启SAMBA共享
+- 安装易有云电脑客户端，公司电脑要[开启网盘]((https://doc.linkease.com/zh/guide/linkease/install/device/windows.html))，并且易有云是开启的状态
+- 家里电脑和公司电脑易有云客户端要登录同一易有云账号
 - 打开家里电脑易有云客户端，在易有云状态栏的【工具栏】下面找到【异地互联】
 
 ![image](./image/remote/1.jpg)
@@ -35,8 +14,8 @@
 ![image](./image/remote/20.jpg)
 
 - 私有域名：可以自己随意填（最好填英文名）
-- 跳板设备：选公司iStoreOS（如果你公司还有别的设备安装了易有云也可以选择别的设备作为跳板设备）
-- 远程设备IP：填公司iStoreOS的内网IP
+- 跳板设备：选公司电脑
+- 远程设备IP：填公司电脑的内网IP
 
 ![image](./image/mount/6.jpg)
 
@@ -45,7 +24,15 @@
 ![image](./image/mount/7.jpg)
 
 - 只需要复制这个【私有IP】在你家里电脑打开
-- 就可以在家里远程访问你公司的硬盘挂载了
+- 就可以在家里远程访问你公司开启SAMBA共享的硬盘挂载了
 
 ![image](./image/mount/8.jpg)
+
+- 如果你是一个专业用户，也可以用远程网段来方便远程更多的设备
+
+![image](./image/mount/9.jpg)
+
+- 如果你使用的是我们的 iStoreOS，开启 Samba 更容易
+
+![image](./image/mount/10.jpg)
 
