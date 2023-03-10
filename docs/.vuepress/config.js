@@ -229,7 +229,7 @@ module.exports = ctx => ({
                                     title: "最佳实践💡", collapsable: true, children: [
                                         ["tips/device", "跨设备传输"],
                                         ["tips/fileTransfer", "文件传输"],
-                                        ["tips/multipleDevices", "查看不同设备下的文件"],
+                                        ["tips/multipleDevices", "有n部手机、n台电脑，资料散布各地？"],
                                         ["tips/backup", "手机瘦身"],
                                         ["tips/remote", "在家办公，需要访问公司的办公网络？"],
                                         // ["tips/mount", "管理相册"],
