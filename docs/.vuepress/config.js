@@ -201,7 +201,7 @@ module.exports = ctx => ({
                                         ["install/device/easepi", "EasePi"],
                                         ["install/device/istoreos", "iStoreOS"],
                                         ["install/device/synology", "群晖"],
-                                        ["install/device/synology1", "群晖"],
+                                        // ["install/device/synology1", "群晖"],
                                         ["install/device/qnap", "威联通"],
                                         ["install/device/asus_nas", "华硕NAS"],
                                         ["install/device/koolcenter_merlin", "Koolcenter 梅林"],
@@ -215,6 +215,7 @@ module.exports = ctx => ({
                                         ["install/device/terra_master", "铁威马"],
                                         ["install/cloud", "开启网盘"],
                                         ["install/update", "升级"],
+                                        ["install/delete", "解绑"],
                                     ]
                                 },
                                 {
