@@ -227,9 +227,8 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "最佳实践💡", collapsable: true, children: [
-
                                         ["tips/remote", "在家办公，通过远程桌面控制公司电脑"],
-                                        ["tips/synology", "如何通过异地互联使用群晖Drive"],
+                                        ["tips/syno_drive", "如何通过异地互联使用群晖Drive"],
                                         ["tips/device", "安卓手机资料想传给Mac电脑"],
                                         ["tips/transmission", "Transmission 远程下载"],
                                         ["tips/aria2", "Aria2 远程下载"],
