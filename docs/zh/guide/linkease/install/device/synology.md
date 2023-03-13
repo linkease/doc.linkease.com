@@ -49,8 +49,6 @@
  #### 方式一：[下载易有云](https://www.linkease.com/rd/linkease-syonlogy/)最新版本，重新[手动安装易有云]()
  #### 方式二： 在易有云APP上[升级](/zh/guide/linkease/install/update.html)
 
-#### [群晖登录了A账号，想把A账号换绑成B账号？](/zh/guide/linkease/install/delete.html)
-
 ### 如何让群晖其他文件夹，也让易有云有权限访问？
 - 进入群晖【控制面板】- 【共享文件夹】选择目标文件夹（也就是你想让易有云有权访问的文件夹）- 【编辑】，选择【权限】用户选择器选择【系统内部用户账户】, 找到【linkease】，勾选【可读写】，最后保存。
 
@@ -74,3 +72,6 @@
 - 回到易有云首页，就可以访问群晖共享给易有云的文件夹了
 
 ![image](./image/synology/21.jpg)
+
+
+#### [群晖登录了A账号，想把A账号换绑成B账号？](/zh/guide/linkease/install/delete.html)
