@@ -1,16 +1,22 @@
 ### 想通过手机，把电脑资料传给NAS？
+想通过手机，把电脑资料传给NAS?  
+易有云可以让你随时随地的访问你各种设备
+
+### 安装易有云
 - 手机下载易有云APP,
-- [NAS安装易有云存储端](https://doc.linkease.com/zh/guide/linkease/install/device/windows.html)
+- [NAS开启网盘](https://doc.linkease.com/zh/guide/linkease//install/cloud.html)
 - 电脑安装易有云电脑客户端
 - 易有云APP、NAS易有云存储端、易有云电脑客户端 登录同一易有云账号
 - 打开易有云APP
 
 ![image](./image/fileTransfer/1.jpg)
 
+### 找到你电脑资料要传给NAS的存放路径
 - 找到你电脑资料要传给NAS的存放路径，比如我想把我电脑D盘的一个文件传给我的NAS
 
 ![image](./image/fileTransfer/2.jpg)
 
+### 找到电脑要上传到NAS的资料
 - 选中要上传的文件，然后点击【复制】或者【移动】
 
 ![image](./image/fileTransfer/3.jpg)
@@ -21,6 +27,7 @@
 
 ![image](./image/fileTransfer/5.jpg)
 
+### 找到NAS的目标目录路径位置
 - 然后选择你要复制到NAS的目标目录路径位置
 
 ![image](./image/fileTransfer/6.jpg)

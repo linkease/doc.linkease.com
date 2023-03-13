@@ -1,4 +1,4 @@
-## 远程访问 NAS 使用 transmission下载？
+### 远程访问 NAS 使用 transmission下载？
 当你在外网想要远程访问你公司的NAS使用transmission下载电影，  
 我们可以使用易有云APP的应用导航。  
 还可以通过易有云电脑客户端的异地互联快速实现。  

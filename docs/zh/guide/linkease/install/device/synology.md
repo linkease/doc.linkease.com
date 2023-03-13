@@ -1,14 +1,14 @@
 ### 群晖
 
-当我们想要在外网访问我们群晖的文件，  
+<!-- 当我们想要在外网访问我们群晖的文件，  
 我们可以用群晖自带的插件。    
 但今天我教大家用另外一种方式：  
 通过手动安装易有云插件，  
 来外网访问我们群晖的文件，  
 因为易有云是点对点通信的，速度更快。  
-并且安装了易有云之后我们还可以实现[远程硬盘挂载](https://doc.linkease.com/zh/guide/linkease/tips/mount.html)、  
+ 并且安装了易有云之后我们还可以实现[远程硬盘挂载](https://doc.linkease.com/zh/guide/linkease/tips/mount.html)、  
 [相册备份](https://doc.linkease.com/zh/guide/linkease/function/photo_backup.html)、[文件同步](https://doc.linkease.com/zh/guide/linkease/function/file_backup.html)、[远程桌面](https://doc.linkease.com/zh/guide/linkease/tips/remote.html)等功能。  
-下面我们来看看如何操作。  
+下面我们来看看如何操作。   -->
 
 #### 第一步：下载易有云
 **点击 [易有云下载](https://www.linkease.com/rd/linkease-syonlogy/)，下载Synology插件**
@@ -31,23 +31,15 @@
 
 ![image](./image/synology/5.jpg)
 
-- 安装易有云插件时，易有云会默认给你创建一个共享文件夹
+![image](./image/synology/7.jpg)
 
-![image](./image/synology/6.jpg)
+- 安装易有云插件时，易有云会默认给你创建一个共享文件夹
 
 ![image](./image/synology/22.jpg)
 
-![image](./image/synology/7.jpg)
 
 #### 第三步：插件安装完成后，进行配置
-
-- DSM7.x在【主菜单】点击【易有云】或【易有云设置】均可进入易有云向导页面
-
-![image](./image/synology/8.jpg)
-
-![image](./image/synology/9.jpg)
-
-- DSM7.x的设置入口在套件中心—已安装—易有云—点击下方的URL进行配置。
+- 在套件中心—已安装—易有云—点击下方的URL进行配置。
 
 ![image](./image/synology/10.jpg)
 
@@ -55,9 +47,9 @@
 
  ### 如何升级易有云？
  #### 方式一：[下载易有云](https://www.linkease.com/rd/linkease-syonlogy/)最新版本，重新[手动安装易有云]()
- #### 方式二： 在易有云APP上[升级](https://doc.linkease.com/zh/guide/linkease/install/update.html)
+ #### 方式二： 在易有云APP上[升级](/zh/guide/linkease/install/update.html)
 
-### [群晖登录了A账号，想把A账号换绑成B账号？](https://doc.linkease.com/zh/guide/linkease/install/delete.html)
+#### [群晖登录了A账号，想把A账号换绑成B账号？](/zh/guide/linkease/install/delete.html)
 
 ### 如何让群晖其他文件夹，也让易有云有权限访问？
 - 进入群晖【控制面板】- 【共享文件夹】选择目标文件夹（也就是你想让易有云有权访问的文件夹）- 【编辑】，选择【权限】用户选择器选择【系统内部用户账户】, 找到【linkease】，勾选【可读写】，最后保存。
