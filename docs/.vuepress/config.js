@@ -281,9 +281,9 @@ module.exports = ctx => ({
                                         ["synology", "群晖玩法"], 
                                     ]
                                 },  
-                                ["Authentication", "IP（微信）验证"], 
+                                ["Authentication", "身份(IP)验证🔓"], 
                                 ["pay", "账户及套餐💰"],
-                                ["question", "常见问题"],  
+                                ["question", "常见问题💬"],  
                                 {
                                     title: "问题反馈", collapsable: true, children: [
 
