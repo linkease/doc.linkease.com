@@ -3,7 +3,7 @@
 
 ## 远程穿透群晖App/程序
 
-众所周知，ddnsto远程穿透超级简单，4M带宽足够使用，于是就有朋友想着利用ddnsto支持群晖App。
+很多用户习惯使用群晖App，ddnsto同样支持部分群晖官方客户端
 
 
 
@@ -21,7 +21,7 @@ B：如果在同一局域网下，不用验证ddnsto身份。
 
 
 
-## 开始穿透(App)
+## 手机端APP
 
 ### Synology Drive
 
@@ -122,7 +122,7 @@ B：如果在同一局域网下，不用验证ddnsto身份。
    ![synology](./synology/synology-17.jpg) 
 
    
-## 开始穿透(PC客户端)
+## 电脑端APP
 
 ### Synology Surveillance Station Client
 
@@ -143,5 +143,5 @@ ddnsto远程穿透这个程序，目前没找到特别简单的方法。
 
 所以建议使用易有云PC客户端的设备互联(异地组网)来实现。
 
-[设备互联——远程网段教程](https://doc.linkease.com/zh/guide/linkease_app/pc.html#远程局域网)
+[设备互联——远程网段教程](/zh/guide/linkease_app/pc.html#远程局域网)
 

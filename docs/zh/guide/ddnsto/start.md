@@ -1,4 +1,3 @@
-## 安装三步走
 
 ### Step1: 登录官网 [控制台](https://www.ddnsto.com/app/#/login)拿到“令牌”
 
@@ -41,14 +40,14 @@
 
    ![image-20210202233021317](./koolshare_merlin/image-20210202233021317.png)
 
-3. 通过访问绑定的域名即可访问路由器，首次访问可能需要微信登录验证。
+3. 通过访问绑定的域名即可访问路由器，首次访问可能需要微信登录验证。[原因](/zh/guide/ddnsto/Authentication.md)
 
    ![image-20210201232105052](./koolshare_merlin/image-20210201232105052.png)
 
 
 补充几种特殊设置说明
 
-- merlin shellinabox插件设置
+ ###  merlin shellinabox插件设置
 
   shellinabox插件域名前缀的格式是固定的，是在你路由器的域名前缀后面添加“-cmd”，映射地址填路由器LAN口IP加端口4200。像我们前面设置的路由器前缀是kool666666，则shellinabox插件域名前缀就是“kool666666-cmd”，目标主机地址为http://192.168.50.1:4200
 
@@ -60,18 +59,9 @@
 
   ![image-20210202235804318](./koolshare_merlin/image-20210202235804318.png)
 
-- 群辉穿透设置(偷懒直接复制clang大神的教程了)
+ ### 切换http/https
 
-  因为使用https穿透后群辉的自动跳转会出现问题，所以需要自己补齐链接
-
-  假如群辉的IP是192.168.50.11，并且绑定了域名https://nas666666.ddnsto.com/
-
-  但这个链接是不能访问nas的！！！
-  
-
-  **需要在链接后加上** **webman/index.cgi 也就是说完整链接为：**
-  **https://nas666666.ddnsto.com/webman/index.cgi**
-  **用HTTP协议访问可以忽略上面的这个问题：http://nas666666.ddnsto.com:5000/ 这个就可以直接访问了，不需要手动补齐**
+ 部分第三方服务不支持http或https访问，出现错误时可以尝试不同协议访问。切记http访问使用的是5000端口
 
   点击“切换到http”即可方便的切换
 

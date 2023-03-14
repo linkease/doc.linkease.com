@@ -27,6 +27,7 @@ sidebarDepth: 1
 4. 如刚编辑域名，请等待生效，在1分钟后尝试
 
 ## * 远程RDP访问失败
+0. [确认电脑已开启RDP功能，允许被其他电脑控制](/zh/guide/ddnsto/cloudapp.md#a-专业版开启rdp)
 1. 先保证不使用ddnsto的情况下，内网能够正常rdp访问
 2. 确认已经登录ddnsto控制台，从控制台的应用入口进入
 3. [尝试使用superrdp修复](/zh/guide/ddnsto/cloudapp.md#b-家庭版开启rdp)  

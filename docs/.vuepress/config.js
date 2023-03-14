@@ -260,29 +260,37 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "概述"],
+                                ["start", "域名映射"],
+                                ["remote_control", "远程桌面"],
+                                ["remote_download", "远程下载"],
                                 {
-                                    title: "详细介绍", collapsable: true, children: [
-                                        ["ddnsto_configure", "配置简单"],
-                                        ["ddnsto_remotely", "远程应用"],
-                                        ["ddnsto_pay", "收费标准"],
-                                        ["ddnsto_start", "快速入门"],
-                                        ["ddnsto_more", "更多精彩"],
-                                        ["ddnsto_question", "问题反馈"],
-                                        ["ddnsto_impression", "一些感想"]
+                                    title: "更多功能", collapsable: true, children: [
+                                        ["cloudapp", "远程应用"],
+                                        ["ddnstofile", "拓展功能"], 
                                     ]
                                 },
-                                ["start", "快速入门"],
-                                ["koolshare_merlin", "安装插件"],
-                                ["Authentication", "身份验证"],
-                                ["cloudapp", "远程应用"],
-                                ["ddnstofile", "拓展功能"],
-                                ["synology", "群晖玩法"],
-                                ["scene", "更多玩法"],
-                                ["pay", "收费标准"],
-                                ["opensource", "开源代码"],
-                                ["question", "常见问题"],
-                                ["support", "设备支持"],
+                                {
+                                    title: "安装及配置🚀", collapsable: true, children: [
+                                        ["support", "设备支持"], 
+                                        ["koolshare_merlin", "安装插件"],
+                                    ]
+                                }, 
+                                {
+                                    title: "最佳实践💡", collapsable: true, children: [
+                                        ["scene", "第三方服务"], 
+                                        ["synology", "群晖玩法"], 
+                                    ]
+                                },  
+                                ["Authentication", "IP（微信）验证"], 
+                                ["pay", "账户及套餐💰"],
+                                ["question", "常见问题"],  
+                                {
+                                    title: "问题反馈", collapsable: true, children: [
+
+                                        ["feedback/group", "交流群"],
+                                        ["feedback/email", "Email"],
+                                    ]
+                                },
                                 // ["summary", "关于DDNSTO"],
                                 // ["about", "联系我们"],
                             ]
