@@ -279,6 +279,7 @@ module.exports = ctx => ({
                                     title: "最佳实践💡", collapsable: true, children: [
                                         ["scene", "第三方服务"], 
                                         ["synology", "群晖玩法"], 
+                                        ["safe", "数据安全"], 
                                     ]
                                 },  
                                 ["Authentication", "身份(IP)验证🔓"], 
