@@ -35,7 +35,7 @@ sidebarDepth: 1
 ## * 访问openwrt页面异常
 部分使用nginx的固件通过ddnsto访问时界面可能出现菜单不显示等问题
 
-请手动加上路径 /cgi-bin/luci/admin/status/overview 进行访问， 如
+请手动加上路径 **/cgi-bin/luci/admin/status/overview** 进行访问， 如
 ```
 https://custom.ddnsto.com/cgi-bin/luci/admin/status/overview
 ```
