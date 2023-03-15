@@ -139,7 +139,7 @@ iStoreOS默认登录密码是：password
 
 #### 6.配置iStoreOS：
 
-此刻我们进入iStoreOS，但是目前iStoreOS是个单笔路由状态，只有一个LAN口。
+此刻我们进入iStoreOS，但是目前iStoreOS是个单臂路由状态，只有一个LAN口。
 
 * 如果PVE里已有主路由系统，需要把iStoreOS配置为旁路由，在“网络向导”里配置“旁路由”即可。
 
