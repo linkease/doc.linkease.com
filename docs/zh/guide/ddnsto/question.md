@@ -31,6 +31,14 @@ sidebarDepth: 1
 1. 先保证不使用ddnsto的情况下，内网能够正常rdp访问
 2. 确认已经登录ddnsto控制台，从控制台的应用入口进入
 3. [尝试使用superrdp修复](/zh/guide/ddnsto/cloudapp.md#b-家庭版开启rdp)  
+
+## * 访问openwrt页面异常
+部分使用nginx的固件通过ddnsto访问时界面可能出现菜单不显示等问题
+
+请手动加上路径 /cgi-bin/luci/admin/status/overview 进行访问， 如
+```
+https://custom.ddnsto.com/cgi-bin/luci/admin/status/overview
+```
 ## 域名类
 
 ### Q：ddnsto可以用自己的域名吗？
