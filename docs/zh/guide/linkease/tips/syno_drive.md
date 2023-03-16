@@ -1,6 +1,6 @@
 ### 如何通过异地互联使用群晖Drive
 在外面想要远程公司的群晖使用Drive，  
-可以通过易有云的异地互联。  
+可以通过易有云的[异地互联](/zh/guide/linkease/function/remote_connects.html)。  
 因为易有云是点对点通信，速度快。  
 来看看具体操作。
 
@@ -29,18 +29,20 @@
 ![image](./image/syno_drive/3.jpg)
 
 
-- 只需要复制这个【私有IP】或【已有域名】到浏览器打开
+- 只需要复制这个【私有IP】或【已有域名】到Drive中；
 
 ![image](./image/syno_drive/4.jpg)
 
 
-- 就可以在家里远程访问你公司的群晖了
+- 打开Drive客户端；
+- Synology NAS：填易有云的私有域名或者私有IP；
+- 用户名和密码填群晖登录的用户名和密码；
+- 就可以远程使用群晖Drive了；
 
 ![image](./image/syno_drive/5.jpg)
 
 
-- 要访问群晖的Drive，我们可以在浏览器【私有IP】或者【私有域名】后面加上群晖Drive的地址就可以了
 
-![image](./image/syno_drive/6.jpg)
+
 
 

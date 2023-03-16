@@ -21,7 +21,7 @@
 - 应用类型：选择【Web网页服务】
 - 应用名称：可以随便填
 - 远程地址：填你公司NAS的内网地址加上transmission的端口号
-- 最后点击保存
+- 最后点击【保存】
 
 ![image](./image/transmission/3.jpg)
 
@@ -38,19 +38,16 @@
 - 家里电脑安装易有云电脑客户端
 - 登录同一易有云账号
 #### 第二步：开启易有云电脑客户端的异地互联
-- 打开家里电脑易有云客户端，在易有云状态栏的【工具栏】下面找到【异地互联】
+- 打开家里电脑易有云客户端，开启[异地互联](/zh/guide/linkease/function/remote_connects.md)
 
-![image](./image/remote/1.jpg)
-
-- 易有云默认已经帮你开启了异地互联
 - 点击【添加远程设备】
 
-![image](./image/remote/20.jpg)
+![image](./image/transmission/24.jpg)
 
 - 私有域名：可以自己随意填（最好填英文名）
 - 跳板设备：选公司NAS
 - 远程设备IP：填公司NAS的内网IP
-- 点击保存修改，易有云会自动帮你生成一个【私有IP】
+- 点击【保存修改】，易有云会自动帮你生成一个【私有IP】
 
 ![image](./image/transmission/9.jpg)
 
