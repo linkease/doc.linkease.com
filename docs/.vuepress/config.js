@@ -201,7 +201,6 @@ module.exports = ctx => ({
                                         ["install/device/easepi", "EasePi"],
                                         ["install/device/istoreos", "iStoreOS"],
                                         ["install/device/synology", "群晖"],
-                                        // ["install/device/synology1", "群晖"],
                                         ["install/device/qnap", "威联通"],
                                         ["install/device/asus_nas", "华硕NAS"],
                                         ["install/device/koolcenter_merlin", "Koolcenter 梅林"],
@@ -269,25 +268,25 @@ module.exports = ctx => ({
                                 {
                                     title: "更多功能", collapsable: true, children: [
                                         ["cloudapp", "远程应用"],
-                                        ["ddnstofile", "拓展功能"], 
+                                        ["ddnstofile", "拓展功能"],
                                     ]
                                 },
                                 {
                                     title: "安装及配置🚀", collapsable: true, children: [
-                                        ["support", "设备支持"], 
+                                        ["support", "设备支持"],
                                         ["koolshare_merlin", "安装插件"],
                                     ]
-                                }, 
+                                },
                                 {
                                     title: "最佳实践💡", collapsable: true, children: [
-                                        ["scene", "第三方服务"], 
-                                        ["synology", "群晖玩法"], 
-                                        ["safe", "数据安全"], 
+                                        ["scene", "第三方服务"],
+                                        ["synology", "群晖玩法"],
+                                        ["safe", "数据安全"],
                                     ]
-                                },  
-                                ["Authentication", "身份(IP)验证🔓"], 
+                                },
+                                ["Authentication", "身份(IP)验证🔓"],
                                 ["pay", "账户及套餐💰"],
-                                ["question", "常见问题💬"],  
+                                ["question", "常见问题💬"],
                                 {
                                     title: "问题反馈", collapsable: true, children: [
 
