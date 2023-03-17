@@ -273,7 +273,7 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "安装及配置🚀", collapsable: true, children: [
-                                        ["support", "设备支持"],
+                                        ["support", "设备支持列表"],
                                         ["koolshare_merlin", "安装插件"],
                                     ]
                                 },
