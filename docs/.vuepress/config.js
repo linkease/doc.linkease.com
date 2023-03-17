@@ -195,7 +195,7 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "安装及配置🚀", collapsable: true, children: [
+                                    title: "🚀安装及配置", collapsable: true, children: [
                                         ["install/device/windows", "Windows"],
                                         ["install/device/mac", "macOS"],
                                         ["install/device/easepi", "EasePi"],
@@ -218,14 +218,14 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "账户及套餐", collapsable: true, children: [
+                                    title: "💰账户及套餐", collapsable: true, children: [
                                         ["account/register", "注册帐号"],
                                         ["account/pay", "套餐购买"],
                                         ["account/safe", "使用安全"],
                                     ]
                                 },
                                 {
-                                    title: "最佳实践💡", collapsable: true, children: [
+                                    title: "💡最佳实践", collapsable: true, children: [
                                         ["tips/remote", "在家办公，通过远程桌面控制公司电脑"],
                                         ["tips/syno_drive", "如何通过异地互联使用群晖Drive"],
                                         ["tips/device", "安卓手机资料想传给Mac电脑"],
@@ -242,7 +242,7 @@ module.exports = ctx => ({
                                         // ["tips/note", "多平台本地笔记同步(Joplin, 思源笔记等)"],
                                     ]
                                 },
-                                ["feedback/faq", "常见问题"],
+                                ["feedback/faq", "💬常见问题"],
                                 {
                                     title: "问题反馈", collapsable: true, children: [
 
@@ -272,21 +272,21 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "安装及配置🚀", collapsable: true, children: [
+                                    title: "🚀安装及配置", collapsable: true, children: [
                                         ["support", "设备支持列表"],
                                         ["koolshare_merlin", "安装插件"],
                                     ]
                                 },
                                 {
-                                    title: "最佳实践💡", collapsable: true, children: [
+                                    title: "💡最佳实践", collapsable: true, children: [
                                         ["scene", "第三方服务"],
                                         ["synology", "群晖玩法"],
                                         ["safe", "数据安全"],
                                     ]
                                 },
-                                ["Authentication", "身份(IP)验证🔓"],
-                                ["pay", "账户及套餐💰"],
-                                ["question", "常见问题💬"],
+                                ["Authentication", "🔓身份(IP)验证"],
+                                ["pay", "💰账户及套餐"],
+                                ["question", "💬常见问题"],
                                 {
                                     title: "问题反馈", collapsable: true, children: [
 
