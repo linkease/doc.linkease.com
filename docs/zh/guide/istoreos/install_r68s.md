@@ -3,16 +3,22 @@
 #### 安装驱动跟刷机软件
 
 * 准备 USB 数据线
+
+![usb.jpeg](./install/usb.png)
+
 * 下载[DriverAssitant](https://fw.koolcenter.com/binary/other-tools/DriverAssitant_v5.1.1.zip) 并安装：
-* 下载[刷机软件](https://fw.koolcenter.com/binary/other-tools/RKDevTool_Release_v2.86.zip)
 
 ![drive.png](./install/r68s/drive.png)
+
+* 下载[刷机软件](https://fw.koolcenter.com/binary/other-tools/RKDevTool_Release_v2.86.zip)
 
 #### 下载固件
 
 * [下载固件](https://fw.koolcenter.com/iStoreOS/r68s/)
 
-越前面版本越新，请注意看中间的日期，比如 xxx20221123xx-xxx.img.gz
+越前面版本越新，请注意看中间的日期，比如 istoreos-xxx-xxx20221123xx-r68s-xxx.img.gz，**下载以后需要解压**
+
+**注意**：只有 USB 线刷才需要解压 `img.gz` 固件，以后在网页上升级固件的时候不需要解压。
 
 #### 进入 Loader 模式
 
@@ -27,9 +33,10 @@
 ![step1.png](./install/r68s/step1.png)
 
 #### 刷入固件
-
-![step2.png](./install/r68s/step2.png)
-![step3.png](./install/r68s/step3.png)
+1. 进入到 Maskrom 模式
+  ![step2.png](./install/r68s/step2.png)
+2. 加载固件并执行刷写
+  ![step3.png](./install/r68s/step3.png)
 
 #### 进入后台管理
 
