@@ -1,4 +1,4 @@
-### Rockchip 机型 USB 线刷教程
+### Rockchip 机型 USB 线刷标准固件教程
 此教程用于将标准 OpenWRT/iStoreOS 格式固件刷写到 eMMC 上（固件扩展名是 `.img.gz`，实际是 gzip 压缩后的磁盘镜像，官方说法是 sysupgrade 固件）。
 
 注意 Rockchip 除了标准 OpenWRT 格式固件外，还有 RK 私有的固件格式，扩展名是`.img`，不适合此教程。
