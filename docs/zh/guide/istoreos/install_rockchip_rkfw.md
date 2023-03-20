@@ -1,10 +1,20 @@
 ## Rockchip 机型 USB 线刷私有格式固件教程
+**新的iStoreOS固件都不适用此教程!**
+
+**新的iStoreOS固件都不适用此教程!**
+
+**新的iStoreOS固件都不适用此教程!**
+
+保留此教程只是为了参考、救砖，以及用来刷写早期的 Rockchip 固件。
+
+适用此教程的固件在 Rockchip 各机型的下载链接内，命名模式是 `xxx-update-xxxx.img`（例如R5S的早期固件`r5s-update-0610.img`）。
+
 此教程用于将 RK 私有格式的固件刷写到 eMMC 上（固件扩展名是 `.img`）。
 
 注意如果要刷标准 OpenWRT/iStoreOS 格式固件，不适合此教程。
 
 ### 下载固件
-根据具体机型的文档，下载 `xxx-update-xxxx.img` 固件
+根据具体机型的文档，下载 `xxx-update-xxxx.img` 固件（一般是最老的固件）
 
 ### 1.准备工作
 
