@@ -1,6 +1,10 @@
-### R66S 设备
+# R66s 安装教程
 
-* 同 [R2S/R4S](/zh/guide/istoreos/install_r2s.html)，用 rufus 写入固件到 TF 卡启动。
+## 1.下载固件
 
-* 固件下载地址不一样，请从 [这里](https://fw.koolcenter.com/iStoreOS/r66s/)下载
+* [R66s固件下载](https://fw.koolcenter.com/iStoreOS/r66s/)
 
+越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-r66s-squashfs.img.gz。下载完成之后不需要解压。
+
+## 2.刷写TF卡
+参考[SD卡通用教程](/zh/guide/istoreos/install_sd.html)
