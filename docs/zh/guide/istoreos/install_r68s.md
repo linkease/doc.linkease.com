@@ -16,7 +16,7 @@
 
 * [下载固件](https://fw.koolcenter.com/iStoreOS/r68s/)
 
-越前面版本越新，请注意看中间的日期，比如 istoreos-xxx-xxx20221123xx-r68s-xxx.img.gz，**下载以后需要解压**
+越前面版本越新，请注意看中间的日期，比如 istoreos-xxx-**2023032001**-r68s-squashfs.img.gz，**下载以后需要解压**
 
 **注意**：只有 USB 线刷才需要解压 `img.gz` 固件，以后在网页上升级固件的时候不需要解压。
 
