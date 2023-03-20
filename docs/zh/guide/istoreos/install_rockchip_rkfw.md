@@ -1,4 +1,4 @@
-## Rockchip 机型 USB 线刷私有格式固件教程
+# Rockchip 机型 USB 线刷私有格式固件教程
 **新的iStoreOS固件都不适用此教程!**
 
 **新的iStoreOS固件都不适用此教程!**
@@ -13,10 +13,10 @@
 
 注意如果要刷标准 OpenWRT/iStoreOS 格式固件，不适合此教程。
 
-### 下载固件
+## 下载固件
 根据具体机型的文档，下载 `xxx-update-xxxx.img` 固件（一般是最老的固件）
 
-### 1.准备工作
+## 1.准备工作
 
 * 一条 USB公对公数据线
 
@@ -24,7 +24,7 @@
 
 * 一台 windows 电脑
 
-### 2.写入固件
+## 2.写入固件
 
 * 使用 RKDevTool 工具刷入固件，安装RK USB驱动，
 下载 [安装RK USB驱动](https://download.t-firefly.com/product/Board/RK356X/Tool/Window/DriverAssitant/DriverAssitant_v5.1.1.zip)，解压，然后运行里面的 DriverInstall.exe 。为了所有设备都使用更新的驱动，请先选择驱动卸载，然后再选择驱动安装。
@@ -51,7 +51,7 @@
 
 ![upgrade.png](./install/upgrade.jpg)
 
-### 3.启动系统
+## 3.启动系统
 
 固件写入完成后，拔掉公头数据线，通电启动。
 
