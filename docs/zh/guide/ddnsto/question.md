@@ -35,10 +35,13 @@ sidebarDepth: 1
 ## * 访问openwrt页面异常
 部分使用nginx的固件通过ddnsto访问时界面可能出现菜单不显示等问题
 
-请手动加上路径 **/cgi-bin/luci/admin/status/overview** 进行访问， 如
+解决方法：
+1. 请使用https访问，注意端口是否被错误重定向成5000等其他端口
+2. 请手动加上路径 **/cgi-bin/luci/admin/status/overview** 进行访问， 如
 ```
 https://custom.ddnsto.com/cgi-bin/luci/admin/status/overview
 ```
+ 
 ## 域名类
 
 ### Q：ddnsto可以用自己的域名吗？
