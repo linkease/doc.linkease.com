@@ -13,7 +13,7 @@
 ![image](./image/mount/11.jpg)
 
 ### 第二步：安装易有云
--  安装易有云电脑客户端，公司电脑要[开启网盘]((/zh/guide/linkease/install/device/windows.md))，并且易有云是运行的状态
+-  安装易有云电脑客户端，公司电脑要[开启网盘](/zh/guide/linkease/install/device/windows.md)，并且易有云是运行的状态
 - 家里电脑和公司电脑易有云客户端要登录同一易有云账号
 
 ### 第三步：开启异地互联
