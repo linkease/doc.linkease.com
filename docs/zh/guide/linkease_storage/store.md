@@ -8,7 +8,7 @@
 
 
 ### 2. 群晖
-
+如升级新版本时提示端口占用，请先停用当前版本插件再进行升级
 **1.点击“ [存储端下载](https://fw.koolcenter.com/binary/LinkEase/Synology/)”，下载Synology插件，教程示例群晖是x86平台，所以此处选择"X86"；**
 
 <!-- <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br /> -->
