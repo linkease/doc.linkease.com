@@ -27,10 +27,20 @@ sidebarDepth: 1
 4. 如刚编辑域名，请等待生效，在1分钟后尝试
 
 ## * 远程RDP访问失败
-0. [确认电脑已开启RDP功能，允许被其他电脑控制](/zh/guide/ddnsto/cloudapp.md#a-专业版开启rdp)
-1. 先保证不使用ddnsto的情况下，内网能够正常rdp访问
-2. 确认已经登录ddnsto控制台，从控制台的应用入口进入
-3. [尝试使用superrdp修复](/zh/guide/ddnsto/cloudapp.md#b-家庭版开启rdp)  
+1. 请先确认电脑已开启RDP功能，允许被其他电脑控制
+    - Windows家庭版开启RDP相对复杂，可使用 [RDPWrapper](https://github.com/stascorp/rdpwrap) 进行配置：。
+      - 选择GUI Authentication Only
+      - 如果默认启用失败，需要从网站下载一个 rdpwrap.ini 来协助启用
+      - 如果端口不监听，则终端运行：net stop termservice，再运行 net start termservice
+      - 系统更新可能导致配置失效，可关闭系统更新，用 Kill-Update
+    - [Windows专业版开启RDP](/zh/guide/ddnsto/cloudapp.md#a-专业版开启rdp) 
+      - 取消勾选“需要计算机使用网络级别身份验证”
+
+2. 先保证不使用ddnsto的情况下，内网能够正常rdp访问
+
+3. 确认已经登录ddnsto控制台，从控制台的应用入口进入
+
+4. 如仍然未能解决，可联系[付费服务](https://www.koolcenter.com/category/services)协助处理
 
 ## * 访问openwrt页面异常
 部分使用nginx的固件通过ddnsto访问时界面可能出现菜单不显示等问题
