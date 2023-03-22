@@ -11,6 +11,8 @@
 下面我们来看看如何操作。   -->
 
 #### 第一步：下载易有云
+如升级新版本时提示端口被占用，请先停用当前版本插件再进行升级
+
 **点击 [易有云下载](https://www.linkease.com/rd/linkease-syonlogy/)，下载Synology插件**
 
 * 请根据自己群晖的CPU型号以及DSM版本选择相对应的易有云
@@ -48,6 +50,33 @@
  ### 如何升级易有云？
  #### 方式一：[下载易有云](https://www.linkease.com/rd/linkease-syonlogy/)最新版本，重新[手动安装易有云]()
  #### 方式二： 在易有云APP上[升级](/zh/guide/linkease/install/update.html)
+
+## 常见问题
+#### 注意！由于DSM7.x对权限严格控制，所以额外配置权限(DSM6.x用户无需处理)。有两种方法配置：
+
+### 方法一： 
+#### 进入“控制面板”—“共享文件夹”, 在目标文件夹上右键选择“编辑”，选择“权限”页签，在页签内用户选择器选择“系统内部用户账户”, 找到“linkease”，勾选“可读写”，最后保存。
+
+ps：目标文件夹：绑定存储端时选中的文件夹或者你易有云想访问的文件夹。
+
+![sy0.png](./image/synology/syno_edit_permissions-1.jpg)
+
+![sy0.png](./image/synology/syno_edit_permissions-2.jpg)
+
+### 方法二：
+
+#### 如果有root权限，开启ssh后进入群晖终端，执行以下两条指令：
+
+1.先开启ssh：“控制面板”—“终端机和SNMP”—“启用SSH功能”—应用。
+![sy0.png](./image/synology/syno_enable_ssh.jpg)
+
+2.登录群晖SSH，终端执行：
+```
+先执行
+sudo  sed -i 's/package/root/g' /var/packages/LinkEaseAgent/conf/privilege
+再执行
+sudo /usr/syno/bin/synopkg restart LinkEaseAgent
+```
 
 ### 如何让群晖其他文件夹，也让易有云有权限访问？
 - 进入群晖【控制面板】- 【共享文件夹】选择目标文件夹（也就是你想让易有云有权访问的文件夹）- 【编辑】，选择【权限】用户选择器选择【系统内部用户账户】, 找到【linkease】，勾选【可读写】，最后保存。
