@@ -6,7 +6,7 @@
 
 ### 方式一：使用易有云APP的应用导航实现
 #### 第一步：安装易有云
-- 公司NAS [安装并配置易有云](https://doc.linkease.com/zh/guide/linkease/install/device/windows.html)
+- 公司NAS [安装并配置易有云](/zh/guide/linkease/install/device/koolcenter_merlin.md)
 - 手机安装易有云APP
 - 登录同一易有云账号
 #### 第二步：配置易有云APP应用导航的Web网页服务
@@ -34,12 +34,11 @@
 
 ### 方式二：通过易有云电脑客户端的异地互联实现
 #### 第一步：安装易有云
-- 公司NAS [安装并配置易有云](https://doc.linkease.com/zh/guide/linkease/install/device/windows.html)
+- 公司NAS [安装并配置易有云](/zh/guide/linkease/install/device/koolcenter_merlin.md)
 - 家里电脑安装易有云电脑客户端
 - 登录同一易有云账号
 #### 第二步：开启易有云电脑客户端的异地互联
 - 打开家里电脑易有云客户端，开启[异地互联](/zh/guide/linkease/function/remote_connects.md)
-
 - 点击【添加远程设备】
 
 ![image](./image/transmission/24.jpg)

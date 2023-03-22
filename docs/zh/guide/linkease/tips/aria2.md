@@ -18,7 +18,7 @@
 ### 现在我们来实现外网远程访问你公司的NAS使用Aria2下载电影
 ### 方式一：使用易有云APP的应用导航实现
 #### 第一步：安装易有云
-- 公司NAS [安装并配置易有云](/zh/guide/linkease/install/device/windows.md)
+- 公司NAS [安装并配置易有云](/zh/guide/linkease/install/device/istoreos.md)
 - 手机安装易有云APP
 - 登录同一易有云账号
 #### 第二步：配置易有云APP应用导航的远程下载
@@ -48,7 +48,7 @@
 
 ### 方式二：通过易有云电脑客户端的异地互联实现
 #### 第一步：安装易有云
-- 公司NAS [安装并配置易有云](/zh/guide/linkease/install/device/windows.md)
+- 公司NAS [安装并配置易有云](/zh/guide/linkease/install/device/istoreos.md)
 - 家里电脑安装易有云电脑客户端
 - 登录同一易有云账号
 #### 第二步：开启易有云电脑客户端的异地互联

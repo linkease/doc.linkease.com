@@ -18,7 +18,6 @@
 
 ### 第三步：开启异地互联
 - 打开家里电脑易有云客户端，开启[异地互联](/zh/guide/linkease/function/remote_connects.md)
-
 - 点击【添加远程设备】
 
 ![image](./image/mount/21.jpg)

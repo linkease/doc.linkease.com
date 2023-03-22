@@ -231,13 +231,9 @@ module.exports = ctx => ({
                                         ["tips/device", "安卓手机资料想传给Mac电脑"],
                                         ["tips/transmission", "Transmission 远程下载"],
                                         ["tips/aria2", "Aria2 远程下载"],
+                                        ["tips/qBittorrent", "qBittorrent 远程下载"],
                                         ["tips/mount", "远程硬盘挂载"],
-                                        // ["tips/multipleDevices", "有n部手机、n台电脑，资料散布各地？"],
-                                        // ["tips/Synchronize", "在公司还没编辑完文件，回到家也可以继续处理"],
-                                        // ["tips/backup", "通过相册备份，释放手机空间"],
-                                        // ["tips/fileTransfer", "想通过手机，把电脑资料传给NAS"],
-                                        // ["tips/syno_drive", "Synology Drive 同步支持"],
-                                        // ["tips/mount", "管理相册"],
+
                                         // ["tips/cloud_backup", "云备份支持"],
                                         // ["tips/note", "多平台本地笔记同步(Joplin, 思源笔记等)"],
                                     ]
