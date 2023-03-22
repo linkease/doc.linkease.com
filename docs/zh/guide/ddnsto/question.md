@@ -31,6 +31,7 @@ sidebarDepth: 1
     - Windows家庭版开启RDP相对复杂，可使用 [RDPWrapper](https://github.com/stascorp/rdpwrap) 进行配置：。
       - 选择GUI Authentication Only
       - 如果默认启用失败，需要从网站下载一个 rdpwrap.ini 来协助启用
+      - 终端运行“ netstat -aon|findstr 3389 ”  查看服务端口是否已监听。
       - 如果端口不监听，则终端运行：net stop termservice，再运行 net start termservice
       - 系统更新可能导致配置失效，可关闭系统更新，用 Kill-Update
     - [Windows专业版开启RDP](/zh/guide/ddnsto/cloudapp.md#a-专业版开启rdp) 
