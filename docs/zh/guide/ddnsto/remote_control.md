@@ -90,3 +90,6 @@ ps：假如想远程朋友的电脑，朋友的电脑只是联网，没DDNSTO，
 2.而DDNSTO的远程VNC，充当VNC Viewer，写好参数，就能远程了。
  
    ![Linux-VNC](./cloudapp/cloudapp-vnc2.jpeg)  
+
+## 相关链接
+- 如需更流畅、更快，或想使用windows远程桌面客户端，请使用易有云[异地互联](/zh/guide/linkease/remote.md)

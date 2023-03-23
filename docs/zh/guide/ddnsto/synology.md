@@ -143,5 +143,5 @@ ddnsto远程穿透这个程序，目前没找到特别简单的方法。
 
 所以建议使用易有云PC客户端的设备互联(异地组网)来实现。
 
-[设备互联——远程网段教程](/zh/guide/linkease_app/pc.html#远程局域网)
+[设备互联——远程网段教程](/zh/guide/linkease/tips/syno_drive.html)
 
