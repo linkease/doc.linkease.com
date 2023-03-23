@@ -232,7 +232,12 @@ module.exports = ctx => ({
                                         ["tips/transmission", "Transmission 远程下载"],
                                         ["tips/aria2", "Aria2 远程下载"],
                                         ["tips/qBittorrent", "qBittorrent 远程下载"],
+                                        ["tips/Jellyfin", "Jellyfin 远程影视"],
+                                        ["tips/emby", "emby 远程影视"],
+                                        ["tips/plex", "plex 远程影视"],
+                                        ["tips/navidrome", "navidrome 远程音乐"],
                                         ["tips/mount", "远程硬盘挂载"],
+
 
                                         // ["tips/cloud_backup", "云备份支持"],
                                         // ["tips/note", "多平台本地笔记同步(Joplin, 思源笔记等)"],
