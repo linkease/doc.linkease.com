@@ -12,24 +12,24 @@
 ### 开启异地互联
 
 打开易有云客户端，[开启异地互联](/zh/guide/linkease/function/remote_connects.md)
-
-- 点击【添加远程设备】
+- 点击【添加远程设备】。
 
 ![image](./image/syno_drive/1.jpg)
 
 
-- 私有域名：可以自己随意填（最好填英文名）
-- 跳板设备：选群晖（群晖需要安装易有云开启网盘并且在线）
-- 远程设备IP：填群晖的内网IP地址
+- 私有域名：一定要记得填小写的英文字母；
+- 跳板设备：选群晖（群晖需要安装易有云开启网盘并且在线）；
+- 远程设备IP：填群晖的内网IP地址；
+- 最后一定记得要点击【保存修改】。
 
 ![image](./image/syno_drive/2.jpg)
 
-- 点击保存修改，易有云会自动帮你生成一个【私有IP】
+- 易有云会自动帮你生成一个【私有IP】。
 
 ![image](./image/syno_drive/3.jpg)
 
 
-- 只需要复制这个【私有IP】或【已有域名】到Drive中；
+- 只需要复制这个【私有IP】或【已有域名】到群晖Drive中。
 
 ![image](./image/syno_drive/4.jpg)
 
@@ -37,7 +37,7 @@
 - 打开Drive客户端；
 - Synology NAS：填易有云的私有域名或者私有IP；
 - 用户名和密码填群晖登录的用户名和密码；
-- 就可以远程使用群晖Drive了；
+- 就可以远程使用群晖Drive了。
 
 ![image](./image/syno_drive/5.jpg)
 
