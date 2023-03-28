@@ -60,7 +60,8 @@ module.exports = ctx => ({
                             // { text: '易有云软件', link: '/zh/guide/linkease_app/' },
                             // { text: '易有云存储端', link: '/zh/guide/linkease_storage/' },
                             { text: 'iStore', link: '/zh/guide/istore/' },
-                            { text: 'EasePi', link: '/zh/guide/easepi/' }
+                            { text: 'EasePi', link: '/zh/guide/easepi/' },
+                            { text: '知识库', link: '/zh/guide/wiki/' }
 
                         ]
                     },
@@ -389,6 +390,29 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "介绍"],
+                            ]
+                        },
+                    ],
+                    '/zh/guide/wiki/': [
+                        {
+                            title: "知识库",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                {
+                                    title: "常用软件配置", collapsable: true, children: [
+                                        ["remote", "远程桌面"],
+                                        ["downloads", "远程下载"],
+                                    ]
+                                }, 
+                                {
+                                    title: "网络知识", collapsable: true, children: [
+                                        ["name", "名词解释"], 
+                                    ]
+                                },  
                             ]
                         },
                     ],
