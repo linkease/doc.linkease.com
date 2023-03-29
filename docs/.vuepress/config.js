@@ -410,7 +410,7 @@ module.exports = ctx => ({
                                 }, 
                                 {
                                     title: "网络知识", collapsable: true, children: [
-                                        ["name", "名词解释"], 
+                                        ["term", "名词解释"], 
                                     ]
                                 },  
                             ]
