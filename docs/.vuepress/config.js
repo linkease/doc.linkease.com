@@ -405,14 +405,14 @@ module.exports = ctx => ({
                                 {
                                     title: "常用软件配置", collapsable: true, children: [
                                         ["remote", "远程桌面"],
-                                        ["downloads", "远程下载"],
+                                        ["downloads", "下载器插件"],
                                     ]
-                                }, 
+                                },
                                 {
                                     title: "网络知识", collapsable: true, children: [
-                                        ["name", "名词解释"], 
+                                        ["remoteProtocol", "远程桌面选RDP还是VNC协议？"],
                                     ]
-                                },  
+                                },
                             ]
                         },
                     ],
