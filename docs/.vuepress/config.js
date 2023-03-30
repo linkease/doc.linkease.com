@@ -405,12 +405,16 @@ module.exports = ctx => ({
                                 {
                                     title: "常用软件配置", collapsable: true, children: [
                                         ["remote", "远程桌面"],
+                                        ["Microsoft", "下载微软远程软件"],
                                         ["downloads", "下载器插件"],
                                     ]
                                 },
                                 {
                                     title: "网络知识", collapsable: true, children: [
                                         ["remoteProtocol", "远程桌面选RDP还是VNC协议？"],
+                                        ["IP", "内网IP和公网IP的区别"],
+                                        ["networkSegment", "什么是网段，怎么判断我的两台设备是不是处在同一网段"],
+                                        ["DNS", "什么是DNS，域名和IP之间是什么关系"]
                                     ]
                                 },
                             ]

@@ -23,18 +23,10 @@
 ![image](./image/remote/21.jpg)
 
 ### 第三步：被控电脑（公司电脑）开启远程桌面
-- Windows 电脑开启远程桌面:  
- A.[Windows专业版开启远程桌面](/zh/guide/ddnsto/cloudapp.html#a-%E4%B8%93%E4%B8%9A%E7%89%88%E5%BC%80%E5%90%AFrdp)  
- B.[Windows家庭版开启远程桌面](/zh/guide/ddnsto/cloudapp.html#b-%E5%AE%B6%E5%BA%AD%E7%89%88%E5%BC%80%E5%90%AFrdp)  
+**被控电脑（公司电脑）[查看开启远程桌面教程](/zh/guide/wiki/remote.md)** 
 
 ### 第四步：家里电脑下载微软远程软件
-- 在微软应用商店下载微软远程软件。
-
-![image](./image/remote/26.jpg)
-
-- 下载完成后，可以在电脑【菜单栏】找到微软远程软件。
-
-![image](./image/remote/27.jpg)
+**[查看下载微软远程软件教程](/zh/guide/wiki/Microsoft.md)**
 
 ### 第五步：复制【私有IP】或【私有域名】到微软远程软件打开
 

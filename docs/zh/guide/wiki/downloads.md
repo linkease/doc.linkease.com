@@ -2,7 +2,7 @@
 
 ### 设置Aria2
 **以OpenWrt为例**
-1. 下载好Aria2插件后，进入设置页面，点击【基本选项】，查看【下载目录】的路径是否存在或者是否正确。
+1. 下载好Aria2插件后，进入设置页面，点击【基本选项】，用户组要选择【root】，这样可以避免因权限问题访问不了Aria2，确认【下载目录】的路径是否存在或者是否正确。
 
   ![image](./image/Aria2/1.jpg)
 
@@ -17,7 +17,7 @@
 
  ![image](./image/Aria2/4.jpg)
 
- 4. 点击【Aria2 设置】，找到【BitTorrent 设置】，找到【BT 排除服务器地址】输入tracker链接。
+ 4. 点击【Aria2 设置】，找到【BitTorrent 设置】，找到【BT 服务器地址】输入tracker链接。
 
 ![image](./image/Aria2/5.jpg)
 
@@ -77,6 +77,3 @@
 3. 可以看到电影正在下载中。
 
 ![image](./image/Transmission/3.jpg)
-
-
-
