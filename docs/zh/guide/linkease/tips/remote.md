@@ -23,7 +23,7 @@
 ![image](./image/remote/21.jpg)
 
 ### 第三步：被控电脑（公司电脑）开启远程桌面
-**被控电脑（公司电脑）[查看开启远程桌面教程](/zh/guide/wiki/remote.md)** 
+**[查看开启远程桌面教程](/zh/guide/wiki/remote.md)** 
 
 ### 第四步：家里电脑下载微软远程软件
 **[查看下载微软远程软件教程](/zh/guide/wiki/Microsoft.md)**

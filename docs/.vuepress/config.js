@@ -414,6 +414,8 @@ module.exports = ctx => ({
                                         ["remoteProtocol", "远程桌面选RDP还是VNC协议？"],
                                         ["IP", "内网IP和公网IP的区别"],
                                         ["networkSegment", "什么是网段，怎么判断我的两台设备是不是处在同一网段"],
+                                        ["IP-address", "什么是IP地址，怎么查看电脑IP地址"],
+                                        ["http", "什么是http协议？"],
                                         ["DNS", "什么是DNS，域名和IP之间是什么关系"]
                                     ]
                                 },
