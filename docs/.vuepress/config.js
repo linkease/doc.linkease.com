@@ -213,7 +213,7 @@ module.exports = ctx => ({
                                         ["install/device/unraid", "Unraid"],
                                         ["install/device/ikuai", "爱快"],
                                         ["install/device/terra_master", "铁威马"],
-										["install/device/zspace", "极空间"],
+                                        ["install/device/zspace", "极空间"],
                                         ["install/cloud", "开启网盘"],
                                         ["install/update", "升级"],
                                         ["install/delete", "解绑"],
@@ -277,7 +277,7 @@ module.exports = ctx => ({
                                 {
                                     title: "🚀安装及配置", collapsable: true, children: [
                                         ["support", "设备支持列表"],
-										["install/device/token", "获取Token"],
+                                        ["install/device/token", "获取Token"],
                                         ["install/device/easepi", "EasePi"],											
                                         ["install/device/istoreos", "iStoreOS"],										
                                         ["install/device/koolcenter_merlin", "Koolcenter 梅林"],										
@@ -293,7 +293,7 @@ module.exports = ctx => ({
                                         ["install/device/terra_master", "铁威马"],										
                                         ["install/device/windows", "Windows"],
                                         ["install/device/linux", "Linux 通用版"],
-										["install/device/zspace", "极空间"],										
+                                        ["install/device/zspace", "极空间"],										
                                         ["install/device/penetrate", "穿透设置"],
                                         ["install/device/domain_name", "添加域名"],
                                         ["install/device/change_name", "设备改名"],
