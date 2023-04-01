@@ -213,6 +213,7 @@ module.exports = ctx => ({
                                         ["install/device/unraid", "Unraid"],
                                         ["install/device/ikuai", "爱快"],
                                         ["install/device/terra_master", "铁威马"],
+										["install/device/zspace", "极空间"],
                                         ["install/cloud", "开启网盘"],
                                         ["install/update", "升级"],
                                         ["install/delete", "解绑"],
