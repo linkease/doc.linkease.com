@@ -273,13 +273,34 @@ module.exports = ctx => ({
                                         ["cloudapp", "远程应用"],
                                         ["ddnstofile", "拓展功能"],
                                     ]
-                                },
+                                },								
                                 {
                                     title: "🚀安装及配置", collapsable: true, children: [
                                         ["support", "设备支持列表"],
-                                        ["koolshare_merlin", "安装插件"],
+										["install/device/token", "获取Token"],
+                                        ["install/device/easepi", "EasePi"],											
+                                        ["install/device/istoreos", "iStoreOS"],										
+                                        ["install/device/koolcenter_merlin", "Koolcenter 梅林"],										
+                                        ["install/device/koolcenter_lede", "Koolcenter Lede"],
+                                        ["install/device/openwrt", "OpenWrt"],
+                                        ["install/device/synology", "群晖"],
+                                        ["install/device/qnap", "威联通"],
+                                        ["install/device/docker", "Docker"],
+                                        ["install/device/padavan", "Padavan"],
+                                        ["install/device/ready_nas", "ReadyNAS"],
+                                        ["install/device/ikuai", "爱快"],
+                                        ["install/device/unraid", "Unraid"],
+                                        ["install/device/terra_master", "铁威马"],										
+                                        ["install/device/windows", "Windows"],
+                                        ["install/device/linux", "Linux 通用版"],
+										["install/device/zspace", "极空间"],										
+                                        ["install/device/penetrate", "穿透设置"],
+                                        ["install/device/domain_name", "添加域名"],
+                                        ["install/device/change_name", "设备改名"],
+                                        ["install/device/combo", "套餐和服务器"],
                                     ]
                                 },
+								
                                 {
                                     title: "💡最佳实践", collapsable: true, children: [
                                         ["scene", "第三方服务"],
