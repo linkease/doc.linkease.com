@@ -8,17 +8,9 @@
 公司NAS [安装并配置易有云](/zh/guide/linkease/install/device/istoreos.md)
 
 ### 配置Aria2
-- 我们已经在公司NAS里面配置好Aria2了。
+[查看Aria2配置教程](/zh/guide/wiki/downloads.md#aria2下载器)
 
-![image](./image/aria2/6.jpg)
-
-- 并且也已经成功的在公司内网打开了Aria2。
-
-![image](./image/aria2/20.jpg)
-
-![image](./image/aria2/21.jpg)
-
-### 现在我们来实现外网远程访问你公司的NAS使用Aria2下载电影
+#### 现在我们来实现外网远程访问你公司的NAS使用Aria2下载电影
 
 ### 方式一：使用易有云APP的应用导航实现
 #### 第一步：安装易有云

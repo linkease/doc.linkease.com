@@ -8,13 +8,7 @@
 公司NAS [安装并配置易有云](/zh/guide/linkease/install/device/asus_nas.md)
 
 ### 配置qBittorrent
-- 注意：配置qBittorrent的时候，在【WebUI设置】页面，记得不要勾选【主机标头验证】，点击【保存并应用】。
-
-![image](./image/qBittorrent/20.jpg)
-
-- 并且也已经成功的在公司内网打开了qBittorrent。
-
-![image](./image/qBittorrent/21.jpg)
+[查看qBittorrent配置教程](/zh/guide/wiki/downloads.md#qbittorrent下载器)
 
 ### 方式一：使用易有云APP的应用导航实现
 #### 第一步：安装易有云

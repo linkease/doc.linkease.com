@@ -39,8 +39,12 @@
 
 
 ## qBittorrent下载器
+**以OpenWrt为例**
+- 注意：配置qBittorrent的时候，在【WebUI设置】页面，记得不要勾选【主机标头验证】，点击【保存并应用】。
 
-1. 下载好qBittorrent后，打开qBittorrent界面，点击【设置】。
+![image](./image/qBittorrent/7.jpg)
+
+1. 打开qBittorrent界面，点击【设置】。
 
 ![image](./image/qBittorrent/1.jpg)
 
