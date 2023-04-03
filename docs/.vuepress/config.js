@@ -273,14 +273,14 @@ module.exports = ctx => ({
                                         ["cloudapp", "远程应用"],
                                         ["ddnstofile", "拓展功能"],
                                     ]
-                                },								
+                                },
                                 {
                                     title: "🚀安装及配置", collapsable: true, children: [
                                         ["support", "设备支持列表"],
                                         ["install/device/token", "获取Token"],
-                                        ["install/device/easepi", "EasePi"],											
-                                        ["install/device/istoreos", "iStoreOS"],										
-                                        ["install/device/koolcenter_merlin", "Koolcenter 梅林"],										
+                                        ["install/device/easepi", "EasePi"],
+                                        ["install/device/istoreos", "iStoreOS"],
+                                        ["install/device/koolcenter_merlin", "Koolcenter 梅林"],
                                         ["install/device/koolcenter_lede", "Koolcenter Lede"],
                                         ["install/device/openwrt", "OpenWrt"],
                                         ["install/device/synology", "群晖"],
@@ -290,17 +290,17 @@ module.exports = ctx => ({
                                         ["install/device/ready_nas", "ReadyNAS"],
                                         ["install/device/ikuai", "爱快"],
                                         ["install/device/unraid", "Unraid"],
-                                        ["install/device/terra_master", "铁威马"],										
+                                        ["install/device/terra_master", "铁威马"],
                                         ["install/device/windows", "Windows"],
                                         ["install/device/linux", "Linux 通用版"],
-                                        ["install/device/zspace", "极空间"],										
+                                        ["install/device/zspace", "极空间"],
                                         ["install/device/penetrate", "穿透设置"],
                                         ["install/device/domain_name", "添加域名"],
                                         ["install/device/change_name", "设备改名"],
                                         ["install/device/combo", "套餐和服务器"],
                                     ]
                                 },
-								
+
                                 {
                                     title: "💡最佳实践", collapsable: true, children: [
                                         ["scene", "第三方服务"],
@@ -439,7 +439,10 @@ module.exports = ctx => ({
                                         ["IP-address", "什么是IP地址？怎么查看电脑IP地址？"],
                                         ["http", "什么是http协议？"],
                                         ["DNS", "什么是DNS？什么是域名？DNS、域名和IP之间是什么关系？"],
-                                        ["smaba", "什么是samba？什么是webdav？samba和webdav的区别？"]
+                                        ["smaba", "什么是samba？什么是webdav？samba和webdav的区别？"],
+                                        ["domain", "什么是域名映射？"],
+                                        ["TCP", "TCP/UDP协议有什么区别？"]
+
                                     ]
                                 },
                             ]
