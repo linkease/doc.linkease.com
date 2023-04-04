@@ -4,14 +4,14 @@
 ### [查看被控电脑如何开启远程桌面教程](/zh/guide/wiki/remote.md)
 ## RDP远程桌面
 
-1.[如何查看被控电脑的用户名和密码教程](/zh/guide/wiki/remote.md#查看被控电脑的用户名和密码)  
+1.[如何查看被控电脑的用户名和密码教程](/zh/guide/wiki/remote.md#查看被控电脑的用户名和密码)
 2.在ddnsto可用应用列表中点击添加远程RDP，填入被控电脑的IP，用户名，密码等信息。
 
    ![Windows远程](./cloudapp/cloudapp-rdp5.jpg) 
    
 3.在已添加中找到刚添加的远程RDP，点击即可进入进入RDP，操控远程电脑。 
 
-   ![Windows远程](./cloudapp/cloudapp-rdp6.jpg)  
+   ![Windows远程](./cloudapp/cloudapp-rdp6.jpg)
    
 **4.相关提醒：**
 
@@ -26,7 +26,7 @@ ps：假如想远程朋友的电脑，朋友的电脑只是联网，没DDNSTO，
 
 DDNSTO的远程VNC，充当VNC Viewer，写好参数，就能远程了。
  
-![Linux-VNC](./cloudapp/cloudapp-vnc2.jpeg)  
+![Linux-VNC](./cloudapp/cloudapp-vnc2.jpeg)
 
 ## 相关链接
-- 如需更流畅、更快，或想使用windows远程桌面客户端，请使用易有云[异地互联](/zh/guide/linkease/remote.md)
+- 如需更流畅、更快，或想使用windows远程桌面客户端，请使用易有云[异地互联](/zh/guide/linkease/function/remote_connects.html)。
