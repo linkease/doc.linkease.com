@@ -7,7 +7,7 @@
 
 根据你的设备安装DDNSTO。
 
-  * [查看安装教程](/zh/guide/ddnsto/koolshare_merlin.html#安装ddnsto) -->
+  * [查看安装教程](/zh/guide/ddnsto/support.html) -->
 
 <!-- 有以下快速的方法：
 
