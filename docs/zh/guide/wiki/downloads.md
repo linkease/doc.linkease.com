@@ -40,9 +40,16 @@
 
 ## qBittorrent下载器
 **以OpenWrt为例**
+
 - 注意：配置qBittorrent的时候，在【WebUI设置】页面，记得不要勾选【主机标头验证】，点击【保存并应用】。
 
 ![image](./image/qBittorrent/7.jpg)
+
+#### 有些用户经常会遇到打开qBittorrent时，显示unauthorized
+**解决办法：**  
+- 打开qBittorrent界面，设置——WebUI——“取消”启用跨站请求伪造(CSRF)保护。
+
+![image](./image/qBittorrent/8.jpg)
 
 1. 打开qBittorrent界面，点击【设置】。
 
