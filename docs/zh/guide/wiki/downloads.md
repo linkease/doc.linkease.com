@@ -45,12 +45,6 @@
 
 ![image](./image/qBittorrent/7.jpg)
 
-#### 有些用户经常会遇到打开qBittorrent时，显示unauthorized
-**解决办法：**  
-- 打开qBittorrent界面，设置——WebUI——“取消”启用跨站请求伪造(CSRF)保护。
-
-![image](./image/qBittorrent/8.jpg)
-
 1. 打开qBittorrent界面，点击【设置】。
 
 ![image](./image/qBittorrent/1.jpg)
@@ -63,15 +57,19 @@
 
 ![image](./image/qBittorrent/3.jpg)
 
-4. 点击【磁力链接】，在下方框内输入电影url或磁力链接，点击【下载】下载电影。
+4.  点击【WebUI】取消启用跨站请求伪造(CSRF)保护。
+
+![image](./image/qBittorrent/8.jpg)
+
+5. 点击【磁力链接】，在下方框内输入电影url或磁力链接，点击【下载】下载电影。
 
 ![image](./image/qBittorrent/4.jpg)
 
-5. 点击【文件】，点击【选择文件】从本地选择电影，点击【上传Torrent】下载电影。
+6. 点击【文件】，点击【选择文件】从本地选择电影，点击【上传Torrent】下载电影。
 
 ![image](./image/qBittorrent/5.jpg)
 
-6. 可以看到电影正在下载。
+7. 可以看到电影正在下载。
 
 ![image](./image/qBittorrent/6.jpg)
 
