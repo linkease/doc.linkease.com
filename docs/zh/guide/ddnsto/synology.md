@@ -1,6 +1,25 @@
 
 **此版块，主要说一些ddnsto玩转群晖的玩法，归纳一些比较常用的。**
 
+## 远程访问群晖管理页面
+[查看群晖安装ddnsto教程](/zh/guide/ddnsto/install/device/synology.md)
+
+- 打开ddnsto后台，点击【域名映射】。
+
+ ![synology](./synology/synology-34.jpg) 
+
+ - 主域名：填小写的英文字母；
+ - 目标主机地址：填群晖的内网地址记得在后面加上群晖的端口号5000;
+ - 最后点击【添加】。
+
+  ![synology](./synology/synology-35.jpg) 
+
+  - 复制主域名链接到浏览器，在外网访问群晖管理页面。
+
+    ![synology](./synology/synology-37.jpg) 
+
+      ![synology](./synology/synology-36.jpg) 
+
 ## 远程穿透群晖App/程序
 
 很多用户习惯使用群晖App，ddnsto同样支持部分群晖官方客户端
