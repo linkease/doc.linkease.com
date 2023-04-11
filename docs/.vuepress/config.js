@@ -238,7 +238,8 @@ module.exports = ctx => ({
                                         ["tips/emby", "emby 远程影视"],
                                         ["tips/plex", "plex 远程影视"],
                                         ["tips/navidrome", "navidrome 远程音乐"],
-                                        ["tips/mount", "远程硬盘挂载"],
+                                        ["tips/mount_Windows", "Windows远程挂载硬盘"],
+                                        ["tips/mount_mac", "Mac远程挂载NAS硬盘"]
 
 
                                         // ["tips/cloud_backup", "云备份支持"],

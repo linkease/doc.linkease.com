@@ -14,4 +14,4 @@ iStoreOS固件可以从“iStore”应用商店安装使用。
 
 ![png](./image/istoreos/istoreos3.jpg)
 
-**4、安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](/zh/guide/linkease/install/cloud.md)。**
+**4、安装后第一次打开，需要绑定设备，请查看 [易有云绑定教程](/zh/guide/linkease/install/cloud.md)。**

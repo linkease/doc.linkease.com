@@ -60,7 +60,7 @@
 
 比如我刚刚配置的外网端口是18897，所以我们通过打开（http://ikuai设备ip:18897）绑定设备。
 
-**请查看 [存储端绑定教程](/zh/guide/linkease/install/cloud.md)。**
+**请查看 [易有云绑定教程](/zh/guide/linkease/install/cloud.md)。**
 
 **注意事项：**
 

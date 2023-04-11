@@ -8,12 +8,12 @@
 
 mtb为存放Linux易有云存储端的目录，根据自身实际情况，可新建任意目录。
 
-**3.在光标后输入"wget 存储端链接"，点击回车，下载易有云存储端。输入“ls”确认；**
+**3.在光标后输入"wget 易有云链接"，点击回车，下载易有云。输入“ls”确认；**
 
 
-* **如何获取易有云linux存储端链接：**
+* **如何获取易有云linux链接：**
 
-点击[存储端下载链接](https://fw.koolcenter.com/binary/LinkEase/LinuxStorage/)，打开易有云存储端下载链接。
+点击[易有云下载链接](https://fw.koolcenter.com/binary/LinkEase/LinuxStorage/)，打开易有云存储端下载链接。
 
 看更新日期，找到最新的那个版本，右键“linkease-binary-x.x.x.tar.gz”文件，在出现的弹窗中单击“复制链接地址”，即可复制该存储端链接。
 
@@ -63,4 +63,4 @@ http://fw.koolcenter.com/binary/LinkEase/LinuxStorage/linkease-binary-1.1.2.tar.
 
 ![liunx5.jpg](./image/linux/liunx5.jpg)
 
-**7.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](/zh/guide/linkease/install/cloud.md)。**
+**7.安装后第一次打开，需要绑定设备，请查看 [易有云绑定教程](/zh/guide/linkease/install/cloud.md)。**

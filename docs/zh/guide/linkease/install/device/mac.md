@@ -1,26 +1,26 @@
 ### MacOS
 
-**1.进入“[下载中心](https://doc.linkease.com/downloads/)”，选择Mac[下载](https://fw.koolcenter.com/binary/LinkEase/Client/LinkEase.dmg)；**
+**1.[下载MAC版](https://www.linkease.com/download/?type=macOS)易有云**
 
-MacOS端的客户端和存储端是同一程序。
 
-![mac1.jpg](./image/mac/mac1.jpg)
-
-**2.访达——下载，找到LinkEase.dmg，点击安装，把易有云图标拖到右边完成安装；**
+**2.下载好后，在电脑⾥找到LinkEase.dmg进⾏安装，拖⾄应⽤⽂件夹⾥。**
 
 ![mac2.jpg](./image/mac/mac2.jpg)
 
-**3.启动台——“LinkEase(易有云)”运行，按提示登录易有云账号；**
+**3.点开易有云软件，按指示登录你的易有云账号。**
 
 ![mac3.jpg](./image/mac/mac3.jpg)
 
-* **下面开始启用macOS端的存储端：**
 
-**4.客户端界面——账户头像——“存储端管理”——“选择私有网盘位置”和更多设置——“设置主目录”；**
+**4.进⼊客户端界⾯后，点击账户头像。下拉菜单栏选择“存储端管理”，来开启你的⽹盘。**
 
 ![jpg](./image/mac/mac4.jpg)
 
+
+
+**5.开启⽹盘需要选择“你的⽹盘位置”，你还可以在“更多设置”⾥选择主⽬录的位置（我们会默认给你⼀个主⽬录位置）。**
+
 ![jpg](./image/mac/mac5.jpg)
 
-**5.然后绑定设备，[存储端绑定教程](/zh/guide/linkease/install/cloud.md)。**
-
+**6.点击【确定】成功开启网盘，你可以通过其他设备访问这台已开启⽹盘的设备了。**  
+**接下来，你还可以绑定设备，[请查看绑定设备教程](/zh/guide/linkease/install/device/synology.md)。**

@@ -30,4 +30,4 @@
 
 ![kl2.jpg](./image/koolcenter_lede/kl5.jpg)
 
-**5.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](/zh/guide/linkease/install/cloud.md)。**
+**5.安装后第一次打开，需要绑定设备，请查看 [易有云绑定教程](/zh/guide/linkease/install/cloud.md)。**

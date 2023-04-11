@@ -1,6 +1,6 @@
 ### 华硕NAS
 
-**1.首先，点击“[存储端下载](https://fw.koolcenter.com/binary/LinkEase/Asus-Nas/)”，下载易有云APK。访问NAS主页面，打开华硕`App Central`：**
+**1.首先，点击[下载易有云](https://fw.koolcenter.com/binary/LinkEase/Asus-Nas/)”，下载易有云APK。访问NAS主页面，打开华硕`App Central`：**
 
 ![1.jpg](./image/asus_nas/1.jpg)
 
@@ -22,4 +22,4 @@
 
 ![7.jpg](./image/asus_nas/7.jpg)
 
-**5.安装后第一次打开，需要绑定设备，请查看 [存储端绑定教程](/zh/guide/linkease/install/cloud.md)。**
+**5.安装后第一次打开，需要绑定设备，请查看 [易有云绑定教程](/zh/guide/linkease/install/cloud.md)。**

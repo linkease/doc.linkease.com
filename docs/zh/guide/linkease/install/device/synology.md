@@ -12,7 +12,7 @@
 
 #### 第一步：下载易有云
 
-**点击 [易有云下载](https://www.linkease.com/rd/linkease-syonlogy/)，下载Synology插件**
+**点击 [下载易有云](https://www.linkease.com/download/?type=%E7%BE%A4%E6%99%96)，下载Synology插件**
 
 * 请根据自己群晖的CPU型号以及DSM版本选择相对应的易有云
 * DSM7.x安装或者更新
