@@ -94,6 +94,11 @@ A: 因为你的手机在试用wifi的时候和流量时，用的ip不一样。�
 
 A: 验证IP只是给访问域名用的，登录控制台还是需要扫码
 
+### Q：为什么我把链接分享给朋友，他打不开
+
+A: 目前DDNSTO的用户自定义域名不鼓励作为分享，如果你的朋友要访问，需要你的微信来帮他扫码验证。
+
+
 ### Q：如何验证
 
 A: [验证方法](/zh/guide/ddnsto/Authentication.md)  
@@ -116,7 +121,9 @@ www.kooldns.cn
 www.tocmcc.cn
 www.ddnsto.com
 ```
+### Q：登录页面无法显示二维码
 
+A: 可能是电脑的证书太老了，需要升级。[参考此博客](https://doc.linkease.com/post/2021/10/18/letsencrypt-windows-issue/)
 
 ## 套餐类
 
