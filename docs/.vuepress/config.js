@@ -373,6 +373,7 @@ module.exports = ctx => ({
                                         ["install_r5s", "R5S 设备"],
                                         ["install_r68s", "R68S 设备"],
                                         ["install_r66s", "R66S 设备"],
+                                        ["install_h68k", "H66K/H68K/H69K 设备"],
                                         ["install_rpi4", "树莓派 Model 4"],
                                         ["install_sd", "SD卡通用教程"],
                                         ["install_rockchip_sysupgrade", "Rockchip 刷标准固件"],
