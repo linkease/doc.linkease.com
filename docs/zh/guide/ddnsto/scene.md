@@ -111,3 +111,52 @@ PS：此选项需要取消，不然后面ddnsto可能连不上。
  
    ![scene](./scene/scene-bdy3.jpeg)  
    
+
+## 远程登录财务软件（软件是网页版登录本地服务）
+
+畅捷通是一款财务一站式管理平台，可以通过ddnsto远程控制。
+
+ ![scene](./scene/scene-cw2.jpg)  
+
+ 1.[windows电脑安装ddnsto客户端](https://fw.koolcenter.com/binary/ddnsto/pc/ddnsto-win.zip)
+
+ ![scene](./scene/scene-cw4.jpg)  
+
+ 3.设置好畅捷通的ddnsto远程穿透。
+
+  ![scene](./scene/scene-cw3.jpg)  
+
+3.远程登入财务软件。
+
+ ![scene](./scene/scene-cw1.jpg)  
+
+ ## 远程访问可道云
+
+ 可道云是一款快捷高效的私有云和在线文档管理系统。也能通过ddnsto控制。
+
+1.设置好可道云的ddnsto远程穿透。
+
+ ![scene](./scene/kedaoyun1.jpg)  
+
+2.远程成功访问可道云。
+
+![scene](./scene/kedaoyun2.jpg)  
+
+### 问题：用https远程访问可道云不成功
+
+![scene](./scene/kedaoyun3.jpg)  
+
+#### 解决方法：可道云需要配置一下才能用ddnsto的https远程访问
+
+- 在站点下 ./config 目录新建一个文件 ./config/define.php指定https访问地址 (改了之后只能用这个地址访问)
+
+![scene](./scene/kedaoyun5.jpg)  
+
+- 现在用https开头可以访问
+
+![scene](./scene/kedaoyun4.jpg)  
+
+
+
+
+
