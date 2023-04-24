@@ -1,21 +1,21 @@
 - id: 1
   type: link
-  title: 用 EasePi 玩轻NAS，双11活动价低至:540元
-  update: '2021-10-31'
-  description: EasePi ARS2 参与双 11 活动，价格低至 540 元。EasePi 带有双 SATA，双千兆网卡，双 USB。来玩最新的轻 NAS 皮肤，可以体验更好的在线文件管理，下载，追剧，文件同步，相册备份等功能。
-  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner1.png'
-  link: 'https://doc.linkease.com/post/2022/10/30/easepi-1111/'
-- id: 2
-  type: link
-  title: KoolCenter提供1对1付费服务，如需协助，联系我们
-  update: '2022-11-04'
-  description: KoolCenter提供1对1付费服务，如需协助，联系我们。
-  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner_service.png'
-  link: 'https://www.linkease.com/rd/service-from-app/'
-- id: 3
-  type: link
-  title: 快速搭建私有网盘
-  update: '2022-09-09'
-  description: 使用易有云快速搭建私有网盘。
-  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner_start.png'
-  link: 'https://doc.linkease.com/zh/guide/linkease_app/start.html'
+  title: 易有云最佳实践
+  update: '2023-04-24'
+  description: 易有云最佳实践
+  cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner_tips.png'
+  link: 'https://doc.linkease.com/zh/guide/linkease/tips/remote.html'
+# - id: 2
+#   type: link
+#   title: KoolCenter提供1对1付费服务，如需协助，联系我们
+#   update: '2022-11-04'
+#   description: KoolCenter提供1对1付费服务，如需协助，联系我们。
+#   cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner_service.png'
+#   link: 'https://www.linkease.com/rd/service-from-app/'
+# - id: 3
+#   type: link
+#   title: 快速搭建私有网盘
+#   update: '2022-09-09'
+#   description: 使用易有云快速搭建私有网盘。
+#   cover: 'https://doc.linkease.com/linkease/appGuide/banner/banner_start.png'
+#   link: 'https://doc.linkease.com/zh/guide/linkease_app/start.html'
