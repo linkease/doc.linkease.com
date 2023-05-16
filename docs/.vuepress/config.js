@@ -197,6 +197,7 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "🚀安装及配置", collapsable: true, children: [
+                                        ["install/device/support", "设备支持列表"],
                                         ["install/device/windows", "Windows"],
                                         ["install/device/mac", "macOS"],
                                         ["install/device/easepi", "EasePi"],
