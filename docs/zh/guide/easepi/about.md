@@ -48,6 +48,4 @@
 
 ### 交流群
 
-​												QQ交流群1~6群已满人，请加7群，群号：776787274
-
-![img](./about/qq.jpg)
+[交流群](https://www.koolcenter.com/posts/117)
