@@ -18,6 +18,7 @@ cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/linu
  ARM平台（树莓派等设备）请下载ddnsto.arm64  
 
  2. 后台运行ddnsto
+ 终端执行以下命令
 ``` shell
 #  X86 平台
 cp ddnsto.amd64 /usr/local/bin/ddnsto
@@ -33,7 +34,7 @@ ddnsto  -u xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx(你的令牌) -daemon
 如成功连接服务器，会显示“client init ok, username=xxxxx-xxxxxx-xxxxxx-xxx(你的令牌)....”
 
 3. 停止运行
-输入一下指令
+终端执行以下命令
 ``` shell
 systemctl stop com.linkease.ddnstoshell
 ```
