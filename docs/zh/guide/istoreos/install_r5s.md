@@ -1,10 +1,11 @@
-# R5S 安装教程
+# R5S/R5C 安装教程
 
 ## 1.下载固件
 
-* [R5S固件下载](https://fw.koolcenter.com/iStoreOS/r5s/)
+* [R5S/R5C固件下载](https://fw.koolcenter.com/iStoreOS/r5s/)
 
-越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-r5s-squashfs.img.gz。下载完成之后先别自行解压，由后面的刷机方式决定是否需要解压。
+越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-r5s-squashfs.img.gz。R5C 只能刷 2023052616 之后的版本。
+。下载完成之后先别自行解压，由后面的刷机方式决定是否需要解压。
 
 ## 2.刷机
 * 如果打算从TF卡启动，参考[SD卡通用教程](/zh/guide/istoreos/install_sd.html)刷写。
