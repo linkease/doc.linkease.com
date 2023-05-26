@@ -1,6 +1,6 @@
-# R2S/R4S 安装教程
+# R2S/R2C/R4S 安装教程
 
-友善电子nanopi-R2S/R4S。两款机器，刷入固件方法一样，固件不一样而已。
+友善电子nanopi-R2S/R2C/R4S。刷入固件方法一样，固件不一样而已。
 
 R2S 安装的第三方作者视频教程：
 
@@ -8,7 +8,7 @@ R2S 安装的第三方作者视频教程：
 
 ## 1.下载固件
 
-* [R2S固件下载](https://fw.koolcenter.com/iStoreOS/r2s/)
+* [R2S/R2C通用固件下载](https://fw.koolcenter.com/iStoreOS/r2s/)
 
 * [R4S固件下载](https://fw.koolcenter.com/iStoreOS/r4s/)
 
