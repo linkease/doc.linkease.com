@@ -35,16 +35,16 @@
 ![step1.png](./install/r68s/step1.png)
 
 ## 3.刷入固件
-1. 如果是 Loader 设备，则点击进入 Maskrom 模式，否则直接下一步
+1. 如果是 Loader 设备，则点击进入 Maskrom 模式，否则直接下一步；
   ![step2.png](./install/r68s/step2.png)
-2. 加载固件并执行刷写
+2. 加载固件并执行刷写；
   ![step3.png](./install/r68s/step3.png)
-3. 刷写完会自动重启，
+3. 刷写完会自动重启。
 
 ### 进入后台管理
 * 默认IP http://192.168.100.1/ 或者 http://iStoreOS.lan/
 * 默认密码：password
-* 如果设备只有一个网口，则此网口就是 LAN；如果大于一个网口，默认第一个网口是 WAN 口，其它都是 LAN
-* 如果要修改 LAN 口 IP，首页有个内网设置，或者用命令 quickstart 修改
+* 如果设备只有一个网口，则此网口就是 LAN；如果大于一个网口，默认第一个网口是 WAN 口，其它都是 LAN。
+* 如果要修改 LAN 口 IP，首页有个内网设置，或者用命令 quickstart 修改。
 * 必读一轮我们的 [FAQ](/zh/guide/istoreos/question.html)，后续出现问题知道如何解决！
 

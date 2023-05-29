@@ -37,17 +37,17 @@
 
 ![rkdevtool_no_device.jpg](./install/rkdevtool_no_device.jpg)
 
-* 按住设备上的 RECOVERY （恢复）键并保持，然后通电， 指示灯变绿色
+* 按住设备上的 RECOVERY （恢复）键并保持，然后通电， 指示灯变绿色。
 
-* USB 数据线一端连接 windows 电脑，一端连接目标设备
+* USB 数据线一端连接 windows 电脑，一端连接目标设备。
 
-* 大约几秒钟后，松开 RECOVERY 键
+* 大约几秒钟后，松开 RECOVERY 键。
 
 * RKDevTool上即可发现这个设备
 
 ![rkdevtool.jpg](./install/rkdevtool.jpg)
 
-* 然后切换到 Upgrade Firmware，首先点击 EraseFlash 擦除Flash，再点击 Firmware 选择固件，最后点击 Upgrade 刷写固件即可
+* 然后切换到 Upgrade Firmware，首先点击 EraseFlash 擦除Flash，再点击 Firmware 选择固件，最后点击 Upgrade 刷写固件即可。
 
 ![upgrade.png](./install/upgrade.jpg)
 
