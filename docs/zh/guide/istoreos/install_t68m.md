@@ -8,4 +8,4 @@
 
 ## 2.刷机
 * 如果打算从TF卡启动，参考[SD卡通用教程](/zh/guide/istoreos/install_sd.html)刷写。
-* 如果要直接刷写到 eMMC，可以参考 [Rockchip 通用刷入eMMC教程](/zh/guide/istoreos/install_rockchip_emmc.html)。
+* 如果打算从eMMC启动，当前需要能正常启动进入系统，然后参考[Rockchip 系统内刷机教程](/zh/guide/istoreos/install_rockchip_emmc.html)。
