@@ -378,8 +378,8 @@ module.exports = ctx => ({
                                         ["install_t68m", "莱因特T68M 设备"],
                                         ["install_rpi4", "树莓派 Model 4"],
                                         ["install_sd", "SD卡通用教程"],
+                                        ["install_shell", "系统内刷机教程"],
                                         ["install_rockchip_sysupgrade", "Rockchip 刷标准固件"],
-                                        ["install_rockchip_emmc", "Rockchip 通用刷入eMMC"],
                                         ["install_rockchip_rkfw", "Rockchip 刷 RK 固件（已过时）"]
                                     ]
                                 },
