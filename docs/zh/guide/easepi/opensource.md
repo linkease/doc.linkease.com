@@ -2,7 +2,7 @@
 
 **建议有动手能力的伙伴们去自行DIY，也可以直接用官方提供的稳定固件。**
 
-自定义OpenWrt固件，先下载[ImageBuilder和SDK](https://fw.koolcenter.com/binary/ars2/) 。
+自定义OpenWrt固件，先下载[ImageBuilder和SDK](https://fw.koolcenter.com/iStoreOS/ars2/) 。
 
 
 1.准备好安装Debian10 x64或者ubuntu等Linux发行版的电脑或虚拟机；

@@ -130,7 +130,7 @@ const EasePi = {
     list: [
         {
             title: "最新固件",
-            url: "https://fw.koolcenter.com/binary/ars2/"
+            url: "https://fw.koolcenter.com/iStoreOS/ars2/"
         }
     ]
 }
