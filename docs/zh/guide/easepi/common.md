@@ -117,7 +117,7 @@ EasePi默认系统已经内置易有云(NAS插件)存储端，还有配套的APP
 ## 更新固件
 
 ### 手动更新
- * 下载[官方固件](https://fw.koolcenter.com/binary/ars2/) -->
+ * 下载[官方固件](https://fw.koolcenter.com/iStoreOS/ars2/) -->
 
  * 进入EasePi的管理界面，打开系统——备份升级，“选择文件”选中EasePi的固件，然后“刷写固件”。
 
