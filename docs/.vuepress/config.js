@@ -399,6 +399,7 @@ module.exports = ctx => ({
                                         ["software/homebox", "内网测速"],
                                         ["software/aliyunwebdav", "阿里云WebDav"],
                                         ["software/wxedge", "网心云"],
+										["software/bmtedge", "蓝山云"],
                                         ["software/navidrome", "Navidrome 音乐平台"]
                                     ]
                                 },

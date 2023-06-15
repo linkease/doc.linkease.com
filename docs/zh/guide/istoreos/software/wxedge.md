@@ -4,6 +4,8 @@
 
 「网心云-容器魔方」由网心云推出的一款 docker 容器镜像软件，通过在简单安装后即可快速加入网心云共享计算生态网络，用户可根据每日的贡献量获得相应的现金收益回报。了解更多，请登录[网心云官网](https://www.onethingcloud.com/)。
 
+如果安装出问题，请查看[Docker FAQ](/zh/guide/istoreos/question.html#docker-%E7%9B%B8%E5%85%B3)。首页找到并加入我们的QQ频道，也可以相互探讨安装过程的问题。
+
 视频教程：
 <iframe src="//player.bilibili.com/player.html?aid=258564653&bvid=BV1ya411S7J1&cid=778736680&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 

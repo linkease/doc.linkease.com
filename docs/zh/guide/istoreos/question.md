@@ -38,7 +38,7 @@
 1. 用首页向导，把 Docker 迁移到独立的硬盘分区
 2. 开启沙箱模式，所以的软件，都会安装到沙箱的硬盘空间，如果软件错误还可以回退。提交之后才会到把增量的存到系统目录。担心根目录不够可以一直不提交到根目录，数据就一直再沙箱空间的分区里。
 
-### 安装软件
+## 安装软件
 
 ### 空间不足导致插件无法安装
 
@@ -49,24 +49,6 @@
 * Docker 要迁移到一个独立的硬盘分区。首页有迁移向导。
 * 如果其它插件把数据目录放到了根目录，则需要停止这个插件，再删除，再重新配置
 * 如果没有把易有云的初始目录配置到硬盘上，需要删除易有云重新配置
-
-### 插件安装失败，提示 curl 错误
-
-错误如下：
-
-```
-Downloading https://mirrors.tuna.tsinghua.edu.cn/openwrt/releases/21.02.3/packages/x86_64/telephony/Packages.gz
-Error loading shared library libwolfssl.so.5.5.1.99a5b54a: No such file or directory (needed by /usr/bin/curl)
-Error relocating /usr/bin/curl: curl_easy_header: symbol not found
-Error relocating /usr/bin/curl: curl_easy_nextheader: symbol not found
-*** Failed to download the package list from https://mirrors.tuna.tsinghua.edu.cn/openwrt/releases/21.02.3/packages/x86_64/telephony/Packages.gz
-```
-
-iStoreOS 跟随官方的 OpenWRT Master 分支，有 BUG，如果你运行了：opkg install curl 就会触发这个 BUG。解决办法：
-
-* opkg udpate ; opkg install libcurl
-* 如果上面方法不行，则下载：[reset_rom_pkgs](https://github.com/linkease/openwrt-app-actions/blob/main/applications/luci-app-systools/root/usr/share/systools/reset_rom_pkgs.run) 在手动安装，再重启。如果下载不了可以加 QQ 群文件下载
-* 或者如果已经有了 Systools 插件，可以在 Systools 插件里面运行 reset_rom_pkgs
 
 ### 插件安装提供 DNS 错误
 
@@ -82,7 +64,28 @@ iStoreOS 跟随官方的 OpenWRT Master 分支，有 BUG，如果你运行了：
 * DNS 解析走了 IPv6，导致出现一些问题，可以安装 Systools 系统便利工具，关闭 IPv6
 * 可能路由器的内部的网络走了国外线路，而且网络不稳定，所以有时候会出现软件源错误。可以忽略。
 
-## 网络
+
+## 网络向导
+
+### Merlin 跟 iStoreOS 的旁路由设置
+
+视频教程：[iStoreOS 旁路由](https://www.bilibili.com/video/BV1pY411N7fX)。
+
+### 旁路由 DHCP 设置
+
+如果主路由打开 DHCP，则需要把 DHCP 的网关改成旁路由的网关。要不就关闭主路由 DHCP，打开旁路由 DHCP。一个局域网不能同时存在两个DHCP。
+
+### iStoreOS 作为主路由，如果要让无线路由器底下的设备跟 iStoreOS 一个局域网
+
+需要把无线路由器设置为 AP 模式
+
+### 如果是 Mesh 路由器，比如 AIMesh，或者 Orbi，可以把 AIMesh 工作在 AP 模式，AiMesh 依然有效
+
+### Orbi 跟 iStoreOS 的组网教程
+
+TODO
+
+## 更多网络
 
 ### 只有一个 LAN 口的时候，只能走旁路由配置向导，设置为固定 IP
 
@@ -120,6 +123,10 @@ iStoreOS 跟随官方的 OpenWRT Master 分支，有 BUG，如果你运行了：
 
 首页进到终端，用 top 等相关的命令自行排查
 
+### Jellyfin/Emby/Plex 核心显卡驱动支持
+
+如果部分较新的 CPU，比如 N5105 的核显支持，可以尝试下载[iStoreOS_22.03 测试版固件](https://github.com/istoreos/istoreos/issues/716)。Linux 内核是 5.10 版本。
+
 ### Win10无法访问部分Samba服务器的解决方案
 
 * 依次打开“控制面板 -> 程序 -> 程序和功能”， 点击“启用或关闭Windows功能 -> SMB1.0/CIFS文件共享支持”；
@@ -143,28 +150,6 @@ iStoreOS 跟随官方的 OpenWRT Master 分支，有 BUG，如果你运行了：
 若无，则新建DWORD(32位)值，名称为“AllowInsecureGuestAuth”，然后数值数据改为1。
 
 ![smb](./question/smb4.jpg)
-
-
-
-## 网络向导
-
-### Merlin 跟 iStoreOS 的旁路由设置
-
-视频教程：[iStoreOS 旁路由](https://www.bilibili.com/video/BV1pY411N7fX)。
-
-### 旁路由 DHCP 设置
-
-如果主路由打开 DHCP，则需要把 DHCP 的网关改成旁路由的网关。要不就关闭主路由 DHCP，打开旁路由 DHCP。一个局域网不能同时存在两个DHCP。
-
-### ARS2 作为主路由，如果要让无线路由器底下的设备跟 ARS2 一个局域网
-
-需要把无线路由器设置为 AP 模式
-
-### 如果是 Mesh 路由器，比如 AIMesh，或者 Orbi，可以把 AIMesh 工作在 AP 模式，AiMesh 依然有效
-
-### Orbi 跟 iStoreOS 的组网教程
-
-TODO
 
 ## 硬盘挂载
 
@@ -191,6 +176,48 @@ TODO
 ### 需不需要加风扇？
 
 如果做视频硬解码，考虑加风扇，因为 CPU 会比较热。
+
+## Docker 相关
+
+iStoreOS 很多的插件都是基于 Docker 开发的，因为对 Docker 的不理解，导致安装 Docker 插件出问题之后不知所措。  
+Docker 可以简单理解为跟 iStoreOS 共用系统内核，共享系统硬件的“虚拟机”。所以它的性能无限接近真实的宿主主机（也就是 iStoreOS）。
+
+### Docker 核心逻辑
+
+* Docker 的“虚拟机 ”系统，也叫“镜像”需要通过网络下载到本地
+* Docker 镜像下载很慢，所以有了多个 Mirror 地址，也可以称之为镜像源
+* Docker 镜像一直有人更新维护，所以它也有版本号，最新的也就是 latest
+* Docker 镜像安装的时候，需要配置很多参数，比如存储路径，网络，DNS 等等。（iStoreOS Docker 插件自动做了这些配置，不需担心）
+* Docker 镜像安装完成之后，相当于跑了一个新的用户态系统，也称之为容器实例
+* 因为有版本的存在，有时候从镜像源下载到的镜像，它可能不是最新版本的，这个时候可以选择指定版本来下载（参考网心云镜像选择）
+* 如果不知道版本号，也可以强制使用特定的镜像源的最新版本（参考网心云镜像选择）
+
+### 网络超时，网络下载太慢
+
+![超时错误](./question/docker-failed-1.jpg)
+
+换镜像源，或者升级自己的网络。
+
+### 更新 lastest，竟然还是旧的版本。或者安装到错误的版本
+
+可以指定从官方镜像源下载，或者指定最新的版本号下载镜像
+
+### Docker 把系统盘整满了，导致其它配置保存错误
+
+必须把 Docker 迁移到 EXT4 文件系统的非系统盘上
+
+### 其它奇怪的问题
+
+其它奇怪的问题，比如：
+```
+docker: Error response from daemon: failed to update store for object type *libnetwork.endpointCnt: Key not found in store.
+```
+
+可以考虑到 iStoreOS 首页，停止 Docker 服务，然后再重新启用一次。
+
+### 网心云镜像选择参考
+
+![镜像选择参考](./question/docker2.png)
 
 ## 其它
 
