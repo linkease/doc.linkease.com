@@ -2,6 +2,9 @@
 
 * 绑定设备前，请确保您已在路由器端接入容量不小于16GB的存储设备，如U盘，移动硬盘等；
 
+<font color="#dd0000">如软件中心无法更新最新版本，请下载[离线包进行安装](https://rogsoft.ddnsto.com/linkease/linkease.tar.gz)</font><br />
+
+
 **1.登录固件管理端，点击“软件中心”，进入软件中心页面。点击“未安装”，进入未安装的插件页面；**
 
 ![km1.jpg](./image/koolcenter_merlin/km1.jpg)

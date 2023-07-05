@@ -25,6 +25,6 @@
 ### 进入后台管理
 * 默认IP http://192.168.100.1 或者 http://iStoreOS.lan/
 * 默认密码：password
-* 如果设备只有一个网口，则此网口就是 LAN；如果大于一个网口，默认第一个网口是 WAN 口，其它都是 LAN
-* 如果要修改 LAN 口 IP，首页有个内网设置，或者用命令 quickstart 修改
+* 如果设备只有一个网口，则此网口就是 LAN；如果大于一个网口，默认第一个网口是 WAN 口，其它都是 LAN。
+* 如果要修改 LAN 口 IP，首页有个内网设置，或者用命令 quickstart 修改。
 * 必读一轮我们的 [FAQ](/zh/guide/istoreos/question.html)，后续出现问题知道如何解决！
