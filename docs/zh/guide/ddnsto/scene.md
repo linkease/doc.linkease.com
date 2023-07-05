@@ -156,7 +156,75 @@ PS：此选项需要取消，不然后面ddnsto可能连不上。
 
 ![scene](./scene/kedaoyun4.jpg)  
 
+## 通过VNC远程控制Windows电脑桌面
 
+#### 被控Windows电脑下载VNC并设置
+这里推荐大家使用TigerVNC（因为TigerVNC是免费使用的）
+
+我们来到TigerVNC的官网：
+<a href="https://tigervnc.org/">https://tigervnc.org/</a>
+
+
+
+在Downloads拦下点击进入GitHub下载
+
+![vnc](./vnc/1.png)  
+
+通过二进制文件链接下载
+
+![vnc](./vnc/2.png)  
+
+选择Windows 64位的VNC下载
+
+![vnc](./vnc/3.png)  
+
+下载完成后，运行VNC程序  
+
+选择安装路径一直点击下一步就可以了。
+
+打开TigerVNC，点击Properties
+
+![vnc](./vnc/4.png)  
+
+然后点击Configure
+
+![vnc](./vnc/5.png)  
+
+
+设置VNC密码
+
+![vnc](./vnc/6.png)  
+
+点击应用、确定
+
+![vnc](./vnc/7.png)  
+
+这样就设置好VNC了。
+
+如果是用RealVNC 的用户，
+
+需要勾选允许旧版本的客户端访问。
+
+![vnc](./vnc/11.png)  
+
+#### 通过DDNSTO远程应用的远程VNC来远程控制电脑桌面
+点击远程应用，点击添加
+
+![vnc](./vnc/8.png) 
+
+选择远程VNC
+应用名称可以随便填；
+IP填被控电脑的IP地址；
+端口不变；
+用户名可以不填；
+密码填被控电脑VNC的密码；
+点击保存。
+
+![vnc](./vnc/9.png) 
+
+就可以通过DDNSTO来远程控制Windows电脑桌面了。
+
+![vnc](./vnc/10.png) 
 
 
 
