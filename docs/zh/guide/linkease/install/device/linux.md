@@ -1,66 +1,78 @@
-### Linux 通用版
+### Linux/Ubuntu/Centeros/Debian/Casaos/海纳思NAS
 
 
-**1.首先在命令窗口中登录您的linux系统**
 
-**2.在光标后输入“cd mtb” ，点击回车，进入mtb目录中。输入“ls”确认；**
- <table><tr><td bgcolor=#bae2fe>cd mtb</td></tr></table>
+#### 1. 获取易有云linux链接： 
 
-mtb为存放Linux易有云存储端的目录，根据自身实际情况，可新建任意目录。
+点击[易有云下载链接](https://fw0.koolcenter.com/binary/LinkEase/LinuxStorage/)，打开易有云存储端下载页面。
 
-**3.在光标后输入"wget 易有云链接"，点击回车，下载易有云。输入“ls”确认；**
-
-
-* **如何获取易有云linux链接：**
-
-点击[易有云下载链接](https://fw.koolcenter.com/binary/LinkEase/LinuxStorage/)，打开易有云存储端下载链接。
-
-看更新日期，找到最新的那个版本，右键“linkease-binary-x.x.x.tar.gz”文件，在出现的弹窗中单击“复制链接地址”，即可复制该存储端链接。
+根据更新日期，复制最新的版本下载链接。
 
 ![liunx21.jpg](./image/linux/liunx1.jpg)
 
- <table><tr><td bgcolor=#bae2fe>wget 
-http://fw.koolcenter.com/binary/LinkEase/LinuxStorage/linkease-binary-1.1.2.tar.gz</td></tr></table>
+
+#### 2. 登录您的linux系统 
+通过wget命令将易有云储存端程序下载至本地（最终指令以实际下载链接为准）：
+```shell
+wget http://fw0.koolcenter.com/binary/LinkEase/LinuxStorage/linkease-binary-1.2.0.tar.gz
+```
 
 ![liunx2.jpg](./image/linux/liunx2.jpg)
+ 
 
-**在光标后输入“tar -zxvf linkease-binary-x.x.x.tar.gz”解压刚刚下载的程序包；输入“ls”确认；**
-
-当前最新版本是1.1.2，刚刚下载的也是1.1.2，那么解压命令就是：
-
-<table><tr><td bgcolor=#bae2fe>tar -zxvf linkease-binary-1.1.2.tar.gz</td></tr></table>
+下载成功后进行解压，命令如下（具体文件名以实际下载为准）：
+```shell
+tar -zxvf linkease-binary-1.2.0.tar.gz
+```
 
 ![liunx3.jpg](./image/linux/liunx2-1.jpg)
 
-**4.在光标后输入“cd linkease-binary-1.1.2”；输入“ls”确认；**
-<table><tr><td bgcolor=#bae2fe>cd linkease-binary-1.1.2</td></tr></table>
+#### 3.设置权限 
+
+先进入解压后的目录（具体文件名以实际为准）：
+```shell 
+cd linkease-binary-1.2.0
+```
 
 ![liunx3.jpg](./image/linux/liunx3.jpg)
 
-若您使用的是x86_64架构的Linux输入“chmod 755 linkease.x86_64”给予软件运行权限：
+文件夹内包含所有架构的二进制文件，只需选择你的设备对应的架构即可，如：
 
-<table><tr><td bgcolor=#bae2fe>chmod 755 linkease.x86_64</td></tr></table>
+x86_64架构给予软件运行权限：
 
-若您使用的是arm架构的Linux输入“chmod 755 linkease.arm”给予软件运行权限：
+```shell 
+chmod 755 linkease.x86_64
+```
 
-<table><tr><td bgcolor=#bae2fe>chmod 755 linkease.arm</td></tr></table>
+arm架构给予软件运行权限：：
 
-
-**5.在光标后输入命令运行软件；**
-
-若您使用的是x86_64架构的Linux输入“./linkease.x86_64”运行软件：
-
-<table><tr><td bgcolor=#bae2fe>./linkease.x86_64</td></tr></table>
-
-若您使用的是arm架构的Linux输入“./linkease.arm”给予软件运行权限：
-
-<table><tr><td bgcolor=#bae2fe>./linkease.arm</td></tr></table>
+```shell 
+chmod 755 linkease.arm
+```
 
 
-![liunx4.jpg](./image/linux/liunx4.jpg)
+#### 4.运行软件 
 
-**6.复制命令窗中出现的网址在浏览器中打开，即可进入易有云向导页面**
+x86_64架构:
 
-![liunx5.jpg](./image/linux/liunx5.jpg)
+```shell 
+./linkease.x86_64 --serviceControl installAndStart
+```
+
+arm架构:
+
+```shell 
+./linkease.arm --serviceControl installAndStart
+```
+  
+运行成功后会显示
+```
+Run in daemon result: OK
+waiting configuration, web config link is: http://172.17.0.2:8897
+```
+
+#### 5. 绑定
+
+使用浏览器打开管理页面，如 http://172.17.0.2:8897 （具体链接请以终端提示为准）
 
 **7.安装后第一次打开，需要绑定设备，请查看 [易有云绑定教程](/zh/guide/linkease/install/cloud.md)。**

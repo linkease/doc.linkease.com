@@ -1,4 +1,4 @@
-### Linux 通用版
+### Linux/Ubuntu/Centeros/Debian/Casaos/海纳思NAS
 
 #### 一键安装&运行脚本
 ``` shell
