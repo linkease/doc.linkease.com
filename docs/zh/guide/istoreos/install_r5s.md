@@ -2,7 +2,7 @@
 
 ## 1.下载固件
 
-* [R5S/R5C固件下载](https://fw.koolcenter.com/iStoreOS/r5s/)
+* [R5S/R5C 通用固件下载](https://fw.koolcenter.com/iStoreOS/r5s/)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-r5s-squashfs.img.gz。R5C 只能刷 2023052616 之后的版本。
 。下载完成之后先别自行解压，由后面的刷机方式决定是否需要解压。

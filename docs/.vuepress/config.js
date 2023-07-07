@@ -372,6 +372,7 @@ module.exports = ctx => ({
                                         ["install_vmware", "X86 VMWare Workstation"],
                                         ["install_r2s", "R2S/R2C/R4S 设备"],
                                         ["install_r5s", "R5S/R5C 设备"],
+                                        ["install_r6s", "R6S/R6C 设备"],
                                         ["install_r68s", "R68S 设备"],
                                         ["install_r66s", "R66S 设备"],
                                         ["install_h68k", "H66K/H68K/H69K 设备"],

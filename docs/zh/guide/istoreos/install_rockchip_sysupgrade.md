@@ -37,7 +37,7 @@
 ## 3.刷入固件
 1. 如果是 Loader 设备，则点击进入 Maskrom 模式，否则直接下一步；
   ![step2.png](./install/r68s/step2.png)
-2. 加载固件并执行刷写；
+2. 加载固件并执行刷写（如果是 RK3588 机型，需要将 Loader 这一行改成 RK3588_MiniLoaderAll.bin，如果刷机工具里没这个文件，请重新下载刷机工具）；
   ![step3.png](./install/r68s/step3.png)
 3. 刷写完会自动重启。
 
