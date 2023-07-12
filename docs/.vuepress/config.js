@@ -240,8 +240,9 @@ module.exports = ctx => ({
                                         ["tips/plex", "plex 远程影视"],
                                         ["tips/navidrome", "navidrome 远程音乐"],
                                         ["tips/mount_Windows", "Windows远程挂载硬盘"],
-                                        ["tips/mount_mac", "Mac远程挂载NAS硬盘"]
-
+                                        ["tips/mount_mac", "Mac远程挂载NAS硬盘"],
+                                        ["tips/asus_nas_pre", "华硕路由器作为轻NAS的前期准备"],
+                                        ["tips/asus_nas_linkease", "华硕路由器搭配易有云实现轻NAS教程"]
 
                                         // ["tips/cloud_backup", "云备份支持"],
                                         // ["tips/note", "多平台本地笔记同步(Joplin, 思源笔记等)"],
