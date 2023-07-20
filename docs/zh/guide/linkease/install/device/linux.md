@@ -1,4 +1,4 @@
-### Linux/Ubuntu/Centeros/Debian/Casaos/海纳思NAS
+### Linux/Ubuntu/Centeros/Debian/Casaos
 
 
 
