@@ -7,12 +7,13 @@
 ![png](./xunyou/2.jpg.png)
 #### 3.点击“保存并应用”，然后点击“打开迅游”
 ![png](./xunyou/3.jpg.png)
-#### 4.安装迅游客户端，[访问官网下载](https://www.xunyou.com/)，安装完成后，打开迅游客户端，然后登录或者注册迅游账号
+### 免费白嫖迅游加速器（需要安装迅游客户端或者迅游APP）
+#### 安装迅游客户端，[访问官网下载](https://www.xunyou.com/)，安装完成后，打开迅游客户端，然后登录或者注册迅游账号
 ![png](./xunyou/4.jpg.png)
-#### 5.点击“口令兑换”，输入口令兑换码“istore”，领取3天免费SVIP，点击“使用”，免费享受3天迅游SVIP
+#### 点击“口令兑换”，输入口令兑换码“istore”，领取3天免费SVIP，点击“使用”，免费享受3天迅游SVIP
 ![png](./xunyou/5.jpg.png)
 ![png](./xunyou/6.jpg.png)
 ![png](./xunyou/7.jpg.png)
 ![png](./xunyou/8.jpg.png)
-#### 6.免费领取完迅游SVIP后，只需要登录迅游账号，就可以免费享受3天迅游SVIP
+#### 4.免费领取完迅游SVIP后，只需要登录迅游账号，就可以免费享受3天迅游SVIP
 ![png](./xunyou/9.jpg.png)
