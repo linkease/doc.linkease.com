@@ -60,10 +60,6 @@ docker.io/jinshanyun/jinshan-arm64:latest这样的日志时，说明安装完成
 ```
 2）绑定成功后，即可在蓝山云小程序首页查看收益。
 
-### 蓝山云注意事项
-
-![png](./bmtedge/8.png)
-
 ### 蓝山云 iStoreOS 注意事项
 
 如果是 iStoreOS  的蓝山云离线没有收益的问题，那么解决办法是：
