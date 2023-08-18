@@ -117,3 +117,5 @@ sudo docker run -d \
 * 若群晖用docker安装，建议去Docker管理器里，先停用linkease容器，然后编辑，开启`使用高权限执行容器`和`启用自动重新启动`，保存应用。
 
 ![docker1](./image/docker/docker2.jpg)
+
+* 如果需要更新镜像，请停止linkease的docker项目，并删除，再重新输入整个命令拉取新镜像。

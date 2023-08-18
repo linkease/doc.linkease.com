@@ -94,6 +94,7 @@ sudo docker run -d \
 
    ![docker](./koolshare_merlin/dd.jpg)
 
+* 如果需要更新镜像，请停止ddnsto的docker项目，并删除，再重新输入整个命令拉取新镜像。
 
 #### Unraid实战ddnsto
 
