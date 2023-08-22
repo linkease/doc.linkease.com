@@ -158,9 +158,9 @@ ps:另外的Live View和Timeline设置也一样。
    
 ### Synology Drive Client
 
-ddnsto远程穿透这个程序，目前没找到特别简单的方法。
+由于此客户端使用非 http 协议，所以ddnsto无法穿透。
 
-所以建议使用易有云PC客户端的设备互联(异地组网)来实现。
+建议使用易有云的电脑端设备互联功能(异地组网)来实现。
 
 [设备互联——远程网段教程](/zh/guide/linkease/tips/syno_drive.html)
 
