@@ -9,6 +9,9 @@
 
 如果用了上面的方法，几乎不会出现啥问题了。下面是遇到问题之后的解决办法！
 
+视频教程：
+<iframe src="//player.bilibili.com/player.html?aid=402694106&bvid=BV1kV411u71V&cid=1176164520&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
+
 ## 安装系统
 
 ### 刚开始安装显示 Docker Warning

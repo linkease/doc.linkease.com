@@ -406,7 +406,9 @@ module.exports = ctx => ({
                                         ["software/aliyunwebdav", "阿里云WebDav"],
                                         ["software/wxedge", "网心云"],
 										["software/bmtedge", "蓝山云"],
+                                        ["software/xunyou", "迅游加速器"],
                                         ["software/navidrome", "Navidrome 音乐平台"]
+
                                     ]
                                 },
                                 {
