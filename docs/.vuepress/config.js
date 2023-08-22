@@ -408,6 +408,12 @@ module.exports = ctx => ({
                                         ["software/navidrome", "Navidrome 音乐平台"]
                                     ]
                                 },
+                                {
+                                    title: "最佳实践", collapsable: true, children: [
+                                        ["practice/ventoy", "Ventoy打造最强U盘"]
+                                       
+                                    ]
+                                },
                                 ["question", "FAQ 必读"],
                                 ["changelog", "更新日志"],
                             ]

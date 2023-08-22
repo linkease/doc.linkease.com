@@ -7,7 +7,7 @@
 如果安装出问题，请查看[Docker FAQ](/zh/guide/istoreos/question.html#docker-%E7%9B%B8%E5%85%B3)。首页找到并加入我们的QQ频道，也可以相互探讨安装过程的问题。
 
 视频教程：
-<iframe src="//player.bilibili.com/player.html?aid=258564653&bvid=BV1ya411S7J1&cid=778736680&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=258564653&bvid=BV1ya411S7J1&cid=778736680&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
 
 **1.安装网心云，点击左侧“iStore“，商店中搜索 “网心云”，选择“安装”，等待安装完成。**
 

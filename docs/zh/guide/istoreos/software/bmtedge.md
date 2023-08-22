@@ -6,6 +6,9 @@
 
 如果安装出问题，请查看[Docker FAQ](/zh/guide/istoreos/question.html#docker-%E7%9B%B8%E5%85%B3)。首页找到并加入我们的QQ频道，也可以相互探讨安装过程的问题。
 
+参考视频教程：
+<iframe src="//player.bilibili.com/player.html?aid=447326734&bvid=BV1ij411B7r7&cid=1235223709&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
+
 
 **1.安装蓝山云，点击左侧“iStore“，商店中搜索 “蓝山云”，选择“安装”，等待安装完成。**
 
