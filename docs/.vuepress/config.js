@@ -374,6 +374,7 @@ module.exports = ctx => ({
                                         ["install_pve", "X86 PVE"],
                                         ["install_esxi_8", "X86 ESXI 8.0"],
                                         ["install_vmware", "X86 VMWare Workstation"],
+                                        ["install_ax9000", "小米AX9000"],
                                         ["install_r2s", "R2S/R2C/R4S 设备"],
                                         ["install_r5s", "R5S/R5C 设备"],
                                         ["install_r6s", "R6S/R6C 设备"],
