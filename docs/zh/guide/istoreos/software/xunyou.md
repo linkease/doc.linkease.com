@@ -2,9 +2,6 @@
 注意：此教程仅适用于iStoreOS系统，请先安装[iStoreOS系统](https://doc.linkease.com/zh/guide/istoreos/)。  
 迅游是一款小巧且功能强大的网游加速器，迅游所采用的第五代网游加速技术能更有效地为您解决网游卡机、掉线、延时高、登录难等问题。更多信息请[访问官网](https://www.xunyou.com/)
 
-视频教程：
-<iframe src="//player.bilibili.com/player.html?aid=914089065&bvid=BV1qM4y1W71Q&cid=1213572831&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
-
 #### 1.安装迅游加速器，点击左侧“iStore”，商店中搜索 “迅游”，选择“安装”，等待安装完成。
 ![png](./xunyou/1.jpg.png)
 #### 2.迅游加速器安装完成后，即可在iStore应用商店的已安装类别里看到迅游加速器应用，点击“打开”
@@ -21,3 +18,8 @@
 ![png](./xunyou/8.jpg.png)
 #### 4.免费领取完迅游SVIP后，只需要登录迅游账号，就可以免费享受3天迅游SVIP
 ![png](./xunyou/9.jpg.png)
+
+视频教程：  
+
+<a href="https://www.bilibili.com/video/BV1qM4y1W71Q/?spm_id_from=333.999.0.0&vd_source=8e363fb838693d4a1c274983edfd43fc" target="_blank">酷友福利，免费领取迅游口令码</a>  
+<iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?aid=914089065&bvid=BV1qM4y1W71Q&cid=1213572831&page=1&fjw=0&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>

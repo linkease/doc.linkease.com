@@ -13,9 +13,6 @@
 3. 软件中心的插件都需要用户主动安装，并且自己对插件的风险负责
 4. 蓝山云插件为蓝山云相关团队开发，并且代码开源在：[开源代码](https://github.com/linkease/openwrt-app-actions/tree/main/applications/luci-app-bmtedge)
 
-参考视频教程：
-<iframe src="//player.bilibili.com/player.html?aid=447326734&bvid=BV1ij411B7r7&cid=1235223709&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
-
 
 **1.安装蓝山云，点击左侧“iStore“，商店中搜索 “蓝山云”，选择“安装”，等待安装完成。**
 
@@ -103,3 +100,9 @@ docker.io/jinshanyun/jinshan-arm64:latest这样的日志时，说明安装完成
 大家可以加他们的售后微信，私信下客服，让他把你们拉到相应的用户群里面去。
 
 ![png](./bmtedge/9.png)
+
+参考视频教程：  
+
+<a href="https://www.bilibili.com/video/BV1ij411B7r7/?spm_id_from=333.999.0.0&vd_source=8e363fb838693d4a1c274983edfd43fc" target="_blank">蓝山云注意事项，离线/多开/多拨等</a>  
+
+<iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?aid=447326734&bvid=BV1ij411B7r7&cid=1235223709&page=1&fjw=0&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>

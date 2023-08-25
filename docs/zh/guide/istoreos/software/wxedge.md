@@ -6,8 +6,6 @@
 
 如果安装出问题，请查看[Docker FAQ](/zh/guide/istoreos/question.html#docker-%E7%9B%B8%E5%85%B3)。首页找到并加入我们的QQ频道，也可以相互探讨安装过程的问题。
 
-视频教程：
-<iframe src="//player.bilibili.com/player.html?aid=258564653&bvid=BV1ya411S7J1&cid=778736680&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
 
 **1.安装网心云，点击左侧“iStore“，商店中搜索 “网心云”，选择“安装”，等待安装完成。**
 
@@ -45,3 +43,9 @@
 2）绑定设备： 打开网心云APP点击【右上角“+”-扫一扫】再次扫描上图中的二维码，可将设备绑定到网心云APP。  
 
 至此，绑定成功，可通过网心云APP时时看收益。
+
+视频教程：  
+
+<a href="https://www.bilibili.com/video/BV1ya411S7J1/?spm_id_from=333.999.0.0&vd_source=8e363fb838693d4a1c274983edfd43fc" target="_blank">iStoreOS里超简单的网心云安装教程</a>  
+
+<iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?aid=258564653&bvid=BV1ya411S7J1&&cid=778736680&page=1&fjw=0&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
