@@ -15,7 +15,7 @@
 ![image](./image/backup/12.jpg)
 
 - 安装易有云APP，并且易有云APP要和易有云客户端登录同一易有云账号；
-- 打开易有云APP，就可以在【我的网盘】下面也看到刚刚配置好的网盘；
+- 打开易有云APP，就可以在【首页】——【设备列表】下面看到刚刚配置好的设备；
 
 ![image](./image/backup/13.jpg)
 
@@ -59,4 +59,13 @@
 ![image](./image/backup/18.jpg)
 
 
+### 清理备份好的照片/视频
+- 点击【清理】，可以把备份好的照片/视频清理掉，还可以清理不需要的照片/视频，并且还可以清理相似的照片等。
 
+![image](./image/backup/20.jpg)
+
+![image](./image/backup/21.jpg)
+
+![image](./image/backup/22.jpg)
+
+![image](./image/backup/23.jpg)

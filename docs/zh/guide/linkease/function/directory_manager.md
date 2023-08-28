@@ -1,7 +1,7 @@
 ### 目录管理
 管理员如何设置设备上的目录？
 
-- 易有云App首页【我的网盘】—— 在要管理目录的网盘右上角【更多选项】—— 【设备管理】；
+- 易有云App首页【设备列表】—— 在要管理目录的设备右上角【更多选项】—— 【设备管理】；
 
 ![jpg](./image/directory_manager/1.jpg)
 
@@ -9,9 +9,6 @@
 
 ![jpg](./image/directory_manager/2.jpg)
 
-- 找到个人空间目录，点击【编辑】；
-
-![jpg](./image/directory_manager/3.jpg)
 
 - 点击【添加目录】；
 
