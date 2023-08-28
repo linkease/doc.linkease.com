@@ -9,9 +9,6 @@
 
 如果用了上面的方法，几乎不会出现啥问题了。下面是遇到问题之后的解决办法！
 
-视频教程：
-<iframe src="//player.bilibili.com/player.html?aid=402694106&bvid=BV1kV411u71V&cid=1176164520&page=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
-
 ## 安装系统
 
 ### 刚开始安装显示 Docker Warning
@@ -273,3 +270,8 @@ iStoreOS 目标做个国内外都合法的固件，这样企业才能更安全�
 
 
 
+参考视频教程：  
+
+<a href="https://www.bilibili.com/video/BV1ij411B7r7/?spm_id_from=333.999.0.0&vd_source=8e363fb838693d4a1c274983edfd43fc" target="_blank">1分钟，解决 Docker 常见问题</a>  
+
+<iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?aid=402694106&bvid=BV1kV411u71V&cid=1176164520&page=1&fjw=0&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
