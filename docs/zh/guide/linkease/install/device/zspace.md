@@ -22,4 +22,8 @@
 
 ![docker1](./image/zspace/3.jpg)
 
-**4.配置完成后，启动“linkease”容器，然后访问(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看 [存储端绑定教程](/zh/guide/linkease/install/cloud.md)。****
+**4.确认本地端口的配置；**
+
+![docker1](./image/zspace/4.jpg)
+
+**5.配置完成后，启动“linkease”容器，然后访问(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看 [存储端绑定教程](/zh/guide/linkease/install/cloud.md)。****
