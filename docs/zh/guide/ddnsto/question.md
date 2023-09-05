@@ -257,7 +257,9 @@ A: wordpress需要配置“站点地址”和ddnsto域名相同。
 
 A: 要在/etc/ssh/sshd_config里把PasswordAuthentication 设为yes
 
+### Q: nextcloud访问时跳转至 www.ddnsto.com
 
+A: 访问域名时手动添加路径“/apps/dashboard/”至域名，如 https://abcdef.ddnsto.com/apps/dashboard/
 ## 插件类
 
 ### Q: Merlin 路由器重启后ddnsto插件未运行
