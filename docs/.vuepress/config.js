@@ -414,7 +414,8 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "最佳实践", collapsable: true, children: [
-                                        ["practice/ventoy", "Ventoy打造最强U盘"]
+                                        ["practice/ventoy", "Ventoy打造最强U盘"],
+                                        ["practice/DialMore", "多账号多拨"]
                                        
                                     ]
                                 },
