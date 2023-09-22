@@ -16,6 +16,17 @@ iStore 的无法弥补的缺陷：
 
 我们建议固件开发者集成 iStore，这样固件开发者只需要发布一个精简固件，用户可以按需安装自己喜欢的插件。还能共享插件的教程，独立更新某个插件版本。
 
+## 安装 iStore 到 OpenWRT 官方固件
+只支持 x86_64 和 arm64 设备。
+
+```
+opkg update || exit 1
+cd /tmp
+wget https://github.com/linkease/openwrt-app-actions/raw/main/applications/luci-app-systools/root/usr/share/systools/istore-reinstall.run
+chmod 755 istore-reinstall.run
+./istore-reinstall.run
+```
+
 ## 功能预览
 
 ![istore-preview.png](./images/istore-preview.png)
