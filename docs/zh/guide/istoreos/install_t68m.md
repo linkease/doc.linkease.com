@@ -9,3 +9,6 @@
 ## 2.刷机
 * 如果打算从TF卡启动，参考 [SD卡通用教程](/zh/guide/istoreos/install_sd.html) 刷写。
 * 如果打算从eMMC启动，当前需要能正常启动进入系统，然后参考 [系统内刷机教程](/zh/guide/istoreos/install_shell.html)。
+
+## 注意
+**不要混刷不同作者的固件**！以免出现问题或损坏硬件，[详情](https://github.com/istoreos/istoreos/issues/1012)
