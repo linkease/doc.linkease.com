@@ -415,7 +415,8 @@ module.exports = ctx => ({
                                 {
                                     title: "最佳实践", collapsable: true, children: [
                                         ["practice/ventoy", "Ventoy打造最强U盘"],
-                                        ["practice/DialMore", "多账号多拨"]
+                                        ["practice/DialMore", "多账号多拨"],
+                                        ["practice/pikvm", "免屏幕键盘鼠标给小主机装系统"]
                                        
                                     ]
                                 },
