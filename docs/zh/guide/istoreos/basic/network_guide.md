@@ -6,11 +6,15 @@
 
 * 点击“宽带拨号连接”，输入宽带账号和密码，保存配置即可。
 
+接线参考：![link-router-dial](../../easepi/quick/bohao2.jpg)
+
 ![png](./picture/network_guide2.png)
 
 ## 连接现有路由器
 
 “连接现有路由器”即为WAN口连接到上一级路由LAN口，有2种方式，一种是DHCP，另一种是静态IP。
+
+接线参考：![link-router-dial](../../easepi/quick/bohao1.jpg)
 
 ![png](./picture/network_guide3.png)
 

@@ -90,3 +90,4 @@ USB OTG 接口（也就是刷机用的接口）用 USB 线接另外的主机的 
 ![USB-HDMI线]((/zh/guide/istoreos/image/usb-hdmi.jpg))
 
 
+如果搞不定的话，可以等待未来 iStoreOS 的 PiKVM 插件。

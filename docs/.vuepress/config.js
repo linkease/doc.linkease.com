@@ -416,7 +416,8 @@ module.exports = ctx => ({
                                     title: "最佳实践", collapsable: true, children: [
                                         ["practice/ventoy", "Ventoy打造最强U盘"],
                                         ["practice/DialMore", "多账号多拨"],
-                                        ["practice/pikvm", "免屏幕键盘鼠标给小主机装系统"]
+                                        ["practice/pikvm", "免屏幕键盘鼠标给小主机装系统"],
+                                        ["practice/mesh", "软路由跟无线 Mesh 路由器的组网方式参考"]
                                        
                                     ]
                                 },

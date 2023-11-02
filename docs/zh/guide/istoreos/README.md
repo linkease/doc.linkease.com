@@ -4,6 +4,13 @@
 * 系统本身开源免费，目前系统代码开源在：[Github iStoreOS](https://www.github.com/istoreos/istoreos)
 * 更多请查看[官网](https://www.istoreos.com)
 
+## 快速入手
+
+* [固件安装](/zh/guide/istoreos/install_ars2.html)
+* [更多固件下载](https://www.koolcenter.com/fw)
+* [网络配置向导](/zh/guide/istoreos/basic/network_guide.html)
+* [常用功能](/zh/guide/istoreos/basic/page.html)
+
 ## 关注更新
 
 * [酷友社B站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
