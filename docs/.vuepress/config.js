@@ -408,7 +408,8 @@ module.exports = ctx => ({
                                         ["software/wxedge", "网心云"],
 										["software/bmtedge", "蓝山云"],
                                         ["software/xunyou", "迅游加速器"],
-                                        ["software/navidrome", "Navidrome 音乐平台"]
+                                        ["software/navidrome", "Navidrome 音乐平台"],
+                                        ["software/webvirtcloud", "KVM 虚拟机平台"]
 
                                     ]
                                 },
@@ -417,7 +418,8 @@ module.exports = ctx => ({
                                         ["practice/ventoy", "Ventoy打造最强U盘"],
                                         ["practice/DialMore", "多账号多拨"],
                                         ["practice/pikvm", "免屏幕键盘鼠标给小主机装系统"],
-                                        ["practice/mesh", "软路由跟无线 Mesh 路由器的组网方式参考"]
+                                        ["practice/mesh", "无线 Mesh 路由器组网方式"],
+                                        ["practice/HowToWriteDoc", "用 iStoreOS 写文档"]
                                        
                                     ]
                                 },
