@@ -4,6 +4,9 @@
 
 刷固件方法可以参考 iStoreOS 的刷固件方法：[R5S/R5C刷固件方法](/zh/guide/istoreos/install_r5s.html)
 
+视频参考：
+<iframe src="//player.bilibili.com/player.html?aid=962862835&bvid=BV1HH4y1z78w&cid=1316120007&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 ## 二、设置代理（可选项）
 
 如果网络不好，最好设置下代理，比如在终端设置下面的代理：（注意 192.168.100.1 换成自己合适的IP）
