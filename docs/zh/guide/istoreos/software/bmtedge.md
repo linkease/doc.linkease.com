@@ -1,8 +1,8 @@
-### 蓝山云（金山云）
+### 蓝山云
 
 注意：此教程仅适用于iStoreOS系统，请先安装[iStoreOS系统](/zh/guide/istoreos/README.md)。
 
-「蓝山云 - 流量宝」由蓝山联合金山云推出的一款镜像软件，通过简单安装后可快速加入蓝山的边缘计算生态，在线共享带宽即可赚钱，每月可获取一定的现金收益回报。了解更多，请登录[蓝山云官网](https://www.bmtcloud.com.cn/)。
+「蓝山云 - 流量宝」由蓝山联合头部云厂商推出的一款镜像软件，通过简单安装后可快速加入蓝山的边缘计算生态，在线共享带宽即可赚钱，每月可获取一定的现金收益回报。了解更多，请登录[蓝山云官网](https://www.bmtcloud.com.cn/)。
 
 如果安装出问题，请查看[Docker FAQ](/zh/guide/istoreos/question.html#docker-%E7%9B%B8%E5%85%B3)。首页找到并加入我们的[QQ频道](https://pd.qq.com/s/7w59c4lvn)，也可以相互探讨安装过程的问题。
 
