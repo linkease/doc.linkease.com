@@ -222,161 +222,155 @@ export default {
          dialogVisible: false,
          platformList1:[
           {
-            name:'EasePi',
-            url:''
+            name:'Windows',
+            url:'/zh/guide/linkease/install/device/windows.html'
           },{
-            name:'威联通',
-            url:''
-          }, {
+            name:'macOS',
+            url:'/zh/guide/linkease/install/device/mac.html'
+          },{
             name:'iStoreOS',
-            url:''
-          },{
-            name:'Docker',
-            url:''
-          },{
-            name:'华硕NAS',
-            url:''
-          },{
-            name:'爱快',
-            url:''
-          }, {
-            name:'Koolcenter 梅林',
-            url:''
-          }, {
-            name:'Unraid',
-            url:''
-          }, {
-            name:'Koolcenter Lede',
-            url:''
-          }, {
-            name:'铁威马',
-            url:''
+            url:'/zh/guide/linkease/install/device/istoreos.html'
           }, {
             name:'OpenWrt',
-            url:''
-          }, {
-            name:'Windows',
-            url:''
-          }, {
+            url:'/zh/guide/linkease/install/device/openwrt.html'
+          },{
+            name:'华硕路由器',
+            url:'/zh/guide/linkease/install/device/koolcenter_merlin.html'
+          },{
+            name:'Docker',
+            url:'/zh/guide/linkease/install/device/docker.html'
+          },{
             name:'群晖',
-            url:''
+            url:'/zh/guide/linkease/install/device/synology.html'
+          },{
+            name:'威联通',
+            url:'/zh/guide/linkease/install/device/qnap.html'
           }, {
-            name:'ReadyNAS',
-            url:''
-          }, {
-            name:'Padavan',
-            url:''
+            name:'Unraid',
+            url:'/zh/guide/linkease/install/device/unraid.html'
           }, {
             name:'极空间',
+            url:'/zh/guide/linkease/install/device/zspace.html'
+          }, {
+            name:'绿联NAS',
+            url:'/zh/guide/linkease/install/device/docker.html'
+          }, {
+            name:'联想NAS',
+            url:'/zh/guide/linkease/install/device/docker.html'
+          }, {
+            name:'华硕NAS',
             url:''
+          }, {
+            name:'TrueNAS',
+            url:'/zh/guide/linkease/install/device/docker.html'
+          }, {
+            name:'爱快',
+            url:'/zh/guide/linkease/install/device/ikuai.html'
+          }, {
+            name:'电视盒子(海纳思)',
+            url:'/zh/guide/linkease/install/device/histb.html'
+          }, {
+            name:'Linux/Ubuntu/Debian/CentOS/CasaOS',
+            url:'/zh/guide/linkease/install/device/linux.html'
           }
          ],
          platformList2:[
           {
-            name:'EasePi',
-            url:''
+            name:'Windows',
+            url:'/zh/guide/ddnsto/install/device/windows.html'
           },{
-            name:'威联通',
-            url:''
-          }, {
             name:'iStoreOS',
-            url:''
-          },{
-            name:'Docker',
-            url:''
-          },{
-            name:'Koolcenter 梅林 ≥386',
-            url:''
-          },{
-            name:'爱快',
-            url:''
-          }, {
-            name:'Koolcenter 梅林 <386',
-            url:''
-          }, {
-            name:'Unraid',
-            url:''
-          }, {
-            name:'Koolcenter Lede',
-            url:''
-          }, {
-            name:'铁威马',
-            url:''
+            url:'/zh/guide/ddnsto/install/device/istoreos.html'
           }, {
             name:'OpenWrt',
-            url:''
-          }, {
-            name:'Windows',
-            url:''
-          }, {
-            name:'群晖',
-            url:''
-          }, {
-            name:'ReadyNAS',
-            url:''
-          }, {
+            url:'/zh/guide/ddnsto/install/device/openwrt.html'
+          },{
+            name:'华硕路由器',
+            url:'/zh/guide/ddnsto/install/device/koolcenter_merlin.html'
+          },{
             name:'Padavan',
-            url:''
+            url:'/zh/guide/ddnsto/install/device/padavan.html'
+          },{
+            name:'Docker',
+            url:'/zh/guide/ddnsto/install/device/docker.html'
+          },{
+            name:'群晖',
+            url:'/zh/guide/ddnsto/install/device/synology.html'
+          },{
+            name:'威联通',
+            url:'/zh/guide/ddnsto/install/device/qnap.html'
+          }, {
+            name:'Unraid',
+            url:'/zh/guide/ddnsto/install/device/unraid.html'
           }, {
             name:'极空间',
+            url:'/zh/guide/ddnsto/install/device/zspace.html'
+          }, {
+            name:'绿联NAS',
+            url:'/zh/guide/ddnsto/install/device/docker.html'
+          }, {
+            name:'联想NAS',
+            url:'/zh/guide/ddnsto/install/device/docker.html'
+          }, {
+            name:'华硕NAS',
             url:''
           }, {
-            name:'Linux 通用版',
-            url:''
+            name:'TrueNAS',
+            url:'/zh/guide/ddnsto/install/device/docker.html'
+          }, {
+            name:'爱快',
+            url:'/zh/guide/ddnsto/install/device/ikuai.html'
+          }, {
+            name:'电视盒子(海纳思)',
+            url:'/zh/guide/ddnsto/install/device/histb.html'
+          }, {
+            name:'Linux/Ubuntu/Debian/CentOS/CasaOS',
+            url:'/zh/guide/ddnsto/install/device/linux.html'
           }
          ],
          platformList3:[
           {
             name:'EasePi',
-            url:''
+            url:'/zh/guide/istoreos/install_ars2.html'
           },{
-            name:'威联通',
-            url:''
+            name:'X86物理机',
+            url:'/zh/guide/istoreos/install_x86.html'
           }, {
-            name:'iStoreOS',
-            url:''
+            name:'PVE',
+            url:'/zh/guide/istoreos/install_pve.html'
           },{
-            name:'Docker',
-            url:''
+            name:'ESXI',
+            url:'/zh/guide/istoreos/install_esxi_8.html'
           },{
-            name:'Koolcenter 梅林 ≥386',
-            url:''
+            name:'R86S',
+            url:'/zh/guide/istoreos/install_x86.html'
           },{
-            name:'爱快',
-            url:''
+            name:'R2S/R2C',
+            url:'/zh/guide/istoreos/install_r2s.html'
+          },{
+            name:'R5S/R5C',
+            url:'/zh/guide/istoreos/install_r5s.html'
           }, {
-            name:'Koolcenter 梅林 <386',
-            url:''
+            name:'R6S/R6C',
+            url:'/zh/guide/istoreos/install_r6s.html'
           }, {
-            name:'Unraid',
-            url:''
+            name:'R66S',
+            url:'/zh/guide/istoreos/install_r66s.html'
           }, {
-            name:'Koolcenter Lede',
-            url:''
+            name:'R68S',
+            url:'/zh/guide/istoreos/install_rockchip_sysupgrade.html'
           }, {
-            name:'铁威马',
-            url:''
+            name:'H66K/H68K/H69K',
+            url:'/zh/guide/istoreos/install_h68k.html'
           }, {
-            name:'OpenWrt',
-            url:''
+            name:'H88K',
+            url:'/zh/guide/istoreos/install_h88k.html'
           }, {
-            name:'Windows',
-            url:''
+            name:'T68M',
+            url:'/zh/guide/istoreos/install_t68m.html'
           }, {
-            name:'群晖',
-            url:''
-          }, {
-            name:'ReadyNAS',
-            url:''
-          }, {
-            name:'Padavan',
-            url:''
-          }, {
-            name:'极空间',
-            url:''
-          }, {
-            name:'Linux 通用版',
-            url:''
+            name:'树莓派4',
+            url:'/zh/guide/istoreos/install_rpi4.html'
           }
          ],
          question1:[
@@ -576,14 +570,14 @@ export default {
           }
          ],
          otherUrl:{
-            videoUrl1:'',
-            videoUrl2:'',
-            videoUrl3:'',
-            videoUrl4:'',
-            moreUrl1:'',
-            moreUrl2:'',
-            moreUrl3:'',
-            moreUrl4:'',
+            videoUrl1:'//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
+            videoUrl2:'//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
+            videoUrl3:'//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
+            videoUrl4:'//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
+            moreUrl1:'/zh/guide/linkease/function/file_transfer.html',
+            moreUrl2:'/zh/guide/linkease/function/photo_backup.html',
+            moreUrl3:'/zh/guide/linkease/tips/remote.html',
+            moreUrl4:'/zh/guide/linkease/function/file_backup.html',
          }
       }
   },
