@@ -13,7 +13,7 @@ module.exports = ctx => ({
         }
     },
     // 站点标题
-    title: 'DDNSTO远程控制',
+    title: '易有云产品中心',
     // 网站的描述
     description: 'DDNSTO 内网穿透 设备原理 远程下载 远程开机 远程桌面 远程文件管理',
     head: [
