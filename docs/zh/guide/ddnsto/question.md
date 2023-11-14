@@ -27,7 +27,7 @@ sidebarDepth: 1
 3. 尝试访问该设备下其他域名
 4. 如刚编辑域名，请等待生效，在1分钟后尝试
 
-## * 远程RDP访问失败
+## * 远程Windows桌面失败
 1. 请先确认电脑已开启RDP功能，允许被其他电脑控制
     - Windows家庭版开启RDP相对复杂，可使用 [RDPWrapper](https://github.com/stascorp/rdpwrap) 进行配置：。
       - 选择GUI Authentication Only
@@ -44,7 +44,7 @@ sidebarDepth: 1
 
 4. 如仍然未能解决，可联系[付费服务](https://www.koolcenter.com/category/services)协助处理
 
-## * 访问openwrt页面异常
+## * 访问OpenWRT页面异常
 部分使用nginx的固件通过ddnsto访问时界面可能出现菜单不显示等问题
 
 解决方法：
@@ -58,7 +58,7 @@ https://custom.ddnsto.com/cgi-bin/luci/admin/status/overview
 
 ### Q：ddnsto可以用自己的域名吗？
 
-A：不可以，ddnsto会提供域名。
+A：不可以，不支持 cname，ddnsto会提供域名。
 
 
 ### Q：域名http和https能同时访问吗？

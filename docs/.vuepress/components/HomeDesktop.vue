@@ -384,202 +384,104 @@ export default {
       ],
       question1: [
         {
-          name: '在家办公，通过远程桌面控制公司电脑',
-          url: ''
+          name: '删除设备后，如何找回设备套餐？',
+          url: '/zh/guide/linkease/feedback/faq.html#q-%E5%88%A0%E9%99%A4%E8%AE%BE%E5%A4%87%E5%90%8E-%E5%A6%82%E4%BD%95%E6%89%BE%E5%9B%9E%E8%AE%BE%E5%A4%87%E5%A5%97%E9%A4%90'
         },
         {
-          name: '如何通过异地互联使用群晖Drive',
-          url: ''
+          name: 'Windows客户端被检测出风险？',
+          url: '/zh/guide/linkease/feedback/faq.html#q-windows%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%87%BA%E9%A3%8E%E9%99%A9'
         }, {
-          name: '安卓手机资料想传给Mac电脑',
-          url: ''
+          name: 'Windows客户端显示没网络？',
+          url: '/zh/guide/linkease/feedback/faq.html#q-windows%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%98%BE%E7%A4%BA%E6%B2%A1%E7%BD%91%E7%BB%9C'
         }, {
-          name: '远程访问Transmission下载',
-          url: ''
+          name: '无法连接服务器',
+          url: '/zh/guide/linkease/feedback/faq.html#q-%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8'
         }, {
-          name: ' 远程访问Aria2下载',
-          url: ''
-        }, {
-          name: '远程访问qBittorrent下载',
-          url: ''
-        }, {
-          name: '远程访问Jellyfin 播放器',
-          url: ''
-        }, {
-          name: '远程访问emby播放器',
-          url: ''
-        }, {
-          name: '远程访问plex播放器',
-          url: ''
-        }, {
-          name: '远程访问Navidrome播放器',
-          url: ''
-        }, {
-          name: '远程硬盘挂载',
-          url: ''
-        }, {
-          name: 'Mac电脑远程挂载NAS硬盘',
-          url: ''
-        }, {
-          name: '华硕路由器作为 轻NAS 的前期准备',
-          url: ''
-        }, {
-          name: '华硕路由器搭配易有云实现 轻NAS 教程',
-          url: ''
-        }, {
-          name: '电视盒子也能当NAS',
-          url: ''
+          name: '为何没传输数据-看监控还占用流量',
+          url: '/zh/guide/linkease/feedback/faq.html#q-%E4%B8%BA%E4%BD%95%E6%B2%A1%E4%BC%A0%E8%BE%93%E6%95%B0%E6%8D%AE-%E7%9C%8B%E7%9B%91%E6%8E%A7%E8%BF%98%E5%8D%A0%E7%94%A8%E6%B5%81%E9%87%8F'
         }
       ],
       question2: [
         {
-          name: '在家办公，通过远程桌面控制公司电脑',
-          url: ''
+          name: '控制台显示设备离线',
+          url: '/zh/guide/ddnsto/question.html#%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%98%BE%E7%A4%BA%E8%AE%BE%E5%A4%87%E7%A6%BB%E7%BA%BF'
         },
         {
-          name: '如何通过异地互联使用群晖Drive',
-          url: ''
+          name: '访问域名失败',
+          url: '/zh/guide/ddnsto/question.html#%E8%AE%BF%E9%97%AE%E5%9F%9F%E5%90%8D%E5%A4%B1%E8%B4%A5'
         }, {
-          name: '安卓手机资料想传给Mac电脑',
-          url: ''
+          name: '远程windows桌面失败',
+          url: '/zh/guide/ddnsto/question.html#%E8%BF%9C%E7%A8%8Bwindows%E6%A1%8C%E9%9D%A2%E5%A4%B1%E8%B4%A5'
         }, {
-          name: '远程访问Transmission下载',
-          url: ''
+          name: '域名相关问题汇总',
+          url: '/zh/guide/ddnsto/question.html#%E5%9F%9F%E5%90%8D%E7%B1%BB'
         }, {
-          name: ' 远程访问Aria2下载',
-          url: ''
+          name: 'IP验证相关问题汇总',
+          url: '/zh/guide/ddnsto/question.html#%E9%AA%8C%E8%AF%81%E7%B1%BB'
         }, {
-          name: '远程访问qBittorrent下载',
-          url: ''
+          name: '套餐丢失等问题汇总',
+          url: '/zh/guide/ddnsto/question.html#%E5%A5%97%E9%A4%90%E7%B1%BB'
         }, {
-          name: '远程访问Jellyfin 播放器',
-          url: ''
-        }, {
-          name: '远程访问emby播放器',
-          url: ''
-        }, {
-          name: '远程访问plex播放器',
-          url: ''
-        }, {
-          name: '远程访问Navidrome播放器',
-          url: ''
-        }, {
-          name: '远程硬盘挂载',
-          url: ''
-        }, {
-          name: 'Mac电脑远程挂载NAS硬盘',
-          url: ''
-        }, {
-          name: '华硕路由器作为 轻NAS 的前期准备',
-          url: ''
-        }, {
-          name: '华硕路由器搭配易有云实现 轻NAS 教程',
-          url: ''
-        }, {
-          name: '电视盒子也能当NAS',
-          url: ''
+          name: '操作失败问题汇总',
+          url: '/zh/guide/ddnsto/question.html#%E6%93%8D%E4%BD%9C%E7%B1%BB'
         }
       ],
       question3: [
         {
-          name: '在家办公，通过远程桌面控制公司电脑',
-          url: ''
+          name: '安装系统失败？',
+          url: '/zh/guide/istoreos/question.html#%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F'
         },
         {
-          name: '如何通过异地互联使用群晖Drive',
-          url: ''
+          name: '软件中心安装失败？',
+          url: '/zh/guide/istoreos/question.html#%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6'
         }, {
-          name: '安卓手机资料想传给Mac电脑',
-          url: ''
+          name: '网络配置问题汇总',
+          url: '/zh/guide/istoreos/question.html#%E6%9B%B4%E5%A4%9A%E7%BD%91%E7%BB%9C'
         }, {
-          name: '远程访问Transmission下载',
-          url: ''
+          name: '硬盘挂载失败？',
+          url: '/zh/guide/istoreos/question.html#%E7%A1%AC%E7%9B%98%E6%8C%82%E8%BD%BD'
         }, {
-          name: ' 远程访问Aria2下载',
-          url: ''
+          name: '界面自动变成英文？',
+          url: '/zh/guide/istoreos/question.html#%E7%95%8C%E9%9D%A2%E5%8F%98%E8%8B%B1%E6%96%87'
         }, {
-          name: '远程访问qBittorrent下载',
-          url: ''
+          name: 'Docker安装或者下载失败？',
+          url: '/zh/guide/istoreos/question.html#docker-%E7%9B%B8%E5%85%B3'
         }, {
-          name: '远程访问Jellyfin 播放器',
-          url: ''
-        }, {
-          name: '远程访问emby播放器',
-          url: ''
-        }, {
-          name: '远程访问plex播放器',
-          url: ''
-        }, {
-          name: '远程访问Navidrome播放器',
-          url: ''
-        }, {
-          name: '远程硬盘挂载',
-          url: ''
-        }, {
-          name: 'Mac电脑远程挂载NAS硬盘',
-          url: ''
-        }, {
-          name: '华硕路由器作为 轻NAS 的前期准备',
-          url: ''
-        }, {
-          name: '华硕路由器搭配易有云实现 轻NAS 教程',
-          url: ''
-        }, {
-          name: '电视盒子也能当NAS',
-          url: ''
+          name: 'iStoreOS是否违反开源协议？',
+          url: '/zh/guide/istoreos/question.html#%E5%85%B6%E5%AE%83'
         }
       ],
       questionTotal: [
         {
-          name: '在家办公，通过远程桌面控制公司电脑',
-          url: ''
+          name: '多人共享文件',
+          url: 'http://192.168.88.18:8080/zh/guide/linkease/function/home_share.html'
         },
         {
-          name: '如何通过异地互联使用群晖Drive',
-          url: ''
+          name: '多地域组网',
+          url: 'http://192.168.88.18:8080/zh/guide/linkease/function/remote_connects.html'
+        },
+        {
+          name: '在家办公，用微软原生RDP远程Windows',
+          url: 'http://192.168.88.18:8080/zh/guide/linkease/tips/remote.html'
+        },{
+          name: '手机资料快速传给电脑',
+          url: 'http://192.168.88.18:8080/zh/guide/linkease/tips/device.html'
         }, {
-          name: '安卓手机资料想传给Mac电脑',
-          url: ''
+          name: '手机远程下载',
+          url: 'http://192.168.88.18:8080/zh/guide/linkease/tips/transmission.html'
         }, {
-          name: '远程访问Transmission下载',
-          url: ''
+          name: 'DDNSTO更好的身份验证',
+          url: 'http://192.168.88.18:8080/zh/guide/ddnsto/Authentication.html'
         }, {
-          name: ' 远程访问Aria2下载',
-          url: ''
+          name: '仅用浏览器完成远程桌面',
+          url: 'http://192.168.88.18:8080/zh/guide/ddnsto/remote_control.html'
         }, {
-          name: '远程访问qBittorrent下载',
-          url: ''
-        }, {
-          name: '远程访问Jellyfin 播放器',
-          url: ''
-        }, {
-          name: '远程访问emby播放器',
-          url: ''
-        }, {
-          name: '远程访问plex播放器',
-          url: ''
-        }, {
-          name: '远程访问Navidrome播放器',
-          url: ''
-        }, {
-          name: '远程硬盘挂载',
-          url: ''
-        }, {
-          name: 'Mac电脑远程挂载NAS硬盘',
-          url: ''
-        }, {
-          name: '华硕路由器作为 轻NAS 的前期准备',
-          url: ''
-        }, {
-          name: '华硕路由器搭配易有云实现 轻NAS 教程',
-          url: ''
-        }, {
-          name: '电视盒子也能当NAS',
-          url: ''
+          name: '仅用浏览器完成远程下载',
+          url: 'http://192.168.88.18:8080/zh/guide/ddnsto/remote_download.html#aria2%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD'
         }
       ],
       otherUrl: {
-        videoUrl1: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
+        videoUrl1: '//player.bilibili.com/player.html?aid=408377232&bvid=BV1cG411X7gy&cid=1331074770&p=1',
         videoUrl2: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
         videoUrl3: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
         videoUrl4: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',

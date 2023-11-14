@@ -238,370 +238,266 @@ export default {
          moreStatus5:false,
          moreStatus6:false,
          moreStatus7:false,
-         platformList1:[
+        platformList1: [
           {
-            name:'EasePi',
-            url:''
-          },{
-            name:'威联通',
-            url:''
+            name: 'Windows',
+            url: '/zh/guide/linkease/install/device/windows.html'
           }, {
-            name:'iStoreOS',
-            url:''
-          },{
-            name:'Docker',
-            url:''
-          },{
-            name:'华硕NAS',
-            url:''
-          },{
-            name:'爱快',
-            url:''
+            name: 'macOS',
+            url: '/zh/guide/linkease/install/device/mac.html'
           }, {
-            name:'Koolcenter 梅林',
-            url:''
+            name: 'iStoreOS',
+            url: '/zh/guide/linkease/install/device/istoreos.html'
           }, {
-            name:'Unraid',
-            url:''
+            name: 'OpenWrt',
+            url: '/zh/guide/linkease/install/device/openwrt.html'
           }, {
-            name:'Koolcenter Lede',
-            url:''
+            name: '华硕路由器',
+            url: '/zh/guide/linkease/install/device/koolcenter_merlin.html'
           }, {
-            name:'铁威马',
-            url:''
+            name: 'Docker',
+            url: '/zh/guide/linkease/install/device/docker.html'
           }, {
-            name:'OpenWrt',
-            url:''
+            name: '群晖',
+            url: '/zh/guide/linkease/install/device/synology.html'
           }, {
-            name:'Windows',
-            url:''
+            name: '威联通',
+            url: '/zh/guide/linkease/install/device/qnap.html'
           }, {
-            name:'群晖',
-            url:''
+            name: 'Unraid',
+            url: '/zh/guide/linkease/install/device/unraid.html'
           }, {
-            name:'ReadyNAS',
-            url:''
+            name: '极空间',
+            url: '/zh/guide/linkease/install/device/zspace.html'
           }, {
-            name:'Padavan',
-            url:''
+            name: '绿联NAS',
+            url: '/zh/guide/linkease/install/device/docker.html'
           }, {
-            name:'极空间',
-            url:''
+            name: '联想NAS',
+            url: '/zh/guide/linkease/install/device/docker.html'
+          }, {
+            name: '华硕NAS',
+            url: ''
+          }, {
+            name: 'TrueNAS',
+            url: '/zh/guide/linkease/install/device/docker.html'
+          }, {
+            name: '爱快',
+            url: '/zh/guide/linkease/install/device/ikuai.html'
+          }, {
+            name: '电视盒子(海纳思)',
+            url: '/zh/guide/linkease/install/device/histb.html'
+          }, {
+            name: 'Linux/Ubuntu/Debian/CentOS/CasaOS',
+            url: '/zh/guide/linkease/install/device/linux.html'
           }
-         ],
-         platformList2:[
+        ],
+        platformList2: [
           {
-            name:'EasePi',
-            url:''
-          },{
-            name:'威联通',
-            url:''
+            name: 'Windows',
+            url: '/zh/guide/ddnsto/install/device/windows.html'
           }, {
-            name:'iStoreOS',
-            url:''
-          },{
-            name:'Docker',
-            url:''
-          },{
-            name:'Koolcenter 梅林 ≥386',
-            url:''
-          },{
-            name:'爱快',
-            url:''
+            name: 'iStoreOS',
+            url: '/zh/guide/ddnsto/install/device/istoreos.html'
           }, {
-            name:'Koolcenter 梅林 <386',
-            url:''
+            name: 'OpenWrt',
+            url: '/zh/guide/ddnsto/install/device/openwrt.html'
           }, {
-            name:'Unraid',
-            url:''
+            name: '华硕路由器',
+            url: '/zh/guide/ddnsto/install/device/koolcenter_merlin.html'
           }, {
-            name:'Koolcenter Lede',
-            url:''
+            name: 'Padavan',
+            url: '/zh/guide/ddnsto/install/device/padavan.html'
           }, {
-            name:'铁威马',
-            url:''
+            name: 'Docker',
+            url: '/zh/guide/ddnsto/install/device/docker.html'
           }, {
-            name:'OpenWrt',
-            url:''
+            name: '群晖',
+            url: '/zh/guide/ddnsto/install/device/synology.html'
           }, {
-            name:'Windows',
-            url:''
+            name: '威联通',
+            url: '/zh/guide/ddnsto/install/device/qnap.html'
           }, {
-            name:'群晖',
-            url:''
+            name: 'Unraid',
+            url: '/zh/guide/ddnsto/install/device/unraid.html'
           }, {
-            name:'ReadyNAS',
-            url:''
+            name: '极空间',
+            url: '/zh/guide/ddnsto/install/device/zspace.html'
           }, {
-            name:'Padavan',
-            url:''
+            name: '绿联NAS',
+            url: '/zh/guide/ddnsto/install/device/docker.html'
           }, {
-            name:'极空间',
-            url:''
+            name: '联想NAS',
+            url: '/zh/guide/ddnsto/install/device/docker.html'
           }, {
-            name:'Linux 通用版',
-            url:''
+            name: '华硕NAS',
+            url: ''
+          }, {
+            name: 'TrueNAS',
+            url: '/zh/guide/ddnsto/install/device/docker.html'
+          }, {
+            name: '爱快',
+            url: '/zh/guide/ddnsto/install/device/ikuai.html'
+          }, {
+            name: '电视盒子(海纳思)',
+            url: '/zh/guide/ddnsto/install/device/histb.html'
+          }, {
+            name: 'Linux/Ubuntu/Debian/CentOS/CasaOS',
+            url: '/zh/guide/ddnsto/install/device/linux.html'
           }
-         ],
-         platformList3:[
+        ],
+        platformList3: [
           {
-            name:'EasePi',
-            url:''
-          },{
-            name:'威联通',
-            url:''
+            name: 'EasePi',
+            url: '/zh/guide/istoreos/install_ars2.html'
           }, {
-            name:'iStoreOS',
-            url:''
-          },{
-            name:'Docker',
-            url:''
-          },{
-            name:'Koolcenter 梅林 ≥386',
-            url:''
-          },{
-            name:'爱快',
-            url:''
+            name: 'X86物理机',
+            url: '/zh/guide/istoreos/install_x86.html'
           }, {
-            name:'Koolcenter 梅林 <386',
-            url:''
+            name: 'PVE',
+            url: '/zh/guide/istoreos/install_pve.html'
           }, {
-            name:'Unraid',
-            url:''
+            name: 'ESXI',
+            url: '/zh/guide/istoreos/install_esxi_8.html'
           }, {
-            name:'Koolcenter Lede',
-            url:''
+            name: 'R86S',
+            url: '/zh/guide/istoreos/install_x86.html'
           }, {
-            name:'铁威马',
-            url:''
+            name: 'R2S/R2C',
+            url: '/zh/guide/istoreos/install_r2s.html'
           }, {
-            name:'OpenWrt',
-            url:''
+            name: 'R5S/R5C',
+            url: '/zh/guide/istoreos/install_r5s.html'
           }, {
-            name:'Windows',
-            url:''
+            name: 'R6S/R6C',
+            url: '/zh/guide/istoreos/install_r6s.html'
           }, {
-            name:'群晖',
-            url:''
+            name: 'R66S',
+            url: '/zh/guide/istoreos/install_r66s.html'
           }, {
-            name:'ReadyNAS',
-            url:''
+            name: 'R68S',
+            url: '/zh/guide/istoreos/install_rockchip_sysupgrade.html'
           }, {
-            name:'Padavan',
-            url:''
+            name: 'H66K/H68K/H69K',
+            url: '/zh/guide/istoreos/install_h68k.html'
           }, {
-            name:'极空间',
-            url:''
+            name: 'H88K',
+            url: '/zh/guide/istoreos/install_h88k.html'
           }, {
-            name:'Linux 通用版',
-            url:''
+            name: 'T68M',
+            url: '/zh/guide/istoreos/install_t68m.html'
+          }, {
+            name: '树莓派4',
+            url: '/zh/guide/istoreos/install_rpi4.html'
           }
-         ],
-         question1:[
+        ],
+        question1: [
           {
-            name:'在家办公，通过远程桌面控制公司电脑',
-            url:''
+            name: '删除设备后，如何找回设备套餐？',
+            url: '/zh/guide/linkease/feedback/faq.html#q-%E5%88%A0%E9%99%A4%E8%AE%BE%E5%A4%87%E5%90%8E-%E5%A6%82%E4%BD%95%E6%89%BE%E5%9B%9E%E8%AE%BE%E5%A4%87%E5%A5%97%E9%A4%90'
           },
           {
-            name:'如何通过异地互联使用群晖Drive',
-            url:''
-          },{
-            name:'安卓手机资料想传给Mac电脑',
-            url:''
-          },{
-            name:'远程访问Transmission下载',
-            url:''
-          },{
-            name:' 远程访问Aria2下载',
-            url:''
-          },{
-            name:'远程访问qBittorrent下载',
-            url:''
-          },{
-            name:'远程访问Jellyfin 播放器',
-            url:''
-          },{
-            name:'远程访问emby播放器',
-            url:''
-          },{
-            name:'远程访问plex播放器',
-            url:''
-          },{
-            name:'远程访问Navidrome播放器',
-            url:''
-          },{
-            name:'远程硬盘挂载',
-            url:''
-          },{
-            name:'Mac电脑远程挂载NAS硬盘',
-            url:''
-          },{
-            name:'华硕路由器作为 轻NAS 的前期准备',
-            url:''
-          },{
-            name:'华硕路由器搭配易有云实现 轻NAS 教程',
-            url:''
-          },{
-            name:'电视盒子也能当NAS',
-            url:''
+            name: 'Windows客户端被检测出风险？',
+            url: '/zh/guide/linkease/feedback/faq.html#q-windows%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%87%BA%E9%A3%8E%E9%99%A9'
+          }, {
+            name: 'Windows客户端显示没网络？',
+            url: '/zh/guide/linkease/feedback/faq.html#q-windows%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%98%BE%E7%A4%BA%E6%B2%A1%E7%BD%91%E7%BB%9C'
+          }, {
+            name: '无法连接服务器',
+            url: '/zh/guide/linkease/feedback/faq.html#q-%E6%97%A0%E6%B3%95%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8'
+          }, {
+            name: '为何没传输数据-看监控还占用流量',
+            url: '/zh/guide/linkease/feedback/faq.html#q-%E4%B8%BA%E4%BD%95%E6%B2%A1%E4%BC%A0%E8%BE%93%E6%95%B0%E6%8D%AE-%E7%9C%8B%E7%9B%91%E6%8E%A7%E8%BF%98%E5%8D%A0%E7%94%A8%E6%B5%81%E9%87%8F'
           }
-         ],
-         question2:[
+        ],
+        question2: [
           {
-            name:'在家办公，通过远程桌面控制公司电脑',
-            url:''
+            name: '控制台显示设备离线',
+            url: '/zh/guide/ddnsto/question.html#%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%98%BE%E7%A4%BA%E8%AE%BE%E5%A4%87%E7%A6%BB%E7%BA%BF'
           },
           {
-            name:'如何通过异地互联使用群晖Drive',
-            url:''
-          },{
-            name:'安卓手机资料想传给Mac电脑',
-            url:''
-          },{
-            name:'远程访问Transmission下载',
-            url:''
-          },{
-            name:' 远程访问Aria2下载',
-            url:''
-          },{
-            name:'远程访问qBittorrent下载',
-            url:''
-          },{
-            name:'远程访问Jellyfin 播放器',
-            url:''
-          },{
-            name:'远程访问emby播放器',
-            url:''
-          },{
-            name:'远程访问plex播放器',
-            url:''
-          },{
-            name:'远程访问Navidrome播放器',
-            url:''
-          },{
-            name:'远程硬盘挂载',
-            url:''
-          },{
-            name:'Mac电脑远程挂载NAS硬盘',
-            url:''
-          },{
-            name:'华硕路由器作为 轻NAS 的前期准备',
-            url:''
-          },{
-            name:'华硕路由器搭配易有云实现 轻NAS 教程',
-            url:''
-          },{
-            name:'电视盒子也能当NAS',
-            url:''
+            name: '访问域名失败',
+            url: '/zh/guide/ddnsto/question.html#%E8%AE%BF%E9%97%AE%E5%9F%9F%E5%90%8D%E5%A4%B1%E8%B4%A5'
+          }, {
+            name: '远程windows桌面失败',
+            url: '/zh/guide/ddnsto/question.html#%E8%BF%9C%E7%A8%8Bwindows%E6%A1%8C%E9%9D%A2%E5%A4%B1%E8%B4%A5'
+          }, {
+            name: '域名相关问题汇总',
+            url: '/zh/guide/ddnsto/question.html#%E5%9F%9F%E5%90%8D%E7%B1%BB'
+          }, {
+            name: 'IP验证相关问题汇总',
+            url: '/zh/guide/ddnsto/question.html#%E9%AA%8C%E8%AF%81%E7%B1%BB'
+          }, {
+            name: '套餐丢失等问题汇总',
+            url: '/zh/guide/ddnsto/question.html#%E5%A5%97%E9%A4%90%E7%B1%BB'
+          }, {
+            name: '操作失败问题汇总',
+            url: '/zh/guide/ddnsto/question.html#%E6%93%8D%E4%BD%9C%E7%B1%BB'
           }
-         ],   
-          question3:[
+        ],
+        question3: [
           {
-            name:'在家办公，通过远程桌面控制公司电脑',
-            url:''
+            name: '安装系统失败？',
+            url: '/zh/guide/istoreos/question.html#%E5%AE%89%E8%A3%85%E7%B3%BB%E7%BB%9F'
           },
           {
-            name:'如何通过异地互联使用群晖Drive',
-            url:''
-          },{
-            name:'安卓手机资料想传给Mac电脑',
-            url:''
-          },{
-            name:'远程访问Transmission下载',
-            url:''
-          },{
-            name:' 远程访问Aria2下载',
-            url:''
-          },{
-            name:'远程访问qBittorrent下载',
-            url:''
-          },{
-            name:'远程访问Jellyfin 播放器',
-            url:''
-          },{
-            name:'远程访问emby播放器',
-            url:''
-          },{
-            name:'远程访问plex播放器',
-            url:''
-          },{
-            name:'远程访问Navidrome播放器',
-            url:''
-          },{
-            name:'远程硬盘挂载',
-            url:''
-          },{
-            name:'Mac电脑远程挂载NAS硬盘',
-            url:''
-          },{
-            name:'华硕路由器作为 轻NAS 的前期准备',
-            url:''
-          },{
-            name:'华硕路由器搭配易有云实现 轻NAS 教程',
-            url:''
-          },{
-            name:'电视盒子也能当NAS',
-            url:''
+            name: '软件中心安装失败？',
+            url: '/zh/guide/istoreos/question.html#%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6'
+          }, {
+            name: '网络配置问题汇总',
+            url: '/zh/guide/istoreos/question.html#%E6%9B%B4%E5%A4%9A%E7%BD%91%E7%BB%9C'
+          }, {
+            name: '硬盘挂载失败？',
+            url: '/zh/guide/istoreos/question.html#%E7%A1%AC%E7%9B%98%E6%8C%82%E8%BD%BD'
+          }, {
+            name: '界面自动变成英文？',
+            url: '/zh/guide/istoreos/question.html#%E7%95%8C%E9%9D%A2%E5%8F%98%E8%8B%B1%E6%96%87'
+          }, {
+            name: 'Docker安装或者下载失败？',
+            url: '/zh/guide/istoreos/question.html#docker-%E7%9B%B8%E5%85%B3'
+          }, {
+            name: 'iStoreOS是否违反开源协议？',
+            url: '/zh/guide/istoreos/question.html#%E5%85%B6%E5%AE%83'
           }
-         ],
-         questionTotal:[
+        ],
+        questionTotal: [
           {
-            name:'在家办公，通过远程桌面控制公司电脑',
-            url:''
+            name: '多人共享文件',
+            url: 'http://192.168.88.18:8080/zh/guide/linkease/function/home_share.html'
           },
           {
-            name:'如何通过异地互联使用群晖Drive',
-            url:''
+            name: '多地域组网',
+            url: 'http://192.168.88.18:8080/zh/guide/linkease/function/remote_connects.html'
+          },
+          {
+            name: '在家办公，用微软原生RDP远程Windows',
+            url: 'http://192.168.88.18:8080/zh/guide/linkease/tips/remote.html'
           },{
-            name:'安卓手机资料想传给Mac电脑',
-            url:''
-          },{
-            name:'远程访问Transmission下载',
-            url:''
-          },{
-            name:' 远程访问Aria2下载',
-            url:''
-          },{
-            name:'远程访问qBittorrent下载',
-            url:''
-          },{
-            name:'远程访问Jellyfin 播放器',
-            url:''
-          },{
-            name:'远程访问emby播放器',
-            url:''
-          },{
-            name:'远程访问plex播放器',
-            url:''
-          },{
-            name:'远程访问Navidrome播放器',
-            url:''
-          },{
-            name:'远程硬盘挂载',
-            url:''
-          },{
-            name:'Mac电脑远程挂载NAS硬盘',
-            url:''
-          },{
-            name:'华硕路由器作为 轻NAS 的前期准备',
-            url:''
-          },{
-            name:'华硕路由器搭配易有云实现 轻NAS 教程',
-            url:''
-          },{
-            name:'电视盒子也能当NAS',
-            url:''
+            name: '手机资料快速传给电脑',
+            url: 'http://192.168.88.18:8080/zh/guide/linkease/tips/device.html'
+          }, {
+            name: '手机远程下载',
+            url: 'http://192.168.88.18:8080/zh/guide/linkease/tips/transmission.html'
+          }, {
+            name: 'DDNSTO更好的身份验证',
+            url: 'http://192.168.88.18:8080/zh/guide/ddnsto/Authentication.html'
+          }, {
+            name: '仅用浏览器完成远程桌面',
+            url: 'http://192.168.88.18:8080/zh/guide/ddnsto/remote_control.html'
+          }, {
+            name: '仅用浏览器完成远程下载',
+            url: 'http://192.168.88.18:8080/zh/guide/ddnsto/remote_download.html#aria2%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD'
           }
-         ],
+        ],
          otherUrl:{
-            videoUrl1:'',
-            videoUrl2:'',
-            videoUrl3:'',
-            videoUrl4:'',
-            moreUrl1:'',
-            moreUrl2:'',
-            moreUrl3:'',
-            moreUrl4:'',
+          videoUrl1: '//player.bilibili.com/player.html?aid=408377232&bvid=BV1cG411X7gy&cid=1331074770&p=1',
+          videoUrl2: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
+          videoUrl3: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
+          videoUrl4: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
+          moreUrl1: '/zh/guide/linkease/function/file_transfer.html',
+          moreUrl2: '/zh/guide/linkease/function/photo_backup.html',
+          moreUrl3: '/zh/guide/linkease/tips/remote.html',
+          moreUrl4: '/zh/guide/linkease/function/file_backup.html',
          }
       }
   },
