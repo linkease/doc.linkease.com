@@ -227,6 +227,11 @@ Docker 可以简单理解为跟 iStoreOS 共用系统内核，共享系统硬件
 
 必须把 Docker 迁移到 EXT4 文件系统的非系统盘上
 
+### Docker 启动的时候，磁盘还没挂载好
+
+可以到杂项设置，设置等待磁盘挂载好！如图所示：
+![等待磁盘挂载](./question/disk-wait.png)
+
 ### 其它奇怪的问题
 
 其它奇怪的问题，比如：
@@ -267,11 +272,3 @@ iStoreOS 目标做个国内外都合法的固件，这样企业才能更安全�
 * 升级到最新版本
 * "系统" -> "备份/升级" -> "执行重置"
 * 如果有沙箱模式，可以考虑回退到上个版本。（不提交才能回退，提交了就无法回退了，所以要确保系统稳定了再提交）
-
-
-
-参考视频教程：  
-
-<a href="https://www.bilibili.com/video/BV1ij411B7r7/?spm_id_from=333.999.0.0&vd_source=8e363fb838693d4a1c274983edfd43fc" target="_blank">1分钟，解决 Docker 常见问题</a>  
-
-<iframe src="//www.bilibili.com/blackboard/html5mobileplayer.html?aid=402694106&bvid=BV1kV411u71V&cid=1176164520&page=1&fjw=0&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>

@@ -8,10 +8,10 @@
 ```
 opkg update
 
-opkg install libffi glib2 libjpeg libpng libsasl2 pixman  uclibcxx kmod-tun \
-   qemu-firmware-pxe  qemu-firmware-seabios  qemu-firmware-seavgabios qemu-keymaps qemu-firmware-efi \
-   qemu-x86_64-softmmu \
-   qemu-nbd  qemu-img  qemu-ga  qemu-bridge-helper  virtio-console-helper
+opkg install libffi glib2 libjpeg libpng libsasl2 pixman uclibcxx kmod-tun \
+   qemu-firmware-pxe qemu-firmware-seabios  qemu-firmware-seavgabios qemu-keymaps \
+   qemu-firmware-efi qemu-x86_64-softmmu \
+   qemu-nbd qemu-img qemu-ga  qemu-bridge-helper virtio-console-helper
 ```
 
 ## 第二步，安装为 iStoreOS 定制的 webvirtcloud Docker
@@ -53,3 +53,7 @@ DEBUG = True
 重新启动:
 
 docker exec webvirtcloud /etc/init.d/supervisor restart
+
+## 其他参考链接：
+
+* [PVE 安装Windows 虚拟机并显卡直通](https://3os.org/infrastructure/proxmox/windows-vm-configuration/)
