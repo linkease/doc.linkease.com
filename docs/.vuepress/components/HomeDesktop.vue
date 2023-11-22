@@ -37,14 +37,14 @@
         </div>
         <div class="product_guide" v-if="tabIndex1 === 1">
           <ul>
-            <li v-for="(item, index) in platformList1" :key="index" @click="openUrl(item.url)"> <span>{{ item.name
-            }}</span><img class="arrow" src="../public/home/arrow_right.png" /></li>
+            <li v-for="(item, index) in platformList1" :key="index" > <a :href="item.url">{{ item.name
+            }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
         <div class="product_question" v-if="tabIndex1 === 2">
           <ul>
-            <li v-for="(item, index) in question1" :key="index" @click="openUrl(item.url)"> <span>{{ item.name
-            }}</span><img class="arrow" src="../public/home/arrow_right.png" /></li>
+            <li v-for="(item, index) in question1" :key="index" > <a :href="item.url">{{ item.name
+            }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
       </div>
@@ -73,14 +73,14 @@
         </div>
         <div class="product_guide" v-if="tabIndex2 === 1">
           <ul>
-            <li v-for="(item, index) in platformList2" :key="index" @click="openUrl(item.url)"> <span>{{ item.name
-            }}</span><img class="arrow" src="../public/home/arrow_right.png" /></li>
+            <li v-for="(item, index) in platformList2" :key="index"  > <a :href="item.url">{{ item.name
+            }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
-        <div class="product_question" v-if="tabIndex2 === 2" @click="openUrl(item.url)">
+        <div class="product_question" v-if="tabIndex2 === 2">
           <ul>
-            <li v-for="(item, index) in question2" :key="index"> <span>{{ item.name }}</span><img class="arrow"
-                src="../public/home/arrow_right.png" /></li>
+            <li v-for="(item, index) in question2" :key="index"> <a :href="item.url">{{ item.name
+            }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
       </div>
@@ -109,14 +109,14 @@
         <div class="product_guide" v-if="tabIndex3 === 1">
           <ul>
             <li v-for="(item, index) in platformList3" :class="index === platformList3.length - 1 ? 'not-long' : ''"
-              :key="index" @click="openUrl(item.url)"> <span>{{ item.name }}</span><img class="arrow"
-                src="../public/home/arrow_right.png" /></li>
+              :key="index"  > <a :href="item.url">{{ item.name
+            }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
         <div class="product_question" v-if="tabIndex3 === 2">
           <ul>
-            <li v-for="(item, index) in question3" :key="index" @click="openUrl(item.url)"> <span>{{ item.name
-            }}</span><img class="arrow" src="../public/home/arrow_right.png" /></li>
+            <li v-for="(item, index) in question3" :key="index" > <a :href="item.url">{{ item.name
+            }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
       </div>
@@ -170,8 +170,8 @@
       <div class="content_right">
         <div class="title">更多实践</div>
         <ul>
-          <li v-for="(item, index) in questionTotal" :key="index" @click="openUrl(item.url)"><span>{{ item.name
-          }}</span><img class="arrow" src="../public/home/arrow_right.png" /></li>
+          <li v-for="(item, index) in questionTotal" :key="index"  > <a :href="item.url">{{ item.name
+            }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
         </ul>
       </div>
     </div>
@@ -212,9 +212,9 @@
 <script>
 import logo_video from "../public/home/icon_video.png"
 import close_icon from "../public/home/close-icon.png"
-import icon_linkease from "../public/home/icon_linkease_new.png"
-import icon_ddnsto from "../public/home/icon_ddnsto_new.png"
-import icon_iStoreOS from "../public/home/icon_iStoreOS_new.png"
+import icon_linkease from "../public/home/logo_linkease@3x.png.png"
+import icon_ddnsto from "../public/home/logo_ddnsto@3x.png.png"
+import icon_iStoreOS from "../public/home/logo_iStoreOS@3x.png.png"
 
 
 export default {
@@ -454,30 +454,30 @@ export default {
       questionTotal: [
         {
           name: '多人共享文件',
-          url: 'http://192.168.88.18:8080/zh/guide/linkease/function/home_share.html'
+          url: '/zh/guide/linkease/function/home_share.html'
         },
         {
           name: '多地域组网',
-          url: 'http://192.168.88.18:8080/zh/guide/linkease/function/remote_connects.html'
+          url: '/zh/guide/linkease/function/remote_connects.html'
         },
         {
           name: '在家办公，用微软原生RDP远程Windows',
-          url: 'http://192.168.88.18:8080/zh/guide/linkease/tips/remote.html'
+          url: '/zh/guide/linkease/tips/remote.html'
         },{
           name: '手机资料快速传给电脑',
-          url: 'http://192.168.88.18:8080/zh/guide/linkease/tips/device.html'
+          url: '/zh/guide/linkease/tips/device.html'
         }, {
           name: '手机远程下载',
-          url: 'http://192.168.88.18:8080/zh/guide/linkease/tips/transmission.html'
+          url: '/zh/guide/linkease/tips/transmission.html'
         }, {
           name: 'DDNSTO更好的身份验证',
-          url: 'http://192.168.88.18:8080/zh/guide/ddnsto/Authentication.html'
+          url: '/zh/guide/ddnsto/Authentication.html'
         }, {
           name: '仅用浏览器完成远程桌面',
-          url: 'http://192.168.88.18:8080/zh/guide/ddnsto/remote_control.html'
+          url: '/zh/guide/ddnsto/remote_control.html'
         }, {
           name: '仅用浏览器完成远程下载',
-          url: 'http://192.168.88.18:8080/zh/guide/ddnsto/remote_download.html#aria2%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD'
+          url: '/zh/guide/ddnsto/remote_download.html#aria2%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD'
         }
       ],
       otherUrl: {
@@ -526,7 +526,8 @@ export default {
         "mailto:admin@linkease.com?subject=Subject&body=message%20goes%20here";
     },
     openUrl(url) {
-      window.open(url, '_self');
+      console.log(window.location.host+url)
+      window.open('https://doc.linkease.com/'+url, '_self');
     },
     openModal(url) {
       this.videoUrl = url
@@ -735,13 +736,25 @@ export default {
           display: flex;
           flex-wrap: wrap;
           margin-left: -24px;
-
-          li {
+          li{
             height: 38px;
             background: #F9F9F9;
             border-radius: 4px;
             width: calc(50% - 12px);
             margin-left: 12px;
+            padding: 0;
+            box-sizing: border-box;
+            margin-bottom: 4px;
+            list-style:none;
+            &:last-child {
+              width: calc(100% - 12px);
+            }
+          }
+          li >a{
+            height: 38px;
+            background: #F9F9F9;
+            border-radius: 4px;
+            width: 100%;
             padding: 0 12px;
             box-sizing: border-box;
             margin-bottom: 4px;
@@ -755,9 +768,7 @@ export default {
               height: 14px;
             }
 
-            &:last-child {
-              width: calc(100% - 12px);
-            }
+           
           }
 
           .not-long {
@@ -772,8 +783,10 @@ export default {
           font-family: PingFangSC-Regular, PingFang SC;
           font-weight: 400;
           color: #0060FF;
-
-          li {
+li{
+  list-style:none;
+}
+          li >a{
             height: 38px;
             background: #F9F9F9;
             border-radius: 4px;
@@ -842,8 +855,11 @@ export default {
         font-weight: 400;
         color: #0060FF;
         line-height: 22px;
-
-        li {
+li{
+  list-style: none;
+}
+        li >a{
+       
           height: 38px;
           background: #F9F9F9;
           border-radius: 4px;
