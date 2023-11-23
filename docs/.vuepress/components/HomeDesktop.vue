@@ -1,6 +1,6 @@
 <template>
   <div id="page" class="desktop">
-    <!-- 标题 -->
+    标题
     <div class="desktop_top">
       <div class="title">万物皆可做网盘</div>
       <div class="subtext">你用手机电脑电视等来当私人网盘，那你应该用易有云；
@@ -212,9 +212,9 @@
 <script>
 import logo_video from "../public/home/icon_video.png"
 import close_icon from "../public/home/close-icon.png"
-import icon_linkease from "../public/home/logo_linkease@3x.png.png"
-import icon_ddnsto from "../public/home/logo_ddnsto@3x.png.png"
-import icon_iStoreOS from "../public/home/logo_iStoreOS@3x.png.png"
+import icon_linkease from "../public/home/logo_linkease@3x.png"
+import icon_ddnsto from "../public/home/logo_ddnsto@3x.png"
+import icon_iStoreOS from "../public/home/logo_iStoreOS@3x.png"
 
 
 export default {
@@ -526,7 +526,6 @@ export default {
         "mailto:admin@linkease.com?subject=Subject&body=message%20goes%20here";
     },
     openUrl(url) {
-      console.log(window.location.host+url)
       window.open('https://doc.linkease.com/'+url, '_self');
     },
     openModal(url) {
@@ -783,9 +782,9 @@ export default {
           font-family: PingFangSC-Regular, PingFang SC;
           font-weight: 400;
           color: #0060FF;
-li{
-  list-style:none;
-}
+          li{
+            list-style:none;
+          }
           li >a{
             height: 38px;
             background: #F9F9F9;
@@ -855,9 +854,9 @@ li{
         font-weight: 400;
         color: #0060FF;
         line-height: 22px;
-li{
-  list-style: none;
-}
+        li{
+          list-style: none;
+        }
         li >a{
        
           height: 38px;
