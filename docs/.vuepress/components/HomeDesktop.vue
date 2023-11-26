@@ -30,8 +30,8 @@
           </ul>
         </div>
         <div class="product_bottom" v-if="tabIndex1 === 0">
-          <div class="video-box"><span>查看文档</span></div>
-          <div class="video-box" ><span>进入官网</span></div>
+          <div class="video-box" @click="openOtherUrl(productUrl[0].doc)"><span>查看文档</span></div>
+          <div class="video-box"  @click="openOtherUrl(productUrl[0].web)"><span>进入官网</span></div>
           <div class="video-box" @click="openModal(otherUrl.videoUrl2)"><span>观看视频</span></div>
         </div>
         <div class="product_guide" v-if="tabIndex1 === 1">
@@ -67,8 +67,8 @@
           </ul>
         </div>
         <div class="product_bottom" v-if="tabIndex2 === 0">
-          <div class="video-box"><span>查看文档</span></div>
-          <div class="video-box" ><span>进入官网</span></div>
+          <div class="video-box"  @click="openOtherUrl(productUrl[1].doc)"><span>查看文档</span></div>
+          <div class="video-box"  @click="openOtherUrl(productUrl[1].web)"><span>进入官网</span></div>
           <div class="video-box" @click="openModal(otherUrl.videoUrl3)"><span>观看视频</span></div>
         </div>
         <div class="product_guide" v-if="tabIndex2 === 1">
@@ -103,8 +103,8 @@
           </ul>
         </div>
         <div class="product_bottom" v-if="tabIndex3 === 0">
-          <div class="video-box"><span>查看文档</span></div>
-          <div class="video-box" ><span>进入官网</span></div>
+          <div class="video-box"  @click="openOtherUrl(productUrl[2].doc)"><span>查看文档</span></div>
+          <div class="video-box"  @click="openOtherUrl(productUrl[2].web)"><span>进入官网</span></div>
           <div class="video-box" @click="openModal(otherUrl.videoUrl4)"><span>观看视频</span></div>
         </div>
         <div class="product_guide" v-if="tabIndex3 === 1">
@@ -256,6 +256,20 @@ export default {
       tabIndex2: 0,
       tabIndex3: 0,
       dialogVisible: false,
+      productUrl:[
+        {
+          web:'https://www.linkease.com/',
+          doc:'http://doc.linkease.com/zh/guide/linkease/'
+        },
+        {
+          web:'https://www.ddnsto.com/',
+          doc:'http://doc.linkease.com/zh/guide/ddnsto/'
+        }, {
+          web:'https://www.istoreos.com/',
+          doc:'http://doc.linkease.com/zh/guide/istoreos/'
+        }
+
+      ],
       platformList1: [
         {
           name: 'Windows',
@@ -551,6 +565,9 @@ export default {
     openEmail() {
       window.location.href =
         "mailto:admin@linkease.com?subject=Subject&body=message%20goes%20here";
+    },
+    openOtherUrl(url) {
+      window.open(url, '_self');
     },
     openUrl(url) {
       window.open('https://doc.linkease.com/'+url, '_self');
