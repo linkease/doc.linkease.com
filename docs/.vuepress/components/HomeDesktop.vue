@@ -174,7 +174,7 @@
           <li v-for="(item, index) in questionTotal" :key="index"  > <a :href="item.url">{{ item.name
             }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
         </ul>
-        <div class="more" >查看全部</div>
+        <div class="more" @click="openOtherUrl('https://app.linkease.com/')">查看全部</div>
       </div>
     </div>
     <!-- 联系我们 -->
