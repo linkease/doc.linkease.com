@@ -51,7 +51,7 @@ module.exports = ctx => ({
                 editLinkText: '此文档有误？在 GitHub 上反馈。',
                 lastUpdated: '上次更新',
                 nav: [
-                    { text: '产品文档', link: '/' },
+                    { text: '产品中心', link: '/' },
                     {
                         text: '文档', link: '/zh/guide/linkease/', items: [
                             { text: '易有云', link: '/zh/guide/linkease/' },
