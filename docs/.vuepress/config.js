@@ -62,10 +62,19 @@ module.exports = ctx => ({
                             { text: '知识库', link: '/zh/guide/wiki/' }
 
                         ]
-                    },
+                  },
                     { text: '博客', link: '/post/' },
                     {
                         text: '关于我们', link: 'https://www.linkease.com/about'
+                  },
+                  {
+                        text: '更多产品', items: [
+                            { text: 'iStoreOS', link: 'https://www.istoreos.com/' },
+                            { text: 'DDNSTO', link: 'https://www.ddnsto.com/' },
+                            { text: 'iStore', link: 'https://doc.linkease.com/zh/guide/istore/' },
+                            { text: 'EasePi', link: 'https://easepi.linkease.com/' }
+
+                        ]
                     },
                 ],
                 sidebar: {
