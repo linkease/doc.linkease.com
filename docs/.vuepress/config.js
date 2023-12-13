@@ -51,7 +51,7 @@ module.exports = ctx => ({
                 editLinkText: '此文档有误？在 GitHub 上反馈。',
                 lastUpdated: '上次更新',
                 nav: [
-                    { text: '首页', link: '/' },
+                    { text: '产品中心', link: '/' },
                     {
                         text: '文档', link: '/zh/guide/linkease/', items: [
                             { text: '易有云', link: '/zh/guide/linkease/' },
@@ -62,10 +62,19 @@ module.exports = ctx => ({
                             { text: '知识库', link: '/zh/guide/wiki/' }
 
                         ]
-                    },
+                  },
                     { text: '博客', link: '/post/' },
                     {
                         text: '关于我们', link: 'https://www.linkease.com/about'
+                  },
+                  {
+                        text: '更多产品', items: [
+                            { text: 'iStoreOS', link: 'https://www.istoreos.com/' },
+                            { text: 'DDNSTO', link: 'https://www.ddnsto.com/' },
+                            { text: 'iStore', link: 'https://doc.linkease.com/zh/guide/istore/' },
+                            { text: 'EasePi', link: 'https://easepi.linkease.com/' }
+
+                        ]
                     },
                 ],
                 sidebar: {
