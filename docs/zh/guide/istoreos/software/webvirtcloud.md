@@ -1,58 +1,30 @@
 # 在 iStoreOS 安装虚拟机平台
 
-我们可以通过 iStoreOS 来安装 KVM 虚拟机平台：webvirtcloud。 
-在虚拟机平台基础上，可以设置网卡直通，显卡直通来安装 Windows，或者群晖。 
-未来软件中心我们也会上架更多的插件，比如 Windows 插件，群晖插件。敬请期待！
-
-## 第一步，iStoreOS 安装相关 KVM 依赖
+1. 从 SSH 进到 Docker 命令行：docker exec -it webvirtcloud bash
+2. 用命令在 iStoreOS 里面从 img 转换到  qcow2 参考：
 ```
 opkg update
-
-opkg install libffi glib2 libjpeg libpng libsasl2 pixman uclibcxx kmod-tun \
-   qemu-firmware-pxe qemu-firmware-seabios  qemu-firmware-seavgabios qemu-keymaps \
-   qemu-firmware-efi qemu-x86_64-softmmu \
-   qemu-nbd qemu-img qemu-ga  qemu-bridge-helper virtio-console-helper
+opkg install qemu-img
+qemu-img convert -f raw -O qcow2 ./haos_generic-x86-64-11.2.img ./haos.qcow2
 ```
+3. 上传镜像到系统，并加载镜像。文件夹的位置在插件选择的目录里面的 images 里面，上传好比如 iso 就可以让虚拟机识别了
+4. 网络桥接原理如图所示：（会自动桥接到 br-lan 口，如果 br-lan 口没接网线，只接了 WAN 口，则建议用 NAT 网络
+![网络桥接](./picture/webvirtcloud-net.png)
 
-## 第二步，安装为 iStoreOS 定制的 webvirtcloud Docker
 
-先准备一个村配置的文件夹，注意换成自己的路径
-```
-mkdir -p /mnt/usb2-2/webvirtcloud-configs
-```
+## 安装 HomeAssistant 虚拟机参考
 
-运行 Docker:
-```
-docker run -it --cgroupns=host \
-	--tmpfs /tmp \
-	--tmpfs /run \
-	--tmpfs /run/lock \
-	-v /sys/fs/cgroup:/sys/fs/cgroup \
-	-v /mnt:/mnt:rslave \
-	-v /mnt/usb2-2/webvirtcloud-configs:/srv/webvirtcloud/dbconfig \
-	-p 6009:80 \
-	--privileged -d \
-	--name webvirtcloud linkease/webvirtcloud:0.2
-```
-	
-初始化 IP 等等信息
-```
-docker exec webvirtcloud /srv/startup.sh 192.168.9.242 6009
-```
+这个是 HomeAssistant 的安装视频，可以作为大家手动安装虚拟机的参考：
 
-主意把 IP：192.168.9.242 换成自己的 IP。
-路径：/mnt/usb2-2/webvirtcloud-configs 换成自己的路径
+<iframe src="//player.bilibili.com/player.html?aid=236949444&bvid=BV1Qe411o7Qt&cid=1358788868&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-## 开启 DEBUG 模式
-另外发现还有问题，需要开启 DEBUG 模式才行。具体开启  DEBUG 模式的办法：
+## 更新插件参考
 
-修改 /mnt/usb2-2/webvirtcloud-configs/local_settings.py，往里面加一行代码：
+建议是，停止了，插件，再更新插件，再启动插件。  
+这样保证在运行中从被停止了，才会更新成功。参考视频：  
 
-DEBUG = True
+<iframe src="//player.bilibili.com/player.html?aid=494608438&bvid=BV1NN411L7BU&cid=1363300025&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-重新启动:
-
-docker exec webvirtcloud /etc/init.d/supervisor restart
 
 ## 其他参考链接：
 
