@@ -310,6 +310,7 @@ module.exports = ctx => ({
                                     title: "软件中心", collapsable: true, children: [
                                         ["software/ddnsto", "DDNSTO"],
                                         ["software/linkease", "易有云"],
+                                        ["software/istorex", "iStoreX皮肤"],
                                         ["software/aria2", "Aria2下载器"],
                                         ["software/qBittorrent", "qBittorrent下载器"],
                                         ["software/transmission", "Transmission下载器"],

@@ -524,8 +524,8 @@ export default {
       otherUrl: {
         videoUrl1: '//player.bilibili.com/player.html?aid=408377232&bvid=BV1cG411X7gy&cid=1331074770&p=1',
         videoUrl2: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
-        videoUrl3: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
-        videoUrl4: '//player.bilibili.com/player.html?aid=730900638&bvid=BV17D4y1173J&cid=843076396&page=1',
+        videoUrl3: '//player.bilibili.com/player.html?aid=963672410&bvid=BV1wH4y127o3&cid=1340624346&p=1',
+        videoUrl4: '//player.bilibili.com/player.html?aid=876543006&bvid=BV1bN4y127Vy&cid=1349241599&p=1',
         moreUrl1: '/zh/guide/linkease/function/file_transfer.html',
         moreUrl2: '/zh/guide/linkease/function/photo_backup.html',
         moreUrl3: '/zh/guide/linkease/tips/remote.html',
