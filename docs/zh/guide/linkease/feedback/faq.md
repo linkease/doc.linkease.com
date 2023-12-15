@@ -52,3 +52,24 @@
 3. 可能同步圈数据在同步
 4. 可能你分享设备给别人，别人正在进行文件传输。
 
+## Q：Windows客户端启动后显示白屏或者无法连接网络？
+
+遇到这种情况，可能是被防火墙拦截了，或者系统中安装的某些软件拦截了。
+
+![image](./image/faq/winerror.jpg)
+
+1. 找到易有云快捷方式，右键打开“属性”。
+
+![image](./image/faq/winerror2.jpg)
+
+2. 在“属性”中切换到“快捷方式”，点击“打开文件所在的位置”。
+
+![image](./image/faq/winerror3.jpg)
+
+3. 打开后找到易有云应用程序。
+
+![image](./image/faq/winerror4.jpg)
+
+4. 然后把易有云应用程序改个名字后再打开即可。
+
+![image](./image/faq/winerror5.jpg)

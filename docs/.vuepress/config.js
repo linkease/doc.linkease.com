@@ -325,11 +325,12 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "最佳实践", collapsable: true, children: [
+                                        ["practice/HowToWriteDoc", "用 iStoreOS 写文档"],
                                         ["practice/ventoy", "Ventoy打造最强U盘"],
                                         ["practice/DialMore", "多账号多拨"],
                                         ["practice/pikvm", "免屏幕键盘鼠标给小主机装系统"],
                                         ["practice/mesh", "无线 Mesh 路由器组网方式"],
-                                        ["practice/HowToWriteDoc", "用 iStoreOS 写文档"]
+                                        ["practice/WiFiSupported", "无线驱动支持"]
                                        
                                     ]
                                 },
