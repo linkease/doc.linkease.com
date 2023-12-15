@@ -236,7 +236,7 @@ import logo_video from "../public/home/icon_video.png"
 import close_icon from "../public/home/close-icon.png"
 import icon_linkease from "../public/home/logo_linkease@3x.png"
 import icon_ddnsto from "../public/home/logo_ddnsto@3x.png"
-import icon_iStoreOS from "../public/home/logo_iStoreOS@3x.png"
+import icon_iStoreOS from "../public/home/logo_istoreos@3x.png"
 import wxIcon from "../public/home/wx_icon.png";
 import blIcon from "../public/home/bl_icon.png";
 import blBg from "../public/home/bl_bg.png";
