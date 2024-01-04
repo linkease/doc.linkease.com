@@ -58,9 +58,13 @@ module.exports = ctx => ({
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
                             { text: 'iStoreOS', link: '/zh/guide/istoreos/' },
                             { text: 'iStore', link: '/zh/guide/istore/' },
-                            { text: 'EasePi', link: '/zh/guide/easepi/' },
-                            { text: '知识库', link: '/zh/guide/wiki/' }
-
+                            {
+                                text: 'EasePi', items: [
+                                    { text: 'EasePi-ARS2', link: '/zh/guide/easepi-ars2/' },
+                                    { text: 'EasePi-ARS4', link: '/zh/guide/easepi-ars4/' },
+                                ]
+                            },
+                            { text: '知识库', link: '/zh/guide/wiki/' } 
                         ]
                   },
                     { text: '博客', link: '/post/' },
@@ -239,9 +243,28 @@ module.exports = ctx => ({
                             ]
                         },
                     ],
-                    '/zh/guide/easepi/': [
+                    '/zh/guide/easepi-ars2/': [
                         {
-                            title: "EasePi",
+                            title: "EasePi-ARS2",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                ["", "产品介绍"],
+                                { title: "开始", collapsable: false, children: [["case", "组装"], ["quick", "配置"]] },
+                                ["common", "基础玩法"],
+                                ["advanced", "高阶玩法"],
+                                { title: "其他", collapsable: true, children: [["opensource", "系统DIY"], ["usb_flash", "USB线刷"]] },
+                                ["question", "常见问题"],
+                                // ["about", "联系我们"],
+                            ]
+                        },
+                    ],
+                    '/zh/guide/easepi-ars4/': [
+                        {
+                            title: "EasePi-ARS4",
                             // 显示所有页面的标题链接
                             displayAllHeaders: true,
                             // 展开状态
