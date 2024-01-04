@@ -1,6 +1,6 @@
 ## EasePi介绍
 
-EasePi 由 [KoolShare](https://koolshare.cn/space-uid-2380.html) @小宝带领的易有云团队，推出的基于 RTD1296 处理器且带存储的软路由开发版。一款兼顾软路由和 NAS，支持流媒体硬件解码，功耗又低的网络神器。
+EasePi 由是易有云团队专为家庭智能网关、轻 NAS 设计的硬件产品系列。
 
 ![about1](./about/about1.jpg) 
 
