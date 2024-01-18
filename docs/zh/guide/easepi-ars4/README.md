@@ -2,7 +2,7 @@
 
 EasePi 由是易有云团队专为家庭智能网关、轻 NAS 设计的硬件产品系列。
 
-![about1](./about/ars4-1.png) 
+![about1](./about/ars4-1.jpg) 
 
 ## 产品展示
 
