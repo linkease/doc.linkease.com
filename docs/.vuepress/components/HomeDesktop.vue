@@ -259,14 +259,14 @@ export default {
       productUrl:[
         {
           web:'https://www.linkease.com/',
-          doc:'http://doc.linkease.com/zh/guide/linkease/'
+          doc:'/zh/guide/linkease/'
         },
         {
           web:'https://www.ddnsto.com/',
-          doc:'http://doc.linkease.com/zh/guide/ddnsto/'
+          doc:'/zh/guide/ddnsto/'
         }, {
           web:'https://www.istoreos.com/',
-          doc:'http://doc.linkease.com/zh/guide/istoreos/'
+          doc:'/zh/guide/istoreos/'
         }
 
       ],
@@ -570,7 +570,7 @@ export default {
       window.open(url, '_self');
     },
     openUrl(url) {
-      window.open('https://doc.linkease.com/'+url, '_self');
+      window.open(url, '_self');
     },
     openModal(url) {
       this.videoUrl = url

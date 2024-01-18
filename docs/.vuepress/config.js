@@ -56,8 +56,8 @@ module.exports = ctx => ({
                         text: '文档', link: '/zh/guide/linkease/', items: [
                             { text: '易有云', link: '/zh/guide/linkease/' },
                             { text: 'DDNSTO', link: '/zh/guide/ddnsto/' },
-                            { text: 'iStoreOS', link: '/zh/guide/istoreos/' },
-                            { text: 'iStore', link: '/zh/guide/istore/' },
+                            { text: 'iStoreOS 系统', link: '/zh/guide/istoreos/' },
+                            { text: 'iStore 软件中心', link: '/zh/guide/istore/' },
                             {
                                 text: 'EasePi', items: [
                                     { text: 'EasePi-ARS2', link: '/zh/guide/easepi-ars2/' },
@@ -272,10 +272,13 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "产品介绍"],
-                                { title: "开始", collapsable: false, children: [["case", "组装"], ["quick", "配置"]] },
-                                ["common", "基础玩法"],
-                                ["advanced", "高阶玩法"],
-                                { title: "其他", collapsable: true, children: [["opensource", "系统DIY"], ["usb_flash", "USB线刷"]] },
+                                { title: "配置易有云", collapsable: false, children: [["todo", "安装客户端"], ["todo", "绑定设备"]] }, 
+                                ["function/photo_backup", "相册备份"],
+                                ["/zh/guide/linkease/function/file_backup", "文件同步"],
+                                ["todo", "文件共享（SAMBA）"],
+                                ["todo", "家庭影院"],
+                                ["softcenter", "软件中心"],
+                                ["todo", "Docker"],
                                 ["question", "常见问题"],
                                 // ["about", "联系我们"],
                             ]
