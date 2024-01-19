@@ -271,16 +271,35 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "产品介绍"],
-                                { title: "配置易有云", collapsable: false, children: [["todo", "安装客户端"], ["todo", "绑定设备"]] }, 
-                                ["function/photo_backup", "相册备份"],
-                                ["/zh/guide/linkease/function/file_backup", "文件同步"],
-                                ["todo", "文件共享（SAMBA）"],
+                                ["", "快速开始"],
+								["hardware", "硬件产品详情"],
+								["advantage", "ARS4产品优势"],  
+								["quickstart_hardware", "硬件快速上手"],  
+								["quickstart_software", "软件快速上手"], 
+								["quickfix", "问题快速解决"],
+								["easepi", "EasePi介绍"],								
+								{title: "基础操作", 
+									collapsable: false,
+									children: [
+										["network", "网络设置"], 
+										["disk", "磁盘管理"], 
+										["share", "局域网共享"]
+										]
+								}, 
+                                {title: "配置私有云", 
+									collapsable: false,
+									children: [
+										["todo", "从手机配置"],
+										["todo", "从网页配置"],
+										["todo", "相册备份"],
+										["todo", "文件同步"],
+										["todo", "网盘挂载"] 
+										]
+								}, 
                                 ["todo", "家庭影院"],
-                                ["softcenter", "软件中心"],
+                                ["todo", "软件中心"],
                                 ["todo", "Docker"],
                                 ["question", "常见问题"],
-                                // ["about", "联系我们"],
                             ]
                         },
                     ],
