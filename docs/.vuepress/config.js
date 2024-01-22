@@ -272,8 +272,8 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "快速开始"],
-								["hardware", "硬件产品详情"],
 								["advantage", "ARS4产品优势"],  
+								["hardware", "硬件产品详情"],
 								["quickstart_hardware", "硬件快速上手"],  
 								["quickstart_software", "软件快速上手"], 
 								["quickfix", "问题快速解决"],

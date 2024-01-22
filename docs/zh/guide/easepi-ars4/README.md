@@ -1,5 +1,6 @@
 
-EasePi 由是易有云团队专为家庭智能网关、轻 NAS 设计的硬件产品系列。
+[EasePi](easepi) 由是易有云团队专为家庭智能网关、轻 NAS 设计的硬件产品系列。  
+[`ARS4`](https://item.taobao.com/item.htm?ft=t&id=760716149460) 指的是四盘位的 `ARS`，意思是 `A`(A+ 更好的) `R`(Router 路由器)`S`(Storage 存储) 设备。
 
 ![about1](./about/ars4-1.jpg) 
 
@@ -7,11 +8,11 @@ EasePi 由是易有云团队专为家庭智能网关、轻 NAS 设计的硬件�
 
 | 标题 | 文字教程 | 视频教程 | 描述 |
 | :----: | :----: | :----: | :----: |
-| ARS4产品优势 | TODO | TODO | TODO |
+| ARS4产品优势 | [文字介绍](advantage) | TODO | TODO |
 | 硬件快速上手 | TODO | TODO | TODO |
 | 软件快速上手 | TODO | TODO | TODO |
 | 问题快速解决 | TODO | TODO | TODO |
-| 硬件产品详情 | TODO | TODO | TODO |
+| 硬件产品详情 | [文字介绍](hardware) | TODO | TODO |
 
 ## 数据快速备份
 
@@ -65,7 +66,9 @@ EasePi 由是易有云团队专为家庭智能网关、轻 NAS 设计的硬件�
 
 | 标题 | 文字教程 | 视频教程 | 描述 |
 | :----: | :----: | :----: | :----: |
+| 浏览器导航页 | TODO | TODO | TODO |
 | 多款皮肤选择 | TODO | TODO | TODO |
+| 成为路由器 | TODO | TODO | TODO |
 | 开启桌面系统 | TODO | TODO | TODO |
 | HDMI播放视频 | TODO | TODO | TODO |
 | 虚拟机 | TODO | TODO | TODO |
