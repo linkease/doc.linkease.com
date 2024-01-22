@@ -8,11 +8,11 @@
 
 | 标题 | 文字教程 | 视频教程 | 描述 |
 | :----: | :----: | :----: | :----: |
-| ARS4产品优势 | [文字介绍](advantage.html) | TODO | TODO |
-| 硬件快速上手 | TODO | TODO | TODO |
-| 软件快速上手 | TODO | TODO | TODO |
-| 问题快速解决 | TODO | TODO | TODO |
-| 硬件产品详情 | [文字介绍](hardware.html) | TODO | TODO |
+| ARS4产品优势 | [文字介绍](advantage.html) | [B站视频](todo.html) |  |
+| 硬件快速上手 | TODO | [B站视频](todo.html) |  |
+| 软件快速上手 | TODO | [B站视频](todo.html) |  |
+| 问题快速解决 | TODO | [B站视频](todo.html) |  |
+| 硬件产品详情 | [文字介绍](hardware.html) | 无 |  |
 
 ## 数据快速备份
 
