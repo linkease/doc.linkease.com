@@ -8,10 +8,10 @@
 
 | 标题 | 文字教程 | 视频教程 | 描述 |
 | :----: | :----: | :----: | :----: |
-| ARS4产品优势 | [文字介绍](advantage.html) | [B站视频](todo.html) |  |
+| ARS4产品优势 | [文字介绍](advantage.html) | [B站视频](https://www.bilibili.com/video/BV1vV411Q7wb/?share_source=copy_web&vd_source=60661ff18afa37bbfca1f94f13563a45) |  |
 | 硬件快速上手 | TODO | [B站视频](todo.html) |  |
 | 软件快速上手 | TODO | [B站视频](todo.html) |  |
-| 问题快速解决 | TODO | [B站视频](todo.html) |  |
+| 问题快速解决 | [文字教程](quickfix.html) | [B站视频](todo.html) |  |
 | 硬件产品详情 | [文字介绍](hardware.html) | 无 |  |
 
 ## 数据快速备份
