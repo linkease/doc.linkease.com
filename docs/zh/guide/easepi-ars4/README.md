@@ -9,8 +9,8 @@
 | 标题 | 文字教程 | 视频教程 | 描述 |
 | :----: | :----: | :----: | :----: |
 | ARS4产品优势 | [文字介绍](advantage.html) | [B站视频](https://www.bilibili.com/video/BV1vV411Q7wb/?share_source=copy_web&vd_source=60661ff18afa37bbfca1f94f13563a45) |  |
-| 硬件快速上手 | TODO | [B站视频](todo.html) |  |
-| 软件快速上手 | TODO | [B站视频](todo.html) |  |
+| 硬件快速上手 | TODO | [B站视频](https://www.bilibili.com/video/BV1EZ4y1n72A/?spm_id_from=333.999.0.0) |  |
+| 软件快速上手 | TODO | [手机快速上手](https://www.bilibili.com/video/BV1PW4y1c7Hc/?spm_id_from=333.999.0.0) ，[电脑客户端](https://www.bilibili.com/video/BV1wZ4y1n7H2/?spm_id_from=333.999.0.0) |  |
 | 问题快速解决 | [文字教程](quickfix.html) | [B站视频](todo.html) |  |
 | 硬件产品详情 | [文字介绍](hardware.html) | 无 |  |
 
