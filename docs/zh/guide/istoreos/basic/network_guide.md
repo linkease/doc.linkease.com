@@ -57,7 +57,10 @@ DNS服务器：可为上级路由的IP，也可填写运营商的DNS，也可以
 
 路由器拨号的视频参考：
 
-<iframe src="//player.bilibili.com/player.html?aid=606031963&bvid=BV1g84y1r7nY&cid=916744694&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?aid=924194535&bvid=BV1mT4y1b73p&cid=1417826103&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-光猫拨号的 IPv6 中继：[配置参考](/zh/guide/easepi/quick.html#ipv6透传-中继)
+分组里面另外还有好多其他不同场景的 IPv6 配置，主意查看看。比如：
+* [爱快拨号，iStoreOS旁路由](https://www.bilibili.com/video/BV16a4y1C7y3/?spm_id_from=333.788&vd_source=8e363fb838693d4a1c274983edfd43fc)
+* [光猫拨号,iStoreOS接光猫](https://www.bilibili.com/video/BV1864y1w75X/)
+* 光猫拨号的 IPv6 中继：[配置参考](/zh/guide/easepi/quick.html#ipv6透传-中继)
  

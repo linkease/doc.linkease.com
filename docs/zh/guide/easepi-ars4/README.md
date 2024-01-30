@@ -11,15 +11,15 @@
 | ARS4产品优势 | [文字介绍](advantage.html) | [B站视频](https://www.bilibili.com/video/BV1vV411Q7wb/?share_source=copy_web&vd_source=60661ff18afa37bbfca1f94f13563a45) |  |
 | 硬件快速上手 | TODO | [B站视频](https://www.bilibili.com/video/BV1EZ4y1n72A/?spm_id_from=333.999.0.0) |  |
 | 软件快速上手 | TODO | [手机快速上手](https://www.bilibili.com/video/BV1PW4y1c7Hc/?spm_id_from=333.999.0.0) ，[电脑客户端](https://www.bilibili.com/video/BV1wZ4y1n7H2/?spm_id_from=333.999.0.0) |  |
-| 问题快速解决 | [文字教程](quickfix.html) | [B站视频](todo.html) |  |
+| 问题快速解决 | [文字教程](quickfix.html) | [系统刷机](https://www.bilibili.com/video/BV1HK42117ah/?share_source=copy_web&vd_source=60661ff18afa37bbfca1f94f13563a45) |  |
 | 硬件产品详情 | [文字介绍](hardware.html) | 无 |  |
 
 ## 数据快速备份
 
 | 标题 | 文字教程 | 视频教程 | 描述 |
 | :----: | :----: | :----: | :----: |
-| 相册快速备份 | TODO | TODO | TODO |
-| 电脑快速备份 | TODO | TODO | TODO |
+| 相册快速备份 | [文字教程](/zh/guide/linkease/function/photo_backup.html) | TODO | TODO |
+| 电脑快速备份 | [文字教程](/zh/guide/linkease/function/file_backup.html) | TODO | TODO |
 | 网盘数据备份 | TODO | TODO | TODO |
 | 数据多盘备份 | TODO | TODO | TODO |
 | 磁盘阵列建议 | TODO | TODO | TODO |
@@ -28,9 +28,9 @@
 
 | 标题 | 文字教程 | 视频教程 | 描述 |
 | :----: | :----: | :----: | :----: |
-| 易有云异地组网 | TODO | TODO | TODO |
-| DDNSTO远程域名 | TODO | TODO | TODO |
-| IPv6 动态域名 | TODO | TODO | TODO |
+| 易有云异地组网 | [文字教程](/zh/guide/linkease/function/remote_connects.html) | TODO | TODO |
+| DDNSTO远程域名 | [文字教程](/zh/guide/ddnsto/install/device/istoreos.html) | TODO | TODO |
+| IPv6 动态域名 | | [多个视频分组介绍](https://www.bilibili.com/video/BV1mT4y1b73p/?vd_source=8e363fb838693d4a1c274983edfd43fc)  | TODO |
 | RustDesk远程桌面 | TODO | TODO | TODO |
 
 ## 家庭影音解决方案
@@ -69,7 +69,7 @@
 | 浏览器导航页 | TODO | TODO | TODO |
 | 多款皮肤选择 | TODO | TODO | TODO |
 | 成为路由器 | TODO | TODO | TODO |
-| 开启桌面系统 | TODO | TODO | TODO |
+| 开启网页桌面系统 | TODO | TODO | TODO |
 | HDMI播放视频 | TODO | TODO | TODO |
 | 虚拟机 | TODO | TODO | TODO |
  
