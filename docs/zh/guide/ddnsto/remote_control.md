@@ -28,5 +28,12 @@ DDNSTO的远程VNC，充当VNC Viewer，写好参数，就能远程了。
  
 ![Linux-VNC](./cloudapp/cloudapp-vnc2.jpeg)
 
+
+### VNC Server配置
+
+如果你使用VNC Server提供服务， 需要在设置页面“Security”页面将 Encryption 选为“Prefer off”以及 Authentication选为“VNC password”
+
+
+![vnc-server](./vnc/vnc-server-setting.jpg)
 ## 相关链接
 - 如需更流畅、更快，或想使用windows远程桌面客户端，请使用易有云[异地互联](/zh/guide/linkease/function/remote_connects.html)。
