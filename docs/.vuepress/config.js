@@ -64,6 +64,7 @@ module.exports = ctx => ({
                                     { text: 'EasePi-ARS4', link: '/zh/guide/easepi-ars4/' },
                                 ]
                             },
+							{ text: 'P2Pro', link: '/zh/guide/p2pro/' },
                             { text: '知识库', link: '/zh/guide/wiki/' } 
                         ]
                   },
@@ -243,67 +244,8 @@ module.exports = ctx => ({
                             ]
                         },
                     ],
-                    '/zh/guide/easepi-ars2/': [
-                        {
-                            title: "EasePi-ARS2",
-                            // 显示所有页面的标题链接
-                            displayAllHeaders: true,
-                            // 展开状态
-                            collapsable: true,
-                            sidebarDepth: 2,
-                            children: [
-                                ["", "产品介绍"],
-                                { title: "开始", collapsable: false, children: [["case", "组装"], ["quick", "配置"]] },
-                                ["common", "基础玩法"],
-                                ["advanced", "高阶玩法"],
-                                { title: "其他", collapsable: true, children: [["opensource", "系统DIY"], ["usb_flash", "USB线刷"]] },
-                                ["question", "常见问题"],
-                                // ["about", "联系我们"],
-                            ]
-                        },
-                    ],
-                    '/zh/guide/easepi-ars4/': [
-                        {
-                            title: "EasePi-ARS4",
-                            // 显示所有页面的标题链接
-                            displayAllHeaders: true,
-                            // 展开状态
-                            collapsable: true,
-                            sidebarDepth: 2,
-                            children: [
-                                ["", "快速开始"],
-								["advantage", "ARS4产品优势"],  
-								["hardware", "硬件产品详情"],
-								["quickstart_hardware", "硬件快速上手"],  
-								["quickstart_software", "软件快速上手"], 
-								["quickfix", "问题快速解决"],
-								["easepi", "EasePi介绍"],								
-								{title: "基础操作", 
-									collapsable: false,
-									children: [
-										["network", "网络设置"], 
-										["disk", "磁盘管理"], 
-										["share", "局域网共享"]
-										]
-								}, 
-                                {title: "配置私有云", 
-									collapsable: false,
-									children: [
-										["todo", "从手机配置"],
-										["todo", "从网页配置"],
-										["todo", "相册备份"],
-										["todo", "文件同步"],
-										["todo", "网盘挂载"] 
-										]
-								}, 
-                                ["todo", "家庭影院"],
-                                ["todo", "软件中心"],
-                                ["todo", "Docker"],
-                                ["question", "常见问题"],
-                            ]
-                        },
-                    ],
-                    '/zh/guide/istoreos/': [
+					
+					'/zh/guide/istoreos/': [
                         {
                             title: "iStoreOS",
                             // 显示所有页面的标题链接
@@ -385,6 +327,115 @@ module.exports = ctx => ({
                             ]
                         },
                     ],
+					
+                    '/zh/guide/easepi-ars2/': [
+                        {
+                            title: "EasePi-ARS2",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                ["", "产品介绍"],
+                                { title: "开始", collapsable: false, children: [["case", "组装"], ["quick", "配置"]] },
+                                ["common", "基础玩法"],
+                                ["advanced", "高阶玩法"],
+                                { title: "其他", collapsable: true, children: [["opensource", "系统DIY"], ["usb_flash", "USB线刷"]] },
+                                ["question", "常见问题"],
+                                // ["about", "联系我们"],
+                            ]
+                        },
+                    ],
+                    '/zh/guide/easepi-ars4/': [
+                        {
+                            title: "EasePi-ARS4",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                ["", "快速开始"],
+								["advantage", "ARS4产品优势"],  
+								["hardware", "硬件产品详情"],
+								["quickstart_hardware", "硬件快速上手"],  
+								["quickstart_software", "软件快速上手"], 
+								["quickfix", "问题快速解决"],
+								["easepi", "EasePi介绍"],								
+								{title: "基础操作", 
+									collapsable: false,
+									children: [
+										["network", "网络设置"], 
+										["disk", "磁盘管理"], 
+										["share", "局域网共享"]
+										]
+								}, 
+                                {title: "配置私有云", 
+									collapsable: false,
+									children: [
+										["todo", "从手机配置"],
+										["todo", "从网页配置"],
+										["todo", "相册备份"],
+										["todo", "文件同步"],
+										["todo", "网盘挂载"] 
+										]
+								}, 
+                                ["todo", "家庭影院"],
+                                ["todo", "软件中心"],
+                                ["todo", "Docker"],
+                                ["question", "常见问题"],
+                            ]
+                        },
+                    ],
+                    
+					'/zh/guide/p2pro/': [
+                        {
+                            title: "P2Pro",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                ["", "快速开始"],
+								["advantage", "P2Pro产品优势"],  
+								["hardware", "硬件产品详情"],
+								["quickstart_hardware", "硬件快速上手"],  
+								["quickstart_software", "软件快速上手"], 
+								["quickfix", "问题快速解决"],
+								{title: "基础操作", 
+									collapsable: false,
+									children: [
+										["network", "网络设置"], 
+										["share", "局域网共享"]
+										]
+								}, 
+                                {title: "配置私有云", 
+									collapsable: false,
+									children: [
+										["todo", "从手机配置"],
+										["todo", "从网页配置"],
+										["todo", "相册备份"],
+										["todo", "网盘挂载"],
+										["todo", "异地组网"],										
+										]
+								}, 
+								{title: "配置域名", 
+									collapsable: false,
+									children: [
+										["todo", "从网页配置"],
+										["todo", "远程下载"],
+										["todo", "远程桌面"],
+										]
+								}, 
+                                ["todo", "软件中心"],
+                                ["todo", "Docker"],
+                                ["question", "常见问题"],
+                            ]
+                        },
+                    ],
+					
                     '/zh/guide/about/': [
                         {
                             title: "关于我们",
