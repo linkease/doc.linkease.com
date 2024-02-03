@@ -1,5 +1,5 @@
 
-为了让大家更好的学习体验 iStoreOS，我们搞了一个便宜的小硬件。
+为了让大家更好的学习体验 iStoreOS，我们搞了一个便宜的小硬件 [`p2pro`](https://m.tb.cn/h.5IjiYw9UhgCX0Zy?tk=xaj8Wjs0XNg)。
 
 ![about1](./about/p2pro-1.jpg) 
 
