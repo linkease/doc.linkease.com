@@ -173,6 +173,7 @@ module.exports = ctx => ({
                                         ["feedback/email", "Email"],
                                     ]
                                 },
+                                ["account/new_pay", "⚠️新付费方案"],
                             ]
                         },
                     ],
