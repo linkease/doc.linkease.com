@@ -1,6 +1,6 @@
 ### MacOS
 
-**1.[下载MAC版](https://www.linkease.com/download/?type=macOS)易有云**
+**1.[下载MAC版](https://www.linkease.com/download/?platform=macos)易有云**
 
 
 **2.下载好后，在电脑⾥找到LinkEase.dmg进⾏安装，拖⾄应⽤⽂件夹⾥。**

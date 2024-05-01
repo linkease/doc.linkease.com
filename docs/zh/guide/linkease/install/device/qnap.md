@@ -1,6 +1,6 @@
 ### 威联通
 
-**1.点击[下载易有云](https://www.linkease.com/download/?type=%E6%9B%B4%E5%A4%9A)，下载QNAP插件，此处选择"LinkEaseAgent_0.2.83_x86_64.qpkg"；**
+**1.点击[下载易有云](https://www.linkease.com/download/?platform=qnap)，下载QNAP插件，此处选择"LinkEaseAgent_0.2.83_x86_64.qpkg"；**
 
 <!-- <font color="#ff0000">*请根据自己电脑上的CPU型号选择相对应的存储端</font><br /> -->
 *请根据自己电脑上的CPU型号选择相对应的插件安装

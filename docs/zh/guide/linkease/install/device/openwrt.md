@@ -2,7 +2,7 @@
 
 * 绑定设备前，请确保您已在路由器端接入容量不小于16GB的存储设备，如U盘，移动硬盘等；
 
-**1.OpenWrt固件开发者众多，部分固件不自带易有云，可通过以下任一脚本轻松[安装易有云](https://www.linkease.com/download/?type=%E6%9B%B4%E5%A4%9A)：**
+**1.OpenWrt固件开发者众多，部分固件不自带易有云，可通过以下任一脚本轻松[安装易有云](https://www.linkease.com/download/?platform=openwrt)：**
 
    via curl
 ```

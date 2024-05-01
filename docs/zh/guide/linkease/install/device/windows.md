@@ -1,8 +1,14 @@
 ### Windows
 
-**1.[下载Windows版](https://www.linkease.com/download/?type=Windows)易有云，可以选择下载【安装版】或者【绿色版】。**
+#### 视频教程请到：
 
-**2.下载的LinkEaseWin.zip，解压成文件夹，然后直接点击LinkEase.exe(绿色软件不用安装)运行；**
+<iframe src="//player.bilibili.com/player.html?aid=1853919621&bvid=BV1us421K7uF&cid=1526239680&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+#### 图文教程
+
+**1.[下载Windows版](https://www.linkease.com/download/?platform=windows)易有云，Windows8以上且是64位系统的，推荐下载【64位系统且Win8+】，体验最佳。如果以上无法运行，或者32位系统，或者低版本Windows系统，建议用兼容性更好的【32位系统或者Win7+】。**
+
+**2.下载的LinkEaseSetup.exe 并运行，如果安装出现异常界面无法继续，可以点击“Ignore” 或者 "忽略"**
 
 **3.点开易有云软件，按指示登录你的易有云账号。**
 
@@ -12,7 +18,6 @@
 **4.进⼊客户端界⾯后，点击账户头像。下拉菜单栏选择“存储端管理”，来开启你的⽹盘。**
 
 ![jpg](./image/mac/mac4.jpg)
-
 
 
 **5.开启⽹盘需要选择“你的⽹盘位置”，你还可以在“更多设置”⾥选择主⽬录的位置（我们会默认给你⼀个主⽬录位置）。**
