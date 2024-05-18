@@ -305,7 +305,8 @@ module.exports = ctx => ({
                                         ["software/homebox", "内网测速"],
                                         ["software/aliyunwebdav", "阿里云WebDav"],
                                         ["software/wxedge", "网心云"],
-										["software/bmtedge", "蓝山云"],
+                    										["software/bmtedge", "蓝山云"],
+                    										["software/owxbyz", "驿站"],
                                         ["software/xunyou", "迅游加速器"],
                                         ["software/navidrome", "Navidrome 音乐平台"],
                                         ["software/webvirtcloud", "KVM 虚拟机平台"]
