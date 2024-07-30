@@ -2,7 +2,7 @@
 
 ## 支持硬件
 
-* [ARS2](https://m.tb.cn/h.UVJ77Kh?tk=PiD5daZlxcn) [固件最初支持的硬件，没有这个硬件，就没有这个项目]
+* [ARS2](https://item.taobao.com/item.htm?ft=t&id=655381846734) [固件最初支持的硬件，没有这个硬件，就没有这个项目]
 * X86
 * R2S
 * R4S
