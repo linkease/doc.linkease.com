@@ -2,16 +2,19 @@
 
 * **开启网盘后，可以远程访问web网页、SSH等。类似远程穿透。**
 
-* 1.打开易有云APP——首页——应用列表——立即添加。
+* 1.打开易有云APP——首页——应用列表——查看全部——添加。
 
-![jpg](./image/navi/1.jpg)
+![jpg](./image/navi/1.png)
+
+
+![jpg](./image/navi/2.png)
 
 
 * 2.选择跳板设备，然后就能发现一些远程应用。
 
-**跳板设备：已经开启网盘的设备**
+**跳板设备：已经成功绑定易有云的设备**
 
-![jpg](./image/navi/3.jpg)
+![jpg](./image/navi/3.png)
 
 
 
@@ -169,3 +172,29 @@ docker run -d --name jellyfin \
 ![jpg](./image/navi/10.jpg)
 
 ![jpg](./image/navi/11.jpg)
+
+
+
+
+## 桌面快捷
+
+所有已成功添加的远程应用，都可添加到桌面，一键访问。
+
+点击已成功添加的应用，点击右上角（3个点的图标），即可添加到桌面。
+
+![jpg](./image/navi/12.png)
+
+* 如果是安卓设备，会弹出“桌面快捷方式的”权限管理，允许即可。
+
+![jpg](./image/navi/13.png)
+
+允许以后就会在桌面发现一个快捷图标，点击即可一键访问到应用。
+
+![jpg](./image/navi/14.png)
+
+
+* 如果是iOS设备，会跳转到Safari浏览器，然后添加。
+
+![jpg](./image/navi/15.png)
+
+![jpg](./image/navi/16.png)

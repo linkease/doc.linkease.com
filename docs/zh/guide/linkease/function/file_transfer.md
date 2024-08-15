@@ -12,28 +12,26 @@
 
 ### 手机快速访问电脑文件
 
-- 打开易有云APP，就能看到客户端下面显示的本机(手机端)和PC端；
+- 打开易有云APP，设备列表里就会看到本机(手机端)和PC端；
 
 ![jpg](./image/file_transfer/12.jpg)
 
-- 点击pc端下面的【全部】就可以查看PC端的所有文件。
+- 点击PC端就可以查看PC端绑定的目录；
 
 ![jpg](./image/file_transfer/13.jpg)
 
+- 也能浏览本机(手机端)的目录。
+
 ![jpg](./image/file_transfer/14.jpg)
 
-- 也能浏览本机(手机端)的下载目录，点击【全部文件】或者【下载管理】。
 
-![jpg](./image/file_transfer/15.jpg)
-
-![jpg](./image/file_transfer/16.jpg)
 
 
 ### 电脑快速访问手机文件
 
 - 打开易有云PC端，点击左上角；
-- 在我的终端，点击旁边的刷新按钮，就可以看到登录的客户端了；
-- 选择手机；
+- 可以看到所有绑定的客户端；
+- 选择手机即可；
 
 ![jpg](./image/file_transfer/17.jpg)
 
