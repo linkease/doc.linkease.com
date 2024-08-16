@@ -29,9 +29,7 @@ PS：若是易有云APP新用户，下载最新版，然后注册登录；老用
 
 打开易有云APP——我的——验证DDNSTO。
 
-   ![Authentication](./Authentication/Authentication0.png)
-
-   ![Authentication](./Authentication/Authentication10.png)
+   ![Authentication](./Authentication/Authentication0.jpg)
    
 * #### 如何设置易有云APP验证DDNSTO：
 
@@ -43,21 +41,17 @@ PS：若是易有云APP新用户，下载最新版，然后注册登录；老用
    
 2.打开易有云APP——右上角扫一扫，按照操作绑定成功；
 
-  ![Authentication](./Authentication/Authentication11.png)
+  ![Authentication](./Authentication/Authentication11.jpg)
 
    ![Authentication](./Authentication/Authentication12.jpg)
 
    **注意：如果已经绑定成功，再重新扫码，会提示绑定成功，绑定其他DDNSTO帐号需要先解除当前DDNSTO账号绑定**
 
-   ![Authentication](./Authentication/Authentication13.png)
-
 3.绑定成功后，以后需要DDNSTO身份验证的时候，直接打开“易有云APP——我的——验证DDNSTO——验证IP，即可。
 
-   ![Authentication](./Authentication/Authentication0.png)
+   ![Authentication](./Authentication/Authentication0.jpg)
 
-   ![Authentication](./Authentication/Authentication14.png)
-
-   ![Authentication](./Authentication/Authentication16.jpg)
+   ![Authentication](./Authentication/Authentication14.jpg)
 
 4.如果要解除绑定，打开“易有云APP——我的——验证DDNSTO——解除绑定，即可。
 
