@@ -20,6 +20,7 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+.stversions
 
 dist.zip
 web.zip
