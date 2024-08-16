@@ -52,24 +52,24 @@
 
 ![jpg](./image/file_transfer/25.jpg)
 
-![jpg](./image/file_transfer/20.jpg)
-
 
 - 下载完成后，就能在本机(手机端)内看到下好的文件。
 
-![jpg](./image/file_transfer/23.jpg)
+![jpg](./image/file_transfer/14.jpg)
 
-![jpg](./image/file_transfer/26.jpg)
+
 
 - 还可以把文件分享给别人。
 
-![jpg](./image/file_transfer/27.jpg)
+![jpg](./image/file_transfer/26.jpg)
 
-### 比如我在手机端直接上传手机里的文件到pc端
-- 找到pc端的目录位置（也就是手机要上传到pc端的文件位置：比如D盘的一个位置）；
+### 比如我在手机端直接上传手机里的文件到PC端
+- 进入PC端的目录位置；
 - 点击右上角【添加】；
-- 然后选择要上传的文件类型（本地文件、本地音频、本地视频）；
-![jpg](./image/file_transfer/25.jpg)
+- 然后选择要上传的文件类型（文件、音频、视频等）；
+- 然后会跳转到手机目录，选择需要上传的文件；
+
+![jpg](./image/file_transfer/27.jpg)
 
 ![jpg](./image/file_transfer/28.jpg)
 
