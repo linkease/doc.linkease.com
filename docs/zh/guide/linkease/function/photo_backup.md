@@ -8,14 +8,14 @@
 
 ### 安装易有云
 - 下面我们演示把手机照片备份到电脑，如果要备份到别的设备可以查看[安装及配置](/zh/guide/linkease/install/device/synology.md)；
-- 安装易有云电脑客户端，[开启网盘](/zh/guide/linkease/install/device/windows.md)；
-- 成功开启网盘后，我们可以看到【我的存储】下面多了一个刚刚配置好的网盘项；
+- 安装易有云电脑客户端，[开启网盘](/zh/guide/linkease/install/device/windows.md)；选择电脑上的磁盘或者目录作为一个“网盘”；
+- 成功开启网盘后，我们可以看到【本机】；
 - 注意：易有云客户端要保持运行状态；
 
 ![image](./image/backup/12.jpg)
 
 - 安装易有云APP，并且易有云APP要和易有云客户端登录同一易有云账号；
-- 打开易有云APP，就可以在【首页】——【设备列表】下面看到刚刚配置好的设备；
+- 打开易有云APP，就可以在【首页】——【设备列表】下面看到刚刚配置好的电脑端；
 
 ![image](./image/backup/13.jpg)
 
