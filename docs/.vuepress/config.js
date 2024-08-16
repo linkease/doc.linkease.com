@@ -107,7 +107,6 @@ module.exports = ctx => ({
                                         ["more/edit_file", "编辑文档"],
                                         ["more/load_subtitle", "加载字幕"],
                                         ["more/protocol_access", "协议访问"],
-                                        ["more/protocol_forwarding", "协议转发"],
                                     ]
                                 },
                                 {
