@@ -23,7 +23,6 @@ Docker安装完成后，进行下面的教程。
 ```
 docker run -d \
     -p 8897:8897 \
-    --network host \
     --name linkease \
     --restart unless-stopped \
     -v /root/linkease-data:/linkease-data \
@@ -47,7 +46,6 @@ docker run -d \
 ```
 docker run -d \
     -p 8897:8897 \
-    --network host \
     --name linkease \
     --restart unless-stopped \
     -v /root/linkease-data:/linkease-data \
@@ -63,7 +61,6 @@ docker run -d \
 ```
 sudo docker run -d \
     -p 8897:8897 \
-    --network host \
     --name linkease \
     --restart unless-stopped \
     -v /root/linkease-data:/linkease-data \
@@ -90,7 +87,6 @@ sudo docker run -d \
 ```
 sudo docker run -d \
     -p 8897:8897 \
-    --network host \
     --name linkease \
     --restart unless-stopped \
     -v /root/linkease-data:/linkease-data \
