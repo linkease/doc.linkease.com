@@ -1,3 +1,5 @@
+> 此页面长期未维护，内容已过时。最新更新日志请前往 [GitHub](https://github.com/istoreos/istoreos/discussions/categories/announcements?discussions_q=label%3Arelease+category%3AAnnouncements+sort%3Adate_created) 查看
+
 ## v20221209 版本更新说明
 
 * 修复在线文件管理的一些错误
