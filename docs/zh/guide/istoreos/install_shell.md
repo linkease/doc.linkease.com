@@ -18,7 +18,7 @@
 3. 转到"系统-文件传输"页面，上传固件；
   ![install.png](./install/install_emmc1.png)
 4. 转到“首页”，点击“终端”，在弹出的终端窗口登录，用户名是`root`，密码与登录后台时一样。
-5. 在终端输入 `zcat /tmp/upload/firmware.img.gz | dd of=/dev/mmcblk0 bs=1M` 然后回车，等待完成。
+5. 在终端输入 `zcat /tmp/upload/firmware.img.gz | dd of=/dev/mmcblk0 bs=1M`（有些机型可能是mmcblk1，mmcblk2，不插TF卡情况下执行`lsblk`可以看到） 然后回车，等待完成。
   ![install.png](./install/install_emmc2.png)
 
 ## 4.启动系统
