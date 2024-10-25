@@ -376,7 +376,7 @@ export default {
             url: '/zh/guide/istoreos/install_r66s.html'
           }, {
             name: 'R68S',
-            url: '/zh/guide/istoreos/install_rockchip_sysupgrade.html'
+            url: '/zh/guide/istoreos/install_r68s.html'
           }, {
             name: 'H66K/H68K/H69K',
             url: '/zh/guide/istoreos/install_h68k.html'
