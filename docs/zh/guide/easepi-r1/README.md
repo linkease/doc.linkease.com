@@ -1,14 +1,16 @@
 
 [EasePi](easepi.html) 由是易有云团队专为家庭智能网关、轻 NAS 设计的硬件产品系列。  
-[`EasePi-R1`](https://item.taobao.com/item.htm?ft=t&id=760716149460) 指的是单盘位的多功能网关。
+淘宝链接：[`EasePi-R1`](https://item.taobao.com/item.htm?ft=t&id=760716149460) 指的是单盘位的多功能网关。
 
+<video src="https://dl.istoreos.com/iStoreOS/easepi-r1/easepi-r1-3.mp4" width="600" height="400" controls autoplay muted>
+浏览器不支持视频格式.
+</video>
 
-[![购买链接](./about/easepi-r1.jpg)](https://item.taobao.com/item.htm?ft=t&id=851159153974)
 ## 快速开始
 
 | 标题 | 文字教程 | 视频教程 | 描述 |
 | :----: | :----: | :----: | :----: |
-| R1产品优势 | [文字介绍](advantage.html) | [B站视频](https://www.bilibili.com/video/BV1vV411Q7wb/?share_source=copy_web&vd_source=60661ff18afa37bbfca1f94f13563a45) |  |
+| R1产品优势 | [文字介绍](advantage.html) | [【EasePi-R1 全新易用而又有趣的多功能主机】](https://www.bilibili.com/video/BV1hoDUYdE3q/?share_source=copy_web&vd_source=60661ff18afa37bbfca1f94f13563a45) |  |
 | 硬件快速上手 | TODO | [B站视频](https://www.bilibili.com/video/BV1EZ4y1n72A/?spm_id_from=333.999.0.0) |  |
 | 软件快速上手 | TODO | [手机快速上手](https://www.bilibili.com/video/BV1PW4y1c7Hc/?spm_id_from=333.999.0.0) ，[电脑客户端](https://www.bilibili.com/video/BV1wZ4y1n7H2/?spm_id_from=333.999.0.0) |  |
 | 问题快速解决 | [文字教程](quickfix.html) | [系统刷机](https://www.bilibili.com/video/BV1HK42117ah/?share_source=copy_web&vd_source=60661ff18afa37bbfca1f94f13563a45) |  |
