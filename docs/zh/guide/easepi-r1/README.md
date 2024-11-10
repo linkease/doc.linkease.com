@@ -1,6 +1,6 @@
 
 [EasePi](easepi.html) 由是易有云团队专为家庭智能网关、轻 NAS 设计的硬件产品系列。  
-淘宝链接：[`EasePi-R1`](https://item.taobao.com/item.htm?ft=t&id=760716149460) 指的是单盘位的多功能网关。
+淘宝链接：[`EasePi-R1`](https://item.taobao.com/item.htm?ft=t&id=851159153974) 指的是单盘位的多功能网关。
 
 <video src="https://dl.istoreos.com/iStoreOS/easepi-r1/easepi-r1-3.mp4" width="600" height="400" controls autoplay muted>
 浏览器不支持视频格式.
