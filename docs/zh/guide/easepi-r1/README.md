@@ -13,7 +13,7 @@
 | R1产品优势 | [文字介绍](advantage.html) | [【EasePi-R1 全新易用而又有趣的多功能主机】](https://www.bilibili.com/video/BV1hoDUYdE3q/?share_source=copy_web&vd_source=60661ff18afa37bbfca1f94f13563a45) |  |
 | 快速上手 | 暂无 | [B站视频](https://www.bilibili.com/video/BV1sKUvYiEWB/?spm_id_from=333.999.0.0) |  |
 | 快速下载 | [Android](https://main.linkease.com/download?type=Android) | [iOS](https://main.linkease.com/download?type=iOS) | [固件](https://fw.koolcenter.com/iStoreOS/easepi-r1/) |
-
+| 联网向导 | [文字教程](/zh/guide/istoreos/basic/network_guide.html) |  |  |
 
 ## 数据快速备份
 
