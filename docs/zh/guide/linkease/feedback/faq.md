@@ -73,3 +73,18 @@
 4. 然后把易有云应用程序改个名字后再打开即可。
 
 ![image](./image/faq/winerror5.jpg)
+
+## Q：PC客户端启动后显示网络错误？
+
+遇到这种情况，可能由于www.linkease.com暂时无法访问。
+
+![image](./image/faq/servererror.jpeg)
+
+1. 找到易有云的配置目录。
+
+Windows打开路径：C:\Users\【你的用户名】\LinkEase
+macOS打开路径：/Users/【你的用户名】/LinkEase
+
+2. 打开配置文件，将配置文件中的serverAddr：https://www.linkease.com:443 这个改成 https://main.linkease.com:443，保存。
+
+![image](./image/faq/servererror2.png)
