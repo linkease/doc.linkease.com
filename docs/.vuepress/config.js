@@ -165,6 +165,7 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 ["feedback/faq", "💬常见问题"],
+                                ["feedback/notice", "⚠️注意事项"],
                                 {
                                     title: "问题反馈", collapsable: true, children: [
 
