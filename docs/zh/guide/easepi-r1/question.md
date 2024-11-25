@@ -6,6 +6,6 @@ sidebarDepth: 1
 
 ### Q：芯片是什么架构？
 
-A：TODO 。
+A：ARM 。
 
 

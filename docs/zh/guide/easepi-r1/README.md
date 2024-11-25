@@ -14,6 +14,7 @@
 | 快速上手 | 暂无 | [B站视频](https://www.bilibili.com/video/BV1sKUvYiEWB/?spm_id_from=333.999.0.0) |  |
 | 快速下载 | [Android](https://main.linkease.com/download?type=Android) | [iOS](https://main.linkease.com/download?type=iOS) | [固件](https://fw.koolcenter.com/iStoreOS/easepi-r1/) |
 | 联网向导 | [文字教程](/zh/guide/istoreos/basic/network_guide.html) |  |  |
+| 线刷教程 | 暂无 | [EasePi R1线刷教程](https://www.bilibili.com/video/BV1CyBYYiEFg/) |  |
 
 ## 数据快速备份
 
