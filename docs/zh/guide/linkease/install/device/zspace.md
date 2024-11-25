@@ -1,5 +1,7 @@
 ### 极空间
 
+[无法拉取易有云&DDNSTO Docker镜像？](https://www.bilibili.com/video/BV1FnUUYeEn9/)
+
 **1.极空间系统中，打开docker，并搜索“linkease”；**
 
 ![docker1](./image/zspace/1.jpg)

@@ -10,15 +10,15 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/iStoreOS/alpha/fix-istore.sh)"
 
 1. 下载固件可以到这里下载；
 
-https://fw.koolcenter.com/
+[https://fw.koolcenter.com/](https://fw.koolcenter.com/)
 
 ## Q：易有云官网或者DDNSTO官网控制台无法访问？
 
 易有云和DDNSTO 域名正在备案中，请暂时使用以下域名访问官网。
 
-1. 易有云： https://main.linkease.com
+1. [易有云： https://main.linkease.com](https://main.linkease.com)
 
-2. DDNSTO： https://web.ddnsto.com
+2. [DDNSTO： https://web.ddnsto.com](https://web.ddnsto.com)
 
 ## Q：易有云PC客户端启动后显示网络错误？
 

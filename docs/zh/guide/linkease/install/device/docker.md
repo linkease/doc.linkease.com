@@ -1,5 +1,7 @@
 ### Docker
 
+[无法拉取易有云&DDNSTO Docker镜像？](https://www.bilibili.com/video/BV1FnUUYeEn9/)
+
 **Docker方式安装易有云，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，包括一些Linux发行版等。**
 
 * 铁威马：首先在应用中心里安装Docker(TOS 4.0及更高的系统)，然后在控制面板——终端与SNMP——启用SSH访问。然后电脑利用putty、xshell等工具登录终端，然后输入“sudo -i”和密码获取临时ROOT权限，然后进行下面的教程。
