@@ -1,5 +1,7 @@
 ### Docker
 
+[无法拉取易有云&DDNSTO Docker镜像？](https://www.bilibili.com/video/BV1FnUUYeEn9/)
+
 #### <font color="#dd0000">Docker安装请注意：</font><br />
 #### <font color="#dd0000">1. 如遇到DeviceID相同导致控制台无法看到新设备，请通过修改DEVICE_IDX变量来生成新的DeviceID。</font><br />
 #### <font color="#dd0000">2. 请填写 -v /your/config-path/ddnsto-config:/ddnsto-config 映射，避免重启后ID变化识别成新设备</font><br />
