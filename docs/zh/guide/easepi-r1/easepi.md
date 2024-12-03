@@ -1,5 +1,3 @@
-## EasePi 介绍
-
 我们在持续开发[开源](https://github.com/istoreos/istoreos)操作系统 [iStoreOS](/zh/guide/istoreos/) ， 
 EasePi 则定位为更容易运行 iStoreOS 的硬件系列。
 
