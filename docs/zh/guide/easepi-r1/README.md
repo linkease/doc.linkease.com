@@ -38,7 +38,7 @@
     - [宽带拨号连接](/zh/guide/istoreos/basic/network_guide.html#宽带拨号连接)
     - [连接现有路由器](/zh/guide/istoreos/basic/network_guide.html#连接现有路由器)
     - [配置为旁路由](/zh/guide/istoreos/basic/network_guide.html#配置为旁路由)
-    - [旁路由的最后拼图，自定义网关](/zh/guide/easepi-r1/auto_gw.html)
+    - [旁路由的最后拼图，自定义网关](/zh/guide/istoreos/basic/auto_gw.html)
     - [IPv6配置](/zh/guide/istoreos/basic/network_guide.html#ipv6-配置)
 
 5. 系统升级重置

@@ -53,6 +53,10 @@ DNS服务器：可为上级路由的IP，也可填写运营商的DNS，也可以
 
 * 配置完成后，iStoreOS设备LAN口连接上级路由的LAN口。
 
+### 旁路由的最后拼图，自定义网关
+
+* [旁路由的最后拼图，自定义网关](/zh/guide/istoreos/basic/auto_gw.html)
+
 ## IPv6 配置
 
 路由器拨号的视频参考：
