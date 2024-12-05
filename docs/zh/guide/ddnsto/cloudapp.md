@@ -270,6 +270,10 @@ TODO
 
   ![Windows远程](./cloudapp/cloudapp-rdp0.jpg)
 
+  **注意事项：需要关闭身份验证**
+
+  ![Windows远程](./cloudapp/cloudapp-rdp7.png)
+
 2.Win10：设置——系统——远程桌面——启用远程桌面  
 
   ![Windows远程](./cloudapp/cloudapp-rdp1.jpg)
