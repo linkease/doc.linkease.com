@@ -21,19 +21,27 @@
 
 [EasePi-R1 节约时间的上手视频](https://www.bilibili.com/video/BV1sKUvYiEWB/)
 
-1. 硬件检查
+或者参照以下步骤上手设备：
 
-2. 开关机重置
+1. [设备配件检查](https://www.bilibili.com/video/BV1PxidYcEoE/)
 
-3. APP连接、电脑连接
+2. [开关机和重置](https://www.bilibili.com/video/BV1FQiRYWErx/)
 
-    推荐使用APP来发现并绑定设备。
+3. 连接设备
 
-    - [客户端下载](https://www.linkease.com/download/)
+    连接设备之前需要确定你的设备已经接到了你的网络中：[连接准备](https://www.bilibili.com/video/BV1cSiRYREo3/)
+
+    你可以通过使用易有云APP或者电脑来连接你的设备：
+
+    - [APP连接设备](https://www.bilibili.com/video/BV1JRiRYHEHg/)
+
+    - [电脑连接设备](https://www.bilibili.com/video/BV1JRiRYHEV4/)
+
+    推荐使用APP来发现并绑定设备：[客户端下载](https://www.linkease.com/download/)
 
 4. 开始联网（旁路由、主路由、拨号）
 
-    你可以将你的设备配置成以下4种联网方式：
+    你可以将你的设备配置成以下5种联网方式：
 
     - [宽带拨号连接](/zh/guide/istoreos/basic/network_guide.html#宽带拨号连接)
     - [连接现有路由器](/zh/guide/istoreos/basic/network_guide.html#连接现有路由器)
@@ -41,7 +49,7 @@
     - [旁路由的最后拼图，自定义网关](/zh/guide/istoreos/basic/auto_gw.html)
     - [IPv6配置](/zh/guide/istoreos/basic/network_guide.html#ipv6-配置)
 
-5. 系统升级重置
+5. [系统升级重置](https://www.bilibili.com/video/BV1fXiRYQEok/)
 
     [最新固件下载](https://fw.koolcenter.com/iStoreOS/easepi-r1/)
 
@@ -49,11 +57,11 @@
 
     - [手动/在线升级](/zh/guide/easepi-ars2/common.html#更新固件)
 
-    - 系统重置
+    - 系统重置：[按钮重置](https://www.bilibili.com/video/BV1FQiRYWErx/)[网页重置](https://www.bilibili.com/video/BV1fXiRYQEok/)
 
     - 如果你无法访问设备，重置无效的情况下，你可以尝试用数据线连接设备进行刷机：[EasePi R1线刷教程](https://www.bilibili.com/video/BV1CyBYYiEFg/)
 
-6. 关键注意事项
+6. [关键注意事项](https://www.bilibili.com/video/BV1JXiRYXEUB/)
 
 ## 存储管理
 
