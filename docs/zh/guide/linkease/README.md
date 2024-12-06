@@ -21,13 +21,13 @@
 
 **易有云支持：**
 
-易有云分为客户端和存储端，几乎支持市面上常见的设备和系统。
+易有云几乎支持市面上常见的设备和系统。
 
-* [客户端下载](https://doc.linkease.com/downloads/) 
+* [客户端下载](https://www.linkease.com/download/) 
 
-![jpg](./image/1.jpg)
+![image](./image/2.png)
 
-* 易有云客户端，目前支持：
+* 易有云目前支持设备：
 
 |平台|支持|
 |-|-|
@@ -41,6 +41,7 @@
 | OpenWrt及其各种衍生 | 支持 |
 | Linux | 支持 |
 | Docker | 支持 |
+| ... | 支持 |
 
 
 
