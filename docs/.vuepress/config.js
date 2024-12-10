@@ -271,6 +271,7 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "系统安装", collapsable: true, children: [
+                                        ["install_r1", "EasePi R1"],
                                         ["install_ars2", "EasePi ARS2"],
                                         ["install_x86", "X86 物理机"],
                                         ["install_pve", "X86 PVE"],
