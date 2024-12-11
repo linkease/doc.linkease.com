@@ -92,6 +92,7 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
+                                ["", "新手速览"],
                                 ["function/file_transfer", "多设备互传"],
                                 ["function/file_backup", "备份及同步"],
                                 ["function/photo_backup", "相册备份"],
