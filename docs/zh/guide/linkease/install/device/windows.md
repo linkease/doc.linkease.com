@@ -2,7 +2,8 @@
 
 #### 视频教程请到：
 
-<iframe src="//player.bilibili.com/player.html?aid=1853919621&bvid=BV1us421K7uF&cid=1526239680&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?bvid=BV1DSqUYWEVh" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
 
 #### 图文教程
 
