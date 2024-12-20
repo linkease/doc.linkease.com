@@ -4,7 +4,7 @@ sidebarDepth: 1
 
 ## 软件问题
 
-### Q：手动更新Alist。
+## Q：手动更新Alist。
 
 1. 到[这里](https://github.com/sbwml/luci-app-alist/releases)下载最新的插件；
 
@@ -20,10 +20,26 @@ sidebarDepth: 1
 
 ![image](./question/question03.png)
 
+## Q：将2.5G网口设置成WAN口。
+
+1. 打开网口配置；
+
+![image](./question/question05.jpg)
+
+2. 将ETH2或者ETH3设置成WAN；
+
+默认ETH2或者ETH3为2.5G口，所以你可以将任意一个设置成WAN口，右下角保存并应用即可。
+
+![image](./question/question06.png)
+
 ## 硬件问题
 
-### Q：芯片是什么架构？
+## Q：芯片是什么架构？
 
-A：ARM 。
+A：ARM Cortex-A55。
+
+## Q：硬盘选择什么规格？
+
+A：M.2 NVME 2280 SSD。
 
 
