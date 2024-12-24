@@ -1,4 +1,4 @@
-## 介绍
+### 介绍
 
 iStore 是一个[开源](https://github.com/linkease/istore)且标准的 OpenWRT 软件中心实现。是属于易有云团队产品 [EasePi](https://easepi.linkease.com) 的一部分。
 
@@ -16,7 +16,7 @@ iStore 的无法弥补的缺陷：
 
 我们建议固件开发者集成 iStore，这样固件开发者只需要发布一个精简固件，用户可以按需安装自己喜欢的插件。还能共享插件的教程，独立更新某个插件版本。
 
-## 安装 iStore 到 OpenWRT 官方固件
+### 安装 iStore 到 OpenWRT 官方固件
 只支持 x86_64 和 arm64 设备。
 
 ```
@@ -27,6 +27,6 @@ chmod 755 istore-reinstall.run
 ./istore-reinstall.run
 ```
 
-## 功能预览
+### 功能预览
 
 ![istore-preview.png](./images/istore-preview.png)

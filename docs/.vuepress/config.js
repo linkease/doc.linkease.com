@@ -301,25 +301,26 @@ module.exports = ctx => ({
                                         ["basic/page", "首页向导"]
                                     ]
                                 },
-                                {
-                                    title: "软件中心", collapsable: true, children: [
-                                        ["software/ddnsto", "DDNSTO"],
-                                        ["software/linkease", "易有云"],
-                                        ["software/istorex", "iStoreX皮肤"],
-                                        ["software/aria2", "Aria2下载器"],
-                                        ["software/qBittorrent", "qBittorrent下载器"],
-                                        ["software/transmission", "Transmission下载器"],
-                                        ["software/homebox", "内网测速"],
-                                        ["software/aliyunwebdav", "阿里云WebDav"],
-                                        ["software/wxedge", "网心云"],
-                    										["software/bmtedge", "蓝山云"],
-                    										["software/owxbyz", "驿站"],
-                                        ["software/xunyou", "迅游加速器"],
-                                        ["software/navidrome", "Navidrome 音乐平台"],
-                                        ["software/webvirtcloud", "KVM 虚拟机平台"]
+                                ["software", "软件中心"],
+                                // {
+                                //     title: "软件中心", collapsable: true, children: [
+                                //         ["software/ddnsto", "DDNSTO"],
+                                //         ["software/linkease", "易有云"],
+                                //         ["software/istorex", "iStoreX皮肤"],
+                                //         ["software/aria2", "Aria2下载器"],
+                                //         ["software/qBittorrent", "qBittorrent下载器"],
+                                //         ["software/transmission", "Transmission下载器"],
+                                //         ["software/homebox", "内网测速"],
+                                //         ["software/aliyunwebdav", "阿里云WebDav"],
+                                //         ["software/wxedge", "网心云"],
+                    			// 							["software/bmtedge", "蓝山云"],
+                    			// 							["software/owxbyz", "驿站"],
+                                //         ["software/xunyou", "迅游加速器"],
+                                //         ["software/navidrome", "Navidrome 音乐平台"],
+                                //         ["software/webvirtcloud", "KVM 虚拟机平台"]
 
-                                    ]
-                                },
+                                //     ]
+                                // },
                                 {
                                     title: "最佳实践", collapsable: true, children: [
                                         ["practice/HowToWriteDoc", "用 iStoreOS 写文档"],
@@ -333,6 +334,35 @@ module.exports = ctx => ({
                                 },
                                 ["question", "FAQ 必读"],
                                 ["changelog", "更新日志"],
+                            ]
+                        },
+                    ],
+
+                    '/zh/guide/istore/': [
+                        {
+                            title: "iStore软件中心",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                ["", "介绍"],
+                                ["software/linkease", "易有云"],
+                                ["software/ddnsto", "DDNSTO"],
+                                ["software/istorex", "iStoreX"],
+                                ["software/aria2", "Aria2"],
+                                ["software/qBittorrent", "qBittorrent"],
+                                ["software/transmission", "Transmission"],
+                                ["software/homebox", "Homebox内网测速"],
+                                ["software/aliyunwebdav", "阿里云WebDav"],
+                                ["software/wxedge", "网心云"],
+                                ["software/bmtedge", "蓝山云"],
+                                ["software/owxbyz", "驿站"],
+                                ["software/xunyou", "迅游加速器"],
+                                ["software/navidrome", "Navidrome音乐平台"],
+                                ["software/webvirtcloud", "KVM虚拟机"],
+                                ["software/openappfilter", "应用过滤"],
                             ]
                         },
                     ],
