@@ -40,6 +40,8 @@ A：ARM Cortex-A55。
 
 ## Q：硬盘选择什么规格？
 
-A：M.2 NVME 2280 SSD。
+A：M.2 NVME 2280 SSD，推荐使用容量在8T以内的硬盘以确保兼容性，大于8T的硬盘建议自行加上散热片。
+群友反馈硬盘支持列表，仅供参考：[点击查看](https://doc.weixin.qq.com/smartsheet/s3_APgAFga8ADQpaUQ6q60RzWPHtieY9?scode=AO8Amwc5AA8rjPAgFQ)
+
 
 

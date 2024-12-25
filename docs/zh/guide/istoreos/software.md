@@ -14,4 +14,4 @@
 |迅游加速器| [详细教程](/zh/guide/istore/software/xunyou.html) | 游戏加速 | iStore商店直接升级 |
 |Navidrome音乐平台| [详细教程](/zh/guide/istore/software/navidrome.html) | 音乐播放 | iStore商店直接升级 |
 |KVM虚拟机| [详细教程](/zh/guide/istore/software/webvirtcloud.html) | 虚拟机 | iStore商店直接升级 |
-|应用过滤| [详细教程](/zh/guide/istore/software/openappfilter.html) | 家长管理 | 随固件更新 |
+|应用过滤| [详细教程](/zh/guide/istore/software/appfilter.html) | 家长管理 | 随固件更新 |

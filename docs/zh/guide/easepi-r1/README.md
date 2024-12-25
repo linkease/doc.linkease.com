@@ -148,6 +148,8 @@
 - 虚拟机
 - ...
 
+[全部软件](/zh/guide/istoreos/software.html)
+
 ## 设备周边
 
 - 硬盘选择
