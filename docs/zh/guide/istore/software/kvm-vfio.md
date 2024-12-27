@@ -98,3 +98,9 @@ chmod 666 /dev/vfio/vfio
 </video>
 
 ```
+
+#### 相关链接：
+
+- [PVE显卡直通教程](https://3os.org/infrastructure/proxmox/windows-vm-configuration/)
+- [INTEL GVT](https://wiki.archlinux.org/title/Intel_GVT-g)
+
