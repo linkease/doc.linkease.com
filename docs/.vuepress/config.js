@@ -361,7 +361,7 @@ module.exports = ctx => ({
                                 ["software/owxbyz", "驿站"],
                                 ["software/xunyou", "迅游加速器"],
                                 ["software/navidrome", "Navidrome音乐平台"],
-                                ["software/webvirtcloud", "KVM虚拟机"],kvm-vfio.md
+                                ["software/webvirtcloud", "KVM虚拟机"],
                                 ["software/kvm-vfio", "KVM虚拟机显卡直通"],
                                 ["software/appfilter", "应用过滤"],
                             ]
