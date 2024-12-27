@@ -60,7 +60,7 @@ chmod 666 /dev/vfio/vfio
 #### 修改虚拟机 libvirt xml 文件，如下
 
 ```
-<domain type='kvm' id='18' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
+<domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
 
 ( 注意开头跟结尾，中间内容省略...)
 
@@ -81,14 +81,7 @@ chmod 666 /dev/vfio/vfio
 ```
 <hostdev mode="subsystem" type="pci" managed="yes">
   <source>
-    <address domain="0x0000" bus="0x01" slot="0x00" function="0x0"/>
-  </source>
-  <address type="pci" domain="0x0000" bus="0x06" slot="0x00" function="0x0"/>
-</hostdev>
-
-<hostdev mode="subsystem" type="pci" managed="yes">
-  <source>
-    <address domain="0x0000" bus="0x01" slot="0x00" function="0x1"/>
+    <address domain="0x0000" bus="0x00" slot="0x02" function="0x0"/>
   </source>
   <address type="pci" domain="0x0000" bus="0x07" slot="0x00" function="0x0"/>
 </hostdev>
