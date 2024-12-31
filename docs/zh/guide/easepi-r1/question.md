@@ -32,6 +32,27 @@ sidebarDepth: 1
 
 ![image](./question/question06.png)
 
+## Q：硬盘格式化和挂载
+
+为了更好的系统兼容性，建议将硬盘格式化成EXT4文件系统。
+接上硬盘后，你可以通过以下方式将硬盘格式化并完成挂载。
+
+- 方式一：首页-磁盘信息
+
+![image](./question/question07.png)
+
+- 方式二：易有云APP-发现设备绑定流程
+
+![image](./question/question11.jpg)
+
+- 方式三：系统-磁盘管理，按照步骤格式化完成后，回到首页-磁盘信息进行挂载。
+
+![image](./question/question08.png)
+
+![image](./question/question09.jpg)
+
+![image](./question/question10.jpg)
+
 ## 硬件问题
 
 ## Q：芯片是什么架构？
