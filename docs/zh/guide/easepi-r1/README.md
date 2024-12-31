@@ -23,6 +23,10 @@
 
 或者参照以下步骤上手设备：
 
+接口示意
+
+![image](./image/01.png)
+
 1. [设备配件检查](https://www.bilibili.com/video/BV1PxidYcEoE/)
 
 2. [开关机和重置](https://www.bilibili.com/video/BV1FQiRYWErx/)
@@ -46,7 +50,7 @@
     - [宽带拨号连接](/zh/guide/istoreos/basic/network_guide.html#宽带拨号连接)
     - [连接现有路由器](/zh/guide/istoreos/basic/network_guide.html#连接现有路由器)
     - [配置为旁路由](/zh/guide/istoreos/basic/network_guide.html#配置为旁路由)
-    - [旁路由的最后拼图，自定义网关](/zh/guide/istoreos/basic/auto_gw.html)
+    - [自定义网关](/zh/guide/istoreos/basic/auto_gw.html)
     - [IPv6配置](/zh/guide/istoreos/basic/network_guide.html#ipv6-配置)
 
 5. [系统升级重置](https://www.bilibili.com/video/BV1fXiRYQEok/)
@@ -152,7 +156,7 @@
 
 ## 设备周边
 
-- 硬盘选择
+- [硬盘选择](/zh/guide/easepi-r1/question.html#q-硬盘选择什么规格)
 - 不断网的路由器
 - HDMI屏幕
 - USB无线网卡
