@@ -1,5 +1,7 @@
 ### 网心云
 
+<span style="color: red;font-size: 20px;">近期业务放量，网心云官方有新活动：当前容器魔方新用户绑定在线即可领取4.5元，老用户回归专享14天30%收益加成，现在上机收益更高。</span>
+
 注意：此教程仅适用于iStoreOS系统，请先安装[iStoreOS系统](/zh/guide/istoreos/README.md)。
 
 「网心云-容器魔方」由网心云推出的一款 docker 容器镜像软件，通过在简单安装后即可快速加入网心云共享计算生态网络，用户可根据每日的贡献量获得相应的现金收益回报。了解更多，请登录[网心云官网](https://www.onethingcloud.com/)。
