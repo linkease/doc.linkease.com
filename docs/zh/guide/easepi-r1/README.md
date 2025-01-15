@@ -23,9 +23,7 @@
 
 或者参照以下步骤上手设备：
 
-接口示意
-
-![image](./image/01.png)
+![image](./image/03.png)
 
 1. [设备配件检查](https://www.bilibili.com/video/BV1PxidYcEoE/)
 
@@ -43,23 +41,30 @@
 
     推荐使用APP来发现并绑定设备：[客户端下载](https://www.linkease.com/download/)
 
-4. 开始联网（旁路由、主路由、拨号）
+4. 设备联网
 
-    你可以将你的设备配置成以下5种联网方式：
+    ![image](./image/network1.png)
 
-    - [宽带拨号连接](/zh/guide/istoreos/basic/network_guide.html#宽带拨号连接)
-    - [连接现有路由器](/zh/guide/istoreos/basic/network_guide.html#连接现有路由器)
-    - [配置为旁路由](/zh/guide/istoreos/basic/network_guide.html#配置为旁路由)
+    ![image](./image/network2.png)
+
+    ![image](./image/network3.png)
+
+    如果你的硬盘还没有格式化成EXT4，可以参考下方格式化硬盘方式：
+
+    ![image](./image/02.png)
+
+    更多联网参考：
+    - [网络向导](/zh/guide/istoreos/basic/network_guide.html)
     - [自定义网关](/zh/guide/istoreos/basic/auto_gw.html)
     - [IPv6配置](/zh/guide/istoreos/basic/network_guide.html#ipv6-配置)
 
 5. [系统升级重置](https://www.bilibili.com/video/BV1fXiRYQEok/)
 
-    [最新固件下载](https://fw.koolcenter.com/iStoreOS/easepi-r1/)
+    最新固件：[点此下载](https://fw.koolcenter.com/iStoreOS/easepi-r1/)
 
     你可以通过以下方式升级或重置你的系统：
 
-    - [手动/在线升级](/zh/guide/easepi-ars2/common.html#更新固件)
+    - 手动/在线升级：[文字教程](/zh/guide/easepi-ars2/common.html#更新固件)
 
     - 系统重置：[按钮重置](https://www.bilibili.com/video/BV1FQiRYWErx/)[网页重置](https://www.bilibili.com/video/BV1fXiRYQEok/)
 
@@ -125,7 +130,7 @@
 
 ## 家庭影音
 
-- [Jellyfin](/zh/guide/easepi-ars2/advanced.html#玩转影音)
+- [Jellyfin](/zh/guide/istore/software/jellyfin.html)
 
 - VidHub
 
