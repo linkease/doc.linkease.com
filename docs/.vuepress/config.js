@@ -348,9 +348,11 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "介绍"],
+                                ["software/post-my-tutorial", "投稿共创"],
                                 ["software/linkease", "易有云"],
                                 ["software/ddnsto", "DDNSTO"],
                                 ["software/istorex", "iStoreX"],
+                                ["software/jellyfin", "Jellyfin"],
                                 ["software/aria2", "Aria2"],
                                 ["software/qBittorrent", "qBittorrent"],
                                 ["software/transmission", "Transmission"],
