@@ -60,11 +60,12 @@ module.exports = ctx => ({
                             { text: 'iStore 软件中心', link: '/zh/guide/istore/' },
                             {
                                 text: 'EasePi', items: [
-                                    { text: 'EasePi-ARS2', link: '/zh/guide/easepi-ars2/' },
                                     { text: 'EasePi-R1', link: '/zh/guide/easepi-r1/' },
+                                    { text: 'EasePi-ARS2', link: '/zh/guide/easepi-ars2/' },
                                 ]
                             },
-							{ text: 'P2Pro', link: '/zh/guide/p2pro/' },
+							// { text: 'P2Pro', link: '/zh/guide/p2pro/' },
+							{ text: 'AndroidNAS', link: '/zh/guide/androidnas/' },
                             { text: '知识库', link: '/zh/guide/wiki/' } 
                         ]
                   },
@@ -423,8 +424,49 @@ module.exports = ctx => ({
                             ]
                         },
                     ],
+                    '/zh/guide/androidnas/': [
+                        {
+                            title: "AndroidNAS",
+                            // 显示所有页面的标题链接
+                            displayAllHeaders: true,
+                            // 展开状态
+                            collapsable: true,
+                            sidebarDepth: 2,
+                            children: [
+                                ["", "快速上手"],
+                                // ["advantage", "R1产品优势"],  
+                                // ["hardware", "R1配置详情"],
+                                // ["quickstart_hardware", "硬件快速上手"],  
+                                // ["quickstart_software", "软件快速上手"], 
+                                // ["quickfix", "问题快速解决"],
+                                // ["easepi", "EasePi介绍"],								
+                                // {title: "基础操作", 
+                                //   collapsable: false,
+                                //   children: [
+                                //     ["network", "网络设置"], 
+                                //     ["disk", "磁盘管理"], 
+                                //     ["share", "局域网共享"]
+                                //     ]
+                                // }, 
+                                // {title: "配置私有云", 
+                                //   collapsable: false,
+                                //   children: [
+                                //     ["todo", "从手机配置"],
+                                //     ["todo", "从网页配置"],
+                                //     ["todo", "相册备份"],
+                                //     ["todo", "文件同步"],
+                                //     ["todo", "网盘挂载"] 
+                                //     ]
+                                // }, 
+                                // ["todo", "家庭影院"],
+                                // ["todo", "软件中心"],
+                                // ["todo", "Docker"],
+                                // ["question", "常见问题解决"],
+                            ]
+                        },
+                    ],
                     
-					          '/zh/guide/p2pro/': [
+					'/zh/guide/p2pro/': [
                         {
                             title: "P2Pro",
                             // 显示所有页面的标题链接
