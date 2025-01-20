@@ -1,6 +1,6 @@
 ### 投稿我的教程
 
-![image](./picture/tutorial-rule.jpg)
+![image](./picture/tutorial-rule.png)
 
 #### 复制下方邮件模版，[发送邮件到admin@linkease.com](mailto:admin@linkease.com?subject=iStore教程提交%20-【软件名称】)
 
