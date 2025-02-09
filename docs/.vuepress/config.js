@@ -348,6 +348,8 @@ module.exports = ctx => ({
                                 ["software/istoreenhance", "iStore增强"],
                                 ["software/istorepanel", "1Panel"],
                                 ["software/ittools", "工程师工具集"],
+                                ["software/oneapi", "OpenAI聚合API"],
+                                ["software/openwebui", "类DeepSeek私有化部署"],
                                 ["software/qBittorrent", "qBittorrent"],
                                 ["software/transmission", "Transmission"],
                                 ["software/wxedge", "网心云"],
