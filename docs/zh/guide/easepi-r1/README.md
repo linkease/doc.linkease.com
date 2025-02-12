@@ -9,8 +9,6 @@
 
 配置详情：[R1配置详情](hardware.html)
 
-产品说明书：[R1使用说明书](https://dl.istoreos.com/iStoreOS/easepi-r1/EasePi-R1-0110.pdf)
-
 购买链接：[`EasePi-R1`](https://item.taobao.com/item.htm?ft=t&id=851159153974)
 
 <video src="https://dl.istoreos.com/iStoreOS/easepi-r1/easepi-r1-5.mp4" width="400" height="400" controls autoplay muted>
@@ -19,9 +17,11 @@
 
 ## 快速上手
 
-如果你是第一次使用我们的产品，请先看下面这个视频：
+如果你是第一次使用我们的产品，请先看下面的使用说明：
 
-[EasePi-R1 节约时间的上手视频](https://www.bilibili.com/video/BV1sKUvYiEWB/)
+产品说明书：[R1使用说明书](https://dl.istoreos.com/iStoreOS/easepi-r1/EasePi-R1-0110.pdf)
+
+上手视频：[EasePi-R1节约时间的上手视频](https://www.bilibili.com/video/BV1sKUvYiEWB/)
 
 或者参照以下步骤上手设备：
 
@@ -31,7 +31,7 @@
 
 2. [开关机和重置](https://www.bilibili.com/video/BV1FQiRYWErx/)
 
-3. 连接设备
+<!-- 3. 连接设备
 
     连接设备之前需要确定你的设备已经接到了你的网络中：[连接准备](https://www.bilibili.com/video/BV1cSiRYREo3/)
 
@@ -41,9 +41,9 @@
 
     - [电脑连接设备](https://www.bilibili.com/video/BV1JRiRYHEV4/)
 
-    推荐使用APP来发现并绑定设备：[客户端下载](https://www.linkease.com/download/)
+    推荐使用APP来发现并绑定设备：[客户端下载](https://www.linkease.com/download/) -->
 
-4. 设备联网
+3. 设备联网
 
     ![image](./image/network1.png)
 
@@ -56,11 +56,19 @@
     ![image](./image/02.png)
 
     更多联网参考：
+
     - [网络向导](/zh/guide/istoreos/basic/network_guide.html)
     - [自定义网关](/zh/guide/istoreos/basic/auto_gw.html)
     - [IPv6配置](/zh/guide/istoreos/basic/network_guide.html#ipv6-配置)
 
-5. [系统升级重置](https://www.bilibili.com/video/BV1fXiRYQEok/)
+    连接设备参考：
+    
+    推荐使用APP来发现并绑定设备：[客户端下载](https://www.linkease.com/download/)
+
+    - [APP连接设备](https://www.bilibili.com/video/BV1JRiRYHEHg/)
+    - [电脑连接设备](https://www.bilibili.com/video/BV1JRiRYHEV4/)
+
+4. [系统升级重置](https://www.bilibili.com/video/BV1fXiRYQEok/)
 
     最新固件：[点此下载](https://fw.koolcenter.com/iStoreOS/easepi-r1/)
 
@@ -74,7 +82,7 @@
 
     EasePi R1线刷教程：[视频教程](https://www.bilibili.com/video/BV1CyBYYiEFg/)[文字教程](https://mp.weixin.qq.com/s/EBoEj5u5nkx9mY7u5fnydg)
 
-6. [关键注意事项](https://www.bilibili.com/video/BV1JXiRYXEUB/)
+5. [关键注意事项](https://www.bilibili.com/video/BV1JXiRYXEUB/)
 
 ## 存储管理
 
@@ -92,9 +100,7 @@
 
 - [手机相册备份](/zh/guide/linkease/function/photo_backup.html)
 
-- 电脑数据
-
-    [同步圈](/zh/guide/linkease/function/file_backup.html)
+- [电脑数据同步](/zh/guide/linkease/function/file_backup.html)
 
 - 网盘备份
 
