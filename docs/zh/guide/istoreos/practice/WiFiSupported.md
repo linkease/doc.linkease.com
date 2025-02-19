@@ -1,5 +1,7 @@
 ## iStoreOS 支持的无线
 
+[iStoreOS-USB无线网卡兼容性及功能测试表](https://doc.weixin.qq.com/sheet/e3_APgAFga8ADQoXM4pcrBRlOMhsi2BE?scode=AO8Amwc5AA8ND7QQDbAPgAFga8ADQ&tab=000001)
+
 iStoreOS 继承了很多无线驱动，如果大家发现有些新的驱动无法支持，  
 可以反馈到：[问题反馈](https://github.com/istoreos/istoreos/issues)。反馈问题信息请提供多一些，可以参考这个：[R4SE有什么办法驱动CF-811AC呢
 ](https://github.com/istoreos/istoreos/issues/1037)
