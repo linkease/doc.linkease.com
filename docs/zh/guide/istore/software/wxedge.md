@@ -1,6 +1,10 @@
 ### 网心云
 
-<span style="color: red;font-size: 20px;">近期业务放量，网心云官方有新活动：当前容器魔方新用户绑定在线即可领取4.5元，老用户回归专享14天30%收益加成，现在上机收益更高。</span>
+<!-- <span style="color: red;font-size: 20px;">上机网心云容器魔方，新人立享4.5元，上机即到账，参照教程立即安装！
+老用户专享回归礼，上机即得14天30%收益加成卡，领取链接：https://act.walk-live.com/acts/recallDevice/container</span> -->
+
+<span style="color: red;font-size: 20px;">上机网心云容器魔方，新人立享4.5元，上机即到账，参照教程立即安装！
+老用户专享回归礼，上机即得14天30%收益加成卡，<a href="https://act.walk-live.com/acts/recallDevice/container">点击这里领取</a></span>
 
 注意：此教程仅适用于iStoreOS系统，请先安装[iStoreOS系统](/zh/guide/istoreos/README.md)。
 
