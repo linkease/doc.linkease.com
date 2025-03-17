@@ -66,8 +66,6 @@ iStore增强是一款优化Docker镜像下载速度的软件，通过多镜像�
 #### 六、总结
 通过安装和配置iStore增强，您可以显著提升Docker镜像的下载速度，享受多镜像源并发下载、断点续传、动态负载均衡等高级功能。希望本教程能帮助您更好地使用iStore增强，提升工作效率。
 
-如有任何问题或建议，欢迎访问iStore官方网站或联系客服支持。感谢您的使用，祝您工作愉快！
-
 
 我有更好的教程要投稿：
 [![image](./picture/post.png)](/zh/guide/istore/software/post-my-tutorial.html)
