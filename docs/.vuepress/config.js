@@ -261,7 +261,7 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "概述"],
+                                ["", "快速上手"],
                                 {
                                     title: "系统介绍", collapsable: true, children: [
                                         ["storeos_introduce", "系统展示"],
@@ -297,14 +297,23 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "常用功能", collapsable: true, children: [
-                                        ["basic/network_guide", "网络向导"],
-                                        ["basic/page", "首页向导"]
+                                    title: "设备联网", collapsable: true, children: [
+                                        ["network/wired_connection", "有线连接"],
+                                        ["network/wifi_connection", "无线连接"],
+                                        ["network/check_connection", "访问设备"]
                                     ]
                                 },
-                                ["software", "软件中心"],
+                                {
+                                    title: "快捷向导", collapsable: true, children: [
+                                        ["basic/network_guide", "网络向导"],
+                                        ["basic/page", "首页向导"],
+                                        ["basic/install_guide", "快速装机向导"]
+                                    ]
+                                },
+                                ["https://doc.linkease.com/zh/guide/istore/", "软件中心"],
                                 {
                                     title: "最佳实践", collapsable: true, children: [
+                                        ["practice/homeNas", "家庭NAS服务器"],
                                         ["practice/HowToWriteDoc", "用 iStoreOS 写文档"],
                                         ["practice/ventoy", "Ventoy打造最强U盘"],
                                         ["practice/DialMore", "多账号多拨"],
@@ -314,7 +323,7 @@ module.exports = ctx => ({
                                        
                                     ]
                                 },
-                                ["question", "FAQ 必读"],
+                                ["question", "常见问题"],
                                 ["changelog", "更新日志"],
                             ]
                         },
