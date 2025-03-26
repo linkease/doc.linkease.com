@@ -295,6 +295,7 @@ module.exports = ctx => ({
                                         ["install_t68m", "莱因特T68M 设备"],
                                         ["install_rpi4", "树莓派 Model 4"],
                                         ["install_e20c", "Radxa E20C"],
+                                        ["install_e52c", "Radxa E52C"],
                                         ["install_mt3000", "GL MT3000"],
                                         ["install_sd", "SD卡通用教程"],
                                         ["install_shell", "系统内刷机教程"],
