@@ -273,12 +273,17 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "系统安装", collapsable: true, children: [
+                                        ["install", "支持列表"],
                                         ["install_r1", "EasePi R1"],
                                         ["install_ars2", "EasePi ARS2"],
                                         ["install_x86", "X86 物理机"],
                                         ["install_pve", "X86 PVE"],
                                         ["install_esxi_8", "X86 ESXI 8.0"],
                                         ["install_vmware", "X86 VMWare Workstation"],
+                                        ["install_proxmox", "X86 Proxmox"],
+                                        ["install_ikuai", "X86 iKuai爱快"],
+                                        ["install_unraid", "X86 UNRAID"],
+                                        ["install_apple", "Apple Silicon M系列"],
                                         ["install_ax9000", "小米AX9000"],
                                         ["install_r2s", "R2S/R2C/R4S 设备"],
                                         ["install_r5s", "R5S/R5C 设备"],
@@ -289,6 +294,8 @@ module.exports = ctx => ({
                                         ["install_h88k", "H88K 设备"],
                                         ["install_t68m", "莱因特T68M 设备"],
                                         ["install_rpi4", "树莓派 Model 4"],
+                                        ["install_e20c", "Radxa E20C"],
+                                        ["install_mt3000", "GL MT3000"],
                                         ["install_sd", "SD卡通用教程"],
                                         ["install_shell", "系统内刷机教程"],
                                         ["install_rockchip_tf_or_emmc", "Rockchip 安装 iStoreOS 教程"],
@@ -323,8 +330,18 @@ module.exports = ctx => ({
                                        
                                     ]
                                 },
-                                ["question", "常见问题"],
+                                {
+                                    title: "常见问题", collapsable: true, children: [
+                                        ["question/about_install", "安装问题"],
+                                        ["question/about_network", "网络问题"],
+                                        ["question/about_usage", "使用问题"],
+                                        ["question/about_docker", "Docker问题"],
+                                        ["question/about_other", "其他问题"]
+                                    ]
+                                },
+                                // ["question", "常见问题"],
                                 ["changelog", "更新日志"],
+                                ["support", "社区与支持"],
                             ]
                         },
                     ],
