@@ -67,6 +67,8 @@ iStoreOS固件一大特色功能：支持在线更新，可检测/刷入新固�
 
 * 如果确认两端设备的网口都不是百兆网口，但仍然显示为百兆网络。请检查网线或尝试更换网线。  
 
+![png](./picture/network1.png)
+
 
 ## 磁盘信息
 
@@ -102,7 +104,7 @@ iStoreOS固件一大特色功能：支持在线更新，可检测/刷入新固�
 
 
 
-## Docker
+## Docker目录
 
 * 显示Docker根目录，可快速迁移Docker根目录。
 
@@ -142,3 +144,13 @@ iStoreOS固件一大特色功能：支持在线更新，可检测/刷入新固�
 ![png](./picture/ddns1.png)
 
 ![png](./picture/ddns2.png)
+
+## 网口配置
+
+* 打开网口配置；
+
+![image](./picture/network5.png)
+
+* 可以将任意网口设置成WAN或者LAN口；
+
+![image](./picture/network4.png)

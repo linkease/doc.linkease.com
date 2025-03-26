@@ -13,7 +13,7 @@
 * Station-p2
 * 树莓派 Model 4
 
-更多设备请看[系统安装](/zh/guide/istoreos/install_r1.html)部分。
+更多设备请看[系统安装](/zh/guide/istoreos/install.html)部分。
 
 ## 功能组合
 

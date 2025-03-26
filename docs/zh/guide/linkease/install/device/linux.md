@@ -4,7 +4,7 @@
 
 #### 1. 获取易有云linux链接： 
 
-点击[易有云下载链接](https://fw0.koolcenter.com/binary/LinkEase/LinuxStorage/)，打开易有云存储端下载页面。
+点击[易有云下载链接](https://www.linkease.com/download/?platform=更多)，打开易有云存储端下载页面。
 
 根据更新日期，复制最新的版本下载链接。
 

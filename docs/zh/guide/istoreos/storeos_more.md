@@ -2,8 +2,9 @@
 
 更多iStoreOS 功能，请关注我们的账号：
 
-* [酷友社B站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
+* [酷友社 B站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
 * [酷友社 Youtube](https://www.youtube.com/channel/UCvENMyIFurJi_SrnbnbyiZw)
+* [酷友社 小红书](https://www.xiaohongshu.com/user/profile/66eaa6e4000000001d0307af)
 * [QQ 群](https://www.koolcenter.com/posts/117)
 * [TG 群](https://t.me/+QwxW7aimSMeRdQJX)
 
@@ -13,7 +14,7 @@
 
 大家也可以选择加入 iStoreOS 固件互助群。
 
-* [入群](https://www.koolcenter.com/posts/117)
+* [加交流群](https://www.koolcenter.com/posts/117)
 
 ## 贡献代码
 
