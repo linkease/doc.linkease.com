@@ -3,7 +3,8 @@
 
 * [酷友社：【全新、全网独家的Docker镜像下载，多镜像并发下载】](https://www.bilibili.com/video/BV1GvQWYZEt9/)
 
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113277631857709&bvid=BV1GvQWYZEt9&cid=26216693770&p=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+<iframe src="//player.bilibili.com/player.html?bvid=BV1GvQWYZEt9&autoplay=0"
+ scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ### iStore增强软件教程指导
 
@@ -36,6 +37,13 @@ iStore增强是一款优化Docker镜像下载速度的软件，通过多镜像�
 #### 四、使用iStore增强
 1. **启动软件**
    - 勾选启用，点击保存
+   - 启动后会自动在docker中配置镜像源
+   - 验证
+   ```bash
+   
+   docker info | grep "registry.linkease.net"
+   
+   ```
 
 2. **查看镜像源状态**
    - 打开浏览器，访问`http://localhost:5003`（或您设置的管理端口），进入iStore增强的管理界面。在管理界面中，您可以查看当前配置的镜像源状态，包括下载速度、可用性等。
