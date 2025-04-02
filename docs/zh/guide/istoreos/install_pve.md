@@ -115,7 +115,7 @@
 
 ![install.png](./install/pve/22.jpg)
 
-输入：`quickstart`，利用键盘“上下键”选择2，回车：
+输入：`quickstart`，利用键盘“上下键”选择`1 Change LAN IP`，回车：
 
 输入要分配给iStoreOS的LAN口的ip(必须是PVE虚拟LAN的IP段，比如PVE的管理IP是192.168.2.88，那么此处的IP就必须是192.168.2.XXX)，回车生效；
 
