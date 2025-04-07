@@ -8,7 +8,7 @@
       <div class="video-box" @click="openModal(otherUrl.videoUrl1)"><span>观看视频</span></div>
     </div>
     <!-- 产品介绍 -->
-    <div class="desktop_title">- 产品介绍 -</div>
+    <!-- <div class="desktop_title">- 产品介绍 -</div>
     <div class="desktop_product">
       <div class="product">
         <div class="product_top">
@@ -31,18 +31,18 @@
         </div>
         <div class="product_bottom" v-if="tabIndex1 === 0">
           <div class="video-box" @click="openOtherUrl(productUrl[0].doc)"><span>查看文档</span></div>
-          <div class="video-box"  @click="openOtherUrl(productUrl[0].web)"><span>进入官网</span></div>
+          <div class="video-box" @click="openOtherUrl(productUrl[0].web)"><span>进入官网</span></div>
           <div class="video-box" @click="openModal(otherUrl.videoUrl2)"><span>观看视频</span></div>
         </div>
         <div class="product_guide" v-if="tabIndex1 === 1">
           <ul>
-            <li v-for="(item, index) in platformList1" :key="index" > <a :href="item.url">{{ item.name
+            <li v-for="(item, index) in platformList1" :key="index"> <a :href="item.url">{{ item.name
             }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
         <div class="product_question" v-if="tabIndex1 === 2">
           <ul>
-            <li v-for="(item, index) in question1" :key="index" > <a :href="item.url">{{ item.name
+            <li v-for="(item, index) in question1" :key="index"> <a :href="item.url">{{ item.name
             }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
@@ -67,13 +67,13 @@
           </ul>
         </div>
         <div class="product_bottom" v-if="tabIndex2 === 0">
-          <div class="video-box"  @click="openOtherUrl(productUrl[1].doc)"><span>查看文档</span></div>
-          <div class="video-box"  @click="openOtherUrl(productUrl[1].web)"><span>进入官网</span></div>
+          <div class="video-box" @click="openOtherUrl(productUrl[1].doc)"><span>查看文档</span></div>
+          <div class="video-box" @click="openOtherUrl(productUrl[1].web)"><span>进入官网</span></div>
           <div class="video-box" @click="openModal(otherUrl.videoUrl3)"><span>观看视频</span></div>
         </div>
         <div class="product_guide" v-if="tabIndex2 === 1">
           <ul>
-            <li v-for="(item, index) in platformList2" :key="index"  > <a :href="item.url">{{ item.name
+            <li v-for="(item, index) in platformList2" :key="index"> <a :href="item.url">{{ item.name
             }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
@@ -103,24 +103,29 @@
           </ul>
         </div>
         <div class="product_bottom" v-if="tabIndex3 === 0">
-          <div class="video-box"  @click="openOtherUrl(productUrl[2].doc)"><span>查看文档</span></div>
-          <div class="video-box"  @click="openOtherUrl(productUrl[2].web)"><span>进入官网</span></div>
+          <div class="video-box" @click="openOtherUrl(productUrl[2].doc)"><span>查看文档</span></div>
+          <div class="video-box" @click="openOtherUrl(productUrl[2].web)"><span>进入官网</span></div>
           <div class="video-box" @click="openModal(otherUrl.videoUrl4)"><span>观看视频</span></div>
         </div>
         <div class="product_guide" v-if="tabIndex3 === 1">
           <ul>
             <li v-for="(item, index) in platformList3" :class="index === platformList3.length - 1 ? 'not-long' : ''"
-              :key="index"  > <a :href="item.url">{{ item.name
-            }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
+              :key="index"> <a :href="item.url">{{ item.name
+              }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
         <div class="product_question" v-if="tabIndex3 === 2">
           <ul>
-            <li v-for="(item, index) in question3" :key="index" > <a :href="item.url">{{ item.name
+            <li v-for="(item, index) in question3" :key="index"> <a :href="item.url">{{ item.name
             }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
           </ul>
         </div>
       </div>
+    </div> -->
+    <div class="desktop_operate">
+      <ClientOnly>
+        <Markmaper />
+      </ClientOnly>
     </div>
     <!-- 最佳实践 -->
 
@@ -171,8 +176,8 @@
       <div class="content_right">
         <div class="title">更多实践</div>
         <ul>
-          <li v-for="(item, index) in questionTotal" :key="index"  > <a :href="item.url">{{ item.name
-            }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
+          <li v-for="(item, index) in questionTotal" :key="index"> <a :href="item.url">{{ item.name
+          }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
         </ul>
         <div class="more" @click="openOtherUrl('https://app.linkease.com/')">查看全部</div>
       </div>
@@ -190,43 +195,36 @@
       <div class="contont_right">
         <div class="title">社交媒体</div>
         <div class="iconBg">
-                    <img class="icon" :src="wxIcon" />
-                    <span>iStoreOS公众号</span>
-                    <div class="codeBg">
-                        <img
-                            src="https://assets.koolcenter.com/istoreos/istoreos_mp.jpg"
-                        />
-                    </div>
-                </div>
-                <div class="iconBg">
-                    <img class="icon" :src="wxIcon" />
-                    <span>易有云公众号</span>
-                    <div class="codeBg">
-                        <img
-                            src="https://assets.koolcenter.com/linkease/linkease_gongzhonghao_qrcode.jpg"
-                        />
-                    </div>
-                </div>
-                <div class="iconBg iconBg2" @click="openBl(2)">
-                    <img class="icon" :src="blIcon" />
-                    <img class="bg" :src="blBg" />
-                    <span>B站易有云网络</span>
-                </div>
-                <div
-                    class="iconBg iconBg2"
-                    style="margin-right: 0"
-                    @click="openBl(1)"
-                >
-                    <img class="icon" :src="blIcon" />
-                    <img class="bg" :src="blBg" />
-                    <span>B站酷友社</span>
-                </div>
+          <img class="icon" :src="wxIcon" />
+          <span>iStoreOS公众号</span>
+          <div class="codeBg">
+            <img src="https://assets.koolcenter.com/istoreos/istoreos_mp.jpg" />
+          </div>
+        </div>
+        <div class="iconBg">
+          <img class="icon" :src="wxIcon" />
+          <span>易有云公众号</span>
+          <div class="codeBg">
+            <img src="https://assets.koolcenter.com/linkease/linkease_gongzhonghao_qrcode.jpg" />
+          </div>
+        </div>
+        <div class="iconBg iconBg2" @click="openBl(2)">
+          <img class="icon" :src="blIcon" />
+          <img class="bg" :src="blBg" />
+          <span>B站易有云网络</span>
+        </div>
+        <div class="iconBg iconBg2" style="margin-right: 0" @click="openBl(1)">
+          <img class="icon" :src="blIcon" />
+          <img class="bg" :src="blBg" />
+          <span>B站酷友社</span>
+        </div>
       </div>
     </div>
     <div class="desktop_kong"></div>
     <div class="video-moban" v-if="dialogVisible">
       <img :src="close_icon" class="close" @click="handleClose()" />
-      <iframe :src="videoUrl" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+      <iframe :src="videoUrl" scrolling="no" border="0" frameborder="no" framespacing="0"
+        allowfullscreen="true"></iframe>
     </div>
   </div>
 </template>
@@ -240,7 +238,6 @@ import icon_iStoreOS from "../public/home/logo_istoreos@3x.png"
 import wxIcon from "../public/home/wx_icon.png";
 import blIcon from "../public/home/bl_icon.png";
 import blBg from "../public/home/bl_bg.png";
-
 export default {
   data() {
     return {
@@ -256,17 +253,17 @@ export default {
       tabIndex2: 0,
       tabIndex3: 0,
       dialogVisible: false,
-      productUrl:[
+      productUrl: [
         {
-          web:'https://www.linkease.com/',
-          doc:'/zh/guide/linkease/'
+          web: 'https://www.linkease.com/',
+          doc: '/zh/guide/linkease/'
         },
         {
-          web:'https://www.ddnsto.com/',
-          doc:'/zh/guide/ddnsto/'
+          web: 'https://www.ddnsto.com/',
+          doc: '/zh/guide/ddnsto/'
         }, {
-          web:'https://www.istoreos.com/',
-          doc:'/zh/guide/istoreos/'
+          web: 'https://www.istoreos.com/',
+          doc: '/zh/guide/istoreos/'
         }
 
       ],
@@ -504,7 +501,7 @@ export default {
         {
           name: '在家办公，用微软原生RDP远程Windows',
           url: '/zh/guide/linkease/tips/remote.html'
-        },{
+        }, {
           name: '手机资料快速传给电脑',
           url: '/zh/guide/linkease/tips/device.html'
         }, {
@@ -777,7 +774,8 @@ export default {
         margin-top: 15px;
         display: flex;
         justify-content: end;
-        .video-box{
+
+        .video-box {
           margin-left: 8px;
         }
       }
@@ -791,7 +789,8 @@ export default {
           display: flex;
           flex-wrap: wrap;
           margin-left: -24px;
-          li{
+
+          li {
             height: 38px;
             background: #F9F9F9;
             border-radius: 4px;
@@ -800,12 +799,14 @@ export default {
             padding: 0;
             box-sizing: border-box;
             margin-bottom: 4px;
-            list-style:none;
+            list-style: none;
+
             &:last-child {
               width: calc(100% - 12px);
             }
           }
-          li >a{
+
+          li>a {
             height: 38px;
             background: #F9F9F9;
             border-radius: 4px;
@@ -823,7 +824,7 @@ export default {
               height: 14px;
             }
 
-           
+
           }
 
           .not-long {
@@ -838,10 +839,12 @@ export default {
           font-family: PingFangSC-Regular, PingFang SC;
           font-weight: 400;
           color: #0060FF;
-          li{
-            list-style:none;
+
+          li {
+            list-style: none;
           }
-          li >a{
+
+          li>a {
             height: 38px;
             background: #F9F9F9;
             border-radius: 4px;
@@ -894,9 +897,10 @@ export default {
       width: 392px;
       background: #FFFFFF;
       border-radius: 12px;
-      padding: 20px 20px 40px 20px; 
+      padding: 20px 20px 40px 20px;
       box-sizing: border-box;
       position: relative;
+
       .more {
         font-size: 14px;
         font-family: PingFangSC-Medium, PingFang SC;
@@ -909,6 +913,7 @@ export default {
         right: 20px;
 
       }
+
       .title {
         font-size: 22px;
         font-family: PingFangSC-Medium, PingFang SC;
@@ -922,11 +927,13 @@ export default {
         font-weight: 400;
         color: #0060FF;
         line-height: 22px;
-        li{
+
+        li {
           list-style: none;
         }
-        li >a{
-       
+
+        li>a {
+
           height: 38px;
           background: #F9F9F9;
           border-radius: 4px;
@@ -1077,78 +1084,79 @@ export default {
           }
         }
       }
+
       .iconBg {
-                width: 140px;
-                height: 38px;
-                background: #f9f9f9;
-                border-radius: 4px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                margin-right: 10px;
-                position: relative;
-                cursor: pointer;
+        width: 140px;
+        height: 38px;
+        background: #f9f9f9;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+        position: relative;
+        cursor: pointer;
 
-                .codeBg {
-                    position: absolute;
-                    top: 65px;
-                    left: -20px;
-                    width: 200px;
-                    height: 220px;
-                    z-index: 100;
-                    display: none;
-                    background: transparent;
-                    box-shadow: 1px 15px 16px rgba(0, 0, 0, 0.03);
-                    background-image: url("../public/home/codeBg.png");
-                    background-size: 100% 100%;
-                    padding: 35px 0 0 10px;
+        .codeBg {
+          position: absolute;
+          top: 65px;
+          left: -20px;
+          width: 200px;
+          height: 220px;
+          z-index: 100;
+          display: none;
+          background: transparent;
+          box-shadow: 1px 15px 16px rgba(0, 0, 0, 0.03);
+          background-image: url("../public/home/codeBg.png");
+          background-size: 100% 100%;
+          padding: 35px 0 0 10px;
 
-                    img {
-                        width: 178px;
-                        height: 175px;
-                    }
-                }
+          img {
+            width: 178px;
+            height: 175px;
+          }
+        }
 
-                &:hover {
-                    .codeBg {
-                        display: block;
-                    }
-                }
+        &:hover {
+          .codeBg {
+            display: block;
+          }
+        }
 
-                .icon {
-                    width: 18px;
-                    height: 18px;
-                    margin-right: 8px;
-                }
+        .icon {
+          width: 18px;
+          height: 18px;
+          margin-right: 8px;
+        }
 
-                .bg {
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    width: 86px;
-                    height: 38px;
-                }
+        .bg {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 86px;
+          height: 38px;
+        }
 
-                span {
-                    font-family: "PingFang SC";
-                    font-weight: 500;
-                    font-size: 13px;
-                    line-height: 18px;
-                    color: #1ebd43;
-                }
-            }
+        span {
+          font-family: "PingFang SC";
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 18px;
+          color: #1ebd43;
+        }
+      }
 
-            .iconBg2 {
-                span {
-                    color: #ec5d85;
-                }
+      .iconBg2 {
+        span {
+          color: #ec5d85;
+        }
 
-                .icon {
-                    width: 22px;
-                    height: 18px;
-                    margin-right: 8px;
-                }
-            }
+        .icon {
+          width: 22px;
+          height: 18px;
+          margin-right: 8px;
+        }
+      }
     }
   }
 
