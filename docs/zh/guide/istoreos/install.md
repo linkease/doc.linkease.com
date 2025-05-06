@@ -16,6 +16,9 @@ X86物理机，范围很广，可以是各种"电脑"，或者N100、J4125、N51
 |Proxmox | [查看](/zh/guide/istoreos/install_proxmox.html) |
 |iKuai爱快 | [查看](/zh/guide/istoreos/install_ikuai.html) |
 |UNRAID | [查看](/zh/guide/istoreos/install_unraid.html) |
+|飞牛 | [查看](/zh/guide/istoreos/install_fnos.html) |
+|Hyper-V | [查看](/zh/guide/istoreos/install_hyperv.html) |
+|群晖 | [查看](/zh/guide/istoreos/install_synology.html) |
 
 ### EasePi 设备
 
