@@ -27,7 +27,7 @@
 
 将唯一的网口连接到现有网络的交换机或主路由器的LAN口。
 
-【图示】
+![image](./network3.png)
 
 接线后请查看如何[访问设备](/zh/guide/istoreos/network/check_connection.html)
 
@@ -37,7 +37,7 @@
 
 将唯一的网口连接到现有网络的交换机或主路由器的LAN口。
 
-【图示】
+![image](./network3.png)
 
 接线后请查看如何[访问设备](/zh/guide/istoreos/network/check_connection.html)
 
@@ -50,7 +50,7 @@
 将第一个网口（设定为WAN口）连接到外部网络（如光猫、调制解调器）。
 将其余网口（LAN口）连接到内部网络设备（如无线路由器、电脑、交换机等）。
 
-【图示】
+![image](./network4.png)
 
 接线后请查看如何[访问设备](/zh/guide/istoreos/network/check_connection.html)
 
@@ -59,9 +59,8 @@
 接线方式：
 
 将LAN口连接到现有网络的交换机或主路由器的LAN口。
-其他网口可连接需要通过旁路由的设备（如电脑、智能设备等）。
 
-【图示】
+![image](./network3.png)
 
 接线后请查看如何[访问设备](/zh/guide/istoreos/network/check_connection.html)
 
@@ -72,7 +71,7 @@
 将WAN口连接到现有网络的交换机或主路由器的LAN口。
 其他网口可连接内部设备，但通常不使用。
 
-【图示】
+![image](./network3.png)
 
 接线后请查看如何[访问设备](/zh/guide/istoreos/network/check_connection.html)
 
