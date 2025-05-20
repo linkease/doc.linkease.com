@@ -1,1 +1,1 @@
-无线连接
+如果你的设备是带无线功能的，例如：GL-MT3000、接入USB无线网卡等，你可以按照[设备联网](/zh/guide/istoreos/network/wired_connection.html)接线后，通过手机连接到设备Wi-Fi后浏览器访问IP地址 **192.168.100.1** 访问管理后台。
