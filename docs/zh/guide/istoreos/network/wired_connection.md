@@ -4,7 +4,7 @@
 
 ### 1. 设备网口数量为1个
 
-如果您的iStoreOS设备只有一个网口，那么它无法同时连接外部网络和内部设备，因此只能选择以下两种模式：
+如果您的iStoreOS设备只有一个网口，无法同时连接外部网络和内部设备，因此只能选择以下两种模式：
 
 - 旁路由模式：辅助主路由，提供附加功能（如上网管理、流量管理等）。
 - 纯主机模式：作为一个普通的网络客户端，接入现有网络使用。
@@ -60,7 +60,7 @@
 
 将LAN口连接到现有网络的交换机或主路由器的LAN口。
 
-![image](./network3.png)
+![image](./network6.png)
 
 接线后请查看如何[访问设备](/zh/guide/istoreos/network/check_connection.html)
 
@@ -71,7 +71,7 @@
 将WAN口连接到现有网络的交换机或主路由器的LAN口。
 其他网口可连接内部设备，但通常不使用。
 
-![image](./network3.png)
+![image](./network5.png)
 
 接线后请查看如何[访问设备](/zh/guide/istoreos/network/check_connection.html)
 
