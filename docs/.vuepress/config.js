@@ -271,7 +271,17 @@ module.exports = ctx => ({
                                         ["storeos_thanks", "鸣谢"]
                                     ]
                                 },
-                                ["changelog", "更新日志"],
+                                {
+                                    title: "更新日志", collapsable: true, children: [
+                                        ["changelog/20250620", "v24.10.1 - 20250620"],
+                                        ["changelog/20250606", "v24.10.1 - 20250606"],
+                                        ["changelog/20250523", "v24.10.1 - 20250523"],
+                                        ["changelog/20250516", "v22.03.7 - 20250516"],
+                                        ["changelog/20250509", "v22.03.7 - 20250509"],
+                                        ["changelog/20250407", "v22.03.7 - 20250407"],
+                                        ["changelog/20250403", "v22.03.7 - 20250403"]
+                                    ]
+                                },
                                 {
                                     title: "系统安装", collapsable: true, children: [
                                         ["install", "支持列表"],
