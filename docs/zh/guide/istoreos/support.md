@@ -1,6 +1,9 @@
 ## 提交问题
 
-* [提交反馈](https://github.com/linkease/istoreos/issues)
+* [提交反馈](https://github.com/istoreos/istoreos/issues)
+
+* [社区讨论](https://github.com/istoreos/istoreos/discussions)
+
 
 大家也可以选择加入 iStoreOS 固件互助群。
 
