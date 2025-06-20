@@ -271,6 +271,7 @@ module.exports = ctx => ({
                                         ["storeos_thanks", "鸣谢"]
                                     ]
                                 },
+                                ["changelog", "更新日志"],
                                 {
                                     title: "系统安装", collapsable: true, children: [
                                         ["install", "支持列表"],
@@ -344,7 +345,6 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 // ["question", "常见问题"],
-                                ["changelog", "更新日志"],
                                 ["support", "社区与支持"],
                             ]
                         },
