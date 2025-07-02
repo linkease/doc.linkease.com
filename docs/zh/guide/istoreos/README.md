@@ -2,7 +2,7 @@ iStoreOS 是一个开源免费的路由兼存储系统，轻松管理网络与�
 - 系统代码开源地址：[Github iStoreOS](https://www.github.com/istoreos/istoreos)。
 - 更多详情请查看：[iStoreOS官网](https://www.istoreos.com)。
 
-* 目前 [iStoreOS官网](https://site.istoreos.com/firmware) 支持机型一览表，附带最新固件版本号。
+* 目前 [iStoreOS官网](https://site.istoreos.com/firmware) 固件支持机型一览表，附带最新固件版本号。
 
 | 型号 | 型号 | 型号 | 型号 |
 |------|------|------|------|
