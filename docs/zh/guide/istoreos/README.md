@@ -2,6 +2,18 @@ iStoreOS 是一个开源免费的路由兼存储系统，轻松管理网络与�
 - 系统代码开源地址：[Github iStoreOS](https://www.github.com/istoreos/istoreos)。
 - 更多详情请查看：[iStoreOS官网](https://www.istoreos.com)。
 
+* 目前 [iStoreOS官网](https://site.istoreos.com/firmware) 支持机型一览表，附带最新固件版本号。
+
+| 型号 | 型号 | 型号 | 型号 |
+|------|------|------|------|
+| [X86_64](https://site.istoreos.com/firmware/download?devicename=x86_64&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [EasePi-R1](https://site.istoreos.com/firmware/download?devicename=easepi-r1&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [EasePi-ARS2](https://site.istoreos.com/firmware/download?devicename=ars2&firmware=iStoreOS)<br><small>21.02.3-sdk</small> | [ZX3000](http://fw.koolcenter.com/iStoreOS/zx3000/)<br><small>2025061222</small> |
+| [HinLink-H88K](https://site.istoreos.com/firmware/download?devicename=h88k&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [NanoPi-R6S](https://site.istoreos.com/firmware/download?devicename=r6s&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [HinLink-H6XK系列](https://site.istoreos.com/firmware/download?devicename=h6xk&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [电犀牛R6XS](https://site.istoreos.com/firmware/download?devicename=r6xs&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> |
+| [NanoPi-R5S](https://site.istoreos.com/firmware/download?devicename=r5s&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [莱因特T68M](https://site.istoreos.com/firmware/download?devicename=t68m&firmware=iStoreOS)<br><small>22.03.7-2025051615</small> | [Station-P2](https://site.istoreos.com/firmware/download?devicename=station-p2&firmware=iStoreOS)<br><small>22.03.7-2025051615</small> | [EasePi-R4S](https://site.istoreos.com/firmware/download?devicename=r4s&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> |
+| [EasePi-R4SE](https://site.istoreos.com/firmware/download?devicename=r4se&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [EasePi-R3S](https://site.istoreos.com/firmware/download?devicename=r3s&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [Radxa-E54C](https://site.istoreos.com/firmware/download?devicename=e54c&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [Radxa-E52C](https://site.istoreos.com/firmware/download?devicename=e52c&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> |
+| [Radxa-E20C](https://site.istoreos.com/firmware/download?devicename=e20c&firmware=iStoreOS)<br><small>22.03.7-2025051615</small> | [EasePi-R2S](https://site.istoreos.com/firmware/download?devicename=r2s&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> | [HinLink-H28K](https://site.istoreos.com/firmware/download?devicename=h28k&firmware=iStoreOS)<br><small>22.03.7-2025051615</small> | [树莓派4](https://site.istoreos.com/firmware/download?devicename=rpi4&firmware=iStoreOS)<br><small>24.10.1-2025062010</small> |
+| [GL-BE3600](https://site.istoreos.com/firmware/download?devicename=gl-be3600&firmware=iStoreOS)<br><small>22.03.7-2025061515</small> | [GL-MT3000](https://site.istoreos.com/firmware/download?devicename=mt3000&firmware=iStoreOS)<br><small>21.02.1-2024101100</small> |  |  |
+
+
 ## 前置条件
 
 你需要有一台已经刷入iStoreOS的设备，如果你的设备还没有刷入iStoreOS，请参照[系统安装](/zh/guide/istoreos/install.html)，刷入iStoreOS系统。
