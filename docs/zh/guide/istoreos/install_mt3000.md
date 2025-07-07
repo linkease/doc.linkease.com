@@ -1,4 +1,4 @@
-### MT3000沉浸式刷iStoreOS体验
+### GL.iNet MT3000 沉浸式刷 iStoreOS 体验
 
 参考视频教程：
 

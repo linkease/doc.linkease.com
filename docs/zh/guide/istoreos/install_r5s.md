@@ -1,4 +1,4 @@
-# R5S/R5C 安装教程
+# NanoPi R5S/R5C 安装教程
 
 ## 1.下载固件
 
@@ -11,5 +11,5 @@
 * 如果打算从TF卡启动，参考 [SD卡通用教程](/zh/guide/istoreos/install_sd.html) 刷写。
 * 如果要直接刷写到 eMMC，可以参考 [Rockchip 机型 USB 线刷标准固件教程](/zh/guide/istoreos/install_rockchip_sysupgrade.html)。
 
-## 注意
+## 3.注意
 **不要混刷不同作者的固件**！以免出现问题或损坏硬件，[详情](https://github.com/istoreos/istoreos/issues/1012)
