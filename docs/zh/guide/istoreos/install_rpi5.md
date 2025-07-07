@@ -1,10 +1,10 @@
-# 树莓派 4 安装教程
+# 树莓派 5 安装教程
 
 ## 1.下载固件
 
-* [树莓派 4 固件下载](https://fw.koolcenter.com/iStoreOS/rpi4/)
+* [树莓派 5 固件下载](https://fw.koolcenter.com/iStoreOS/rpi5/)
 
-越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-raspberrypi-rpi4-squashfs.img.gz。下载完成之后不需要解压。
+越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-raspberrypi-rpi5-squashfs.img.gz。下载完成之后不需要解压。
 
 ## 2.刷写TF卡
 参考 [SD卡通用教程](/zh/guide/istoreos/install_sd.html)。
