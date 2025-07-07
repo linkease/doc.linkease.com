@@ -31,7 +31,7 @@
 
 ![install.png](./install/mt3000/4.png)
 
-* 等待两三分钟刷写完成；搜索「iStoreOS-5G」 WiFi 进行连接，然后浏览器通过「192.168.100.1」进入 GL-BE3600 的 iStoreOS 管理后台；
+* 等待两三分钟刷写完成；搜索「iStoreOS-5G」 WiFi 进行连接，然后浏览器通过「192.168.100.1」进入 GL-MT3000 的 iStoreOS 管理后台；
 
 ![install.png](./install/mt3000/5.png)
 
@@ -60,4 +60,4 @@ https://dl.gl-inet.cn/router/mt3000/
 
 * 参考前面的刷机步骤进入 Uboot 页面； “upload”选择下载的官方固件刷写即可。
 
-![install.png](./install/mt3000/4.png)
+![install.png](./install/mt3000/5.png)
