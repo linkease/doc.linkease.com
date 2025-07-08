@@ -265,7 +265,7 @@ module.exports = ctx => ({
                                 {
                                     title: "系统介绍", collapsable: true, children: [
                                         ["storeos_introduce", "系统展示"],
-                                        ["storeos_hardware", "支持硬件"],
+                                        //["storeos_hardware", "支持硬件"],
                                         ["storeos_custom", "定制系统"],
                                         ["storeos_more", "更多精彩"],
                                         ["storeos_thanks", "鸣谢"]
