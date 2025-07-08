@@ -1,8 +1,15 @@
 ### X86 PVE 安装
 
-#### 1.首先X86机器已经安装好PVE机器，且能正常联网；
+* iStoreOS Proxmox保 姆级教程｜EFI 引导+安全启动避坑一网打
 
-* 这里不提供X86机器安装pve教程，自行科普。
+参考视频教程：
+
+<iframe src="//player.bilibili.com/player.html?bvid=BV1vFobYRE2A&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+#### 1.首先 X86 机器已经安装好 PVE，且能正常联网；
+
+* 这里不提供 X86 机器安装 PVE 教程，自行科普。
 
 #### 2.下载固件
 
