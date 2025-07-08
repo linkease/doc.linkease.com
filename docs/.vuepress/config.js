@@ -292,7 +292,7 @@ module.exports = ctx => ({
                                         ["install_pve", "X86 PVE"],
                                         ["install_esxi_8", "X86 ESXI 8.0"],
                                         ["install_vmware", "X86 VMWare Workstation"],
-                                        ["install_proxmox", "X86 Proxmox"],
+                                        //["install_proxmox", "X86 Proxmox"],
                                         ["install_ikuai", "X86 iKuai爱快"],
                                         ["install_unraid", "X86 UNRAID"],
                                         ["install_fnos", "飞牛"],
