@@ -265,7 +265,7 @@ module.exports = ctx => ({
                                 {
                                     title: "系统介绍", collapsable: true, children: [
                                         ["storeos_introduce", "系统展示"],
-                                        ["storeos_hardware", "支持硬件"],
+                                        //["storeos_hardware", "支持硬件"],
                                         ["storeos_custom", "定制系统"],
                                         ["storeos_more", "更多精彩"],
                                         ["storeos_thanks", "鸣谢"]
@@ -310,7 +310,7 @@ module.exports = ctx => ({
                                         //["install_r68s", "电犀牛 R68S"],
                                         //["install_r66s", "电犀牛 R66S"],
                                         ["install_h88k", "HinLink H88K"],
-                                        ["install_h6xk", "HinLink H66K/H68K/H69K"],
+                                        ["install_h6xk", "HinLink H66/68/69K"],
                                         ["install_h28k", "HinLink H28K"],
                                         ["install_t68m", "莱因特 T68M"],
                                         ["install_rpi5", "树莓派 Model 5"],
