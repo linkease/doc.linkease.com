@@ -310,7 +310,7 @@ module.exports = ctx => ({
                                         //["install_r68s", "电犀牛 R68S"],
                                         //["install_r66s", "电犀牛 R66S"],
                                         ["install_h88k", "HinLink H88K"],
-                                        ["install_h6xk", "HinLink H66K/H68K/H69K"],
+                                        ["install_h6xk", "HinLink H66/68/69K"],
                                         ["install_h28k", "HinLink H28K"],
                                         ["install_t68m", "莱因特 T68M"],
                                         ["install_rpi5", "树莓派 Model 5"],
