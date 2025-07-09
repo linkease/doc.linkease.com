@@ -16,7 +16,7 @@
 浏览器不支持视频格式.
 </video>
 
-* [EasePi R1](https://doc.linkease.com/zh/guide/easepi-r1/)已经预装 iStoreOS 系统。
+* [EasePi R1](/zh/guide/easepi-r1/)已经预装 iStoreOS 系统。
 * [EasePi R1 使用文档](https://doc.linkease.com/zh/guide/easepi-r1/)
 
 * 若是老版本的固件，可在首页在线**固件更新**。
