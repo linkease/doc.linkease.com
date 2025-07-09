@@ -2,7 +2,7 @@
 
 ## 1.下载固件
 
-* [R4SE固件下载](https://fw.koolcenter.com/iStoreOS/r4se/)
+* [R4SE 固件下载](https://site.istoreos.com/firmware/download?devicename=r4se&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-r4se-squashfs.img.gz。下载完成之后不需要解压。
 

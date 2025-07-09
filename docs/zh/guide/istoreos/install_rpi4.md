@@ -2,7 +2,7 @@
 
 ## 1.下载固件
 
-* [树莓派 4 固件下载](https://fw.koolcenter.com/iStoreOS/rpi4/)
+* [树莓派 4 固件下载](https://site.istoreos.com/firmware/download?devicename=rpi4&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-raspberrypi-rpi4-squashfs.img.gz。下载完成之后不需要解压。
 
