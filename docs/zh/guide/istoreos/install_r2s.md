@@ -6,7 +6,7 @@ R2S 安装的第三方作者视频教程：
 
 ## 1.下载固件
 
-* [R2S/R2C通用固件下载](https://fw.koolcenter.com/iStoreOS/r2s/)
+* [R2S/R2C 通用固件下载](https://site.istoreos.com/firmware/download?devicename=r2s&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-r2s-squashfs.img.gz。下载完成之后不需要解压。
 

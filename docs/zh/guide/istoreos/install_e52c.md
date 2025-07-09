@@ -2,7 +2,7 @@
 
 ## 1.下载固件
 
-* [Radxa E52C 固件下载](https://fw.koolcenter.com/iStoreOS/e52c/)
+* [Radxa E52C 固件下载](https://site.istoreos.com/firmware/download?devicename=e52c&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023042111**-e52c-squashfs-combined.img.gz。下载完成之后先别自行解压，由后面的刷机方式决定是否需要解压。
 

@@ -2,7 +2,7 @@
 
 ## 1.下载固件
 
-* [R3S固件下载](https://fw.koolcenter.com/iStoreOS/r3s/)
+* [R3S 固件下载](https://site.istoreos.com/firmware/download?devicename=r3s&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023032001**-r3s-squashfs.img.gz。下载完成之后不需要解压。
 
