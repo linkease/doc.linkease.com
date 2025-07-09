@@ -2,7 +2,7 @@
 
 ## 1.下载固件
 
-* [下载 R68S/R66S 通用固件](https://fw.koolcenter.com/iStoreOS/r6xs/)
+* [下载 R68S/R66S 通用固件](https://site.istoreos.com/firmware/download?devicename=r6xs&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-xxx-**2023080310**-r6xs-squashfs-combined.img.gz。下载完成之后不需要解压。
 

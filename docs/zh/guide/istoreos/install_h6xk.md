@@ -2,7 +2,7 @@
 
 ## 1.下载固件
 
-* [H66K/H68K/H69K 通用固件下载](https://fw.koolcenter.com/iStoreOS/h6xk/)
+* [H66K/H68K/H69K 通用固件下载](https://site.istoreos.com/firmware/download?devicename=h6xk&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2023042111**-h6xk-squashfs-combined.img.gz。下载完成之后先别自行解压，由后面的刷机方式决定是否需要解压。
 
