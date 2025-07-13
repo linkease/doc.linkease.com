@@ -94,7 +94,13 @@ module.exports = ctx => ({
                             sidebarDepth: 2,
                             children: [
                                 ["", "新手速览"],
-                                ["changelog", "更新日志"],
+                                {
+                                    title: "更新日志", collapsable: true, children: [
+                                        //["changelog/1.7.6", "v1.7.6"],
+                                        //["changelog/1.7.5", "v1.7.5"],
+                                        ["changelog/1.7.4", "v1.7.4"]
+                                    ]
+                                },
                                 ["function/file_transfer", "多设备互传"],
                                 ["function/file_backup", "备份及同步"],
                                 ["function/photo_backup", "相册备份"],
