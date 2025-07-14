@@ -8,7 +8,7 @@
 
 * 2025最新！X86物理机安装iStoreOS全攻略：Windows、Mac双平台教学
 
-<iframe src="//player.bilibili.com/player.html?bvid=BV1hWo2YAEwv&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?bvid=BV1hWo2YAEwv&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 <!-- * 已过时
 
