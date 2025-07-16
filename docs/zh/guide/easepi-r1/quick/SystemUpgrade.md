@@ -2,7 +2,7 @@
 
 [系统升级/更新/重置-视频解析](https://www.bilibili.com/video/BV1fXiRYQEok/)
 
-[点击下载 R1 最新固件](https://site.istoreos.com/firmware/download?devicename=easepi-r1/)
+[点击下载 R1 最新固件](https://site.istoreos.com/firmware/download?devicename=easepi-r1)
 
 你可以通过以下方式升级或重置你的系统：
 
