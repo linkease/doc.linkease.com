@@ -1,17 +1,29 @@
 ### 系统升级
 
-[系统升级重置](https://www.bilibili.com/video/BV1fXiRYQEok/)
+[系统升级/更新/重置-视频解析](https://www.bilibili.com/video/BV1fXiRYQEok/)
 
-最新固件：[点此下载](https://fw.koolcenter.com/iStoreOS/easepi-r1/)
+[点击下载 R1 最新固件](https://site.istoreos.com/firmware/download?devicename=easepi-r1/)
 
 你可以通过以下方式升级或重置你的系统：
 
-- 手动/在线升级：[文字教程](/zh/guide/easepi-ars2/common.html#更新固件)
+- **在线升级固件：** iStoreOS 首页——>「固件更新」——>「检测更新」，如果有新版固件，检测到更新，直接「下载固件」更新即可。
 
-- 系统重置：[按钮重置](https://www.bilibili.com/video/BV1FQiRYWErx/)[网页重置](https://www.bilibili.com/video/BV1fXiRYQEok/)
+![image](./image/update1.png)
 
-- 如果你无法访问设备，重置无效的情况下，你可以尝试用数据线连接设备进行刷机；
+![image](./image/update2.png)
 
-EasePi R1线刷教程：[视频教程](https://www.bilibili.com/video/BV1CyBYYiEFg/)[文字教程](https://mp.weixin.qq.com/s/EBoEj5u5nkx9mY7u5fnydg)
+- **手动升级固件：** iStoreOS ——>「系统」——>「备份与升级」——>「刷写固件」——>「浏览」选择下载的固件文件，开始刷入即可（按需决定是否保留配置）。
 
-- [关键注意事项](https://www.bilibili.com/video/BV1JXiRYXEUB/)
+![image](./image/update3.png)
+
+![image](./image/update4.png)
+
+- **系统重置：**
+
+1.硬件重置：长按按钮 5秒 左右，PWR 指示灯闪时松开恢复出厂设置
+
+![image](./image/power.png)
+
+2.网页重置：
+
+![image](./image/reset.png)

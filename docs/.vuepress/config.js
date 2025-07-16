@@ -458,6 +458,7 @@ module.exports = ctx => ({
                                         ["quick/Power", "开机重置"],
                                         ["quick/Networking", "设备联网"],
                                         ["quick/SystemUpgrade", "系统升级"],
+                                        ["quick/Flash", "线刷救砖"],
                                         ["quick/Storage", "存储管理"],
                                         ["quick/Backup", "数据备份"],
                                         ["quick/Remote", "远程访问"],
