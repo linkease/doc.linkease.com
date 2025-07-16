@@ -452,7 +452,23 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "快速上手"],
+                                {
+                                    title: "快速上手", collapsable: true, children: [
+                                        ["quick/Description", "产品说明"],
+                                        ["quick/Power", "开机重置"],
+                                        ["quick/Networking", "设备联网"],
+                                        ["quick/SystemUpgrade", "系统升级"],
+                                        ["quick/Storage", "存储管理"],
+                                        ["quick/Backup", "数据备份"],
+                                        ["quick/Remote", "远程访问"],
+                                        ["quick/Download", "远程下载"],
+                                        ["quick/HomeVideo", "家庭影音"],
+                                        ["quick/Advanced", "高级玩法"],
+                                        ["quick/Software", "常用软件"],
+                                        ["quick/Neighborhood", "设备周边"],
+                                        ["quick/Support", "售后支持"]
+                                    ]
+                                },
                                 ["advantage", "R1产品优势"],  
                                 ["hardware", "R1配置详情"],
                                 // ["quickstart_hardware", "硬件快速上手"],  
