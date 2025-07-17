@@ -327,6 +327,8 @@ module.exports = ctx => ({
                                         ["install_e54c", "Radxa E54C"],
                                         ["install_e52c", "Radxa E52C"],
                                         ["install_e20c", "Radxa E20C"],
+                                        ["install_ac1", "BeeconMini SEED-AC1"],
+                                        ["install_ac3", "BeeconMini SEED-AC3"],
                                         ["install_be3600", "GL BE3600"],
                                         ["install_mt3000", "GL MT3000"],
                                         //["install_rockchip_tf_or_emmc", "Rockchip 安装 iStoreOS 教程"],
