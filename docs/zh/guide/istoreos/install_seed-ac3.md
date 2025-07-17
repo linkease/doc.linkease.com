@@ -1,8 +1,8 @@
-# BeeconMini SEED-AC3 安装教程
+# BeeconMini SEED AC3 安装教程
 
 ## 1.下载固件
 
-* [SEED-AC3 固件下载](https://site.istoreos.com/firmware/download?devicename=seed-ac3&firmware=iStoreOS)
+* [SEED AC3 固件下载](https://site.istoreos.com/firmware/download?devicename=seed-ac3&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2025071716**-ac3-squashfs-sysupgrade.bin。
 
