@@ -20,7 +20,7 @@ Docker安装完成后，进行下面的教程。
 
 **Docker安装易有云教程开始：**
 
-**1.终端运行以下命令：(先不要直接复制，看下面的说明)**
+**1.终端部署命令：(先不要直接复制，看下面的说明)**
 
 ```
 docker run -d \
@@ -28,23 +28,57 @@ docker run -d \
     --network host \
     --name linkease \
     --restart unless-stopped \
-    -v /root/linkease-data:/linkease-data \
-    -v /root/linkease-config:/linkease-config \
+    -v <path for data files>:/linkease-data \
+    -v <path for config files>:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=<uid for user> \
     -e PGID=<gid for user> \
     linkease/linkease:latest
 ```
 
- * PUID/PGID：获取方式：终端输入id即可。
+* 更改网页访问端口：（若不变更，忽略！）
+```
+    -p 8897:8897 \
+```
+如果不想使用8897的访问端口，比如改成8888，就改前一个8897：
+```
+    -p 8888:8897 \
+```
 
-![docker1](./image/docker/docker1.jpeg)
+* 挂载易有云主目录和配置文件目录：
+```
+<path for data files>  主目录映射在设备的实际路径
+<path for config files>  配置文件目录映射在设备的的实际路径
+
+比如主目录设为 /mnt/sda1/linkease-data
+配置文件目录设为 /mnt/sda1/linkease-config
+```
+那么这两行命令就为：
+```
+    -v /mnt/sda1/linkease-data:/linkease-data \
+    -v /mnt/sda1/linkease-config:/linkease-config \
+```
+
+ * 若有几个磁盘的都想挂载：（若无，忽略！）
+ 
+比如有 /mnt/sda1、/mnt/sda2、/mnt/sda3 等几个磁盘挂载点；
+
+那么就直接添加挂载命令：
+``` 
+    -v /mnt/sda1:/Disk1 \
+    -v /mnt/sda2:/Disk2 \
+    -v /mnt/sda3:/Disk3 \ 
+```
+挂载以后在绑定过程中就能直接绑定 Disk1、Disk2、Disk3 这几个盘。
+
+
+ * PUID/PGID：获取方式：终端输入 id 即可
+
+![docker1](./image/docker/docker1.png)
    
-比如上图获取的UID和GID都是0。
+比如上图获取的UID和GID都是0；那么就将```<uid for user>```和```<gid for user>```替换成0。
 
- * 注意要替换 "<>" 里面的内容，且不能出现 "<>"。
-
- * 准备工作做好了，那我的终端命令就是：
+* 所以最终实际要执行的部署命令为：
 
 ```
 docker run -d \
@@ -52,15 +86,18 @@ docker run -d \
     --network host \
     --name linkease \
     --restart unless-stopped \
-    -v /root/linkease-data:/linkease-data \
-    -v /root/linkease-config:/linkease-config \
+    -v /mnt/sda1/linkease-data:/linkease-data \
+    -v /mnt/sda1/linkease-config:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
+    -v /mnt/sda1:/Disk1 \
+    -v /mnt/sda2:/Disk2 \
+    -v /mnt/sda3:/Disk3 \
     -e PUID=0 \
     -e PGID=0 \
     linkease/linkease:latest
 ```
 
- * Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：
+ * 某些Linux发行版，可能要加上“sudo”提权才能运行，按提示输入Linux的密码，命令如下：
 
 ```
 sudo docker run -d \
@@ -68,42 +105,16 @@ sudo docker run -d \
     --network host \
     --name linkease \
     --restart unless-stopped \
-    -v /root/linkease-data:/linkease-data \
-    -v /root/linkease-config:/linkease-config \
+    -v /mnt/sda1/linkease-data:/linkease-data \
+    -v /mnt/sda1/linkease-config:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
+    -v /mnt/sda1:/Disk1 \
+    -v /mnt/sda2:/Disk2 \
+    -v /mnt/sda3:/Disk3 \
     -e PUID=0 \
     -e PGID=0 \
     linkease/linkease:latest
 ```
-
-
- * 某些特殊的Linux发行版，可能选不到存储目录，这样就需要单独挂载出来：
- 
-/mnt/sda1:/My-storage  把系统的mnt/sda1(根据自身系统路径填写)硬盘路径映射为/My-storage，便于后面绑定易有云。
-
- 若是多个硬盘路径：
-``` 
-    -v /mnt/sda1:/My-storage \
-    -v /mnt/sda2:/My-storage1 \
-    -v /mnt/sda3:/My-storage2 \	
-```
-
-加上自定义挂载路径后的命令：
-```
-sudo docker run -d \
-    -p 8897:8897 \
-    --network host \
-    --name linkease \
-    --restart unless-stopped \
-    -v /root/linkease-data:/linkease-data \
-    -v /root/linkease-config:/linkease-config \
-    -v /etc/localtime:/etc/localtime:ro \
-    -v /mnt/sda1:/My-storage \
-    -e PUID=0 \
-    -e PGID=0 \
-    linkease/linkease:latest
-```
-
 
 
 **2.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看 [易有云绑定教程](/zh/guide/linkease/install/cloud.md)。**
