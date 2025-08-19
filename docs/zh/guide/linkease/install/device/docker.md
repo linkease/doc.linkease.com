@@ -27,7 +27,7 @@ docker run -d \
     -p 8897:8897 \
     --network host \
     --name linkease \
-    --restart unless-stopped \
+    --restart always \
     -v <path for data files>:/linkease-data \
     -v <path for config files>:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
@@ -85,7 +85,7 @@ docker run -d \
     -p 8897:8897 \
     --network host \
     --name linkease \
-    --restart unless-stopped \
+    --restart always \
     -v /mnt/sda1/linkease-data:/linkease-data \
     -v /mnt/sda1/linkease-config:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
@@ -104,7 +104,7 @@ sudo docker run -d \
     -p 8897:8897 \
     --network host \
     --name linkease \
-    --restart unless-stopped \
+    --restart always \
     -v /mnt/sda1/linkease-data:/linkease-data \
     -v /mnt/sda1/linkease-config:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
