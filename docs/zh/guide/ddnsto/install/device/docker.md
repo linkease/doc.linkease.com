@@ -28,17 +28,17 @@ docker run -d \
     --restart always \
     --network host \
     -e TOKEN=<填入你的token> \
-    -e DEVICE_NAME=<自定义设备名称ID> \
+    -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
     linkease/ddnsto:3.1.0
 ```
 
 * <填入你的token>: 填写从DDNSTO控制台拿到的TOKEN。
-* <自定义设备名称ID>: 必须是英文字母、数字，不能为中文；比如：abc9527。
+* <自定义唯一设备名称ID>: 必须是英文字母、数字，不能为中文；比如：abc9527。
 
 ```
 * 注意要替换 "<>" 里面的内容，且不能出现 "<>"。
-* 如果有多个设备要绑定，请绑定不一样的“设备名称ID”，
+* 如果有多个设备要绑定，请绑定不一样的“设备名称ID”，不能重复，
 如：abc9527、abc9528、abc9529等代表不一样的设备。
 
 * 比如我的TOKEN为abcd-8888-7777-6666-efgh，设备名称ID为abc9527，那么最终的终端命令就是：
