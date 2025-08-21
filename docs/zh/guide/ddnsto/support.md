@@ -11,23 +11,26 @@
 
 * 某些设备/系统不能完整支持所有的扩展功能，如群晖/威联通只支持文件管理。
 
-| 设备/系统 | 安装教程 | 最新版本 | 扩展功能 | 版本升级注意 |
+| 设备/系统 | 安装教程 | 扩展功能 | 版本升级注意 |
 |-|-|-|-|-|
-|EasePi| [详细教程](/zh/guide/ddnsto/install/device/easepi.html) | v3.0.2 | **<font color=#008000 >A、B、C</font>** | iStore商店直接升级 |
-|iStoreOS| [详细教程](/zh/guide/ddnsto/install/device/istoreos.html) | v3.0.2 | **<font color=#008000 >A、B、C</font>** | iStore商店直接升级 |
-|Koolcenter 梅林 ≥386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | v3.0.3 | **<font color=#008000 >A、B、C</font>** | 软件中心直接升级 |
-|Koolcenter 梅林 <386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | v3.0.0 | **<font color=#008000 >A</font>** | 软件中心直接升级 |
-|Koolcenter Lede| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_lede.html) | v3.0.2 | **<font color=#008000 >A、B、C</font>** | iStore商店直接升级 |
-|OpenWrt| [详细教程](/zh/guide/ddnsto/install/device/openwrt.html) | v3.0.2 | **<font color=#008000 >A、B、C</font>** | 覆盖安装新版 |
-|群晖| [详细教程](/zh/guide/ddnsto/install/device/synology.html) | v3.0.6 | **<font color=#008000 >A</font>** | **<font color=#ff0000 >卸载旧版安装新版 </font>**|
-|威联通| [详细教程](/zh/guide/ddnsto/install/device/qnap.html) | v3.0.5 | **<font color=#008000 >A</font>** | 覆盖安装新版 |
-|Docker| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | v3.0.0 | **<font color=#008000 >A</font>** | 新建docker容器 |
-|Padavan| [详细教程](/zh/guide/ddnsto/install/device/padavan.html) | v0.2.9 | 暂未支持 | 跟随固件更新 |
-|ReadyNAS| [详细教程](/zh/guide/ddnsto/install/device/ready_nas.html) | v0.3.38 | 暂未支持 | 覆盖安装新版 |
-|爱快| [详细教程](/zh/guide/ddnsto/install/device/ikuai.html) | v3.0.0 | **<font color=#008000 >A</font>** | 新建docker容器 |
-|Unraid| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | v3.0.0 | **<font color=#008000 >A</font>** | 新建docker容器 |
-|铁威马| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | v3.0.0 | **<font color=#008000 >A</font>** | 新建docker容器 |
-|Windows| [详细教程](/zh/guide/ddnsto/install/device/windows.html) | v3.0.5 | **<font color=#008000 >A、B</font>** | Windows客户端下载覆盖更新 |
-|Linux| [详细教程](/zh/guide/ddnsto/install/device/linux.html) | v3.0.2 | **<font color=#008000 >A</font>** | Linux专用程序包下载覆盖更新 |
-|极空间| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | v3.0.0 | **<font color=#008000 >A</font>** | 新建docker容器 |
+|EasePi| [详细教程](/zh/guide/ddnsto/install/device/easepi.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
+|iStoreOS| [详细教程](/zh/guide/ddnsto/install/device/istoreos.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
+|Koolcenter 梅林 ≥386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>软件中心直接升级</center> |
+|Koolcenter 梅林 <386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | <center>**<font color=#008000 >A</font>**</center> | <center>软件中心直接升级</center> |
+|Koolcenter Lede| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_lede.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
+|OpenWrt| [详细教程](/zh/guide/ddnsto/install/device/openwrt.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>覆盖安装新版</center> |
+|群晖| [详细教程](/zh/guide/ddnsto/install/device/synology.html) | <center>**<font color=#008000 >A</font>**</center> | <center>**<font color=#ff0000 >卸载旧版安装新版 </font>**</center> |
+|威联通| [详细教程](/zh/guide/ddnsto/install/device/qnap.html) | <center>**<font color=#008000 >A</font>**</center> | <center>覆盖安装新版</center> |
+|Docker| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
+|飞牛| [详细教程](/zh/guide/ddnsto/install/device/fn.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
+|Padavan| [详细教程](/zh/guide/ddnsto/install/device/padavan.html) | <center>暂未支持</center> | <center>跟随固件更新</center> |
+|ReadyNAS| [详细教程](/zh/guide/ddnsto/install/device/ready_nas.html) | <center>暂未支持</center> | <center>覆盖安装新版</center> |
+|爱快| [详细教程](/zh/guide/ddnsto/install/device/ikuai.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
+|Unraid| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
+|铁威马| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
+|Windows| [详细教程](/zh/guide/ddnsto/install/device/windows.html) | <center>**<font color=#008000 >A、B</font>**</center> | <center>Windows客户端下载覆盖更新</center> |
+|Linux| [详细教程](/zh/guide/ddnsto/install/device/linux.html) | <center>**<font color=#008000 >A</font>**</center> | <center>Linux专用程序包下载覆盖更新</center> |
+|极空间| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
+|绿联NAS| [详细教程](/zh/guide/ddnsto/install/device/ugreen.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
+
 
