@@ -2,9 +2,6 @@
 
 [无法拉取易有云&DDNSTO Docker镜像？](https://www.bilibili.com/video/BV1FnUUYeEn9/)
 
-#### <font color="#dd0000">Docker安装请注意：</font><br />
-#### <font color="#dd0000">1. 如遇到DeviceID相同导致控制台无法看到新设备，请通过修改DEVICE_IDX变量来生成新的DeviceID。</font><br />
-#### <font color="#dd0000">2. 请填写 -v /your/config-path/ddnsto-config:/ddnsto-config 映射，避免重启后ID变化识别成新设备</font><br />
 
 **Docker方式安装ddnsto，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
 
@@ -29,61 +26,45 @@ Docker安装完成后，进行下面的教程。
 docker run -d \
     --name=ddnsto \
     --restart always \
-	--network host \
+    --network host \
     -e TOKEN=<填入你的token> \
-    -e DEVICE_IDX=<默认0，如果设备ID重复则为1-100之间> \
+    -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
-    -v /your/config-path/ddnsto-config:/ddnsto-config \
-    -e PUID=<uid for user> \
-    -e PGID=<gid for user> \
-    linkease/ddnsto
+    linkease/ddnsto:3.1.0
 ```
 
-* <填入你的token>: 填写从ddnsto控制台拿到的 token。
-* DEVICE_IDX: 默认0，如果设备ID重复则改为1-100之间。
-* PUID/PGID：获取方式：终端输入id即可。
+* <填入你的token>: 填写从DDNSTO控制台拿到的TOKEN。
+* <自定义唯一设备名称ID>: 必须是英文字母、数字，不能为中文；比如：abc9527。
 
-   ![docker](./koolshare_merlin/docker1.jpeg)
-   
-比如上图获取的UID和GID都是0。
-
-* /your/config-path/ddnsto-config 是你的配置文件，保证重启之后，设备ID不变。每个Docker都应该设置不同的配置文件路径
-
-比如我想把配置文件放在/mnt/sda1/
-```
-    -v /mnt/sda1/ddnsto-config:/ddnsto-config
 ```
 * 注意要替换 "<>" 里面的内容，且不能出现 "<>"。
+* 如果有多个设备要绑定，请绑定不一样的“设备名称ID”，不能重复，
+如：abc9527、abc9528、abc9529等代表不一样的设备。
 
-* 准备工作做好了，比如我的TOKEN为abcdefg-8888-8888-1111-abcdefghijk，那我的终端命令就是：
+* 比如我的TOKEN为abcd-8888-7777-6666-efgh，设备名称ID为abc9527，那么最终的终端命令就是：
+```
 ```
 docker run -d \
     --name=ddnsto \
     --restart always \
-	--network host \
-    -e TOKEN=abcdefg-8888-8888-1111-abcdefghijk \
-    -e DEVICE_IDX=0 \
+    --network host \
+    -e TOKEN=abcd-8888-7777-6666-efgh \
+    -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    -v /mnt/sda1/ddnsto-config:/ddnsto-config \    
-    -e PUID=0 \
-    -e PGID=0 \
-    linkease/ddnsto
+    linkease/ddnsto:3.1.0
 ```
 
-* Docker在某些Linux发行版，可能要加上“sudo”前缀才能运行，按提示输入Linux的密码，命令如下：
+* Docker在某些Linux发行版，可能要“sudo”提权才能运行，按提示输入Linux的密码，命令如下：
 
 ```
 sudo docker run -d \
     --name=ddnsto \
     --restart always \
-	--network host \
-    -e TOKEN=abcdefg-8888-8888-1111-abcdefghijk \
-    -e DEVICE_IDX=0 \
+    --network host \
+    -e TOKEN=abcd-8888-7777-6666-efgh \
+    -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    -v /mnt/sda1/ddnsto-config:/ddnsto-config \    
-    -e PUID=0 \
-    -e PGID=0 \
-    linkease/ddnsto
+    linkease/ddnsto:3.1.0
 ```
 
 #### Docker常见问题

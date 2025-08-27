@@ -8,7 +8,7 @@
 
 * 2025最新！X86物理机安装iStoreOS全攻略：Windows、Mac双平台教学
 
-<iframe src="//player.bilibili.com/player.html?bvid=BV1hWo2YAEwv&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+<iframe src="//player.bilibili.com/player.html?bvid=BV1hWo2YAEwv&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 <!-- * 已过时
 
@@ -23,8 +23,7 @@
 
 ## 3.下载固件
 
-* [固件下载](https://fw.koolcenter.com/iStoreOS/x86_64/)
-* [固件下载-EFI](https://fw.koolcenter.com/iStoreOS/x86_64_efi/)
+* [固件下载](https://site.istoreos.com/firmware/download?devicename=x86_64&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 xxx20221123xx-xxx.img.gz。下载完成之后不需要解压。
 
