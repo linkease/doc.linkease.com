@@ -15,7 +15,7 @@ docker run -d \
     -e TOKEN=<填入你的token> \
     -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
-    linkease/ddnsto:3.1.0
+    registry.istoreos.com/linkease/ddnsto:3.1.0
 ```
 
 * <填入你的token>: 填写从DDNSTO控制台拿到的TOKEN。
@@ -35,7 +35,7 @@ sudo docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    linkease/ddnsto:3.1.0
+    registry.istoreos.com/linkease/ddnsto:3.1.0
 ```
 * 进入飞牛系统管理页面，找到“Docker”，会看到“ddnsto”已经运行。
 

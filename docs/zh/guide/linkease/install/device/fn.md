@@ -1,9 +1,5 @@
 ### 飞牛
 
-飞牛NAS文件管理-易有云安装教程，支持外网直连的文件管理、数据同步、相册备份、组网工具。
-
-易有云Docker镜像地址：registry.istoreos.com/linkease/linkease
-
 [飞牛NAS远程文件管理-易有云安装教程](https://www.bilibili.com/video/BV1XwmZYCEQa/)
 
 [无法拉取易有云&DDNSTO Docker镜像？](https://www.bilibili.com/video/BV1FnUUYeEn9/)
@@ -25,7 +21,7 @@ docker run -d \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=$(id -u) \
     -e PGID=$(id -g) \
-    linkease/linkease:latest
+    registry.istoreos.com/linkease/linkease
 ```
 
 * 挂载易有云主目录和配置文件目录：
@@ -86,7 +82,7 @@ sudo docker run -d \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=$(id -u) \
     -e PGID=$(id -g) \
-    linkease/linkease:latest
+    registry.istoreos.com/linkease/linkease
 ```
 * 进入飞牛系统管理页面，找到“Docker”，会看到“linkease”已经运行；然后浏览器通过飞牛的IP+8897的端口，即可访问易有云进行绑定操作。
 
