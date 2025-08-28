@@ -5,7 +5,10 @@
       <div class="subtext">你用手机电脑电视等来当私人网盘，那你应该用易有云；
         你只想用拥有自己的域名，从浏览器来访问你的路由、NAS、电脑桌面、文件等，你应该用 DDNSTO；
         你想有个更稳定，更轻便，7x24小时运行的低功耗私人网盘或路由系统，那你应该选择 iStoreOS；</div>
-      <div class="video-box" @click="openModal(otherUrl.videoUrl1)"><span>观看视频</span></div>
+      <div class="btn_box">
+        <div class="video-box" @click="openModal(otherUrl.videoUrl1)"><span>观看视频</span></div>
+        <div class="video-box" @click="liveDialogVisible = true"><span>直播连线</span></div>
+      </div>
     </div>
     <!-- 产品介绍 -->
     <!-- <div class="desktop_title">- 产品介绍 -</div>
@@ -177,7 +180,7 @@
         <div class="title">更多实践</div>
         <ul>
           <li v-for="(item, index) in questionTotal" :key="index"> <a :href="item.url">{{ item.name
-          }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
+              }}<img class="arrow" src="../public/home/arrow_right.png" /></a></li>
         </ul>
         <div class="more" @click="openOtherUrl('https://app.linkease.com/')">查看全部</div>
       </div>
@@ -226,6 +229,21 @@
       <iframe :src="videoUrl" scrolling="no" border="0" frameborder="no" framespacing="0"
         allowfullscreen="true"></iframe>
     </div>
+    <div class="video-moban" v-if="liveDialogVisible">
+      <div class="live_box">
+        <div class="close1" @click="handleClose()">
+          <svg t="1756294680169" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+            p-id="4445" width="20" height="20">
+            <path
+              d="M991.232 17.92c-25.088-24.064-65.024-23.552-89.088 1.536L747.52 179.2 31.232 916.992c-24.064 25.088-23.552 65.024 1.536 89.088 25.088 24.064 65.024 23.552 89.088-1.536L276.992 844.8 992.256 107.008c24.576-25.088 23.552-65.024-1.024-89.088z m14.848 973.312c24.064-25.088 23.552-65.024-1.536-89.088L844.8 747.52 107.008 31.232C81.92 7.168 41.984 7.68 17.92 32.768s-23.552 65.024 1.536 89.088L178.688 276.48l738.304 715.264c25.088 25.088 65.024 24.576 89.088-0.512z"
+              fill="#515151" p-id="4446"></path>
+          </svg>
+        </div>
+        <div class="title">直播连线</div>
+        <p>每周三、五 19:30，宝哥与你相约直播间！</p>
+        <img class="live_img" v-if="liveDialogVisible" src="../public/image/live.jpg" alt=""></img>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -253,6 +271,7 @@ export default {
       tabIndex2: 0,
       tabIndex3: 0,
       dialogVisible: false,
+      liveDialogVisible: false,
       productUrl: [
         {
           web: 'https://www.linkease.com/',
@@ -576,6 +595,7 @@ export default {
     handleClose() {
       this.dialogVisible = false;
       this.videoUrl = ''
+      this.liveDialogVisible = false
     },
   },
   mounted() {
@@ -631,11 +651,17 @@ export default {
     color: rgba(0, 0, 0, 0.63);
   }
 
+  .btn_box {
+    display: flex;
+    justify-content: center;
+  }
+
   .video-box {
     font-size: 16px;
     font-family: PingFangSC-Medium, PingFang SC;
     font-weight: 500;
-    margin: 0 auto;
+    // margin: 0 auto;
+    margin-right: 16px;
     width: 96px;
     height: 38px;
     border-radius: 22px;
@@ -1189,6 +1215,36 @@ export default {
       width: 880px;
       height: 500px;
       border-radius: 10px;
+    }
+
+    .live_box {
+      position: relative;
+      width: 350px;
+      background: #f8f8f8;
+      padding: 10px;
+      border-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .title {
+      font-weight: bold;
+      margin-top: 16px;
+    }
+
+    .live_img {
+      width: 300px;
+    }
+
+    .close1 {
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      margin-left: 400px;
+      z-index: 9999 !important;
+      cursor: pointer;
     }
   }
 }
