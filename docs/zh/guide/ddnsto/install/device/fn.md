@@ -2,7 +2,7 @@
 
 [视频教学：飞牛外网访问利器-DDNSTO，安装及注意事项！](https://www.bilibili.com/video/BV1YMSQYAE84/)
 
-**飞牛终端命令部署安装Docker版ddnsto教程开始：**
+**<font color="#dd0000">飞牛终端命令安装Docker版ddnsto教程开始：</font><br />**
 
 * 电脑利用putty、xshell等工具登录飞牛的终端；
 
@@ -15,7 +15,7 @@ docker run -d \
     -e TOKEN=<填入你的token> \
     -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
-    linkease/ddnsto:3.1.0
+    registry.istoreos.com/linkease/ddnsto:3.1.0
 ```
 
 * <填入你的token>: 填写从DDNSTO控制台拿到的TOKEN。
@@ -35,7 +35,7 @@ sudo docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    linkease/ddnsto:3.1.0
+    registry.istoreos.com/linkease/ddnsto:3.1.0
 ```
 * 进入飞牛系统管理页面，找到“Docker”，会看到“ddnsto”已经运行。
 

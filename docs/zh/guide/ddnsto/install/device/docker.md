@@ -3,7 +3,7 @@
 [无法拉取易有云&DDNSTO Docker镜像？](https://www.bilibili.com/video/BV1FnUUYeEn9/)
 
 
-**Docker方式安装ddnsto，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，一些Linux发行版等。**
+**<font color="#dd0000">Docker方式安装ddnsto，包括并不限于Unraid/爱快/群晖/各种Linux发行版等，只要有Docker的设备都成。</font><br />**
 
 * 铁威马：首先在应用中心里安装Docker(TOS 4.0及更高的系统)，然后在控制面板——终端与SNMP——启用SSH访问。然后电脑利用putty、xshell等工具登录终端，然后输入“sudo -i”和密码获取临时ROOT权限，然后进行下面的教程。
 
@@ -18,8 +18,7 @@
 ```
 Docker安装完成后，进行下面的教程。
 
-
-**Docker安装ddnsto教程开始：**
+**<font color="#dd0000">终端命令安装Docker版ddnsto教程开始：</font><br />**
 
 **终端运行以下命令：(先不要直接复制，看下面的说明)**
 ```
@@ -30,7 +29,7 @@ docker run -d \
     -e TOKEN=<填入你的token> \
     -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
-    linkease/ddnsto:3.1.0
+    registry.istoreos.com/linkease/ddnsto:3.1.0
 ```
 
 * <填入你的token>: 填写从DDNSTO控制台拿到的TOKEN。
@@ -51,7 +50,7 @@ docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    linkease/ddnsto:3.1.0
+    registry.istoreos.com/linkease/ddnsto:3.1.0
 ```
 
 * Docker在某些Linux发行版，可能要“sudo”提权才能运行，按提示输入Linux的密码，命令如下：
@@ -64,7 +63,7 @@ sudo docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    linkease/ddnsto:3.1.0
+    registry.istoreos.com/linkease/ddnsto:3.1.0
 ```
 
 #### Docker常见问题
