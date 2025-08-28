@@ -2,7 +2,8 @@
 
 [无法拉取易有云&DDNSTO Docker镜像？](https://www.bilibili.com/video/BV1FnUUYeEn9/)
 
-**Docker方式安装易有云，包括并不限于Unraid/爱快/群晖等，只要有Docker的设备都成，包括一些Linux发行版等。**
+**<font color="#dd0000">Docker方式安装易有云，包括并不限于Unraid/爱快/群晖/各种Linux发行版等，只要有Docker的设备都成。</font><br />**
+
 
 * 铁威马：首先在应用中心里安装Docker(TOS 4.0及更高的系统)，然后在控制面板——终端与SNMP——启用SSH访问。然后电脑利用putty、xshell等工具登录终端，然后输入“sudo -i”和密码获取临时ROOT权限，然后进行下面的教程。
 
@@ -17,8 +18,7 @@
 ```
 Docker安装完成后，进行下面的教程。
 
-
-**Docker安装易有云教程开始：**
+**<font color="#dd0000">终端命令安装Docker版易有云教程开始：</font><br />**
 
 **1.终端部署命令：(先不要直接复制，看下面的说明)**
 
@@ -31,8 +31,8 @@ docker run -d \
     -v <path for data files>:/linkease-data \
     -v <path for config files>:/linkease-config \
     -v /etc/localtime:/etc/localtime:ro \
-    -e PUID=<uid for user> \
-    -e PGID=<gid for user> \
+    -e PUID=$(id -u) \
+    -e PGID=$(id -g) \
     linkease/linkease:latest
 ```
 
@@ -72,12 +72,6 @@ docker run -d \
 挂载以后在绑定过程中就能直接绑定 Disk1、Disk2、Disk3 这几个盘。
 
 
- * PUID/PGID：获取方式：终端输入 id 即可
-
-![docker1](./image/docker/docker1.png)
-   
-比如上图获取的UID和GID都是0；那么就将```<uid for user>```和```<gid for user>```替换成0。
-
 * 所以最终实际要执行的部署命令为：
 
 ```
@@ -92,8 +86,8 @@ docker run -d \
     -v /mnt/sda1:/Disk1 \
     -v /mnt/sda2:/Disk2 \
     -v /mnt/sda3:/Disk3 \
-    -e PUID=0 \
-    -e PGID=0 \
+    -e PUID=$(id -u) \
+    -e PGID=$(id -g) \
     linkease/linkease:latest
 ```
 
@@ -111,8 +105,8 @@ sudo docker run -d \
     -v /mnt/sda1:/Disk1 \
     -v /mnt/sda2:/Disk2 \
     -v /mnt/sda3:/Disk3 \
-    -e PUID=0 \
-    -e PGID=0 \
+    -e PUID=$(id -u) \
+    -e PGID=$(id -g) \
     linkease/linkease:latest
 ```
 

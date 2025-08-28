@@ -2,7 +2,7 @@
 
 [视频教学：飞牛外网访问利器-DDNSTO，安装及注意事项！](https://www.bilibili.com/video/BV1YMSQYAE84/)
 
-**飞牛终端命令部署安装Docker版ddnsto教程开始：**
+**<font color="#dd0000">飞牛终端命令安装Docker版ddnsto教程开始：</font><br />**
 
 * 电脑利用putty、xshell等工具登录飞牛的终端；
 
