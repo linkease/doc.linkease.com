@@ -4,7 +4,7 @@
 ## 支持设备/系统
 
 |  设备/系统   | 下载安装  | 安装教程  | 更新教程   |
-|  ----  | ----  |  ---   |  ---   |
+|  :-:  | :-:  |  :-:   |  :-:   |
 |Windows|[点我下载](https://www.linkease.com/download/?type=Windows)|[详细教程](/zh/guide/linkease/install/device/windows.html)|覆盖安装|
 |macOS|[点我下载](https://www.linkease.com/download/?type=macOS)|[详细教程](/zh/guide/linkease/install/device/mac.html)|覆盖安装|
 |Andorid|[点我下载](https://www.linkease.com/download/?type=Andorid)|登录即可|APP内更新|
@@ -66,15 +66,14 @@
 
 **3-常见问题**
 
-- 手机的照片备份路径无法找到？
-- 
+[点击查看](/zh/guide/linkease/feedback/faq.html)
 
 ## macOS
 
 **1-下载安装**
 
 - 客户端下载：[点我下载](https://www.linkease.com/download/?type=macOS)
-- 安装教程：[点我查看]()
+- 安装教程：[点我查看](/zh/guide/linkease/install/device/mac.html)
 
 **2-使用场景**
 
@@ -85,7 +84,7 @@
 
 **3-常见问题**
 
-- 待定
+[点击查看](/zh/guide/linkease/feedback/faq.html)
 
 ## iOS
 
@@ -102,5 +101,4 @@
 
 **3-常见问题**
 
-- 手机的照片备份路径无法找到？
-- 
+[点击查看](/zh/guide/linkease/feedback/faq.html)

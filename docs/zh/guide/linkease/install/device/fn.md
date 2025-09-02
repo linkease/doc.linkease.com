@@ -68,7 +68,6 @@ docker run -d \
     -v /vol1/1000:/Disk1 \
 ```
 
-
 * 飞牛用终端命令安装Docker，需要“sudo”提权，按提示输入飞牛的密码，命令如下：
 ```
 sudo docker run -d \
@@ -84,8 +83,12 @@ sudo docker run -d \
     -e PGID=$(id -g) \
     registry.istoreos.com/linkease/linkease
 ```
+
 * 进入飞牛系统管理页面，找到“Docker”，会看到“linkease”已经运行；然后浏览器通过飞牛的IP+8897的端口，即可访问易有云进行绑定操作。
 
 ![docker](./image/fn/6.png)
 
+ps：整个磁盘挂载为Disk1，绑定的时候可选，直接就绑定整个磁盘目录了。
+
 ![docker](./image/fn/7.png)
+
