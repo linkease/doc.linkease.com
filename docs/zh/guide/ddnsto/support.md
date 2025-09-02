@@ -19,7 +19,7 @@
 |Koolcenter 梅林 <386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | <center>**<font color=#008000 >A</font>**</center> | <center>软件中心直接升级</center> |
 |Koolcenter Lede| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_lede.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
 |OpenWrt| [详细教程](/zh/guide/ddnsto/install/device/openwrt.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>覆盖安装新版</center> |
-|群晖| [详细教程](/zh/guide/ddnsto/install/device/synology.html) | <center>**<font color=#008000 >A</font>**</center> | <center>**<font color=#ff0000 >卸载旧版安装新版 </font>**</center> |
+|群晖| [详细教程](/zh/guide/ddnsto/install/device/synology.html) | <center>**<font color=#008000 >A</font>**</center> | <center>**<font color=#ff0000 >卸载旧版安装新版</font>**</center> |
 |威联通| [详细教程](/zh/guide/ddnsto/install/device/qnap.html) | <center>**<font color=#008000 >A</font>**</center> | <center>覆盖安装新版</center> |
 |Docker| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
 |飞牛| [详细教程](/zh/guide/ddnsto/install/device/fn.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
