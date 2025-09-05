@@ -27,8 +27,8 @@ DDNSTO 是一款稳定、快速、简单易用的内网穿透工具。
 |-|-|-|-|-|
 |EasePi| [详细教程](/zh/guide/ddnsto/install/device/easepi.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
 |iStoreOS| [详细教程](/zh/guide/ddnsto/install/device/istoreos.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
-|Koolcenter 梅林 ≥386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>软件中心直接升级</center> |
-|Koolcenter 梅林 <386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | <center>**<font color=#008000 >A</font>**</center> | <center>软件中心直接升级</center> |
+|ASUSGO 固件 ≥386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>软件中心直接升级</center> |
+|ASUSGO 固件 <386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | <center>**<font color=#008000 >A</font>**</center> | <center>软件中心直接升级</center> |
 |Koolcenter Lede| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_lede.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
 |OpenWrt| [详细教程](/zh/guide/ddnsto/install/device/openwrt.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>覆盖安装新版</center> |
 |群晖| [详细教程](/zh/guide/ddnsto/install/device/synology.html) | <center>**<font color=#008000 >A</font>**</center> | <center>**<font color=#ff0000 >卸载旧版安装新版 </font>**</center> |

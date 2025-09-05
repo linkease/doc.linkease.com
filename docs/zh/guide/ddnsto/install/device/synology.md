@@ -6,6 +6,8 @@
 
    ![image-20210204235851709](./koolshare_merlin/image-20210204235851709.png)
 
+   ![image-20210204235851710](./koolshare_merlin/image-20210204235851710.png)
+
    2.填入刚刚从官网复制的令牌(Token)，点击下一步完成安装；
 
    ![image-20210204235956264](./koolshare_merlin/image-20210204235956264.png)
@@ -18,7 +20,7 @@
          
    ![image-qunhui0414](./koolshare_merlin/image-qunhui0414.jpg)
 
-   * Docker安装可以参考下面的[Unraid/爱快/Docker教程](/zh/guide/ddnsto/koolshare_merlin.html#_8-unraid-爱快-铁威马-docker)。
+   * Docker安装可以参考下面的[Docker教程](/zh/guide/ddnsto/install/device/docker.html)。
 
    * 群晖系统不要将 “自动将DSM桌面的HTTP连接重定向到HTTPS” 打开。
 

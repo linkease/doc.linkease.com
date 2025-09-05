@@ -2,8 +2,8 @@
 **<font color=#ff0000 > 首先确保已正确安装ddnsto插件，并且在控制台能看到对应设备在线 [参考安装教程](/zh/guide/ddnsto/start.md) </font>**
 
 **远程访问Aria2建议使用[远程应用](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)进行访问，而非ddnsto访问路由器管理页面后跳转**
-### Aria2配置：OpenWrt
-1.首先确定你的路由等设备安装好了Aria2。
+### Aria2配置：iStoreOS/OpenWrt
+1.首先确定你的路由设备安装好了Aria2。
   
 2.启用Aria2，RPC认证方式选令牌，然后自己输入一段英文数字乱码当作密钥，并复制下来(后面要用)，然后设置好下载目录，提交。
    
@@ -48,7 +48,7 @@
 5.然后跳转到[远程配置](https://doc.linkease.com/zh/guide/ddnsto/cloudapp.html#远程配置)，去设置远程下载。
 
   
-### Aria2配置：KS 梅林
+### Aria2配置：ASUSGO 固件
 1.在软件中心安装Aria2。
 
   ![Aria2](./cloudapp/cloudapp-aria2-ml1.jpg)
