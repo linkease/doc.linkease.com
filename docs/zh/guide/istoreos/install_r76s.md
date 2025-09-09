@@ -2,7 +2,7 @@
 
 ## 1.下载固件
 
-* [R76S 通用固件下载](https://site.istoreos.com/firmware/download?devicename=r76s&firmware=iStoreOS)
+* [R76S 固件下载](https://site.istoreos.com/firmware/download?devicename=r76s&firmware=iStoreOS)
 
 越前面版本越新，请注意看中间的日期，比如 istoreos-x.x.x-**2025090517**-r76s-squashfs.img.gz。下载完成之后先别自行解压，由后面的刷机方式决定是否需要解压。
 
