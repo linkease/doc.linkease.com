@@ -315,6 +315,7 @@ module.exports = ctx => ({
                                         ["install_synology", "群晖"],
                                         ["install_apple", "Apple Silicon M系列"],
                                         ["install_ax9000", "小米 AX9000"],
+                                        ["install_r76s", "NanoPi R76S"],
                                         ["install_r6s", "NanoPi R6S/R6C"],
                                         ["install_r5s", "NanoPi R5S/R5C"],
                                         ["install_r4s", "NanoPi R4S"],
