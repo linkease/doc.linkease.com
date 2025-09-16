@@ -4,6 +4,7 @@
 * [配网中心下载](https://fw.koolcenter.com/binary/BeeconMini-Soft/)
 * 目前仅适配 SEED-AC3；AC1 和 AC2 适配、测试中;
 * AC3 升级最新的 iStoreOS 固件；
+* 如果修改过默认网口，请先恢复为出厂状态；
 * iStore 商店——手动安装，选择下载的 beeconmini-xxxxxx.run 完成安装。
 * 目前为公测版、个别功能可能不完善，继续优化中......
 
