@@ -365,7 +365,7 @@ module.exports = ctx => ({
                                 ["https://doc.linkease.com/zh/guide/istore/", "软件中心"],
                                 {
                                     title: "最佳实践", collapsable: true, children: [
-                                        ["practice/BypassRouter", "旁路由最佳配置"],
+                                        ["practice/BypassRouter", "旁路由最佳实践"],
                                         ["practice/homeNas", "家庭NAS服务器"],
                                         ["practice/HowToWriteDoc", "用 iStoreOS 写文档"],
                                         ["practice/ventoy", "Ventoy打造最强U盘"],
