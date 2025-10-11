@@ -15,6 +15,10 @@
 | TYPE-C | 烧录固件 |  
 | LED | 电源状态，硬盘状态指示灯等。|
 
+## 硬件原理图
+
+原理图：[R1原理图](https://assets.koolcenter.com/easepi/Easepi-R1-SCH.pdf)
+
 ## 更多详细信息
 
 从淘宝店铺[点击查看详情](https://item.taobao.com/item.htm?ft=t&id=851159153974)
