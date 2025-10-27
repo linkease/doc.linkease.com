@@ -1,3 +1,5 @@
+#### <font color="#dd0000">酷友社论坛已经上线！欢迎大家[加入论坛](https://www.koolcenter.com)，交流分享，探索更多乐趣！</font><br />
+
 易有云是我们推出的一款支持多设备之间数据管理的软件。
 我们支持[手机相片备份](https://doc.linkease.com/zh/guide/linkease/function/photo_backup.html/) 到其他设备上；设备之间的[文件互传](https://doc.linkease.com/zh/guide/linkease/function/file_transfer.html)；设备之间的[数据备份和同步](https://doc.linkease.com/zh/guide/linkease/function/file_backup.html)等。
 

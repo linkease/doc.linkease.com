@@ -1,6 +1,11 @@
+### <font color="#dd0000">每周二、四 19:30，宝哥与你相约直播间！</font><br />
+
+<img src="./preview/douyin.png" width="320" height="480">
+
 [iStoreOS](https://www.istoreos.com) 是一个开源免费的路由兼存储系统，轻松管理网络与存储，享受一致的操作体验，代码完全开源，欢迎探索与贡献。
 - 系统代码开源地址：[Github iStoreOS](https://www.github.com/istoreos/istoreos)。
-- 加入[社区讨论](https://github.com/istoreos/istoreos/discussions)了解更多精彩！
+- #### <font color="#dd0000">酷友社论坛已经上线！欢迎大家[加入论坛](https://www.koolcenter.com)，交流分享，探索更多乐趣！</font><br />
+
 
 ## 支持硬件
 

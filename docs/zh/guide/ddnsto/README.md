@@ -1,3 +1,5 @@
+#### <font color="#dd0000">酷友社论坛已经上线！欢迎大家[加入论坛](https://www.koolcenter.com)，交流分享，探索更多乐趣！</font><br />
+
 # DDNSTO
 
 DDNSTO 是一款稳定、快速、简单易用的内网穿透工具。
