@@ -8,7 +8,8 @@
 
 首次刷入 iStoreOS（当前还是 GL 官方固件，准备刷入 iStoreOS。），先下载 factory 固件（**istoreos-xxxxxx-mt3000-squashfs-factory.img**）；
 
-* [GL MT3000 factory 固件下载](https://fw21.koolcenter.com:60010/iStoreOS/mt3000/istoreos-21.02-20241011-mt3000-squashfs-factory.img/)
+* [GL MT3000 20241011-factory 固件下载](https://fw.koolcenter.com/iStoreOS/mt3000/istoreos-21.02-20241011-mt3000-squashfs-factory.img)
+* [GL MT3000 20251028-factory 固件下载](https://fw.koolcenter.com/iStoreOS/mt3000/istoreos-21.02-2025102817-mt3000-squashfs-factory.img)
 
 
 ## 2.刷机（uboot）
