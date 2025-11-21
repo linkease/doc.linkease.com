@@ -100,7 +100,7 @@
 
 ![install.png](./install/pve/18.jpg)
 
-* 把EFI磁盘删掉，若BIOS不是UEFI，无此项设置；
+* 若固件不是EFI固件/BIOS不是UEFI，把EFI磁盘删掉，EFI固件忽略；
 
 ![install.png](./install/pve/14.jpg)
 
