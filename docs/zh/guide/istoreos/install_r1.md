@@ -10,7 +10,7 @@
 
 配置详情：[R1配置详情](/zh/guide/easepi-r1/hardware.html)
 
-购买链接：[`EasePi-R1`](https://item.taobao.com/item.htm?ft=t&id=851159153974)
+购买链接：[点击购买EasePi-R1](https://item.taobao.com/item.htm?ft=t&id=851159153974)
 
 <video src="https://dl.istoreos.com/iStoreOS/easepi-r1/easepi-r1-3.mp4" width="600" height="400" controls autoplay muted>
 浏览器不支持视频格式.
