@@ -342,6 +342,7 @@ module.exports = ctx => ({
                                         ["install_rpi4", "树莓派 Model 4"],
                                         ["install_e54c", "Radxa E54C"],
                                         ["install_e52c", "Radxa E52C"],
+                                        ["install_e24c", "Radxa E24C"],
                                         ["install_e20c", "Radxa E20C"],
                                         ["install_seed-ac5", "SEED AC5"],
                                         ["install_seed-ac3", "SEED AC3"],
