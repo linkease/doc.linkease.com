@@ -43,9 +43,9 @@ PS：若是易有云APP新用户，下载最新版，然后注册登录；老用
    
 * #### 如何设置易有云APP验证DDNSTO：
 
-1.登录到DDNSTO控制台，登录后点击右上角用户头像，选择“个人资料——易有云绑定——立即绑定”，会出现一个二维码界面；
+1.登录到DDNSTO控制台，登录后点击右上角用户头像，选择“个人资料——配置易有云APP——立即配置”，会出现一个二维码界面；
 
-   ![Authentication](./Authentication/Authentication1.jpg)
+   ![Authentication](./Authentication/Authentication1.png)
  
    ![Authentication](./Authentication/Authentication2.jpg)
    
