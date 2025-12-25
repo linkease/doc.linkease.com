@@ -14,7 +14,7 @@ DDNSTO迎来改版，带来更加实用的功能，让我们一起来拓展！
 
 * 已经启用基本功能(设置好Token并启动)
   
-  ![文件管理](./ddnstofile/1-1.jpg)  
+  ![文件管理](./ddnstofile/1-1.jpg) 
  
 * 插件拉到——拓展功能，按照下列说明填写完整，插件保存并应用
  
@@ -22,7 +22,7 @@ DDNSTO迎来改版，带来更加实用的功能，让我们一起来拓展！
 扩展功能目前开关就一个，包含三大功能：文件管理、WebDav服务和远程开机。
 ```
 
-  ![文件管理](./ddnstofile/1-2.jpg)  
+  ![文件管理](./ddnstofile/1-2.jpg) 
 ```
 启用：勾选
 端口：本机WebDav服务的端口，自行设置，只要不冲突
@@ -35,7 +35,7 @@ ps：设置共享磁盘的位置，也是本机开启webdav服务后能访问的
   
 * 回到插件的服务状态，就会看到扩展功能已经启用
 
-  ![文件管理](./ddnstofile/1-3.jpg)  
+  ![文件管理](./ddnstofile/1-3.jpg) 
 
 * 下面开始分别讲解文件管理、WebDav服务、远程开机
 
@@ -298,21 +298,21 @@ BIOS -> 高级 -> 高级电源管理(APM) -> 由PCI-E设备唤醒 -> 选择Enabl
 
 ```  
 双击网卡名称->电源管理：
-勾选“允许计算机关闭此设备以节约电源”，“允许此设备唤醒计算机”和“只允许魔幻数据包唤醒计算机”
+勾选“允许计算机关闭此设备以节约电源”，“允许此设备唤醒计算机”和“只允许幻数据包唤醒计算机”
 ```
 特别注意：若有多块网卡(不管是有线还是无线)都需要这么设置，否则有可能无法远程唤醒。 
  
-  ![截图预览](./ddnstofile/wake8.jpg)   
+  ![截图预览](./ddnstofile/wake8.jpg) 
  
-  ![截图预览](./ddnstofile/wake9.jpg)   
+  ![截图预览](./ddnstofile/wake9.jpg) 
   
 * 电脑设置：找到联网网卡的物理地址(mac地址)
 ```
 控制面板->网络和Internet->网络和共享中心->查看活动网络->连接->详细信息->物理地址
 ```
-  ![截图预览](./ddnstofile/wake10.jpg)   
+  ![截图预览](./ddnstofile/wake10.jpg) 
  
-  ![截图预览](./ddnstofile/wake11.jpg)   
+  ![截图预览](./ddnstofile/wake11.jpg) 
 
   ![截图预览](./ddnstofile/wake12.jpg)
 
@@ -323,10 +323,10 @@ BIOS -> 高级 -> 高级电源管理(APM) -> 由PCI-E设备唤醒 -> 选择Enabl
  
 * 登录到[DDNSTO控制台](https://www.ddnsto.com/app/#/login) -> 远程应用 -> 添加远程开机
 
-  ![截图预览](./ddnstofile/wake13.jpg)   
+  ![截图预览](./ddnstofile/wake13.jpg) 
 
 * 添加完成后，把要远程开机的电脑关机，然后用另外的设备登录ddnsto控制台，点击“远程开机”图标，即可对电脑发送开机指令
   
   ![截图预览](./ddnstofile/wake14.jpg)
   
-  ![截图预览](./ddnstofile/wake15.jpg)  
+  ![截图预览](./ddnstofile/wake15.jpg)
