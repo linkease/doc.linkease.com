@@ -71,7 +71,7 @@ PS：群晖稍微有点不一样，具体看下方的“群晖”教程。
 2.进入设备终端，先安装Aria2，输入如下命令(先别直接输入，看下面的说明)：
 
 ```
-docker run -d \
+sudo docker run -d \
     --name aria2-pro \
     --restart unless-stopped \
     --log-opt max-size=1m \
@@ -98,7 +98,7 @@ d. /downloads 为下载目录，可根据实际情况调整。
 **比如我的令牌是asdjxxxxxxxxxxxxxxxxxxxxxmsdf，下载目录为/mnt/sda1/aria2，RPC端口为6880，其余不改，那么我的命令就是：**
 
 ```
-docker run -d \
+sudo docker run -d \
     --name aria2-pro \
     --restart unless-stopped \
     --log-opt max-size=1m \
@@ -141,7 +141,7 @@ docker run -d \
 3.然后根据实际情况写配置目录和下载目录，2个命令安装完成： 
   
 ```
-docker run -d \
+sudo docker run -d \
     --name aria2-pro \
     --restart unless-stopped \
     --log-opt max-size=1m \
