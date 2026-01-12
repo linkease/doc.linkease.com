@@ -110,6 +110,29 @@ sudo docker run -d \
     registry.kspeeder.com/linkease/linkease
 ```
 
+* 如果用compose方式安装，脚本命令如下：
+
+```
+services:
+  linkease:
+    image: registry.kspeeder.com/linkease/linkease
+    container_name: linkease
+    restart: always
+    network_mode: host
+    environment:
+      - PUID=$(id -u)
+      - PGID=$(id -g)
+    volumes:
+      - /mnt/sda1/linkease-data:/linkease-data
+      - /mnt/sda1/linkease-config:/linkease-config
+      - /etc/localtime:/etc/localtime:ro
+      - /mnt/sda1:/Disk1
+      - /mnt/sda2:/Disk2
+      - /mnt/sda3:/Disk3
+    ports:
+      - "8897:8897"
+```
+
 
 **2.安装后第一次打开(访问地址: http://docker设备ip:8897)，需要绑定设备，请查看 [易有云绑定教程](/zh/guide/linkease/install/cloud.md)。**
 
