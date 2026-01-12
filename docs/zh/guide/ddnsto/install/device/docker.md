@@ -29,7 +29,7 @@ docker run -d \
     -e TOKEN=<填入你的token> \
     -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.kspeeder.com/linkease/ddnsto:3.1.0
+    registry.kspeeder.com/linkease/ddnsto:4.0.0
 ```
 
 * <填入你的token>: 填写从DDNSTO控制台拿到的TOKEN。
@@ -50,7 +50,7 @@ docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.kspeeder.com/linkease/ddnsto:3.1.0
+    registry.kspeeder.com/linkease/ddnsto:4.0.0
 ```
 
 * Docker在某些Linux发行版，可能要“sudo”提权才能运行，按提示输入Linux的密码，命令如下：
@@ -63,7 +63,23 @@ sudo docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.kspeeder.com/linkease/ddnsto:3.1.0
+    registry.kspeeder.com/linkease/ddnsto:4.0.0
+```
+
+* 如果用compose方式安装，脚本命令如下：
+
+```
+services:
+  ddnsto:
+    image: registry.kspeeder.com/linkease/ddnsto:4.0.0
+    container_name: ddnsto
+    restart: always
+    network_mode: host
+    environment:
+      - TOKEN=abcd-8888-7777-6666-efgh
+      - DEVICE_NAME=abc9527
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
 ```
 
 #### Docker常见问题

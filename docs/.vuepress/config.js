@@ -200,6 +200,7 @@ module.exports = ctx => ({
                                 ["start", "域名映射"],
                                 ["remote_control", "远程桌面"],
                                 ["remote_download", "远程下载"],
+                                ["basic_settings", "基础设置"],
                                 {
                                     title: "更多功能", collapsable: true, children: [
                                         ["cloudapp", "远程应用"],
