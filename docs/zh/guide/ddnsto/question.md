@@ -42,7 +42,6 @@ sidebarDepth: 1
 
 3. 确认已经登录ddnsto控制台，从控制台的应用入口进入
 
-4. 如仍然未能解决，可联系[付费服务](https://www.koolcenter.com/category/services)协助处理
 
 ## * 访问OpenWRT页面异常
 部分使用nginx的固件通过ddnsto访问时界面可能出现菜单不显示等问题
