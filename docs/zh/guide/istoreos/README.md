@@ -3,6 +3,12 @@
 <img src="./preview/douyin.png" width="320" height="480">
 
 [iStoreOS](https://www.istoreos.com) 是一个开源免费的路由兼存储系统，轻松管理网络与存储，享受一致的操作体验，代码完全开源，欢迎探索与贡献。
+
+* iStoreOS 是基于 OpenWrt 深度优化的开源智能路由系统，兼具强大功能和极致体验。 保留了 OpenWrt 灵活性的同时，简化了交互操作和增强稳定性，让新手也能轻松驾驭。
+
+* 内置 iStore 软件中心 ，提供海量一键安装应用；支持 Docker 快速部署私人影音库（如 Jellyfin、Emby）、智能家居中枢（如 HomeAssistant）及数据管理工具等，让你的设备变身家庭 「全能超主机」。 全开源、多硬件适配，安全沙箱守护数据，智能体验无门槛。
+
+
 - 系统代码开源地址：[Github iStoreOS](https://www.github.com/istoreos/istoreos)。
 - #### <font color="#dd0000">酷友社论坛已经上线！欢迎大家[加入论坛](https://www.koolcenter.com)，交流分享，探索更多乐趣！</font><br />
 
@@ -72,11 +78,9 @@
 * [酷友社 B站账号](https://space.bilibili.com/1492058311?spm_id_from=333.788.0.0)
 * [酷友社 Youtube](https://www.youtube.com/channel/UCvENMyIFurJi_SrnbnbyiZw)
 * [酷友社 小红书](https://www.xiaohongshu.com/user/profile/66eaa6e4000000001d0307af)
-* [QQ 群](https://www.koolcenter.com/posts/117)
+* [联系我们](https://www.linkease.com/about)
 * [TG 群](https://t.me/+QwxW7aimSMeRdQJX)
 * 微信扫码公众号：
+
 ![istoreos-gongzhong.png](./preview/istoreos-gongzhong.png)
-
-iStoreOS 来源于 OpenWRT，重点是做了很多很多的交互简化。但是即使再简化，对于不同的用户级别，我们还是得提供了三套完全不一样的交互 UI，具体可以查看我们的[系统介绍](/zh/guide/istoreos/storeos_introduce.html)。
-
 
