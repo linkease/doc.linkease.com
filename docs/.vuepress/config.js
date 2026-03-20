@@ -281,6 +281,7 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "更新日志", collapsable: true, children: [
+                                        ["changelog/20260320", "v24.10.5 - 20260320"],
                                         ["changelog/20251231", "v24.10.5 - 20251231"],
                                         ["changelog/20251226", "v24.10.4 - 20251226"],
                                         ["changelog/20251219", "v24.10.4 - 20251219"],
@@ -313,7 +314,7 @@ module.exports = ctx => ({
                                     title: "系统安装", collapsable: true, children: [
                                         ["install", "支持列表"],
                                         ["install_r1", "EasePi R1"],
-                                        ["install_a2", "EasePi A2"],
+                                        ["install_easepi-a2", "EasePi A2"],
                                         ["install_zx3000", "ZX3000"],
                                         ["install_ars2", "EasePi ARS2"],
                                         ["install_x86", "X86 物理机"],
