@@ -29,7 +29,7 @@ docker run -d \
     -e TOKEN=<填入你的token> \
     -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.kspeeder.com/linkease/ddnsto:4.0.0
+    linkease/ddnsto:4.0.3
 ```
 
 * <填入你的token>: 填写从DDNSTO控制台拿到的TOKEN。
@@ -50,7 +50,7 @@ docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.kspeeder.com/linkease/ddnsto:4.0.0
+    linkease/ddnsto:4.0.3
 ```
 
 * Docker在某些Linux发行版，可能要“sudo”提权才能运行，按提示输入Linux的密码，命令如下：
@@ -63,7 +63,7 @@ sudo docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.kspeeder.com/linkease/ddnsto:4.0.0
+    linkease/ddnsto:4.0.3
 ```
 
 * 如果用compose方式安装，脚本命令如下：
@@ -71,7 +71,7 @@ sudo docker run -d \
 ```
 services:
   ddnsto:
-    image: registry.kspeeder.com/linkease/ddnsto:4.0.0
+    image: linkease/ddnsto:4.0.3
     container_name: ddnsto
     restart: always
     network_mode: host
