@@ -2,6 +2,10 @@
 
 ![install.png](./install/easepi/easepi-r2.png)
 
+<video src="https://dl.istoreos.com/iStoreOS/easepi-r2/easepi-r2.mp4" width="600" height="400" controls autoplay muted>
+浏览器不支持视频格式.
+</video>
+
 产品优势：[R2 硬件细节全面解析](https://www.koolcenter.com/t/topic/15105)
 
 配置详情：[R2 硬件详情](https://www.koolcenter.com/t/topic/12861)
