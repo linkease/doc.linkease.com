@@ -1,5 +1,7 @@
 ### EasePi R2
 
+![install.png](./install/easepi/easepi-r2.png)
+
 产品优势：[R2 硬件细节全面解析](https://www.koolcenter.com/t/topic/15105)
 
 配置详情：[R2 硬件详情](https://www.koolcenter.com/t/topic/12861)
