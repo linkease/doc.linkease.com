@@ -40,3 +40,11 @@ ddnsto  -u xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx(你的令牌) -daemon
 ``` shell
 systemctl stop com.linkease.ddnstoshell
 ```
+
+4. Arch Linux 安装
+
+可以通过 AUR 仓库或[自建源](https://github.com/taotieren/aur-repo)安装
+终端执行以下命令
+``` shell
+yay -Syu ddnsto-bin
+```
