@@ -197,65 +197,65 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["start", "域名映射"],
-                                ["remote_control", "远程桌面"],
-                                ["remote_download", "远程下载"],
-                                ["basic_settings", "基础设置"],
+                                ["", "文档总览"],
                                 {
-                                    title: "更多功能", collapsable: true, children: [
-                                        ["cloudapp", "远程应用"],
-                                        ["ddnstofile", "拓展功能"],
+                                    title: "🟢 3分钟上手", collapsable: true, children: [
+                                        ["quickstart/", "快速入门"],
+                                        ["quickstart/install-guide/synology", "群晖 NAS"],
+                                        ["quickstart/install-guide/qnap", "威联通 NAS"],
+                                        ["quickstart/install-guide/zspace", "极空间 NAS"],
+                                        ["quickstart/install-guide/fn", "飞牛 NAS"],
+                                        ["quickstart/install-guide/easepi", "EasePi"],
+                                        ["quickstart/install-guide/istoreos", "iStoreOS"],
+                                        ["quickstart/install-guide/openwrt", "OpenWrt"],
+                                        ["quickstart/install-guide/ikuai", "爱快路由器"],
+                                        ["quickstart/install-guide/koolcenter_merlin", "ASUSGO / KoolCenter 梅林固件"],
+                                        ["quickstart/install-guide/koolcenter_lede", "KoolCenter LEDE"],
+                                        ["quickstart/install-guide/padavan", "Padavan"],
+                                        ["quickstart/install-guide/ready_nas", "ReadyNAS"],
+                                        ["quickstart/install-guide/terra_master", "铁威马 NAS"],
+                                        ["quickstart/install-guide/ugreen", "绿联 NAS"],
+                                        ["quickstart/install-guide/histb", "海纳思 NAS"],
+                                        ["quickstart/install-guide/unraid", "Unraid"],
+                                        ["quickstart/install-guide/linux", "Linux"],
+                                        ["quickstart/install-guide/docker", "Docker 通用"],
+                                        ["quickstart/install-guide/windows", "Windows"],
                                     ]
                                 },
                                 {
-                                    title: "🚀安装及配置", collapsable: true, children: [
-                                        ["support", "设备支持列表"],
-                                        ["install/device/token", "获取Token"],
-                                        ["install/device/easepi", "EasePi"],
-                                        ["install/device/istoreos", "iStoreOS"],
-                                        ["install/device/koolcenter_merlin", "ASUSGO 固件"],
-                                        ["install/device/koolcenter_lede", "Koolcenter Lede"],
-                                        ["install/device/openwrt", "OpenWrt"],
-                                        ["install/device/synology", "群晖"],
-                                        ["install/device/qnap", "威联通"],
-                                        ["install/device/docker", "Docker"],
-                                        ["install/device/padavan", "Padavan"],
-                                        ["install/device/ready_nas", "ReadyNAS"],
-                                        ["install/device/ikuai", "爱快"],
-                                        ["install/device/unraid", "Unraid"],
-                                        ["install/device/terra_master", "铁威马"],
-                                        ["install/device/windows", "Windows"],
-                                        ["install/device/linux", "Linux/Ubuntu/Centeros/Debian/Casaos"],
-                                        ["install/device/zspace", "极空间"],
-                                        ["install/device/fn", "飞牛"],
-                                        ["install/device/ugreen", "绿联NAS"],
-                                        ["install/device/histb", "海纳思NAS"],
-                                        ["install/device/penetrate", "穿透设置"],
-                                        ["install/device/domain_name", "添加域名"],
-                                        ["install/device/change_name", "设备改名"],
-                                        ["install/device/combo", "套餐和服务器"],
+                                    title: "🔵 场景指南", collapsable: true, children: [
+                                        ["scenarios/", "场景总览"],
+                                        ["scenarios/nas-remote-access", "NAS 远程访问"],
+                                        ["scenarios/remote-download", "远程下载"],
+                                        ["scenarios/remote-desktop", "远程桌面"],
+                                        ["scenarios/remote-ssh", "SSH 远程管理"],
+                                        ["scenarios/file-management", "文件管理"],
+                                        ["scenarios/remote-wol", "远程开机"],
+                                        ["scenarios/jellyfin", "Jellyfin 影音"],
+                                        ["scenarios/pve-esxi", "PVE/ESXi 虚拟化"],
+                                        ["scenarios/developer-webhook", "开发者 Webhook"],
                                     ]
                                 },
-
                                 {
-                                    title: "💡最佳实践", collapsable: true, children: [
-                                        ["scene", "第三方服务"],
-                                        ["synology", "群晖玩法"],
-                                        ["safe", "数据安全"],
+                                    title: "🔴 故障排查", collapsable: true, children: [
+                                        ["troubleshooting/", "问题速查"],
+                                        ["troubleshooting/connection-issues", "连接问题"],
+                                        ["troubleshooting/domain-issues", "域名问题"],
+                                        ["troubleshooting/package-issues", "套餐问题"],
                                     ]
                                 },
-                                ["Authentication", "🔓身份(IP)验证"],
-                                ["pay", "💰账户及套餐"],
-                                ["question", "💬常见问题"],
+                                {
+                                    title: "⚫ 开发文档", collapsable: true, children: [
+                                        ["developer/", "开发者指南"],
+                                        ["developer/integration-guide", "插件集成规范"],
+                                    ]
+                                },
                                 {
                                     title: "问题反馈", collapsable: true, children: [
-
                                         ["feedback/group", "交流群"],
                                         ["feedback/email", "Email"],
                                     ]
                                 },
-                                // ["summary", "关于DDNSTO"],
-                                // ["about", "联系我们"],
                             ]
                         },
                     ],
@@ -605,7 +605,7 @@ module.exports = ctx => ({
                                   ["todo", "从网页配置"],
                                   ["todo", "相册备份"],
                                   ["todo", "网盘挂载"],
-                                  ["todo", "异地组网"],										
+                                  ["todo", "异地组网"],														
                                   ]
                               }, 
                               {title: "配置域名", 

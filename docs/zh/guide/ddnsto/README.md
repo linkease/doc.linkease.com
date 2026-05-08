@@ -1,50 +1,70 @@
-#### <font color="#dd0000">酷友社论坛已经上线！欢迎大家[加入论坛](https://www.koolcenter.com)，交流分享，探索更多乐趣！</font><br />
-
 # DDNSTO
 
-DDNSTO 是一款稳定、快速、简单易用的内网穿透工具。
-让用户在公司、旅行途中都能够使用浏览器方便的访问家庭内的网络设备。
+> 内网穿透工具，让你随时随地访问家里的设备
 
-**DDNSTO 的优秀之处：**
+---
 
-* 无需公网 IP，不被网络环境限制
-* 无需购买域名或服务器，省去了服务器年费和带宽要求以及域名购买、备案等等繁琐操作
-* 全部的安装、配置、使用都可在浏览器完成，不需要敲一行代码，对小白用户非常友好
-* 支持http2，访问家庭内部网络速度更快
-* 独家的远程应用中心，让远程电脑桌面、远程下载、远程文件管理等多种丰富的功能在浏览器上就可以实现
+## 什么是 DDNSTO？
 
-**重点功能：**
+DDNSTO 是一款**内网穿透工具**，让你在外网也能访问家里的设备：
 
-* [域名映射](/zh/guide/ddnsto/start.md)，一个浏览器远程访问NAS、路由器、docker等；
-* [远程应用](/zh/guide/ddnsto/cloudapp.md)，玩转远程下载、远程SSH、远程Windows桌面、远程开机；
-* [文件管理](/zh/guide/ddnsto/ddnstofile.md#文件管理)，支持访问samba、sftp、webdav等协议。
+- 📱 手机远程查看 NAS 照片、视频
+- 💻 公司访问家里的路由器管理界面
+- 🎬 外出时远程控制下载任务
+- 🖥️ 远程连接家里电脑桌面
 
-### DDNSTO支持的设备/系统：
+**核心优势：**
+- ✅ 无需公网 IP
+- ✅ 无需购买域名和服务器
+- ✅ 全部操作在浏览器完成，无需敲代码
+- ✅ 支持 HTTPS，访问更安全
 
-* A：扩展功能之文件管理、B：扩展功能之WebDav服务、C：扩展功能之远程开机
+---
 
-* 某些设备/系统不能完整支持所有的扩展功能，如群晖/威联通只支持文件管理。
+## 快速开始
 
-| 设备/系统 | 安装教程 | 扩展功能 | 版本升级注意 |
-|-|-|-|-|-|
-|EasePi| [详细教程](/zh/guide/ddnsto/install/device/easepi.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
-|iStoreOS| [详细教程](/zh/guide/ddnsto/install/device/istoreos.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
-|ASUSGO 固件 ≥386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>软件中心直接升级</center> |
-|ASUSGO 固件 <386| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_merlin.html) | <center>**<font color=#008000 >A</font>**</center> | <center>软件中心直接升级</center> |
-|Koolcenter Lede| [详细教程](/zh/guide/ddnsto/install/device/koolcenter_lede.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>iStore商店直接升级</center> |
-|OpenWrt| [详细教程](/zh/guide/ddnsto/install/device/openwrt.html) | <center>**<font color=#008000 >A、B、C</font>**</center> | <center>覆盖安装新版</center> |
-|群晖| [详细教程](/zh/guide/ddnsto/install/device/synology.html) | <center>**<font color=#008000 >A</font>**</center> | <center>**<font color=#ff0000 >卸载旧版安装新版 </font>**</center> |
-|威联通| [详细教程](/zh/guide/ddnsto/install/device/qnap.html) | <center>**<font color=#008000 >A</font>**</center> | <center>覆盖安装新版</center> |
-|Docker| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
-|飞牛| [详细教程](/zh/guide/ddnsto/install/device/fn.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
-|Padavan| [详细教程](/zh/guide/ddnsto/install/device/padavan.html) | <center>暂未支持</center> | <center>跟随固件更新</center> |
-|ReadyNAS| [详细教程](/zh/guide/ddnsto/install/device/ready_nas.html) | <center>暂未支持</center> | <center>覆盖安装新版</center> |
-|爱快| [详细教程](/zh/guide/ddnsto/install/device/ikuai.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
-|Unraid| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
-|铁威马| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
-|Windows| [详细教程](/zh/guide/ddnsto/install/device/windows.html) | <center>**<font color=#008000 >A、B</font>**</center> | <center>Windows客户端下载覆盖更新</center> |
-|Linux| [详细教程](/zh/guide/ddnsto/install/device/linux.html) | <center>**<font color=#008000 >A</font>**</center> | <center>Linux专用程序包下载覆盖更新</center> |
-|极空间| [详细教程](/zh/guide/ddnsto/install/device/docker.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
-|绿联NAS| [详细教程](/zh/guide/ddnsto/install/device/ugreen.html) | <center>**<font color=#008000 >A</font>**</center> | <center>新建docker容器</center> |
+### 3步搞定内网穿透
 
+1. **获取 Token** - 微信扫码登录控制台，复制令牌
+2. **安装插件** - 在设备上安装 DDNSTO 并填入 Token
+3. **添加域名** - 在控制台添加域名映射，即可访问
 
+[查看详细教程 →](./quickstart/)
+
+---
+
+## 文档导航
+
+| 文档类型 | 目标用户 | 内容重点 |
+|----------|----------|----------|
+| 🟢 [3分钟上手](./quickstart/) | 小白用户 | 图文步骤，聚焦"装好就能用" |
+| 🔵 [场景指南](./scenarios/) | 进阶用户 | NAS远程访问/远程办公等实操 |
+| 🔴 [故障排查](./troubleshooting/) | 所有用户 | 常见问题自助解决 |
+| ⚫ [开发文档](./developer/) | 固件作者 | 插件集成规范 + API |
+
+---
+
+## 用户画像
+
+| 用户类型 | 需求 | 推荐文档 |
+|---------|------|---------|
+| **家庭用户** | 远程访问 NAS、智能家居 | 🟢 3分钟上手 |
+| **开发者** | 本地开发环境暴露、Webhook 测试 | 🔵 场景指南 |
+| **运维人员** | 远程管理服务器 | 🔵 场景指南 |
+| **固件作者** | 集成 DDNSTO 到固件 | ⚫ 开发文档 |
+
+---
+
+## 支持设备
+
+- 群晖 / 威联通 / 极空间 / 绿联 NAS
+- iStoreOS / OpenWrt 路由器
+- Docker / Windows / Linux
+
+---
+
+## 获取帮助
+
+- 💬 [常见问题](./troubleshooting/)
+- 📧 技术支持：support@linkease.com
+- 🌐 [酷友社论坛](https://www.koolcenter.com)
