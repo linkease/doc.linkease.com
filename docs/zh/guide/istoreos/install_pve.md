@@ -7,6 +7,19 @@
 <iframe src="//player.bilibili.com/player.html?bvid=BV1vFobYRE2A&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 
+### FastPVE 一键脚本
+```
+bash -c "$(curl -sSL https://www.linkease.com/rd/fastpve/)"
+
+bash -c "$(wget --no-check-certificate -qO- https://www.linkease.com/rd/fastpve/)"
+
+cd /tmp; wget --no-check-certificate -O fastpve-install.sh https://www.linkease.com/rd/fastpve/; bash ./fastpve-install.sh
+```
+
+* 登录到 PVE 的终端，运行以上任一脚本（三选一），简单几步选择即可安装 iStoreOS。
+
+### PVE 手动部署 iStoreOS 方法：
+
 #### 1.首先 X86 机器已经安装好 PVE，且能正常联网；
 
 * 这里不提供 X86 机器安装 PVE 教程，自行科普。
@@ -33,6 +46,8 @@
 ![install.png](./install/pve/3.jpg)
 
 * 如果是下载的EFI固件，BIOS选择“OVMF(UEFI)”，EFI存储选择PVE的虚拟盘，其余不管，下一步：
+
+* **预注册密钥/Pre-Enroll keys，建议取消勾选！！！**
 
 ![install.png](./install/pve/4.jpg)
 
