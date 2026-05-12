@@ -31,16 +31,17 @@ docker run -d \
     -e TOKEN=<填入你的token> \
     -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.istoreos.com/linkease/ddnsto:3.1.0
+    registry.istoreos.com/linkease/ddnsto:4.0.5
 ```
 
 **参数说明：**
-- `<填入你的token>`: 填写从 DDNSTO 控制台拿到的 TOKEN
+- `<填入你的token>`: 填写从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 拿到的 TOKEN
 - `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
 
 **注意：**
 - 替换 "<>" 里面的内容，且不能出现 "<>"
-- 例如 TOKEN 为 `abcd-8888-7777-6666-efgh`，设备名称 ID 为 `abc9527`，则命令为：
+- 例如 TOKEN 为 `abcd-8888-7777-6666-efgh`，设备名称 ID 为 `abc9527`
+- 飞牛用终端命令安装Docker，需要“sudo”提权，按提示输入飞牛的密码，命令如下：
 
 ```bash
 sudo docker run -d \
@@ -50,7 +51,7 @@ sudo docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.istoreos.com/linkease/ddnsto:3.1.0
+    registry.istoreos.com/linkease/ddnsto:4.0.5
 ```
 
 ---
@@ -65,5 +66,4 @@ sudo docker run -d \
 
 ## 下一步
 
-- 🔵 [配置远程文件管理](../../scenarios/file-management.md)
-- 🔵 [设置远程下载](../../scenarios/remote-download.md)
+ 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 

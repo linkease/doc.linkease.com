@@ -1,6 +1,6 @@
 # OpenWrt 安装指南
 
-> ⏱️ 预计耗时：3 分钟  
+> ⏱️ 预计耗时：3 分钟
 > 📱 适用设备：OpenWrt 路由器
 
 ---
@@ -59,13 +59,22 @@ sh -c "$(curl -sSL https://fw.koolcenter.com/binary/ddnsto/openwrt/ddnstox/insta
  
    ![SSH安装3](../../resources/koolshare_merlin/image-2021022400000007.png)
 
-3. 找到 DDNSTO 远程控制，填写 Token 并启用
+3. 打开服务中的 DDNSTO，快速向导或者手动勾选"启用"并填入令牌，保存配置并应用。
 
-   ![启用DDNSTO](../../resources/koolshare_merlin/ddnsto0818.png)
+   ![EasePi应用商店](../../resources/koolshare_merlin/EasePi.png)
 
 4. 或者找到 DDNSTOX，填写 Token 和设置设备名称，并启用
 
    ![启用DDNSTOX](../../resources/koolshare_merlin/ddnstox0818.png)
+
+---
+
+## 下一步
+
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+- 🔵 [配置远程文件管理](../../scenarios/file-management.md)
+- 🔵 [设置远程下载](../../scenarios/remote-download.md)
+- 🔵 [配置远程开机](../../scenarios/remote-wol.md)
 
 ---
 
@@ -83,9 +92,3 @@ OpenWrt 15 版本跟最新插件不兼容，尝试以下解决：
 
 **尝试二：** 重启路由器
 
----
-
-## 下一步
-
-- 🔵 [配置远程文件管理](../../scenarios/file-management.md)
-- 🔵 [设置远程下载](../../scenarios/remote-download.md)
