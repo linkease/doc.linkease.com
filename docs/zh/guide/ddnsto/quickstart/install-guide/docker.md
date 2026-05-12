@@ -1,6 +1,6 @@
 # Docker 安装指南
 
-> ⏱️ 预计耗时：3 分钟  
+> ⏱️ 预计耗时：3 分钟 
 > 📱 适用设备：任何支持 Docker 的设备（群晖、威联通、Unraid、Linux 服务器等）
 
 ---
@@ -11,60 +11,46 @@
 
 1. 打开 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
 2. 微信扫码登录
-3. 点击右上角头像 → "令牌"，复制你的 Token
+3. 点击右上角 → "令牌"，复制你的 Token
+
+![获取Token](../../resources/koolshare_merlin/ddnsto1.png)
 
 ---
 
 ### 2. 运行 Docker 容器
 
-#### 通用 Docker 命令
+#### 通用 Docker 命令，终端运行以下命令：
 
 ```bash
 docker run -d \
-    --name ddnsto \
+    --name=ddnsto \
     --restart always \
-    --net host \
-    -e TOKEN=你的Token \
-    -e DEVICE_NAME=设备名称 \
-    linkease/ddnsto
+    --network host \
+    -e TOKEN=<填入你的token> \
+    -e DEVICE_NAME=<自定义唯一设备名称ID> \
+    -v /etc/localtime:/etc/localtime:ro \
+    registry.istoreos.com/linkease/ddnsto:4.0.5
 ```
 
-#### 参数说明
+**参数说明：**
+- `<填入你的token>`: 填写从 DDNSTO 控制台拿到的 TOKEN
+- `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
 
-| 参数 | 说明 | 示例 |
-|------|------|------|
-| `TOKEN` | 你的 DDNSTO 令牌 | `abc123def456` |
-| `DEVICE_NAME` | 设备显示名称（可选） | `MyNAS` |
-| `--net host` | 使用主机网络模式 | - |
+**注意：**
+- 替换 "<>" 里面的内容，且不能出现 "<>"
+- 例如 TOKEN 为 `abcd-8888-7777-6666-efgh`，设备名称 ID 为 `abc9527`
+- 某些系统运行 docker，需要“sudo”提权，按提示输入密码，命令如下：
 
----
-
-### 3. 群晖 Docker 安装
-
-1. 打开群晖 DSM → 套件中心 → 安装 Docker
-2. 打开 Docker 应用 → 注册表 → 搜索 `ddnsto`
-3. 下载 `linkease/ddnsto` 镜像
-
-![下载镜像](../../resources/koolshare_merlin/docker1.jpeg)
-
-4. 下载完成后，点击 "启动"
-5. 在 "高级设置" 中：
-   - 勾选 "使用与 Docker Host 相同的网络"
-   - 添加环境变量：`TOKEN` = 你的 Token
-
-![高级设置](../../resources/koolshare_merlin/docker2.jpeg)
-
-6. 点击 "应用" → "下一步" → "启动"
-
-![启动容器](../../resources/koolshare_merlin/docker3.jpeg)
-
----
-
-### 4. 验证安装
-
-1. 回到 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 刷新页面，等待设备出现（约 1 分钟）
-3. 看到设备名称即表示安装成功！
+```bash
+sudo docker run -d \
+    --name=ddnsto \
+    --restart always \
+    --network host \
+    -e TOKEN=abcd-8888-7777-6666-efgh \
+    -e DEVICE_NAME=abc9527 \
+    -v /etc/localtime:/etc/localtime:ro \
+    registry.istoreos.com/linkease/ddnsto:4.0.5
+```
 
 ---
 
@@ -73,23 +59,33 @@ docker run -d \
 如果你使用 Docker Compose，可以使用以下配置：
 
 ```yaml
-version: '3'
 services:
   ddnsto:
-    image: linkease/ddnsto:latest
+    image: registry.istoreos.com/linkease/ddnsto:4.0.5
     container_name: ddnsto
     restart: always
     network_mode: host
     environment:
-      - TOKEN=你的Token
-      - DEVICE_NAME=MyNAS
+      - TOKEN=<填入你的token>
+      - DEVICE_NAME=<自定义唯一设备名称ID>
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
 ```
+
+- `<填入你的token>`: 填写从 DDNSTO 控制台拿到的 TOKEN
+- `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
 
 保存为 `docker-compose.yml`，然后运行：
 
 ```bash
 docker-compose up -d
 ```
+
+---
+
+## 下一步
+
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
 
 ---
 
@@ -126,9 +122,3 @@ docker run -d \
 docker logs ddnsto
 ```
 
----
-
-## 下一步
-
-- 🔵 [添加域名映射](../README.md#第-3-步添加域名映射)
-- 🔴 [遇到问题？](../../troubleshooting/README.md)

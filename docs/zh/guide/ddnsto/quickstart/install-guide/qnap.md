@@ -1,6 +1,6 @@
 # 威联通 NAS 安装指南
 
-> ⏱️ 预计耗时：5 分钟  
+> ⏱️ 预计耗时：5 分钟
 > 📱 适用设备：威联通 QNAP NAS
 
 ---
@@ -9,7 +9,9 @@
 
 **请仔细看完本节教程再操作，以节约时间！**
 
-**注意：请开启 WEB 服务，并且取消勾选 HTTPS**
+- #### <font color="#dd0000">注意：请开启 WEB 服务，并且取消勾选 HTTPS！</font><br />
+- #### <font color="#dd0000">注意：请开启 WEB 服务，并且取消勾选 HTTPS！</font><br />
+- #### <font color="#dd0000">注意：请开启 WEB 服务，并且取消勾选 HTTPS！</font><br />
 
 ---
 
@@ -39,7 +41,7 @@
 
 ### 3. 配置 DDNSTO
 
-安装好后，配置 Token（从官网获取），填入提交即可。
+安装好后，配置 Token（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取），填入提交即可。
 
 * QNAP 的域名端口是 8080，比如配置内网地址为：`http://127.0.0.1:8080`
 
@@ -55,5 +57,4 @@
 
 ## 下一步
 
-- 🔵 [配置远程文件管理](../../scenarios/file-management.md)
-- 🔵 [设置远程下载](../../scenarios/remote-download.md)
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 

@@ -77,5 +77,4 @@
 
 ## 下一步
 
-- 🔵 [配置远程文件管理](../../scenarios/file-management.md)
-- 🔵 [设置远程下载](../../scenarios/remote-download.md)
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 

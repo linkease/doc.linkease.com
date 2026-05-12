@@ -41,7 +41,11 @@
 
 ## 下一步
 
- 🟢 [——>配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+- DSM6——控制面板——网络——DSM设置：
+- DSM7——控制面板——登录门户——DSM：
+- 不要开启“自动将DSM桌面的HTTP连接重定向到HTTPS”
+
+- 🟢 [——>配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
 
 ---
 
