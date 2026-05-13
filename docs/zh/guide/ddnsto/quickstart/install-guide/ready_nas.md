@@ -45,7 +45,7 @@
 
 ### 3. 配置 Token
 
-安装完成后，打开 DDNSTO 应用，填入您的 Token
+安装完成后，打开 DDNSTO 应用，填入 Token（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取）。
 
 ![配置Token](../../resources/koolshare_merlin/readynas-token.jpg)
 
@@ -53,4 +53,4 @@
 
 ## 下一步
 
-安装完成后，请前往 [DDNSTO 控制台](https://www.ddnsto.com/app/#/devices) 添加域名映射。
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 

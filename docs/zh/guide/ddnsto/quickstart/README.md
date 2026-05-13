@@ -59,7 +59,7 @@ DDNSTO 是一款**内网穿透工具**，让你在外网也能访问家里的设
 | [EasePi](./install-guide/easepi.md) | ⭐ 超简单 | ⭐⭐⭐ 强烈推荐 |
 | [OpenWrt](./install-guide/openwrt.md) | ⭐⭐ 简单 | ⭐⭐⭐ 推荐 |
 | [爱快路由器](./install-guide/ikuai.md) | ⭐⭐ 简单 | ⭐⭐⭐ 推荐 |
-| [ASUSGO / 梅林固件](./install-guide/koolcenter_merlin.md) | ⭐⭐ 简单 | ⭐⭐⭐ 推荐 |
+| [ASUSGO 官改/梅林](./install-guide/koolcenter_merlin.md) | ⭐⭐ 简单 | ⭐⭐⭐ 推荐 |
 | [KoolCenter LEDE](./install-guide/koolcenter_lede.md) | ⭐⭐ 简单 | ⭐⭐⭐ 推荐 |
 | [Padavan](./install-guide/padavan.md) | ⭐⭐ 简单 | ⭐⭐ 推荐 |
 

@@ -38,5 +38,6 @@ ddnsto 程序界面如图：
 
 ## 下一步
 
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
 - 🔵 [配置远程文件管理](../../scenarios/file-management.md)
 - 💻 [开发者 Webhook 测试](../../scenarios/developer-webhook.md)
