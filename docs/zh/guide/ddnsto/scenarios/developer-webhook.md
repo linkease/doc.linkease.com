@@ -46,17 +46,6 @@
 2. 解压运行 `ddnsto.exe`
 3. 填入 Token
 
-#### macOS
-
-```bash
-# 使用 Homebrew（如有第三方源）
-brew install ddnsto
-
-# 或下载二进制文件
-wget https://fw.koolcenter.com/binary/ddnsto/mac/ddnsto
-chmod +x ddnsto
-./ddnsto -t YOUR_TOKEN
-```
 
 #### Linux
 
