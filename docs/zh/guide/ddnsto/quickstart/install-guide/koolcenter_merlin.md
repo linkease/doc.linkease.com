@@ -1,6 +1,6 @@
-# ASUSGO / KoolCenter 梅林固件 安装指南
+# ASUSGO/KoolCenter 官改/梅林固件安装指南
 
-> ⏱️ 预计耗时：2 分钟  
+> ⏱️ 预计耗时：2 分钟
 > 📱 适用设备：华硕路由器（梅林固件）
 
 ---
@@ -29,4 +29,7 @@ ASUSGO 固件（KoolCenter 固件），在软件中心搜索并安装 DDNSTO 软
 
 ## 下一步
 
-安装完成后，请前往 [DDNSTO 控制台](https://www.ddnsto.com/app/#/devices) 添加域名映射。
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+- 🔵 [配置远程文件管理](../../scenarios/file-management.md)
+- 🔵 [设置远程下载](../../scenarios/remote-download.md)
+- 🔵 [配置远程开机](../../scenarios/remote-wol.md)

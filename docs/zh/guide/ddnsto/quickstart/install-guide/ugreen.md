@@ -39,7 +39,7 @@
 
 ## 参考教程
 
-详细的 Docker 安装步骤可参考 [飞牛 NAS 安装教程](./fn.md)。
+详细的 Docker 安装步骤可参考 [Docker通用安装教程](./docker.md)。
 
 ---
 
@@ -51,4 +51,4 @@
 
 ## 下一步
 
-安装完成后，请前往 [DDNSTO 控制台](https://www.ddnsto.com/app/#/devices) 添加域名映射。
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 

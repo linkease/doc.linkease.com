@@ -1,11 +1,13 @@
 # Padavan 安装指南
 
-> ⏱️ 预计耗时：2 分钟  
+> ⏱️ 预计耗时：2 分钟
 > 📱 适用设备：Padavan 固件路由器
 
 ---
 
 ## 安装步骤
+
+#### <font color="#dd0000">注意：并不是所有的 Padavan 固件都会带 DDNSTO，这个要看固件作者是否加入 DDNSTO！</font><br />
 
 1. 进入路由器管理界面，找到**扩展功能 → 花生壳内网**
 
@@ -15,17 +17,7 @@
 
 ---
 
-## 注意事项
-
-- 并不是所有的 Padavan 固件都会带 DDNSTO，这个要看固件作者是否加入 DDNSTO
-
----
-
 ## 常见问题
-
-### 重启后 DDNSTO 无法使用
-
-若 Padavan 内置二进制版本 < 0.2.9 版本，可能导致重启后 DDNSTO 无法使用，需自己[更新二进制](https://fw.koolcenter.com/binary/ddnsto/mipsel/ddnsto)。
 
 ### 多台设备 ID 识别相同
 
@@ -37,4 +29,4 @@
 
 ## 下一步
 
-安装完成后，请前往 [DDNSTO 控制台](https://www.ddnsto.com/app/#/devices) 添加域名映射。
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 

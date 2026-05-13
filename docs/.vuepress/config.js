@@ -209,7 +209,7 @@ module.exports = ctx => ({
                                         ["quickstart/install-guide/istoreos", "iStoreOS"],
                                         ["quickstart/install-guide/openwrt", "OpenWrt"],
                                         ["quickstart/install-guide/ikuai", "爱快路由器"],
-                                        ["quickstart/install-guide/koolcenter_merlin", "ASUSGO / KoolCenter 梅林固件"],
+                                        ["quickstart/install-guide/koolcenter_merlin", "ASUSGO/KoolCenter 官改/梅林"],
                                         ["quickstart/install-guide/koolcenter_lede", "KoolCenter LEDE"],
                                         ["quickstart/install-guide/padavan", "Padavan"],
                                         ["quickstart/install-guide/ready_nas", "ReadyNAS"],
