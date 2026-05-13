@@ -17,55 +17,124 @@ DDNSTO 文件管理功能让你可以在浏览器中远程访问：
 **使用条件：**
 - ✅ 已购买会员套餐
 - ✅ 设备已启用扩展功能
+- ✅ 仅 **iStoreOS/OpenWrt/ASUSG改版固件** 支持拓展功能！
 - ✅ 仅支持 PC 端浏览器
 
 ---
 
-## 前置准备
+## 前置准备/启用本机WebDav服务
 
 ### 1. 启用扩展功能
 
-1. 进入 DDNSTO 插件 → 高级功能
+1. iStoreOS/OpenWrt 进入 DDNSTO 插件 → 高级功能
 2. 勾选 **"启用扩展功能"**
 3. 设置 WebDAV 服务参数：
    - **端口**: 3033（可自行设置）
    - **用户名**: 自定义
    - **密码**: 自定义
-   - **共享磁盘**: 选择要共享的目录
+   - **可访问的文件目录**: 选择要共享的目录
+   - **保存配置并应用**: 应用更改
 
-![扩展功能](../resources/ddnstofile/6.jpg)
+![扩展功能](../resources/ddnstofile/6.png)
 
-4. 保存并应用
+
+4. ASUSG改版固件进入 DDNSTO 插件 → ddnsto-扩展功能勾选 **"启用"**
+5. 设置 WebDAV 服务参数：
+   - **端口**: 3033（可自行设置）
+   - **授权用户名**: 自定义
+   - **授权密码**: 自定义
+   - **共享磁盘**: 选择要共享的磁盘
+   - ASUSGO改版固件设备，必须接入USB存储设备(U盘、移动硬盘等)
+   - **提交**: 应用更改
+
+![扩展功能](../resources/ddnstofile/10.png)
 
 ---
 
 ## 添加文件管理协议
 
-1. 控制台点击 **"文件管理"** → **"添加"**
+DDNSTO 控制台 → 设备管理 → 选择已绑定设备：点击 **"文件管理"** → **"添加"**
 
-![添加文件管理](../resources/ddnstofile/7.jpg)
+![添加文件管理](../resources/ddnstofile/7.png)
 
-2. 添加 WebDAV 协议
+支持 webdav/samba/sftp 协议！
+
+![添加文件管理](../resources/ddnstofile/11.png)
+
+---
+
+## 添加 WebDav 协议
 
 | 配置项 | 值 | 说明 |
 |-------|-----|------|
-| 类型 | WebDAV | - |
-| 名称 | 自定义 | 如"WebDAV存储" |
-| URL | WebDAV地址 | 如 http://127.0.0.1:3033/webdav |
-| 账号 | WebDAV用户名 | - |
-| 密码 | WebDAV密码 | - |
+| 类型 | WebDav | 选择文件传输协议 |
+| 名称 | 自定义 | 如"WebDav" |
+| URL | WebDav地址 | 如 http://127.0.0.1:3033/webdav |
+| 账号 | WebDav账号 | 自行填写 |
+| 密码 | WebDav密码 | 自行填写 |
 
-![WebDAV配置](../resources/ddnstofile/8.jpg)
+填写WebDav协议的账号和密码，并添加，可选将账号和密码保存到浏览器。
+
+![WebDAV配置](../resources/ddnstofile/8.png)
+
+点击 WebDav 图标即可访问。
+
+![WebDAV文件管理](../resources/ddnstofile/9.png)
+
+---
+
+## 添加 Samba 协议
+
+| 配置项 | 值 | 说明 |
+|-------|-----|------|
+| 类型 | Samba | 选择文件传输协议 |
+| 名称 | 自定义 | 如"Samba" |
+| IP | Samba地址 | 不要写 127.0.0.1，写实际 IP；如 192.168.50.99 |
+| 端口 | 445 | 默认即可，自定义，自行更改 |
+| 账号 | Samba账号 | 自行填写 |
+| 密码 | Samba密码 | 自行填写 |
+| 工作组 | 默认即可 | 自定义，自行更改 |
+| 目标路径 | samba共享名称 | 不能写类似 /mnt/sda 的具体路径 |
+
+#### <font color="#dd0000">比如：iStoreOS/OpenWrt设置samba共享，设置的共享“名称”；如此图，目标路径就应该写“r1smb”。</font><br />
+
+![WebDAV文件管理](../resources/ddnstofile/14.png)
+
+#### <font color="#dd0000">比如：如果是华硕路由器自身的Samba网络共享，接入USB存储后，要填写挂载路径下具体文件夹名；如此图，目标路径就应该写“tmp、DockRootBin、DockRootData”中的任一文件夹名。</font><br />
+
+![WebDAV文件管理](../resources/ddnstofile/15.png)
+
+填写Samba协议的账号和密码，并添加，可选将账号和密码保存到浏览器。
+
+![WebDAV配置](../resources/ddnstofile/12.png)
+
+点击 Samba 图标即可访问。
+
+![WebDAV文件管理](../resources/ddnstofile/13.png)
 
 ---
 
-### 访问文件
+## 添加 Sftp 协议
 
-点击 WebDAV 图标即可访问。
+| 配置项 | 值 | 说明 |
+|-------|-----|------|
+| 类型 | Sftp | 选择文件传输协议 |
+| 名称 | 自定义 | 如"Sftp" |
+| IP | Sftp地址 | 如 127.0.0.1 |
+| 端口 | 22 | 默认即可，自定义，自行更改 |
+| 账号 | Sftp账号 | 自行填写 |
+| 密码 | Sftp密码 | 自行填写 |
 
-![WebDAV文件管理](../resources/ddnstofile/9.jpg)
+填写Sftp协议的账号和密码，并添加，可选将账号和密码保存到浏览器。
+
+![WebDAV配置](../resources/ddnstofile/16.png)
+
+点击 Sftp 图标即可访问。
+
+![WebDAV文件管理](../resources/ddnstofile/17.png)
 
 ---
+
 
 
 ## 文件操作
