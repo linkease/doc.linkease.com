@@ -27,17 +27,21 @@
 
 ---
 
-### 2. DDNSTO 添加域名映射
+### 2. DDNSTO 添加外网域名
 
 1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 找到你的设备，点击 **"+"** 添加映射
+2. 外网域名，点击 **"+添加域名"** 
 
 | 配置项 | 值 | 说明 |
 |-------|-----|------|
-| 域名前缀 | 自定义 | 如 `pve` |
-| 目标主机 | `https://PVE_IP:8006` | **必须是 https** |
+| 外网域名 | 自定义 | 如 `pve` |
+| 内网地址 | `https://PVE_IP:8006` | **必须是 https** |
 
 ![PVE映射](../resources/scene/scene-pve1.jpeg)
+
+- 因所选服务器不同，最终域名后缀也不同；可在「服务器选择」中选择适合自己的服务器。
+
+![PVE管理界面](../resources/scene/scene-pve3.jpeg)
 
 **⚠️ 重要：**
 - PVE 必须使用 `https://`，使用 http 会失败
@@ -47,16 +51,10 @@
 
 ### 3. 访问 PVE 管理界面
 
-1. 等待 1 分钟让配置生效
-2. 浏览器访问 `https://pve.ddnsto.com`
-3. 首次访问需要微信验证
-4. 进入 PVE 登录界面
+等待 1 分钟浏览器访问 `https://pve.ddnsto.com` 进入  PVE 登录界面
 
 ![PVE登录](../resources/scene/scene-pve2.jpeg)
 
-5. 输入 PVE 用户名密码（默认 root）
-
-![PVE管理界面](../resources/scene/scene-pve3.jpeg)
 
 ---
 
@@ -84,12 +82,12 @@
 
 ---
 
-### 2. DDNSTO 添加域名映射
+### 2. DDNSTO 添加外网域名
 
 | 配置项 | 值 | 说明 |
 |-------|-----|------|
-| 域名前缀 | 自定义 | 如 `esxi` |
-| 目标主机 | `https://ESXi_IP` | **必须是 https** |
+| 外网域名 | 自定义 | 如 `esxi` |
+| 内网地址 | `https://ESXi_IP` | **必须是 https** |
 
 **⚠️ 注意：**
 - ESXi 必须使用 `https://`
@@ -100,7 +98,7 @@
 ### 3. 访问 ESXi 管理界面
 
 1. 浏览器访问 `https://esxi.ddnsto.com`
-2. 完成微信验证
+2. 完成验证
 3. 输入 ESXi 用户名密码登录
 
 ---

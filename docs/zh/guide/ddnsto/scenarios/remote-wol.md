@@ -105,23 +105,23 @@
 3. 设置 WebDAV 用户名和密码（远程开机需要用到）
 4. 保存并应用
 
-![扩展功能](../resources/ddnstofile/wake0.jpg)
+![扩展功能](../resources/ddnstofile/6.png)
+
+![扩展功能](../resources/ddnstofile/10.png)
 
 ---
 
 ### 2. 添加远程开机
 
 1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 点击 **"远程应用"** → **"+"**
-3. 选择 **"远程开机"**
+2. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"远程开机"**
+
+   - **应用名称**: 自定义，如 "家中电脑"
+   - **mac**: 电脑的 MAC 地址（格式 `AA:BB:CC:DD:EE:FF`）
+   - **授权用户名**: 扩展功能设置的 WebDAV 用户名
+   - **授权密码**: 扩展功能设置的 WebDAV 密码
 
 ![添加远程开机](../resources/ddnstofile/wake13.jpg)
-
-4. 填写配置：
-   - **应用名称**: 自定义，如 "家中电脑"
-   - **MAC 地址**: 电脑的 MAC 地址（格式 `AA:BB:CC:DD:EE:FF`）
-   - **用户名**: 扩展功能设置的 WebDAV 用户名
-   - **密码**: 扩展功能设置的 WebDAV 密码
 
 ---
 
@@ -129,7 +129,7 @@
 
 1. 将目标电脑关机
 2. 确保网线保持连接
-3. 在 DDNSTO 控制台点击 **"远程开机"** 图标
+3. 远程应用 → 点击刚添加的 **"WOL应用"** 即可
 
 ![远程开机按钮](../resources/ddnstofile/wake14.jpg)
 
