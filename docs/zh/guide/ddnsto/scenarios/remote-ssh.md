@@ -41,8 +41,7 @@ systemctl enable sshd
 ### 2. DDNSTO 添加远程 SSH
 
 1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 点击 **"远程应用"** → **"+"**
-3. 选择 **"远程 SSH"**
+2. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"远程SSH"**
 
 ![添加SSH](../resources/cloudapp/cloudapp-ssh1.jpeg)
 

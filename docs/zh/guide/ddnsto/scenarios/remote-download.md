@@ -1,7 +1,7 @@
 # 远程下载
 
-> ⬇️ 随时随地控制家里的下载任务  
-> ⏱️ 预计配置时间：10 分钟  
+> ⬇️ 随时随地控制家里的下载任务 
+> ⏱️ 预计配置时间：10 分钟
 > 📱 支持：Aria2、qBittorrent、Transmission、百度云
 
 ---
@@ -21,9 +21,9 @@
 
 ### 1. 安装 Aria2
 
-#### OpenWrt/iStoreOS
+#### iStoreOS/OpenWrt
 
-1. 软件中心/iStore 搜索安装 Aria2
+1. iStore商店/软件中心搜索安装 Aria2
 2. 启用 Aria2，设置 RPC 认证令牌
 3. 设置下载目录
 
@@ -57,8 +57,8 @@ docker run -d \
 1. 确保 Aria2 已启动
 2. 访问 AriaNg 控制台（OpenWrt 通常在服务菜单中）
 3. 配置 RPC 连接：
-   - **地址**: `http://路由器IP:6880/jsonrpc`
-   - **密钥**: 上一步设置的 `RPC_SECRET`
+   - **RPC地址**: `路由器IP`
+   - **RPC密钥**: 上一步设置的 `RPC_SECRET`
 
 ![AriaNg设置](../resources/cloudapp/cloudapp-aria2-lede4.jpeg)
 
@@ -71,19 +71,16 @@ docker run -d \
 ### 3. 配置 DDNSTO 远程下载
 
 1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 点击 **"远程应用"** → **"+"** 添加应用
-3. 选择 **"Aria2 远程下载"**
+2. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"Aria2远程"**
 
 ![添加远程下载](../resources/cloudapp/cloudapp-aria2-3.jpeg)
 
-4. 填写配置：
    - **应用名称**: 自定义，如 "家中下载"
    - **RPC 地址**: `http://路由器IP:6880/jsonrpc`
-   - **密码**: 前面设置的 RPC_SECRET
+   - **密码**: 前面设置的 `RPC_SECRET`
+   - **"添加完成"** 后 → 远程应用 → 点击刚添加的 **"Aria2应用"** 即可进入
 
-![配置参数](../resources/cloudapp/cloudapp-aria2-4.jpeg)
-
-5. 保存后在已添加列表中点击即可进入
+![添加远程下载](../resources/cloudapp/cloudapp-aria2-4.jpeg)
 
 ![远程界面](../resources/cloudapp/cloudapp-aria2-5.jpeg)
 
@@ -113,15 +110,17 @@ docker run -d \
 
 ![关闭CSRF](../resources/scene/scene-qb4.jpeg)
 
-### 3. 配置 DDNSTO 映射
+### 3. 配置 DDNSTO 外网域名
 
-1. 添加域名映射：
-   - **域名前缀**: `qb`
-   - **目标主机**: `http://NAS_IP:8080`
+1. 添加外网域名：
+   - **外网域名**: `myqb112233`
+   - **内网地址**: `http://路由器IP:8080`
 
 ![qBittorrent映射](../resources/scene/scene-qb2.jpeg)
 
-2. 访问 `https://qb.ddnsto.com` 即可远程管理
+2. 点击刚添加的外网域名 `https://myqb112233.ddnsto.com` 即可远程管理
+
+![远程管理](../resources/scene/scene-qb5.jpeg)
 
 ![远程管理](../resources/scene/scene-qb3.jpeg)
 
@@ -133,11 +132,15 @@ docker run -d \
 
 1. 安装 Transmission 并启用 WebUI
 2. 记录 RPC 端口（默认 9091）
-3. DDNSTO 添加映射：
-   - **域名前缀**: `tr`
-   - **目标主机**: `http://NAS_IP:9091`
+3. DDNSTO 添加外网域名：
+   - **外网域名**: `mytr112233`
+   - **内网地址**: `http://路由器IP:9091`
 
 ![Transmission映射](../resources/scene/scene-tm2.jpeg)
+
+4. 点击刚添加的外网域名 `https://mytr112233.ddnsto.com` 即可远程管理
+
+![Transmission映射](../resources/scene/scene-tm3.jpeg)
 
 ---
 
@@ -145,11 +148,20 @@ docker run -d \
 
 使用 BaiduPCS-Web 实现百度云远程下载：
 
-1. Docker 部署 BaiduPCS-Web
-2. DDNSTO 添加映射到 BaiduPCS-Web 端口
-3. 远程登录百度账号，添加下载任务
+1. 安装 BaiduPCS-Web
 
 ![百度云](../resources/scene/scene-bdy1.jpeg)
+
+2. 记录网页端口（默认 5299）
+3. DDNSTO 添加外网域名：
+   - **外网域名**: `mybd112233`
+   - **内网地址**: `http://路由器IP:5299`
+
+![百度云](../resources/scene/scene-bdy2.jpeg)
+
+4. 点击刚添加的外网域名 `https://mybd112233.ddnsto.com` 即可远程管理
+
+![百度云](../resources/scene/scene-bdy4.jpeg)
 
 ---
 
