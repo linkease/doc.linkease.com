@@ -71,15 +71,14 @@ docker run -d \
 ### 3. 配置 DDNSTO 远程下载
 
 1. 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
-2. 设备管理 → 设备 → 远程应用 → 点击 **"+添加应用"**
-3. 选择 **"Aria2远程"**
+2. 设备管理 → 设备 → 远程应用 → 点击 "+添加应用" → 选择 **"Aria2远程"**
 
 ![添加远程下载](../resources/cloudapp/cloudapp-aria2-3.jpeg)
 
    - **应用名称**: 自定义，如 "家中下载"
    - **RPC 地址**: `http://路由器IP:6880/jsonrpc`
    - **密码**: 前面设置的 `RPC_SECRET`
-   - **"添加"** 后 → 远程应用 → 点击刚添加的 **"Aria2应用"** 即可进入
+   - **"添加完成"** 后 → 远程应用 → 点击刚添加的 **"Aria2应用"** 即可进入
 
 ![添加远程下载](../resources/cloudapp/cloudapp-aria2-4.jpeg)
 
@@ -115,7 +114,7 @@ docker run -d \
 
 1. 添加外网域名：
    - **外网域名**: `myqb112233`
-   - **内网地址**: `http://NAS_IP:8080`
+   - **内网地址**: `http://路由器IP:8080`
 
 ![qBittorrent映射](../resources/scene/scene-qb2.jpeg)
 
@@ -135,7 +134,7 @@ docker run -d \
 2. 记录 RPC 端口（默认 9091）
 3. DDNSTO 添加外网域名：
    - **外网域名**: `mytr112233`
-   - **内网地址**: `http://NAS_IP:9091`
+   - **内网地址**: `http://路由器IP:9091`
 
 ![Transmission映射](../resources/scene/scene-tm2.jpeg)
 
@@ -156,7 +155,7 @@ docker run -d \
 2. 记录网页端口（默认 5299）
 3. DDNSTO 添加外网域名：
    - **外网域名**: `mybd112233`
-   - **内网地址**: `http://NAS_IP:5299`
+   - **内网地址**: `http://路由器IP:5299`
 
 ![百度云](../resources/scene/scene-bdy2.jpeg)
 
