@@ -68,3 +68,4 @@ DDNSTO 是一款**内网穿透工具**，让你在外网也能访问家里的设
 - 💬 [常见问题](./troubleshooting/)
 - 📧 技术支持：support@linkease.com
 - 🌐 [酷友社论坛](https://www.koolcenter.com)
+- #### <font color="#dd0000">酷友社论坛已经上线！欢迎大家[加入论坛](https://www.koolcenter.com)，交流分享，探索更多乐趣！</font><br />
