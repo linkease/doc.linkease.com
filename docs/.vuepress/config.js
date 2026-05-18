@@ -180,7 +180,7 @@ module.exports = ctx => ({
                                 {
                                     title: "问题反馈", collapsable: true, children: [
 
-                                        ["feedback/group", "交流群"],
+                                        ["feedback/group", "联系我们"],
                                         ["feedback/email", "Email"],
                                     ]
                                 },
@@ -197,7 +197,7 @@ module.exports = ctx => ({
                             collapsable: true,
                             sidebarDepth: 2,
                             children: [
-                                ["", "文档总览"],
+                                ["", "⭐ 文档总览"],
                                 {
                                     title: "🟢 3分钟上手", collapsable: true, children: [
                                         ["quickstart/", "快速入门"],
@@ -225,6 +225,7 @@ module.exports = ctx => ({
                                 {
                                     title: "🔵 场景指南", collapsable: true, children: [
                                         ["scenarios/", "场景总览"],
+                                        ["scenarios/authentication", "身份验证"],
                                         ["scenarios/nas-remote-access", "NAS 远程访问"],
                                         ["scenarios/remote-download", "远程下载"],
                                         ["scenarios/remote-desktop", "远程桌面"],
@@ -233,6 +234,7 @@ module.exports = ctx => ({
                                         ["scenarios/remote-wol", "远程开机"],
                                         ["scenarios/jellyfin", "Jellyfin 影音"],
                                         ["scenarios/pve-esxi", "PVE/ESXi 虚拟化"],
+                                        ["scenarios/dsm", "远程穿透群晖"],
                                         ["scenarios/developer-webhook", "开发者 Webhook"],
                                     ]
                                 },
@@ -251,8 +253,8 @@ module.exports = ctx => ({
                                     ]
                                 },
                                 {
-                                    title: "问题反馈", collapsable: true, children: [
-                                        ["feedback/group", "交流群"],
+                                    title: "🟣 问题反馈", collapsable: true, children: [
+                                        ["feedback/group", "联系我们"],
                                         ["feedback/email", "Email"],
                                     ]
                                 },

@@ -88,8 +88,7 @@ Forbidden Rejected request from RFC1918 IP to public server address
 #### 切换访问协议
 
 1. 登录 DDNSTO 控制台
-2. 找到对应域名
-3. 点击"显示 HTTP/HTTPS"切换
+2. 「外网域名」 → 点击"显示 http/https"切换
 
 ![切换协议](../resources/koolshare_merlin/image-20210203001526915.png)
 
@@ -98,6 +97,8 @@ Forbidden Rejected request from RFC1918 IP to public server address
 DDNSTO 支持同时访问，端口不同：
 - HTTPS: `https://前缀.ddnsto.com`
 - HTTP: `http://前缀.ddnsto.com:5000`
+
+![切换协议](../resources/koolshare_merlin/image-20260518.png)
 
 ---
 
