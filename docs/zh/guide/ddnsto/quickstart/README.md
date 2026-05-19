@@ -80,7 +80,7 @@ DDNSTO 是一款**内网穿透工具**，让你在外网也能访问家里的设
 
 1. 回到 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
 2. 等待你的设备出现在设备管理（约 1 分钟）
-3. 点击设备——「外网域名」—— **"+添加域名"** 
+3. 点击设备 → 「外网域名」 → **"+添加域名"** 
 
 ![添加域名](../resources/koolshare_merlin/ddnsto2.png)
 
