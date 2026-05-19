@@ -14,7 +14,7 @@
    - DSM 7.x → 下载 `ddnsto-x.x.x-7.x.spk`
    - DSM 6.x → 下载 `ddnsto-x.x.x-6.x.spk`
    - X86 架构 → 下载 `ddnsto_x86-xxx.spk`
-   - ARM 架构 → 下载 `ddnsto-arm-xxx.spk` （DS223、DS124等）
+   - ARM 架构 → 下载 `ddnsto_arm-xxx.spk` （DS223、DS124等）
 
 ---
 
@@ -41,9 +41,12 @@
 
 ## 下一步
 
-- DSM6——控制面板——网络——DSM设置：
-- DSM7——控制面板——登录门户——DSM：
-- 不要开启“自动将DSM桌面的HTTP连接重定向到HTTPS”
+#### 不要开启“自动将DSM桌面的HTTP连接重定向到HTTPS”
+
+DSM6——控制面板——网络——DSM设置
+
+DSM7——控制面板——登录门户——DSM
+
 
 - 🟢 [——>配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
 
