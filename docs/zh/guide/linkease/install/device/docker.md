@@ -25,7 +25,6 @@ Docker安装完成后，进行下面的教程。
 ```
 docker run -d \
     -p 8897:8897 \
-    --network host \
     --name linkease \
     --restart always \
     -v <path for data files>:/linkease-data \
@@ -77,7 +76,6 @@ docker run -d \
 ```
 docker run -d \
     -p 8897:8897 \
-    --network host \
     --name linkease \
     --restart always \
     -v /mnt/sda1/linkease-data:/linkease-data \
@@ -96,7 +94,6 @@ docker run -d \
 ```
 sudo docker run -d \
     -p 8897:8897 \
-    --network host \
     --name linkease \
     --restart always \
     -v /mnt/sda1/linkease-data:/linkease-data \
@@ -118,7 +115,6 @@ services:
     image: linkease/linkease
     container_name: linkease
     restart: always
-    network_mode: host
     environment:
       - PUID=$(id -u)
       - PGID=$(id -g)
