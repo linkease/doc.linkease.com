@@ -32,7 +32,7 @@ docker run -d \
     -v /etc/localtime:/etc/localtime:ro \
     -e PUID=$(id -u) \
     -e PGID=$(id -g) \
-    linkease/linkease
+    registry.istoreos.com/linkease/linkease:latest
 ```
 
 * 更改网页访问端口：（若不变更，忽略！）
@@ -86,7 +86,7 @@ docker run -d \
     -v /mnt/sda3:/Disk3 \
     -e PUID=$(id -u) \
     -e PGID=$(id -g) \
-    linkease/linkease
+    registry.istoreos.com/linkease/linkease:latest
 ```
 
  * 某些Linux发行版，可能要加上“sudo”提权才能运行，按提示输入Linux的密码，命令如下：
@@ -104,7 +104,7 @@ sudo docker run -d \
     -v /mnt/sda3:/Disk3 \
     -e PUID=$(id -u) \
     -e PGID=$(id -g) \
-    linkease/linkease
+    registry.istoreos.com/linkease/linkease:latest
 ```
 
 * 如果用compose方式安装，脚本命令如下：
@@ -112,7 +112,7 @@ sudo docker run -d \
 ```
 services:
   linkease:
-    image: linkease/linkease
+    image: registry.istoreos.com/linkease/linkease:latest
     container_name: linkease
     restart: always
     environment:
