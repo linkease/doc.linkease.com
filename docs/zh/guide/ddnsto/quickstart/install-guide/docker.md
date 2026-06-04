@@ -29,7 +29,7 @@ docker run -d \
     -e TOKEN=<填入你的token> \
     -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.istoreos.com/linkease/ddnsto:4.0.5
+    registry.istoreos.com/linkease/ddnsto:latest
 ```
 
 **参数说明：**
@@ -49,7 +49,7 @@ sudo docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.istoreos.com/linkease/ddnsto:4.0.5
+    registry.istoreos.com/linkease/ddnsto:latest
 ```
 
 ---
@@ -61,7 +61,7 @@ sudo docker run -d \
 ```yaml
 services:
   ddnsto:
-    image: registry.istoreos.com/linkease/ddnsto:4.0.5
+    image: registry.istoreos.com/linkease/ddnsto:latest
     container_name: ddnsto
     restart: always
     network_mode: host
@@ -105,7 +105,7 @@ docker stop ddnsto
 docker rm ddnsto
 
 # 拉取最新镜像
-docker pull linkease/ddnsto
+docker pull registry.istoreos.com/linkease/ddnsto
 
 # 重新运行
 docker run -d \
@@ -113,7 +113,7 @@ docker run -d \
     --restart always \
     --net host \
     -e TOKEN=你的Token \
-    linkease/ddnsto
+    registry.istoreos.com/linkease/ddnsto
 ```
 
 ### Q: 如何查看日志？
