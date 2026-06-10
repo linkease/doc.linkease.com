@@ -21,9 +21,9 @@
 
 ![打开DDNSTO](../../resources/koolshare_merlin/histb1.png)
 
-### 2. 配置 Token
+### 2. 配置令牌
 
-打开 DDNSTO 配置界面，根据提示填入您的 Token
+打开 DDNSTO 配置界面，根据提示填入你的令牌（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取）
 
 ![配置Token](../../resources/koolshare_merlin/histb3.png)
 

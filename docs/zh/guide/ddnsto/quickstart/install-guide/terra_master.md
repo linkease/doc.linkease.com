@@ -29,7 +29,10 @@
 |-----|---|
 | 镜像 | linkease/ddnsto |
 | 环境变量 | TOKEN=您的DDNSTO令牌 |
+| 环境变量 | DEVICE_NAME=自定义唯一设备名称ID |
 | 重启策略 | 始终重启 |
+
+- `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
 
 ### 4. 启动容器
 
@@ -40,14 +43,17 @@
 ## Docker Compose 方式
 
 ```yaml
-version: '3'
 services:
   ddnsto:
-    image: linkease/ddnsto:latest
+    image: registry.istoreos.com/linkease/ddnsto:latest
     container_name: ddnsto
-    environment:
-      - TOKEN=您的DDNSTO令牌
     restart: always
+    network_mode: host
+    environment:
+      - TOKEN=<填入你的token>
+      - DEVICE_NAME=<自定义唯一设备名称ID>
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
 ```
 
 ---
@@ -55,3 +61,6 @@ services:
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+
+### Q: 如何升级？
+A: 升级需要先删除"ddnsto"容器，再按照之前的步骤部署"ddnsto"容器。

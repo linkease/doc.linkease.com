@@ -39,9 +39,11 @@
 
 ### 4. 配置环境变量
 
-配置环境，TOKEN 处填入之前获取的 DDNSTO Token：
+配置环境，Token 处填入你的令牌（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取）：
 
 ![配置Token](../../resources/koolshare_merlin/zspace3.jpg)
+
+- DEVICE_NAME 处填入你`<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
 
 ---
 
@@ -61,3 +63,6 @@
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+
+### Q: 如何升级？
+A: 升级需要先删除"ddnsto"容器，再按照之前的步骤部署"ddnsto"容器。

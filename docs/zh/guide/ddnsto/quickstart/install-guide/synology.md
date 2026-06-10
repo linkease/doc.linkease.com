@@ -29,7 +29,7 @@
 
 ![完成安装](../../resources/koolshare_merlin/dsm2.png)
 
-4. 填入你的 Token（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取）
+4. Token 处填入你的令牌（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取）
 
 ![完成安装](../../resources/koolshare_merlin/dsm3.png)
 

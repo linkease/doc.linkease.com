@@ -49,14 +49,17 @@ Unraid 安装 DDNSTO 推荐使用 Docker 方式。
 如果您在 Unraid 上安装了 Docker Compose 插件，也可以使用以下配置：
 
 ```yaml
-version: '3'
 services:
   ddnsto:
-    image: linkease/ddnsto:latest
+    image: registry.istoreos.com/linkease/ddnsto:latest
     container_name: ddnsto
-    environment:
-      - TOKEN=您的DDNSTO令牌
     restart: always
+    network_mode: host
+    environment:
+      - TOKEN=<填入你的token>
+      - DEVICE_NAME=<自定义唯一设备名称ID>
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
 ```
 
 ---
