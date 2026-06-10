@@ -28,7 +28,7 @@
 | 参数 | 值 |
 |-----|---|
 | 镜像 | linkease/ddnsto |
-| 环境变量 | TOKEN=您的DDNSTO令牌 |
+| 环境变量 | TOKEN=你的DDNSTO令牌 |
 | 环境变量 | DEVICE_NAME=自定义唯一设备名称ID |
 | 重启策略 | 始终重启 |
 
