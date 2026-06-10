@@ -33,3 +33,6 @@ ASUSGO 固件（KoolCenter 固件），在软件中心搜索并安装 DDNSTO 软
 - 🔵 [配置远程文件管理](../../scenarios/file-management.md)
 - 🔵 [设置远程下载](../../scenarios/remote-download.md)
 - 🔵 [配置远程开机](../../scenarios/remote-wol.md)
+
+### Q: 如何升级？
+A: ASUSGO 软件中心，直接点击 DDNSTO 旁的 "更新" 按钮。

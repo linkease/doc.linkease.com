@@ -7,11 +7,11 @@
 
 ## 安装步骤
 
-### 1. 准备 Token
+### 1. 准备令牌
 
 1. 打开 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
 2. 微信扫码登录
-3. 点击右上角 → "令牌"，复制你的 Token
+3. 点击右上角 → "令牌"，复制你的令牌
 
 ![获取Token](../../resources/koolshare_merlin/ddnsto1.png)
 
@@ -33,7 +33,7 @@ docker run -d \
 ```
 
 **参数说明：**
-- `<填入你的token>`: 填写从 DDNSTO 控制台拿到的 TOKEN
+- `<填入你的token>`: 填写从 DDNSTO 控制台拿到的令牌
 - `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
 
 **注意：**
@@ -72,7 +72,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
 ```
 
-- `<填入你的token>`: 填写从 DDNSTO 控制台拿到的 TOKEN
+- `<填入你的token>`: 填写从 DDNSTO 控制台拿到的令牌
 - `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
 
 保存为 `docker-compose.yml`，然后运行：
@@ -109,11 +109,13 @@ docker pull registry.istoreos.com/linkease/ddnsto
 
 # 重新运行
 docker run -d \
-    --name ddnsto \
+    --name=ddnsto \
     --restart always \
-    --net host \
-    -e TOKEN=你的Token \
-    registry.istoreos.com/linkease/ddnsto
+    --network host \
+    -e TOKEN=<填入你的token> \
+    -e DEVICE_NAME=<自定义唯一设备名称ID> \
+    -v /etc/localtime:/etc/localtime:ro \
+    registry.istoreos.com/linkease/ddnsto:latest
 ```
 
 ### Q: 如何查看日志？

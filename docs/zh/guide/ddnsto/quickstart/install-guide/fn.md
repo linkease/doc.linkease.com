@@ -11,7 +11,44 @@
 
 ---
 
-## 安装步骤
+## 方案1：docker-compose
+
+- ### <font color="#dd0000">首选方案！</font><br />
+
+### 1. 登录飞牛系统：打开 Docker —— Compose —— 右上角 "新建项目"
+
+- 项目名称：ddnsto
+- 路径：选择一个存放 ddnsto 数据的位置
+- 来源：选择 "创建docker-compose.yml"，填入以下脚本
+
+```yaml
+services:
+  ddnsto:
+    image: registry.istoreos.com/linkease/ddnsto:latest
+    container_name: ddnsto
+    restart: always
+    network_mode: host
+    environment:
+      - TOKEN=<填入你的token>
+      - DEVICE_NAME=<自定义唯一设备名称ID>
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+```
+
+- `<填入你的token>`: 填写从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 拿到的令牌
+- `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
+- 替换 "<>" 里面的内容，且不能出现 "<>"
+
+![Docker运行](../../resources/koolshare_merlin/fn-compose.png)
+
+---
+
+### 2. 勾选 "创建项目后立即启动"，然后 "确认"，等待 "ddnsto" 容器运行。
+
+
+---
+
+## 方案2：常规 Docker
 
 ### 1. 登录飞牛终端
 
@@ -31,11 +68,11 @@ docker run -d \
     -e TOKEN=<填入你的token> \
     -e DEVICE_NAME=<自定义唯一设备名称ID> \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.istoreos.com/linkease/ddnsto:4.0.5
+    registry.istoreos.com/linkease/ddnsto:latest
 ```
 
 **参数说明：**
-- `<填入你的token>`: 填写从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 拿到的 TOKEN
+- `<填入你的token>`: 填写从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 拿到的令牌
 - `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
 
 **注意：**
@@ -51,7 +88,7 @@ sudo docker run -d \
     -e TOKEN=abcd-8888-7777-6666-efgh \
     -e DEVICE_NAME=abc9527 \
     -v /etc/localtime:/etc/localtime:ro \
-    registry.istoreos.com/linkease/ddnsto:4.0.5
+    registry.istoreos.com/linkease/ddnsto:latest
 ```
 
 ---
@@ -67,3 +104,6 @@ sudo docker run -d \
 ## 下一步
 
  🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+
+### Q: 如何升级？
+A: 升级需要先删除"ddnsto"容器，再按照之前的步骤部署"ddnsto"容器。

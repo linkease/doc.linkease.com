@@ -9,9 +9,7 @@
 
 **请仔细看完本节教程再操作，以节约时间！**
 
-- #### <font color="#dd0000">注意：请开启 WEB 服务，并且取消勾选 HTTPS！</font><br />
-- #### <font color="#dd0000">注意：请开启 WEB 服务，并且取消勾选 HTTPS！</font><br />
-- #### <font color="#dd0000">注意：请开启 WEB 服务，并且取消勾选 HTTPS！</font><br />
+- ### <font color="#dd0000">注意：请开启 WEB 服务，并且取消勾选 HTTPS！</font><br />
 
 ---
 
@@ -41,7 +39,7 @@
 
 ### 3. 配置 DDNSTO
 
-安装好后，配置 Token（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取），填入提交即可。
+安装好后，Token 处填入你的令牌（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取），填入提交即可。
 
 * QNAP 的域名端口是 8080，比如配置内网地址为：`http://127.0.0.1:8080`
 
@@ -58,3 +56,6 @@
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+
+### Q: 如何升级？
+A: 升级需要先卸载旧版本，再安装新版本即可。

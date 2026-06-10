@@ -45,7 +45,7 @@
 
 ### 3. 配置 Token
 
-安装完成后，打开 DDNSTO 应用，填入 Token（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取）。
+安装完成后，打开 DDNSTO 应用，Token 处填入你的令牌（从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 获取）。
 
 ![配置Token](../../resources/koolshare_merlin/readynas-token.jpg)
 
@@ -54,3 +54,6 @@
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+
+### Q: 如何升级？
+A: 升级需要先卸载旧版本，再安装新版本即可。

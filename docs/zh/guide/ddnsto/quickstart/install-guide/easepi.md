@@ -25,3 +25,7 @@
 - 🔵 [配置远程文件管理](../../scenarios/file-management.md)
 - 🔵 [设置远程下载](../../scenarios/remote-download.md)
 - 🔵 [配置远程开机](../../scenarios/remote-wol.md)
+
+### Q: 后续升级？
+A: 若从 iStore 应用商店安装后，后续 ddnsto 更新，直接在 iStore 商店点击 "更新" 即可。
+
