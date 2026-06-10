@@ -36,7 +36,7 @@ Unraid 安装 DDNSTO 推荐使用 Docker 方式。
 - **Config Type**: Variable
 - **Name**: TOKEN
 - **Key**: TOKEN
-- **Value**: 您的DDNSTO令牌
+- **Value**: 你的DDNSTO令牌
 
 ### 5. 保存并启动
 
@@ -61,9 +61,14 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
 ```
-
+- `<填入你的token>`: 填写从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 拿到的令牌
+- `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
+- 替换 "<>" 里面的内容，且不能出现 "<>"
 ---
 
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+
+### Q: 如何升级？
+A: 升级需要先删除"ddnsto"容器，再按照之前的步骤部署"ddnsto"容器。

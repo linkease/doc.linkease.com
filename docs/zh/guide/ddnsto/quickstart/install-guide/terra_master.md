@@ -28,7 +28,7 @@
 | 参数 | 值 |
 |-----|---|
 | 镜像 | linkease/ddnsto |
-| 环境变量 | TOKEN=您的DDNSTO令牌 |
+| 环境变量 | TOKEN=你的DDNSTO令牌 |
 | 环境变量 | DEVICE_NAME=自定义唯一设备名称ID |
 | 重启策略 | 始终重启 |
 
@@ -55,7 +55,9 @@ services:
     volumes:
       - /etc/localtime:/etc/localtime:ro
 ```
-
+- `<填入你的token>`: 填写从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 拿到的令牌
+- `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
+- 替换 "<>" 里面的内容，且不能出现 "<>"
 ---
 
 ## 下一步

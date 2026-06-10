@@ -19,6 +19,13 @@ sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/linux/install_ddnsto_l
 cd /tmp; wget --no-check-certificate http://fw.koolcenter.com/binary/ddnsto/linux/install_ddnsto_linux.sh; sh ./install_ddnsto_linux.sh
 ```
 
+运行：
+
+```bash
+ddnsto -u xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx(你的令牌) -daemon
+```
+
+
 ---
 
 ## 手动安装
@@ -70,3 +77,14 @@ yay -Syu ddnsto-bin
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+
+### Q: 如何升级？
+
+```bash
+# 停止并删除旧ddnsto
+systemctl stop com.linkease.ddnstoshell
+sudo rm -rf /usr/local/bin/ddnsto
+
+# 重新运行
+sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/linux/install_ddnsto_linux.sh)"
+```
