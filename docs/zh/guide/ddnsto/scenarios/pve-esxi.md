@@ -1,7 +1,9 @@
 # PVE/ESXi 虚拟化管理
 
 > 🖥️ 远程管理 Proxmox VE / VMware ESXi 虚拟化平台
+
 > ⏱️ 预计配置时间：5 分钟
+
 > 📱 支持：完整 Web 管理界面
 
 ---

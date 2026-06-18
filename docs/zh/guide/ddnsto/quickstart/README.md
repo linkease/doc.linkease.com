@@ -27,7 +27,7 @@ DDNSTO 是一款**内网穿透工具**，让你在外网也能访问家里的设
 
 1. 打开 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login)
 2. 微信扫码登录
-3. 点击右上角 → "令牌"，复制你的 Token
+3. 右上角"令牌" → 点击「复制」令牌
 
 ![获取Token](../resources/koolshare_merlin/ddnsto1.png)
 
