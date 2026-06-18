@@ -225,6 +225,7 @@ module.exports = ctx => ({
                                 {
                                     title: "🔵 场景指南", collapsable: true, children: [
                                         ["scenarios/", "场景总览"],
+                                        ["scenarios/basics", "新手学院"],
                                         ["scenarios/authentication", "身份验证"],
                                         ["scenarios/nas-remote-access", "NAS 远程访问"],
                                         ["scenarios/remote-download", "远程下载"],
