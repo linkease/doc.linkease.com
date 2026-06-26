@@ -17,6 +17,9 @@
 ```
 
 **必要条件：**
+- ✅ 已购买会员套餐
+- ✅ DDNSTO 已启用扩展功能
+- ✅ 仅 **iStoreOS/OpenWrt/ASUSG改版固件** 安装 DDNSTO 支持拓展功能！
 - ✅ 电脑通过网线连接到网络（WiFi 不支持 WOL）
 - ✅ 电脑主板支持并开启 Wake On LAN
 - ✅ 电脑网卡支持网络唤醒
