@@ -24,7 +24,7 @@ Unraid 安装 DDNSTO 推荐使用 Docker 方式。
 ### 3. 配置容器参数
 
 | 参数 | 值 |
-|-----|---|
+|:-:|:-:|:-:|
 | Name | ddnsto |
 | Repository | linkease/ddnsto |
 | Network Type | host |
