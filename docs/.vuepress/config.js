@@ -245,6 +245,7 @@ module.exports = ctx => ({
                                         ["troubleshooting/connection-issues", "连接问题"],
                                         ["troubleshooting/domain-issues", "域名问题"],
                                         ["troubleshooting/package-issues", "套餐问题"],
+                                        ["troubleshooting/other-issues", "其他问题"],
                                     ]
                                 },
                                 {

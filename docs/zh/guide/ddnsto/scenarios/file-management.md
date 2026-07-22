@@ -19,7 +19,7 @@ DDNSTO 文件管理功能让你可以在浏览器中远程访问：
 **使用条件：**
 - ✅ 已购买会员套餐
 - ✅ DDNSTO 已启用扩展功能
-- ✅ 仅 **iStoreOS/OpenWrt/ASUSG改版固件** 安装 DDNSTO 支持拓展功能！
+- ### <font color="#dd0000">DDNSTO 仅支持 "iStoreOS/OpenWrt/ASUSGO 固件" 开启拓展功能！</font><br />
 - ✅ 设备挂载的磁盘建议使用 **EXT4** 格式，不建议使用 **NTFS**。
 - ✅ 仅支持 PC 端浏览器
 

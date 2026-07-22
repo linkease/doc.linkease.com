@@ -19,10 +19,10 @@
 **必要条件：**
 - ✅ 已购买会员套餐
 - ✅ DDNSTO 已启用扩展功能
-- ✅ 仅 **iStoreOS/OpenWrt/ASUSG改版固件** 安装 DDNSTO 支持拓展功能！
+- ### <font color="#dd0000">DDNSTO 仅支持 "iStoreOS/OpenWrt/ASUSGO 固件" 开启拓展功能！</font><br />
 - ✅ 电脑通过网线连接到网络（WiFi 不支持 WOL）
 - ✅ 电脑主板支持并开启 Wake On LAN
-- ✅ 电脑网卡支持网络唤醒
+- ✅ 电脑有线网卡支持网络唤醒
 - ✅ DDNSTO 设备与电脑在同一局域网
 
 ---
@@ -68,7 +68,8 @@
 
 1. 控制面板 → 硬件和声音 → 设备管理器
 2. 展开 "网络适配器"
-3. 双击网卡名称 → 电源管理
+3. 双击选择有线网卡 → 电源管理
+- ### <font color="#dd0000">只能选择有线网卡，不支持无线WiFi。</font><br />
 
 ![设备管理器](../resources/ddnstofile/wake6.jpg)
 
@@ -81,23 +82,22 @@
 
 ![电源管理](../resources/ddnstofile/wake8.jpg)
 
-**注意：** 如果有多块网卡，都需要这样设置！
+**注意：** 如果有多块有线网卡，都需要这样设置！
 
 ---
 
-### 3. 获取 MAC 地址
+### 3. 获取当前连接的有线网卡 MAC 地址
 
-记录需要远程开机的电脑的 MAC 地址：
+1. 设置 → 网络和 Internet → 以太网
+2. 点击 "已连接" 的以太网
+3. 记录并复制 **物理地址**（如 `AA:BB:CC:DD:EE:FF`）
 
-1. 控制面板 → 网络和 Internet → 网络和共享中心
-2. 点击 "连接" → "详细信息"
-3. 找到 **物理地址**（如 `AA-BB-CC-DD-EE-FF`）
+![MAC地址](../resources/ddnstofile/wake10.png)
 
-![MAC地址](../resources/ddnstofile/wake10.jpg)
+4. 另一种获取 MAC 地址的方法：
 
-![详细信息](../resources/ddnstofile/wake11.jpg)
-
-4. 将格式转换为 `AA:BB:CC:DD:EE:FF`（用冒号分隔）备用
+* 控制面板 → 网络和 Internet → 网络共共享中心 → 点击已连接的有线网络 → 详细信息 → 物理地址
+* 将`AA-BB-CC-DD-EE-FF`转换为 `AA:BB:CC:DD:EE:FF`（用冒号分隔）
 
 ---
 

@@ -27,7 +27,7 @@ Unraid 安装 DDNSTO 推荐使用 Docker 方式。
 |-----|---|
 | Name | ddnsto |
 | Repository | linkease/ddnsto |
-| Network Type | Bridge |
+| Network Type | host |
 
 ### 4. 添加环境变量
 
@@ -64,6 +64,8 @@ services:
 - `<填入你的token>`: 填写从 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) 拿到的令牌
 - `<自定义唯一设备名称ID>`: 必须是英文字母、数字，不能为中文；比如：`abc9527`
 - 替换 "<>" 里面的内容，且不能出现 "<>"
+- ### <font color="#dd0000">网络 network 推荐使用 host 网络模式，bridge 模式容易导致内网服务访问异常。</font><br />
+
 ---
 
 ## 下一步
