@@ -104,7 +104,12 @@ module.exports = ctx => ({
                                 ["function/file_transfer", "多设备互传"],
                                 ["function/file_backup", "备份及同步"],
                                 ["function/photo_backup", "相册备份"],
-                                ["function/remote_connects", "异地互联"],
+                                {
+                                    title: "异地互联", collapsable: true, children: [
+                                        ["function/remote_connects", "PC版异地互联"],
+                                        ["function/mobile_connects", "APP版异地互联"],
+                                    ]
+                                },
                                 ["function/home_share", "多人共享"],
                                 ["function/directory_manager", "目录管理"],
                                 ["more/app_navigation", "应用导航"],
