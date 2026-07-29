@@ -5,31 +5,37 @@
 ---
 ## 穿透 → 群晖WEB管理页
 
-1、[群晖NAS安装DDNTO](/zh/guide/ddnsto/quickstart/install-guide/synology.html#安装步骤) 
+1、[群晖 NAS 安装 DDNTO](/zh/guide/ddnsto/quickstart/install-guide/synology.html#安装步骤) 
 
-2、配置外网域名
+2、DDNSTO 控制台添加外网域名：
 
-进入[DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 设备管理 → 点击设备 → 「外网域名」 → **"+添加域名"** 
+进入[DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 设备工作台 → 点击选择设备 → 「外网域名」 → **"+添加域名"** 
 
 ![访问成功](../resources/synology/00.png)
+
+![访问成功](../resources/synology/00-1.png)
+
+3、点击添加成功的外网域名，即可访问。
 
 ---
 
 ## 穿透 → 群晖APP
 
-- 支持 Synology Drive、Drive X、Synology Photos、DS file、DS video、DS audio、DS cam、DS note、DS photo 等套件的配套手机APP
+- 首先在手机端需要验证 DDNSTO，可用 [易有云 APP 验证 DDNSTO](/zh/guide/ddnsto/scenarios/authentication.html#_2%E3%80%81%E6%98%93%E6%9C%89%E4%BA%91app-%E2%86%92-%E9%AA%8C%E8%AF%81ddnsto) 
 
-- 安装这些APP并打开，地址栏填入5000端口的ddnsto纯外网域名（去掉```https://```和尾部```端口```，如 ```dsm0805.kooldns.cn```）
+- 支持 Synology Drive、Drive X、Synology Photos、DS file、DS video、DS audio、DS cam、DS note、DS photo 等套件的配套手机 APP
 
-- 帐号和密码均为群晖登录帐号和密码，不勾选HTTPS，登录就ok
+- 安装这些 APP 并打开，地址栏填入已添加的外网域名（去掉```https://```和尾部```端口```，如 ```dsm0805.kooldns.cn```）
+
+- 帐号和密码均为群晖登录帐号和密码，不勾选 HTTPS，即可登录。
 
 ![访问成功](../resources/synology/01.png)
 
 ![访问成功](../resources/synology/02.png)
 
-![访问成功](../resources/synology/03.png)
+ps：DS photo 需要带5000端口！
 
-- 如果手机端需要验证DDNSTO，可用 [易有云APP验证DDNTO](/zh/guide/ddnsto/scenarios/authentication.html#易有云app-→-验证ddnsto骤) 
+![访问成功](../resources/synology/03.png)
 
 ---
 

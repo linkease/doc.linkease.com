@@ -22,7 +22,7 @@ DDNSTO 在保护用户数据安全同时也要避免恶意分享不良内容带�
 
 当需要进行验证时，访问穿透域名时会要求验证DDNSTO，DDNSTO验证页面，可以使用如下方式验证：
 
-## 1、微信扫码/账号 → 验证DDNSTO
+## 1、微信扫码/账号 → 验证 DDNSTO
 
 - 弹出的验证窗口直接微信(此微信已绑定DDNSTO)扫码验证，或者绑定了手机号的用户可以使用手机号码和登录密码验证。
 
@@ -35,15 +35,15 @@ DDNSTO 在保护用户数据安全同时也要避免恶意分享不良内容带�
 
 ---
 
-## 2、易有云APP → 验证DDNSTO
+## 2、易有云 APP → 验证 DDNSTO
 
-- #### <font color="#dd0000">易有云APP需与访问穿透外网域名的设备处于同一网络环境。例如：用电脑浏览器访问该域名时，验证的手机必须和电脑连同一网络。</font><br />
+- [易有云APP下载](https://doc.linkease.com/downloads/)，安装易有云 APP 后，先注册登录；
 
-- [易有云APP下载](https://doc.linkease.com/downloads/)，安装易有云APP后，先注册登录；
-
-- 登录到DDNSTO控制台，右上角用户头像，选择「个人资料」 → 配置易有云APP → 立即配置，弹出一个二维码界面；
+- 登录到[DDNSTO 控制台](https://www.ddnsto.com/app/#/login)，右上角用户头像，选择「个人资料」 → 配置易有云 APP → 立即配置，弹出一个二维码界面；
 
 ![访问成功](../resources/Authentication/00.png)
+
+![访问成功](../resources/Authentication/01-1.png)
 
 ![访问成功](../resources/Authentication/01.png)
 
@@ -51,15 +51,15 @@ DDNSTO 在保护用户数据安全同时也要避免恶意分享不良内容带�
 
 ![访问成功](../resources/Authentication/02.png)
 
-- 绑定成功后，需要DDNSTO验证时，易有云APP → 「我的」 → 「验证DDNSTO」 → 「验证IP」即可。
+- 绑定成功后，需要 DDNSTO 验证时，易有云 APP → 「我的」 → 「验证 DDNSTO」 → 「验证 IP」即可。
 
 ![访问成功](../resources/Authentication/03.png)
 
-![访问成功](../resources/Authentication/04.png)
-
 ![访问成功](../resources/Authentication/05.png)
 
-- 若需解除绑定，易有云APP → 「我的」 → 「验证DDNSTO」 → 「解除绑定」即可。
+- 验证成功后，即可在手机网络下，直接访问添加的外网域名。
+
+- 若需解除绑定，易有云 APP → 「我的」 → 「验证 DDNSTO」 → 「解除绑定」即可。
 
 ---
 
@@ -70,15 +70,15 @@ DDNSTO 在保护用户数据安全同时也要避免恶意分享不良内容带�
 
 #### 如何配置：
 
-1、[DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 设备管理 → 选择设备 → IP 白名单 → 编辑：
+1、[DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 设备工作台 → 点击选择设备 → 右侧 ⋯ 按钮 → IP 白名单 → 配置：
 
 ![访问成功](../resources/Authentication/ip01.png)
 
-2、选择“添加当前 IP”或者添加其他网络 IP，最多 8 个：
+2、选择“添加当前设备公网 IP”或者添加其他网络 IP，最多 8 个：
 
 ![访问成功](../resources/Authentication/ip02.png)
 
-3、设备信息显示已添加的白名单 IP，这些 IP 所处的网络免验证即可访问 DDNSTO 穿透链接。
+3、已配置白名单会显示已添加的 IP，这些 IP 所处的网络即可免验证访问 DDNSTO 穿透链接。
 
 ![访问成功](../resources/Authentication/ip03.png)
 
@@ -90,14 +90,14 @@ DDNSTO 在保护用户数据安全同时也要避免恶意分享不良内容带�
 - 标记客户端后，可以让第三方客户端一段时间内（48小时）免验证 IP。
 
 ```
-1、标记过程中请不要在公开场合公布你的域名
-2、此功能处于测试阶段，已标记的客户端可能会失效，需要重新验证。
-3、请遵守相关法律，不分享、不传播违法信息。
+标记过程中请不要在公开场合公布你的域名。
+此功能处于测试阶段，已标记的客户端可能会失效，需要重新验证。
+请遵守相关法律，不分享、不传播违法信息。
 ```
 
 #### 如何标记：
 
-1、[DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 设备管理 → 选择设备，在需要标记域名的右侧，点击对应域名的「标记客户端」按钮：
+1、[DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 设备工作台 → 点击选择设备，在需要标记外网域名的右侧，点击对应域名的「标记客户端」按钮：
 
 ![访问成功](../resources/Authentication/tag01.png)
 
