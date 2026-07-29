@@ -241,6 +241,7 @@ module.exports = ctx => ({
                                         ["scenarios/jellyfin", "Jellyfin 影音"],
                                         ["scenarios/pve-esxi", "PVE/ESXi 虚拟化"],
                                         ["scenarios/dsm", "远程穿透群晖"],
+                                        ["scenarios/homeassistant", "远程 HomeAssistant"],
                                         ["scenarios/developer-webhook", "开发者 Webhook"],
                                     ]
                                 },
