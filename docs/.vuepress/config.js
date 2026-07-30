@@ -367,6 +367,7 @@ module.exports = ctx => ({
                                         ["install_e52c", "Radxa E52C"],
                                         ["install_e24c", "Radxa E24C"],
                                         ["install_e20c", "Radxa E20C"],
+                                        ["install_seed-ac5s", "SEED AC5S"],
                                         ["install_seed-ac5", "SEED AC5"],
                                         ["install_seed-ac3", "SEED AC3"],
                                         ["install_seed-ac2", "SEED AC2"],
