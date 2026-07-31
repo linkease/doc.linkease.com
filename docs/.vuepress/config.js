@@ -291,6 +291,7 @@ module.exports = ctx => ({
                                 },
                                 {
                                     title: "更新日志", collapsable: true, children: [
+                                        ["changelog/20260731", "v24.10.8 - 20260731"],
                                         ["changelog/20260703", "v24.10.7 - 20260703"],
                                         ["changelog/20260605", "v24.10.7 - 20260605"],
                                         ["changelog/20260509", "v24.10.6 - 20260509"],
