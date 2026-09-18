@@ -84,7 +84,25 @@ DDNSTO 是一款**内网穿透工具**，让你在外网也能访问家里的设
 
 ![添加域名](../resources/koolshare_merlin/ddnsto2.png)
 
-4. 编辑域名信息：
+**4. 推荐：自动扫描添加（需运行4.2.3及以上的ddnsto）**
+
+![添加域名](../resources/koolshare_merlin/ddnsto2.1.png)
+
+* 点击「我已了解，开始扫描」，等待扫描出当前设备与局域网中常见的 WEB 服务；
+
+![添加域名](../resources/koolshare_merlin/ddnsto2.2.png)
+
+* 扫描出结果后，可以根据需求，一键添加；
+
+![添加域名](../resources/koolshare_merlin/ddnsto2.3.png)
+
+* 添加完成后的域名，即可访问。
+
+![添加域名](../resources/koolshare_merlin/ddnsto2.4.png)
+
+
+
+5. 手动添加——编辑域名信息：
    - **外网域名**：自定义，如 `myistoreos`（最终访问地址为 `https://myistoreos.ddnsto.com`）
    - **内网地址**：填写内网服务的 IP 或 IP + 端口，如 `http://192.168.10.100` 
    - 群晖http默认5000端口 `http://127.0.0.1:5000`
@@ -94,11 +112,7 @@ DDNSTO 是一款**内网穿透工具**，让你在外网也能访问家里的设
 
 ![填写映射](../resources/koolshare_merlin/ddnsto3.png)
 
-   - 因所选服务器不同，最终域名后缀也不同；可在「服务器选择」中选择适合自己的服务器。
-
-![填写映射](../resources/koolshare_merlin/ddnsto4.png)
-
-5. 点击"添加"，等待 1 分钟后即可访问 `https://myistoreos.ddnsto.com`！
+   - 点击"添加"，等待 1 分钟后即可访问 `https://myistoreos.ddnsto.com`！
 
 ---
 
