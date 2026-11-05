@@ -232,6 +232,7 @@ module.exports = ctx => ({
                                         ["scenarios/", "场景总览"],
                                         ["scenarios/basics", "新手学院"],
                                         ["scenarios/authentication", "身份验证"],
+                                        ["scenarios/tcp", "TCP 端口转发"],
                                         ["scenarios/deviceid", "设备编号"],
                                         ["scenarios/nas-remote-access", "NAS 远程访问"],
                                         ["scenarios/remote-download", "远程下载"],
