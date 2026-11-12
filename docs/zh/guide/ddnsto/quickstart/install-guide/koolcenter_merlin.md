@@ -23,7 +23,10 @@ ASUSGO 固件（KoolCenter 固件），在软件中心搜索并安装 DDNSTO 软
 
 ## 离线安装
 
-如软件中心无法更新最新版本，请下载[离线包进行安装](https://rogsoft.ddnsto.com/ddnsto/ddnsto.tar.gz)。
+* 如软件中心无法更新最新版本，请下载[离线包进行安装](https://fw.koolcenter.com/binary/asusgo-soft/DDNSTO/)。
+* 下载好离线包，进入ASUSGO软件中心——>手动安装，选择离线包——>上传并安装。
+
+![配置DDNSTO](../../resources/koolshare_merlin/asusgo1112.png)
 
 ---
 
