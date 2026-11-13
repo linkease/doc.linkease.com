@@ -68,9 +68,11 @@
    - **端口**: 3389（RDP 默认端口）
    - **RDP security**: RDP 安全性——>自动协商（有需求可以自行更改NLA/TLS/RDP）
    - **用户名和密码**: Windows 登录用户名、登录密码
+   - **若需要 TCP 端口转发，可勾选「同时创建TCP转发」。**
+
+![TCP](../resources/tcp/tcp7.png)
 
 
-![添加RDP](../resources/cloudapp/cloudapp-rdp5.jpg)
 
    - **高级选项**: 如无特殊需求，忽略，保持默认即可。
 
@@ -113,8 +115,9 @@
    - **端口**: 5900（VNC 默认端口）
    - **用户名**: 若未设置就留空
    - **密码**: 前面设置的 VNC 密码
+   - **若需要 TCP 端口转发，可勾选「同时创建TCP转发」。**
 
-![VNC配置](../resources/vnc/9.png)
+![VNC配置](../resources/vnc/12.png)
 
 
 

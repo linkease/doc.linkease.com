@@ -54,7 +54,9 @@ systemctl enable sshd
 | 用户名 | 登录用户名 | 如 root |
 | 密码 | 登录密码 | 自行填写 |
 
-![添加SSH](../resources/cloudapp/cloudapp-ssh1.jpeg)
+   - **若需要 TCP 端口转发，可勾选「同时创建TCP转发」。**
+
+![添加SSH](../resources/cloudapp/ssh-tcp.png)
 
 
 **注意：** 如果设备使用密钥认证，☑️「使用密钥登录」，输入密钥即可。
