@@ -8,23 +8,23 @@
 
 ---
 
-- ### <font color="#dd0000">注意：远程桌面功能仅付费高级套餐可用！</font><br />
-- ### <font color="#dd0000">注意：2026年8月1日前购买的标准套餐也可以使用。</font><br />
+## 先决条件：
 
-## 方案对比
+- DDNSTO 已升级 4.2.8 及以上版本，且绑定 DDNSTO 高级套餐。
 
-| 方案 | 适用系统 | 画质 | 延迟 | 推荐场景 |
-|------|---------|------|------|---------|
-| Windows RDP | Windows | ⭐⭐⭐ | ⭐⭐⭐ | Windows 远程办公 |
-| VNC | 全平台 | ⭐⭐ | ⭐⭐ | 跨平台、简单控制 |
+- #### 限时优惠：每月免费 20G TCP 流量。
+
+ps：2026年8月1日前购买的标准套餐也可以使用。
+
+![远程桌面](../resources/cloudapp/rdp/1.png)
 
 ---
 
 ## Windows RDP 远程桌面
 
-### 1. 被控端准备（Windows 电脑）
+### 1. 被控电脑（Windows 电脑）启用远程桌面
 
-#### Windows 专业版/企业版
+* #### Windows 专业版/企业版
 
 1. **开启远程桌面**
    - Win11: 设置 → 系统 → 远程桌面 → 启用
@@ -44,7 +44,7 @@
 
 ![查看IP](../resources/cloudapp/cloudapp-rdp3.jpg)
 
-#### Windows 家庭版
+* #### Windows 家庭版
 
 家庭版默认不支持 RDP，需要借助 [SuperRDP](https://github.com/anhkgg/SuperRDP/releases) 工具：
 
@@ -61,7 +61,7 @@
 
 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 远程桌面 → "添加桌面" → 选择 **"远程RDP"**
 
-![添加RDP](../resources/cloudapp/cloudapp-rdp5-1.jpg)
+![远程桌面](../resources/cloudapp/rdp/2.png)
 
    - **应用名称**: 自定义，如 "家里电脑"
    - **IP**: 被控电脑的局域网 IP
@@ -69,10 +69,9 @@
    - **RDP security**: RDP 安全性——>自动协商（有需求可以自行更改NLA/TLS/RDP）
    - **用户名和密码**: Windows 登录用户名、登录密码
    - **若需要 TCP 端口转发，可勾选「同时创建TCP转发」。**
+   - 启用TCP转发后，可使用 WindowsApp 超简单访问。
 
-![TCP](../resources/tcp/tcp7.png)
-
-
+![远程桌面](../resources/cloudapp/rdp/3.png)
 
    - **高级选项**: 如无特殊需求，忽略，保持默认即可。
 
@@ -80,12 +79,47 @@
 
 ---
 
-### 3. 开始远程控制
+### 3. 开始远程访问
 
-**"添加完成"** 后 → 远程桌面 → 点击刚添加的 **"RDP应用"** 连接即可
+**"添加完成"** 后有几种访问方式： 
+
+* **网页端访问**
+
+DDNSTO控制台 → 远程桌面 → 点击刚添加的 **"RDP应用"**  → 网页访问
+
+![远程桌面](../resources/cloudapp/rdp/4.png)
+
+* **Windows App 访问**
+
+1、iOS/macOS/安卓设备可以在软件商店中搜索安装“Windows App”
+
+![远程桌面](../resources/cloudapp/rdp/5.png)
+
+2、已为当前添加的 RDP 启用 TCP 转发
+
+3、点击 TCP 板块，为当前的 RDP 启用新网络，复制记录“公网入口”
+
+![远程桌面](../resources/cloudapp/rdp/6.png)
+
+- 允许新网络的窗口为 20 分钟，到时自动关闭。
+- 如需要持续长时间访问，高级设置 → 开启“持续接纳新网络”，但是会有安全风险，自行酌情考虑是否开启。
+
+![远程桌面](../resources/cloudapp/rdp/7.png)
+
+4、打开 Windows App，+ 添加 → 电脑 → 电脑名称（主机名或IP地址） → 填入“公网入口”，其余选项按需开启，保存；
+
+![远程桌面](../resources/cloudapp/rdp/8.png)
+
+![远程桌面](../resources/cloudapp/rdp/9.png)
+
+5、点击刚添加的“电脑”输入被控电脑的用户名和密码即可访问
+
+![远程桌面](../resources/cloudapp/rdp/10.png)
+
+![远程桌面](../resources/cloudapp/rdp/11.png)
 
 
-![远程桌面](../resources/cloudapp/cloudapp-rdp6.jpg)
+6、如果 Windows 电脑远程访问被控电脑，可直接打开电脑“远程桌面客户端”，填写“公网入口”，输入被控电脑的用户名和密码即可访问
 
 ---
 
@@ -108,7 +142,7 @@
 
 登录 [DDNSTO 控制台](https://www.ddnsto.com/app/#/login) → 选择设备 → 远程桌面 → "添加桌面" → 选择 **"远程VNC"**
 
-![添加RDP](../resources/cloudapp/cloudapp-rdp5-1.jpg)
+![远程桌面](../resources/cloudapp/rdp/2.png)
 
    - **应用名称**: 自定义
    - **IP**: 被控电脑 IP
