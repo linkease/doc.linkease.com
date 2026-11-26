@@ -74,11 +74,8 @@ yay -Syu ddnsto-bin
 
 ---
 
-## 下一步
 
-- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
-
-### Q: 如何升级？
+## 如何升级？
 
 ```bash
 # 停止并删除旧ddnsto
@@ -88,3 +85,9 @@ sudo rm -rf /usr/local/bin/ddnsto
 # 重新运行
 sh -c "$(curl -sSL http://fw.koolcenter.com/binary/ddnsto/linux/install_ddnsto_linux.sh)"
 ```
+---
+
+## 下一步
+
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+

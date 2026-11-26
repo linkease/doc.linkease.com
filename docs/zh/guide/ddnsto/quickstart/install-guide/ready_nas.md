@@ -51,9 +51,14 @@
 
 ---
 
+
+## 如何升级？
+
+* 升级需要先卸载旧版本，再下载安装[新版本](https://fw.koolcenter.com/binary/ddnsto/readynas/ddnsto_all.deb)即可。
+
+---
+
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
 
-### Q: 如何升级？
-A: 升级需要先卸载旧版本，再安装新版本即可。

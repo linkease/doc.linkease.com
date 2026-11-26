@@ -19,6 +19,14 @@
 
 ---
 
+## 后续升级？
+
+* 若从 iStore 应用商店安装后，后续 ddnsto 更新，直接在 iStore 商店点击 "更新" 即可。
+
+![UPDATE](../../resources/koolshare_merlin/istotreddnstoup.png)
+
+---
+
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
@@ -26,7 +34,3 @@
 - 🔵 [设置远程下载](../../scenarios/remote-download.md)
 - 🔵 [配置远程开机](../../scenarios/remote-wol.md)
 
-### Q: 后续升级？
-A: 若从 iStore 应用商店安装后，后续 ddnsto 更新，直接在 iStore 商店点击 "更新" 即可。
-
-![UPDATE](../../resources/koolshare_merlin/istotreddnstoup.png)

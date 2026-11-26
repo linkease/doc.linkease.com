@@ -85,21 +85,7 @@ docker-compose up -d
 
 ---
 
-## 下一步
-
-- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
-
----
-
-## 常见问题
-
-### Q: 容器启动后设备不显示？
-A: 检查：
-- Token 是否填写正确
-- 容器日志是否有错误：`docker logs ddnsto`
-- 设备是否能正常访问外网
-
-### Q: 如何更新容器？
+## 如何更新容器？
 
 ```bash
 # 停止并删除旧容器
@@ -119,6 +105,22 @@ docker run -d \
     -v /etc/localtime:/etc/localtime:ro \
     registry.istoreos.com/linkease/ddnsto:latest
 ```
+
+---
+
+## 下一步
+
+- 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
+
+---
+
+## 常见问题
+
+### Q: 容器启动后设备不显示？
+A: 检查：
+- Token 是否填写正确
+- 容器日志是否有错误：`docker logs ddnsto`
+- 设备是否能正常访问外网
 
 ### Q: 如何查看日志？
 

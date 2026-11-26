@@ -36,6 +36,15 @@ iStoreOS 完整支持 DDNSTO 扩展功能：
 
 ![扩展功能](../../resources/ddnstofile/1-2.jpg)
 
+
+---
+
+## 后续升级？
+
+* 若从 iStore 应用商店安装后，后续 ddnsto 更新，直接在 iStore 商店点击 "更新" 即可。
+
+![UPDATE](../../resources/koolshare_merlin/istotreddnstoup.png)
+
 ---
 
 ## 下一步
@@ -57,9 +66,4 @@ A: 检查：
 - Token 是否填写正确
 - iStoreOS 是否能正常访问外网（尝试 ping 百度）
 - 等待 1-2 分钟后刷新控制台
-
-### Q: 后续升级？
-A: 若从 iStore 应用商店安装后，后续 ddnsto 更新，直接在 iStore 商店点击 "更新" 即可。
-
-![UPDATE](../../resources/koolshare_merlin/istotreddnstoup.png)
 

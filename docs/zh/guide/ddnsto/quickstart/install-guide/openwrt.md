@@ -69,6 +69,13 @@ sh -c "$(curl -sSL https://fw.koolcenter.com/binary/ddnsto/openwrt/ddnstox/insta
 
 ---
 
+
+## 如何升级？
+
+* 升级需要先卸载ddnsto（系统——软件包——已安装，搜索ddnsto并移除），再按照之前的步骤重新安装。
+
+---
+
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
@@ -91,8 +98,4 @@ OpenWrt 15 版本跟最新插件不兼容，尝试以下解决：
 ```
 
 **尝试二：** 重启路由器
-
-### Q: 如何升级？
-A: 升级需要先卸载ddnsto（系统——软件包——已安装，搜索ddnsto并移除），再按照之前的步骤重新安装。
-
 

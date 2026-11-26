@@ -103,9 +103,13 @@ sudo docker run -d \
 
 ---
 
+## 如何升级？
+
+* 「容器」里停止“ddnsto”容器，「本地镜像」中更新“ddnsto”镜像，更新完成启用“ddnsto”容器。
+
+---
+
 ## 下一步
 
  🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
 
-### Q: 如何升级？
-A: 升级需要先删除"ddnsto"容器，再按照之前的步骤部署"ddnsto"容器。
