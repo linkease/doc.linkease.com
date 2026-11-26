@@ -99,6 +99,87 @@ docker run -d \
 
 ---
 
+## 本地Aria2客户端通过ddnsto远程下载
+
+流程：**准备 Aria2 客户端 → 用 DDNSTO 映射内网 RPC 端口 → 把外网 RPC 地址填入客户端。**
+
+下面以 aria2 运行在 `192.168.50.100:6800` 为例。
+
+**1. 准备客户端**
+
+推荐使用 **AriaNg**，可以从 [官方发布页](https://github.com/mayswind/AriaNg/releases) 下载 `AllInOne` 包，解压后在电脑浏览器中打开 `index.html`。
+
+它只是管理界面，实际下载仍由家里的 aria2 执行，文件也保存在家里的设备上。
+
+**2. 确认 aria2 的 RPC 已开启**
+
+在路由器插件设置或 aria2 配置文件中确认：
+
+```ini
+enable-rpc=true
+rpc-listen-all=true
+rpc-listen-port=6800
+rpc-secret=替换成你自己的随机长密钥
+rpc-allow-origin-all=true
+```
+
+其中 `rpc-allow-origin-all` 用于网页客户端跨域连接。修改配置后重启 aria2，先在局域网确认客户端能够连接 `http://192.168.50.100:6800/jsonrpc`。[aria2 官方配置说明](https://aria2.github.io/manual/en/html/aria2c.html#rpc-options)
+
+**3. 在 DDNSTO 添加外网域名**
+
+进入 DDNSTO 控制台，选择能够访问这台机器的在线设备，添加域名映射：
+
+| 配置项 | 示例 |
+|---|---|
+| 域名前缀 | `myaria123` |
+| 目标主机／内网地址 | `http://192.168.50.100:6800` |
+
+这里映射的是 **6800 RPC 服务**，目标主机不填写 `/ariang/#!/downloading`，也不用附加 `/jsonrpc`。[DDNSTO 目标主机说明](https://doc.linkease.com/zh/guide/ddnsto/troubleshooting/domain-issues.html)
+
+假设控制台分配的域名是：
+
+```text
+myaria123.ddnsto.com
+```
+
+那么客户端使用的完整 RPC 地址就是：
+
+```text
+https://myaria123.ddnsto.com/jsonrpc
+```
+
+请换成控制台实际分配的域名。
+
+**4. 完成 DDNSTO 身份验证**
+
+在使用客户端的同一网络下，先用浏览器打开：
+
+```text
+https://myaria123.ddnsto.com
+```
+
+如果出现 DDNSTO 身份验证页面，按提示完成验证，再返回客户端连接。DDNSTO 会判断访问 IP 是否已验证；切换网络后若连接失败，需要重新访问域名完成验证。[DDNSTO 身份验证说明](https://doc.linkease.com/zh/guide/ddnsto/scenarios/authentication.html)
+
+RPC 服务本身没有普通首页，验证后没有显示管理页面，并不代表映射失败。
+
+**5. 在客户端填写外网 RPC 配置**
+
+打开 AriaNg 的「AriaNg 设置 → RPC」，填写：
+
+| 配置项 | 填写内容 |
+|---|---|
+| RPC 协议 | `HTTPS` |
+| RPC 地址 | `myaria123.ddnsto.com` |
+| RPC 端口 | `443` |
+| RPC 接口 | `jsonrpc` |
+| RPC 密钥 | 第 2 步配置的 `rpc-secret`，只填密钥本身 |
+
+**外网端口填写 `443`，6800 只用于 DDNSTO 的内网目标地址。** AriaNg 的地址、端口、接口是分开填写的；其他客户端如果只有一个地址输入框，直接填写完整的 `https://myaria123.ddnsto.com/jsonrpc`。[AriaNg 配置字段](https://github.com/mayswind/AriaNg/blob/master/src/views/settings-ariang.html)
+
+保存并重载 AriaNg，显示“已连接”后，就可以添加下载、暂停任务和查看进度了。
+
+---
+
 ## qBittorrent 远程下载
 
 ### 1. 安装 qBittorrent
