@@ -1,6 +1,6 @@
 # Windows 安装指南
 
-> ⏱️ 预计耗时：2 分钟  
+> ⏱️ 预计耗时：2 分钟
 > 📱 适用设备：Windows 电脑
 
 ---
@@ -9,7 +9,7 @@
 
 ### 1. 下载客户端
 
-下载 Windows 客户端：[下载地址](http://fw.koolcenter.com/binary/ddnsto/pc/)
+下载 Windows 客户端：[下载/更新地址](http://fw.koolcenter.com/binary/ddnsto/pc/)
 
 下载后解压，执行 `ddnsto.exe`
 

@@ -30,6 +30,14 @@ ASUSGO 固件（KoolCenter 固件），在软件中心搜索并安装 DDNSTO 软
 
 ---
 
+## 如何升级？
+
+* ASUSGO 软件中心，直接点击 DDNSTO "更新" 按钮。
+
+![UPDATE](../../resources/koolshare_merlin/asusgoupdate.png)
+
+---
+
 ## 下一步
 
 - 🟢 [配置外网域名](/zh/guide/ddnsto/quickstart/#第-3-步-配置外网域名) 
@@ -37,7 +45,3 @@ ASUSGO 固件（KoolCenter 固件），在软件中心搜索并安装 DDNSTO 软
 - 🔵 [设置远程下载](../../scenarios/remote-download.md)
 - 🔵 [配置远程开机](../../scenarios/remote-wol.md)
 
-### Q: 如何升级？
-A: ASUSGO 软件中心，直接点击 DDNSTO "更新" 按钮。
-
-![UPDATE](../../resources/koolshare_merlin/asusgoupdate.png)
